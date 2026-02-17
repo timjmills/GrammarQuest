@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Oral Language - Complete Edition (Days 1-150) - 5 Errors | POS: N→V→ADJ→ADV→PREP</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Crimson+Pro:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div style="display:flex;align-items:center;flex-wrap:wrap">
+                <div class="day-badge">Day <span id="currentDay">26</span></div>
+                <span class="day-info">Day <span id="dayNum">1</span> of 150</span>
+                <span class="segment-badge">5 Errors | POS: N→V→ADJ→ADV→PREP→Other</span>
+            </div>
+            <div class="nav">
+                <button class="nav-btn" id="prevBtn" onclick="prevDay()">← Previous</button>
+                <input type="number" class="go-input" id="dayInput" min="1" max="150" value="1">
+                <button class="go-btn" onclick="goToDay()">Go</button>
+                <button class="nav-btn" id="nextBtn" onclick="nextDay()">Next →</button>
+            </div>
+        </div>
+        <div class="controls">
+            <button class="help-btn" onclick="showHelp()">Help Guide</button>
+            <div class="size-ctrl">
+                <span>Text Size:</span>
+                <input type="range" min="20" max="38" value="26" oninput="setSize(this.value)">
+                <span class="size-val" id="sizeVal">26px</span>
+            </div>
+        </div>
+        <div id="content"></div>
+    </div>
+
+    <div class="help-overlay" id="helpOverlay" onclick="if(event.target===this)hideHelp()">
+        <div class="help-modal">
+            <button class="help-close" onclick="hideHelp()">✕</button>
+            <h2 class="help-title">📖 Complete Edition: Days 1-150</h2>
+            <div class="help-section">
+                <h3>🔢 Error Rules</h3>
+                <p>Each sentence contains <strong>exactly 5 errors</strong> to find and correct.</p>
+            </div>
+            <div class="help-section">
+                <h3>🏷️ Parts of Speech Order (Hardcoded)</h3>
+                <p>POS are presented in this <strong>strict sequence</strong>:</p>
+                <p>1️⃣ <strong>All Nouns</strong> (left to right)</p>
+                <p>2️⃣ <strong>All Verbs</strong> (left to right)</p>
+                <p>3️⃣ <strong>All Adjectives</strong> (left to right)</p>
+                <p>4️⃣ <strong>All Adverbs</strong> (left to right)</p>
+                <p>5️⃣ <strong>All Prepositions</strong> (left to right)</p>
+                <p>6️⃣ <strong>All Others</strong> (pronouns, conjunctions, etc.)</p>
+            </div>
+            <div class="help-section">
+                <h3>Parts of Speech Labels</h3>
+                <p><strong>N</strong> = Noun &nbsp; <strong>V</strong> = Verb &nbsp; <strong>ADJ</strong> = Adjective</p>
+                <p><strong>PRO</strong> = Pronoun &nbsp; <strong>PREP</strong> = Preposition &nbsp; <strong>ADV</strong> = Adverb</p>
+                <p><strong>CONJ</strong> = Conjunction (FANBOYS) &nbsp; <strong>ART</strong> = Article &nbsp; <strong>DEM</strong> = Demonstrative</p>
+                <p><strong>SUBCONJ</strong> = Subordinating Conjunction (because, when, if, although, while)</p>
+                <p><strong>OBJPRO</strong> = Object Pronoun (me, him, her, us, them)</p>
+                <p><strong>POSS</strong> = Possessive &nbsp; <strong>PP</strong> = Past Participle &nbsp; <strong>MODAL</strong> = Modal Verb</p>
+            </div>
+            <div class="help-section">
+                <h3>Weekly Focus by Period</h3>
+                <p><strong>Period 1</strong> (Days 1-25): Foundations - Basic grammar</p>
+                <p><strong>Period 2</strong> (Days 26-50): Connections - Pronouns, progressives</p>
+                <p><strong>Period 3</strong> (Days 51-75): Builders - FANBOYS, adverbs, articles</p>
+                <p><strong>Period 4</strong> (Days 76-100): Complexity - Complex sentences, possessives, perfect tense</p>
+                <p><strong>Period 5</strong> (Days 101-125): Refinement - Appositives, passive voice, conditionals</p>
+                <p><strong>Period 6</strong> (Days 126-150): Mastery - Complete tense system, modal perfects</p>
+            </div>
+        </div>
+    </div>
+    <script src="js/app.js" defer></script>
+</body>
+</html>
