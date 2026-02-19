@@ -903,7 +903,7 @@ function printWorksheet(idx) {
 '.vt{flex:1;border-bottom:2.5pt solid #2d3436;height:0.32in}' +
 '.wp{font-size:9.5pt;font-weight:600;color:#636e72;margin-top:16pt;margin-bottom:8pt}' +
 '.p2{font-size:8.5pt;color:#b2bec3;text-align:right;margin-bottom:16pt;padding-bottom:4pt;border-bottom:0.5pt solid #dfe6e9}' +
-'</style></head><body>' +
+'</style></head><body onload="setTimeout(function(){window.print()},300)">' +
 
 '<div class="pg">' +
 '<div class="hd"><div><h1>\ud83d\udcda Daily Oral Language</h1><div class="sb">Day ' + day + ' \u2022 Sentence ' + num + '</div></div>' +
@@ -944,11 +944,10 @@ function printWorksheet(idx) {
 
 '</body></html>';
 
-    const win = window.open('', '_blank');
+    const blob = new Blob([html], { type: 'text/html' });
+    const url = URL.createObjectURL(blob);
+    const win = window.open(url, '_blank');
     if (!win) { alert('Please allow popups to print worksheets.'); return; }
-    win.document.write(html);
-    win.document.close();
-    setTimeout(function() { win.print(); }, 400);
 }
 
 function prevDay() { if (currentDay > 1) { currentDay--; renderDay(); } }
