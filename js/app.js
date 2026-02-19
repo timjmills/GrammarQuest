@@ -12,6 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // ========== APP STATE & FUNCTIONS ==========
 let states = {};
+let popoutIdx = null;
 
 // RULE 1: EXACTLY 5 errors per sentence (hardcoded limit)
 const MAX_ERRORS = 5;
@@ -194,6 +195,8 @@ function renderDay() {
                 <span class="find-label">
                     Find <span class="tag err">${corrections.length} errors</span> and ${tags}
                 </span>
+                <button class="popout-btn" onclick="openPopout(${idx})" title="Open as individual lesson">&#x26F6;</button>
+                <button class="print-btn" onclick="printWorksheet(${idx})" title="Print worksheet">&#x1F5A8;</button>
             </div>
             <div class="sentence-display" id="sent-${idx}">${formatSentence(sent, state)}</div>
             <div class="btn-row">
@@ -565,6 +568,389 @@ function reset(idx) {
     btn.disabled = false;
 }
 
+function openPopout(idx) {
+    popoutIdx = idx;
+    const lesson = DATA.find(d => d.day === currentDay);
+    const sent = lesson.sentences[idx];
+    const key = `${currentDay}-${idx}`;
+    if (!states[key]) states[key] = { phase: 0, step: 0 };
+
+    const corrections = getCorrections(sent);
+    const orderedPOS = getOrderedPOS(sent);
+    const counts = {};
+    orderedPOS.forEach(p => {
+        const t = p.t.toUpperCase();
+        counts[t] = (counts[t] || 0) + 1;
+    });
+
+    const tagConfig = {
+        'N': {abbr: 'N', name: 'Noun', css: 'noun'},
+        'V': {abbr: 'V', name: 'Verb', css: 'verb'},
+        'ADJ': {abbr: 'ADJ', name: 'Adj', css: 'adj'},
+        'ADV': {abbr: 'ADV', name: 'Adv', css: 'adv'},
+        'PRO': {abbr: 'PRO', name: 'Pronoun', css: 'pro'},
+        'PREP': {abbr: 'PREP', name: 'Prep', css: 'prep'},
+        'CONJ': {abbr: 'CONJ', name: 'Conj', css: 'noun'},
+        'SUBCONJ': {abbr: 'SC', name: 'SubConj', css: 'prep'},
+        'MODAL': {abbr: 'MV', name: 'Modal Verb', css: 'verb'},
+        'PASS': {abbr: 'PV', name: 'Passive Verb', css: 'verb'},
+        'PP': {abbr: 'PP', name: 'Past Part', css: 'verb'},
+        'RELPRO': {abbr: 'RP', name: 'Rel Pro', css: 'pro'},
+        'OBJPRO': {abbr: 'OP', name: 'Obj Pro', css: 'pro'},
+        'POSS': {abbr: 'POSS', name: 'Poss', css: 'adj'},
+        'ART': {abbr: 'ART', name: 'Article', css: 'noun'},
+        'DEM': {abbr: 'DEM', name: 'Dem', css: 'adj'}
+    };
+    const displayOrder = ['N', 'V', 'MODAL', 'PASS', 'PP', 'ADJ', 'ADV', 'PRO', 'RELPRO', 'OBJPRO', 'PREP', 'SUBCONJ', 'CONJ', 'POSS', 'ART', 'DEM'];
+    let tags = '';
+    displayOrder.forEach(type => {
+        if (counts[type]) {
+            const cfg = tagConfig[type] || {abbr: type, name: type, css: 'noun'};
+            tags += `<span class="tag ${cfg.css}" title="${cfg.name}">${counts[type]} ${cfg.abbr}</span>`;
+        }
+    });
+
+    const state = states[key];
+
+    const overlay = document.createElement('div');
+    overlay.id = 'popout-overlay';
+    overlay.onclick = function(e) { if (e.target === overlay) closePopout(); };
+    overlay.innerHTML = `
+        <div class="popout-container">
+            <div class="popout-header">
+                <div class="popout-header-left">
+                    <span class="popout-day-badge">Day ${currentDay}</span>
+                    <span class="popout-sentence-label">Sentence ${idx + 1} \u2014 Individual Lesson</span>
+                </div>
+                <button class="popout-header-print" onclick="printWorksheet(${idx})" title="Print worksheet">&#x1F5A8;</button>
+                <button class="popout-close" onclick="closePopout()">\u2715</button>
+            </div>
+            <div class="popout-task-bar">
+                Find <span class="tag err">${corrections.length} errors</span> and ${tags}
+            </div>
+            <div class="popout-sentence" id="popout-sent"></div>
+            <div class="popout-btn-row">
+                <button class="check-btn popout-advance-btn ${state.phase>=7?'complete':''}" id="popout-advance-btn" onclick="advancePopout()">${getBtnText(state, sent)}</button>
+                <button class="reset-btn" onclick="resetPopout()">Reset</button>
+            </div>
+            <div id="popout-vocab"></div>
+            <div id="popout-manip"></div>
+            <div id="popout-pos"></div>
+            <div id="popout-corr"></div>
+        </div>
+    `;
+    document.body.appendChild(overlay);
+    document.body.style.overflow = 'hidden';
+    restorePopout();
+}
+
+function closePopout() {
+    const overlay = document.getElementById('popout-overlay');
+    if (overlay) overlay.remove();
+    popoutIdx = null;
+    document.body.style.overflow = '';
+    renderDay();
+}
+
+function advancePopout() {
+    const lesson = DATA.find(d => d.day === currentDay);
+    const sent = lesson.sentences[popoutIdx];
+    const key = `${currentDay}-${popoutIdx}`;
+    const state = states[key];
+
+    const corrections = getCorrections(sent);
+    const orderedPOS = getOrderedPOS(sent);
+    const totalCorr = corrections.length;
+    const totalPOS = orderedPOS.length;
+    const totalManipEx = sent.manip.examples.length;
+
+    state.step++;
+
+    if (state.step <= totalCorr) {
+        state.phase = 0;
+    } else if (state.step <= totalCorr + totalPOS) {
+        state.phase = 2;
+    } else if (state.step === totalCorr + totalPOS + 1) {
+        state.phase = 3;
+    } else if (state.step === totalCorr + totalPOS + 2) {
+        state.phase = 4;
+    } else if (state.step <= totalCorr + totalPOS + 1 + totalManipEx) {
+        state.phase = 5;
+    } else if (state.step === totalCorr + totalPOS + 2 + totalManipEx) {
+        state.phase = 6;
+    } else {
+        state.phase = 7;
+    }
+
+    restorePopout();
+}
+
+function resetPopout() {
+    const lesson = DATA.find(d => d.day === currentDay);
+    const sent = lesson.sentences[popoutIdx];
+    states[`${currentDay}-${popoutIdx}`] = { phase: 0, step: 0 };
+
+    document.getElementById('popout-sent').innerHTML = sent.orig;
+    document.getElementById('popout-corr').innerHTML = '';
+    document.getElementById('popout-pos').innerHTML = '';
+    document.getElementById('popout-manip').innerHTML = '';
+    document.getElementById('popout-vocab').innerHTML = '';
+
+    const btn = document.getElementById('popout-advance-btn');
+    btn.textContent = 'Check Sentence';
+    btn.classList.remove('complete');
+    btn.disabled = false;
+}
+
+function restorePopout() {
+    if (popoutIdx === null) return;
+    const lesson = DATA.find(d => d.day === currentDay);
+    const sent = lesson.sentences[popoutIdx];
+    const state = states[`${currentDay}-${popoutIdx}`];
+    if (!state) return;
+
+    const corrections = getCorrections(sent);
+    const orderedPOS = getOrderedPOS(sent);
+    const totalCorr = corrections.length;
+    const totalPOS = orderedPOS.length;
+    const totalManipEx = sent.manip.examples.length;
+
+    document.getElementById('popout-sent').innerHTML = formatSentence(sent, state);
+
+    // Corrections
+    if (state.step > 0) {
+        const count = Math.min(state.step, totalCorr);
+        if (count > 0) {
+            let h = '<div class="section corr-section">';
+            for (let i = count - 1; i >= 0; i--) {
+                h += renderCorr(corrections[i], i, totalCorr);
+            }
+            h += '</div>';
+            document.getElementById('popout-corr').innerHTML = h;
+        }
+    } else {
+        document.getElementById('popout-corr').innerHTML = '';
+    }
+
+    // POS
+    if (state.phase >= 2) {
+        const posCount = Math.min(state.step - totalCorr, totalPOS);
+        if (posCount > 0) {
+            let h = '<div class="section pos-section"><div class="pos-title">Parts of Speech</div>';
+            for (let i = posCount - 1; i >= 0; i--) {
+                const p = orderedPOS[i];
+                const t = p.t.toUpperCase();
+                const cls = getCSSClass(t);
+                const badge = getTypeBadge(t);
+                h += `<div class="pos-item"><span class="check">\u2713</span><span class="q">${p.q}</span><span class="ans"><span class="word-box ${cls}">${p.w}</span><span class="type-badge ${cls}">${badge}</span></span></div>`;
+            }
+            h += '</div>';
+            document.getElementById('popout-pos').innerHTML = h;
+        }
+    } else {
+        document.getElementById('popout-pos').innerHTML = '';
+    }
+
+    // Manipulation
+    if (state.phase >= 3) {
+        const m = sent.manip;
+        let examplesHtml = '';
+        let exCount = 0;
+        if (state.phase >= 4) exCount = 1;
+        if (state.phase >= 5) {
+            exCount = state.step - totalCorr - totalPOS - 1;
+            exCount = Math.min(exCount, totalManipEx);
+        }
+        if (exCount > 0) {
+            for (let i = exCount - 1; i >= 0; i--) {
+                examplesHtml += `<div class="manip-example">${m.examples[i]}</div>`;
+            }
+        }
+        document.getElementById('popout-manip').innerHTML = `
+        <div class="section manip-section">
+            <div class="manip-title">Sentence Manipulation</div>
+            <div class="manip-box">
+                <div class="manip-task">\ud83d\udcdd ${m.task}</div>
+                ${examplesHtml ? `<div class="manip-examples">${examplesHtml}</div>` : ''}
+            </div>
+        </div>`;
+    } else {
+        document.getElementById('popout-manip').innerHTML = '';
+    }
+
+    // Vocabulary
+    if (state.phase >= 6) {
+        const v = sent.vocab;
+        document.getElementById('popout-vocab').innerHTML = `
+        <div class="section vocab-section">
+            <div class="vocab-header">Vocabulary Word</div>
+            <div class="vocab-word-row">
+                <span class="vocab-star">\u2b50</span>
+                <span class="vocab-word">${v.w}</span>
+                <span class="vocab-type">${v.type}</span>
+            </div>
+            <div class="vocab-row">
+                <div class="vocab-label">\ud83d\udcd8 Definition:</div>
+                <div class="vocab-text">${v.def}</div>
+            </div>
+            <div class="vocab-simple">
+                <div class="vocab-label">\ud83d\udcac In simple words:</div>
+                <div class="vocab-text">${v.simple}</div>
+            </div>
+            <div class="vocab-row">
+                <div class="vocab-label">\ud83d\udccc Examples:</div>
+                <div class="vocab-chips examples">${v.examples.map(s=>`<span>${s}</span>`).join('')}</div>
+            </div>
+            <div class="vocab-row">
+                <div class="vocab-label">\u2705 Similar words (synonyms):</div>
+                <div class="vocab-chips similar">${v.similar.map(s=>`<span>${s}</span>`).join('')}</div>
+            </div>
+            <div class="vocab-row">
+                <div class="vocab-label">\u274c Opposite words (antonyms):</div>
+                <div class="vocab-chips antonym">${v.antonyms.map(s=>`<span>${s}</span>`).join('')}</div>
+            </div>
+            <div class="vocab-row">
+                <div class="vocab-label">\ud83d\udeab Non-examples:</div>
+                <div class="vocab-chips nonex">${v.nonex.map(s=>`<span>${s}</span>`).join('')}</div>
+            </div>
+            <div class="vocab-row">
+                <div class="vocab-label">\ud83d\udcdd Example sentence:</div>
+                <div class="vocab-example">"${v.example}"</div>
+            </div>
+            <div class="vocab-starter">
+                <div class="vocab-starter-label">ELL Sentence Starter - Try it!</div>
+                <div class="vocab-starter-text">${v.starter}</div>
+            </div>
+            <div class="vocab-why">
+                <span class="vocab-why-icon">\ud83d\udca1</span>
+                <div>
+                    <div class="vocab-why-label">Why learn this word?</div>
+                    <div class="vocab-why-text">${v.why}</div>
+                </div>
+            </div>
+        </div>`;
+    } else {
+        document.getElementById('popout-vocab').innerHTML = '';
+    }
+
+    const btn = document.getElementById('popout-advance-btn');
+    btn.textContent = getBtnText(state, sent);
+    btn.classList.toggle('complete', state.phase >= 7);
+    btn.disabled = state.phase >= 7;
+}
+
+function printWorksheet(idx) {
+    const lesson = DATA.find(d => d.day === currentDay);
+    const sent = lesson.sentences[idx];
+    const orderedPOS = getOrderedPOS(sent);
+
+    const posCounts = {};
+    orderedPOS.forEach(p => {
+        const t = p.t.toUpperCase();
+        posCounts[t] = (posCounts[t] || 0) + 1;
+    });
+
+    const posLabels = {
+        'N':'Nouns','V':'Verbs','ADJ':'Adjectives','ADV':'Adverbs',
+        'PREP':'Prepositions','PRO':'Pronouns','CONJ':'Conjunctions',
+        'ART':'Articles','SUBCONJ':'Sub. Conjunctions',
+        'OBJPRO':'Object Pronouns','POSS':'Possessives','PP':'Past Participles',
+        'RELPRO':'Relative Pronouns','PASS':'Passive Verbs','MODAL':'Modal Verbs',
+        'DEM':'Demonstratives'
+    };
+    const posOrder = ['N','V','MODAL','PASS','PP','ADJ','ADV','PRO','RELPRO','OBJPRO','PREP','SUBCONJ','CONJ','POSS','ART','DEM'];
+
+    let posRows = '';
+    posOrder.forEach(type => {
+        if (posCounts[type]) {
+            posRows += '<div class="pr"><span class="pl">' + posLabels[type] + ' (' + posCounts[type] + '):</span><span class="pn"></span></div>';
+        }
+    });
+
+    const day = currentDay;
+    const num = idx + 1;
+    const task = sent.manip.task;
+
+    const html = '<!DOCTYPE html><html><head><title>DOL Day ' + day + ' - Sentence ' + num + '</title>' +
+'<style>' +
+'@page{size:letter;margin:0.6in 0.75in}' +
+'*{margin:0;padding:0;box-sizing:border-box}' +
+'body{font-family:"Segoe UI",-apple-system,Arial,sans-serif;color:#2d3436;font-size:10.5pt;line-height:1.35}' +
+'.pg{page-break-after:always}.pg:last-child{page-break-after:auto}' +
+'.hd{display:flex;justify-content:space-between;align-items:flex-end;border-bottom:2.5pt solid #2d3436;padding-bottom:8pt;margin-bottom:22pt}' +
+'.hd h1{font-size:14pt;margin-bottom:1pt}.hd .sb{font-size:9.5pt;color:#636e72}' +
+'.hdr{display:flex;gap:18pt;align-items:flex-end}' +
+'.fl{font-size:9pt;color:#636e72;font-weight:600}' +
+'.fn{display:inline-block;border-bottom:1.5pt solid #2d3436;width:1.7in;vertical-align:bottom;margin-left:3pt}' +
+'.fd{width:1.1in}' +
+'.sc{margin-bottom:22pt}' +
+'.sh{display:flex;align-items:center;gap:8pt;margin-bottom:12pt}' +
+'.nm{display:inline-flex;align-items:center;justify-content:center;width:24pt;height:24pt;background:#2d3436;color:#fff;border-radius:50%;font-size:10.5pt;font-weight:700;flex-shrink:0}' +
+'.st{font-size:11pt;font-weight:700;text-transform:uppercase;letter-spacing:0.4pt}' +
+'.lb{font-size:9.5pt;font-weight:600;color:#636e72;margin-bottom:8pt;text-transform:uppercase}' +
+'.cb{border:2.5pt solid #e17055;border-radius:8pt;padding:10pt 14pt;margin-bottom:18pt}' +
+'.cl{border-bottom:1.5pt solid #e17055;height:0.45in}' +
+'.wl{border-bottom:1.5pt solid #b2bec3;height:0.45in}' +
+'.dv{border:none;border-top:1pt solid #dfe6e9;margin:18pt 0}' +
+'.pg2{display:flex;flex-direction:column;gap:4pt}' +
+'.pr{display:flex;align-items:flex-end;gap:6pt}' +
+'.pl{font-size:10pt;font-weight:600;min-width:1.8in;flex-shrink:0;padding-bottom:3pt}' +
+'.pn{flex:1;border-bottom:1.5pt solid #b2bec3;height:0.34in}' +
+'.tb{border-left:3pt solid #e17055;padding:10pt 14pt;margin-bottom:16pt;font-size:10.5pt;background:#fafafa;border-radius:0 6pt 6pt 0}' +
+'.vr{display:flex;align-items:flex-end;gap:6pt;margin-bottom:5pt}' +
+'.vl{font-size:10pt;font-weight:700;min-width:1.35in;flex-shrink:0;text-transform:uppercase;padding-bottom:3pt}' +
+'.vn{flex:1;border-bottom:1.5pt solid #b2bec3;height:0.32in}' +
+'.vt{flex:1;border-bottom:2.5pt solid #2d3436;height:0.32in}' +
+'.wp{font-size:9.5pt;font-weight:600;color:#636e72;margin-top:16pt;margin-bottom:8pt}' +
+'.p2{font-size:8.5pt;color:#b2bec3;text-align:right;margin-bottom:16pt;padding-bottom:4pt;border-bottom:0.5pt solid #dfe6e9}' +
+'</style></head><body>' +
+
+'<div class="pg">' +
+'<div class="hd"><div><h1>\ud83d\udcda Daily Oral Language</h1><div class="sb">Day ' + day + ' \u2022 Sentence ' + num + '</div></div>' +
+'<div class="hdr"><div><span class="fl">Name:</span><span class="fn"></span></div><div><span class="fl">Date:</span><span class="fn fd"></span></div></div></div>' +
+
+'<div class="sc"><div class="sh"><span class="nm">1</span><span class="st">Sentence Correction</span></div>' +
+'<div class="lb">Copy the sentence from the board:</div>' +
+'<div class="cb"><div class="cl"></div><div class="cl"></div></div>' +
+'<div class="lb">Write the corrected sentence:</div>' +
+'<div class="wl"></div><div class="wl"></div><div class="wl"></div></div>' +
+
+'<hr class="dv">' +
+
+'<div class="sc"><div class="sh"><span class="nm">2</span><span class="st">Parts of Speech</span></div>' +
+'<div class="lb" style="margin-bottom:12pt">In your corrected sentence, find and write:</div>' +
+'<div class="pg2">' + posRows + '</div></div>' +
+'</div>' +
+
+'<div class="pg">' +
+'<div class="p2">Day ' + day + ' \u2022 Sentence ' + num + ' \u2014 continued</div>' +
+
+'<div class="sc"><div class="sh"><span class="nm">3</span><span class="st">Sentence Manipulation</span></div>' +
+'<div class="tb">\u270f\ufe0f <strong>Task:</strong> ' + task + '</div>' +
+'<div class="lb">Rewrite the sentence with your change:</div>' +
+'<div class="wl"></div><div class="wl"></div><div class="wl"></div></div>' +
+
+'<hr class="dv">' +
+
+'<div class="sc"><div class="sh"><span class="nm">4</span><span class="st">\u2b50 Vocabulary Word</span></div>' +
+'<div class="vr"><span class="vl">Word:</span><span class="vt"></span></div>' +
+'<div class="vr"><span class="vl">Definition:</span><span class="vn"></span></div>' +
+'<div class="wl"></div>' +
+'<div class="vr"><span class="vl">Synonyms:</span><span class="vn"></span></div>' +
+'<div class="vr"><span class="vl">Antonyms:</span><span class="vn"></span></div>' +
+'<div class="wp">\u270f\ufe0f Write your own sentence using this word:</div>' +
+'<div class="wl"></div><div class="wl"></div><div class="wl"></div></div>' +
+'</div>' +
+
+'</body></html>';
+
+    const win = window.open('', '_blank');
+    if (!win) { alert('Please allow popups to print worksheets.'); return; }
+    win.document.write(html);
+    win.document.close();
+    setTimeout(function() { win.print(); }, 400);
+}
+
 function prevDay() { if (currentDay > 1) { currentDay--; renderDay(); } }
 function nextDay() { if (currentDay < 150) { currentDay++; renderDay(); } }
 function goToDay() {
@@ -581,7 +967,12 @@ function showHelp() { document.getElementById('helpOverlay').classList.add('show
 function hideHelp() { document.getElementById('helpOverlay').classList.remove('show'); }
 
 document.addEventListener('keydown', e => {
+    if (e.key === 'Escape') {
+        if (popoutIdx !== null) { closePopout(); return; }
+        hideHelp();
+        return;
+    }
+    if (popoutIdx !== null) return;
     if (e.key === 'ArrowLeft') prevDay();
     if (e.key === 'ArrowRight') nextDay();
-    if (e.key === 'Escape') hideHelp();
 });
