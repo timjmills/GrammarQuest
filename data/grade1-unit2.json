@@ -1,0 +1,1176 @@
+[
+  {
+    "day": 26,
+    "sentences": [
+      {
+        "orig": "the cat walkd slowlee to the pond",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "walkd", "r": "walked", "e": "Add -ed to walk to make the past tense: walked."},
+          {"t": "spelling", "w": "slowlee", "r": "slowly", "e": "Slowly is spelled s-l-o-w-l-y, not with -ee."},
+          {"t": "grammar", "w": "to the", "r": "to the", "e": "The preposition 'to' correctly shows direction toward the pond."},
+          {"t": "punctuation", "w": "pond", "r": "pond.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The cat walked slowly to the pond.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning of the sentence."},
+          {"w": "cat", "t": "N", "q": "Find the common noun for a furry pet."},
+          {"w": "walked", "t": "V", "q": "Find the past tense verb that means moved on foot."},
+          {"w": "slowly", "t": "ADV", "q": "Find the adverb that tells how the cat moved."},
+          {"w": "to", "t": "PREP", "q": "Find the preposition that shows direction."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'pond.'"},
+          {"w": "pond", "t": "N", "q": "Find the common noun for a small body of water."}
+        ],
+        "manip": {
+          "task": "Replace the verb 'walked' with a different past tense verb.",
+          "word": "walked",
+          "examples": [
+            "The cat <span class='changed'>crept</span> slowly to the pond.",
+            "The cat <span class='changed'>tiptoed</span> slowly to the pond."
+          ]
+        },
+        "vocab": {
+          "w": "wander",
+          "type": "verb",
+          "def": "To walk slowly without a clear direction or purpose.",
+          "simple": "Wander means to walk around without knowing exactly where you are going!",
+          "examples": ["wander through the park", "wander around the yard", "wander down a path"],
+          "similar": ["roam", "stroll", "drift"],
+          "antonyms": ["rush", "hurry", "stay"],
+          "nonex": ["It does NOT mean to run fast.", "It does NOT mean to sit in one spot."],
+          "example": "The puppy liked to wander around the big backyard sniffing flowers.",
+          "starter": "I like to wander when _______ ...",
+          "why": "Wander helps you describe a slow, relaxed way of moving around!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 27,
+    "sentences": [
+      {
+        "orig": "the fox jumpd over a litle log",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "jumpd", "r": "jumped", "e": "Add -ed to jump to make the past tense: jumped."},
+          {"t": "grammar", "w": "over a", "r": "over a", "e": "The article 'a' is correct before the consonant sound in 'little.'"},
+          {"t": "spelling", "w": "litle", "r": "little", "e": "Little has two t's in the middle: l-i-t-t-l-e."},
+          {"t": "punctuation", "w": "log", "r": "log.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The fox jumped over a little log.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning of the sentence."},
+          {"w": "fox", "t": "N", "q": "Find the common noun for a wild animal with a bushy tail."},
+          {"w": "jumped", "t": "V", "q": "Find the past tense verb that means leaped into the air."},
+          {"w": "over", "t": "PREP", "q": "Find the preposition that tells where the fox went."},
+          {"w": "a", "t": "ART", "q": "Find the article before 'little.'"},
+          {"w": "little", "t": "ADJ", "q": "Find the adjective that describes the size of the log."},
+          {"w": "log", "t": "N", "q": "Find the common noun for a piece of a tree trunk."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'fox' with a different animal noun.",
+          "word": "fox",
+          "examples": [
+            "The <span class='changed'>rabbit</span> jumped over a little log.",
+            "The <span class='changed'>deer</span> jumped over a little log."
+          ]
+        },
+        "vocab": {
+          "w": "pounce",
+          "type": "verb",
+          "def": "To jump or spring suddenly to catch something.",
+          "simple": "Pounce means to jump quickly on something, like a cat catching a toy!",
+          "examples": ["pounce on a ball", "pounce on a mouse", "pounce at a leaf"],
+          "similar": ["leap", "spring", "lunge"],
+          "antonyms": ["retreat", "back away", "freeze"],
+          "nonex": ["It does NOT mean to tiptoe slowly.", "It does NOT mean to let something go."],
+          "example": "The kitten loved to pounce on the yarn that rolled across the floor.",
+          "starter": "I pounce when I _______ ...",
+          "why": "Pounce is an exciting action word that shows a quick, sudden jump!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 28,
+    "sentences": [
+      {
+        "orig": "we playd with the bunnys in the feeld",
+        "corr": [
+          {"t": "capitalization", "w": "we", "r": "We", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "playd", "r": "played", "e": "Add -ed to play to make the past tense: played."},
+          {"t": "grammar", "w": "bunnys", "r": "bunnies", "e": "When a noun ends in consonant + y, change y to i and add -es."},
+          {"t": "spelling", "w": "feeld", "r": "field", "e": "Field is spelled f-i-e-l-d, not f-e-e-l-d."},
+          {"t": "punctuation", "w": "feeld", "r": "field.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "We played with the bunnies in the field.",
+        "pos": [
+          {"w": "We", "t": "PRO", "q": "Find the pronoun that means a group including me."},
+          {"w": "played", "t": "V", "q": "Find the past tense verb that means had fun."},
+          {"w": "with", "t": "PREP", "q": "Find the preposition that tells who we played alongside."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'bunnies.'"},
+          {"w": "bunnies", "t": "N", "q": "Find the plural noun for baby rabbits."},
+          {"w": "in", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'field.'"},
+          {"w": "field", "t": "N", "q": "Find the common noun for a large open grassy area."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'bunnies' with a different animal noun.",
+          "word": "bunnies",
+          "examples": [
+            "We played with the <span class='changed'>puppies</span> in the field.",
+            "We played with the <span class='changed'>kittens</span> in the field."
+          ]
+        },
+        "vocab": {
+          "w": "trudge",
+          "type": "verb",
+          "def": "To walk slowly with heavy, tired steps.",
+          "simple": "Trudge means to walk in a slow, heavy way, like when you are really tired!",
+          "examples": ["trudge through the snow", "trudge up a hill", "trudge home after school"],
+          "similar": ["plod", "stomp", "drag"],
+          "antonyms": ["skip", "prance", "sprint"],
+          "nonex": ["It does NOT mean to run happily.", "It does NOT mean to dance lightly."],
+          "example": "After the long hike, the children had to trudge back to the bus.",
+          "starter": "I trudge when _______ ...",
+          "why": "Trudge is a great word to show that walking can feel hard or tiring!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 29,
+    "sentences": [
+      {
+        "orig": "the bird goed up high into the skye",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "grammar", "w": "goed", "r": "went", "e": "Go is irregular. The past tense is 'went,' not 'goed.'"},
+          {"t": "grammar", "w": "up high", "r": "up high", "e": "The adverb 'high' correctly tells where the bird went."},
+          {"t": "spelling", "w": "skye", "r": "sky", "e": "Sky is spelled s-k-y without an 'e' at the end."},
+          {"t": "punctuation", "w": "skye", "r": "sky.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The bird went up high into the sky.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning of the sentence."},
+          {"w": "bird", "t": "N", "q": "Find the common noun for an animal with feathers and wings."},
+          {"w": "went", "t": "V", "q": "Find the irregular past tense verb that means moved."},
+          {"w": "up", "t": "ADV", "q": "Find the adverb that tells the direction."},
+          {"w": "high", "t": "ADV", "q": "Find the adverb that tells how far up."},
+          {"w": "into", "t": "PREP", "q": "Find the preposition that means going inside of."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'sky.'"},
+          {"w": "sky", "t": "N", "q": "Find the common noun for the space above the earth."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'bird' with a different animal noun.",
+          "word": "bird",
+          "examples": [
+            "The <span class='changed'>eagle</span> went up high into the sky.",
+            "The <span class='changed'>butterfly</span> went up high into the sky."
+          ]
+        },
+        "vocab": {
+          "w": "soar",
+          "type": "verb",
+          "def": "To fly or glide high in the air with ease.",
+          "simple": "Soar means to fly way up high in the sky, like a bird riding the wind!",
+          "examples": ["soar above the trees", "soar through the clouds", "soar over the hills"],
+          "similar": ["fly", "glide", "float"],
+          "antonyms": ["fall", "drop", "sink"],
+          "nonex": ["It does NOT mean to walk on the ground.", "It does NOT mean to dive downward."],
+          "example": "The hawk began to soar high above the green mountains.",
+          "starter": "If I could soar, I would fly to _______ ...",
+          "why": "Soar is a beautiful word that describes graceful, high flying!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 30,
+    "sentences": [
+      {
+        "orig": "the puppy seed a big frog by the crik",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "grammar", "w": "seed", "r": "saw", "e": "See is irregular. The past tense is 'saw,' not 'seed.'"},
+          {"t": "grammar", "w": "a big", "r": "a big", "e": "The article 'a' is correct before the consonant sound in 'big.'"},
+          {"t": "spelling", "w": "crik", "r": "creek", "e": "Creek is spelled c-r-e-e-k, not c-r-i-k."},
+          {"t": "punctuation", "w": "crik", "r": "creek.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The puppy saw a big frog by the creek.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning of the sentence."},
+          {"w": "puppy", "t": "N", "q": "Find the common noun for a baby dog."},
+          {"w": "saw", "t": "V", "q": "Find the irregular past tense verb that means looked at."},
+          {"w": "a", "t": "ART", "q": "Find the article before 'big.'"},
+          {"w": "big", "t": "ADJ", "q": "Find the adjective that describes the size of the frog."},
+          {"w": "frog", "t": "N", "q": "Find the common noun for a green animal that hops."},
+          {"w": "by", "t": "PREP", "q": "Find the preposition that tells where the frog was."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'creek.'"},
+          {"w": "creek", "t": "N", "q": "Find the common noun for a small stream of water."}
+        ],
+        "manip": {
+          "task": "Replace the adjective 'big' with a different adjective.",
+          "word": "big",
+          "examples": [
+            "The puppy saw a <span class='changed'>green</span> frog by the creek.",
+            "The puppy saw a <span class='changed'>tiny</span> frog by the creek."
+          ]
+        },
+        "vocab": {
+          "w": "shiver",
+          "type": "verb",
+          "def": "To shake slightly because of cold or fear.",
+          "simple": "Shiver means your body shakes a little, like when you are cold outside!",
+          "examples": ["shiver in the cold", "shiver with fear", "shiver in the rain"],
+          "similar": ["tremble", "shake", "quiver"],
+          "antonyms": ["warm up", "relax", "calm down"],
+          "nonex": ["It does NOT mean to sweat from heat.", "It does NOT mean to stand very still."],
+          "example": "The wet puppy began to shiver after jumping into the cold pond.",
+          "starter": "I shiver when _______ ...",
+          "why": "Shiver helps you describe how your body reacts to cold or something scary!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 31,
+    "sentences": [
+      {
+        "orig": "she haved a littel fish in her bole",
+        "corr": [
+          {"t": "capitalization", "w": "she", "r": "She", "e": "The first word of a sentence must be capitalized."},
+          {"t": "grammar", "w": "haved", "r": "had", "e": "Have is irregular. The past tense is 'had,' not 'haved.'"},
+          {"t": "spelling", "w": "littel", "r": "little", "e": "Little is spelled l-i-t-t-l-e, not l-i-t-t-e-l."},
+          {"t": "spelling", "w": "bole", "r": "bowl", "e": "Bowl is spelled b-o-w-l, not b-o-l-e."},
+          {"t": "punctuation", "w": "bole", "r": "bowl.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "She had a little fish in her bowl.",
+        "pos": [
+          {"w": "She", "t": "PRO", "q": "Find the pronoun that means a girl or woman."},
+          {"w": "had", "t": "V", "q": "Find the irregular past tense verb that means owned."},
+          {"w": "a", "t": "ART", "q": "Find the article before 'little.'"},
+          {"w": "little", "t": "ADJ", "q": "Find the adjective that describes the size of the fish."},
+          {"w": "fish", "t": "N", "q": "Find the common noun for an animal that swims."},
+          {"w": "in", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "her", "t": "POSS", "q": "Find the possessive word that means belonging to her."},
+          {"w": "bowl", "t": "N", "q": "Find the common noun for a round dish."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'fish' with a different pet noun.",
+          "word": "fish",
+          "examples": [
+            "She had a little <span class='changed'>turtle</span> in her bowl.",
+            "She had a little <span class='changed'>crab</span> in her bowl."
+          ]
+        },
+        "vocab": {
+          "w": "discover",
+          "type": "verb",
+          "def": "To find or learn something for the first time.",
+          "simple": "Discover means to find something new that you did not know about before!",
+          "examples": ["discover a bug", "discover a secret path", "discover a new game"],
+          "similar": ["find", "uncover", "spot"],
+          "antonyms": ["miss", "overlook", "lose"],
+          "nonex": ["It does NOT mean to forget something.", "It does NOT mean to hide something."],
+          "example": "The children were excited to discover a nest of baby birds in the tree.",
+          "starter": "I want to discover _______ ...",
+          "why": "Discover is a wonderful word for when you find something new and exciting!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 32,
+    "sentences": [
+      {
+        "orig": "the duck will swem across the lak today",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "swem", "r": "swim", "e": "After 'will,' use the base form: swim, not swem."},
+          {"t": "grammar", "w": "will swim", "r": "will swim", "e": "Use 'will' plus the base verb to show future tense."},
+          {"t": "spelling", "w": "lak", "r": "lake", "e": "Lake is spelled with a silent 'e' at the end: l-a-k-e."},
+          {"t": "punctuation", "w": "today", "r": "today.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The duck will swim across the lake today.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning of the sentence."},
+          {"w": "duck", "t": "N", "q": "Find the common noun for a bird that swims."},
+          {"w": "will", "t": "V", "q": "Find the helping verb that shows the future."},
+          {"w": "swim", "t": "V", "q": "Find the action verb that means move through water."},
+          {"w": "across", "t": "PREP", "q": "Find the preposition that means from one side to the other."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'lake.'"},
+          {"w": "lake", "t": "N", "q": "Find the common noun for a large body of water."},
+          {"w": "today", "t": "ADV", "q": "Find the adverb that tells when."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'duck' with a different animal noun.",
+          "word": "duck",
+          "examples": [
+            "The <span class='changed'>otter</span> will swim across the lake today.",
+            "The <span class='changed'>goose</span> will swim across the lake today."
+          ]
+        },
+        "vocab": {
+          "w": "glide",
+          "type": "verb",
+          "def": "To move smoothly and quietly, as if without effort.",
+          "simple": "Glide means to move in a smooth, easy way, like a swan on water!",
+          "examples": ["glide on the ice", "glide through the water", "glide across the floor"],
+          "similar": ["slide", "drift", "float"],
+          "antonyms": ["stumble", "stomp", "crash"],
+          "nonex": ["It does NOT mean to bump into things.", "It does NOT mean to walk with heavy steps."],
+          "example": "The swan seemed to glide across the calm, still lake.",
+          "starter": "I can glide when I _______ ...",
+          "why": "Glide is a lovely word that describes smooth, graceful movement!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 33,
+    "sentences": [
+      {
+        "orig": "he will runn fast to the big trea",
+        "corr": [
+          {"t": "capitalization", "w": "he", "r": "He", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "runn", "r": "run", "e": "After 'will,' use the base form: run, with one n."},
+          {"t": "grammar", "w": "will run", "r": "will run", "e": "Use 'will' plus the base verb to show future tense."},
+          {"t": "spelling", "w": "trea", "r": "tree", "e": "Tree is spelled t-r-e-e, not t-r-e-a."},
+          {"t": "punctuation", "w": "trea", "r": "tree.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "He will run fast to the big tree.",
+        "pos": [
+          {"w": "He", "t": "PRO", "q": "Find the pronoun that means a boy or man."},
+          {"w": "will", "t": "V", "q": "Find the helping verb that shows the future."},
+          {"w": "run", "t": "V", "q": "Find the action verb that means move quickly on foot."},
+          {"w": "fast", "t": "ADV", "q": "Find the adverb that tells how he will run."},
+          {"w": "to", "t": "PREP", "q": "Find the preposition that shows direction."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'big.'"},
+          {"w": "big", "t": "ADJ", "q": "Find the adjective that describes the size of the tree."},
+          {"w": "tree", "t": "N", "q": "Find the common noun for a tall plant with a trunk."}
+        ],
+        "manip": {
+          "task": "Replace the adjective 'big' with a different adjective.",
+          "word": "big",
+          "examples": [
+            "He will run fast to the <span class='changed'>tall</span> tree.",
+            "He will run fast to the <span class='changed'>old</span> tree."
+          ]
+        },
+        "vocab": {
+          "w": "stumble",
+          "type": "verb",
+          "def": "To trip or lose your balance while walking or running.",
+          "simple": "Stumble means to almost fall because your foot catches on something!",
+          "examples": ["stumble on a rock", "stumble over a root", "stumble in the dark"],
+          "similar": ["trip", "fumble", "stagger"],
+          "antonyms": ["glide", "stride", "balance"],
+          "nonex": ["It does NOT mean to fall on purpose.", "It does NOT mean to walk perfectly."],
+          "example": "Be careful not to stumble on the roots sticking out of the trail.",
+          "starter": "I might stumble if _______ ...",
+          "why": "Stumble is a great word to describe tripping or almost falling!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 34,
+    "sentences": [
+      {
+        "orig": "we will eet lunch at the park tomorow",
+        "corr": [
+          {"t": "capitalization", "w": "we", "r": "We", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "eet", "r": "eat", "e": "Eat is spelled e-a-t, not e-e-t."},
+          {"t": "grammar", "w": "will eat", "r": "will eat", "e": "Use 'will' plus the base verb to show future tense."},
+          {"t": "spelling", "w": "tomorow", "r": "tomorrow", "e": "Tomorrow has two r's: t-o-m-o-r-r-o-w."},
+          {"t": "punctuation", "w": "tomorow", "r": "tomorrow.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "We will eat lunch at the park tomorrow.",
+        "pos": [
+          {"w": "We", "t": "PRO", "q": "Find the pronoun that means a group including me."},
+          {"w": "will", "t": "V", "q": "Find the helping verb that shows the future."},
+          {"w": "eat", "t": "V", "q": "Find the action verb that means take in food."},
+          {"w": "lunch", "t": "N", "q": "Find the common noun for a midday meal."},
+          {"w": "at", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'park.'"},
+          {"w": "park", "t": "N", "q": "Find the common noun for an outdoor place with grass."},
+          {"w": "tomorrow", "t": "ADV", "q": "Find the adverb that tells when."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'lunch' with a different meal noun.",
+          "word": "lunch",
+          "examples": [
+            "We will eat <span class='changed'>snacks</span> at the park tomorrow.",
+            "We will eat <span class='changed'>dinner</span> at the park tomorrow."
+          ]
+        },
+        "vocab": {
+          "w": "huddle",
+          "type": "verb",
+          "def": "To crowd together in a tight group, often for warmth or safety.",
+          "simple": "Huddle means to squeeze close together, like penguins in the cold!",
+          "examples": ["huddle together", "huddle under a blanket", "huddle from the rain"],
+          "similar": ["cluster", "gather", "crowd"],
+          "antonyms": ["scatter", "spread out", "separate"],
+          "nonex": ["It does NOT mean to stand far apart.", "It does NOT mean to run away from each other."],
+          "example": "The baby chicks huddle under their mother to stay warm at night.",
+          "starter": "I huddle when _______ ...",
+          "why": "Huddle is a cozy word that describes getting close together for comfort!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 35,
+    "sentences": [
+      {
+        "orig": "the bear are sleeping in his warm denn",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "grammar", "w": "are", "r": "is", "e": "Use 'is' with the singular subject 'bear,' not 'are.'"},
+          {"t": "grammar", "w": "is sleeping", "r": "is sleeping", "e": "The helping verb 'is' works with 'sleeping' to show action happening now."},
+          {"t": "spelling", "w": "denn", "r": "den", "e": "Den has only one n at the end: d-e-n."},
+          {"t": "punctuation", "w": "denn", "r": "den.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The bear is sleeping in his warm den.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning of the sentence."},
+          {"w": "bear", "t": "N", "q": "Find the common noun for a large furry animal."},
+          {"w": "is", "t": "V", "q": "Find the helping verb that works with 'sleeping.'"},
+          {"w": "sleeping", "t": "V", "q": "Find the action verb that means resting with eyes closed."},
+          {"w": "in", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "his", "t": "POSS", "q": "Find the possessive word that means belonging to him."},
+          {"w": "warm", "t": "ADJ", "q": "Find the adjective that describes the den."},
+          {"w": "den", "t": "N", "q": "Find the common noun for an animal's home."}
+        ],
+        "manip": {
+          "task": "Replace the adjective 'warm' with a different adjective.",
+          "word": "warm",
+          "examples": [
+            "The bear is sleeping in his <span class='changed'>dark</span> den.",
+            "The bear is sleeping in his <span class='changed'>cozy</span> den."
+          ]
+        },
+        "vocab": {
+          "w": "scurry",
+          "type": "verb",
+          "def": "To move quickly with short, hurried steps.",
+          "simple": "Scurry means to run fast with tiny quick steps, like a little mouse!",
+          "examples": ["scurry across the floor", "scurry under a rock", "scurry away from danger"],
+          "similar": ["dash", "hurry", "scramble"],
+          "antonyms": ["stroll", "creep", "linger"],
+          "nonex": ["It does NOT mean to walk slowly.", "It does NOT mean to sit and wait."],
+          "example": "The squirrel began to scurry up the tree when it heard a noise.",
+          "starter": "I scurry when _______ ...",
+          "why": "Scurry is a fun word that sounds like the quick little steps it describes!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 36,
+    "sentences": [
+      {
+        "orig": "the horses am runing fast in the medow",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "grammar", "w": "am", "r": "are", "e": "Use 'are' with the plural subject 'horses,' not 'am.'"},
+          {"t": "spelling", "w": "runing", "r": "running", "e": "Running has two n's: run + n + ing."},
+          {"t": "spelling", "w": "medow", "r": "meadow", "e": "Meadow is spelled m-e-a-d-o-w, not m-e-d-o-w."},
+          {"t": "punctuation", "w": "medow", "r": "meadow.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The horses are running fast in the meadow.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning of the sentence."},
+          {"w": "horses", "t": "N", "q": "Find the plural noun for large animals you can ride."},
+          {"w": "are", "t": "V", "q": "Find the helping verb that works with 'running.'"},
+          {"w": "running", "t": "V", "q": "Find the action verb that means moving fast on foot."},
+          {"w": "fast", "t": "ADV", "q": "Find the adverb that tells how the horses are running."},
+          {"w": "in", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'meadow.'"},
+          {"w": "meadow", "t": "N", "q": "Find the common noun for a grassy outdoor area."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'horses' with a different animal noun.",
+          "word": "horses",
+          "examples": [
+            "The <span class='changed'>dogs</span> are running fast in the meadow.",
+            "The <span class='changed'>rabbits</span> are running fast in the meadow."
+          ]
+        },
+        "vocab": {
+          "w": "gallop",
+          "type": "verb",
+          "def": "To run very fast, especially like a horse at full speed.",
+          "simple": "Gallop means to run really fast with big bouncy steps, like a horse!",
+          "examples": ["gallop across the field", "gallop to the barn", "gallop through the grass"],
+          "similar": ["race", "dash", "sprint"],
+          "antonyms": ["trot", "walk", "crawl"],
+          "nonex": ["It does NOT mean to walk slowly.", "It does NOT mean to stand still."],
+          "example": "The wild horse began to gallop across the open meadow.",
+          "starter": "I gallop like a horse when _______ ...",
+          "why": "Gallop is a powerful word that describes the fastest way a horse can run!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 37,
+    "sentences": [
+      {
+        "orig": "the butterflys were flying over the prety garden",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "grammar", "w": "butterflys", "r": "butterflies", "e": "When a noun ends in consonant + y, change y to i and add -es."},
+          {"t": "grammar", "w": "were flying", "r": "were flying", "e": "The helping verb 'were' works with 'flying' for plural past tense."},
+          {"t": "spelling", "w": "prety", "r": "pretty", "e": "Pretty has two t's: p-r-e-t-t-y."},
+          {"t": "punctuation", "w": "garden", "r": "garden.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The butterflies were flying over the pretty garden.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning of the sentence."},
+          {"w": "butterflies", "t": "N", "q": "Find the plural noun for colorful insects with wings."},
+          {"w": "were", "t": "V", "q": "Find the helping verb that works with 'flying.'"},
+          {"w": "flying", "t": "V", "q": "Find the action verb that means moving through the air."},
+          {"w": "over", "t": "PREP", "q": "Find the preposition that tells where the butterflies were."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'pretty.'"},
+          {"w": "pretty", "t": "ADJ", "q": "Find the adjective that describes the garden."},
+          {"w": "garden", "t": "N", "q": "Find the common noun for a place where flowers grow."}
+        ],
+        "manip": {
+          "task": "Replace the adjective 'pretty' with a different adjective.",
+          "word": "pretty",
+          "examples": [
+            "The butterflies were flying over the <span class='changed'>colorful</span> garden.",
+            "The butterflies were flying over the <span class='changed'>sunny</span> garden."
+          ]
+        },
+        "vocab": {
+          "w": "flutter",
+          "type": "verb",
+          "def": "To move with quick, light, flapping motions.",
+          "simple": "Flutter means to move wings or something light very quickly, like a butterfly!",
+          "examples": ["flutter its wings", "flutter in the breeze", "flutter around the flowers"],
+          "similar": ["flap", "flit", "wave"],
+          "antonyms": ["rest", "settle", "stay still"],
+          "nonex": ["It does NOT mean to fly in a straight line.", "It does NOT mean to fall like a rock."],
+          "example": "The colorful butterflies flutter from flower to flower in the garden.",
+          "starter": "I saw something flutter when _______ ...",
+          "why": "Flutter is a gentle word that describes the light, quick movement of wings!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 38,
+    "sentences": [
+      {
+        "orig": "luk at that fast cheetah run",
+        "corr": [
+          {"t": "capitalization", "w": "luk", "r": "Look", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "luk", "r": "Look", "e": "Look is spelled l-o-o-k, not l-u-k."},
+          {"t": "grammar", "w": "that fast", "r": "that fast", "e": "The adjective 'fast' correctly describes the cheetah."},
+          {"t": "grammar", "w": "run", "r": "run", "e": "In a command, use the base form of the verb."},
+          {"t": "punctuation", "w": "run", "r": "run!", "e": "An exclamation ends with an exclamation mark."}
+        ],
+        "fixed": "Look at that fast cheetah run!",
+        "pos": [
+          {"w": "Look", "t": "V", "q": "Find the action verb that means use your eyes."},
+          {"w": "at", "t": "PREP", "q": "Find the preposition that tells where to look."},
+          {"w": "that", "t": "ADJ", "q": "Find the word that points to a specific cheetah."},
+          {"w": "fast", "t": "ADJ", "q": "Find the adjective that describes the cheetah."},
+          {"w": "cheetah", "t": "N", "q": "Find the common noun for the fastest land animal."},
+          {"w": "run", "t": "V", "q": "Find the action verb that means move quickly on foot."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'cheetah' with a different animal noun.",
+          "word": "cheetah",
+          "examples": [
+            "Look at that fast <span class='changed'>rabbit</span> run!",
+            "Look at that fast <span class='changed'>horse</span> run!"
+          ]
+        },
+        "vocab": {
+          "w": "leap",
+          "type": "verb",
+          "def": "To jump a long way or very high with great energy.",
+          "simple": "Leap means to take a really big jump, like a frog jumping over a puddle!",
+          "examples": ["leap over a puddle", "leap into the air", "leap across the stream"],
+          "similar": ["jump", "bound", "spring"],
+          "antonyms": ["crawl", "creep", "stay"],
+          "nonex": ["It does NOT mean to take a tiny step.", "It does NOT mean to fall down."],
+          "example": "The frog can leap from one lily pad to another with ease.",
+          "starter": "I leap when I _______ ...",
+          "why": "Leap is a strong action word that shows a big, powerful jump!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 39,
+    "sentences": [
+      {
+        "orig": "stopp and lissen to the birds sing",
+        "corr": [
+          {"t": "capitalization", "w": "stopp", "r": "Stop", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "stopp", "r": "Stop", "e": "Stop has only one p at the end: s-t-o-p."},
+          {"t": "spelling", "w": "lissen", "r": "listen", "e": "Listen is spelled l-i-s-t-e-n, not l-i-s-s-e-n."},
+          {"t": "grammar", "w": "to the birds", "r": "to the birds", "e": "The preposition 'to' correctly tells what to listen to."},
+          {"t": "punctuation", "w": "sing", "r": "sing.", "e": "A command ends with a period."}
+        ],
+        "fixed": "Stop and listen to the birds sing.",
+        "pos": [
+          {"w": "Stop", "t": "V", "q": "Find the action verb that means do not move."},
+          {"w": "and", "t": "CONJ", "q": "Find the joining word that connects two actions."},
+          {"w": "listen", "t": "V", "q": "Find the action verb that means use your ears."},
+          {"w": "to", "t": "PREP", "q": "Find the preposition that tells what to listen to."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'birds.'"},
+          {"w": "birds", "t": "N", "q": "Find the plural noun for animals that fly and sing."},
+          {"w": "sing", "t": "V", "q": "Find the action verb that means make music with a voice."}
+        ],
+        "manip": {
+          "task": "Replace the verb 'sing' with a different verb.",
+          "word": "sing",
+          "examples": [
+            "Stop and listen to the birds <span class='changed'>chirp</span>.",
+            "Stop and listen to the birds <span class='changed'>call</span>."
+          ]
+        },
+        "vocab": {
+          "w": "crunch",
+          "type": "verb",
+          "def": "To chew or crush something with a loud, crackling noise.",
+          "simple": "Crunch means to bite something and hear a loud crunchy sound, like eating chips!",
+          "examples": ["crunch on an apple", "crunch through leaves", "crunch a carrot"],
+          "similar": ["munch", "chomp", "crush"],
+          "antonyms": ["sip", "nibble", "lick"],
+          "nonex": ["It does NOT mean to eat something soft and quiet.", "It does NOT mean to drink."],
+          "example": "The children crunch through the dry autumn leaves on the path.",
+          "starter": "I hear a crunch when _______ ...",
+          "why": "Crunch is a fun sound word that helps you describe noisy eating or stepping!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 40,
+    "sentences": [
+      {
+        "orig": "wach the baby deer walk in the woodes",
+        "corr": [
+          {"t": "capitalization", "w": "wach", "r": "Watch", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "wach", "r": "Watch", "e": "Watch is spelled w-a-t-c-h, not w-a-c-h."},
+          {"t": "grammar", "w": "baby deer", "r": "baby deer", "e": "Deer is the same in singular and plural."},
+          {"t": "spelling", "w": "woodes", "r": "woods", "e": "Woods is spelled w-o-o-d-s, not w-o-o-d-e-s."},
+          {"t": "punctuation", "w": "woodes", "r": "woods!", "e": "An exclamation ends with an exclamation mark."}
+        ],
+        "fixed": "Watch the baby deer walk in the woods!",
+        "pos": [
+          {"w": "Watch", "t": "V", "q": "Find the action verb that means look at carefully."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'baby.'"},
+          {"w": "baby", "t": "ADJ", "q": "Find the adjective that describes the deer's age."},
+          {"w": "deer", "t": "N", "q": "Find the common noun for a forest animal with antlers."},
+          {"w": "walk", "t": "V", "q": "Find the action verb that means move on foot."},
+          {"w": "in", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'woods.'"},
+          {"w": "woods", "t": "N", "q": "Find the common noun for a forest area."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'deer' with a different animal noun.",
+          "word": "deer",
+          "examples": [
+            "Watch the baby <span class='changed'>fox</span> walk in the woods!",
+            "Watch the baby <span class='changed'>bear</span> walk in the woods!"
+          ]
+        },
+        "vocab": {
+          "w": "roam",
+          "type": "verb",
+          "def": "To move around a large area without a fixed plan.",
+          "simple": "Roam means to walk around freely, like a deer moving through the forest!",
+          "examples": ["roam the woods", "roam the fields", "roam around the park"],
+          "similar": ["wander", "explore", "travel"],
+          "antonyms": ["stay", "settle", "remain"],
+          "nonex": ["It does NOT mean to sit in one place.", "It does NOT mean to run in a race."],
+          "example": "The wild horses roam across the open grasslands all day long.",
+          "starter": "I would love to roam around _______ ...",
+          "why": "Roam is a wonderful word for describing free, open movement in nature!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 41,
+    "sentences": [
+      {
+        "orig": "the owl hunt mouses in the dark nite",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "grammar", "w": "hunt", "r": "hunts", "e": "The singular subject 'owl' needs the verb 'hunts' with an -s."},
+          {"t": "grammar", "w": "mouses", "r": "mice", "e": "Mouse is irregular. The plural is 'mice,' not 'mouses.'"},
+          {"t": "spelling", "w": "nite", "r": "night", "e": "Night is spelled n-i-g-h-t, not n-i-t-e."},
+          {"t": "punctuation", "w": "nite", "r": "night.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The owl hunts mice in the dark night.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning of the sentence."},
+          {"w": "owl", "t": "N", "q": "Find the common noun for a bird that hoots at night."},
+          {"w": "hunts", "t": "V", "q": "Find the verb that tells what the owl does."},
+          {"w": "mice", "t": "N", "q": "Find the irregular plural noun for small rodents."},
+          {"w": "in", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'dark.'"},
+          {"w": "dark", "t": "ADJ", "q": "Find the adjective that describes the night."},
+          {"w": "night", "t": "N", "q": "Find the common noun for the time after the sun sets."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'owl' with a different animal noun.",
+          "word": "owl",
+          "examples": [
+            "The <span class='changed'>cat</span> hunts mice in the dark night.",
+            "The <span class='changed'>snake</span> hunts mice in the dark night."
+          ]
+        },
+        "vocab": {
+          "w": "prowl",
+          "type": "verb",
+          "def": "To move around quietly and carefully, looking for something.",
+          "simple": "Prowl means to sneak around very quietly, like a cat looking for food!",
+          "examples": ["prowl through the night", "prowl around the yard", "prowl in the shadows"],
+          "similar": ["sneak", "lurk", "creep"],
+          "antonyms": ["stomp", "march", "rush"],
+          "nonex": ["It does NOT mean to run loudly.", "It does NOT mean to sleep in one place."],
+          "example": "The cat likes to prowl around the garden looking for bugs.",
+          "starter": "I prowl around when _______ ...",
+          "why": "Prowl is a sneaky word that describes quiet, careful movement!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 42,
+    "sentences": [
+      {
+        "orig": "the hawks flyes over the tall montains",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "grammar", "w": "flyes", "r": "fly", "e": "The plural subject 'hawks' takes the base verb 'fly,' not 'flyes.'"},
+          {"t": "grammar", "w": "over the", "r": "over the", "e": "The preposition 'over' correctly shows the hawks' position above the mountains."},
+          {"t": "spelling", "w": "montains", "r": "mountains", "e": "Mountains is spelled m-o-u-n-t-a-i-n-s."},
+          {"t": "punctuation", "w": "montains", "r": "mountains.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The hawks fly over the tall mountains.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning of the sentence."},
+          {"w": "hawks", "t": "N", "q": "Find the plural noun for large hunting birds."},
+          {"w": "fly", "t": "V", "q": "Find the action verb that means move through the air."},
+          {"w": "over", "t": "PREP", "q": "Find the preposition that tells where the hawks go."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'tall.'"},
+          {"w": "tall", "t": "ADJ", "q": "Find the adjective that describes the height of the mountains."},
+          {"w": "mountains", "t": "N", "q": "Find the plural noun for very high landforms."}
+        ],
+        "manip": {
+          "task": "Replace the adjective 'tall' with a different adjective.",
+          "word": "tall",
+          "examples": [
+            "The hawks fly over the <span class='changed'>snowy</span> mountains.",
+            "The hawks fly over the <span class='changed'>rocky</span> mountains."
+          ]
+        },
+        "vocab": {
+          "w": "swoop",
+          "type": "verb",
+          "def": "To fly or move downward quickly in a curved path.",
+          "simple": "Swoop means to dive down fast through the air, like a bird catching a fish!",
+          "examples": ["swoop down from the sky", "swoop over the water", "swoop to catch prey"],
+          "similar": ["dive", "plunge", "descend"],
+          "antonyms": ["soar", "rise", "climb"],
+          "nonex": ["It does NOT mean to fly up slowly.", "It does NOT mean to sit on a branch."],
+          "example": "The eagle will swoop down from the sky to catch a fish.",
+          "starter": "I saw a bird swoop when _______ ...",
+          "why": "Swoop is an exciting word that describes a fast downward flying motion!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 43,
+    "sentences": [
+      {
+        "orig": "the pony trot around the fense evry day",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "grammar", "w": "trot", "r": "trots", "e": "The singular subject 'pony' needs the verb 'trots' with an -s."},
+          {"t": "spelling", "w": "fense", "r": "fence", "e": "Fence is spelled f-e-n-c-e, not f-e-n-s-e."},
+          {"t": "spelling", "w": "evry", "r": "every", "e": "Every has an 'e' in the middle: e-v-e-r-y."},
+          {"t": "punctuation", "w": "day", "r": "day.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The pony trots around the fence every day.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning of the sentence."},
+          {"w": "pony", "t": "N", "q": "Find the common noun for a small horse."},
+          {"w": "trots", "t": "V", "q": "Find the verb that tells what the pony does."},
+          {"w": "around", "t": "PREP", "q": "Find the preposition that tells the path of movement."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'fence.'"},
+          {"w": "fence", "t": "N", "q": "Find the common noun for a barrier around a yard."},
+          {"w": "every", "t": "ADJ", "q": "Find the adjective that means each one."},
+          {"w": "day", "t": "N", "q": "Find the common noun for a 24-hour period."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'pony' with a different animal noun.",
+          "word": "pony",
+          "examples": [
+            "The <span class='changed'>goat</span> trots around the fence every day.",
+            "The <span class='changed'>dog</span> trots around the fence every day."
+          ]
+        },
+        "vocab": {
+          "w": "trot",
+          "type": "verb",
+          "def": "To run at a pace between a walk and a fast run.",
+          "simple": "Trot means to run at a medium speed, not too fast and not too slow!",
+          "examples": ["trot along the trail", "trot around the yard", "trot to the barn"],
+          "similar": ["jog", "lope", "canter"],
+          "antonyms": ["sprint", "crawl", "stand"],
+          "nonex": ["It does NOT mean to gallop at top speed.", "It does NOT mean to stay in one spot."],
+          "example": "The pony likes to trot happily around the green pasture.",
+          "starter": "I trot when I _______ ...",
+          "why": "Trot is a useful word for describing a steady, medium-speed run!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 44,
+    "sentences": [
+      {
+        "orig": "the fich swam thru the cool watur",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "fich", "r": "fish", "e": "Fish uses the digraph 'sh' at the end: f-i-s-h."},
+          {"t": "spelling", "w": "thru", "r": "through", "e": "Through is spelled t-h-r-o-u-g-h, with the digraph 'th.'"},
+          {"t": "spelling", "w": "watur", "r": "water", "e": "Water is spelled w-a-t-e-r, not w-a-t-u-r."},
+          {"t": "punctuation", "w": "watur", "r": "water.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The fish swam through the cool water.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning of the sentence."},
+          {"w": "fish", "t": "N", "q": "Find the common noun for an animal that lives in water."},
+          {"w": "swam", "t": "V", "q": "Find the past tense verb that means moved through water."},
+          {"w": "through", "t": "PREP", "q": "Find the preposition that means from one side to the other."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'cool.'"},
+          {"w": "cool", "t": "ADJ", "q": "Find the adjective that describes the temperature of the water."},
+          {"w": "water", "t": "N", "q": "Find the common noun for the liquid in rivers and lakes."}
+        ],
+        "manip": {
+          "task": "Replace the adjective 'cool' with a different adjective.",
+          "word": "cool",
+          "examples": [
+            "The fish swam through the <span class='changed'>clear</span> water.",
+            "The fish swam through the <span class='changed'>deep</span> water."
+          ]
+        },
+        "vocab": {
+          "w": "splash",
+          "type": "verb",
+          "def": "To move in water causing it to fly around in drops.",
+          "simple": "Splash means to hit water and make it fly everywhere, like jumping in a puddle!",
+          "examples": ["splash in the pool", "splash through a puddle", "splash water on your face"],
+          "similar": ["spray", "splatter", "slosh"],
+          "antonyms": ["dry off", "drain", "absorb"],
+          "nonex": ["It does NOT mean to walk around water carefully.", "It does NOT mean to pour water gently."],
+          "example": "The ducks like to splash around in the pond on a hot day.",
+          "starter": "I splash when _______ ...",
+          "why": "Splash is a fun sound word that describes what happens when you play in water!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 45,
+    "sentences": [
+      {
+        "orig": "the robin cherps on a bransh each morning",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "cherps", "r": "chirps", "e": "Chirps uses the digraph 'ch' and is spelled c-h-i-r-p-s."},
+          {"t": "grammar", "w": "on a", "r": "on a", "e": "The article 'a' is correct before the consonant sound in 'branch.'"},
+          {"t": "spelling", "w": "bransh", "r": "branch", "e": "Branch uses the digraph 'ch' at the end: b-r-a-n-c-h."},
+          {"t": "punctuation", "w": "morning", "r": "morning.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The robin chirps on a branch each morning.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning of the sentence."},
+          {"w": "robin", "t": "N", "q": "Find the common noun for a red-breasted bird."},
+          {"w": "chirps", "t": "V", "q": "Find the verb that tells the sound the robin makes."},
+          {"w": "on", "t": "PREP", "q": "Find the preposition that tells where the robin sits."},
+          {"w": "a", "t": "ART", "q": "Find the article before 'branch.'"},
+          {"w": "branch", "t": "N", "q": "Find the common noun for a part of a tree."},
+          {"w": "each", "t": "ADJ", "q": "Find the adjective that means every single one."},
+          {"w": "morning", "t": "N", "q": "Find the common noun for the early part of the day."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'robin' with a different bird noun.",
+          "word": "robin",
+          "examples": [
+            "The <span class='changed'>sparrow</span> chirps on a branch each morning.",
+            "The <span class='changed'>finch</span> chirps on a branch each morning."
+          ]
+        },
+        "vocab": {
+          "w": "perch",
+          "type": "verb",
+          "def": "To sit or rest on a high or narrow place, like a bird on a branch.",
+          "simple": "Perch means to sit up on something high, like a bird sitting on a wire!",
+          "examples": ["perch on a branch", "perch on a fence", "perch on a rooftop"],
+          "similar": ["sit", "rest", "roost"],
+          "antonyms": ["fall", "drop", "fly away"],
+          "nonex": ["It does NOT mean to lie flat on the ground.", "It does NOT mean to swim in water."],
+          "example": "The blue jay likes to perch on the highest branch of the oak tree.",
+          "starter": "I saw a bird perch on _______ ...",
+          "why": "Perch is a perfect word for describing where birds sit and rest!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 46,
+    "sentences": [
+      {
+        "orig": "the wale swims under the ships in the oshun",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "wale", "r": "whale", "e": "Whale uses the digraph 'wh' at the start: w-h-a-l-e."},
+          {"t": "grammar", "w": "under the ships", "r": "under the ships", "e": "The preposition 'under' correctly tells where the whale swims."},
+          {"t": "spelling", "w": "oshun", "r": "ocean", "e": "Ocean is spelled o-c-e-a-n, not o-s-h-u-n."},
+          {"t": "punctuation", "w": "oshun", "r": "ocean.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The whale swims under the ships in the ocean.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning of the sentence."},
+          {"w": "whale", "t": "N", "q": "Find the common noun for a very large sea animal."},
+          {"w": "swims", "t": "V", "q": "Find the verb that tells what the whale does."},
+          {"w": "under", "t": "PREP", "q": "Find the preposition that means below."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'ships.'"},
+          {"w": "ships", "t": "N", "q": "Find the plural noun for large boats."},
+          {"w": "in", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'ocean.'"},
+          {"w": "ocean", "t": "N", "q": "Find the common noun for a huge body of salt water."}
+        ],
+        "manip": {
+          "task": "Replace the preposition 'under' with a different preposition.",
+          "word": "under",
+          "examples": [
+            "The whale swims <span class='changed'>near</span> the ships in the ocean.",
+            "The whale swims <span class='changed'>past</span> the ships in the ocean."
+          ]
+        },
+        "vocab": {
+          "w": "burrow",
+          "type": "verb",
+          "def": "To dig a hole or tunnel in the ground to live in or hide.",
+          "simple": "Burrow means to dig into the ground, like a rabbit making its home!",
+          "examples": ["burrow into the dirt", "burrow under a log", "burrow a tunnel"],
+          "similar": ["dig", "tunnel", "nestle"],
+          "antonyms": ["surface", "emerge", "climb"],
+          "nonex": ["It does NOT mean to build a nest in a tree.", "It does NOT mean to fly through the air."],
+          "example": "The rabbits burrow deep into the hillside to make a cozy home.",
+          "starter": "An animal might burrow to _______ ...",
+          "why": "Burrow is a cool word for describing how animals dig their underground homes!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 47,
+    "sentences": [
+      {
+        "orig": "the frog sits on a lilly pad in the pond",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "grammar", "w": "sits on", "r": "sits on", "e": "The preposition 'on' correctly shows where the frog is."},
+          {"t": "spelling", "w": "lilly", "r": "lily", "e": "Lily has only one l in the middle: l-i-l-y."},
+          {"t": "grammar", "w": "in the pond", "r": "in the pond", "e": "The preposition 'in' correctly tells where the lily pad is."},
+          {"t": "punctuation", "w": "pond", "r": "pond.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The frog sits on a lily pad in the pond.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning of the sentence."},
+          {"w": "frog", "t": "N", "q": "Find the common noun for a green hopping animal."},
+          {"w": "sits", "t": "V", "q": "Find the verb that tells what the frog does."},
+          {"w": "on", "t": "PREP", "q": "Find the preposition that means resting atop something."},
+          {"w": "a", "t": "ART", "q": "Find the article before 'lily.'"},
+          {"w": "lily", "t": "ADJ", "q": "Find the word that describes the type of pad."},
+          {"w": "pad", "t": "N", "q": "Find the common noun for a flat floating leaf."},
+          {"w": "in", "t": "PREP", "q": "Find the preposition that tells where the pad is."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'pond.'"},
+          {"w": "pond", "t": "N", "q": "Find the common noun for a small body of water."}
+        ],
+        "manip": {
+          "task": "Replace the preposition 'on' with a different preposition.",
+          "word": "on",
+          "examples": [
+            "The frog sits <span class='changed'>near</span> a lily pad in the pond.",
+            "The frog sits <span class='changed'>by</span> a lily pad in the pond."
+          ]
+        },
+        "vocab": {
+          "w": "slither",
+          "type": "verb",
+          "def": "To slide or move along the ground in a smooth, twisting way.",
+          "simple": "Slither means to slide on the ground like a snake moves!",
+          "examples": ["slither through the grass", "slither under a rock", "slither across the path"],
+          "similar": ["slide", "creep", "wiggle"],
+          "antonyms": ["stomp", "march", "stride"],
+          "nonex": ["It does NOT mean to walk on two legs.", "It does NOT mean to jump high."],
+          "example": "The little snake began to slither quietly through the tall grass.",
+          "starter": "I saw something slither when _______ ...",
+          "why": "Slither is a great word for describing smooth, low-to-the-ground movement!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 48,
+    "sentences": [
+      {
+        "orig": "the turtle cralls to the watter with her babys",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "cralls", "r": "crawls", "e": "Crawls is spelled c-r-a-w-l-s, not c-r-a-l-l-s."},
+          {"t": "spelling", "w": "watter", "r": "water", "e": "Water has one t in the middle: w-a-t-e-r."},
+          {"t": "grammar", "w": "babys", "r": "babies", "e": "When a noun ends in consonant + y, change y to i and add -es."},
+          {"t": "punctuation", "w": "babys", "r": "babies.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The turtle crawls to the water with her babies.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning of the sentence."},
+          {"w": "turtle", "t": "N", "q": "Find the common noun for a slow animal with a shell."},
+          {"w": "crawls", "t": "V", "q": "Find the verb that tells how the turtle moves."},
+          {"w": "to", "t": "PREP", "q": "Find the preposition that shows direction."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'water.'"},
+          {"w": "water", "t": "N", "q": "Find the common noun for the liquid in rivers and oceans."},
+          {"w": "with", "t": "PREP", "q": "Find the preposition that means together alongside."},
+          {"w": "her", "t": "POSS", "q": "Find the possessive word that means belonging to her."},
+          {"w": "babies", "t": "N", "q": "Find the plural noun for very young animals."}
+        ],
+        "manip": {
+          "task": "Replace the preposition 'to' with a different preposition.",
+          "word": "to",
+          "examples": [
+            "The turtle crawls <span class='changed'>toward</span> the water with her babies.",
+            "The turtle crawls <span class='changed'>near</span> the water with her babies."
+          ]
+        },
+        "vocab": {
+          "w": "drift",
+          "type": "verb",
+          "def": "To be carried slowly by wind or water without any effort.",
+          "simple": "Drift means to float along gently, like a leaf on a stream!",
+          "examples": ["drift on the river", "drift in the breeze", "drift across the pond"],
+          "similar": ["float", "glide", "coast"],
+          "antonyms": ["anchor", "rush", "push"],
+          "nonex": ["It does NOT mean to swim fast.", "It does NOT mean to sink to the bottom."],
+          "example": "The fallen leaves drift slowly down the quiet stream.",
+          "starter": "I watched something drift when _______ ...",
+          "why": "Drift is a peaceful word that describes gentle, easy movement on water or wind!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 49,
+    "sentences": [
+      {
+        "orig": "the chipmunck runed fast up the old oke tree",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "chipmunck", "r": "chipmunk", "e": "Chipmunk ends with -nk, not -nck: c-h-i-p-m-u-n-k."},
+          {"t": "grammar", "w": "runed", "r": "ran", "e": "Run is irregular. The past tense is 'ran,' not 'runed.'"},
+          {"t": "spelling", "w": "oke", "r": "oak", "e": "Oak is spelled o-a-k, not o-k-e."},
+          {"t": "punctuation", "w": "tree", "r": "tree.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The chipmunk ran fast up the old oak tree.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning of the sentence."},
+          {"w": "chipmunk", "t": "N", "q": "Find the common noun for a small striped rodent."},
+          {"w": "ran", "t": "V", "q": "Find the irregular past tense verb that means moved fast."},
+          {"w": "fast", "t": "ADV", "q": "Find the adverb that tells how the chipmunk moved."},
+          {"w": "up", "t": "PREP", "q": "Find the preposition that tells the direction."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'old.'"},
+          {"w": "old", "t": "ADJ", "q": "Find the adjective that describes the age of the tree."},
+          {"w": "oak", "t": "ADJ", "q": "Find the word that tells what kind of tree."},
+          {"w": "tree", "t": "N", "q": "Find the common noun for a tall plant with a trunk."}
+        ],
+        "manip": {
+          "task": "Replace the verb 'ran' with a different past tense verb.",
+          "word": "ran",
+          "examples": [
+            "The chipmunk <span class='changed'>climbed</span> fast up the old oak tree.",
+            "The chipmunk <span class='changed'>scurried</span> fast up the old oak tree."
+          ]
+        },
+        "vocab": {
+          "w": "scramble",
+          "type": "verb",
+          "def": "To move quickly and clumsily, often using hands and feet.",
+          "simple": "Scramble means to hurry using both your hands and feet, like climbing up rocks!",
+          "examples": ["scramble up a hill", "scramble over rocks", "scramble to the top"],
+          "similar": ["clamber", "scurry", "rush"],
+          "antonyms": ["stroll", "relax", "rest"],
+          "nonex": ["It does NOT mean to walk slowly and calmly.", "It does NOT mean to slide downhill."],
+          "example": "The children scramble up the rocky hillside to reach the lookout point.",
+          "starter": "I scramble when I need to _______ ...",
+          "why": "Scramble is an action-packed word for fast, messy climbing and moving!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 50,
+    "sentences": [
+      {
+        "orig": "the rabit will hopp over the hil tomorow",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "rabit", "r": "rabbit", "e": "Rabbit has two b's in the middle: r-a-b-b-i-t."},
+          {"t": "spelling", "w": "hopp", "r": "hop", "e": "After 'will,' use the base form: hop, with one p."},
+          {"t": "spelling", "w": "hil", "r": "hill", "e": "Hill has two l's at the end: h-i-l-l."},
+          {"t": "punctuation", "w": "tomorow", "r": "tomorrow.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The rabbit will hop over the hill tomorrow.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning of the sentence."},
+          {"w": "rabbit", "t": "N", "q": "Find the common noun for a furry animal with long ears."},
+          {"w": "will", "t": "V", "q": "Find the helping verb that shows the future."},
+          {"w": "hop", "t": "V", "q": "Find the action verb that means jump on one or two feet."},
+          {"w": "over", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'hill.'"},
+          {"w": "hill", "t": "N", "q": "Find the common noun for a raised area of land."},
+          {"w": "tomorrow", "t": "ADV", "q": "Find the adverb that tells when."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'rabbit' with a different animal noun.",
+          "word": "rabbit",
+          "examples": [
+            "The <span class='changed'>frog</span> will hop over the hill tomorrow.",
+            "The <span class='changed'>squirrel</span> will hop over the hill tomorrow."
+          ]
+        },
+        "vocab": {
+          "w": "sprint",
+          "type": "verb",
+          "def": "To run as fast as you possibly can for a short distance.",
+          "simple": "Sprint means to run super fast, like you are in a race and want to win!",
+          "examples": ["sprint to the finish", "sprint across the yard", "sprint down the path"],
+          "similar": ["dash", "race", "bolt"],
+          "antonyms": ["stroll", "crawl", "amble"],
+          "nonex": ["It does NOT mean to walk slowly.", "It does NOT mean to jog at a steady pace."],
+          "example": "The cheetah can sprint faster than any other animal on land.",
+          "starter": "I sprint when _______ ...",
+          "why": "Sprint is a powerful word for the very fastest kind of running!"
+        }
+      }
+    ]
+  }
+]

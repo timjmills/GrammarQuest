@@ -1,0 +1,1189 @@
+[
+  {
+    "day": 51,
+    "sentences": [
+      {
+        "orig": "the big red ball rols down the hil",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "rols", "r": "rolls", "e": "Rolls has two l's in the middle."},
+          {"t": "grammar", "w": "the", "r": "a", "e": "Use 'a' when talking about any hill, not one specific hill."},
+          {"t": "spelling", "w": "hil", "r": "hill", "e": "Hill is spelled with two l's at the end."},
+          {"t": "punctuation", "w": "hil", "r": "hill.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The big red ball rolls down a hill.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning of the sentence."},
+          {"w": "big", "t": "ADJ", "q": "Find the adjective that tells the size of the ball."},
+          {"w": "red", "t": "ADJ", "q": "Find the adjective that tells the color of the ball."},
+          {"w": "ball", "t": "N", "q": "Find the noun for a round toy."},
+          {"w": "rolls", "t": "V", "q": "Find the verb that tells what the ball does."},
+          {"w": "down", "t": "PREP", "q": "Find the preposition that tells which direction."},
+          {"w": "a", "t": "ART", "q": "Find the article before 'hill.'"},
+          {"w": "hill", "t": "N", "q": "Find the noun for a high piece of land."}
+        ],
+        "manip": {
+          "task": "Replace the adjective 'red' with a different color adjective.",
+          "word": "red",
+          "examples": [
+            "The big <span class='changed'>blue</span> ball rolls down a hill.",
+            "The big <span class='changed'>yellow</span> ball rolls down a hill."
+          ]
+        },
+        "vocab": {
+          "w": "vivid",
+          "type": "adjective",
+          "def": "Very bright, strong, or clear in color or detail.",
+          "simple": "Vivid means really bright and colorful, like a rainbow after rain!",
+          "examples": ["a vivid sunset", "vivid colors", "a vivid dream"],
+          "similar": ["bright", "bold", "colorful"],
+          "antonyms": ["dull", "faded", "pale"],
+          "nonex": ["It does NOT mean dark or hard to see.", "It does NOT mean quiet or soft."],
+          "example": "The vivid red ball was easy to find in the grass.",
+          "starter": "Something vivid I saw was _______ ...",
+          "why": "Vivid helps you describe things that are really bright and easy to picture!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 52,
+    "sentences": [
+      {
+        "orig": "she has a soft wite cat on her laap",
+        "corr": [
+          {"t": "capitalization", "w": "she", "r": "She", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "wite", "r": "white", "e": "White starts with 'wh,' not just 'w.'"},
+          {"t": "grammar", "w": "on", "r": "in", "e": "We say 'in her lap,' not 'on her lap' for a cat sitting."},
+          {"t": "spelling", "w": "laap", "r": "lap", "e": "Lap has only one 'a' in the middle."},
+          {"t": "punctuation", "w": "laap", "r": "lap.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "She has a soft white cat in her lap.",
+        "pos": [
+          {"w": "She", "t": "PRO", "q": "Find the pronoun that means a girl or woman."},
+          {"w": "has", "t": "V", "q": "Find the verb that means 'owns.'"},
+          {"w": "a", "t": "ART", "q": "Find the article before 'soft.'"},
+          {"w": "soft", "t": "ADJ", "q": "Find the adjective that tells how the cat feels to touch."},
+          {"w": "white", "t": "ADJ", "q": "Find the adjective that tells the color of the cat."},
+          {"w": "cat", "t": "N", "q": "Find the noun for a furry pet."},
+          {"w": "in", "t": "PREP", "q": "Find the preposition that tells where the cat is."},
+          {"w": "her", "t": "POSS", "q": "Find the possessive word that means 'belonging to her.'"},
+          {"w": "lap", "t": "N", "q": "Find the noun for the top of your legs when you sit."}
+        ],
+        "manip": {
+          "task": "Replace the adjective 'soft' with another adjective that describes touch.",
+          "word": "soft",
+          "examples": [
+            "She has a <span class='changed'>fluffy</span> white cat in her lap.",
+            "She has a <span class='changed'>warm</span> white cat in her lap."
+          ]
+        },
+        "vocab": {
+          "w": "gloomy",
+          "type": "adjective",
+          "def": "Dark, dim, or sad; without much light or happiness.",
+          "simple": "Gloomy means dark and sad, like a rainy day with no sun!",
+          "examples": ["a gloomy sky", "a gloomy room", "a gloomy mood"],
+          "similar": ["dark", "dim", "dreary"],
+          "antonyms": ["bright", "cheerful", "sunny"],
+          "nonex": ["It does NOT mean scary.", "It does NOT mean angry."],
+          "example": "The gloomy clouds made the sky look dark and gray.",
+          "starter": "I feel gloomy when _______ ...",
+          "why": "Gloomy is a great word for describing sad weather or feelings!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 53,
+    "sentences": [
+      {
+        "orig": "the tini flower grows in the gardun",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "tini", "r": "tiny", "e": "Tiny ends with a 'y,' not an 'i.'"},
+          {"t": "grammar", "w": "grows", "r": "grew", "e": "Use 'grew' to talk about the past."},
+          {"t": "spelling", "w": "gardun", "r": "garden", "e": "Garden is spelled with 'en' at the end, not 'un.'"},
+          {"t": "punctuation", "w": "gardun", "r": "garden.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The tiny flower grew in the garden.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning of the sentence."},
+          {"w": "tiny", "t": "ADJ", "q": "Find the adjective that tells the size of the flower."},
+          {"w": "flower", "t": "N", "q": "Find the noun for a pretty plant."},
+          {"w": "grew", "t": "V", "q": "Find the verb that means 'got bigger.'"},
+          {"w": "in", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'garden.'"},
+          {"w": "garden", "t": "N", "q": "Find the noun for a place where plants grow."}
+        ],
+        "manip": {
+          "task": "Replace the adjective 'tiny' with a different size adjective.",
+          "word": "tiny",
+          "examples": [
+            "The <span class='changed'>tall</span> flower grew in the garden.",
+            "The <span class='changed'>little</span> flower grew in the garden."
+          ]
+        },
+        "vocab": {
+          "w": "delicate",
+          "type": "adjective",
+          "def": "Very fine, thin, or easily broken; needing gentle care.",
+          "simple": "Delicate means something is thin and easy to break, like a butterfly wing!",
+          "examples": ["a delicate flower", "delicate glass", "a delicate touch"],
+          "similar": ["fragile", "thin", "gentle"],
+          "antonyms": ["strong", "tough", "sturdy"],
+          "nonex": ["It does NOT mean ugly.", "It does NOT mean heavy or thick."],
+          "example": "The delicate flower bent in the wind.",
+          "starter": "Something delicate I have seen is _______ ...",
+          "why": "Delicate helps you describe things that need to be handled with care!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 54,
+    "sentences": [
+      {
+        "orig": "i see too many birds in the tre",
+        "corr": [
+          {"t": "capitalization", "w": "i", "r": "I", "e": "The pronoun 'I' is always capitalized."},
+          {"t": "grammar", "w": "too", "r": "so", "e": "Use 'so' to describe a large amount when not comparing."},
+          {"t": "spelling", "w": "tre", "r": "tree", "e": "Tree needs two e's at the end."},
+          {"t": "grammar", "w": "the", "r": "a", "e": "Use 'a' when talking about any tree, not one specific tree."},
+          {"t": "punctuation", "w": "tre", "r": "tree.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "I see so many birds in a tree.",
+        "pos": [
+          {"w": "I", "t": "PRO", "q": "Find the pronoun that means the person speaking."},
+          {"w": "see", "t": "V", "q": "Find the verb that means 'look at.'"},
+          {"w": "so", "t": "ADV", "q": "Find the word that tells how many."},
+          {"w": "many", "t": "ADJ", "q": "Find the adjective that tells how many birds."},
+          {"w": "birds", "t": "N", "q": "Find the plural noun for animals that fly."},
+          {"w": "in", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "a", "t": "ART", "q": "Find the article before 'tree.'"},
+          {"w": "tree", "t": "N", "q": "Find the noun for a tall plant."}
+        ],
+        "manip": {
+          "task": "Replace the adjective 'many' with a different number adjective.",
+          "word": "many",
+          "examples": [
+            "I see so <span class='changed'>few</span> birds in a tree.",
+            "I see so <span class='changed'>some</span> birds in a tree."
+          ]
+        },
+        "vocab": {
+          "w": "plenty",
+          "type": "noun",
+          "def": "A large amount; more than enough of something.",
+          "simple": "Plenty means a lot of something, like having plenty of snacks for everyone!",
+          "examples": ["plenty of food", "plenty of time", "plenty of room"],
+          "similar": ["enough", "lots", "abundance"],
+          "antonyms": ["few", "lack", "shortage"],
+          "nonex": ["It does NOT mean just one.", "It does NOT mean too many."],
+          "example": "We have plenty of crayons for the whole class.",
+          "starter": "I have plenty of _______ ...",
+          "why": "Plenty is a useful word when you want to say there is a lot of something!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 55,
+    "sentences": [
+      {
+        "orig": "she eats too apples after scool every day",
+        "corr": [
+          {"t": "capitalization", "w": "she", "r": "She", "e": "The first word of a sentence must be capitalized."},
+          {"t": "grammar", "w": "too", "r": "two", "e": "Use 'two' for the number 2, not 'too.'"},
+          {"t": "spelling", "w": "scool", "r": "school", "e": "School is spelled with 'ch' in the middle."},
+          {"t": "grammar", "w": "every day", "r": "each day", "e": "Use 'each day' to mean one day at a time."},
+          {"t": "punctuation", "w": "day", "r": "day.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "She eats two apples after school each day.",
+        "pos": [
+          {"w": "She", "t": "PRO", "q": "Find the pronoun that means a girl or woman."},
+          {"w": "eats", "t": "V", "q": "Find the verb that tells what she does with the apples."},
+          {"w": "two", "t": "ADJ", "q": "Find the number adjective that tells how many apples."},
+          {"w": "apples", "t": "N", "q": "Find the plural noun for a type of fruit."},
+          {"w": "after", "t": "PREP", "q": "Find the preposition that tells when."},
+          {"w": "school", "t": "N", "q": "Find the noun for a place of learning."},
+          {"w": "each", "t": "ADJ", "q": "Find the adjective that means 'every one.'"},
+          {"w": "day", "t": "N", "q": "Find the noun for a unit of time."}
+        ],
+        "manip": {
+          "task": "Replace the number adjective 'two' with a different number.",
+          "word": "two",
+          "examples": [
+            "She eats <span class='changed'>three</span> apples after school each day.",
+            "She eats <span class='changed'>five</span> apples after school each day."
+          ]
+        },
+        "vocab": {
+          "w": "several",
+          "type": "adjective",
+          "def": "More than two but not very many.",
+          "simple": "Several means a few of something, like three, four, or five!",
+          "examples": ["several books", "several friends", "several colors"],
+          "similar": ["few", "some", "a handful"],
+          "antonyms": ["none", "one", "many"],
+          "nonex": ["It does NOT mean just one.", "It does NOT mean a hundred."],
+          "example": "She picked several flowers from the garden.",
+          "starter": "I have several _______ in my room ...",
+          "why": "Several helps you describe a small group of things without counting them exactly!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 56,
+    "sentences": [
+      {
+        "orig": "he has sum crayons in his bocks",
+        "corr": [
+          {"t": "capitalization", "w": "he", "r": "He", "e": "The first word of a sentence must be capitalized."},
+          {"t": "grammar", "w": "sum", "r": "some", "e": "Use 'some' to mean a few. 'Sum' means adding numbers."},
+          {"t": "spelling", "w": "crayons", "r": "crayons", "e": "Crayons is spelled correctly here. Good job!"},
+          {"t": "spelling", "w": "bocks", "r": "box", "e": "Box is spelled b-o-x, not b-o-c-k-s."},
+          {"t": "punctuation", "w": "bocks", "r": "box.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "He has some crayons in his box.",
+        "pos": [
+          {"w": "He", "t": "PRO", "q": "Find the pronoun that means a boy or man."},
+          {"w": "has", "t": "V", "q": "Find the verb that means 'owns.'"},
+          {"w": "some", "t": "ADJ", "q": "Find the adjective that tells how many crayons."},
+          {"w": "crayons", "t": "N", "q": "Find the plural noun for coloring tools."},
+          {"w": "in", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "his", "t": "POSS", "q": "Find the possessive word meaning 'belonging to him.'"},
+          {"w": "box", "t": "N", "q": "Find the noun for a container."}
+        ],
+        "manip": {
+          "task": "Replace the adjective 'some' with a different number word.",
+          "word": "some",
+          "examples": [
+            "He has <span class='changed'>many</span> crayons in his box.",
+            "He has <span class='changed'>five</span> crayons in his box."
+          ]
+        },
+        "vocab": {
+          "w": "scarce",
+          "type": "adjective",
+          "def": "Very little of something; hard to find because there is not much.",
+          "simple": "Scarce means there is not enough of something, like when you run out of snacks!",
+          "examples": ["scarce water", "scarce food", "scarce tickets"],
+          "similar": ["rare", "few", "limited"],
+          "antonyms": ["plentiful", "abundant", "common"],
+          "nonex": ["It does NOT mean broken.", "It does NOT mean expensive."],
+          "example": "Water was scarce during the hot summer.",
+          "starter": "Something scarce at my school is _______ ...",
+          "why": "Scarce helps you explain when there is not enough of something!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 57,
+    "sentences": [
+      {
+        "orig": "she ate a oranje for a crisp snack",
+        "corr": [
+          {"t": "capitalization", "w": "she", "r": "She", "e": "The first word of a sentence must be capitalized."},
+          {"t": "grammar", "w": "a", "r": "an", "e": "Use 'an' before words that start with a vowel sound, like 'orange.'"},
+          {"t": "spelling", "w": "oranje", "r": "orange", "e": "Orange is spelled with 'ge' at the end, not 'je.'"},
+          {"t": "grammar", "w": "a crisp", "r": "a crisp", "e": "The article 'a' is correct before 'crisp' because it starts with a consonant."},
+          {"t": "punctuation", "w": "snack", "r": "snack.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "She ate an orange for a crisp snack.",
+        "pos": [
+          {"w": "She", "t": "PRO", "q": "Find the pronoun that means a girl or woman."},
+          {"w": "ate", "t": "V", "q": "Find the past tense verb for eating."},
+          {"w": "an", "t": "ART", "q": "Find the article used before a vowel sound."},
+          {"w": "orange", "t": "N", "q": "Find the noun for a round fruit."},
+          {"w": "for", "t": "PREP", "q": "Find the preposition that tells the purpose."},
+          {"w": "a", "t": "ART", "q": "Find the article before 'crisp.'"},
+          {"w": "crisp", "t": "ADJ", "q": "Find the adjective that describes the snack."},
+          {"w": "snack", "t": "N", "q": "Find the noun for a small meal."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'orange' with another fruit that needs 'an.'",
+          "word": "orange",
+          "examples": [
+            "She ate an <span class='changed'>apple</span> for a crisp snack.",
+            "She ate an <span class='changed'>apricot</span> for a crisp snack."
+          ]
+        },
+        "vocab": {
+          "w": "crisp",
+          "type": "adjective",
+          "def": "Firm, crunchy, and fresh; pleasantly dry and cool.",
+          "simple": "Crisp means crunchy and fresh, like a crisp apple or cool air!",
+          "examples": ["a crisp apple", "crisp air", "crisp leaves"],
+          "similar": ["crunchy", "fresh", "firm"],
+          "antonyms": ["soft", "soggy", "stale"],
+          "nonex": ["It does NOT mean mushy.", "It does NOT mean hot or warm."],
+          "example": "The crisp autumn air made her cheeks turn red.",
+          "starter": "Something crisp I like to eat is _______ ...",
+          "why": "Crisp is a fun word that describes both food and weather!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 58,
+    "sentences": [
+      {
+        "orig": "he found a egg under a tender plant",
+        "corr": [
+          {"t": "capitalization", "w": "he", "r": "He", "e": "The first word of a sentence must be capitalized."},
+          {"t": "grammar", "w": "a", "r": "an", "e": "Use 'an' before words that start with a vowel sound, like 'egg.'"},
+          {"t": "spelling", "w": "under", "r": "under", "e": "Under is spelled correctly. Great job!"},
+          {"t": "grammar", "w": "a tender", "r": "a tender", "e": "The article 'a' is correct before 'tender' because it starts with a consonant."},
+          {"t": "punctuation", "w": "plant", "r": "plant.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "He found an egg under a tender plant.",
+        "pos": [
+          {"w": "He", "t": "PRO", "q": "Find the pronoun that means a boy or man."},
+          {"w": "found", "t": "V", "q": "Find the past tense verb for finding."},
+          {"w": "an", "t": "ART", "q": "Find the article used before a vowel sound."},
+          {"w": "egg", "t": "N", "q": "Find the noun for something a bird lays."},
+          {"w": "under", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "a", "t": "ART", "q": "Find the article before 'tender.'"},
+          {"w": "tender", "t": "ADJ", "q": "Find the adjective that describes the plant."},
+          {"w": "plant", "t": "N", "q": "Find the noun for something that grows in soil."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'egg' with another noun that starts with a vowel.",
+          "word": "egg",
+          "examples": [
+            "He found an <span class='changed'>ant</span> under a tender plant.",
+            "He found an <span class='changed'>acorn</span> under a tender plant."
+          ]
+        },
+        "vocab": {
+          "w": "tender",
+          "type": "adjective",
+          "def": "Soft, gentle, or easy to chew; showing love or care.",
+          "simple": "Tender means soft and gentle, like a tender hug or soft food!",
+          "examples": ["tender meat", "a tender touch", "tender care"],
+          "similar": ["soft", "gentle", "loving"],
+          "antonyms": ["tough", "hard", "rough"],
+          "nonex": ["It does NOT mean mean or unkind.", "It does NOT mean old."],
+          "example": "The mother gave her baby a tender kiss on the cheek.",
+          "starter": "A tender thing I like is _______ ...",
+          "why": "Tender helps you describe things that are soft, gentle, or kind!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 59,
+    "sentences": [
+      {
+        "orig": "we had a ice cream cone on a hot daye",
+        "corr": [
+          {"t": "capitalization", "w": "we", "r": "We", "e": "The first word of a sentence must be capitalized."},
+          {"t": "grammar", "w": "a", "r": "an", "e": "Use 'an' before words that start with a vowel sound, like 'ice.'"},
+          {"t": "grammar", "w": "a hot", "r": "a hot", "e": "The article 'a' is correct before 'hot' because it starts with a consonant."},
+          {"t": "spelling", "w": "daye", "r": "day", "e": "Day does not have an 'e' at the end."},
+          {"t": "punctuation", "w": "daye", "r": "day.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "We had an ice cream cone on a hot day.",
+        "pos": [
+          {"w": "We", "t": "PRO", "q": "Find the pronoun that means a group including me."},
+          {"w": "had", "t": "V", "q": "Find the past tense verb that means 'ate' or 'enjoyed.'"},
+          {"w": "an", "t": "ART", "q": "Find the article used before a vowel sound."},
+          {"w": "ice", "t": "ADJ", "q": "Find the word that describes the type of cream."},
+          {"w": "cream", "t": "N", "q": "Find the noun that is part of 'ice cream.'"},
+          {"w": "cone", "t": "N", "q": "Find the noun for the holder of ice cream."},
+          {"w": "on", "t": "PREP", "q": "Find the preposition that tells when."},
+          {"w": "a", "t": "ART", "q": "Find the article before 'hot.'"},
+          {"w": "hot", "t": "ADJ", "q": "Find the adjective that describes the day."},
+          {"w": "day", "t": "N", "q": "Find the noun for a unit of time."}
+        ],
+        "manip": {
+          "task": "Replace the adjective 'hot' with a different weather adjective.",
+          "word": "hot",
+          "examples": [
+            "We had an ice cream cone on a <span class='changed'>warm</span> day.",
+            "We had an ice cream cone on a <span class='changed'>sunny</span> day."
+          ]
+        },
+        "vocab": {
+          "w": "bitter",
+          "type": "adjective",
+          "def": "Having a sharp, unpleasant taste; very cold or harsh.",
+          "simple": "Bitter means a strong, not-sweet taste, like dark chocolate or lemon peel!",
+          "examples": ["bitter medicine", "bitter cold", "a bitter taste"],
+          "similar": ["sour", "harsh", "sharp"],
+          "antonyms": ["sweet", "mild", "pleasant"],
+          "nonex": ["It does NOT mean spicy.", "It does NOT mean salty."],
+          "example": "The bitter wind made us all shiver outside.",
+          "starter": "Something bitter I have tasted is _______ ...",
+          "why": "Bitter is a great word for describing strong tastes and cold weather!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 60,
+    "sentences": [
+      {
+        "orig": "the bloo sky was brite and cler today",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "bloo", "r": "blue", "e": "Blue is spelled b-l-u-e, not b-l-o-o."},
+          {"t": "spelling", "w": "brite", "r": "bright", "e": "Bright has 'igh' in the middle, not just 'i.'"},
+          {"t": "spelling", "w": "cler", "r": "clear", "e": "Clear is spelled c-l-e-a-r, with 'ea' in the middle."},
+          {"t": "punctuation", "w": "today", "r": "today.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The blue sky was bright and clear today.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning of the sentence."},
+          {"w": "blue", "t": "ADJ", "q": "Find the adjective that tells the color of the sky."},
+          {"w": "sky", "t": "N", "q": "Find the noun for the space above the earth."},
+          {"w": "was", "t": "V", "q": "Find the past tense verb 'was.'"},
+          {"w": "bright", "t": "ADJ", "q": "Find the adjective that means full of light."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction that connects two describing words."},
+          {"w": "clear", "t": "ADJ", "q": "Find the adjective that means easy to see through."},
+          {"w": "today", "t": "N", "q": "Find the noun that means this day."}
+        ],
+        "manip": {
+          "task": "Replace the adjective 'blue' with a different color.",
+          "word": "blue",
+          "examples": [
+            "The <span class='changed'>gray</span> sky was bright and clear today.",
+            "The <span class='changed'>pink</span> sky was bright and clear today."
+          ]
+        },
+        "vocab": {
+          "w": "brilliant",
+          "type": "adjective",
+          "def": "Very bright, shining, or very smart and clever.",
+          "simple": "Brilliant means super bright or super smart, like a shining star!",
+          "examples": ["a brilliant light", "a brilliant idea", "brilliant colors"],
+          "similar": ["bright", "shining", "clever"],
+          "antonyms": ["dull", "dim", "foolish"],
+          "nonex": ["It does NOT mean ordinary.", "It does NOT mean dark."],
+          "example": "The brilliant sun made the snow sparkle like diamonds.",
+          "starter": "Something brilliant I saw was _______ ...",
+          "why": "Brilliant is a powerful word for describing very bright things or very smart ideas!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 61,
+    "sentences": [
+      {
+        "orig": "the glas cup fell on the flor and crakd",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "glas", "r": "glass", "e": "Glass has two s's at the end."},
+          {"t": "spelling", "w": "flor", "r": "floor", "e": "Floor is spelled f-l-o-o-r, with two o's."},
+          {"t": "spelling", "w": "crakd", "r": "cracked", "e": "Cracked starts with the blend 'cr' and ends in '-ed.'"},
+          {"t": "punctuation", "w": "crakd", "r": "cracked.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The glass cup fell on the floor and cracked.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning of the sentence."},
+          {"w": "glass", "t": "ADJ", "q": "Find the adjective that tells what the cup is made of."},
+          {"w": "cup", "t": "N", "q": "Find the noun for a thing you drink from."},
+          {"w": "fell", "t": "V", "q": "Find the verb that means dropped down."},
+          {"w": "on", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'floor.'"},
+          {"w": "floor", "t": "N", "q": "Find the noun for the bottom of a room."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction that connects two actions."},
+          {"w": "cracked", "t": "V", "q": "Find the verb that means broke a little."}
+        ],
+        "manip": {
+          "task": "Replace the verb 'cracked' with a different verb.",
+          "word": "cracked",
+          "examples": [
+            "The glass cup fell on the floor and <span class='changed'>broke</span>.",
+            "The glass cup fell on the floor and <span class='changed'>shattered</span>."
+          ]
+        },
+        "vocab": {
+          "w": "fragile",
+          "type": "adjective",
+          "def": "Easily broken, damaged, or hurt; very delicate.",
+          "simple": "Fragile means something can break very easily, like a glass cup!",
+          "examples": ["a fragile vase", "fragile glass", "fragile wings"],
+          "similar": ["delicate", "breakable", "thin"],
+          "antonyms": ["strong", "tough", "unbreakable"],
+          "nonex": ["It does NOT mean ugly.", "It does NOT mean old."],
+          "example": "Be careful with that fragile ornament on the shelf.",
+          "starter": "Something fragile in my house is _______ ...",
+          "why": "Fragile helps you warn people to be careful with things that break easily!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 62,
+    "sentences": [
+      {
+        "orig": "the gras in the park is stil wet",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "gras", "r": "grass", "e": "Grass starts with the blend 'gr' and has two s's at the end."},
+          {"t": "grammar", "w": "is", "r": "was", "e": "Use 'was' to talk about something in the past."},
+          {"t": "spelling", "w": "stil", "r": "still", "e": "Still has two l's at the end."},
+          {"t": "punctuation", "w": "wet", "r": "wet.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The grass in the park was still wet.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning of the sentence."},
+          {"w": "grass", "t": "N", "q": "Find the noun for the green plants on the ground."},
+          {"w": "in", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'park.'"},
+          {"w": "park", "t": "N", "q": "Find the noun for an outdoor place to play."},
+          {"w": "was", "t": "V", "q": "Find the past tense verb."},
+          {"w": "still", "t": "ADV", "q": "Find the word that means 'even now.'"},
+          {"w": "wet", "t": "ADJ", "q": "Find the adjective that describes the grass."}
+        ],
+        "manip": {
+          "task": "Replace the adjective 'wet' with a different adjective.",
+          "word": "wet",
+          "examples": [
+            "The grass in the park was still <span class='changed'>damp</span>.",
+            "The grass in the park was still <span class='changed'>green</span>."
+          ]
+        },
+        "vocab": {
+          "w": "damp",
+          "type": "adjective",
+          "def": "Slightly wet; not completely dry.",
+          "simple": "Damp means a little bit wet, like a towel after you dry your hands!",
+          "examples": ["a damp cloth", "damp grass", "damp air"],
+          "similar": ["moist", "wet", "dewy"],
+          "antonyms": ["dry", "arid", "parched"],
+          "nonex": ["It does NOT mean soaking wet.", "It does NOT mean frozen."],
+          "example": "The damp grass tickled my bare feet in the morning.",
+          "starter": "Something damp I have touched is _______ ...",
+          "why": "Damp is a great word for when something is just a little bit wet!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 63,
+    "sentences": [
+      {
+        "orig": "my dog likes to play in mi yard",
+        "corr": [
+          {"t": "capitalization", "w": "my", "r": "My", "e": "The first word of a sentence must be capitalized."},
+          {"t": "grammar", "w": "likes", "r": "loved", "e": "Use past tense 'loved' to tell about something that already happened."},
+          {"t": "grammar", "w": "to play", "r": "playing", "e": "After 'loved,' use 'playing' instead of 'to play.'"},
+          {"t": "spelling", "w": "mi", "r": "my", "e": "My is spelled m-y, not m-i."},
+          {"t": "punctuation", "w": "yard", "r": "yard.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "My dog loved playing in my yard.",
+        "pos": [
+          {"w": "My", "t": "POSS", "q": "Find the possessive pronoun that means 'belonging to me.'"},
+          {"w": "dog", "t": "N", "q": "Find the noun for a pet animal."},
+          {"w": "loved", "t": "V", "q": "Find the past tense verb that means enjoyed."},
+          {"w": "playing", "t": "V", "q": "Find the action verb ending in '-ing.'"},
+          {"w": "in", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "my", "t": "POSS", "q": "Find the possessive pronoun before 'yard.'"},
+          {"w": "yard", "t": "N", "q": "Find the noun for the area around a house."}
+        ],
+        "manip": {
+          "task": "Replace the possessive pronoun 'my' (before yard) with a different possessive pronoun.",
+          "word": "my",
+          "examples": [
+            "My dog loved playing in <span class='changed'>her</span> yard.",
+            "My dog loved playing in <span class='changed'>his</span> yard."
+          ]
+        },
+        "vocab": {
+          "w": "precious",
+          "type": "adjective",
+          "def": "Very valuable, important, or loved; worth protecting.",
+          "simple": "Precious means something is very special and you want to keep it safe!",
+          "examples": ["a precious gem", "precious memories", "a precious gift"],
+          "similar": ["valuable", "dear", "treasured"],
+          "antonyms": ["worthless", "cheap", "common"],
+          "nonex": ["It does NOT mean shiny.", "It does NOT mean expensive."],
+          "example": "The puppy was precious to the whole family.",
+          "starter": "Something precious to me is _______ ...",
+          "why": "Precious helps you describe things you really love and care about!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 64,
+    "sentences": [
+      {
+        "orig": "your sister bringd her lunch to scool",
+        "corr": [
+          {"t": "capitalization", "w": "your", "r": "Your", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "bringd", "r": "brought", "e": "The past tense of 'bring' is 'brought,' not 'bringd.'"},
+          {"t": "grammar", "w": "her", "r": "her", "e": "The possessive pronoun 'her' is used correctly here."},
+          {"t": "spelling", "w": "scool", "r": "school", "e": "School is spelled with 'ch' in the middle."},
+          {"t": "punctuation", "w": "scool", "r": "school.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "Your sister brought her lunch to school.",
+        "pos": [
+          {"w": "Your", "t": "POSS", "q": "Find the possessive pronoun meaning 'belonging to you.'"},
+          {"w": "sister", "t": "N", "q": "Find the noun for a female sibling."},
+          {"w": "brought", "t": "V", "q": "Find the past tense verb for carrying something."},
+          {"w": "her", "t": "POSS", "q": "Find the possessive pronoun meaning 'belonging to her.'"},
+          {"w": "lunch", "t": "N", "q": "Find the noun for a midday meal."},
+          {"w": "to", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "school", "t": "N", "q": "Find the noun for a place of learning."}
+        ],
+        "manip": {
+          "task": "Replace the possessive pronoun 'her' with a different possessive pronoun.",
+          "word": "her",
+          "examples": [
+            "Your sister brought <span class='changed'>his</span> lunch to school.",
+            "Your sister brought <span class='changed'>my</span> lunch to school."
+          ]
+        },
+        "vocab": {
+          "w": "familiar",
+          "type": "adjective",
+          "def": "Well known; often seen or experienced before.",
+          "simple": "Familiar means you know it because you have seen or heard it before!",
+          "examples": ["a familiar face", "a familiar song", "a familiar place"],
+          "similar": ["known", "recognized", "common"],
+          "antonyms": ["strange", "unknown", "new"],
+          "nonex": ["It does NOT mean boring.", "It does NOT mean old."],
+          "example": "The familiar smell of cookies made her smile.",
+          "starter": "A familiar sound I hear is _______ ...",
+          "why": "Familiar helps you talk about things you already know!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 65,
+    "sentences": [
+      {
+        "orig": "his cat sleeps in her warm bedd at nite",
+        "corr": [
+          {"t": "capitalization", "w": "his", "r": "His", "e": "The first word of a sentence must be capitalized."},
+          {"t": "grammar", "w": "her", "r": "its", "e": "Use 'its' for an animal's bed, not 'her.'"},
+          {"t": "spelling", "w": "bedd", "r": "bed", "e": "Bed has only one 'd' at the end."},
+          {"t": "spelling", "w": "nite", "r": "night", "e": "Night is spelled with 'igh' in the middle."},
+          {"t": "punctuation", "w": "nite", "r": "night.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "His cat sleeps in its warm bed at night.",
+        "pos": [
+          {"w": "His", "t": "POSS", "q": "Find the possessive pronoun meaning 'belonging to him.'"},
+          {"w": "cat", "t": "N", "q": "Find the noun for a furry pet."},
+          {"w": "sleeps", "t": "V", "q": "Find the verb that means resting with eyes closed."},
+          {"w": "in", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "its", "t": "POSS", "q": "Find the possessive pronoun meaning 'belonging to it.'"},
+          {"w": "warm", "t": "ADJ", "q": "Find the adjective that describes the bed."},
+          {"w": "bed", "t": "N", "q": "Find the noun for a place to sleep."},
+          {"w": "at", "t": "PREP", "q": "Find the preposition that tells when."},
+          {"w": "night", "t": "N", "q": "Find the noun for the time when it is dark."}
+        ],
+        "manip": {
+          "task": "Replace the adjective 'warm' with a different adjective.",
+          "word": "warm",
+          "examples": [
+            "His cat sleeps in its <span class='changed'>snug</span> bed at night.",
+            "His cat sleeps in its <span class='changed'>soft</span> bed at night."
+          ]
+        },
+        "vocab": {
+          "w": "snug",
+          "type": "adjective",
+          "def": "Warm, cozy, and comfortable; fitting closely.",
+          "simple": "Snug means warm and comfortable, like curling up in a blanket!",
+          "examples": ["a snug blanket", "a snug fit", "a snug room"],
+          "similar": ["cozy", "comfortable", "warm"],
+          "antonyms": ["cold", "loose", "uncomfortable"],
+          "nonex": ["It does NOT mean tight or painful.", "It does NOT mean big and open."],
+          "example": "The kitten was snug in its little bed by the fire.",
+          "starter": "I feel snug when I _______ ...",
+          "why": "Snug is a cozy word that describes feeling warm and safe!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 66,
+    "sentences": [
+      {
+        "orig": "him runs fast in the rase at school",
+        "corr": [
+          {"t": "capitalization", "w": "him", "r": "He", "e": "The first word of a sentence must be capitalized."},
+          {"t": "grammar", "w": "him", "r": "He", "e": "Use the subject pronoun 'He' instead of 'him' as the subject."},
+          {"t": "grammar", "w": "runs", "r": "ran", "e": "Use past tense 'ran' to tell about something that already happened."},
+          {"t": "spelling", "w": "rase", "r": "race", "e": "Race is spelled with a 'c,' not an 's.'"},
+          {"t": "punctuation", "w": "school", "r": "school.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "He ran fast in the race at school.",
+        "pos": [
+          {"w": "He", "t": "PRO", "q": "Find the subject pronoun that means a boy or man."},
+          {"w": "ran", "t": "V", "q": "Find the past tense verb for moving quickly."},
+          {"w": "fast", "t": "ADV", "q": "Find the word that tells how he ran."},
+          {"w": "in", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'race.'"},
+          {"w": "race", "t": "N", "q": "Find the noun for a running contest."},
+          {"w": "at", "t": "PREP", "q": "Find the preposition that tells location."},
+          {"w": "school", "t": "N", "q": "Find the noun for a place of learning."}
+        ],
+        "manip": {
+          "task": "Replace the subject pronoun 'He' with a different subject pronoun.",
+          "word": "He",
+          "examples": [
+            "<span class='changed'>She</span> ran fast in the race at school.",
+            "<span class='changed'>I</span> ran fast in the race at school."
+          ]
+        },
+        "vocab": {
+          "w": "fierce",
+          "type": "adjective",
+          "def": "Very strong, powerful, or intense; showing strong feelings.",
+          "simple": "Fierce means very strong or brave, like a fierce lion!",
+          "examples": ["a fierce storm", "a fierce lion", "fierce competition"],
+          "similar": ["strong", "powerful", "wild"],
+          "antonyms": ["gentle", "mild", "calm"],
+          "nonex": ["It does NOT mean scary.", "It does NOT mean mean or evil."],
+          "example": "The fierce wind blew the leaves off all the trees.",
+          "starter": "Something fierce I have seen is _______ ...",
+          "why": "Fierce is a strong word that helps you describe powerful things!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 67,
+    "sentences": [
+      {
+        "orig": "her and me played with the blocks at scool",
+        "corr": [
+          {"t": "capitalization", "w": "her", "r": "She", "e": "The first word of a sentence must be capitalized."},
+          {"t": "grammar", "w": "her", "r": "She", "e": "Use the subject pronoun 'She' instead of 'her' as the subject."},
+          {"t": "grammar", "w": "me", "r": "I", "e": "Use the subject pronoun 'I' instead of 'me' as the subject."},
+          {"t": "spelling", "w": "scool", "r": "school", "e": "School is spelled with 'ch' in the middle."},
+          {"t": "punctuation", "w": "scool", "r": "school.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "She and I played with the blocks at school.",
+        "pos": [
+          {"w": "She", "t": "PRO", "q": "Find the subject pronoun that means a girl or woman."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction that connects two people."},
+          {"w": "I", "t": "PRO", "q": "Find the subject pronoun that means the person speaking."},
+          {"w": "played", "t": "V", "q": "Find the past tense verb for having fun."},
+          {"w": "with", "t": "PREP", "q": "Find the preposition that tells how."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'blocks.'"},
+          {"w": "blocks", "t": "N", "q": "Find the plural noun for building toys."},
+          {"w": "at", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "school", "t": "N", "q": "Find the noun for a place of learning."}
+        ],
+        "manip": {
+          "task": "Replace the subject pronoun 'She' with a different subject pronoun.",
+          "word": "She",
+          "examples": [
+            "<span class='changed'>He</span> and I played with the blocks at school.",
+            "<span class='changed'>They</span> and I played with the blocks at school."
+          ]
+        },
+        "vocab": {
+          "w": "content",
+          "type": "adjective",
+          "def": "Happy and satisfied; feeling good about what you have.",
+          "simple": "Content means feeling happy and peaceful, like after a good day!",
+          "examples": ["a content smile", "feeling content", "content with her work"],
+          "similar": ["happy", "satisfied", "pleased"],
+          "antonyms": ["unhappy", "restless", "upset"],
+          "nonex": ["It does NOT mean excited or hyper.", "It does NOT mean bored."],
+          "example": "The children felt content after playing together all day.",
+          "starter": "I feel content when I _______ ...",
+          "why": "Content is a peaceful word that describes a quiet, happy feeling!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 68,
+    "sentences": [
+      {
+        "orig": "us went to the park and them came too",
+        "corr": [
+          {"t": "capitalization", "w": "us", "r": "We", "e": "The first word of a sentence must be capitalized."},
+          {"t": "grammar", "w": "us", "r": "We", "e": "Use the subject pronoun 'We' instead of 'us' as the subject."},
+          {"t": "grammar", "w": "them", "r": "they", "e": "Use the subject pronoun 'they' instead of 'them' as the subject."},
+          {"t": "spelling", "w": "too", "r": "too", "e": "'Too' is correct here and means 'also.'"},
+          {"t": "punctuation", "w": "too", "r": "too.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "We went to the park and they came too.",
+        "pos": [
+          {"w": "We", "t": "PRO", "q": "Find the subject pronoun meaning a group including me."},
+          {"w": "went", "t": "V", "q": "Find the past tense verb for going somewhere."},
+          {"w": "to", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'park.'"},
+          {"w": "park", "t": "N", "q": "Find the noun for an outdoor place to play."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction that connects two parts."},
+          {"w": "they", "t": "PRO", "q": "Find the subject pronoun that means a group of people."},
+          {"w": "came", "t": "V", "q": "Find the past tense verb for arriving."},
+          {"w": "too", "t": "ADV", "q": "Find the word that means 'also.'"}
+        ],
+        "manip": {
+          "task": "Replace the subject pronoun 'they' with a different subject pronoun.",
+          "word": "they",
+          "examples": [
+            "We went to the park and <span class='changed'>she</span> came too.",
+            "We went to the park and <span class='changed'>he</span> came too."
+          ]
+        },
+        "vocab": {
+          "w": "weary",
+          "type": "adjective",
+          "def": "Very tired, especially after working hard or a long time.",
+          "simple": "Weary means really tired, like after running and playing all day!",
+          "examples": ["weary legs", "a weary traveler", "weary eyes"],
+          "similar": ["tired", "exhausted", "worn out"],
+          "antonyms": ["rested", "energetic", "fresh"],
+          "nonex": ["It does NOT mean lazy.", "It does NOT mean sick."],
+          "example": "After the long hike, the weary children fell asleep on the bus.",
+          "starter": "I feel weary after I _______ ...",
+          "why": "Weary is a strong way to say you are very, very tired!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 69,
+    "sentences": [
+      {
+        "orig": "this books are old but that ones are neew",
+        "corr": [
+          {"t": "capitalization", "w": "this", "r": "These", "e": "The first word of a sentence must be capitalized."},
+          {"t": "grammar", "w": "this", "r": "These", "e": "Use 'these' for plural nouns like 'books,' not 'this.'"},
+          {"t": "grammar", "w": "that", "r": "those", "e": "Use 'those' for plural nouns like 'ones,' not 'that.'"},
+          {"t": "spelling", "w": "neew", "r": "new", "e": "New is spelled n-e-w, with only one 'e.'"},
+          {"t": "punctuation", "w": "neew", "r": "new.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "These books are old but those ones are new.",
+        "pos": [
+          {"w": "These", "t": "DEM", "q": "Find the demonstrative for nearby plural things."},
+          {"w": "books", "t": "N", "q": "Find the plural noun for things you read."},
+          {"w": "are", "t": "V", "q": "Find the verb that links the subject to the description."},
+          {"w": "old", "t": "ADJ", "q": "Find the adjective that means not new."},
+          {"w": "but", "t": "CONJ", "q": "Find the conjunction that shows a contrast."},
+          {"w": "those", "t": "DEM", "q": "Find the demonstrative for faraway plural things."},
+          {"w": "ones", "t": "N", "q": "Find the noun that replaces 'books.'"},
+          {"w": "are", "t": "V", "q": "Find the second linking verb."},
+          {"w": "new", "t": "ADJ", "q": "Find the adjective that means not old."}
+        ],
+        "manip": {
+          "task": "Replace the demonstrative 'These' with 'This' and fix the noun.",
+          "word": "These",
+          "examples": [
+            "<span class='changed'>This book is</span> old but those ones are new.",
+            "<span class='changed'>That</span> books are old but those ones are new."
+          ]
+        },
+        "vocab": {
+          "w": "peculiar",
+          "type": "adjective",
+          "def": "Strange or unusual; different from what is normal.",
+          "simple": "Peculiar means something is odd or weird, like a cat wearing a hat!",
+          "examples": ["a peculiar noise", "peculiar behavior", "a peculiar shape"],
+          "similar": ["strange", "odd", "unusual"],
+          "antonyms": ["normal", "ordinary", "common"],
+          "nonex": ["It does NOT mean bad.", "It does NOT mean funny."],
+          "example": "The dog made a peculiar sound that no one had heard before.",
+          "starter": "Something peculiar I noticed was _______ ...",
+          "why": "Peculiar is a fun word for describing things that are strange or surprising!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 70,
+    "sentences": [
+      {
+        "orig": "that cupcake looks small but this one is biger",
+        "corr": [
+          {"t": "capitalization", "w": "that", "r": "That", "e": "The first word of a sentence must be capitalized."},
+          {"t": "grammar", "w": "that", "r": "That", "e": "Use 'That' to point to something far away."},
+          {"t": "grammar", "w": "this", "r": "this", "e": "Use 'this' to point to something close."},
+          {"t": "spelling", "w": "biger", "r": "bigger", "e": "Bigger has two g's in the middle."},
+          {"t": "punctuation", "w": "biger", "r": "bigger.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "That cupcake looks small but this one is bigger.",
+        "pos": [
+          {"w": "That", "t": "DEM", "q": "Find the demonstrative for a faraway thing."},
+          {"w": "cupcake", "t": "N", "q": "Find the noun for a small cake."},
+          {"w": "looks", "t": "V", "q": "Find the verb that means 'appears.'"},
+          {"w": "small", "t": "ADJ", "q": "Find the adjective that means little."},
+          {"w": "but", "t": "CONJ", "q": "Find the conjunction that shows a contrast."},
+          {"w": "this", "t": "DEM", "q": "Find the demonstrative for a nearby thing."},
+          {"w": "one", "t": "N", "q": "Find the noun that replaces 'cupcake.'"},
+          {"w": "is", "t": "V", "q": "Find the linking verb."},
+          {"w": "bigger", "t": "ADJ", "q": "Find the adjective that compares the sizes."}
+        ],
+        "manip": {
+          "task": "Replace the demonstrative 'That' with 'This' and change 'this' to 'that.'",
+          "word": "That",
+          "examples": [
+            "<span class='changed'>This</span> cupcake looks small but <span class='changed'>that</span> one is bigger.",
+            "<span class='changed'>This</span> cupcake looks small but <span class='changed'>that</span> one is bigger."
+          ]
+        },
+        "vocab": {
+          "w": "dainty",
+          "type": "adjective",
+          "def": "Small, pretty, and delicate; showing fine quality.",
+          "simple": "Dainty means small and pretty, like a tiny teacup or a little flower!",
+          "examples": ["a dainty flower", "dainty fingers", "a dainty plate"],
+          "similar": ["delicate", "small", "elegant"],
+          "antonyms": ["clumsy", "large", "rough"],
+          "nonex": ["It does NOT mean weak.", "It does NOT mean plain."],
+          "example": "The dainty butterfly landed gently on the flower.",
+          "starter": "Something dainty I have seen is _______ ...",
+          "why": "Dainty is a lovely word for describing small, beautiful things!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 71,
+    "sentences": [
+      {
+        "orig": "those dogs are loud and these cats are qiuet",
+        "corr": [
+          {"t": "capitalization", "w": "those", "r": "Those", "e": "The first word of a sentence must be capitalized."},
+          {"t": "grammar", "w": "those", "r": "Those", "e": "Use 'Those' to point to faraway plural things."},
+          {"t": "grammar", "w": "these", "r": "these", "e": "Use 'these' to point to nearby plural things."},
+          {"t": "spelling", "w": "qiuet", "r": "quiet", "e": "Quiet is spelled q-u-i-e-t, with 'ui' not 'iu.'"},
+          {"t": "punctuation", "w": "qiuet", "r": "quiet.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "Those dogs are loud and these cats are quiet.",
+        "pos": [
+          {"w": "Those", "t": "DEM", "q": "Find the demonstrative for faraway plural things."},
+          {"w": "dogs", "t": "N", "q": "Find the plural noun for pet animals."},
+          {"w": "are", "t": "V", "q": "Find the first linking verb."},
+          {"w": "loud", "t": "ADJ", "q": "Find the adjective that means making a lot of noise."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction that connects two ideas."},
+          {"w": "these", "t": "DEM", "q": "Find the demonstrative for nearby plural things."},
+          {"w": "cats", "t": "N", "q": "Find the plural noun for furry pets."},
+          {"w": "are", "t": "V", "q": "Find the second linking verb."},
+          {"w": "quiet", "t": "ADJ", "q": "Find the adjective that means not loud."}
+        ],
+        "manip": {
+          "task": "Replace the adjective 'loud' with a different adjective.",
+          "word": "loud",
+          "examples": [
+            "Those dogs are <span class='changed'>friendly</span> and these cats are quiet.",
+            "Those dogs are <span class='changed'>big</span> and these cats are quiet."
+          ]
+        },
+        "vocab": {
+          "w": "ancient",
+          "type": "adjective",
+          "def": "Very, very old; from a long time ago.",
+          "simple": "Ancient means super old, like dinosaurs or castles from long ago!",
+          "examples": ["an ancient castle", "ancient history", "an ancient tree"],
+          "similar": ["old", "antique", "historic"],
+          "antonyms": ["new", "modern", "recent"],
+          "nonex": ["It does NOT mean broken.", "It does NOT mean ugly."],
+          "example": "The ancient tree in the park was over two hundred years old.",
+          "starter": "Something ancient I know about is _______ ...",
+          "why": "Ancient is a powerful word for talking about things from long, long ago!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 72,
+    "sentences": [
+      {
+        "orig": "we had a party on january 5 2026 at school",
+        "corr": [
+          {"t": "capitalization", "w": "we", "r": "We", "e": "The first word of a sentence must be capitalized."},
+          {"t": "capitalization", "w": "january", "r": "January", "e": "The name of a month is a proper noun and must be capitalized."},
+          {"t": "punctuation", "w": "5", "r": "5,", "e": "Put a comma between the day and the year in a date."},
+          {"t": "grammar", "w": "at school", "r": "at school", "e": "The phrase 'at school' correctly tells where the party was."},
+          {"t": "punctuation", "w": "school", "r": "school.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "We had a party on January 5, 2026 at school.",
+        "pos": [
+          {"w": "We", "t": "PRO", "q": "Find the subject pronoun meaning a group including me."},
+          {"w": "had", "t": "V", "q": "Find the past tense verb that means 'enjoyed.'"},
+          {"w": "a", "t": "ART", "q": "Find the article before 'party.'"},
+          {"w": "party", "t": "N", "q": "Find the noun for a fun gathering."},
+          {"w": "on", "t": "PREP", "q": "Find the preposition before the date."},
+          {"w": "January", "t": "N", "q": "Find the proper noun that names a month."},
+          {"w": "5,", "t": "N", "q": "Find the number that tells the day of the month."},
+          {"w": "2026", "t": "N", "q": "Find the number that tells the year."},
+          {"w": "at", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "school", "t": "N", "q": "Find the noun for a place of learning."}
+        ],
+        "manip": {
+          "task": "Replace the month 'January' with a different month.",
+          "word": "January",
+          "examples": [
+            "We had a party on <span class='changed'>March</span> 5, 2026 at school.",
+            "We had a party on <span class='changed'>October</span> 5, 2026 at school."
+          ]
+        },
+        "vocab": {
+          "w": "celebrate",
+          "type": "verb",
+          "def": "To do something special and fun for a happy event or holiday.",
+          "simple": "Celebrate means to have a good time for a special reason, like a birthday!",
+          "examples": ["celebrate a birthday", "celebrate a holiday", "celebrate a win"],
+          "similar": ["party", "honor", "enjoy"],
+          "antonyms": ["mourn", "ignore", "forget"],
+          "nonex": ["It does NOT mean to be quiet.", "It does NOT mean to give a gift."],
+          "example": "We will celebrate her birthday with cake and balloons.",
+          "starter": "I like to celebrate by _______ ...",
+          "why": "Celebrate is a joyful word for talking about happy events and special days!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 73,
+    "sentences": [
+      {
+        "orig": "my birthday is on march 10 2026 this yeer",
+        "corr": [
+          {"t": "capitalization", "w": "my", "r": "My", "e": "The first word of a sentence must be capitalized."},
+          {"t": "capitalization", "w": "march", "r": "March", "e": "The name of a month must be capitalized."},
+          {"t": "punctuation", "w": "10", "r": "10,", "e": "Put a comma between the day and the year in a date."},
+          {"t": "spelling", "w": "yeer", "r": "year", "e": "Year is spelled y-e-a-r, with 'ea' in the middle."},
+          {"t": "punctuation", "w": "yeer", "r": "year.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "My birthday is on March 10, 2026 this year.",
+        "pos": [
+          {"w": "My", "t": "POSS", "q": "Find the possessive pronoun meaning 'belonging to me.'"},
+          {"w": "birthday", "t": "N", "q": "Find the noun for the day you were born."},
+          {"w": "is", "t": "V", "q": "Find the linking verb."},
+          {"w": "on", "t": "PREP", "q": "Find the preposition before the date."},
+          {"w": "March", "t": "N", "q": "Find the proper noun that names a month."},
+          {"w": "10,", "t": "N", "q": "Find the number that tells the day of the month."},
+          {"w": "2026", "t": "N", "q": "Find the number that tells the year."},
+          {"w": "this", "t": "DEM", "q": "Find the demonstrative that means 'the current one.'"},
+          {"w": "year", "t": "N", "q": "Find the noun for a period of 12 months."}
+        ],
+        "manip": {
+          "task": "Replace the month 'March' with a different month.",
+          "word": "March",
+          "examples": [
+            "My birthday is on <span class='changed'>June</span> 10, 2026 this year.",
+            "My birthday is on <span class='changed'>September</span> 10, 2026 this year."
+          ]
+        },
+        "vocab": {
+          "w": "patient",
+          "type": "adjective",
+          "def": "Able to wait calmly without getting upset or angry.",
+          "simple": "Patient means you can wait nicely without getting mad!",
+          "examples": ["a patient teacher", "being patient in line", "patient waiting"],
+          "similar": ["calm", "steady", "tolerant"],
+          "antonyms": ["impatient", "restless", "hasty"],
+          "nonex": ["It does NOT mean slow.", "It does NOT mean lazy."],
+          "example": "The patient girl waited her turn without complaining.",
+          "starter": "I need to be patient when I _______ ...",
+          "why": "Patient is an important word for learning to wait calmly!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 74,
+    "sentences": [
+      {
+        "orig": "she saw a amazin red bird in those trees",
+        "corr": [
+          {"t": "capitalization", "w": "she", "r": "She", "e": "The first word of a sentence must be capitalized."},
+          {"t": "grammar", "w": "a", "r": "an", "e": "Use 'an' before words that start with a vowel sound, like 'amazing.'"},
+          {"t": "spelling", "w": "amazin", "r": "amazing", "e": "Amazing ends with '-ing,' not just '-in.'"},
+          {"t": "grammar", "w": "those", "r": "those", "e": "Use 'those' to point to faraway plural things."},
+          {"t": "punctuation", "w": "trees", "r": "trees.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "She saw an amazing red bird in those trees.",
+        "pos": [
+          {"w": "She", "t": "PRO", "q": "Find the subject pronoun that means a girl or woman."},
+          {"w": "saw", "t": "V", "q": "Find the past tense verb for seeing."},
+          {"w": "an", "t": "ART", "q": "Find the article used before a vowel sound."},
+          {"w": "amazing", "t": "ADJ", "q": "Find the adjective that means wonderful."},
+          {"w": "red", "t": "ADJ", "q": "Find the adjective that tells the color."},
+          {"w": "bird", "t": "N", "q": "Find the noun for an animal that flies."},
+          {"w": "in", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "those", "t": "DEM", "q": "Find the demonstrative for faraway plural things."},
+          {"w": "trees", "t": "N", "q": "Find the plural noun for tall plants."}
+        ],
+        "manip": {
+          "task": "Replace the adjective 'red' with a different color adjective.",
+          "word": "red",
+          "examples": [
+            "She saw an amazing <span class='changed'>blue</span> bird in those trees.",
+            "She saw an amazing <span class='changed'>golden</span> bird in those trees."
+          ]
+        },
+        "vocab": {
+          "w": "marvel",
+          "type": "verb",
+          "def": "To feel great surprise or wonder about something amazing.",
+          "simple": "Marvel means to look at something amazing and feel surprised and happy!",
+          "examples": ["marvel at the stars", "marvel at the view", "marvel at a trick"],
+          "similar": ["wonder", "admire", "gaze"],
+          "antonyms": ["ignore", "overlook", "dismiss"],
+          "nonex": ["It does NOT mean to be scared.", "It does NOT mean to touch."],
+          "example": "We stopped to marvel at the beautiful rainbow in the sky.",
+          "starter": "I marvel at _______ ...",
+          "why": "Marvel is a wonderful word for when you see something that fills you with wonder!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 75,
+    "sentences": [
+      {
+        "orig": "we felt happy on february 14 2026 at her party",
+        "corr": [
+          {"t": "capitalization", "w": "we", "r": "We", "e": "The first word of a sentence must be capitalized."},
+          {"t": "capitalization", "w": "february", "r": "February", "e": "The name of a month must be capitalized."},
+          {"t": "punctuation", "w": "14", "r": "14,", "e": "Put a comma between the day and the year in a date."},
+          {"t": "grammar", "w": "her", "r": "her", "e": "The possessive pronoun 'her' correctly shows whose party."},
+          {"t": "punctuation", "w": "party", "r": "party.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "We felt happy on February 14, 2026 at her party.",
+        "pos": [
+          {"w": "We", "t": "PRO", "q": "Find the subject pronoun meaning a group including me."},
+          {"w": "felt", "t": "V", "q": "Find the past tense verb for feeling."},
+          {"w": "happy", "t": "ADJ", "q": "Find the adjective that means feeling glad."},
+          {"w": "on", "t": "PREP", "q": "Find the preposition before the date."},
+          {"w": "February", "t": "N", "q": "Find the proper noun that names a month."},
+          {"w": "14,", "t": "N", "q": "Find the number that tells the day of the month."},
+          {"w": "2026", "t": "N", "q": "Find the number that tells the year."},
+          {"w": "at", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "her", "t": "POSS", "q": "Find the possessive pronoun meaning 'belonging to her.'"},
+          {"w": "party", "t": "N", "q": "Find the noun for a fun gathering."}
+        ],
+        "manip": {
+          "task": "Replace the possessive pronoun 'her' with a different possessive pronoun.",
+          "word": "her",
+          "examples": [
+            "We felt happy on February 14, 2026 at <span class='changed'>his</span> party.",
+            "We felt happy on February 14, 2026 at <span class='changed'>my</span> party."
+          ]
+        },
+        "vocab": {
+          "w": "delight",
+          "type": "noun",
+          "def": "A feeling of great happiness and pleasure.",
+          "simple": "Delight means a big, wonderful feeling of joy, like when you get a surprise!",
+          "examples": ["pure delight", "a delight to watch", "squeals of delight"],
+          "similar": ["joy", "happiness", "pleasure"],
+          "antonyms": ["sadness", "disappointment", "sorrow"],
+          "nonex": ["It does NOT mean laughter.", "It does NOT mean a gift."],
+          "example": "The children screamed with delight when they saw the puppy.",
+          "starter": "Something that fills me with delight is _______ ...",
+          "why": "Delight is a wonderful word for the biggest, happiest feelings!"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,1223 @@
+[
+  {
+    "day": 101,
+    "sentences": [
+      {
+        "orig": "can you tell the class about your weekkend trip",
+        "corr": [
+          {"t": "capitalization", "w": "can", "r": "Can", "e": "The first word of a sentence must be capitalized."},
+          {"t": "grammar", "w": "tell", "r": "tell", "e": "Tell is the correct verb for sharing information with others."},
+          {"t": "spelling", "w": "weekkend", "r": "weekend", "e": "Weekend has only one 'k' in the middle."},
+          {"t": "grammar", "w": "your", "r": "your", "e": "Your is the correct possessive pronoun meaning 'belonging to you.'"},
+          {"t": "punctuation", "w": "trip", "r": "trip?", "e": "A question must end with a question mark."}
+        ],
+        "fixed": "Can you tell the class about your weekend trip?",
+        "pos": [
+          {"w": "Can", "t": "V", "q": "Find the helping verb that starts this question."},
+          {"w": "you", "t": "PRO", "q": "Find the pronoun for the person being asked."},
+          {"w": "tell", "t": "V", "q": "Find the action verb that means to share information."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'class.'"},
+          {"w": "class", "t": "N", "q": "Find the common noun for a group of students."},
+          {"w": "about", "t": "PREP", "q": "Find the preposition that connects to the topic."},
+          {"w": "your", "t": "POSS", "q": "Find the possessive word meaning 'belonging to you.'"},
+          {"w": "weekend", "t": "N", "q": "Find the noun for Saturday and Sunday."},
+          {"w": "trip", "t": "N", "q": "Find the noun that means a journey."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'trip' with a different noun.",
+          "word": "trip",
+          "examples": [
+            "Can you tell the class about your weekend <span class='changed'>party</span>?",
+            "Can you tell the class about your weekend <span class='changed'>game</span>?"
+          ]
+        },
+        "vocab": {
+          "w": "announce",
+          "type": "verb",
+          "def": "To say something important so everyone can hear it.",
+          "simple": "Announce means to tell everyone something out loud, like sharing big news!",
+          "examples": ["announce the winner", "announce the rules", "announce a surprise"],
+          "similar": ["declare", "proclaim", "share"],
+          "antonyms": ["whisper", "hide", "conceal"],
+          "nonex": ["It does NOT mean to say something quietly.", "It does NOT mean to keep a secret."],
+          "example": "The teacher will announce the winner of the spelling contest.",
+          "starter": "I would like to announce that _______ ...",
+          "why": "Announce is a strong word for sharing important news with a group!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 102,
+    "sentences": [
+      {
+        "orig": "pleese bring your notebook to the reading table",
+        "corr": [
+          {"t": "capitalization", "w": "pleese", "r": "Please", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "pleese", "r": "Please", "e": "Please is spelled p-l-e-a-s-e, not p-l-e-e-s-e."},
+          {"t": "grammar", "w": "bring", "r": "bring", "e": "Bring is the correct verb for a command asking someone to carry something to you."},
+          {"t": "grammar", "w": "reading", "r": "reading", "e": "Reading is used as an adjective here to describe the type of table."},
+          {"t": "punctuation", "w": "table", "r": "table.", "e": "A command ends with a period."}
+        ],
+        "fixed": "Please bring your notebook to the reading table.",
+        "pos": [
+          {"w": "Please", "t": "ADV", "q": "Find the polite word that starts this command."},
+          {"w": "bring", "t": "V", "q": "Find the action verb meaning to carry something here."},
+          {"w": "your", "t": "POSS", "q": "Find the possessive word meaning 'belonging to you.'"},
+          {"w": "notebook", "t": "N", "q": "Find the noun for something you write in."},
+          {"w": "to", "t": "PREP", "q": "Find the preposition that tells direction."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'reading.'"},
+          {"w": "reading", "t": "ADJ", "q": "Find the word that describes the type of table."},
+          {"w": "table", "t": "N", "q": "Find the common noun for a piece of furniture."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'notebook' with a different noun.",
+          "word": "notebook",
+          "examples": [
+            "Please bring your <span class='changed'>pencil</span> to the reading table.",
+            "Please bring your <span class='changed'>folder</span> to the reading table."
+          ]
+        },
+        "vocab": {
+          "w": "request",
+          "type": "verb",
+          "def": "To ask for something politely.",
+          "simple": "Request means to ask nicely for something you want or need!",
+          "examples": ["request a book", "request help", "request a turn"],
+          "similar": ["ask", "appeal", "inquire"],
+          "antonyms": ["demand", "command", "order"],
+          "nonex": ["It does NOT mean to take without asking.", "It does NOT mean to yell at someone."],
+          "example": "You can request a new library book from the teacher.",
+          "starter": "I would like to request _______ ...",
+          "why": "Request is a polite way to ask for things you need!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 103,
+    "sentences": [
+      {
+        "orig": "what a amazing sunset we saw last nite",
+        "corr": [
+          {"t": "capitalization", "w": "what", "r": "What", "e": "The first word of a sentence must be capitalized."},
+          {"t": "grammar", "w": "a", "r": "an", "e": "Use 'an' before a word that starts with a vowel sound like 'amazing.'"},
+          {"t": "spelling", "w": "nite", "r": "night", "e": "Night is spelled n-i-g-h-t, not n-i-t-e."},
+          {"t": "grammar", "w": "saw", "r": "saw", "e": "Saw is the correct past tense of 'see.'"},
+          {"t": "punctuation", "w": "nite", "r": "night!", "e": "An exclamation must end with an exclamation mark."}
+        ],
+        "fixed": "What an amazing sunset we saw last night!",
+        "pos": [
+          {"w": "What", "t": "ADV", "q": "Find the word that starts this exclamation."},
+          {"w": "an", "t": "ART", "q": "Find the article used before a vowel sound."},
+          {"w": "amazing", "t": "ADJ", "q": "Find the adjective that describes the sunset."},
+          {"w": "sunset", "t": "N", "q": "Find the noun for the sun going down."},
+          {"w": "we", "t": "PRO", "q": "Find the pronoun that means 'our group.'"},
+          {"w": "saw", "t": "V", "q": "Find the past tense verb meaning to look at."},
+          {"w": "last", "t": "ADJ", "q": "Find the adjective that tells which night."},
+          {"w": "night", "t": "N", "q": "Find the noun for the dark time of day."}
+        ],
+        "manip": {
+          "task": "Replace the adjective 'amazing' with a different adjective.",
+          "word": "amazing",
+          "examples": [
+            "What an <span class='changed'>beautiful</span> sunset we saw last night!",
+            "What an <span class='changed'>incredible</span> sunset we saw last night!"
+          ]
+        },
+        "vocab": {
+          "w": "exclaim",
+          "type": "verb",
+          "def": "To cry out or say something suddenly with strong feeling.",
+          "simple": "Exclaim means to shout something because you feel excited, surprised, or amazed!",
+          "examples": ["exclaim with joy", "exclaim in surprise", "exclaim loudly"],
+          "similar": ["shout", "cry", "yell"],
+          "antonyms": ["whisper", "murmur", "mumble"],
+          "nonex": ["It does NOT mean to speak calmly.", "It does NOT mean to ask a question."],
+          "example": "The children exclaim with joy when they see the rainbow.",
+          "starter": "I would exclaim if I saw _______ ...",
+          "why": "Exclaim helps you describe strong feelings people share out loud!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 104,
+    "sentences": [
+      {
+        "orig": "she cant find her gloves for the cold wether",
+        "corr": [
+          {"t": "capitalization", "w": "she", "r": "She", "e": "The first word of a sentence must be capitalized."},
+          {"t": "punctuation", "w": "cant", "r": "can't", "e": "Can't needs an apostrophe between the 'n' and 't' because it is a contraction of 'cannot.'"},
+          {"t": "grammar", "w": "her", "r": "her", "e": "Her is the correct possessive pronoun for a girl."},
+          {"t": "spelling", "w": "wether", "r": "weather", "e": "Weather is spelled w-e-a-t-h-e-r with 'ea' in the middle."},
+          {"t": "punctuation", "w": "wether", "r": "weather.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "She can't find her gloves for the cold weather.",
+        "pos": [
+          {"w": "She", "t": "PRO", "q": "Find the pronoun for a girl."},
+          {"w": "can't", "t": "V", "q": "Find the contraction that means 'cannot.'"},
+          {"w": "find", "t": "V", "q": "Find the action verb meaning to look for and discover."},
+          {"w": "her", "t": "POSS", "q": "Find the possessive word meaning 'belonging to her.'"},
+          {"w": "gloves", "t": "N", "q": "Find the plural noun you wear on your hands."},
+          {"w": "for", "t": "PREP", "q": "Find the preposition that tells the purpose."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'cold.'"},
+          {"w": "cold", "t": "ADJ", "q": "Find the adjective that describes the weather."},
+          {"w": "weather", "t": "N", "q": "Find the noun for rain, sun, snow, or wind."}
+        ],
+        "manip": {
+          "task": "Replace the adjective 'cold' with a different adjective.",
+          "word": "cold",
+          "examples": [
+            "She can't find her gloves for the <span class='changed'>snowy</span> weather.",
+            "She can't find her gloves for the <span class='changed'>windy</span> weather."
+          ]
+        },
+        "vocab": {
+          "w": "abbreviate",
+          "type": "verb",
+          "def": "To shorten a word or phrase by leaving out some letters.",
+          "simple": "Abbreviate means to make a word shorter, like writing 'Dr.' instead of 'Doctor'!",
+          "examples": ["abbreviate a word", "abbreviate a name", "abbreviate a title"],
+          "similar": ["shorten", "reduce", "condense"],
+          "antonyms": ["expand", "lengthen", "extend"],
+          "nonex": ["It does NOT mean to make something longer.", "It does NOT mean to spell a word wrong."],
+          "example": "We abbreviate the word 'Mister' by writing 'Mr.' instead.",
+          "starter": "I can abbreviate the word _______ by writing ...",
+          "why": "Abbreviate helps you understand how short forms of words work in writing!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 105,
+    "sentences": [
+      {
+        "orig": "i dont want to miss the spring festival today",
+        "corr": [
+          {"t": "capitalization", "w": "i", "r": "I", "e": "The pronoun 'I' must always be capitalized."},
+          {"t": "punctuation", "w": "dont", "r": "don't", "e": "Don't needs an apostrophe between the 'n' and 't' because it is a contraction of 'do not.'"},
+          {"t": "spelling", "w": "miss", "r": "miss", "e": "Miss is spelled correctly with a double 's' at the end."},
+          {"t": "capitalization", "w": "spring", "r": "Spring", "e": "Spring is capitalized when it is part of an event name like 'Spring Festival.'"},
+          {"t": "punctuation", "w": "today", "r": "today.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "I don't want to miss the Spring Festival today.",
+        "pos": [
+          {"w": "I", "t": "PRO", "q": "Find the pronoun for yourself."},
+          {"w": "don't", "t": "V", "q": "Find the contraction that means 'do not.'"},
+          {"w": "want", "t": "V", "q": "Find the verb that means to wish for something."},
+          {"w": "to", "t": "PREP", "q": "Find the preposition before the verb."},
+          {"w": "miss", "t": "V", "q": "Find the verb that means to not be there for something."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'Spring.'"},
+          {"w": "Spring", "t": "N", "q": "Find the proper noun naming the season in the event."},
+          {"w": "Festival", "t": "N", "q": "Find the proper noun for a special celebration event."},
+          {"w": "today", "t": "ADV", "q": "Find the adverb that tells when."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'Festival' with a different event noun.",
+          "word": "Festival",
+          "examples": [
+            "I don't want to miss the Spring <span class='changed'>Concert</span> today.",
+            "I don't want to miss the Spring <span class='changed'>Parade</span> today."
+          ]
+        },
+        "vocab": {
+          "w": "omit",
+          "type": "verb",
+          "def": "To leave something out or not include it.",
+          "simple": "Omit means to skip something or leave it out on purpose!",
+          "examples": ["omit a letter", "omit a word", "omit a step"],
+          "similar": ["skip", "exclude", "drop"],
+          "antonyms": ["include", "add", "insert"],
+          "nonex": ["It does NOT mean to add extra things.", "It does NOT mean to repeat something."],
+          "example": "When you make a contraction, you omit some letters and add an apostrophe.",
+          "starter": "If I omit a step in the recipe, then _______ ...",
+          "why": "Omit helps you explain what happens when something is left out of writing!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 106,
+    "sentences": [
+      {
+        "orig": "im so happy because its almost time for winter break",
+        "corr": [
+          {"t": "punctuation", "w": "im", "r": "I'm", "e": "I'm needs a capital 'I' and an apostrophe because it is a contraction of 'I am.'"},
+          {"t": "grammar", "w": "so", "r": "so", "e": "So is used correctly here as an adverb meaning 'very.'"},
+          {"t": "punctuation", "w": "its", "r": "it's", "e": "It's needs an apostrophe because it is a contraction of 'it is.'"},
+          {"t": "capitalization", "w": "winter", "r": "Winter", "e": "Winter is capitalized when part of a name like 'Winter Break.'"},
+          {"t": "punctuation", "w": "break", "r": "break!", "e": "This excited sentence should end with an exclamation mark."}
+        ],
+        "fixed": "I'm so happy because it's almost time for Winter Break!",
+        "pos": [
+          {"w": "I'm", "t": "PRO", "q": "Find the contraction that means 'I am.'"},
+          {"w": "so", "t": "ADV", "q": "Find the adverb that means 'very.'"},
+          {"w": "happy", "t": "ADJ", "q": "Find the adjective that describes a feeling."},
+          {"w": "because", "t": "CONJ", "q": "Find the conjunction that gives a reason."},
+          {"w": "it's", "t": "PRO", "q": "Find the contraction that means 'it is.'"},
+          {"w": "almost", "t": "ADV", "q": "Find the adverb that means 'nearly.'"},
+          {"w": "time", "t": "N", "q": "Find the noun that tells when something happens."},
+          {"w": "for", "t": "PREP", "q": "Find the preposition that tells what the time is for."},
+          {"w": "Winter", "t": "N", "q": "Find the proper noun for the cold season."},
+          {"w": "Break", "t": "N", "q": "Find the noun meaning a time off from school."}
+        ],
+        "manip": {
+          "task": "Replace the adjective 'happy' with a different feeling adjective.",
+          "word": "happy",
+          "examples": [
+            "I'm so <span class='changed'>excited</span> because it's almost time for Winter Break!",
+            "I'm so <span class='changed'>thrilled</span> because it's almost time for Winter Break!"
+          ]
+        },
+        "vocab": {
+          "w": "substitute",
+          "type": "verb",
+          "def": "To put one thing in place of another.",
+          "simple": "Substitute means to swap something out and put something else in its place!",
+          "examples": ["substitute a word", "substitute a player", "substitute a snack"],
+          "similar": ["replace", "swap", "exchange"],
+          "antonyms": ["keep", "maintain", "retain"],
+          "nonex": ["It does NOT mean to add more of the same thing.", "It does NOT mean to remove without replacing."],
+          "example": "The teacher asked us to substitute a new word for the underlined one.",
+          "starter": "I could substitute _______ for ...",
+          "why": "Substitute is useful when you need to explain trading one thing for another!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 107,
+    "sentences": [
+      {
+        "orig": "the cat licked it's paw after its meal today",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "grammar", "w": "it's", "r": "its", "e": "Use 'its' without an apostrophe to show the paw belongs to the cat. 'It's' means 'it is.'"},
+          {"t": "spelling", "w": "licked", "r": "licked", "e": "Licked is spelled correctly with '-ed' for past tense."},
+          {"t": "grammar", "w": "its", "r": "its", "e": "This 'its' is correct without an apostrophe because it shows the meal belongs to the cat."},
+          {"t": "punctuation", "w": "today", "r": "today.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The cat licked its paw after its meal today.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the start of the sentence."},
+          {"w": "cat", "t": "N", "q": "Find the common noun for a pet animal."},
+          {"w": "licked", "t": "V", "q": "Find the past tense verb for using your tongue."},
+          {"w": "its", "t": "POSS", "q": "Find the first possessive word meaning 'belonging to the cat.'"},
+          {"w": "paw", "t": "N", "q": "Find the noun for an animal's foot."},
+          {"w": "after", "t": "PREP", "q": "Find the preposition that tells when."},
+          {"w": "its", "t": "POSS", "q": "Find the second possessive word meaning 'belonging to the cat.'"},
+          {"w": "meal", "t": "N", "q": "Find the noun that means food eaten at one time."},
+          {"w": "today", "t": "ADV", "q": "Find the adverb that tells when this happened."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'cat' with a different animal noun.",
+          "word": "cat",
+          "examples": [
+            "The <span class='changed'>dog</span> licked its paw after its meal today.",
+            "The <span class='changed'>kitten</span> licked its paw after its meal today."
+          ]
+        },
+        "vocab": {
+          "w": "possess",
+          "type": "verb",
+          "def": "To have or own something.",
+          "simple": "Possess means to have something that belongs to you!",
+          "examples": ["possess a toy", "possess a talent", "possess a key"],
+          "similar": ["own", "have", "hold"],
+          "antonyms": ["lack", "lose", "surrender"],
+          "nonex": ["It does NOT mean to borrow from someone.", "It does NOT mean to share with others."],
+          "example": "Each student should possess a pencil and a notebook for class.",
+          "starter": "I possess _______ that is special to me because ...",
+          "why": "Possess helps you talk about owning and having things!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 108,
+    "sentences": [
+      {
+        "orig": "its going to be a warm day in the spring",
+        "corr": [
+          {"t": "grammar", "w": "its", "r": "It's", "e": "Use 'It's' with an apostrophe here because it means 'It is.' Capitalize it as the first word too."},
+          {"t": "grammar", "w": "going", "r": "going", "e": "Going is correct as part of the phrase 'going to be.'"},
+          {"t": "grammar", "w": "be", "r": "be", "e": "Be is the correct verb after 'going to.'"},
+          {"t": "grammar", "w": "warm", "r": "warm", "e": "Warm is the correct adjective to describe a pleasant temperature."},
+          {"t": "punctuation", "w": "spring", "r": "spring.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "It's going to be a warm day in the spring.",
+        "pos": [
+          {"w": "It's", "t": "PRO", "q": "Find the contraction that means 'It is.'"},
+          {"w": "going", "t": "V", "q": "Find the verb in the phrase 'going to be.'"},
+          {"w": "to", "t": "PREP", "q": "Find the preposition before 'be.'"},
+          {"w": "be", "t": "V", "q": "Find the verb that means to exist or become."},
+          {"w": "a", "t": "ART", "q": "Find the article before 'warm.'"},
+          {"w": "warm", "t": "ADJ", "q": "Find the adjective describing the temperature."},
+          {"w": "day", "t": "N", "q": "Find the noun for a 24-hour period."},
+          {"w": "in", "t": "PREP", "q": "Find the preposition that tells when."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'spring.'"},
+          {"w": "spring", "t": "N", "q": "Find the noun for the season after winter."}
+        ],
+        "manip": {
+          "task": "Replace the adjective 'warm' with a different weather adjective.",
+          "word": "warm",
+          "examples": [
+            "It's going to be a <span class='changed'>sunny</span> day in the spring.",
+            "It's going to be a <span class='changed'>rainy</span> day in the spring."
+          ]
+        },
+        "vocab": {
+          "w": "distinguish",
+          "type": "verb",
+          "def": "To notice or understand the difference between two things.",
+          "simple": "Distinguish means to tell two things apart, like knowing the difference between 'its' and 'it's'!",
+          "examples": ["distinguish colors", "distinguish sounds", "distinguish words"],
+          "similar": ["differentiate", "recognize", "separate"],
+          "antonyms": ["confuse", "mix up", "blend"],
+          "nonex": ["It does NOT mean to make things the same.", "It does NOT mean to ignore differences."],
+          "example": "Can you distinguish between the words 'its' and 'it's' in a sentence?",
+          "starter": "I can distinguish between _______ and _______ because ...",
+          "why": "Distinguish helps you notice important differences between words and ideas!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 109,
+    "sentences": [
+      {
+        "orig": "the bird opend it's wings and flew over the trees",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "opend", "r": "opened", "e": "Opened is spelled with '-ed' at the end, not just '-d.'"},
+          {"t": "grammar", "w": "it's", "r": "its", "e": "Use 'its' without an apostrophe to show the wings belong to the bird. 'It's' means 'it is.'"},
+          {"t": "grammar", "w": "flew", "r": "flew", "e": "Flew is the correct past tense of 'fly.'"},
+          {"t": "punctuation", "w": "trees", "r": "trees.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The bird opened its wings and flew over the trees.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the start of the sentence."},
+          {"w": "bird", "t": "N", "q": "Find the common noun for a flying animal."},
+          {"w": "opened", "t": "V", "q": "Find the past tense verb meaning to spread apart."},
+          {"w": "its", "t": "POSS", "q": "Find the possessive word meaning 'belonging to the bird.'"},
+          {"w": "wings", "t": "N", "q": "Find the plural noun for parts a bird uses to fly."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction that connects two actions."},
+          {"w": "flew", "t": "V", "q": "Find the past tense verb meaning to move through the air."},
+          {"w": "over", "t": "PREP", "q": "Find the preposition that tells where the bird flew."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'trees.'"},
+          {"w": "trees", "t": "N", "q": "Find the plural noun for tall plants."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'bird' with a different flying creature.",
+          "word": "bird",
+          "examples": [
+            "The <span class='changed'>eagle</span> opened its wings and flew over the trees.",
+            "The <span class='changed'>butterfly</span> opened its wings and flew over the trees."
+          ]
+        },
+        "vocab": {
+          "w": "confuse",
+          "type": "verb",
+          "def": "To mix things up or not understand the difference between them.",
+          "simple": "Confuse means to get mixed up, like when two things look alike and you pick the wrong one!",
+          "examples": ["confuse the twins", "confuse left and right", "confuse two words"],
+          "similar": ["mix up", "muddle", "bewilder"],
+          "antonyms": ["clarify", "understand", "distinguish"],
+          "nonex": ["It does NOT mean to understand clearly.", "It does NOT mean to solve a problem."],
+          "example": "Many students confuse the words 'its' and 'it's' when they write.",
+          "starter": "I sometimes confuse _______ with _______ because ...",
+          "why": "Confuse helps you explain when things get mixed up in learning!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 110,
+    "sentences": [
+      {
+        "orig": "the teem will play a game on the green feeld",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "teem", "r": "team", "e": "Team is spelled with 'ea' not 'ee.' The vowel team 'ea' makes the long 'e' sound in team."},
+          {"t": "grammar", "w": "will", "r": "will", "e": "Will is a helping verb that shows future tense."},
+          {"t": "spelling", "w": "feeld", "r": "field", "e": "Field is spelled with 'ie' not 'ee.' Remember: 'i before e' in field."},
+          {"t": "punctuation", "w": "feeld", "r": "field.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The team will play a game on the green field.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the start of the sentence."},
+          {"w": "team", "t": "N", "q": "Find the common noun for a group that plays together."},
+          {"w": "will", "t": "V", "q": "Find the helping verb that shows the future."},
+          {"w": "play", "t": "V", "q": "Find the action verb meaning to have fun in a game."},
+          {"w": "a", "t": "ART", "q": "Find the article before 'game.'"},
+          {"w": "game", "t": "N", "q": "Find the noun for an activity with rules."},
+          {"w": "on", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'green.'"},
+          {"w": "green", "t": "ADJ", "q": "Find the adjective that describes the color of the field."},
+          {"w": "field", "t": "N", "q": "Find the noun for a large open area of grass."}
+        ],
+        "manip": {
+          "task": "Replace the adjective 'green' with a different adjective.",
+          "word": "green",
+          "examples": [
+            "The team will play a game on the <span class='changed'>muddy</span> field.",
+            "The team will play a game on the <span class='changed'>wide</span> field."
+          ]
+        },
+        "vocab": {
+          "w": "gleam",
+          "type": "verb",
+          "def": "To shine with a soft, bright light.",
+          "simple": "Gleam means to glow or shine softly, like sunlight on water!",
+          "examples": ["gleam in the sun", "eyes gleam", "gold gleams"],
+          "similar": ["shine", "glow", "sparkle"],
+          "antonyms": ["dim", "darken", "fade"],
+          "nonex": ["It does NOT mean to make a loud sound.", "It does NOT mean to turn off a light."],
+          "example": "The morning dew made the green field gleam in the sunlight.",
+          "starter": "I saw something gleam when _______ ...",
+          "why": "Gleam is a beautiful word to describe soft, shining light in your writing!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 111,
+    "sentences": [
+      {
+        "orig": "we will wate for the rane to stop before recess",
+        "corr": [
+          {"t": "capitalization", "w": "we", "r": "We", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "wate", "r": "wait", "e": "Wait is spelled with 'ai' not just 'a-e.' The vowel team 'ai' makes the long 'a' sound."},
+          {"t": "spelling", "w": "rane", "r": "rain", "e": "Rain is spelled with the vowel team 'ai' not 'a-e.'"},
+          {"t": "grammar", "w": "to", "r": "to", "e": "To is the correct preposition used before a verb."},
+          {"t": "punctuation", "w": "recess", "r": "recess.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "We will wait for the rain to stop before recess.",
+        "pos": [
+          {"w": "We", "t": "PRO", "q": "Find the pronoun meaning 'our group.'"},
+          {"w": "will", "t": "V", "q": "Find the helping verb that shows future tense."},
+          {"w": "wait", "t": "V", "q": "Find the action verb meaning to stay until something happens."},
+          {"w": "for", "t": "PREP", "q": "Find the preposition that tells what we wait for."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'rain.'"},
+          {"w": "rain", "t": "N", "q": "Find the noun for water falling from clouds."},
+          {"w": "to", "t": "PREP", "q": "Find the preposition before the verb 'stop.'"},
+          {"w": "stop", "t": "V", "q": "Find the verb meaning to end or quit."},
+          {"w": "before", "t": "PREP", "q": "Find the preposition that tells when."},
+          {"w": "recess", "t": "N", "q": "Find the noun for playtime at school."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'rain' with a different weather noun.",
+          "word": "rain",
+          "examples": [
+            "We will wait for the <span class='changed'>snow</span> to stop before recess.",
+            "We will wait for the <span class='changed'>storm</span> to stop before recess."
+          ]
+        },
+        "vocab": {
+          "w": "approach",
+          "type": "verb",
+          "def": "To come closer to something or someone.",
+          "simple": "Approach means to move toward something, like walking up to a friend!",
+          "examples": ["approach the door", "approach a friend", "approach the stage"],
+          "similar": ["near", "advance", "come close"],
+          "antonyms": ["leave", "retreat", "withdraw"],
+          "nonex": ["It does NOT mean to run away.", "It does NOT mean to stay in one place."],
+          "example": "We watched the dark clouds approach before the rain started.",
+          "starter": "I saw a _______ approach and I felt ...",
+          "why": "Approach is a great verb for describing movement toward something!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 112,
+    "sentences": [
+      {
+        "orig": "the bote will sael across the lake on a sunny day",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "bote", "r": "boat", "e": "Boat is spelled with the vowel team 'oa' not 'o-e.' The 'oa' makes the long 'o' sound."},
+          {"t": "spelling", "w": "sael", "r": "sail", "e": "Sail is spelled with the vowel team 'ai' not 'ae.' The 'ai' makes the long 'a' sound."},
+          {"t": "grammar", "w": "across", "r": "across", "e": "Across is the correct preposition meaning from one side to the other."},
+          {"t": "punctuation", "w": "day", "r": "day.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The boat will sail across the lake on a sunny day.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the start of the sentence."},
+          {"w": "boat", "t": "N", "q": "Find the noun for something that floats on water."},
+          {"w": "will", "t": "V", "q": "Find the helping verb that shows future tense."},
+          {"w": "sail", "t": "V", "q": "Find the action verb meaning to travel on water."},
+          {"w": "across", "t": "PREP", "q": "Find the preposition meaning from one side to the other."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'lake.'"},
+          {"w": "lake", "t": "N", "q": "Find the common noun for a body of water."},
+          {"w": "on", "t": "PREP", "q": "Find the preposition that tells when."},
+          {"w": "a", "t": "ART", "q": "Find the article before 'sunny.'"},
+          {"w": "sunny", "t": "ADJ", "q": "Find the adjective that describes the day."},
+          {"w": "day", "t": "N", "q": "Find the noun for a 24-hour period."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'boat' with a different water vehicle.",
+          "word": "boat",
+          "examples": [
+            "The <span class='changed'>ship</span> will sail across the lake on a sunny day.",
+            "The <span class='changed'>canoe</span> will sail across the lake on a sunny day."
+          ]
+        },
+        "vocab": {
+          "w": "retreat",
+          "type": "verb",
+          "def": "To move back or away from something.",
+          "simple": "Retreat means to go backward or move away, like stepping back from something scary!",
+          "examples": ["retreat from danger", "retreat inside", "retreat to safety"],
+          "similar": ["withdraw", "back away", "pull back"],
+          "antonyms": ["advance", "approach", "charge"],
+          "nonex": ["It does NOT mean to move forward.", "It does NOT mean to stand still and fight."],
+          "example": "The children retreat inside when the rain starts to fall.",
+          "starter": "I might retreat if _______ ...",
+          "why": "Retreat is a strong verb that describes moving away from something!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 113,
+    "sentences": [
+      {
+        "orig": "the teacher gave i a new book about the ocean",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "grammar", "w": "i", "r": "me", "e": "Use 'me' after the verb as an object pronoun. 'I' is only used as a subject."},
+          {"t": "grammar", "w": "gave", "r": "gave", "e": "Gave is the correct past tense of 'give.'"},
+          {"t": "grammar", "w": "new", "r": "new", "e": "New is the correct adjective to describe the book."},
+          {"t": "punctuation", "w": "ocean", "r": "ocean.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The teacher gave me a new book about the ocean.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the start of the sentence."},
+          {"w": "teacher", "t": "N", "q": "Find the common noun for a person who teaches."},
+          {"w": "gave", "t": "V", "q": "Find the past tense verb meaning to hand something to someone."},
+          {"w": "me", "t": "OBJPRO", "q": "Find the object pronoun that means 'to I' after the verb."},
+          {"w": "a", "t": "ART", "q": "Find the article before 'new.'"},
+          {"w": "new", "t": "ADJ", "q": "Find the adjective that describes the book."},
+          {"w": "book", "t": "N", "q": "Find the common noun for something you read."},
+          {"w": "about", "t": "PREP", "q": "Find the preposition that tells the topic."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'ocean.'"},
+          {"w": "ocean", "t": "N", "q": "Find the noun for a large body of salt water."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'ocean' with a different topic noun.",
+          "word": "ocean",
+          "examples": [
+            "The teacher gave me a new book about the <span class='changed'>jungle</span>.",
+            "The teacher gave me a new book about the <span class='changed'>planets</span>."
+          ]
+        },
+        "vocab": {
+          "w": "receive",
+          "type": "verb",
+          "def": "To get something that is given or sent to you.",
+          "simple": "Receive means to get something, like when someone hands you a gift!",
+          "examples": ["receive a gift", "receive a letter", "receive a prize"],
+          "similar": ["get", "obtain", "accept"],
+          "antonyms": ["give", "send", "donate"],
+          "nonex": ["It does NOT mean to send something away.", "It does NOT mean to throw something."],
+          "example": "I was happy to receive a new book from my teacher.",
+          "starter": "I would love to receive _______ because ...",
+          "why": "Receive is a useful word for describing when you get something from someone!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 114,
+    "sentences": [
+      {
+        "orig": "dad took she and i to the park after lunch",
+        "corr": [
+          {"t": "capitalization", "w": "dad", "r": "Dad", "e": "Dad is capitalized when used as a name instead of 'my dad.'"},
+          {"t": "grammar", "w": "she", "r": "her", "e": "Use 'her' as the object pronoun after the verb 'took.' 'She' is only used as a subject."},
+          {"t": "grammar", "w": "i", "r": "me", "e": "Use 'me' as the object pronoun after the verb 'took.' 'I' is only used as a subject."},
+          {"t": "grammar", "w": "took", "r": "took", "e": "Took is the correct past tense of 'take.'"},
+          {"t": "punctuation", "w": "lunch", "r": "lunch.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "Dad took her and me to the park after lunch.",
+        "pos": [
+          {"w": "Dad", "t": "N", "q": "Find the proper noun used as a name for a father."},
+          {"w": "took", "t": "V", "q": "Find the past tense verb meaning to bring someone somewhere."},
+          {"w": "her", "t": "OBJPRO", "q": "Find the object pronoun for a girl."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction that connects two pronouns."},
+          {"w": "me", "t": "OBJPRO", "q": "Find the object pronoun for yourself."},
+          {"w": "to", "t": "PREP", "q": "Find the preposition that tells direction."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'park.'"},
+          {"w": "park", "t": "N", "q": "Find the common noun for an outdoor play area."},
+          {"w": "after", "t": "PREP", "q": "Find the preposition that tells when."},
+          {"w": "lunch", "t": "N", "q": "Find the noun for a midday meal."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'park' with a different place noun.",
+          "word": "park",
+          "examples": [
+            "Dad took her and me to the <span class='changed'>beach</span> after lunch.",
+            "Dad took her and me to the <span class='changed'>library</span> after lunch."
+          ]
+        },
+        "vocab": {
+          "w": "accompany",
+          "type": "verb",
+          "def": "To go somewhere with someone.",
+          "simple": "Accompany means to go along with someone, like walking to school with a friend!",
+          "examples": ["accompany a friend", "accompany your parents", "accompany the group"],
+          "similar": ["join", "escort", "go with"],
+          "antonyms": ["leave", "abandon", "desert"],
+          "nonex": ["It does NOT mean to go alone.", "It does NOT mean to stay behind."],
+          "example": "My sister will accompany me to the park after school.",
+          "starter": "I like to accompany _______ when we go to ...",
+          "why": "Accompany is a great word for describing going places together with others!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 115,
+    "sentences": [
+      {
+        "orig": "the coach helped we practice for the big game tomorrow",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "grammar", "w": "we", "r": "us", "e": "Use 'us' as the object pronoun after the verb 'helped.' 'We' is only used as a subject."},
+          {"t": "grammar", "w": "helped", "r": "helped", "e": "Helped is the correct past tense of 'help.'"},
+          {"t": "grammar", "w": "big", "r": "big", "e": "Big is the correct adjective to describe the game."},
+          {"t": "punctuation", "w": "tomorrow", "r": "tomorrow.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The coach helped us practice for the big game tomorrow.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the start of the sentence."},
+          {"w": "coach", "t": "N", "q": "Find the common noun for a person who trains a team."},
+          {"w": "helped", "t": "V", "q": "Find the past tense verb meaning to give assistance."},
+          {"w": "us", "t": "OBJPRO", "q": "Find the object pronoun meaning 'our group.'"},
+          {"w": "practice", "t": "V", "q": "Find the verb meaning to do something again to get better."},
+          {"w": "for", "t": "PREP", "q": "Find the preposition that tells the purpose."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'big.'"},
+          {"w": "big", "t": "ADJ", "q": "Find the adjective that describes the game."},
+          {"w": "game", "t": "N", "q": "Find the noun for a sports match or contest."},
+          {"w": "tomorrow", "t": "ADV", "q": "Find the adverb that tells when the game will happen."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'coach' with a different person noun.",
+          "word": "coach",
+          "examples": [
+            "The <span class='changed'>teacher</span> helped us practice for the big game tomorrow.",
+            "The <span class='changed'>captain</span> helped us practice for the big game tomorrow."
+          ]
+        },
+        "vocab": {
+          "w": "comfort",
+          "type": "verb",
+          "def": "To make someone feel better when they are sad or hurt.",
+          "simple": "Comfort means to help someone feel safe and calm when they are upset!",
+          "examples": ["comfort a friend", "comfort a child", "comfort a pet"],
+          "similar": ["soothe", "calm", "console"],
+          "antonyms": ["upset", "disturb", "worry"],
+          "nonex": ["It does NOT mean to make someone cry.", "It does NOT mean to ignore someone's feelings."],
+          "example": "The coach will comfort the players after they lose the big game.",
+          "starter": "I would comfort a friend by _______ ...",
+          "why": "Comfort is an important word for describing how we help people feel better!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 116,
+    "sentences": [
+      {
+        "orig": "yesterday we planted new flowers in the school gardin",
+        "corr": [
+          {"t": "capitalization", "w": "yesterday", "r": "Yesterday", "e": "The first word of a sentence must be capitalized."},
+          {"t": "grammar", "w": "we", "r": "we", "e": "We is the correct subject pronoun for a group."},
+          {"t": "grammar", "w": "planted", "r": "planted", "e": "Planted is the correct past tense verb matching the adverb 'yesterday.'"},
+          {"t": "spelling", "w": "gardin", "r": "garden", "e": "Garden is spelled with 'e' not 'i' at the end."},
+          {"t": "punctuation", "w": "gardin", "r": "garden.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "Yesterday we planted new flowers in the school garden.",
+        "pos": [
+          {"w": "Yesterday", "t": "ADV", "q": "Find the adverb that tells when this happened."},
+          {"w": "we", "t": "PRO", "q": "Find the pronoun meaning 'our group.'"},
+          {"w": "planted", "t": "V", "q": "Find the past tense verb meaning to put in the ground."},
+          {"w": "new", "t": "ADJ", "q": "Find the adjective that describes the flowers."},
+          {"w": "flowers", "t": "N", "q": "Find the plural noun for colorful plants."},
+          {"w": "in", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'school.'"},
+          {"w": "school", "t": "ADJ", "q": "Find the word that describes which garden."},
+          {"w": "garden", "t": "N", "q": "Find the common noun for a place where plants grow."}
+        ],
+        "manip": {
+          "task": "Replace the adverb 'Yesterday' with a different time adverb.",
+          "word": "Yesterday",
+          "examples": [
+            "<span class='changed'>Today</span> we planted new flowers in the school garden.",
+            "<span class='changed'>Tomorrow</span> we planted new flowers in the school garden."
+          ]
+        },
+        "vocab": {
+          "w": "anticipate",
+          "type": "verb",
+          "def": "To look forward to something or expect it to happen.",
+          "simple": "Anticipate means to think about something exciting that will happen soon!",
+          "examples": ["anticipate a holiday", "anticipate a visit", "anticipate a surprise"],
+          "similar": ["expect", "await", "look forward to"],
+          "antonyms": ["dread", "ignore", "forget"],
+          "nonex": ["It does NOT mean to be afraid of something.", "It does NOT mean to forget about a plan."],
+          "example": "The students anticipate the first day of summer break.",
+          "starter": "I anticipate _______ because it will be ...",
+          "why": "Anticipate is a wonderful word for describing the excitement of waiting for something!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 117,
+    "sentences": [
+      {
+        "orig": "today she will share her painting with the hole class",
+        "corr": [
+          {"t": "capitalization", "w": "today", "r": "Today", "e": "The first word of a sentence must be capitalized."},
+          {"t": "grammar", "w": "will", "r": "will", "e": "Will is the correct helping verb for future tense matching 'today.'"},
+          {"t": "grammar", "w": "share", "r": "share", "e": "Share is the correct verb meaning to let others see."},
+          {"t": "spelling", "w": "hole", "r": "whole", "e": "Whole means 'all of' and is spelled w-h-o-l-e. A 'hole' is an opening."},
+          {"t": "punctuation", "w": "class", "r": "class.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "Today she will share her painting with the whole class.",
+        "pos": [
+          {"w": "Today", "t": "ADV", "q": "Find the adverb that tells when this will happen."},
+          {"w": "she", "t": "PRO", "q": "Find the pronoun for a girl."},
+          {"w": "will", "t": "V", "q": "Find the helping verb that shows future tense."},
+          {"w": "share", "t": "V", "q": "Find the action verb meaning to let others see."},
+          {"w": "her", "t": "POSS", "q": "Find the possessive word meaning 'belonging to her.'"},
+          {"w": "painting", "t": "N", "q": "Find the noun for artwork made with paint."},
+          {"w": "with", "t": "PREP", "q": "Find the preposition that means together."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'whole.'"},
+          {"w": "whole", "t": "ADJ", "q": "Find the adjective that means 'all of.'"},
+          {"w": "class", "t": "N", "q": "Find the common noun for a group of students."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'painting' with a different art noun.",
+          "word": "painting",
+          "examples": [
+            "Today she will share her <span class='changed'>drawing</span> with the whole class.",
+            "Today she will share her <span class='changed'>story</span> with the whole class."
+          ]
+        },
+        "vocab": {
+          "w": "recall",
+          "type": "verb",
+          "def": "To remember something from the past.",
+          "simple": "Recall means to think back and remember something that already happened!",
+          "examples": ["recall a memory", "recall a name", "recall a story"],
+          "similar": ["remember", "recollect", "think back"],
+          "antonyms": ["forget", "overlook", "ignore"],
+          "nonex": ["It does NOT mean to learn something new.", "It does NOT mean to make up a story."],
+          "example": "Can you recall what happened in the story we read yesterday?",
+          "starter": "I can recall the time when _______ ...",
+          "why": "Recall is a great word for describing how we bring memories back to mind!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 118,
+    "sentences": [
+      {
+        "orig": "tomorrow we will lern about animals that live in winter",
+        "corr": [
+          {"t": "capitalization", "w": "tomorrow", "r": "Tomorrow", "e": "The first word of a sentence must be capitalized."},
+          {"t": "grammar", "w": "we", "r": "we", "e": "We is the correct subject pronoun for the group."},
+          {"t": "spelling", "w": "lern", "r": "learn", "e": "Learn is spelled l-e-a-r-n with the vowel team 'ea.'"},
+          {"t": "grammar", "w": "live", "r": "live", "e": "Live is the correct verb meaning to make a home somewhere."},
+          {"t": "punctuation", "w": "winter", "r": "winter.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "Tomorrow we will learn about animals that live in winter.",
+        "pos": [
+          {"w": "Tomorrow", "t": "ADV", "q": "Find the adverb that tells when this will happen."},
+          {"w": "we", "t": "PRO", "q": "Find the pronoun meaning 'our group.'"},
+          {"w": "will", "t": "V", "q": "Find the helping verb that shows future tense."},
+          {"w": "learn", "t": "V", "q": "Find the action verb meaning to gain knowledge."},
+          {"w": "about", "t": "PREP", "q": "Find the preposition that tells the topic."},
+          {"w": "animals", "t": "N", "q": "Find the plural noun for living creatures."},
+          {"w": "that", "t": "DEM", "q": "Find the demonstrative that connects to the animals."},
+          {"w": "live", "t": "V", "q": "Find the verb meaning to make a home somewhere."},
+          {"w": "in", "t": "PREP", "q": "Find the preposition that tells when."},
+          {"w": "winter", "t": "N", "q": "Find the noun for the coldest season."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'animals' with a different living thing noun.",
+          "word": "animals",
+          "examples": [
+            "Tomorrow we will learn about <span class='changed'>birds</span> that live in winter.",
+            "Tomorrow we will learn about <span class='changed'>insects</span> that live in winter."
+          ]
+        },
+        "vocab": {
+          "w": "predict",
+          "type": "verb",
+          "def": "To say what you think will happen in the future.",
+          "simple": "Predict means to guess what will happen next, like saying it will rain tomorrow!",
+          "examples": ["predict the weather", "predict the ending", "predict a winner"],
+          "similar": ["forecast", "guess", "expect"],
+          "antonyms": ["recall", "remember", "review"],
+          "nonex": ["It does NOT mean to know for certain.", "It does NOT mean to describe the past."],
+          "example": "Can you predict what will happen next in the story?",
+          "starter": "I predict that tomorrow _______ ...",
+          "why": "Predict helps you share your ideas about what might happen in the future!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 119,
+    "sentences": [
+      {
+        "orig": "the little gurl played in the dark barn with her horse",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "gurl", "r": "girl", "e": "Girl is spelled with 'ir' not 'ur.' The r-controlled vowel 'ir' makes the 'er' sound in girl."},
+          {"t": "grammar", "w": "played", "r": "played", "e": "Played is the correct past tense of 'play.'"},
+          {"t": "grammar", "w": "dark", "r": "dark", "e": "Dark is the correct adjective to describe the barn."},
+          {"t": "punctuation", "w": "horse", "r": "horse.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The little girl played in the dark barn with her horse.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the start of the sentence."},
+          {"w": "little", "t": "ADJ", "q": "Find the adjective that describes the girl's size."},
+          {"w": "girl", "t": "N", "q": "Find the common noun for a young female."},
+          {"w": "played", "t": "V", "q": "Find the past tense action verb."},
+          {"w": "in", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'dark.'"},
+          {"w": "dark", "t": "ADJ", "q": "Find the adjective that describes the barn."},
+          {"w": "barn", "t": "N", "q": "Find the noun for a farm building."},
+          {"w": "with", "t": "PREP", "q": "Find the preposition that means together."},
+          {"w": "her", "t": "POSS", "q": "Find the possessive word meaning 'belonging to her.'"},
+          {"w": "horse", "t": "N", "q": "Find the noun for a large animal you can ride."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'horse' with a different farm animal.",
+          "word": "horse",
+          "examples": [
+            "The little girl played in the dark barn with her <span class='changed'>goat</span>.",
+            "The little girl played in the dark barn with her <span class='changed'>pony</span>."
+          ]
+        },
+        "vocab": {
+          "w": "determine",
+          "type": "verb",
+          "def": "To find out or decide something after thinking about it.",
+          "simple": "Determine means to figure something out by looking carefully or thinking hard!",
+          "examples": ["determine the answer", "determine a winner", "determine the cause"],
+          "similar": ["decide", "figure out", "discover"],
+          "antonyms": ["guess", "wonder", "doubt"],
+          "nonex": ["It does NOT mean to make a wild guess.", "It does NOT mean to give up trying."],
+          "example": "The teacher asked us to determine the correct spelling of each word.",
+          "starter": "I can determine _______ by looking at ...",
+          "why": "Determine is a thinking word that helps you describe figuring things out!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 120,
+    "sentences": [
+      {
+        "orig": "the nerse helped the boy with a bad cut on his erm",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "nerse", "r": "nurse", "e": "Nurse is spelled with 'ur' not 'er.' The r-controlled vowel 'ur' makes the 'er' sound in nurse."},
+          {"t": "grammar", "w": "helped", "r": "helped", "e": "Helped is the correct past tense verb."},
+          {"t": "spelling", "w": "erm", "r": "arm", "e": "Arm is spelled with 'ar' not 'er.' The r-controlled vowel 'ar' makes the 'ar' sound."},
+          {"t": "punctuation", "w": "erm", "r": "arm.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The nurse helped the boy with a bad cut on his arm.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the start of the sentence."},
+          {"w": "nurse", "t": "N", "q": "Find the common noun for a person who helps sick people."},
+          {"w": "helped", "t": "V", "q": "Find the past tense verb meaning to give assistance."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'boy.'"},
+          {"w": "boy", "t": "N", "q": "Find the common noun for a young male."},
+          {"w": "with", "t": "PREP", "q": "Find the preposition that tells what."},
+          {"w": "a", "t": "ART", "q": "Find the article before 'bad.'"},
+          {"w": "bad", "t": "ADJ", "q": "Find the adjective that describes the cut."},
+          {"w": "cut", "t": "N", "q": "Find the noun for an injury on the skin."},
+          {"w": "on", "t": "PREP", "q": "Find the preposition that tells where the cut is."},
+          {"w": "his", "t": "POSS", "q": "Find the possessive word meaning 'belonging to him.'"},
+          {"w": "arm", "t": "N", "q": "Find the noun for a body part."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'arm' with a different body part noun.",
+          "word": "arm",
+          "examples": [
+            "The nurse helped the boy with a bad cut on his <span class='changed'>hand</span>.",
+            "The nurse helped the boy with a bad cut on his <span class='changed'>knee</span>."
+          ]
+        },
+        "vocab": {
+          "w": "persevere",
+          "type": "verb",
+          "def": "To keep trying even when something is hard.",
+          "simple": "Persevere means to not give up, even when things are tough!",
+          "examples": ["persevere through a challenge", "persevere in practice", "persevere on a test"],
+          "similar": ["persist", "endure", "continue"],
+          "antonyms": ["quit", "surrender", "give up"],
+          "nonex": ["It does NOT mean to stop when it gets hard.", "It does NOT mean to take a shortcut."],
+          "example": "The student had to persevere to learn all the spelling words.",
+          "starter": "I had to persevere when _______ ...",
+          "why": "Persevere is a powerful word about never giving up on your goals!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 121,
+    "sentences": [
+      {
+        "orig": "the ferm in the forest grows berds nest fern plants",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "ferm", "r": "fern", "e": "Fern is spelled with 'er' not 'er-m.' The r-controlled vowel 'er' makes the 'er' sound."},
+          {"t": "spelling", "w": "berds", "r": "bird's", "e": "Bird's needs an apostrophe to show the nest belongs to the bird, and 'ir' not 'er.'"},
+          {"t": "grammar", "w": "grows", "r": "grows", "e": "Grows is the correct present tense verb for one farm."},
+          {"t": "punctuation", "w": "plants", "r": "plants.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The fern in the forest grows bird's nest fern plants.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the start of the sentence."},
+          {"w": "fern", "t": "N", "q": "Find the first common noun for a type of plant."},
+          {"w": "in", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'forest.'"},
+          {"w": "forest", "t": "N", "q": "Find the noun for a place with many trees."},
+          {"w": "grows", "t": "V", "q": "Find the verb meaning to get bigger or to raise plants."},
+          {"w": "bird's", "t": "POSS", "q": "Find the possessive word meaning 'belonging to a bird.'"},
+          {"w": "nest", "t": "N", "q": "Find the noun for a bird's home."},
+          {"w": "fern", "t": "N", "q": "Find the second noun for the type of plant."},
+          {"w": "plants", "t": "N", "q": "Find the plural noun for living things that grow."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'forest' with a different place noun.",
+          "word": "forest",
+          "examples": [
+            "The fern in the <span class='changed'>garden</span> grows bird's nest fern plants.",
+            "The fern in the <span class='changed'>jungle</span> grows bird's nest fern plants."
+          ]
+        },
+        "vocab": {
+          "w": "endure",
+          "type": "verb",
+          "def": "To go through something difficult without giving up.",
+          "simple": "Endure means to keep going even when something is really hard or lasts a long time!",
+          "examples": ["endure the cold", "endure a long wait", "endure a hard test"],
+          "similar": ["survive", "withstand", "bear"],
+          "antonyms": ["quit", "collapse", "surrender"],
+          "nonex": ["It does NOT mean to enjoy something fun.", "It does NOT mean to avoid a challenge."],
+          "example": "The plants endure the cold winter and bloom again in spring.",
+          "starter": "I had to endure _______ but it was worth it because ...",
+          "why": "Endure is a strong word for describing toughness and not giving up!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 122,
+    "sentences": [
+      {
+        "orig": "the happy children sang songs at the summer party today",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "grammar", "w": "happy", "r": "happy", "e": "Happy is the correct adjective in the subject part of the sentence."},
+          {"t": "grammar", "w": "sang", "r": "sang", "e": "Sang is the correct past tense of 'sing.' It is in the predicate part of the sentence."},
+          {"t": "grammar", "w": "songs", "r": "songs", "e": "Songs is a correct plural noun in the predicate."},
+          {"t": "punctuation", "w": "today", "r": "today.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The happy children sang songs at the summer party today.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the start of the subject."},
+          {"w": "happy", "t": "ADJ", "q": "Find the adjective in the subject that describes the children."},
+          {"w": "children", "t": "N", "q": "Find the noun in the subject — who the sentence is about."},
+          {"w": "sang", "t": "V", "q": "Find the main verb that starts the predicate — what the children did."},
+          {"w": "songs", "t": "N", "q": "Find the plural noun in the predicate for what they sang."},
+          {"w": "at", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'summer.'"},
+          {"w": "summer", "t": "ADJ", "q": "Find the word that describes the type of party."},
+          {"w": "party", "t": "N", "q": "Find the noun for a fun gathering."},
+          {"w": "today", "t": "ADV", "q": "Find the adverb that tells when."}
+        ],
+        "manip": {
+          "task": "Replace the verb 'sang' with a different action verb.",
+          "word": "sang",
+          "examples": [
+            "The happy children <span class='changed'>played</span> songs at the summer party today.",
+            "The happy children <span class='changed'>performed</span> songs at the summer party today."
+          ]
+        },
+        "vocab": {
+          "w": "identify",
+          "type": "verb",
+          "def": "To find and name something or someone.",
+          "simple": "Identify means to point out what something is, like naming a bird you see!",
+          "examples": ["identify a bird", "identify a word", "identify a problem"],
+          "similar": ["recognize", "name", "spot"],
+          "antonyms": ["overlook", "miss", "ignore"],
+          "nonex": ["It does NOT mean to make something up.", "It does NOT mean to hide something."],
+          "example": "Can you identify the subject and predicate in this sentence?",
+          "starter": "I can identify _______ by looking at ...",
+          "why": "Identify is a thinking word you use when finding and naming parts of a sentence!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 123,
+    "sentences": [
+      {
+        "orig": "my best frend and i will visit the zoo tomorrow",
+        "corr": [
+          {"t": "capitalization", "w": "my", "r": "My", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "frend", "r": "friend", "e": "Friend is spelled with 'ie' not just 'e.'"},
+          {"t": "grammar", "w": "and", "r": "and", "e": "And is the correct conjunction connecting two subjects."},
+          {"t": "grammar", "w": "i", "r": "I", "e": "The pronoun 'I' must always be capitalized, even in the middle of a sentence."},
+          {"t": "punctuation", "w": "tomorrow", "r": "tomorrow.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "My best friend and I will visit the zoo tomorrow.",
+        "pos": [
+          {"w": "My", "t": "POSS", "q": "Find the possessive word that starts the subject."},
+          {"w": "best", "t": "ADJ", "q": "Find the adjective that describes the friend."},
+          {"w": "friend", "t": "N", "q": "Find the first noun in the subject."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction that connects two subjects."},
+          {"w": "I", "t": "PRO", "q": "Find the pronoun that is the second subject."},
+          {"w": "will", "t": "V", "q": "Find the helping verb that starts the predicate."},
+          {"w": "visit", "t": "V", "q": "Find the action verb in the predicate."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'zoo.'"},
+          {"w": "zoo", "t": "N", "q": "Find the noun in the predicate for a place with animals."},
+          {"w": "tomorrow", "t": "ADV", "q": "Find the adverb in the predicate that tells when."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'zoo' with a different place noun.",
+          "word": "zoo",
+          "examples": [
+            "My best friend and I will visit the <span class='changed'>museum</span> tomorrow.",
+            "My best friend and I will visit the <span class='changed'>aquarium</span> tomorrow."
+          ]
+        },
+        "vocab": {
+          "w": "recognize",
+          "type": "verb",
+          "def": "To know or remember something or someone you have seen before.",
+          "simple": "Recognize means to see something and know what it is because you have seen it before!",
+          "examples": ["recognize a face", "recognize a word", "recognize a song"],
+          "similar": ["identify", "recall", "know"],
+          "antonyms": ["forget", "overlook", "ignore"],
+          "nonex": ["It does NOT mean to see something for the first time.", "It does NOT mean to guess wildly."],
+          "example": "I can recognize the subject and predicate in every sentence now.",
+          "starter": "I can recognize _______ because I have seen it ...",
+          "why": "Recognize helps you talk about knowing things you have learned before!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 124,
+    "sentences": [
+      {
+        "orig": "she dont want to give the book to he now",
+        "corr": [
+          {"t": "capitalization", "w": "she", "r": "She", "e": "The first word of a sentence must be capitalized."},
+          {"t": "punctuation", "w": "dont", "r": "doesn't", "e": "Use 'doesn't' with 'she' and add an apostrophe for the contraction of 'does not.'"},
+          {"t": "grammar", "w": "give", "r": "give", "e": "Give is the correct verb meaning to hand something to someone."},
+          {"t": "grammar", "w": "he", "r": "him", "e": "Use 'him' as the object pronoun after 'to.' 'He' is only used as a subject."},
+          {"t": "punctuation", "w": "now", "r": "now.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "She doesn't want to give the book to him now.",
+        "pos": [
+          {"w": "She", "t": "PRO", "q": "Find the subject pronoun for a girl."},
+          {"w": "doesn't", "t": "V", "q": "Find the contraction that means 'does not.'"},
+          {"w": "want", "t": "V", "q": "Find the verb meaning to wish for something."},
+          {"w": "to", "t": "PREP", "q": "Find the first preposition before 'give.'"},
+          {"w": "give", "t": "V", "q": "Find the verb meaning to hand something to someone."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'book.'"},
+          {"w": "book", "t": "N", "q": "Find the common noun for something you read."},
+          {"w": "to", "t": "PREP", "q": "Find the second preposition before 'him.'"},
+          {"w": "him", "t": "OBJPRO", "q": "Find the object pronoun for a boy."},
+          {"w": "now", "t": "ADV", "q": "Find the adverb that tells when."}
+        ],
+        "manip": {
+          "task": "Replace the object pronoun 'him' with a different object pronoun.",
+          "word": "him",
+          "examples": [
+            "She doesn't want to give the book to <span class='changed'>her</span> now.",
+            "She doesn't want to give the book to <span class='changed'>them</span> now."
+          ]
+        },
+        "vocab": {
+          "w": "review",
+          "type": "verb",
+          "def": "To look at or study something again.",
+          "simple": "Review means to go back and look at something one more time to remember it better!",
+          "examples": ["review a lesson", "review spelling words", "review a story"],
+          "similar": ["revisit", "reread", "examine"],
+          "antonyms": ["ignore", "skip", "forget"],
+          "nonex": ["It does NOT mean to learn something new.", "It does NOT mean to throw work away."],
+          "example": "Let us review all the grammar rules we learned this year.",
+          "starter": "I need to review _______ so I can ...",
+          "why": "Review is an important study word for going over what you have learned!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 125,
+    "sentences": [
+      {
+        "orig": "yesterday the teecher asked us to rite a storey about spring",
+        "corr": [
+          {"t": "capitalization", "w": "yesterday", "r": "Yesterday", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "teecher", "r": "teacher", "e": "Teacher is spelled with 'ea' not 'ee.' The vowel team 'ea' makes the long 'e' sound here."},
+          {"t": "spelling", "w": "rite", "r": "write", "e": "Write is spelled w-r-i-t-e. 'Rite' is a different word meaning a ceremony."},
+          {"t": "spelling", "w": "storey", "r": "story", "e": "Story is spelled s-t-o-r-y. A 'storey' means a floor of a building."},
+          {"t": "punctuation", "w": "spring", "r": "spring.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "Yesterday the teacher asked us to write a story about spring.",
+        "pos": [
+          {"w": "Yesterday", "t": "ADV", "q": "Find the adverb that tells when."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'teacher.'"},
+          {"w": "teacher", "t": "N", "q": "Find the common noun for a person who teaches."},
+          {"w": "asked", "t": "V", "q": "Find the past tense verb meaning to request."},
+          {"w": "us", "t": "OBJPRO", "q": "Find the object pronoun meaning 'our group.'"},
+          {"w": "to", "t": "PREP", "q": "Find the preposition before 'write.'"},
+          {"w": "write", "t": "V", "q": "Find the verb meaning to put words on paper."},
+          {"w": "a", "t": "ART", "q": "Find the article before 'story.'"},
+          {"w": "story", "t": "N", "q": "Find the noun for a tale with characters and events."},
+          {"w": "about", "t": "PREP", "q": "Find the preposition that tells the topic."},
+          {"w": "spring", "t": "N", "q": "Find the noun for the season after winter."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'spring' with a different season or topic.",
+          "word": "spring",
+          "examples": [
+            "Yesterday the teacher asked us to write a story about <span class='changed'>summer</span>.",
+            "Yesterday the teacher asked us to write a story about <span class='changed'>animals</span>."
+          ]
+        },
+        "vocab": {
+          "w": "demonstrate",
+          "type": "verb",
+          "def": "To show how to do something or prove something is true.",
+          "simple": "Demonstrate means to show others how something works or how to do it!",
+          "examples": ["demonstrate a skill", "demonstrate a trick", "demonstrate knowledge"],
+          "similar": ["show", "display", "illustrate"],
+          "antonyms": ["hide", "conceal", "withhold"],
+          "nonex": ["It does NOT mean to keep something a secret.", "It does NOT mean to watch someone else do it."],
+          "example": "The student will demonstrate her writing skills by reading her story aloud.",
+          "starter": "I can demonstrate _______ by showing ...",
+          "why": "Demonstrate is a powerful word for showing what you know and can do!"
+        }
+      }
+    ]
+  }
+]

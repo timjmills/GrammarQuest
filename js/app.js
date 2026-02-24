@@ -1,14 +1,65 @@
 let DATA = [];
 let currentDay = 1;
+let currentGrade = 'mixed';
+
+const GRADE_FILES = {
+    'mixed': 'data/days.json',
+    'gradek': 'data/gradek.json',
+    'grade1': 'data/grade1.json',
+    'grade2': 'data/grade2.json',
+    'grade3': 'data/grade3.json',
+    'grade4': 'data/grade4.json',
+    'grade5': 'data/grade5.json'
+};
+
+const GRADE_LABELS = {
+    'mixed': '5 Errors | POS: N\u2192V\u2192ADJ\u2192ADV\u2192PREP\u2192Other',
+    'gradek': '5 Errors | Grade K: Nouns \u2022 Verbs \u2022 CVC Spelling \u2022 Sight Words',
+    'grade1': '5 Errors | Grade 1: Nouns \u2022 Verbs \u2022 Sentences \u2022 Spelling',
+    'grade2': '5 Errors | Grade 2: Irregular Plurals \u2022 Past Tense \u2022 Pronouns',
+    'grade3': '5 Errors | Grade 3: Nouns \u2022 Verbs \u2022 Sentences \u2022 Roots',
+    'grade4': '5 Errors | Grade 4: Progressive Tenses \u2022 Modals \u2022 Roots',
+    'grade5': '5 Errors | Grade 5: Perfect Tenses \u2022 Clauses \u2022 Roots'
+};
 
 document.addEventListener('DOMContentLoaded', () => {
-    fetch('data/days.json')
+    loadGradeData(currentGrade);
+});
+
+function loadGradeData(grade) {
+    fetch(GRADE_FILES[grade])
         .then(r => r.json())
         .then(data => {
             DATA = data;
+            states = {};
+            currentDay = 1;
             renderDay();
         });
-});
+}
+
+function switchGrade(grade) {
+    if (grade === currentGrade) return;
+    currentGrade = grade;
+
+    // Update tab styling
+    document.querySelectorAll('.grade-tab').forEach(t => t.classList.remove('active'));
+    document.getElementById('tab-' + grade).classList.add('active');
+
+    // Update segment badge
+    document.getElementById('segmentBadge').textContent = GRADE_LABELS[grade];
+
+    // Update help periods visibility
+    document.getElementById('help-mixed-periods').style.display = grade === 'mixed' ? '' : 'none';
+    document.getElementById('help-gradek-periods').style.display = grade === 'gradek' ? '' : 'none';
+    document.getElementById('help-grade1-periods').style.display = grade === 'grade1' ? '' : 'none';
+    document.getElementById('help-grade2-periods').style.display = grade === 'grade2' ? '' : 'none';
+    document.getElementById('help-grade3-periods').style.display = grade === 'grade3' ? '' : 'none';
+    document.getElementById('help-grade4-periods').style.display = grade === 'grade4' ? '' : 'none';
+    document.getElementById('help-grade5-periods').style.display = grade === 'grade5' ? '' : 'none';
+
+    // Load new data
+    loadGradeData(grade);
+}
 
 // ========== APP STATE & FUNCTIONS ==========
 let states = {};
@@ -118,6 +169,29 @@ function getTypeAbbr(t) {
     return abbrs[t] || t;
 }
 
+// Brief descriptions for POS tooltips on hover
+function getPOSDesc(t) {
+    const descs = {
+        'N': 'Noun \u2013 a person, place, thing, or idea',
+        'V': 'Verb \u2013 an action or state of being',
+        'ADJ': 'Adjective \u2013 describes a noun (size, color, kind)',
+        'ADV': 'Adverb \u2013 describes a verb, adjective, or adverb (how, when, where)',
+        'PREP': 'Preposition \u2013 shows relationship (in, on, at, with, to)',
+        'PRO': 'Pronoun \u2013 replaces a noun (I, he, she, we, they)',
+        'OBJPRO': 'Object Pronoun \u2013 receives the action (me, him, her, us, them)',
+        'CONJ': 'Conjunction \u2013 connects words or clauses (and, but, or, so)',
+        'SUBCONJ': 'Subordinating Conjunction \u2013 begins a dependent clause (because, when, if, although)',
+        'ART': 'Article \u2013 introduces a noun (a, an, the)',
+        'DEM': 'Demonstrative \u2013 points to a specific noun (this, that, these, those)',
+        'POSS': 'Possessive \u2013 shows ownership (my, your, his, her, our, their)',
+        'PP': 'Past Participle \u2013 verb form used as adjective (broken, written, frozen)',
+        'RELPRO': 'Relative Pronoun \u2013 introduces a relative clause (who, whom, which, that)',
+        'PASS': 'Passive Verb \u2013 subject receives the action (was eaten, is known)',
+        'MODAL': 'Modal Verb \u2013 shows ability, possibility, or permission (can, may, must, should)'
+    };
+    return descs[t] || t;
+}
+
 function getCSSClass(t) {
     const classes = {
         'N': 'noun', 'V': 'verb', 'ADJ': 'adj', 'PRO': 'pro',
@@ -134,11 +208,13 @@ function renderDay() {
     const lesson = DATA.find(d => d.day === currentDay);
     if (!lesson) return;
 
+    const maxDay = getMaxDay();
     document.getElementById('currentDay').textContent = currentDay;
     document.getElementById('dayNum').textContent = currentDay;
     document.getElementById('dayInput').value = currentDay;
+    document.getElementById('dayInput').max = maxDay;
     document.getElementById('prevBtn').disabled = currentDay <= 1;
-    document.getElementById('nextBtn').disabled = currentDay >= 150;
+    document.getElementById('nextBtn').disabled = currentDay >= getMaxDay();
 
     let html = '';
     lesson.sentences.forEach((sent, idx) => {
@@ -184,7 +260,7 @@ function renderDay() {
         displayOrder.forEach(type => {
             if (counts[type]) {
                 const cfg = tagConfig[type] || {abbr: type, name: type, css: 'noun'};
-                tags += `<span class="tag ${cfg.css}" title="${cfg.name}">${counts[type]} ${cfg.abbr}</span>`;
+                tags += `<span class="tag ${cfg.css}" title="${getPOSDesc(type)}">${counts[type]} ${cfg.abbr}</span>`;
             }
         });
 
@@ -221,27 +297,55 @@ function formatSentence(sent, state) {
 
     // Once corrections are complete (phase 2+), show clean fixed sentence
     if (state.phase >= 2) {
-        let text = sent.fixed;
+        const plainText = sent.fixed;
+        const posCount = Math.min(state.step - corrections.length, orderedPOS.length);
+        const revealed = orderedPOS.slice(0, posCount);
 
-        // Apply manipulation highlight if in manipulation phase (phases 3, 4, 5)
+        // Collect all annotations on plain text BEFORE building any HTML
+        // This prevents regex from matching inside HTML attributes/tags
+        const annotations = [];
+        const usedPositions = new Set();
+
+        // Manipulation highlight (takes priority)
         if (state.phase >= 3 && state.phase <= 5) {
             const manipWord = sent.manip.word;
             const escaped = manipWord.replace(/[.*+?^${}()|[\]\\]/g, '\\$&').replace(/\s+/g, '\\s+');
-            const re = new RegExp(`(${escaped})`, 'i');
-            text = text.replace(re, `<span class="manip-highlight">$1</span>`);
+            const re = new RegExp(escaped, 'i');
+            const match = re.exec(plainText);
+            if (match) {
+                annotations.push({ pos: match.index, len: match[0].length, type: 'manip', word: match[0] });
+                for (let j = match.index; j < match.index + match[0].length; j++) usedPositions.add(j);
+            }
         }
 
-        // Add POS labels if in POS phase or later - use ordered POS
-        const posCount = Math.min(state.step - corrections.length, orderedPOS.length);
-        const revealed = orderedPOS.slice(0, posCount);
+        // POS labels - match on plain text so we never corrupt HTML
         revealed.forEach(p => {
-            if (!text.includes(`manip-highlight">${p.w}`) && !text.includes(`manip-highlight">${p.w.charAt(0).toUpperCase() + p.w.slice(1)}`)) {
-                const re = new RegExp(`\\b(${p.w})\\b`, 'i');
-                text = text.replace(re, `<span class="word"><span class="abbr ${p.t}">${p.t}</span>$1</span>`);
+            const escaped = p.w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+            const re = new RegExp(`\\b${escaped}\\b`, 'gi');
+            let match;
+            while ((match = re.exec(plainText)) !== null) {
+                if (!usedPositions.has(match.index)) {
+                    annotations.push({ pos: match.index, len: match[0].length, type: 'pos', posType: p.t, word: match[0] });
+                    for (let j = match.index; j < match.index + match[0].length; j++) usedPositions.add(j);
+                    break;
+                }
             }
         });
 
-        return text;
+        // Apply all annotations from end to start so positions stay valid
+        annotations.sort((a, b) => b.pos - a.pos);
+        let result = plainText;
+        annotations.forEach(a => {
+            const before = result.substring(0, a.pos);
+            const after = result.substring(a.pos + a.len);
+            if (a.type === 'manip') {
+                result = before + `<span class="manip-highlight">${a.word}</span>` + after;
+            } else {
+                result = before + `<span class="word"><span class="abbr ${a.posType}" title="${getPOSDesc(a.posType)}">${a.posType}</span>${a.word}</span>` + after;
+            }
+        });
+
+        return result;
     }
 
     // During correction phase (step > 0), show inline corrections
@@ -267,8 +371,9 @@ function formatSentence(sent, state) {
         const c = corrections[i];
         const isLatest = (i === corrCount - 1);
 
-        // Skip missing punctuation - handled at the end
-        if (c.t === 'punctuation' && c.w === '(missing)') {
+        // Skip ALL punctuation corrections - handled after the main loop
+        // This covers both "(missing)" format AND "word+punct" format (e.g. yesterday -> yesterday.)
+        if (c.t === 'punctuation' && (c.w === '(missing)' || (c.r.length > c.w.length && c.r.toLowerCase().startsWith(c.w.toLowerCase())))) {
             continue;
         }
 
@@ -314,18 +419,30 @@ function formatSentence(sent, state) {
         const pulseClass = corr.isLatest ? ' inline-pulse' : '';
         const before = result.substring(0, corr.pos);
         const after = result.substring(corr.pos + corr.len);
-        const replacement = `<span class="inline-corr"><span class="inline-wrong">${corr.wrong}</span><span class="inline-right${pulseClass}">${corr.right}</span></span>`;
+        // Use different color classes based on correction type
+        let rightClass = 'inline-right'; // default green for spelling/grammar
+        if (corr.type === 'capitalization') rightClass = 'inline-cap';
+        else if (corr.type === 'punctuation') rightClass = 'inline-punct';
+        const replacement = `<span class="inline-corr"><span class="inline-wrong">${corr.wrong}</span><span class="${rightClass}${pulseClass}">${corr.right}</span></span>`;
         result = before + replacement + after;
     }
 
-    // Add punctuation at the end if that correction has been revealed
+    // Add punctuation if that correction has been revealed
     for (let i = 0; i < corrCount; i++) {
         const c = corrections[i];
-        if (c.t === 'punctuation' && c.w === '(missing)') {
+        if (c.t === 'punctuation') {
             const isLatest = (i === corrCount - 1);
             const pulseClass = isLatest ? ' inline-pulse' : '';
-            result = result.trim() + `<span class="inline-punct${pulseClass}">${c.r}</span>`;
-            break;
+            if (c.w === '(missing)') {
+                // Mixed grade format: append to end
+                result = result.trim() + `<span class="inline-punct${pulseClass}">${c.r}</span>`;
+            } else if (c.r.length > c.w.length && c.r.toLowerCase().startsWith(c.w.toLowerCase())) {
+                // Grade 4/5 format: word + punctuation mark
+                const punct = c.r.slice(c.w.length);
+                const escaped = c.w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+                const re = new RegExp(`(${escaped})(?![^<]*>)`, 'i');
+                result = result.replace(re, `$1<span class="inline-punct${pulseClass}">${punct}</span>`);
+            }
         }
     }
 
@@ -398,7 +515,7 @@ function restore(idx, sent) {
                 const t = p.t.toUpperCase();
                 const cls = getCSSClass(t);
                 const badge = getTypeBadge(t);
-                h += `<div class="pos-item"><span class="check">\u2713</span><span class="q">${p.q}</span><span class="ans"><span class="word-box ${cls}">${p.w}</span><span class="type-badge ${cls}">${badge}</span></span></div>`;
+                h += `<div class="pos-item"><span class="check">\u2713</span><span class="q">${p.q}</span><span class="ans"><span class="word-box ${cls}" title="${getPOSDesc(t)}">${p.w}</span><span class="type-badge ${cls}" title="${getPOSDesc(t)}">${badge}</span></span></div>`;
             }
             h += '</div>';
             document.getElementById(`pos-${idx}`).innerHTML = h;
@@ -606,7 +723,7 @@ function openPopout(idx) {
     displayOrder.forEach(type => {
         if (counts[type]) {
             const cfg = tagConfig[type] || {abbr: type, name: type, css: 'noun'};
-            tags += `<span class="tag ${cfg.css}" title="${cfg.name}">${counts[type]} ${cfg.abbr}</span>`;
+            tags += `<span class="tag ${cfg.css}" title="${getPOSDesc(type)}">${counts[type]} ${cfg.abbr}</span>`;
         }
     });
 
@@ -742,7 +859,7 @@ function restorePopout() {
                 const t = p.t.toUpperCase();
                 const cls = getCSSClass(t);
                 const badge = getTypeBadge(t);
-                h += `<div class="pos-item"><span class="check">\u2713</span><span class="q">${p.q}</span><span class="ans"><span class="word-box ${cls}">${p.w}</span><span class="type-badge ${cls}">${badge}</span></span></div>`;
+                h += `<div class="pos-item"><span class="check">\u2713</span><span class="q">${p.q}</span><span class="ans"><span class="word-box ${cls}" title="${getPOSDesc(t)}">${p.w}</span><span class="type-badge ${cls}" title="${getPOSDesc(t)}">${badge}</span></span></div>`;
             }
             h += '</div>';
             document.getElementById('popout-pos').innerHTML = h;
@@ -950,11 +1067,13 @@ function printWorksheet(idx) {
     if (!win) { alert('Please allow popups to print worksheets.'); return; }
 }
 
+function getMaxDay() { return DATA.length > 0 ? DATA[DATA.length - 1].day : 150; }
 function prevDay() { if (currentDay > 1) { currentDay--; renderDay(); } }
-function nextDay() { if (currentDay < 150) { currentDay++; renderDay(); } }
+function nextDay() { if (currentDay < getMaxDay()) { currentDay++; renderDay(); } }
 function goToDay() {
     const v = parseInt(document.getElementById('dayInput').value);
-    if (v >= 1 && v <= 150) { currentDay = v; renderDay(); }
+    const max = getMaxDay();
+    if (v >= 1 && v <= max) { currentDay = v; renderDay(); }
 }
 
 function setSize(v) {

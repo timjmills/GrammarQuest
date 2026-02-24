@@ -1,0 +1,1203 @@
+[
+  {
+    "day": 76,
+    "sentences": [
+      {
+        "orig": "the kids eatd the warm bred at the party",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "grammar", "w": "eatd", "r": "ate", "e": "The past tense of 'eat' is 'ate,' not 'eatd.'"},
+          {"t": "spelling", "w": "bred", "r": "bread", "e": "Bread has the letters 'ea' in it, not just 'e.'"},
+          {"t": "grammar", "w": "at", "r": "during", "e": "Use 'during' to show something happened throughout an event."},
+          {"t": "punctuation", "w": "party", "r": "party.", "e": "A statement needs a period at the end."}
+        ],
+        "fixed": "The kids ate the warm bread during the party.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the start of the sentence."},
+          {"w": "kids", "t": "N", "q": "Find the noun meaning children."},
+          {"w": "ate", "t": "V", "q": "Find the past tense verb for eating."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'warm.'"},
+          {"w": "warm", "t": "ADJ", "q": "Find the adjective that tells about temperature."},
+          {"w": "bread", "t": "N", "q": "Find the noun that is a food."},
+          {"w": "during", "t": "PREP", "q": "Find the preposition that means 'throughout.'"},
+          {"w": "the", "t": "ART", "q": "Find the article before 'party.'"},
+          {"w": "party", "t": "N", "q": "Find the noun for a fun event."}
+        ],
+        "manip": {
+          "task": "Replace the adjective 'warm' with a different adjective.",
+          "word": "warm",
+          "examples": [
+            "The kids ate the <span class='changed'>fresh</span> bread during the party.",
+            "The kids ate the <span class='changed'>soft</span> bread during the party."
+          ]
+        },
+        "vocab": {
+          "w": "feast",
+          "type": "noun",
+          "def": "A large, special meal prepared for many people to enjoy together.",
+          "simple": "A feast is a really big, fancy meal where lots of people eat yummy food together!",
+          "examples": ["a holiday feast", "a birthday feast", "a family feast"],
+          "similar": ["banquet", "meal", "spread"],
+          "antonyms": ["snack", "bite", "morsel"],
+          "nonex": ["It does NOT mean a regular everyday lunch.", "It does NOT mean eating alone."],
+          "example": "The family made a huge feast with turkey, pie, and corn for Thanksgiving.",
+          "starter": "I would love to have a feast with _______ ...",
+          "why": "Feasts bring people together to share food and celebrate special times!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 77,
+    "sentences": [
+      {
+        "orig": "my mom maked a big cake for the party",
+        "corr": [
+          {"t": "capitalization", "w": "my", "r": "My", "e": "The first word of a sentence must be capitalized."},
+          {"t": "grammar", "w": "maked", "r": "made", "e": "The past tense of 'make' is 'made,' not 'maked.'"},
+          {"t": "spelling", "w": "cake", "r": "cake", "e": "Cake is spelled correctly but needs the article 'a' changed to 'an' before 'big.'"},
+          {"t": "grammar", "w": "a", "r": "a", "e": "Use 'a' before consonant sounds."},
+          {"t": "punctuation", "w": "party", "r": "party.", "e": "A statement needs a period at the end."}
+        ],
+        "fixed": "My mom made a big cake for the party.",
+        "pos": [
+          {"w": "My", "t": "POSS", "q": "Find the possessive word that shows the mom belongs to someone."},
+          {"w": "mom", "t": "N", "q": "Find the noun for a mother."},
+          {"w": "made", "t": "V", "q": "Find the past tense verb meaning created."},
+          {"w": "a", "t": "ART", "q": "Find the article before 'big.'"},
+          {"w": "big", "t": "ADJ", "q": "Find the adjective that tells size."},
+          {"w": "cake", "t": "N", "q": "Find the noun that is a sweet food."},
+          {"w": "for", "t": "PREP", "q": "Find the preposition that tells the purpose."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'party.'"},
+          {"w": "party", "t": "N", "q": "Find the noun for a fun event."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'cake' with a different food noun.",
+          "word": "cake",
+          "examples": [
+            "My mom made a big <span class='changed'>pie</span> for the party.",
+            "My mom made a big <span class='changed'>salad</span> for the party."
+          ]
+        },
+        "vocab": {
+          "w": "recipe",
+          "type": "noun",
+          "def": "A set of instructions for making a certain kind of food.",
+          "simple": "A recipe tells you what foods to use and the steps to follow to cook something!",
+          "examples": ["a cookie recipe", "a family recipe", "a soup recipe"],
+          "similar": ["directions", "instructions", "formula"],
+          "antonyms": ["guess", "improvisation", "whim"],
+          "nonex": ["It does NOT mean the food itself.", "It does NOT mean a grocery list."],
+          "example": "We followed Grandma's recipe to make her famous chocolate chip cookies.",
+          "starter": "My favorite recipe is for _______ ...",
+          "why": "Recipes help us make delicious food by following steps in the right order!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 78,
+    "sentences": [
+      {
+        "orig": "him brung the spesal cupcakes to school",
+        "corr": [
+          {"t": "capitalization", "w": "him", "r": "He", "e": "The first word of a sentence must be capitalized."},
+          {"t": "grammar", "w": "him", "r": "He", "e": "Use 'He' as a subject pronoun, not 'him.'"},
+          {"t": "grammar", "w": "brung", "r": "brought", "e": "The past tense of 'bring' is 'brought,' not 'brung.'"},
+          {"t": "spelling", "w": "spesal", "r": "special", "e": "Special is spelled with 'ci' in the middle, not 'sa.'"},
+          {"t": "punctuation", "w": "school", "r": "school.", "e": "A statement needs a period at the end."}
+        ],
+        "fixed": "He brought the special cupcakes to school.",
+        "pos": [
+          {"w": "He", "t": "PRO", "q": "Find the subject pronoun."},
+          {"w": "brought", "t": "V", "q": "Find the past tense verb meaning carried to a place."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'special.'"},
+          {"w": "special", "t": "ADJ", "q": "Find the adjective that means not ordinary."},
+          {"w": "cupcakes", "t": "N", "q": "Find the noun that is a small dessert."},
+          {"w": "to", "t": "PREP", "q": "Find the preposition that shows direction."},
+          {"w": "school", "t": "N", "q": "Find the noun for a place of learning."}
+        ],
+        "manip": {
+          "task": "Replace the pronoun 'He' with a proper noun name.",
+          "word": "He",
+          "examples": [
+            "<span class='changed'>Leo</span> brought the special cupcakes to school.",
+            "<span class='changed'>Marco</span> brought the special cupcakes to school."
+          ]
+        },
+        "vocab": {
+          "w": "ingredient",
+          "type": "noun",
+          "def": "One of the items of food that you use to make a particular dish.",
+          "simple": "An ingredient is one thing you put into a recipe, like eggs, flour, or sugar!",
+          "examples": ["a secret ingredient", "fresh ingredients", "mix the ingredients"],
+          "similar": ["item", "component", "element"],
+          "antonyms": ["whole", "product", "result"],
+          "nonex": ["It does NOT mean the finished food.", "It does NOT mean a cooking tool."],
+          "example": "We need five ingredients to make pancakes: flour, eggs, milk, butter, and sugar.",
+          "starter": "The most important ingredient in my favorite food is _______ ...",
+          "why": "Knowing about ingredients helps you understand what goes into your food!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 79,
+    "sentences": [
+      {
+        "orig": "we cooked rice we cooked benes for dinnr",
+        "corr": [
+          {"t": "capitalization", "w": "we", "r": "We", "e": "The first word of a sentence must be capitalized."},
+          {"t": "grammar", "w": "rice we cooked", "r": "rice, and we cooked", "e": "Two complete sentences need a comma and a conjunction to join them."},
+          {"t": "spelling", "w": "benes", "r": "beans", "e": "Beans is spelled with 'ea' and ends in 's.'"},
+          {"t": "spelling", "w": "dinnr", "r": "dinner", "e": "Dinner has two n's and ends with 'er.'"},
+          {"t": "punctuation", "w": "dinnr", "r": "dinner.", "e": "A statement needs a period at the end."}
+        ],
+        "fixed": "We cooked rice, and we cooked beans for dinner.",
+        "pos": [
+          {"w": "We", "t": "PRO", "q": "Find the first subject pronoun."},
+          {"w": "cooked", "t": "V", "q": "Find the first past tense verb."},
+          {"w": "rice", "t": "N", "q": "Find the noun that is a grain food."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction joining the two sentences."},
+          {"w": "we", "t": "PRO", "q": "Find the second subject pronoun."},
+          {"w": "cooked", "t": "V", "q": "Find the second past tense verb."},
+          {"w": "beans", "t": "N", "q": "Find the noun that is a vegetable."},
+          {"w": "for", "t": "PREP", "q": "Find the preposition that tells purpose."},
+          {"w": "dinner", "t": "N", "q": "Find the noun for an evening meal."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'beans' with a different food noun.",
+          "word": "beans",
+          "examples": [
+            "We cooked rice, and we cooked <span class='changed'>chicken</span> for dinner.",
+            "We cooked rice, and we cooked <span class='changed'>fish</span> for dinner."
+          ]
+        },
+        "vocab": {
+          "w": "appetizing",
+          "type": "adjective",
+          "def": "Looking or smelling good enough to eat; making you feel hungry.",
+          "simple": "When food looks or smells so good that it makes you want to eat it right away!",
+          "examples": ["an appetizing smell", "appetizing food", "looks appetizing"],
+          "similar": ["tempting", "inviting", "mouthwatering"],
+          "antonyms": ["disgusting", "gross", "unappetizing"],
+          "nonex": ["It does NOT mean the food is already eaten.", "It does NOT mean the food is spicy."],
+          "example": "The appetizing pizza with melted cheese made everyone's tummy growl.",
+          "starter": "The most appetizing food I ever saw was _______ ...",
+          "why": "Describing food as appetizing helps others know how good it looks and smells!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 80,
+    "sentences": [
+      {
+        "orig": "she mixt the egg she put them in the bole",
+        "corr": [
+          {"t": "capitalization", "w": "she", "r": "She", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "mixt", "r": "mixed", "e": "Mixed ends with 'ed,' not just 't.'"},
+          {"t": "grammar", "w": "egg", "r": "eggs", "e": "Use the plural 'eggs' when talking about more than one egg."},
+          {"t": "spelling", "w": "bole", "r": "bowl", "e": "Bowl is spelled with a 'w' before the 'l.'"},
+          {"t": "punctuation", "w": "bole", "r": "bowl.", "e": "A statement needs a period at the end."}
+        ],
+        "fixed": "She mixed the eggs, and she put them in the bowl.",
+        "pos": [
+          {"w": "She", "t": "PRO", "q": "Find the first subject pronoun."},
+          {"w": "mixed", "t": "V", "q": "Find the first verb meaning stirred together."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'eggs.'"},
+          {"w": "eggs", "t": "N", "q": "Find the plural noun that is a food."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction that joins two parts."},
+          {"w": "she", "t": "PRO", "q": "Find the second subject pronoun."},
+          {"w": "put", "t": "V", "q": "Find the verb meaning placed."},
+          {"w": "them", "t": "OBJPRO", "q": "Find the object pronoun that replaces 'eggs.'"},
+          {"w": "in", "t": "PREP", "q": "Find the preposition showing location."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'bowl.'"},
+          {"w": "bowl", "t": "N", "q": "Find the noun for a round dish."}
+        ],
+        "manip": {
+          "task": "Replace the verb 'mixed' with a different cooking verb.",
+          "word": "mixed",
+          "examples": [
+            "She <span class='changed'>cracked</span> the eggs, and she put them in the bowl.",
+            "She <span class='changed'>scrambled</span> the eggs, and she put them in the bowl."
+          ]
+        },
+        "vocab": {
+          "w": "savory",
+          "type": "adjective",
+          "def": "Having a salty or spicy taste rather than a sweet taste.",
+          "simple": "Savory food tastes salty or spicy instead of sweet, like chips or soup!",
+          "examples": ["a savory snack", "savory soup", "a savory pie"],
+          "similar": ["salty", "spicy", "hearty"],
+          "antonyms": ["sweet", "sugary", "bland"],
+          "nonex": ["It does NOT mean the food is burned.", "It does NOT mean the food is raw."],
+          "example": "Dad made a savory stew with potatoes, carrots, and lots of pepper.",
+          "starter": "My favorite savory food is _______ ...",
+          "why": "Knowing the word savory helps you describe the taste of foods that are not sweet!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 81,
+    "sentences": [
+      {
+        "orig": "they wanted cake they wanted cookeez too",
+        "corr": [
+          {"t": "capitalization", "w": "they", "r": "They", "e": "The first word of a sentence must be capitalized."},
+          {"t": "grammar", "w": "cake they", "r": "cake, and they", "e": "Two complete sentences need a comma and conjunction to be joined."},
+          {"t": "spelling", "w": "cookeez", "r": "cookies", "e": "Cookies is spelled with 'ies' at the end, not 'eez.'"},
+          {"t": "grammar", "w": "wanted", "r": "wanted", "e": "The second 'wanted' can be removed for a cleaner sentence with 'and.'"},
+          {"t": "punctuation", "w": "too", "r": "too.", "e": "A statement needs a period at the end."}
+        ],
+        "fixed": "They wanted cake, and they wanted cookies too.",
+        "pos": [
+          {"w": "They", "t": "PRO", "q": "Find the first subject pronoun."},
+          {"w": "wanted", "t": "V", "q": "Find the first verb meaning wished for."},
+          {"w": "cake", "t": "N", "q": "Find the noun for a sweet baked food."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction joining the two sentences."},
+          {"w": "they", "t": "PRO", "q": "Find the second subject pronoun."},
+          {"w": "wanted", "t": "V", "q": "Find the second verb meaning wished for."},
+          {"w": "cookies", "t": "N", "q": "Find the plural noun for small sweet treats."},
+          {"w": "too", "t": "ADV", "q": "Find the adverb meaning also."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'cookies' with a different dessert noun.",
+          "word": "cookies",
+          "examples": [
+            "They wanted cake, and they wanted <span class='changed'>brownies</span> too.",
+            "They wanted cake, and they wanted <span class='changed'>muffins</span> too."
+          ]
+        },
+        "vocab": {
+          "w": "simmer",
+          "type": "verb",
+          "def": "To cook food gently in liquid that is just below boiling.",
+          "simple": "Simmer means to cook something slowly in hot liquid with tiny bubbles, not big ones!",
+          "examples": ["simmer the soup", "let it simmer", "simmer on low heat"],
+          "similar": ["stew", "cook slowly", "heat gently"],
+          "antonyms": ["boil", "fry", "freeze"],
+          "nonex": ["It does NOT mean to boil very fast.", "It does NOT mean to bake in an oven."],
+          "example": "We let the tomato sauce simmer on the stove for thirty minutes.",
+          "starter": "I watched my parent simmer _______ ...",
+          "why": "Simmering is a useful cooking word because many soups and sauces need to cook slowly!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 82,
+    "sentences": [
+      {
+        "orig": "she likes apples or she likes peches at lunch",
+        "corr": [
+          {"t": "capitalization", "w": "she", "r": "She", "e": "The first word of a sentence must be capitalized."},
+          {"t": "grammar", "w": "or she likes", "r": "and", "e": "Use 'and' to join two things she likes together."},
+          {"t": "spelling", "w": "peches", "r": "peaches", "e": "Peaches has an 'a' in the middle, making 'ea' together."},
+          {"t": "grammar", "w": "at", "r": "for", "e": "Use 'for' to show the meal that the fruit is eaten during."},
+          {"t": "punctuation", "w": "lunch", "r": "lunch.", "e": "A statement needs a period at the end."}
+        ],
+        "fixed": "She likes apples and peaches for lunch.",
+        "pos": [
+          {"w": "She", "t": "PRO", "q": "Find the subject pronoun."},
+          {"w": "likes", "t": "V", "q": "Find the verb meaning enjoys."},
+          {"w": "apples", "t": "N", "q": "Find the first fruit noun."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction joining two nouns."},
+          {"w": "peaches", "t": "N", "q": "Find the second fruit noun."},
+          {"w": "for", "t": "PREP", "q": "Find the preposition that tells purpose."},
+          {"w": "lunch", "t": "N", "q": "Find the noun for a midday meal."}
+        ],
+        "manip": {
+          "task": "Replace the conjunction 'and' with a different conjunction.",
+          "word": "and",
+          "examples": [
+            "She likes apples <span class='changed'>or</span> peaches for lunch.",
+            "She likes apples <span class='changed'>but</span> not peaches for lunch."
+          ]
+        },
+        "vocab": {
+          "w": "stir",
+          "type": "verb",
+          "def": "To move food around in a pot or bowl using a spoon or other tool.",
+          "simple": "Stir means to move food around and around with a spoon so it mixes together!",
+          "examples": ["stir the soup", "stir gently", "stir the batter"],
+          "similar": ["mix", "blend", "swirl"],
+          "antonyms": ["leave", "rest", "separate"],
+          "nonex": ["It does NOT mean to pour something out.", "It does NOT mean to chop food."],
+          "example": "Please stir the hot chocolate so the marshmallows melt inside.",
+          "starter": "I helped stir the _______ ...",
+          "why": "Stirring is one of the most common things you do when cooking or baking!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 83,
+    "sentences": [
+      {
+        "orig": "he likes rice but he dont like noodels",
+        "corr": [
+          {"t": "capitalization", "w": "he", "r": "He", "e": "The first word of a sentence must be capitalized."},
+          {"t": "grammar", "w": "dont", "r": "doesn't", "e": "Use 'doesn't' with 'he' because he is a singular subject."},
+          {"t": "spelling", "w": "noodels", "r": "noodles", "e": "Noodles ends in 'les,' not 'els.'"},
+          {"t": "punctuation", "w": "rice", "r": "rice,", "e": "Put a comma before the conjunction 'but' when joining two sentences."},
+          {"t": "punctuation", "w": "noodels", "r": "noodles.", "e": "A statement needs a period at the end."}
+        ],
+        "fixed": "He likes rice, but he doesn't like noodles.",
+        "pos": [
+          {"w": "He", "t": "PRO", "q": "Find the first subject pronoun."},
+          {"w": "likes", "t": "V", "q": "Find the first verb meaning enjoys."},
+          {"w": "rice", "t": "N", "q": "Find the noun for a grain food."},
+          {"w": "but", "t": "CONJ", "q": "Find the conjunction showing a contrast."},
+          {"w": "he", "t": "PRO", "q": "Find the second subject pronoun."},
+          {"w": "doesn't", "t": "V", "q": "Find the helping verb that means 'does not.'"},
+          {"w": "like", "t": "V", "q": "Find the main verb meaning enjoy."},
+          {"w": "noodles", "t": "N", "q": "Find the noun for a long thin food."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'noodles' with a different food noun.",
+          "word": "noodles",
+          "examples": [
+            "He likes rice, but he doesn't like <span class='changed'>pasta</span>.",
+            "He likes rice, but he doesn't like <span class='changed'>bread</span>."
+          ]
+        },
+        "vocab": {
+          "w": "knead",
+          "type": "verb",
+          "def": "To press and fold dough with your hands to make it smooth and stretchy.",
+          "simple": "Knead means to push and squish dough over and over with your hands until it is soft!",
+          "examples": ["knead the dough", "knead for five minutes", "knead until smooth"],
+          "similar": ["press", "squeeze", "work"],
+          "antonyms": ["release", "drop", "ignore"],
+          "nonex": ["It does NOT mean to cut the dough.", "It does NOT mean to eat the dough."],
+          "example": "We had to knead the bread dough for ten minutes before we could bake it.",
+          "starter": "I kneaded the dough and it felt _______ ...",
+          "why": "Kneading is how bakers make bread soft and fluffy before they bake it!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 84,
+    "sentences": [
+      {
+        "orig": "you can have juce or you can have melk today",
+        "corr": [
+          {"t": "capitalization", "w": "you", "r": "You", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "juce", "r": "juice", "e": "Juice has an 'i' before the 'ce.'"},
+          {"t": "spelling", "w": "melk", "r": "milk", "e": "Milk is spelled with an 'i,' not an 'e.'"},
+          {"t": "punctuation", "w": "juce", "r": "juice,", "e": "Put a comma before the conjunction 'or' when joining two sentences."},
+          {"t": "punctuation", "w": "today", "r": "today.", "e": "A statement needs a period at the end."}
+        ],
+        "fixed": "You can have juice, or you can have milk today.",
+        "pos": [
+          {"w": "You", "t": "PRO", "q": "Find the first subject pronoun."},
+          {"w": "can", "t": "MODAL", "q": "Find the first modal verb showing ability."},
+          {"w": "have", "t": "V", "q": "Find the first main verb."},
+          {"w": "juice", "t": "N", "q": "Find the noun for a fruit drink."},
+          {"w": "or", "t": "CONJ", "q": "Find the conjunction showing a choice."},
+          {"w": "you", "t": "PRO", "q": "Find the second subject pronoun."},
+          {"w": "can", "t": "MODAL", "q": "Find the second modal verb."},
+          {"w": "have", "t": "V", "q": "Find the second main verb."},
+          {"w": "milk", "t": "N", "q": "Find the noun for a white drink."},
+          {"w": "today", "t": "ADV", "q": "Find the adverb that tells when."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'milk' with a different drink noun.",
+          "word": "milk",
+          "examples": [
+            "You can have juice, or you can have <span class='changed'>water</span> today.",
+            "You can have juice, or you can have <span class='changed'>lemonade</span> today."
+          ]
+        },
+        "vocab": {
+          "w": "whisk",
+          "type": "verb",
+          "def": "To stir or beat something very quickly, usually with a special tool.",
+          "simple": "Whisk means to stir something really fast so it gets fluffy or mixed together!",
+          "examples": ["whisk the eggs", "whisk until fluffy", "whisk the cream"],
+          "similar": ["beat", "stir quickly", "mix"],
+          "antonyms": ["pour", "dump", "rest"],
+          "nonex": ["It does NOT mean to chop food.", "It does NOT mean to cook on a stove."],
+          "example": "You need to whisk the eggs very fast until they turn light yellow.",
+          "starter": "I whisked the _______ until it was _______ ...",
+          "why": "Whisking is a fun cooking skill that makes foods fluffy and smooth!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 85,
+    "sentences": [
+      {
+        "orig": "she chopd the carrots and she poot them in the pot",
+        "corr": [
+          {"t": "capitalization", "w": "she", "r": "She", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "chopd", "r": "chopped", "e": "Chopped has a double 'p' and ends in 'ed.'"},
+          {"t": "spelling", "w": "poot", "r": "put", "e": "Put is spelled p-u-t."},
+          {"t": "punctuation", "w": "carrots", "r": "carrots,", "e": "A comma goes before the conjunction 'and' in a compound sentence."},
+          {"t": "punctuation", "w": "pot", "r": "pot.", "e": "A statement needs a period at the end."}
+        ],
+        "fixed": "She chopped the carrots, and she put them in the pot.",
+        "pos": [
+          {"w": "She", "t": "PRO", "q": "Find the first subject pronoun."},
+          {"w": "chopped", "t": "V", "q": "Find the verb meaning cut into pieces."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'carrots.'"},
+          {"w": "carrots", "t": "N", "q": "Find the noun for an orange vegetable."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction joining two sentences."},
+          {"w": "she", "t": "PRO", "q": "Find the second subject pronoun."},
+          {"w": "put", "t": "V", "q": "Find the verb meaning placed."},
+          {"w": "them", "t": "OBJPRO", "q": "Find the object pronoun replacing 'carrots.'"},
+          {"w": "in", "t": "PREP", "q": "Find the preposition showing location."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'pot.'"},
+          {"w": "pot", "t": "N", "q": "Find the noun for a cooking container."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'carrots' with a different vegetable noun.",
+          "word": "carrots",
+          "examples": [
+            "She chopped the <span class='changed'>potatoes</span>, and she put them in the pot.",
+            "She chopped the <span class='changed'>onions</span>, and she put them in the pot."
+          ]
+        },
+        "vocab": {
+          "w": "garnish",
+          "type": "verb",
+          "def": "To add a small amount of food on top of a dish to make it look nice.",
+          "simple": "Garnish means to put a little bit of pretty food on top to make a dish look extra fancy!",
+          "examples": ["garnish with herbs", "garnish the plate", "a pretty garnish"],
+          "similar": ["top", "trim", "finish"],
+          "antonyms": ["strip", "remove", "plain"],
+          "nonex": ["It does NOT mean to eat the food.", "It does NOT mean to cook the food."],
+          "example": "The chef will garnish the soup with a small green leaf on top.",
+          "starter": "I would garnish my food with _______ ...",
+          "why": "Garnishing makes food look beautiful, which makes eating more fun!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 86,
+    "sentences": [
+      {
+        "orig": "i washed the lettis and my bruther cut the tomatos",
+        "corr": [
+          {"t": "capitalization", "w": "i", "r": "I", "e": "The pronoun 'I' must always be capitalized."},
+          {"t": "spelling", "w": "lettis", "r": "lettuce", "e": "Lettuce is spelled with 'uce' at the end."},
+          {"t": "spelling", "w": "bruther", "r": "brother", "e": "Brother is spelled with an 'o,' not a 'u.'"},
+          {"t": "grammar", "w": "tomatos", "r": "tomatoes", "e": "Tomato becomes 'tomatoes' in the plural, adding 'es.'"},
+          {"t": "punctuation", "w": "tomatos", "r": "tomatoes.", "e": "A statement needs a period at the end."}
+        ],
+        "fixed": "I washed the lettuce, and my brother cut the tomatoes.",
+        "pos": [
+          {"w": "I", "t": "PRO", "q": "Find the first subject pronoun."},
+          {"w": "washed", "t": "V", "q": "Find the verb meaning cleaned with water."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'lettuce.'"},
+          {"w": "lettuce", "t": "N", "q": "Find the noun for a leafy green vegetable."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction joining two clauses."},
+          {"w": "my", "t": "POSS", "q": "Find the possessive word before 'brother.'"},
+          {"w": "brother", "t": "N", "q": "Find the noun for a male sibling."},
+          {"w": "cut", "t": "V", "q": "Find the verb meaning sliced."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'tomatoes.'"},
+          {"w": "tomatoes", "t": "N", "q": "Find the plural noun for a red fruit."}
+        ],
+        "manip": {
+          "task": "Replace the verb 'cut' with a different cooking action verb.",
+          "word": "cut",
+          "examples": [
+            "I washed the lettuce, and my brother <span class='changed'>chopped</span> the tomatoes.",
+            "I washed the lettuce, and my brother <span class='changed'>sliced</span> the tomatoes."
+          ]
+        },
+        "vocab": {
+          "w": "aroma",
+          "type": "noun",
+          "def": "A pleasant, noticeable smell, especially from food or drink.",
+          "simple": "Aroma is a nice smell that comes from food, like when cookies are baking in the oven!",
+          "examples": ["a sweet aroma", "the aroma of bread", "a warm aroma"],
+          "similar": ["scent", "smell", "fragrance"],
+          "antonyms": ["stink", "stench", "odor"],
+          "nonex": ["It does NOT mean the taste of food.", "It does NOT mean a bad smell."],
+          "example": "The aroma of fresh popcorn filled the whole kitchen.",
+          "starter": "My favorite aroma is _______ ...",
+          "why": "Aroma is a great word to describe how wonderful food smells when it is cooking!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 87,
+    "sentences": [
+      {
+        "orig": "dad griled the meet but mom maked the salad",
+        "corr": [
+          {"t": "capitalization", "w": "dad", "r": "Dad", "e": "Capitalize 'Dad' when used as a name instead of 'my dad.'"},
+          {"t": "spelling", "w": "griled", "r": "grilled", "e": "Grilled has two l's in the middle."},
+          {"t": "spelling", "w": "meet", "r": "meat", "e": "Meat (the food) is spelled with 'ea,' not 'ee.'"},
+          {"t": "grammar", "w": "maked", "r": "made", "e": "The past tense of 'make' is 'made,' not 'maked.'"},
+          {"t": "punctuation", "w": "salad", "r": "salad.", "e": "A statement needs a period at the end."}
+        ],
+        "fixed": "Dad grilled the meat, but Mom made the salad.",
+        "pos": [
+          {"w": "Dad", "t": "N", "q": "Find the noun used as a name for father."},
+          {"w": "grilled", "t": "V", "q": "Find the verb meaning cooked on a grill."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'meat.'"},
+          {"w": "meat", "t": "N", "q": "Find the noun for animal food."},
+          {"w": "but", "t": "CONJ", "q": "Find the conjunction showing contrast."},
+          {"w": "Mom", "t": "N", "q": "Find the noun used as a name for mother."},
+          {"w": "made", "t": "V", "q": "Find the verb meaning prepared."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'salad.'"},
+          {"w": "salad", "t": "N", "q": "Find the noun for a dish with vegetables."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'salad' with a different side dish noun.",
+          "word": "salad",
+          "examples": [
+            "Dad grilled the meat, but Mom made the <span class='changed'>soup</span>.",
+            "Dad grilled the meat, but Mom made the <span class='changed'>corn</span>."
+          ]
+        },
+        "vocab": {
+          "w": "fragrant",
+          "type": "adjective",
+          "def": "Having a pleasant, sweet smell.",
+          "simple": "Fragrant means something smells really nice and sweet, like flowers or fresh bread!",
+          "examples": ["fragrant flowers", "fragrant herbs", "a fragrant pie"],
+          "similar": ["sweet-smelling", "aromatic", "perfumed"],
+          "antonyms": ["smelly", "stinky", "foul"],
+          "nonex": ["It does NOT mean something looks pretty.", "It does NOT mean something tastes sweet."],
+          "example": "The fragrant cinnamon rolls made the whole house smell wonderful.",
+          "starter": "Something fragrant I love to smell is _______ ...",
+          "why": "Fragrant is a lovely word that helps you describe nice smells you notice around you!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 88,
+    "sentences": [
+      {
+        "orig": "the soop is hot the soop is reddy to eat",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "soop", "r": "soup", "e": "Soup is spelled with 'ou,' not 'oo.'"},
+          {"t": "grammar", "w": "is hot the soop is", "r": "is hot and", "e": "Combine two short sentences about the same thing using 'and.'"},
+          {"t": "spelling", "w": "reddy", "r": "ready", "e": "Ready is spelled with 'ea,' not 'e.'"},
+          {"t": "punctuation", "w": "eat", "r": "eat.", "e": "A statement needs a period at the end."}
+        ],
+        "fixed": "The soup is hot and ready to eat.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the start."},
+          {"w": "soup", "t": "N", "q": "Find the noun for a liquid food."},
+          {"w": "is", "t": "V", "q": "Find the linking verb."},
+          {"w": "hot", "t": "ADJ", "q": "Find the adjective telling temperature."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction joining two words."},
+          {"w": "ready", "t": "ADJ", "q": "Find the adjective meaning prepared."},
+          {"w": "to", "t": "PREP", "q": "Find the preposition before 'eat.'"},
+          {"w": "eat", "t": "V", "q": "Find the verb meaning consume food."}
+        ],
+        "manip": {
+          "task": "Replace the adjective 'hot' with a different adjective.",
+          "word": "hot",
+          "examples": [
+            "The soup is <span class='changed'>warm</span> and ready to eat.",
+            "The soup is <span class='changed'>thick</span> and ready to eat."
+          ]
+        },
+        "vocab": {
+          "w": "moist",
+          "type": "adjective",
+          "def": "Slightly wet; not completely dry.",
+          "simple": "Moist means a little bit wet, like a yummy cake that is not dried out!",
+          "examples": ["a moist cake", "moist soil", "moist towel"],
+          "similar": ["damp", "wet", "dewy"],
+          "antonyms": ["dry", "crispy", "parched"],
+          "nonex": ["It does NOT mean soaking wet.", "It does NOT mean frozen."],
+          "example": "The chocolate cake was so moist and soft that everyone wanted a second piece.",
+          "starter": "A moist food I like to eat is _______ ...",
+          "why": "Moist is a useful word to describe foods and other things that are a little bit wet!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 89,
+    "sentences": [
+      {
+        "orig": "the bread is soft the bread smels good",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "grammar", "w": "is soft the bread", "r": "is soft and", "e": "Combine two sentences about the same subject by using 'and.'"},
+          {"t": "spelling", "w": "smels", "r": "smells", "e": "Smells has two l's in the middle."},
+          {"t": "grammar", "w": "smels", "r": "smells", "e": "Use 'smells' with the singular subject 'bread.'"},
+          {"t": "punctuation", "w": "good", "r": "good.", "e": "A statement needs a period at the end."}
+        ],
+        "fixed": "The bread is soft and smells good.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the start."},
+          {"w": "bread", "t": "N", "q": "Find the noun for a baked food."},
+          {"w": "is", "t": "V", "q": "Find the first linking verb."},
+          {"w": "soft", "t": "ADJ", "q": "Find the adjective describing texture."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction joining two ideas."},
+          {"w": "smells", "t": "V", "q": "Find the second verb about scent."},
+          {"w": "good", "t": "ADJ", "q": "Find the adjective meaning pleasant."}
+        ],
+        "manip": {
+          "task": "Replace the adjective 'soft' with a different texture adjective.",
+          "word": "soft",
+          "examples": [
+            "The bread is <span class='changed'>warm</span> and smells good.",
+            "The bread is <span class='changed'>fluffy</span> and smells good."
+          ]
+        },
+        "vocab": {
+          "w": "crispy",
+          "type": "adjective",
+          "def": "Hard and crunchy, making a snapping sound when broken or bitten.",
+          "simple": "Crispy means food is crunchy on the outside and makes a nice cracking sound when you bite it!",
+          "examples": ["crispy bacon", "crispy fries", "a crispy crust"],
+          "similar": ["crunchy", "crackly", "crusty"],
+          "antonyms": ["soft", "soggy", "mushy"],
+          "nonex": ["It does NOT mean burned.", "It does NOT mean hard as a rock."],
+          "example": "The crispy chicken nuggets made a loud crunch when I bit into them.",
+          "starter": "My favorite crispy food is _______ ...",
+          "why": "Crispy is a fun word that describes the texture and sound of crunchy foods!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 90,
+    "sentences": [
+      {
+        "orig": "i like pizza it is mi favrite fod",
+        "corr": [
+          {"t": "capitalization", "w": "i", "r": "I", "e": "The pronoun 'I' must always be capitalized."},
+          {"t": "grammar", "w": "pizza it", "r": "pizza because it", "e": "Use 'because' to connect the reason to the first sentence."},
+          {"t": "spelling", "w": "mi", "r": "my", "e": "My is spelled m-y."},
+          {"t": "spelling", "w": "favrite", "r": "favorite", "e": "Favorite has an 'o' in the middle: f-a-v-o-r-i-t-e."},
+          {"t": "punctuation", "w": "fod", "r": "food.", "e": "A statement needs a period at the end."}
+        ],
+        "fixed": "I like pizza because it is my favorite food.",
+        "pos": [
+          {"w": "I", "t": "PRO", "q": "Find the subject pronoun."},
+          {"w": "like", "t": "V", "q": "Find the verb meaning enjoy."},
+          {"w": "pizza", "t": "N", "q": "Find the noun for an Italian food."},
+          {"w": "because", "t": "SUBCONJ", "q": "Find the subordinating conjunction that gives a reason."},
+          {"w": "it", "t": "PRO", "q": "Find the pronoun replacing 'pizza.'"},
+          {"w": "is", "t": "V", "q": "Find the linking verb."},
+          {"w": "my", "t": "POSS", "q": "Find the possessive word."},
+          {"w": "favorite", "t": "ADJ", "q": "Find the adjective meaning most liked."},
+          {"w": "food", "t": "N", "q": "Find the noun for things we eat."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'pizza' with a different food noun.",
+          "word": "pizza",
+          "examples": [
+            "I like <span class='changed'>tacos</span> because it is my favorite food.",
+            "I like <span class='changed'>pasta</span> because it is my favorite food."
+          ]
+        },
+        "vocab": {
+          "w": "flaky",
+          "type": "adjective",
+          "def": "Breaking or coming apart in thin, flat pieces.",
+          "simple": "Flaky means food breaks into thin little pieces when you bite it, like a pie crust!",
+          "examples": ["a flaky crust", "flaky pastry", "flaky biscuits"],
+          "similar": ["crumbly", "layered", "delicate"],
+          "antonyms": ["solid", "dense", "thick"],
+          "nonex": ["It does NOT mean soggy or wet.", "It does NOT mean tough or hard."],
+          "example": "The pie had a flaky golden crust that crumbled when I cut it.",
+          "starter": "I ate something flaky and it was _______ ...",
+          "why": "Flaky describes how some baked foods break into thin layers, which feels nice to eat!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 91,
+    "sentences": [
+      {
+        "orig": "the man servd the warm fesh bred quickly",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "servd", "r": "served", "e": "Served ends in 'ed,' not just 'd.'"},
+          {"t": "spelling", "w": "fesh", "r": "fresh", "e": "Fresh has an 'r' after the 'f.'"},
+          {"t": "spelling", "w": "bred", "r": "bread", "e": "Bread is spelled with 'ea,' not just 'e.'"},
+          {"t": "punctuation", "w": "quickly", "r": "quickly.", "e": "A statement needs a period at the end."}
+        ],
+        "fixed": "The man served the warm fresh bread quickly.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the start."},
+          {"w": "man", "t": "N", "q": "Find the noun for an adult male."},
+          {"w": "served", "t": "V", "q": "Find the verb meaning gave food to someone."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'warm.'"},
+          {"w": "warm", "t": "ADJ", "q": "Find the first adjective describing temperature."},
+          {"w": "fresh", "t": "ADJ", "q": "Find the second adjective meaning just made."},
+          {"w": "bread", "t": "N", "q": "Find the noun for a baked food."},
+          {"w": "quickly", "t": "ADV", "q": "Find the adverb that tells how the bread was served."}
+        ],
+        "manip": {
+          "task": "Replace the adverb 'quickly' with a different adverb.",
+          "word": "quickly",
+          "examples": [
+            "The man served the warm fresh bread <span class='changed'>carefully</span>.",
+            "The man served the warm fresh bread <span class='changed'>happily</span>."
+          ]
+        },
+        "vocab": {
+          "w": "crunch",
+          "type": "noun",
+          "def": "The sound made when something hard is crushed or bitten.",
+          "simple": "A crunch is the loud sound food makes when you bite down on something hard or crispy!",
+          "examples": ["a big crunch", "the crunch of chips", "a satisfying crunch"],
+          "similar": ["snap", "crack", "crush"],
+          "antonyms": ["silence", "softness", "squish"],
+          "nonex": ["It does NOT mean a quiet sound.", "It does NOT mean something mushy."],
+          "example": "I heard a loud crunch when I bit into the fresh apple.",
+          "starter": "The food that makes the best crunch is _______ ...",
+          "why": "Crunch is a fun sound word that helps you describe what you hear when eating!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 92,
+    "sentences": [
+      {
+        "orig": "she carefuly pord the thick soop into the bole",
+        "corr": [
+          {"t": "capitalization", "w": "she", "r": "She", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "carefuly", "r": "carefully", "e": "Carefully has two l's: c-a-r-e-f-u-l-l-y."},
+          {"t": "spelling", "w": "pord", "r": "poured", "e": "Poured is spelled p-o-u-r-e-d."},
+          {"t": "spelling", "w": "bole", "r": "bowl", "e": "Bowl has a 'w' before the 'l.'"},
+          {"t": "punctuation", "w": "bole", "r": "bowl.", "e": "A statement needs a period at the end."}
+        ],
+        "fixed": "She carefully poured the thick soup into the bowl.",
+        "pos": [
+          {"w": "She", "t": "PRO", "q": "Find the subject pronoun."},
+          {"w": "carefully", "t": "ADV", "q": "Find the adverb telling how she poured."},
+          {"w": "poured", "t": "V", "q": "Find the verb meaning let liquid flow out."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'thick.'"},
+          {"w": "thick", "t": "ADJ", "q": "Find the adjective that describes the soup."},
+          {"w": "soup", "t": "N", "q": "Find the noun for a liquid food."},
+          {"w": "into", "t": "PREP", "q": "Find the preposition showing direction."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'bowl.'"},
+          {"w": "bowl", "t": "N", "q": "Find the noun for a round dish."}
+        ],
+        "manip": {
+          "task": "Replace the adjective 'thick' with a different adjective.",
+          "word": "thick",
+          "examples": [
+            "She carefully poured the <span class='changed'>hot</span> soup into the bowl.",
+            "She carefully poured the <span class='changed'>creamy</span> soup into the bowl."
+          ]
+        },
+        "vocab": {
+          "w": "sizzle",
+          "type": "verb",
+          "def": "To make a hissing sound like food cooking in hot oil or on a hot surface.",
+          "simple": "Sizzle is the fun hissing sound food makes when it cooks in a hot pan!",
+          "examples": ["the bacon sizzles", "hear it sizzle", "sizzle in the pan"],
+          "similar": ["hiss", "crackle", "pop"],
+          "antonyms": ["silence", "freeze", "cool"],
+          "nonex": ["It does NOT mean to boil in water.", "It does NOT mean to eat something."],
+          "example": "We could hear the eggs sizzle as soon as they hit the hot pan.",
+          "starter": "I heard food sizzle when _______ ...",
+          "why": "Sizzle is a sound word that makes cooking descriptions come alive!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 93,
+    "sentences": [
+      {
+        "orig": "the old woman slowlee stird the large pot of soop",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "slowlee", "r": "slowly", "e": "Slowly ends in 'ly,' not 'lee.'"},
+          {"t": "spelling", "w": "stird", "r": "stirred", "e": "Stirred has a double 'r' and ends in 'ed.'"},
+          {"t": "spelling", "w": "soop", "r": "soup", "e": "Soup is spelled with 'ou,' not 'oo.'"},
+          {"t": "punctuation", "w": "soop", "r": "soup.", "e": "A statement needs a period at the end."}
+        ],
+        "fixed": "The old woman slowly stirred the large pot of soup.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the start."},
+          {"w": "old", "t": "ADJ", "q": "Find the adjective that tells age."},
+          {"w": "woman", "t": "N", "q": "Find the noun for an adult female."},
+          {"w": "slowly", "t": "ADV", "q": "Find the adverb telling how she stirred."},
+          {"w": "stirred", "t": "V", "q": "Find the verb meaning moved in circles."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'large.'"},
+          {"w": "large", "t": "ADJ", "q": "Find the adjective that tells size."},
+          {"w": "pot", "t": "N", "q": "Find the noun for a cooking container."},
+          {"w": "of", "t": "PREP", "q": "Find the preposition connecting 'pot' and 'soup.'"},
+          {"w": "soup", "t": "N", "q": "Find the noun for a liquid food."}
+        ],
+        "manip": {
+          "task": "Replace the adverb 'slowly' with a different adverb.",
+          "word": "slowly",
+          "examples": [
+            "The old woman <span class='changed'>gently</span> stirred the large pot of soup.",
+            "The old woman <span class='changed'>happily</span> stirred the large pot of soup."
+          ]
+        },
+        "vocab": {
+          "w": "nibble",
+          "type": "verb",
+          "def": "To eat something by taking very small bites.",
+          "simple": "Nibble means to eat food by taking tiny little bites, like a mouse does!",
+          "examples": ["nibble on a cracker", "nibble the cheese", "nibble slowly"],
+          "similar": ["munch", "peck", "snack"],
+          "antonyms": ["gulp", "gobble", "stuff"],
+          "nonex": ["It does NOT mean to take one big bite.", "It does NOT mean to drink something."],
+          "example": "The little girl liked to nibble on her cookie to make it last longer.",
+          "starter": "I like to nibble on _______ ...",
+          "why": "Nibble is a fun word that describes eating small bites, just like many little animals do!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 94,
+    "sentences": [
+      {
+        "orig": "the cupcakes is on the tabel in the kichen",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "grammar", "w": "is", "r": "are", "e": "Use 'are' with the plural subject 'cupcakes.'"},
+          {"t": "spelling", "w": "tabel", "r": "table", "e": "Table is spelled t-a-b-l-e with the 'le' at the end."},
+          {"t": "spelling", "w": "kichen", "r": "kitchen", "e": "Kitchen has a 't' before the 'ch.'"},
+          {"t": "punctuation", "w": "kichen", "r": "kitchen.", "e": "A statement needs a period at the end."}
+        ],
+        "fixed": "The cupcakes are on the table in the kitchen.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article before 'cupcakes.'"},
+          {"w": "cupcakes", "t": "N", "q": "Find the noun for small cakes."},
+          {"w": "are", "t": "V", "q": "Find the linking verb."},
+          {"w": "on", "t": "PREP", "q": "Find the first preposition showing location."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'table.'"},
+          {"w": "table", "t": "N", "q": "Find the noun for a piece of furniture."},
+          {"w": "in", "t": "PREP", "q": "Find the second preposition showing location."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'kitchen.'"},
+          {"w": "kitchen", "t": "N", "q": "Find the noun for a room where you cook."}
+        ],
+        "manip": {
+          "task": "Replace the preposition 'on' with a different preposition.",
+          "word": "on",
+          "examples": [
+            "The cupcakes are <span class='changed'>near</span> the table in the kitchen.",
+            "The cupcakes are <span class='changed'>under</span> the table in the kitchen."
+          ]
+        },
+        "vocab": {
+          "w": "devour",
+          "type": "verb",
+          "def": "To eat food quickly and hungrily.",
+          "simple": "Devour means to eat something really fast because you are super hungry or it tastes so good!",
+          "examples": ["devour the pizza", "devour every bite", "devour the meal"],
+          "similar": ["gobble", "wolf down", "gulp"],
+          "antonyms": ["nibble", "pick at", "taste"],
+          "nonex": ["It does NOT mean to cook food.", "It does NOT mean to eat slowly."],
+          "example": "The hungry kids were ready to devour the whole plate of tacos.",
+          "starter": "I could devour a whole plate of _______ ...",
+          "why": "Devour is a strong word that shows just how hungry someone is when they eat!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 95,
+    "sentences": [
+      {
+        "orig": "she put the flours behind the vase on the shelf",
+        "corr": [
+          {"t": "capitalization", "w": "she", "r": "She", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "flours", "r": "flowers", "e": "Flowers (plants) is spelled with 'ow,' not 'ou.'"},
+          {"t": "grammar", "w": "behind", "r": "beside", "e": "Use 'beside' to mean next to something."},
+          {"t": "spelling", "w": "vase", "r": "vase", "e": "Vase is correct."},
+          {"t": "punctuation", "w": "shelf", "r": "shelf.", "e": "A statement needs a period at the end."}
+        ],
+        "fixed": "She put the flowers beside the vase on the shelf.",
+        "pos": [
+          {"w": "She", "t": "PRO", "q": "Find the subject pronoun."},
+          {"w": "put", "t": "V", "q": "Find the verb meaning placed."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'flowers.'"},
+          {"w": "flowers", "t": "N", "q": "Find the noun for pretty plants."},
+          {"w": "beside", "t": "PREP", "q": "Find the preposition meaning next to."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'vase.'"},
+          {"w": "vase", "t": "N", "q": "Find the noun for a container for flowers."},
+          {"w": "on", "t": "PREP", "q": "Find the preposition showing location."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'shelf.'"},
+          {"w": "shelf", "t": "N", "q": "Find the noun for a flat surface on a wall."}
+        ],
+        "manip": {
+          "task": "Replace the preposition 'beside' with a different preposition.",
+          "word": "beside",
+          "examples": [
+            "She put the flowers <span class='changed'>behind</span> the vase on the shelf.",
+            "She put the flowers <span class='changed'>near</span> the vase on the shelf."
+          ]
+        },
+        "vocab": {
+          "w": "treat",
+          "type": "noun",
+          "def": "A special food that is different from what you eat every day; something extra nice.",
+          "simple": "A treat is a special yummy food you do not eat every day, like candy or cake!",
+          "examples": ["a birthday treat", "a sweet treat", "a frozen treat"],
+          "similar": ["snack", "goodie", "delight"],
+          "antonyms": ["chore", "punishment", "bore"],
+          "nonex": ["It does NOT mean regular everyday food.", "It does NOT mean a full meal."],
+          "example": "Mom gave us a treat of ice cream cones after our soccer game.",
+          "starter": "My favorite treat is _______ ...",
+          "why": "Treats make special days even more fun because they are not something you have every day!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 96,
+    "sentences": [
+      {
+        "orig": "the cat sleeped under the tabel near the warm uven",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "grammar", "w": "sleeped", "r": "slept", "e": "The past tense of 'sleep' is 'slept,' not 'sleeped.'"},
+          {"t": "spelling", "w": "tabel", "r": "table", "e": "Table is spelled t-a-b-l-e."},
+          {"t": "spelling", "w": "uven", "r": "oven", "e": "Oven is spelled with an 'o,' not a 'u.'"},
+          {"t": "punctuation", "w": "uven", "r": "oven.", "e": "A statement needs a period at the end."}
+        ],
+        "fixed": "The cat slept under the table near the warm oven.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article before 'cat.'"},
+          {"w": "cat", "t": "N", "q": "Find the noun for a pet animal."},
+          {"w": "slept", "t": "V", "q": "Find the verb meaning rested with eyes closed."},
+          {"w": "under", "t": "PREP", "q": "Find the preposition meaning below."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'table.'"},
+          {"w": "table", "t": "N", "q": "Find the noun for a piece of furniture."},
+          {"w": "near", "t": "PREP", "q": "Find the preposition meaning close to."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'warm.'"},
+          {"w": "warm", "t": "ADJ", "q": "Find the adjective that describes temperature."},
+          {"w": "oven", "t": "N", "q": "Find the noun for a cooking machine."}
+        ],
+        "manip": {
+          "task": "Replace the preposition 'under' with a different preposition.",
+          "word": "under",
+          "examples": [
+            "The cat slept <span class='changed'>behind</span> the table near the warm oven.",
+            "The cat slept <span class='changed'>between</span> the table near the warm oven."
+          ]
+        },
+        "vocab": {
+          "w": "refreshing",
+          "type": "adjective",
+          "def": "Making you feel cool, fresh, and full of energy again.",
+          "simple": "Refreshing means something that makes you feel cool and fresh, like cold water on a hot day!",
+          "examples": ["a refreshing drink", "refreshing lemonade", "a refreshing swim"],
+          "similar": ["cooling", "reviving", "invigorating"],
+          "antonyms": ["tiring", "draining", "stuffy"],
+          "nonex": ["It does NOT mean something is hot.", "It does NOT mean something is boring."],
+          "example": "After playing outside, the cold lemonade was so refreshing.",
+          "starter": "Something refreshing I enjoy is _______ ...",
+          "why": "Refreshing is a word that describes things that make you feel good and cool again!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 97,
+    "sentences": [
+      {
+        "orig": "we eat froot becuz it is helthy for us",
+        "corr": [
+          {"t": "capitalization", "w": "we", "r": "We", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "froot", "r": "fruit", "e": "Fruit is spelled f-r-u-i-t."},
+          {"t": "spelling", "w": "becuz", "r": "because", "e": "Because is spelled b-e-c-a-u-s-e."},
+          {"t": "spelling", "w": "helthy", "r": "healthy", "e": "Healthy has 'ea' in the middle."},
+          {"t": "punctuation", "w": "us", "r": "us.", "e": "A statement needs a period at the end."}
+        ],
+        "fixed": "We eat fruit because it is healthy for us.",
+        "pos": [
+          {"w": "We", "t": "PRO", "q": "Find the subject pronoun."},
+          {"w": "eat", "t": "V", "q": "Find the verb meaning consume food."},
+          {"w": "fruit", "t": "N", "q": "Find the noun for sweet plant food."},
+          {"w": "because", "t": "SUBCONJ", "q": "Find the subordinating conjunction that gives a reason."},
+          {"w": "it", "t": "PRO", "q": "Find the pronoun replacing 'fruit.'"},
+          {"w": "is", "t": "V", "q": "Find the linking verb."},
+          {"w": "healthy", "t": "ADJ", "q": "Find the adjective meaning good for your body."},
+          {"w": "for", "t": "PREP", "q": "Find the preposition before 'us.'"},
+          {"w": "us", "t": "OBJPRO", "q": "Find the object pronoun meaning the group."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'fruit' with a different healthy food noun.",
+          "word": "fruit",
+          "examples": [
+            "We eat <span class='changed'>vegetables</span> because it is healthy for us.",
+            "We eat <span class='changed'>salad</span> because it is healthy for us."
+          ]
+        },
+        "vocab": {
+          "w": "banquet",
+          "type": "noun",
+          "def": "A large formal meal for many people, usually to celebrate something special.",
+          "simple": "A banquet is a big fancy dinner party with lots of food and many guests!",
+          "examples": ["a wedding banquet", "a holiday banquet", "a grand banquet"],
+          "similar": ["feast", "dinner party", "gala"],
+          "antonyms": ["snack", "bite", "quick meal"],
+          "nonex": ["It does NOT mean a small meal for one person.", "It does NOT mean fast food."],
+          "example": "The school had a banquet at the end of the year with music and lots of food.",
+          "starter": "If I could plan a banquet, I would serve _______ ...",
+          "why": "A banquet is a great word for a big celebration meal that brings many people together!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 98,
+    "sentences": [
+      {
+        "orig": "wen it rains we drinc hot cocoa insid",
+        "corr": [
+          {"t": "capitalization", "w": "wen", "r": "When", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "wen", "r": "When", "e": "When is spelled w-h-e-n."},
+          {"t": "spelling", "w": "drinc", "r": "drink", "e": "Drink ends in 'nk,' not 'nc.'"},
+          {"t": "spelling", "w": "insid", "r": "inside", "e": "Inside ends with an 'e.'"},
+          {"t": "punctuation", "w": "insid", "r": "inside.", "e": "A statement needs a period at the end."}
+        ],
+        "fixed": "When it rains, we drink hot cocoa inside.",
+        "pos": [
+          {"w": "When", "t": "SUBCONJ", "q": "Find the subordinating conjunction that tells when."},
+          {"w": "it", "t": "PRO", "q": "Find the pronoun for the weather."},
+          {"w": "rains", "t": "V", "q": "Find the verb for water falling from the sky."},
+          {"w": "we", "t": "PRO", "q": "Find the subject pronoun for the group."},
+          {"w": "drink", "t": "V", "q": "Find the verb meaning consume a liquid."},
+          {"w": "hot", "t": "ADJ", "q": "Find the adjective describing temperature."},
+          {"w": "cocoa", "t": "N", "q": "Find the noun for a chocolate drink."},
+          {"w": "inside", "t": "ADV", "q": "Find the adverb telling where."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'cocoa' with a different warm drink noun.",
+          "word": "cocoa",
+          "examples": [
+            "When it rains, we drink hot <span class='changed'>tea</span> inside.",
+            "When it rains, we drink hot <span class='changed'>cider</span> inside."
+          ]
+        },
+        "vocab": {
+          "w": "sprinkle",
+          "type": "verb",
+          "def": "To scatter small drops or tiny pieces of something over a surface.",
+          "simple": "Sprinkle means to drop tiny bits of something on top, like sugar on cookies!",
+          "examples": ["sprinkle sugar", "sprinkle cheese", "sprinkle on top"],
+          "similar": ["scatter", "dust", "dash"],
+          "antonyms": ["dump", "pile", "heap"],
+          "nonex": ["It does NOT mean to pour a lot of something.", "It does NOT mean to mix things together."],
+          "example": "We like to sprinkle cinnamon on top of our oatmeal every morning.",
+          "starter": "I like to sprinkle _______ on my _______ ...",
+          "why": "Sprinkle is a useful cooking word for adding a little bit of something on top of food!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 99,
+    "sentences": [
+      {
+        "orig": "the childs helpd set the tabel if the gests come",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "grammar", "w": "childs", "r": "children", "e": "The plural of 'child' is 'children,' not 'childs.'"},
+          {"t": "spelling", "w": "helpd", "r": "helped", "e": "Helped ends in 'ed,' not just 'd.'"},
+          {"t": "spelling", "w": "tabel", "r": "table", "e": "Table ends in 'le,' not 'el.'"},
+          {"t": "punctuation", "w": "come", "r": "come.", "e": "A statement needs a period at the end."}
+        ],
+        "fixed": "The children helped set the table if the guests come.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the first article."},
+          {"w": "children", "t": "N", "q": "Find the noun meaning young people."},
+          {"w": "helped", "t": "V", "q": "Find the first verb meaning gave help."},
+          {"w": "set", "t": "V", "q": "Find the verb meaning arranged."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'table.'"},
+          {"w": "table", "t": "N", "q": "Find the noun for a piece of furniture."},
+          {"w": "if", "t": "SUBCONJ", "q": "Find the subordinating conjunction showing a condition."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'guests.'"},
+          {"w": "guests", "t": "N", "q": "Find the noun for people who visit."},
+          {"w": "come", "t": "V", "q": "Find the verb meaning arrive."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'table' with a different noun you set for a meal.",
+          "word": "table",
+          "examples": [
+            "The children helped set the <span class='changed'>plates</span> if the guests come.",
+            "The children helped set the <span class='changed'>chairs</span> if the guests come."
+          ]
+        },
+        "vocab": {
+          "w": "decorate",
+          "type": "verb",
+          "def": "To add pretty things to something to make it look nicer or more festive.",
+          "simple": "Decorate means to make something look pretty by adding colors, ribbons, or fun things to it!",
+          "examples": ["decorate a cake", "decorate the room", "decorate for a party"],
+          "similar": ["adorn", "trim", "dress up"],
+          "antonyms": ["strip", "bare", "plain"],
+          "nonex": ["It does NOT mean to break something.", "It does NOT mean to clean something."],
+          "example": "We helped decorate the classroom with balloons and streamers for the party.",
+          "starter": "I like to decorate _______ with _______ ...",
+          "why": "Decorating is a fun way to make places and things look festive for celebrations!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 100,
+    "sentences": [
+      {
+        "orig": "we had a grate party and evryone brung there favrit foods",
+        "corr": [
+          {"t": "capitalization", "w": "we", "r": "We", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "grate", "r": "great", "e": "Great (meaning wonderful) is spelled g-r-e-a-t."},
+          {"t": "spelling", "w": "evryone", "r": "everyone", "e": "Everyone is spelled e-v-e-r-y-o-n-e."},
+          {"t": "grammar", "w": "brung", "r": "brought", "e": "The past tense of 'bring' is 'brought,' not 'brung.'"},
+          {"t": "punctuation", "w": "foods", "r": "foods.", "e": "A statement needs a period at the end."}
+        ],
+        "fixed": "We had a great party, and everyone brought their favorite foods.",
+        "pos": [
+          {"w": "We", "t": "PRO", "q": "Find the subject pronoun."},
+          {"w": "had", "t": "V", "q": "Find the first verb meaning experienced."},
+          {"w": "a", "t": "ART", "q": "Find the article before 'great.'"},
+          {"w": "great", "t": "ADJ", "q": "Find the adjective meaning wonderful."},
+          {"w": "party", "t": "N", "q": "Find the noun for a fun event."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction joining two clauses."},
+          {"w": "everyone", "t": "PRO", "q": "Find the pronoun meaning all people."},
+          {"w": "brought", "t": "V", "q": "Find the second verb meaning carried to a place."},
+          {"w": "their", "t": "POSS", "q": "Find the possessive word meaning belonging to them."},
+          {"w": "favorite", "t": "ADJ", "q": "Find the adjective meaning most liked."},
+          {"w": "foods", "t": "N", "q": "Find the noun for things we eat."}
+        ],
+        "manip": {
+          "task": "Replace the adjective 'great' with a different adjective.",
+          "word": "great",
+          "examples": [
+            "We had a <span class='changed'>wonderful</span> party, and everyone brought their favorite foods.",
+            "We had a <span class='changed'>fun</span> party, and everyone brought their favorite foods."
+          ]
+        },
+        "vocab": {
+          "w": "occasion",
+          "type": "noun",
+          "def": "A special event or time when something important or fun happens.",
+          "simple": "An occasion is a special time when something exciting happens, like a birthday or holiday!",
+          "examples": ["a special occasion", "a happy occasion", "a rare occasion"],
+          "similar": ["event", "celebration", "happening"],
+          "antonyms": ["routine", "everyday", "ordinary"],
+          "nonex": ["It does NOT mean a regular school day.", "It does NOT mean something boring."],
+          "example": "Grandma's 80th birthday was a very special occasion for our whole family.",
+          "starter": "A special occasion I remember is _______ ...",
+          "why": "Knowing the word occasion helps you talk about important and happy events in your life!"
+        }
+      }
+    ]
+  }
+]

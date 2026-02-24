@@ -1,0 +1,791 @@
+[
+  {
+    "day": 126,
+    "sentences": [
+      {
+        "orig": "the unhapey cat was under the big tabel in my room",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "unhapey", "r": "unhappy", "e": "Unhappy is spelled u-n-h-a-p-p-y. The prefix un- plus happy."},
+          {"t": "grammar", "w": "was", "r": "sat", "e": "Sat is a better action verb than was to show what the cat did."},
+          {"t": "spelling", "w": "tabel", "r": "table", "e": "Table is spelled t-a-b-l-e, not t-a-b-e-l."},
+          {"t": "punctuation", "w": "room", "r": "room.", "e": "A telling sentence ends with a period."}
+        ],
+        "fixed": "The unhappy cat sat under the big table in my room.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the start of the sentence."},
+          {"w": "unhappy", "t": "ADJ", "q": "Find the adjective with the prefix un- that means not happy."},
+          {"w": "cat", "t": "N", "q": "Find the noun for a furry pet."},
+          {"w": "sat", "t": "V", "q": "Find the verb that tells what the cat did."},
+          {"w": "under", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "the", "t": "ART", "q": "Find the article before big."},
+          {"w": "big", "t": "ADJ", "q": "Find the adjective that tells the size."},
+          {"w": "table", "t": "N", "q": "Find the noun for a piece of furniture."},
+          {"w": "in", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "my", "t": "POSS", "q": "Find the possessive word that shows who owns the room."},
+          {"w": "room", "t": "N", "q": "Find the noun for a place in a house."}
+        ],
+        "manip": {"task": "Replace the un- word 'unhappy' with a different un- word.", "word": "unhappy", "examples": ["The <span class='changed'>unlucky</span> cat sat under the big table in my room.", "The <span class='changed'>unsafe</span> cat sat under the big table in my room."]},
+        "vocab": {"w": "transform", "type": "verb", "def": "To change something into something very different.", "simple": "When you transform something, you change it a lot, like a caterpillar turning into a butterfly!", "examples": ["transform a room", "transform into a hero", "transform a drawing"], "similar": ["change", "turn into", "convert"], "antonyms": ["keep", "stay", "remain"], "nonex": ["It does NOT mean to move something to a new place.", "It does NOT mean to break something."], "example": "The artist can transform a blank page into a beautiful picture.", "starter": "I wish I could transform _______ into...", "why": "Learning about transformation helps you understand how things change and grow!"}
+      }
+    ]
+  },
+  {
+    "day": 127,
+    "sentences": [
+      {
+        "orig": "she was unkind to him and he was unsaf on the playgrownd",
+        "corr": [
+          {"t": "capitalization", "w": "she", "r": "She", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "unsaf", "r": "unsafe", "e": "Unsafe is spelled u-n-s-a-f-e. The prefix un- plus safe."},
+          {"t": "grammar", "w": "was", "r": "felt", "e": "Felt is a better verb to describe how he experienced being unsafe."},
+          {"t": "spelling", "w": "playgrownd", "r": "playground", "e": "Playground is spelled p-l-a-y-g-r-o-u-n-d."},
+          {"t": "punctuation", "w": "playgrownd", "r": "playground.", "e": "A telling sentence ends with a period."}
+        ],
+        "fixed": "She was unkind to him and he felt unsafe on the playground.",
+        "pos": [
+          {"w": "She", "t": "PRO", "q": "Find the pronoun for a girl."},
+          {"w": "was", "t": "V", "q": "Find the helping verb."},
+          {"w": "unkind", "t": "ADJ", "q": "Find the adjective with the prefix un- that means not kind."},
+          {"w": "to", "t": "PREP", "q": "Find the preposition after unkind."},
+          {"w": "him", "t": "OBJPRO", "q": "Find the object pronoun for a boy."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction that joins two ideas."},
+          {"w": "he", "t": "PRO", "q": "Find the pronoun for a boy."},
+          {"w": "felt", "t": "V", "q": "Find the verb that tells what he experienced."},
+          {"w": "unsafe", "t": "ADJ", "q": "Find the adjective with the prefix un- that means not safe."},
+          {"w": "on", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "the", "t": "ART", "q": "Find the article before playground."},
+          {"w": "playground", "t": "N", "q": "Find the noun for a place to play outside."}
+        ],
+        "manip": {"task": "Replace the un- word 'unkind' with a different un- word.", "word": "unkind", "examples": ["She was <span class='changed'>unfair</span> to him and he felt unsafe on the playground.", "She was <span class='changed'>unfriendly</span> to him and he felt unsafe on the playground."]},
+        "vocab": {"w": "reverse", "type": "verb", "def": "To go backward or turn something the other way around.", "simple": "When you reverse, you go backward or flip something around, like rewinding a video!", "examples": ["reverse a car", "reverse the order", "reverse a mistake"], "similar": ["undo", "flip", "turn back"], "antonyms": ["forward", "advance", "continue"], "nonex": ["It does NOT mean to stop completely.", "It does NOT mean to go faster."], "example": "Can you reverse the letters in your name to spell it backward?", "starter": "If I could reverse _______ I would...", "why": "Understanding reverse helps you solve puzzles and fix mistakes!"}
+      }
+    ]
+  },
+  {
+    "day": 128,
+    "sentences": [
+      {
+        "orig": "he tryed to redo his werk but it was unfare to him",
+        "corr": [
+          {"t": "capitalization", "w": "he", "r": "He", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "tryed", "r": "tried", "e": "When a word ends in y, change y to i and add -ed: tried."},
+          {"t": "spelling", "w": "werk", "r": "work", "e": "Work is spelled w-o-r-k."},
+          {"t": "spelling", "w": "unfare", "r": "unfair", "e": "Unfair is spelled u-n-f-a-i-r. The prefix un- plus fair."},
+          {"t": "punctuation", "w": "him", "r": "him.", "e": "A telling sentence ends with a period."}
+        ],
+        "fixed": "He tried to redo his work but it was unfair to him.",
+        "pos": [
+          {"w": "He", "t": "PRO", "q": "Find the pronoun for a boy."},
+          {"w": "tried", "t": "V", "q": "Find the past tense verb that means attempted."},
+          {"w": "to", "t": "PREP", "q": "Find the preposition before redo."},
+          {"w": "redo", "t": "V", "q": "Find the verb with the prefix re- that means to do again."},
+          {"w": "his", "t": "POSS", "q": "Find the possessive word for the boy."},
+          {"w": "work", "t": "N", "q": "Find the noun for a task or job."},
+          {"w": "but", "t": "CONJ", "q": "Find the conjunction that shows a contrast."},
+          {"w": "it", "t": "PRO", "q": "Find the pronoun that replaces a thing."},
+          {"w": "was", "t": "V", "q": "Find the past tense helping verb."},
+          {"w": "unfair", "t": "ADJ", "q": "Find the adjective with the prefix un- that means not fair."},
+          {"w": "to", "t": "PREP", "q": "Find the preposition after unfair."},
+          {"w": "him", "t": "OBJPRO", "q": "Find the object pronoun for the boy."}
+        ],
+        "manip": {"task": "Replace the re- word 'redo' with a different re- word.", "word": "redo", "examples": ["He tried to <span class='changed'>rewrite</span> his work but it was unfair to him.", "He tried to <span class='changed'>restart</span> his work but it was unfair to him."]},
+        "vocab": {"w": "opposite", "type": "noun", "def": "Something that is completely different from something else.", "simple": "An opposite is the thing that is totally different, like hot and cold!", "examples": ["the opposite of up", "the opposite of big", "the opposite of happy"], "similar": ["reverse", "contrary", "other side"], "antonyms": ["same", "alike", "matching"], "nonex": ["It does NOT mean something that is a little bit different.", "It does NOT mean something that is next to something."], "example": "The opposite of dark is light, and the opposite of tall is short.", "starter": "The opposite of my favorite thing is...", "why": "Knowing opposites helps you describe the world and understand new words!"}
+      }
+    ]
+  },
+  {
+    "day": 129,
+    "sentences": [
+      {
+        "orig": "my sister is biger then me and she runns much fastur",
+        "corr": [
+          {"t": "capitalization", "w": "my", "r": "My", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "biger", "r": "bigger", "e": "When adding -er, double the last consonant: big becomes bigger."},
+          {"t": "grammar", "w": "then", "r": "than", "e": "Use than when comparing two things. Then means next."},
+          {"t": "spelling", "w": "runns", "r": "runs", "e": "Runs has only one n: r-u-n-s."},
+          {"t": "spelling", "w": "fastur", "r": "faster", "e": "Faster is spelled f-a-s-t-e-r with the suffix -er."}
+        ],
+        "fixed": "My sister is bigger than me and she runs much faster.",
+        "pos": [
+          {"w": "My", "t": "POSS", "q": "Find the possessive word that shows who the sister belongs to."},
+          {"w": "sister", "t": "N", "q": "Find the noun for a female sibling."},
+          {"w": "is", "t": "V", "q": "Find the helping verb."},
+          {"w": "bigger", "t": "ADJ", "q": "Find the adjective with -er that compares size."},
+          {"w": "than", "t": "CONJ", "q": "Find the word used to compare two things."},
+          {"w": "me", "t": "OBJPRO", "q": "Find the object pronoun for yourself."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction that joins two ideas."},
+          {"w": "she", "t": "PRO", "q": "Find the pronoun for the sister."},
+          {"w": "runs", "t": "V", "q": "Find the action verb for moving quickly."},
+          {"w": "much", "t": "ADV", "q": "Find the adverb that tells how much faster."},
+          {"w": "faster", "t": "ADJ", "q": "Find the adjective with -er that compares speed."}
+        ],
+        "manip": {"task": "Replace the -er comparison word 'bigger' with a different -er word.", "word": "bigger", "examples": ["My sister is <span class='changed'>taller</span> than me and she runs much faster.", "My sister is <span class='changed'>older</span> than me and she runs much faster."]},
+        "vocab": {"w": "compare", "type": "verb", "def": "To look at two or more things to see how they are alike or different.", "simple": "When you compare, you look at two things to see what is the same and what is different!", "examples": ["compare two pictures", "compare apples and oranges", "compare heights"], "similar": ["match", "measure", "check"], "antonyms": ["ignore", "overlook", "skip"], "nonex": ["It does NOT mean to copy something.", "It does NOT mean to pick a favorite."], "example": "Let us compare the two kittens to see which one is fluffier.", "starter": "I like to compare _______ and...", "why": "Comparing helps you notice details and make smart choices!"}
+      }
+    ]
+  },
+  {
+    "day": 130,
+    "sentences": [
+      {
+        "orig": "that is the bigest and talest tree in the hole park",
+        "corr": [
+          {"t": "capitalization", "w": "that", "r": "That", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "bigest", "r": "biggest", "e": "When adding -est, double the last consonant: big becomes biggest."},
+          {"t": "spelling", "w": "talest", "r": "tallest", "e": "Tallest keeps both l's from tall and adds -est."},
+          {"t": "spelling", "w": "hole", "r": "whole", "e": "Whole means all of something. Hole means an opening."},
+          {"t": "punctuation", "w": "park", "r": "park.", "e": "A telling sentence ends with a period."}
+        ],
+        "fixed": "That is the biggest and tallest tree in the whole park.",
+        "pos": [
+          {"w": "That", "t": "DEM", "q": "Find the demonstrative that points to something far away."},
+          {"w": "is", "t": "V", "q": "Find the helping verb."},
+          {"w": "the", "t": "ART", "q": "Find the article before biggest."},
+          {"w": "biggest", "t": "ADJ", "q": "Find the adjective with -est that means the most big."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction that joins two words."},
+          {"w": "tallest", "t": "ADJ", "q": "Find the adjective with -est that means the most tall."},
+          {"w": "tree", "t": "N", "q": "Find the noun for a tall plant."},
+          {"w": "in", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "the", "t": "ART", "q": "Find the article before whole."},
+          {"w": "whole", "t": "ADJ", "q": "Find the adjective that means all of something."},
+          {"w": "park", "t": "N", "q": "Find the noun for an outdoor place to play."}
+        ],
+        "manip": {"task": "Replace the -est word 'biggest' with a different -est word.", "word": "biggest", "examples": ["That is the <span class='changed'>oldest</span> and tallest tree in the whole park.", "That is the <span class='changed'>widest</span> and tallest tree in the whole park."]},
+        "vocab": {"w": "supreme", "type": "adjective", "def": "The highest, greatest, or most important.", "simple": "Supreme means the very best or the most important of all!", "examples": ["supreme champion", "supreme effort", "supreme leader"], "similar": ["greatest", "top", "best"], "antonyms": ["worst", "lowest", "least"], "nonex": ["It does NOT mean just pretty good.", "It does NOT mean scary or powerful."], "example": "The supreme champion won every single race this year.", "starter": "The supreme _______ in my life is...", "why": "Knowing supreme helps you describe something that is the very best!"}
+      }
+    ]
+  },
+  {
+    "day": 131,
+    "sentences": [
+      {
+        "orig": "her littel dog is the cutest and sofist pet at ower school",
+        "corr": [
+          {"t": "capitalization", "w": "her", "r": "Her", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "littel", "r": "little", "e": "Little is spelled l-i-t-t-l-e."},
+          {"t": "spelling", "w": "sofist", "r": "softest", "e": "Softest has two t's because soft ends in t, then add -est: softest."},
+          {"t": "spelling", "w": "ower", "r": "our", "e": "Our is spelled o-u-r, not o-w-e-r."},
+          {"t": "punctuation", "w": "school", "r": "school.", "e": "A telling sentence ends with a period."}
+        ],
+        "fixed": "Her little dog is the cutest and softest pet at our school.",
+        "pos": [
+          {"w": "Her", "t": "POSS", "q": "Find the possessive word that shows who owns the dog."},
+          {"w": "little", "t": "ADJ", "q": "Find the adjective that means small."},
+          {"w": "dog", "t": "N", "q": "Find the noun for a furry pet."},
+          {"w": "is", "t": "V", "q": "Find the helping verb."},
+          {"w": "the", "t": "ART", "q": "Find the article before cutest."},
+          {"w": "cutest", "t": "ADJ", "q": "Find the adjective with -est that means the most cute."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction joining two words."},
+          {"w": "softest", "t": "ADJ", "q": "Find the adjective with -est that means the most soft."},
+          {"w": "pet", "t": "N", "q": "Find the noun for an animal you keep at home."},
+          {"w": "at", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "our", "t": "POSS", "q": "Find the possessive word for a group."},
+          {"w": "school", "t": "N", "q": "Find the noun for a place to learn."}
+        ],
+        "manip": {"task": "Replace the -est word 'softest' with a different -est word.", "word": "softest", "examples": ["Her little dog is the cutest and <span class='changed'>friendliest</span> pet at our school.", "Her little dog is the cutest and <span class='changed'>smallest</span> pet at our school."]},
+        "vocab": {"w": "miniature", "type": "adjective", "def": "Very small, much smaller than the normal size.", "simple": "Miniature means super tiny, like a toy version of something big!", "examples": ["miniature horse", "miniature house", "miniature car"], "similar": ["tiny", "small", "little"], "antonyms": ["giant", "huge", "enormous"], "nonex": ["It does NOT mean broken or old.", "It does NOT mean a baby version of something."], "example": "She had a miniature tea set that was small enough for a mouse.", "starter": "I wish I had a miniature _______ because...", "why": "Miniature is a fun word to describe tiny things and it makes you sound like a word wizard!"}
+      }
+    ]
+  },
+  {
+    "day": 132,
+    "sentences": [
+      {
+        "orig": "the sun shine came thru the bed room window this morning",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "sun shine", "r": "sunshine", "e": "Sunshine is one compound word, not two separate words."},
+          {"t": "spelling", "w": "thru", "r": "through", "e": "Through is spelled t-h-r-o-u-g-h."},
+          {"t": "spelling", "w": "bed room", "r": "bedroom", "e": "Bedroom is one compound word, not two separate words."},
+          {"t": "punctuation", "w": "morning", "r": "morning.", "e": "A telling sentence ends with a period."}
+        ],
+        "fixed": "The sunshine came through the bedroom window this morning.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the start of the sentence."},
+          {"w": "sunshine", "t": "N", "q": "Find the compound noun for light from the sun."},
+          {"w": "came", "t": "V", "q": "Find the past tense verb for arriving."},
+          {"w": "through", "t": "PREP", "q": "Find the preposition that means from one side to the other."},
+          {"w": "the", "t": "ART", "q": "Find the article before bedroom."},
+          {"w": "bedroom", "t": "N", "q": "Find the compound noun for a room with a bed."},
+          {"w": "window", "t": "N", "q": "Find the noun for the glass opening in a wall."},
+          {"w": "this", "t": "DEM", "q": "Find the demonstrative that points to something close."},
+          {"w": "morning", "t": "N", "q": "Find the noun for the early part of the day."}
+        ],
+        "manip": {"task": "Replace the compound word 'sunshine' with a different compound word.", "word": "sunshine", "examples": ["The <span class='changed'>sunlight</span> came through the bedroom window this morning.", "The <span class='changed'>daylight</span> came through the bedroom window this morning."]},
+        "vocab": {"w": "combine", "type": "verb", "def": "To put two or more things together to make one.", "simple": "When you combine things, you mix them together to make something new!", "examples": ["combine colors", "combine ingredients", "combine words"], "similar": ["mix", "join", "blend"], "antonyms": ["separate", "divide", "split"], "nonex": ["It does NOT mean to take apart.", "It does NOT mean to choose one thing."], "example": "You can combine blue and yellow paint to make green.", "starter": "I like to combine _______ and _______ to make...", "why": "Combining things is how we create new and amazing stuff!"}
+      }
+    ]
+  },
+  {
+    "day": 133,
+    "sentences": [
+      {
+        "orig": "we saw a rain bow over the play ground after the big strom",
+        "corr": [
+          {"t": "capitalization", "w": "we", "r": "We", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "rain bow", "r": "rainbow", "e": "Rainbow is one compound word, not two separate words."},
+          {"t": "spelling", "w": "play ground", "r": "playground", "e": "Playground is one compound word, not two separate words."},
+          {"t": "spelling", "w": "strom", "r": "storm", "e": "Storm is spelled s-t-o-r-m, not s-t-r-o-m."},
+          {"t": "punctuation", "w": "strom", "r": "storm.", "e": "A telling sentence ends with a period."}
+        ],
+        "fixed": "We saw a rainbow over the playground after the big storm.",
+        "pos": [
+          {"w": "We", "t": "PRO", "q": "Find the pronoun for a group including you."},
+          {"w": "saw", "t": "V", "q": "Find the past tense verb for seeing."},
+          {"w": "a", "t": "ART", "q": "Find the article before rainbow."},
+          {"w": "rainbow", "t": "N", "q": "Find the compound noun for colorful bands in the sky."},
+          {"w": "over", "t": "PREP", "q": "Find the preposition that means above."},
+          {"w": "the", "t": "ART", "q": "Find the article before playground."},
+          {"w": "playground", "t": "N", "q": "Find the compound noun for a place to play."},
+          {"w": "after", "t": "PREP", "q": "Find the preposition that tells when."},
+          {"w": "the", "t": "ART", "q": "Find the article before big."},
+          {"w": "big", "t": "ADJ", "q": "Find the adjective that tells the size."},
+          {"w": "storm", "t": "N", "q": "Find the noun for bad weather with rain and wind."}
+        ],
+        "manip": {"task": "Replace the compound word 'rainbow' with a different compound word.", "word": "rainbow", "examples": ["We saw a <span class='changed'>raindrop</span> over the playground after the big storm.", "We saw a <span class='changed'>sunbeam</span> over the playground after the big storm."]},
+        "vocab": {"w": "separate", "type": "verb", "def": "To move things apart or to keep them away from each other.", "simple": "When you separate things, you pull them apart so they are not together!", "examples": ["separate the blocks", "separate colors", "separate into groups"], "similar": ["divide", "split", "sort"], "antonyms": ["combine", "join", "mix"], "nonex": ["It does NOT mean to break something.", "It does NOT mean to throw something away."], "example": "Please separate the red crayons from the blue crayons.", "starter": "I need to separate _______ from...", "why": "Separating things helps you stay organized and sort out problems!"}
+      }
+    ]
+  },
+  {
+    "day": 134,
+    "sentences": [
+      {
+        "orig": "the book shelf in her class room had many good storys on it",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "book shelf", "r": "bookshelf", "e": "Bookshelf is one compound word, not two separate words."},
+          {"t": "spelling", "w": "class room", "r": "classroom", "e": "Classroom is one compound word, not two separate words."},
+          {"t": "spelling", "w": "storys", "r": "stories", "e": "When a word ends in y, change y to i and add -es: stories."},
+          {"t": "punctuation", "w": "it", "r": "it.", "e": "A telling sentence ends with a period."}
+        ],
+        "fixed": "The bookshelf in her classroom had many good stories on it.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the start."},
+          {"w": "bookshelf", "t": "N", "q": "Find the compound noun for where books are kept."},
+          {"w": "in", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "her", "t": "POSS", "q": "Find the possessive word for a girl."},
+          {"w": "classroom", "t": "N", "q": "Find the compound noun for a room where you learn."},
+          {"w": "had", "t": "V", "q": "Find the past tense verb for having."},
+          {"w": "many", "t": "ADJ", "q": "Find the adjective that tells how many."},
+          {"w": "good", "t": "ADJ", "q": "Find the adjective that means nice or great."},
+          {"w": "stories", "t": "N", "q": "Find the plural noun for tales."},
+          {"w": "on", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "it", "t": "PRO", "q": "Find the pronoun that replaces the bookshelf."}
+        ],
+        "manip": {"task": "Replace the compound word 'bookshelf' with a different compound word.", "word": "bookshelf", "examples": ["The <span class='changed'>bookcase</span> in her classroom had many good stories on it.", "The <span class='changed'>cupboard</span> in her classroom had many good stories on it."]},
+        "vocab": {"w": "construct", "type": "verb", "def": "To build or put together something piece by piece.", "simple": "When you construct something, you build it up step by step, like with blocks!", "examples": ["construct a tower", "construct a fort", "construct a sentence"], "similar": ["build", "make", "assemble"], "antonyms": ["destroy", "wreck", "tear down"], "nonex": ["It does NOT mean to draw a picture.", "It does NOT mean to dream about something."], "example": "The children worked together to construct a tall tower with blocks.", "starter": "I want to construct _______ with...", "why": "Constructing things teaches you to plan and work step by step!"}
+      }
+    ]
+  },
+  {
+    "day": 135,
+    "sentences": [
+      {
+        "orig": "the big dog and the littel cat are glad frends at home",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "littel", "r": "little", "e": "Little is spelled l-i-t-t-l-e."},
+          {"t": "grammar", "w": "glad", "r": "happy", "e": "Happy is a better synonym. Glad and happy mean the same thing!"},
+          {"t": "spelling", "w": "frends", "r": "friends", "e": "Friends is spelled f-r-i-e-n-d-s. Remember: i before e."},
+          {"t": "punctuation", "w": "home", "r": "home.", "e": "A telling sentence ends with a period."}
+        ],
+        "fixed": "The big dog and the little cat are happy friends at home.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the start."},
+          {"w": "big", "t": "ADJ", "q": "Find the adjective that tells the size of the dog."},
+          {"w": "dog", "t": "N", "q": "Find the noun for a pet that barks."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction that joins two things."},
+          {"w": "the", "t": "ART", "q": "Find the article before little."},
+          {"w": "little", "t": "ADJ", "q": "Find the adjective that means small."},
+          {"w": "cat", "t": "N", "q": "Find the noun for a pet that purrs."},
+          {"w": "are", "t": "V", "q": "Find the helping verb for more than one."},
+          {"w": "happy", "t": "ADJ", "q": "Find the adjective that means feeling good."},
+          {"w": "friends", "t": "N", "q": "Find the plural noun for people you like."},
+          {"w": "at", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "home", "t": "N", "q": "Find the noun for where you live."}
+        ],
+        "manip": {"task": "Replace the word 'happy' with a synonym (a word that means the same).", "word": "happy", "examples": ["The big dog and the little cat are <span class='changed'>joyful</span> friends at home.", "The big dog and the little cat are <span class='changed'>cheerful</span> friends at home."]},
+        "vocab": {"w": "identical", "type": "adjective", "def": "Exactly the same in every way.", "simple": "Identical means two things look exactly the same, like matching twins!", "examples": ["identical twins", "identical shirts", "identical answers"], "similar": ["same", "matching", "equal"], "antonyms": ["different", "unlike", "unique"], "nonex": ["It does NOT mean almost the same.", "It does NOT mean close together."], "example": "The two puppies looked identical because they had the same spots.", "starter": "These two _______ are identical because...", "why": "Knowing identical helps you describe things that are exactly alike!"}
+      }
+    ]
+  },
+  {
+    "day": 136,
+    "sentences": [
+      {
+        "orig": "the sad boy cryed becuse the mean kid took his luntch",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "cryed", "r": "cried", "e": "When a word ends in y, change y to i and add -ed: cried."},
+          {"t": "spelling", "w": "becuse", "r": "because", "e": "Because is spelled b-e-c-a-u-s-e."},
+          {"t": "grammar", "w": "mean", "r": "unkind", "e": "Unkind is a better antonym of kind. Mean and unkind are synonyms!"},
+          {"t": "spelling", "w": "luntch", "r": "lunch", "e": "Lunch is spelled l-u-n-c-h, without a t."}
+        ],
+        "fixed": "The sad boy cried because the unkind kid took his lunch.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the start."},
+          {"w": "sad", "t": "ADJ", "q": "Find the adjective that means not happy."},
+          {"w": "boy", "t": "N", "q": "Find the noun for a young male."},
+          {"w": "cried", "t": "V", "q": "Find the past tense verb for crying."},
+          {"w": "because", "t": "CONJ", "q": "Find the conjunction that tells why."},
+          {"w": "the", "t": "ART", "q": "Find the article before unkind."},
+          {"w": "unkind", "t": "ADJ", "q": "Find the adjective that is an antonym of kind."},
+          {"w": "kid", "t": "N", "q": "Find the noun for a young person."},
+          {"w": "took", "t": "V", "q": "Find the past tense verb for taking."},
+          {"w": "his", "t": "POSS", "q": "Find the possessive word for the boy."},
+          {"w": "lunch", "t": "N", "q": "Find the noun for a midday meal."}
+        ],
+        "manip": {"task": "Replace the word 'sad' with an antonym (a word that means the opposite).", "word": "sad", "examples": ["The <span class='changed'>happy</span> boy cried because the unkind kid took his lunch.", "The <span class='changed'>cheerful</span> boy cried because the unkind kid took his lunch."]},
+        "vocab": {"w": "contrast", "type": "verb", "def": "To show how two things are different from each other.", "simple": "When you contrast things, you point out what makes them different!", "examples": ["contrast hot and cold", "contrast big and small", "contrast day and night"], "similar": ["differ", "oppose", "distinguish"], "antonyms": ["compare", "match", "agree"], "nonex": ["It does NOT mean to fight with someone.", "It does NOT mean to paint something."], "example": "Let us contrast summer and winter to see how they are different.", "starter": "I can contrast _______ and _______ because...", "why": "Contrasting helps you see differences and understand the world better!"}
+      }
+    ]
+  },
+  {
+    "day": 137,
+    "sentences": [
+      {
+        "orig": "this cold and dark nite is the oposit of a warm brite day",
+        "corr": [
+          {"t": "capitalization", "w": "this", "r": "This", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "nite", "r": "night", "e": "Night is spelled n-i-g-h-t with the igh pattern."},
+          {"t": "spelling", "w": "oposit", "r": "opposite", "e": "Opposite is spelled o-p-p-o-s-i-t-e with two p's."},
+          {"t": "spelling", "w": "brite", "r": "bright", "e": "Bright is spelled b-r-i-g-h-t with the igh pattern."},
+          {"t": "punctuation", "w": "day", "r": "day.", "e": "A telling sentence ends with a period."}
+        ],
+        "fixed": "This cold and dark night is the opposite of a warm bright day.",
+        "pos": [
+          {"w": "This", "t": "DEM", "q": "Find the demonstrative that points to something close."},
+          {"w": "cold", "t": "ADJ", "q": "Find the adjective for low temperature."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction joining two adjectives."},
+          {"w": "dark", "t": "ADJ", "q": "Find the adjective that means without light."},
+          {"w": "night", "t": "N", "q": "Find the noun for the time when it is dark."},
+          {"w": "is", "t": "V", "q": "Find the helping verb."},
+          {"w": "the", "t": "ART", "q": "Find the article before opposite."},
+          {"w": "opposite", "t": "N", "q": "Find the noun that means the reverse of something."},
+          {"w": "of", "t": "PREP", "q": "Find the preposition after opposite."},
+          {"w": "a", "t": "ART", "q": "Find the article before warm."},
+          {"w": "warm", "t": "ADJ", "q": "Find the adjective that is the antonym of cold."},
+          {"w": "bright", "t": "ADJ", "q": "Find the adjective that means full of light."},
+          {"w": "day", "t": "N", "q": "Find the noun for when the sun is out."}
+        ],
+        "manip": {"task": "Replace the antonym pair 'cold' and 'warm' with a different antonym pair.", "word": "cold", "examples": ["This <span class='changed'>quiet</span> and dark night is the opposite of a <span class='changed'>loud</span> bright day.", "This <span class='changed'>short</span> and dark night is the opposite of a <span class='changed'>long</span> bright day."]},
+        "vocab": {"w": "unique", "type": "adjective", "def": "One of a kind; not like anything else.", "simple": "Unique means there is only one like it in the whole world!", "examples": ["a unique snowflake", "a unique talent", "a unique idea"], "similar": ["special", "rare", "one-of-a-kind"], "antonyms": ["common", "ordinary", "normal"], "nonex": ["It does NOT mean weird or strange.", "It does NOT mean expensive."], "example": "Every person is unique because no one else is exactly like you.", "starter": "I am unique because...", "why": "Knowing you are unique helps you feel proud of who you are!"}
+      }
+    ]
+  },
+  {
+    "day": 138,
+    "sentences": [
+      {
+        "orig": "i want to go too the store and by to books for us",
+        "corr": [
+          {"t": "capitalization", "w": "i", "r": "I", "e": "The pronoun I must always be capitalized."},
+          {"t": "grammar", "w": "too", "r": "to", "e": "To means toward a place. Too means also or very much."},
+          {"t": "grammar", "w": "by", "r": "buy", "e": "Buy means to purchase. By means near or next to."},
+          {"t": "grammar", "w": "to", "r": "two", "e": "Two is the number 2. To means toward."},
+          {"t": "punctuation", "w": "us", "r": "us.", "e": "A telling sentence ends with a period."}
+        ],
+        "fixed": "I want to go to the store and buy two books for us.",
+        "pos": [
+          {"w": "I", "t": "PRO", "q": "Find the pronoun for yourself."},
+          {"w": "want", "t": "V", "q": "Find the verb that means to wish for something."},
+          {"w": "to", "t": "PREP", "q": "Find the first preposition meaning toward."},
+          {"w": "go", "t": "V", "q": "Find the action verb for moving somewhere."},
+          {"w": "to", "t": "PREP", "q": "Find the preposition before the."},
+          {"w": "the", "t": "ART", "q": "Find the article before store."},
+          {"w": "store", "t": "N", "q": "Find the noun for a place to buy things."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction joining two actions."},
+          {"w": "buy", "t": "V", "q": "Find the verb that means to purchase."},
+          {"w": "two", "t": "ADJ", "q": "Find the number word that tells how many books."},
+          {"w": "books", "t": "N", "q": "Find the plural noun for things you read."},
+          {"w": "for", "t": "PREP", "q": "Find the preposition that tells who the books are for."},
+          {"w": "us", "t": "OBJPRO", "q": "Find the object pronoun for a group including you."}
+        ],
+        "manip": {"task": "Replace the homophone 'two' with a different number word.", "word": "two", "examples": ["I want to go to the store and buy <span class='changed'>three</span> books for us.", "I want to go to the store and buy <span class='changed'>five</span> books for us."]},
+        "vocab": {"w": "confuse", "type": "verb", "def": "To mix things up or make something hard to understand.", "simple": "When you are confused, things get all mixed up in your head!", "examples": ["confuse left and right", "confuse the twins", "confuse the words"], "similar": ["mix up", "puzzle", "muddle"], "antonyms": ["clarify", "explain", "understand"], "nonex": ["It does NOT mean to forget something.", "It does NOT mean to not care about something."], "example": "Homophones can confuse you because they sound the same but mean different things.", "starter": "It can confuse me when...", "why": "Knowing the word confuse helps you talk about what is tricky for you!"}
+      }
+    ]
+  },
+  {
+    "day": 139,
+    "sentences": [
+      {
+        "orig": "do you here the dog over hear barking by the rode",
+        "corr": [
+          {"t": "capitalization", "w": "do", "r": "Do", "e": "The first word of a sentence must be capitalized."},
+          {"t": "grammar", "w": "here", "r": "hear", "e": "Hear means to listen with your ears. Here means in this place."},
+          {"t": "grammar", "w": "hear", "r": "here", "e": "Here means in this place. Hear means to listen."},
+          {"t": "spelling", "w": "rode", "r": "road", "e": "Road means a street. Rode is the past tense of ride."},
+          {"t": "punctuation", "w": "rode", "r": "road?", "e": "A question ends with a question mark."}
+        ],
+        "fixed": "Do you hear the dog over here barking by the road?",
+        "pos": [
+          {"w": "Do", "t": "V", "q": "Find the helping verb at the start."},
+          {"w": "you", "t": "PRO", "q": "Find the pronoun for the person being asked."},
+          {"w": "hear", "t": "V", "q": "Find the verb that means to listen with your ears."},
+          {"w": "the", "t": "ART", "q": "Find the article before dog."},
+          {"w": "dog", "t": "N", "q": "Find the noun for a pet that barks."},
+          {"w": "over", "t": "PREP", "q": "Find the preposition before here."},
+          {"w": "here", "t": "ADV", "q": "Find the adverb that means in this place."},
+          {"w": "barking", "t": "V", "q": "Find the verb for the sound a dog makes."},
+          {"w": "by", "t": "PREP", "q": "Find the preposition that means next to."},
+          {"w": "the", "t": "ART", "q": "Find the article before road."},
+          {"w": "road", "t": "N", "q": "Find the noun for a street."}
+        ],
+        "manip": {"task": "Replace the word 'dog' with a different animal.", "word": "dog", "examples": ["Do you hear the <span class='changed'>bird</span> over here barking by the road?", "Do you hear the <span class='changed'>cat</span> over here barking by the road?"]},
+        "vocab": {"w": "similar", "type": "adjective", "def": "Almost the same but not exactly alike.", "simple": "Similar means two things are a lot alike but not perfectly the same!", "examples": ["similar colors", "similar sounds", "similar shapes"], "similar": ["alike", "close", "like"], "antonyms": ["different", "unlike", "opposite"], "nonex": ["It does NOT mean exactly the same.", "It does NOT mean completely different."], "example": "Hear and here are similar because they sound alike, but they mean different things.", "starter": "_______ and _______ are similar because...", "why": "Similar helps you describe things that are almost the same!"}
+      }
+    ]
+  },
+  {
+    "day": 140,
+    "sentences": [
+      {
+        "orig": "their are fore kids over they're and there playing with a bawl",
+        "corr": [
+          {"t": "capitalization", "w": "their", "r": "There", "e": "The first word of a sentence must be capitalized. Also, there means in that place."},
+          {"t": "grammar", "w": "fore", "r": "four", "e": "Four is the number 4. Fore means in front."},
+          {"t": "grammar", "w": "they're", "r": "there", "e": "There means in that place. They're means they are."},
+          {"t": "grammar", "w": "there", "r": "they're", "e": "They're means they are. There means a place."},
+          {"t": "spelling", "w": "bawl", "r": "ball", "e": "Ball is a round toy. Bawl means to cry loudly."}
+        ],
+        "fixed": "There are four kids over there and they're playing with a ball.",
+        "pos": [
+          {"w": "There", "t": "ADV", "q": "Find the adverb that means in that place."},
+          {"w": "are", "t": "V", "q": "Find the helping verb."},
+          {"w": "four", "t": "ADJ", "q": "Find the number word that tells how many kids."},
+          {"w": "kids", "t": "N", "q": "Find the plural noun for young people."},
+          {"w": "over", "t": "PREP", "q": "Find the preposition before the second there."},
+          {"w": "there", "t": "ADV", "q": "Find the adverb that tells where."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction joining two parts."},
+          {"w": "they're", "t": "PRO", "q": "Find the contraction that means they are."},
+          {"w": "playing", "t": "V", "q": "Find the verb for having fun with a toy."},
+          {"w": "with", "t": "PREP", "q": "Find the preposition that tells what they use."},
+          {"w": "a", "t": "ART", "q": "Find the article before ball."},
+          {"w": "ball", "t": "N", "q": "Find the noun for a round toy."}
+        ],
+        "manip": {"task": "Replace the homophone 'ball' with a different toy word.", "word": "ball", "examples": ["There are four kids over there and they're playing with a <span class='changed'>kite</span>.", "There are four kids over there and they're playing with a <span class='changed'>rope</span>."]},
+        "vocab": {"w": "riddle", "type": "noun", "def": "A puzzling question or statement that you have to think about to answer.", "simple": "A riddle is a tricky question that makes you think hard to figure out the answer!", "examples": ["solve a riddle", "tell a riddle", "a tricky riddle"], "similar": ["puzzle", "brain teaser", "mystery"], "antonyms": ["answer", "solution", "explanation"], "nonex": ["It does NOT mean a regular question.", "It does NOT mean a joke that is funny."], "example": "Here is a riddle: I have hands but cannot clap. What am I? A clock!", "starter": "My favorite riddle is...", "why": "Riddles are fun because they make your brain work hard and think in new ways!"}
+      }
+    ]
+  },
+  {
+    "day": 141,
+    "sentences": [
+      {
+        "orig": "she hitt the ball with a bat and it flu over the fense",
+        "corr": [
+          {"t": "capitalization", "w": "she", "r": "She", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "hitt", "r": "hit", "e": "Hit has only one t at the end."},
+          {"t": "spelling", "w": "flu", "r": "flew", "e": "Flew is the past tense of fly, spelled f-l-e-w."},
+          {"t": "spelling", "w": "fense", "r": "fence", "e": "Fence is spelled f-e-n-c-e."},
+          {"t": "punctuation", "w": "fense", "r": "fence.", "e": "A telling sentence ends with a period."}
+        ],
+        "fixed": "She hit the ball with a bat and it flew over the fence.",
+        "pos": [
+          {"w": "She", "t": "PRO", "q": "Find the pronoun for a girl."},
+          {"w": "hit", "t": "V", "q": "Find the verb for striking something."},
+          {"w": "the", "t": "ART", "q": "Find the article before ball."},
+          {"w": "ball", "t": "N", "q": "Find the noun for a round thing you play with."},
+          {"w": "with", "t": "PREP", "q": "Find the preposition that tells what she used."},
+          {"w": "a", "t": "ART", "q": "Find the article before bat."},
+          {"w": "bat", "t": "N", "q": "Find the noun with multiple meanings — here it means a stick for hitting."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction joining two parts."},
+          {"w": "it", "t": "PRO", "q": "Find the pronoun for the ball."},
+          {"w": "flew", "t": "V", "q": "Find the past tense verb for moving through the air."},
+          {"w": "over", "t": "PREP", "q": "Find the preposition that means above."},
+          {"w": "the", "t": "ART", "q": "Find the article before fence."},
+          {"w": "fence", "t": "N", "q": "Find the noun for a wall around a yard."}
+        ],
+        "manip": {"task": "The word 'bat' has multiple meanings. Write a sentence using bat with a different meaning.", "word": "bat", "examples": ["She saw a <span class='changed'>bat</span> flying in the dark sky at night.", "The small <span class='changed'>bat</span> hung upside down in the cave."]},
+        "vocab": {"w": "flexible", "type": "adjective", "def": "Able to bend easily without breaking.", "simple": "Flexible means you can bend and move in many ways without snapping!", "examples": ["a flexible ruler", "a flexible gymnast", "a flexible schedule"], "similar": ["bendy", "stretchy", "loose"], "antonyms": ["stiff", "rigid", "firm"], "nonex": ["It does NOT mean weak or soft.", "It does NOT mean easy to break."], "example": "The flexible branch bent in the wind but did not snap.", "starter": "Something flexible I have is...", "why": "Being flexible helps you adapt when things change!"}
+      }
+    ]
+  },
+  {
+    "day": 142,
+    "sentences": [
+      {
+        "orig": "he putt the ring on her fingur and the bell began too ring",
+        "corr": [
+          {"t": "capitalization", "w": "he", "r": "He", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "putt", "r": "put", "e": "Put has only one t: p-u-t."},
+          {"t": "spelling", "w": "fingur", "r": "finger", "e": "Finger is spelled f-i-n-g-e-r."},
+          {"t": "grammar", "w": "too", "r": "to", "e": "To is used before a verb. Too means also or very much."},
+          {"t": "punctuation", "w": "ring", "r": "ring.", "e": "A telling sentence ends with a period."}
+        ],
+        "fixed": "He put the ring on her finger and the bell began to ring.",
+        "pos": [
+          {"w": "He", "t": "PRO", "q": "Find the pronoun for a boy."},
+          {"w": "put", "t": "V", "q": "Find the verb for placing something."},
+          {"w": "the", "t": "ART", "q": "Find the article before ring."},
+          {"w": "ring", "t": "N", "q": "Find the noun that means a circle you wear on your finger."},
+          {"w": "on", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "her", "t": "POSS", "q": "Find the possessive word for a girl."},
+          {"w": "finger", "t": "N", "q": "Find the noun for a part of your hand."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction joining two parts."},
+          {"w": "the", "t": "ART", "q": "Find the article before bell."},
+          {"w": "bell", "t": "N", "q": "Find the noun for something that makes a ringing sound."},
+          {"w": "began", "t": "V", "q": "Find the past tense verb for starting."},
+          {"w": "to", "t": "PREP", "q": "Find the preposition before ring."},
+          {"w": "ring", "t": "V", "q": "Find the verb that means to make a sound — same spelling, different meaning!"}
+        ],
+        "manip": {"task": "The word 'ring' has multiple meanings. Write a sentence using ring with a different meaning.", "word": "ring", "examples": ["The children stood in a <span class='changed'>ring</span> and held hands in the park.", "She heard her phone <span class='changed'>ring</span> loudly from inside her bag."]},
+        "vocab": {"w": "valuable", "type": "adjective", "def": "Worth a lot; very important or useful.", "simple": "Valuable means something is really important or worth a lot!", "examples": ["a valuable ring", "valuable time", "valuable advice"], "similar": ["precious", "important", "worthy"], "antonyms": ["worthless", "cheap", "useless"], "nonex": ["It does NOT mean only about money.", "It does NOT mean big or heavy."], "example": "The old book was very valuable because there were only three copies left.", "starter": "The most valuable thing I have is...", "why": "Knowing what is valuable helps you take care of what matters most!"}
+      }
+    ]
+  },
+  {
+    "day": 143,
+    "sentences": [
+      {
+        "orig": "the lite was to brite so she turnd it off quikly",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "lite", "r": "light", "e": "Light is spelled l-i-g-h-t with the igh pattern."},
+          {"t": "spelling", "w": "brite", "r": "bright", "e": "Bright is spelled b-r-i-g-h-t with the igh pattern."},
+          {"t": "spelling", "w": "turnd", "r": "turned", "e": "Turned ends with -ed: t-u-r-n-e-d."},
+          {"t": "spelling", "w": "quikly", "r": "quickly", "e": "Quickly is spelled q-u-i-c-k-l-y."}
+        ],
+        "fixed": "The light was too bright so she turned it off quickly.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the start."},
+          {"w": "light", "t": "N", "q": "Find the noun with multiple meanings — here it means a lamp."},
+          {"w": "was", "t": "V", "q": "Find the past tense helping verb."},
+          {"w": "too", "t": "ADV", "q": "Find the adverb that means very much."},
+          {"w": "bright", "t": "ADJ", "q": "Find the adjective for giving off a lot of light."},
+          {"w": "so", "t": "CONJ", "q": "Find the conjunction that tells why."},
+          {"w": "she", "t": "PRO", "q": "Find the pronoun for a girl."},
+          {"w": "turned", "t": "V", "q": "Find the past tense action verb."},
+          {"w": "it", "t": "PRO", "q": "Find the pronoun that replaces the light."},
+          {"w": "off", "t": "ADV", "q": "Find the adverb that tells what happened to the light."},
+          {"w": "quickly", "t": "ADV", "q": "Find the adverb that tells how she turned it off."}
+        ],
+        "manip": {"task": "The word 'light' has multiple meanings. Write a sentence using light with a different meaning.", "word": "light", "examples": ["The feather was very <span class='changed'>light</span> and floated through the air.", "Please <span class='changed'>light</span> the candle on the birthday cake."]},
+        "vocab": {"w": "ordinary", "type": "adjective", "def": "Normal and not special or different in any way.", "simple": "Ordinary means regular and normal, nothing fancy or unusual!", "examples": ["an ordinary day", "ordinary clothes", "an ordinary rock"], "similar": ["normal", "regular", "usual"], "antonyms": ["special", "unique", "extraordinary"], "nonex": ["It does NOT mean boring or bad.", "It does NOT mean broken or ugly."], "example": "It seemed like an ordinary rock, but inside it was full of sparkly crystals.", "starter": "An ordinary day for me is...", "why": "Knowing ordinary helps you describe everyday things and spot what is special!"}
+      }
+    ]
+  },
+  {
+    "day": 144,
+    "sentences": [
+      {
+        "orig": "the foxs are runing and jumpping over the litle rocks",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "foxs", "r": "foxes", "e": "Words ending in x add -es to make the plural: foxes."},
+          {"t": "spelling", "w": "runing", "r": "running", "e": "Running doubles the n before adding -ing: r-u-n-n-i-n-g."},
+          {"t": "spelling", "w": "jumpping", "r": "jumping", "e": "Jumping has only one p: j-u-m-p-i-n-g."},
+          {"t": "spelling", "w": "litle", "r": "little", "e": "Little is spelled l-i-t-t-l-e with two t's."}
+        ],
+        "fixed": "The foxes are running and jumping over the little rocks.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the start."},
+          {"w": "foxes", "t": "N", "q": "Find the plural noun for wild animals."},
+          {"w": "are", "t": "V", "q": "Find the helping verb."},
+          {"w": "running", "t": "V", "q": "Find the -ing verb for moving fast."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction joining two actions."},
+          {"w": "jumping", "t": "V", "q": "Find the -ing verb for leaping up."},
+          {"w": "over", "t": "PREP", "q": "Find the preposition that means above."},
+          {"w": "the", "t": "ART", "q": "Find the article before little."},
+          {"w": "little", "t": "ADJ", "q": "Find the adjective that means small."},
+          {"w": "rocks", "t": "N", "q": "Find the plural noun for hard things on the ground."}
+        ],
+        "manip": {"task": "Change the -ing verb 'running' to its -ed form to make it past tense.", "word": "running", "examples": ["The foxes <span class='changed'>ran</span> and jumping over the little rocks.", "The foxes were <span class='changed'>running</span> and <span class='changed'>jumped</span> over the little rocks."]},
+        "vocab": {"w": "complete", "type": "verb", "def": "To finish something so that nothing is missing.", "simple": "When you complete something, you finish it all the way to the end!", "examples": ["complete a puzzle", "complete your homework", "complete the race"], "similar": ["finish", "end", "wrap up"], "antonyms": ["start", "begin", "quit"], "nonex": ["It does NOT mean to do something halfway.", "It does NOT mean to throw away."], "example": "She worked hard to complete the puzzle before bedtime.", "starter": "I want to complete _______ by...", "why": "Completing things feels great and shows you can stick with something until it is done!"}
+      }
+    ]
+  },
+  {
+    "day": 145,
+    "sentences": [
+      {
+        "orig": "the babys cryed and the moms pickd them up quikly",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "babys", "r": "babies", "e": "When a word ends in y, change y to i and add -es: babies."},
+          {"t": "spelling", "w": "cryed", "r": "cried", "e": "When a word ends in y, change y to i and add -ed: cried."},
+          {"t": "spelling", "w": "pickd", "r": "picked", "e": "Picked ends with -ed: p-i-c-k-e-d."},
+          {"t": "spelling", "w": "quikly", "r": "quickly", "e": "Quickly is spelled q-u-i-c-k-l-y."}
+        ],
+        "fixed": "The babies cried and the moms picked them up quickly.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the start."},
+          {"w": "babies", "t": "N", "q": "Find the plural noun for very young children."},
+          {"w": "cried", "t": "V", "q": "Find the past tense verb for crying."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction joining two parts."},
+          {"w": "the", "t": "ART", "q": "Find the article before moms."},
+          {"w": "moms", "t": "N", "q": "Find the plural noun for mothers."},
+          {"w": "picked", "t": "V", "q": "Find the past tense verb with -ed for lifting."},
+          {"w": "them", "t": "OBJPRO", "q": "Find the object pronoun for the babies."},
+          {"w": "up", "t": "ADV", "q": "Find the adverb that tells the direction."},
+          {"w": "quickly", "t": "ADV", "q": "Find the adverb that tells how fast."}
+        ],
+        "manip": {"task": "Change the -ed verb 'picked' to its -ing form.", "word": "picked", "examples": ["The babies cried and the moms were <span class='changed'>picking</span> them up quickly.", "The babies cried and the moms started <span class='changed'>picking</span> them up quickly."]},
+        "vocab": {"w": "continue", "type": "verb", "def": "To keep going without stopping.", "simple": "When you continue, you keep on doing what you are doing without quitting!", "examples": ["continue reading", "continue walking", "continue the game"], "similar": ["keep going", "carry on", "go on"], "antonyms": ["stop", "quit", "pause"], "nonex": ["It does NOT mean to start something new.", "It does NOT mean to go backward."], "example": "Even when it rained, the team wanted to continue playing outside.", "starter": "I want to continue _______ because...", "why": "Continuing helps you finish what you start and reach your goals!"}
+      }
+    ]
+  },
+  {
+    "day": 146,
+    "sentences": [
+      {
+        "orig": "he stoped runing and started claping for her at the end",
+        "corr": [
+          {"t": "capitalization", "w": "he", "r": "He", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "stoped", "r": "stopped", "e": "Stopped doubles the p before -ed: s-t-o-p-p-e-d."},
+          {"t": "spelling", "w": "runing", "r": "running", "e": "Running doubles the n before -ing: r-u-n-n-i-n-g."},
+          {"t": "spelling", "w": "claping", "r": "clapping", "e": "Clapping doubles the p before -ing: c-l-a-p-p-i-n-g."},
+          {"t": "punctuation", "w": "end", "r": "end.", "e": "A telling sentence ends with a period."}
+        ],
+        "fixed": "He stopped running and started clapping for her at the end.",
+        "pos": [
+          {"w": "He", "t": "PRO", "q": "Find the pronoun for a boy."},
+          {"w": "stopped", "t": "V", "q": "Find the past tense verb with doubled consonant."},
+          {"w": "running", "t": "V", "q": "Find the -ing verb for moving fast."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction joining two parts."},
+          {"w": "started", "t": "V", "q": "Find the past tense verb for beginning."},
+          {"w": "clapping", "t": "V", "q": "Find the -ing verb for hitting your hands together."},
+          {"w": "for", "t": "PREP", "q": "Find the preposition that tells who he clapped for."},
+          {"w": "her", "t": "OBJPRO", "q": "Find the object pronoun for a girl."},
+          {"w": "at", "t": "PREP", "q": "Find the preposition that tells when."},
+          {"w": "the", "t": "ART", "q": "Find the article before end."},
+          {"w": "end", "t": "N", "q": "Find the noun that means the final part."}
+        ],
+        "manip": {"task": "Change the doubled-consonant -ing word 'clapping' to another doubled-consonant -ing word.", "word": "clapping", "examples": ["He stopped running and started <span class='changed'>hopping</span> for her at the end.", "He stopped running and started <span class='changed'>clapping</span> for her at the end."]},
+        "vocab": {"w": "progress", "type": "noun", "def": "Moving forward or getting better at something over time.", "simple": "Progress means you are getting better and better, step by step!", "examples": ["make progress in reading", "show progress on a project", "slow progress"], "similar": ["improvement", "growth", "advance"], "antonyms": ["setback", "decline", "retreat"], "nonex": ["It does NOT mean being perfect right away.", "It does NOT mean doing the same thing over and over."], "example": "You have made great progress in reading this year!", "starter": "I have made progress in _______ because...", "why": "Seeing your progress helps you feel proud and want to keep learning!"}
+      }
+    ]
+  },
+  {
+    "day": 147,
+    "sentences": [
+      {
+        "orig": "we red a grate book about frogs and todes on munday",
+        "corr": [
+          {"t": "capitalization", "w": "we", "r": "We", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "red", "r": "read", "e": "Read is the past tense of read, spelled r-e-a-d. Red is a color."},
+          {"t": "spelling", "w": "grate", "r": "great", "e": "Great means wonderful. Grate means to shred."},
+          {"t": "spelling", "w": "todes", "r": "toads", "e": "Toads is spelled t-o-a-d-s with the oa vowel team."},
+          {"t": "capitalization", "w": "munday", "r": "Monday", "e": "Days of the week start with a capital letter. Monday is spelled M-o-n-d-a-y."}
+        ],
+        "fixed": "We read a great book about frogs and toads on Monday.",
+        "pos": [
+          {"w": "We", "t": "PRO", "q": "Find the pronoun for a group including you."},
+          {"w": "read", "t": "V", "q": "Find the past tense verb for looking at words in a book."},
+          {"w": "a", "t": "ART", "q": "Find the article before great."},
+          {"w": "great", "t": "ADJ", "q": "Find the adjective that means wonderful."},
+          {"w": "book", "t": "N", "q": "Find the noun for something you read."},
+          {"w": "about", "t": "PREP", "q": "Find the preposition that tells the topic."},
+          {"w": "frogs", "t": "N", "q": "Find the plural noun for green jumping animals."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction joining two nouns."},
+          {"w": "toads", "t": "N", "q": "Find the plural noun for bumpy frog-like animals."},
+          {"w": "on", "t": "PREP", "q": "Find the preposition that tells when."},
+          {"w": "Monday", "t": "N", "q": "Find the proper noun for a day of the week."}
+        ],
+        "manip": {"task": "Replace the adjective 'great' with a synonym.", "word": "great", "examples": ["We read a <span class='changed'>wonderful</span> book about frogs and toads on Monday.", "We read a <span class='changed'>fantastic</span> book about frogs and toads on Monday."]},
+        "vocab": {"w": "outstanding", "type": "adjective", "def": "Extremely good; much better than most.", "simple": "Outstanding means so good that it stands out from everything else!", "examples": ["outstanding work", "outstanding student", "outstanding performance"], "similar": ["excellent", "amazing", "superb"], "antonyms": ["terrible", "awful", "poor"], "nonex": ["It does NOT mean standing outside.", "It does NOT mean just okay or average."], "example": "The teacher said your story was outstanding because it was the best in the class.", "starter": "Something outstanding I did was...", "why": "Outstanding is a powerful word that makes your compliments really special!"}
+      }
+    ]
+  },
+  {
+    "day": 148,
+    "sentences": [
+      {
+        "orig": "can you see those beautful flowers in the feild by the hows",
+        "corr": [
+          {"t": "capitalization", "w": "can", "r": "Can", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "beautful", "r": "beautiful", "e": "Beautiful is spelled b-e-a-u-t-i-f-u-l."},
+          {"t": "spelling", "w": "feild", "r": "field", "e": "Field follows the i before e rule: f-i-e-l-d."},
+          {"t": "spelling", "w": "hows", "r": "house", "e": "House is spelled h-o-u-s-e."},
+          {"t": "punctuation", "w": "hows", "r": "house?", "e": "A question ends with a question mark."}
+        ],
+        "fixed": "Can you see those beautiful flowers in the field by the house?",
+        "pos": [
+          {"w": "Can", "t": "V", "q": "Find the helping verb that asks about ability."},
+          {"w": "you", "t": "PRO", "q": "Find the pronoun for the person being asked."},
+          {"w": "see", "t": "V", "q": "Find the verb for looking with your eyes."},
+          {"w": "those", "t": "DEM", "q": "Find the demonstrative that points to something far away."},
+          {"w": "beautiful", "t": "ADJ", "q": "Find the adjective that means very pretty."},
+          {"w": "flowers", "t": "N", "q": "Find the plural noun for pretty plants."},
+          {"w": "in", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "the", "t": "ART", "q": "Find the article before field."},
+          {"w": "field", "t": "N", "q": "Find the noun for a large flat open area."},
+          {"w": "by", "t": "PREP", "q": "Find the preposition that means next to."},
+          {"w": "the", "t": "ART", "q": "Find the article before house."},
+          {"w": "house", "t": "N", "q": "Find the noun for a building where people live."}
+        ],
+        "manip": {"task": "Replace the demonstrative 'those' with a different demonstrative.", "word": "those", "examples": ["Can you see <span class='changed'>these</span> beautiful flowers in the field by the house?", "Can you see <span class='changed'>that</span> beautiful flowers in the field by the house?"]},
+        "vocab": {"w": "remarkable", "type": "adjective", "def": "So good or unusual that people notice and talk about it.", "simple": "Remarkable means something is so amazing that everyone wants to talk about it!", "examples": ["a remarkable sunset", "remarkable talent", "a remarkable discovery"], "similar": ["amazing", "incredible", "astonishing"], "antonyms": ["ordinary", "boring", "common"], "nonex": ["It does NOT mean to remark or say something.", "It does NOT mean a little bit good."], "example": "The remarkable sunset had colors of pink, orange, and purple.", "starter": "The most remarkable thing I ever saw was...", "why": "Remarkable is a grown-up word that makes you sound like a real word wizard!"}
+      }
+    ]
+  },
+  {
+    "day": 149,
+    "sentences": [
+      {
+        "orig": "i am so prowd of you becuz you lerned many new things this yeer",
+        "corr": [
+          {"t": "capitalization", "w": "i", "r": "I", "e": "The pronoun I must always be capitalized."},
+          {"t": "spelling", "w": "prowd", "r": "proud", "e": "Proud is spelled p-r-o-u-d."},
+          {"t": "spelling", "w": "becuz", "r": "because", "e": "Because is spelled b-e-c-a-u-s-e."},
+          {"t": "spelling", "w": "lerned", "r": "learned", "e": "Learned is spelled l-e-a-r-n-e-d with the ear pattern."},
+          {"t": "spelling", "w": "yeer", "r": "year", "e": "Year is spelled y-e-a-r with the ear pattern."}
+        ],
+        "fixed": "I am so proud of you because you learned many new things this year.",
+        "pos": [
+          {"w": "I", "t": "PRO", "q": "Find the pronoun for yourself."},
+          {"w": "am", "t": "V", "q": "Find the helping verb for I."},
+          {"w": "so", "t": "ADV", "q": "Find the adverb that means very."},
+          {"w": "proud", "t": "ADJ", "q": "Find the adjective for feeling good about something."},
+          {"w": "of", "t": "PREP", "q": "Find the preposition after proud."},
+          {"w": "you", "t": "PRO", "q": "Find the pronoun for the person being spoken to."},
+          {"w": "because", "t": "CONJ", "q": "Find the conjunction that tells why."},
+          {"w": "you", "t": "PRO", "q": "Find the pronoun used again."},
+          {"w": "learned", "t": "V", "q": "Find the past tense verb with -ed for gaining knowledge."},
+          {"w": "many", "t": "ADJ", "q": "Find the adjective that tells how many."},
+          {"w": "new", "t": "ADJ", "q": "Find the adjective that means not old."},
+          {"w": "things", "t": "N", "q": "Find the plural noun for stuff."},
+          {"w": "this", "t": "DEM", "q": "Find the demonstrative that points to something close."},
+          {"w": "year", "t": "N", "q": "Find the noun for 365 days."}
+        ],
+        "manip": {"task": "Replace the adjective 'proud' with a synonym.", "word": "proud", "examples": ["I am so <span class='changed'>happy</span> of you because you learned many new things this year.", "I am so <span class='changed'>thrilled</span> of you because you learned many new things this year."]},
+        "vocab": {"w": "triumph", "type": "noun", "def": "A great win or success after hard work.", "simple": "A triumph is when you win big or succeed at something really hard!", "examples": ["a triumph in the race", "a triumph over fear", "a triumph for the team"], "similar": ["victory", "win", "success"], "antonyms": ["defeat", "loss", "failure"], "nonex": ["It does NOT mean to try something.", "It does NOT mean to get lucky."], "example": "Finishing all 150 days of grammar is a real triumph!", "starter": "My biggest triumph was when I...", "why": "Triumph is a word for when you work hard and succeed — just like you did this year!"}
+      }
+    ]
+  },
+  {
+    "day": 150,
+    "sentences": [
+      {
+        "orig": "you are a grate reader and a amazzing word champion this yeer",
+        "corr": [
+          {"t": "capitalization", "w": "you", "r": "You", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "grate", "r": "great", "e": "Great means wonderful. Grate means to shred."},
+          {"t": "grammar", "w": "a", "r": "an", "e": "Use an before a word that starts with a vowel sound: an amazing."},
+          {"t": "spelling", "w": "amazzing", "r": "amazing", "e": "Amazing has only one z: a-m-a-z-i-n-g."},
+          {"t": "spelling", "w": "yeer", "r": "year", "e": "Year is spelled y-e-a-r with the ear pattern."}
+        ],
+        "fixed": "You are a great reader and an amazing word champion this year.",
+        "pos": [
+          {"w": "You", "t": "PRO", "q": "Find the pronoun for the person being spoken to."},
+          {"w": "are", "t": "V", "q": "Find the helping verb."},
+          {"w": "a", "t": "ART", "q": "Find the article before great."},
+          {"w": "great", "t": "ADJ", "q": "Find the adjective that means wonderful."},
+          {"w": "reader", "t": "N", "q": "Find the noun for a person who reads."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction joining two parts."},
+          {"w": "an", "t": "ART", "q": "Find the article used before a vowel sound."},
+          {"w": "amazing", "t": "ADJ", "q": "Find the adjective that means very wonderful."},
+          {"w": "word", "t": "N", "q": "Find the noun for a unit of language."},
+          {"w": "champion", "t": "N", "q": "Find the noun for a winner."},
+          {"w": "this", "t": "DEM", "q": "Find the demonstrative that points to something close."},
+          {"w": "year", "t": "N", "q": "Find the noun for 365 days."}
+        ],
+        "manip": {"task": "Replace the word 'champion' with a synonym.", "word": "champion", "examples": ["You are a great reader and an amazing word <span class='changed'>winner</span> this year.", "You are a great reader and an amazing word <span class='changed'>hero</span> this year."]},
+        "vocab": {"w": "champion", "type": "noun", "def": "A person who wins or is the best at something.", "simple": "A champion is someone who works hard and wins — that is you!", "examples": ["spelling champion", "reading champion", "champion of the team"], "similar": ["winner", "hero", "star"], "antonyms": ["loser", "quitter", "beginner"], "nonex": ["It does NOT mean someone who just got lucky.", "It does NOT mean someone who never makes mistakes."], "example": "You are a word champion because you learned so many new words this year!", "starter": "I am a champion at _______ because...", "why": "Being a champion means you never gave up, and that is the best thing of all!"}
+      }
+    ]
+  }
+]

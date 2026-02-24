@@ -1,0 +1,2246 @@
+[
+  {
+    "day": 51,
+    "sentences": [
+      {
+        "orig": "the big fluffi clouds mooved slow across the sky",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "the",
+            "r": "The",
+            "e": "The first word of a sentence must be capitalized."
+          },
+          {
+            "t": "spelling",
+            "w": "fluffi",
+            "r": "fluffy",
+            "e": "Fluffy ends with -ffy, not -ffi."
+          },
+          {
+            "t": "spelling",
+            "w": "mooved",
+            "r": "moved",
+            "e": "Moved has one o, not two."
+          },
+          {
+            "t": "grammar",
+            "w": "slow",
+            "r": "slowly",
+            "e": "Use the adverb slowly to describe how the clouds moved."
+          },
+          {
+            "t": "punctuation",
+            "w": "sky",
+            "r": "sky.",
+            "e": "A statement must end with a period."
+          }
+        ],
+        "fixed": "The big fluffy clouds moved slowly across the sky.",
+        "pos": [
+          { "w": "The", "t": "ART", "q": "Find the article at the start of the sentence." },
+          { "w": "big", "t": "ADJ", "q": "Find the adjective that tells the size of the clouds." },
+          { "w": "fluffy", "t": "ADJ", "q": "Find the adjective that tells what kind of clouds." },
+          { "w": "clouds", "t": "N", "q": "Find the noun for things in the sky." },
+          { "w": "moved", "t": "V", "q": "Find the past tense verb that tells the action." },
+          { "w": "slowly", "t": "ADV", "q": "Find the adverb that tells how the clouds moved." },
+          { "w": "across", "t": "PREP", "q": "Find the preposition that tells direction." },
+          { "w": "the", "t": "ART", "q": "Find the article before 'sky.'" },
+          { "w": "sky", "t": "N", "q": "Find the noun for the space above us." }
+        ],
+        "manip": {
+          "task": "Replace the adjective 'big' with a different adjective that describes size.",
+          "word": "big",
+          "examples": [
+            "The <span class='changed'>huge</span> fluffy clouds moved slowly across the sky.",
+            "The <span class='changed'>tiny</span> fluffy clouds moved slowly across the sky."
+          ]
+        },
+        "vocab": {
+          "w": "drizzle",
+          "type": "noun/verb",
+          "def": "A light, gentle rain with very small drops.",
+          "simple": "A drizzle is rain that is so light it feels like tiny drops on your face!",
+          "examples": [
+            "a light drizzle",
+            "drizzle on the window",
+            "a morning drizzle"
+          ],
+          "similar": [
+            "sprinkle",
+            "mist",
+            "shower"
+          ],
+          "antonyms": [
+            "downpour",
+            "drought",
+            "dry"
+          ],
+          "nonex": [
+            "It does NOT mean a heavy rainstorm.",
+            "It does NOT mean snow."
+          ],
+          "example": "A soft drizzle fell on the garden and made the flowers sparkle.",
+          "starter": "I walked in the drizzle and _______ ...",
+          "why": "Knowing the word drizzle helps you describe light rain instead of just saying it rained!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 52,
+    "sentences": [
+      {
+        "orig": "too red birds sat on the tall green tre in the park",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "too",
+            "r": "Two",
+            "e": "The first word of a sentence must be capitalized."
+          },
+          {
+            "t": "spelling",
+            "w": "too",
+            "r": "Two",
+            "e": "Two is the number word, not too which means also."
+          },
+          {
+            "t": "grammar",
+            "w": "sat",
+            "r": "sat",
+            "e": "Sat is already correct here."
+          },
+          {
+            "t": "spelling",
+            "w": "tre",
+            "r": "tree",
+            "e": "Tree is spelled with a double e at the end."
+          },
+          {
+            "t": "punctuation",
+            "w": "park",
+            "r": "park.",
+            "e": "A statement must end with a period."
+          }
+        ],
+        "fixed": "Two red birds sat on the tall green tree in the park.",
+        "pos": [
+          { "w": "Two", "t": "ADJ", "q": "Find the adjective that tells how many birds." },
+          { "w": "red", "t": "ADJ", "q": "Find the adjective that tells the color of the birds." },
+          { "w": "birds", "t": "N", "q": "Find the noun for the animals." },
+          { "w": "sat", "t": "V", "q": "Find the past tense verb for the action." },
+          { "w": "on", "t": "PREP", "q": "Find the preposition that tells where the birds are." },
+          { "w": "the", "t": "ART", "q": "Find the article before 'tall.'" },
+          { "w": "tall", "t": "ADJ", "q": "Find the adjective that describes the height of the tree." },
+          { "w": "green", "t": "ADJ", "q": "Find the adjective that tells the color of the tree." },
+          { "w": "tree", "t": "N", "q": "Find the noun for a large plant." },
+          { "w": "in", "t": "PREP", "q": "Find the preposition that tells location." },
+          { "w": "the", "t": "ART", "q": "Find the article before 'park.'" },
+          { "w": "park", "t": "N", "q": "Find the noun for an outdoor place to play." }
+        ],
+        "manip": {
+          "task": "Replace the color adjective 'red' with a different color adjective.",
+          "word": "red",
+          "examples": [
+            "Two <span class='changed'>blue</span> birds sat on the tall green tree in the park.",
+            "Two <span class='changed'>yellow</span> birds sat on the tall green tree in the park."
+          ]
+        },
+        "vocab": {
+          "w": "breeze",
+          "type": "noun",
+          "def": "A gentle, light wind.",
+          "simple": "A breeze is a soft wind that feels nice on your skin!",
+          "examples": [
+            "a cool breeze",
+            "a summer breeze",
+            "a gentle breeze"
+          ],
+          "similar": [
+            "wind",
+            "draft",
+            "puff"
+          ],
+          "antonyms": [
+            "gale",
+            "calm",
+            "stillness"
+          ],
+          "nonex": [
+            "It does NOT mean a strong storm wind.",
+            "It does NOT mean hot air."
+          ],
+          "example": "A cool breeze blew through the open window on the warm day.",
+          "starter": "I felt a breeze when _______ ...",
+          "why": "Knowing the word breeze helps you tell the difference between a gentle wind and a strong one!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 53,
+    "sentences": [
+      {
+        "orig": "many beutiful flowers growed in the smal gardin",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "many",
+            "r": "Many",
+            "e": "The first word of a sentence must be capitalized."
+          },
+          {
+            "t": "spelling",
+            "w": "beutiful",
+            "r": "beautiful",
+            "e": "Beautiful is spelled b-e-a-u-t-i-f-u-l."
+          },
+          {
+            "t": "grammar",
+            "w": "growed",
+            "r": "grew",
+            "e": "The past tense of grow is grew, not growed."
+          },
+          {
+            "t": "spelling",
+            "w": "smal",
+            "r": "small",
+            "e": "Small has two l's at the end."
+          },
+          {
+            "t": "punctuation",
+            "w": "gardin",
+            "r": "garden.",
+            "e": "A statement must end with a period, and garden is spelled with -en."
+          }
+        ],
+        "fixed": "Many beautiful flowers grew in the small garden.",
+        "pos": [
+          { "w": "Many", "t": "ADJ", "q": "Find the adjective that tells how many flowers." },
+          { "w": "beautiful", "t": "ADJ", "q": "Find the adjective that describes the flowers." },
+          { "w": "flowers", "t": "N", "q": "Find the noun for the plants that bloom." },
+          { "w": "grew", "t": "V", "q": "Find the past tense verb meaning to get bigger." },
+          { "w": "in", "t": "PREP", "q": "Find the preposition that tells location." },
+          { "w": "the", "t": "ART", "q": "Find the article before 'small.'" },
+          { "w": "small", "t": "ADJ", "q": "Find the adjective that describes the size of the garden." },
+          { "w": "garden", "t": "N", "q": "Find the noun for a place where plants grow." }
+        ],
+        "manip": {
+          "task": "Replace the adjective 'beautiful' with a different descriptive adjective.",
+          "word": "beautiful",
+          "examples": [
+            "Many <span class='changed'>colorful</span> flowers grew in the small garden.",
+            "Many <span class='changed'>wild</span> flowers grew in the small garden."
+          ]
+        },
+        "vocab": {
+          "w": "gust",
+          "type": "noun",
+          "def": "A sudden, strong rush of wind.",
+          "simple": "A gust is when the wind suddenly blows hard and fast!",
+          "examples": [
+            "a gust of wind",
+            "a strong gust",
+            "a sudden gust"
+          ],
+          "similar": [
+            "blast",
+            "burst",
+            "rush"
+          ],
+          "antonyms": [
+            "breeze",
+            "calm",
+            "stillness"
+          ],
+          "nonex": [
+            "It does NOT mean a soft, gentle wind.",
+            "It does NOT mean rain."
+          ],
+          "example": "A gust of wind blew the hat right off my head at the beach.",
+          "starter": "A strong gust made me _______ ...",
+          "why": "The word gust helps you describe a short, powerful burst of wind!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 54,
+    "sentences": [
+      {
+        "orig": "the wether is more cold today then it was yestarday",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "the",
+            "r": "The",
+            "e": "The first word of a sentence must be capitalized."
+          },
+          {
+            "t": "spelling",
+            "w": "wether",
+            "r": "weather",
+            "e": "Weather is spelled w-e-a-t-h-e-r."
+          },
+          {
+            "t": "grammar",
+            "w": "more cold",
+            "r": "colder",
+            "e": "Use colder, not more cold, to compare two things."
+          },
+          {
+            "t": "spelling",
+            "w": "then",
+            "r": "than",
+            "e": "Use than when comparing, not then."
+          },
+          {
+            "t": "punctuation",
+            "w": "yestarday",
+            "r": "yesterday.",
+            "e": "A statement must end with a period, and yesterday is spelled with -er."
+          }
+        ],
+        "fixed": "The weather is colder today than it was yesterday.",
+        "pos": [
+          { "w": "The", "t": "ART", "q": "Find the article at the start of the sentence." },
+          { "w": "weather", "t": "N", "q": "Find the noun for what it is like outside." },
+          { "w": "is", "t": "V", "q": "Find the linking verb." },
+          { "w": "colder", "t": "ADJ", "q": "Find the comparative adjective that compares temperatures." },
+          { "w": "today", "t": "ADV", "q": "Find the adverb that tells when." },
+          { "w": "than", "t": "CONJ", "q": "Find the word used for comparing." },
+          { "w": "it", "t": "PRO", "q": "Find the pronoun that stands for the weather." },
+          { "w": "was", "t": "V", "q": "Find the past tense linking verb." },
+          { "w": "yesterday", "t": "ADV", "q": "Find the adverb that tells when in the past." }
+        ],
+        "manip": {
+          "task": "Replace the comparative adjective 'colder' with a different comparative adjective.",
+          "word": "colder",
+          "examples": [
+            "The weather is <span class='changed'>warmer</span> today than it was yesterday.",
+            "The weather is <span class='changed'>windier</span> today than it was yesterday."
+          ]
+        },
+        "vocab": {
+          "w": "frost",
+          "type": "noun",
+          "def": "A thin layer of ice crystals that forms on cold surfaces.",
+          "simple": "Frost is the icy white coating you see on the grass or windows on very cold mornings!",
+          "examples": [
+            "morning frost",
+            "frost on the window",
+            "a layer of frost"
+          ],
+          "similar": [
+            "ice",
+            "freeze",
+            "rime"
+          ],
+          "antonyms": [
+            "thaw",
+            "warmth",
+            "heat"
+          ],
+          "nonex": [
+            "It does NOT mean snow falling from the sky.",
+            "It does NOT mean a cold drink."
+          ],
+          "example": "We saw white frost on the grass when we walked to school on the cold morning.",
+          "starter": "I saw frost on _______ when ...",
+          "why": "Knowing the word frost helps you describe what happens outside when it gets very cold!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 55,
+    "sentences": [
+      {
+        "orig": "spring is the most beautifulest seeson of them all",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "spring",
+            "r": "Spring",
+            "e": "The first word of a sentence must be capitalized."
+          },
+          {
+            "t": "grammar",
+            "w": "most beautifulest",
+            "r": "most beautiful",
+            "e": "Use most beautiful, not most beautifulest. Do not add -est with most."
+          },
+          {
+            "t": "spelling",
+            "w": "seeson",
+            "r": "season",
+            "e": "Season is spelled with -ea-, not -ee-."
+          },
+          {
+            "t": "grammar",
+            "w": "them",
+            "r": "them",
+            "e": "Them is correct in this phrase."
+          },
+          {
+            "t": "punctuation",
+            "w": "all",
+            "r": "all.",
+            "e": "A statement must end with a period."
+          }
+        ],
+        "fixed": "Spring is the most beautiful season of them all.",
+        "pos": [
+          { "w": "Spring", "t": "N", "q": "Find the noun for a time of year." },
+          { "w": "is", "t": "V", "q": "Find the linking verb." },
+          { "w": "the", "t": "ART", "q": "Find the article before 'most.'" },
+          { "w": "most", "t": "ADV", "q": "Find the adverb that makes the superlative." },
+          { "w": "beautiful", "t": "ADJ", "q": "Find the adjective that describes the season." },
+          { "w": "season", "t": "N", "q": "Find the noun for a time of year like spring or winter." },
+          { "w": "of", "t": "PREP", "q": "Find the preposition." },
+          { "w": "them", "t": "PRO", "q": "Find the pronoun that replaces a noun." },
+          { "w": "all", "t": "ADV", "q": "Find the word that means every one." }
+        ],
+        "manip": {
+          "task": "Replace the superlative adjective phrase 'most beautiful' with a different superlative.",
+          "word": "most beautiful",
+          "examples": [
+            "Spring is the <span class='changed'>prettiest</span> season of them all.",
+            "Spring is the <span class='changed'>best</span> season of them all."
+          ]
+        },
+        "vocab": {
+          "w": "puddle",
+          "type": "noun",
+          "def": "A small pool of water on the ground, usually from rain.",
+          "simple": "A puddle is a little pool of water you see on the ground after it rains!",
+          "examples": [
+            "splash in a puddle",
+            "a rain puddle",
+            "a muddy puddle"
+          ],
+          "similar": [
+            "pool",
+            "pond",
+            "splash"
+          ],
+          "antonyms": [
+            "dry spot",
+            "desert",
+            "dust"
+          ],
+          "nonex": [
+            "It does NOT mean a lake or ocean.",
+            "It does NOT mean a river."
+          ],
+          "example": "After the rain stopped, we jumped in every puddle on the way home.",
+          "starter": "I splashed in a puddle and _______ ...",
+          "why": "The word puddle helps you describe those small pools of water you see after it rains!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 56,
+    "sentences": [
+      {
+        "orig": "my tree is more taller then your tre in the yard",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "my",
+            "r": "My",
+            "e": "The first word of a sentence must be capitalized."
+          },
+          {
+            "t": "grammar",
+            "w": "more taller",
+            "r": "taller",
+            "e": "Use taller, not more taller. Do not add more with -er."
+          },
+          {
+            "t": "spelling",
+            "w": "then",
+            "r": "than",
+            "e": "Use than when comparing, not then."
+          },
+          {
+            "t": "spelling",
+            "w": "tre",
+            "r": "tree",
+            "e": "Tree is spelled with a double e at the end."
+          },
+          {
+            "t": "punctuation",
+            "w": "yard",
+            "r": "yard.",
+            "e": "A statement must end with a period."
+          }
+        ],
+        "fixed": "My tree is taller than your tree in the yard.",
+        "pos": [
+          { "w": "My", "t": "POSS", "q": "Find the possessive pronoun that means belonging to me." },
+          { "w": "tree", "t": "N", "q": "Find the first noun for a large plant." },
+          { "w": "is", "t": "V", "q": "Find the linking verb." },
+          { "w": "taller", "t": "ADJ", "q": "Find the comparative adjective that compares height." },
+          { "w": "than", "t": "CONJ", "q": "Find the word used for comparing." },
+          { "w": "your", "t": "POSS", "q": "Find the possessive pronoun that means belonging to you." },
+          { "w": "tree", "t": "N", "q": "Find the second noun for a large plant." },
+          { "w": "in", "t": "PREP", "q": "Find the preposition that tells location." },
+          { "w": "the", "t": "ART", "q": "Find the article before 'yard.'" },
+          { "w": "yard", "t": "N", "q": "Find the noun for an outdoor area near a house." }
+        ],
+        "manip": {
+          "task": "Replace the comparative adjective 'taller' with a different comparative adjective.",
+          "word": "taller",
+          "examples": [
+            "My tree is <span class='changed'>shorter</span> than your tree in the yard.",
+            "My tree is <span class='changed'>greener</span> than your tree in the yard."
+          ]
+        },
+        "vocab": {
+          "w": "shiver",
+          "type": "verb",
+          "def": "To shake slightly because you are cold or scared.",
+          "simple": "When you shiver, your body shakes a little because you feel very cold!",
+          "examples": [
+            "shiver in the cold",
+            "shiver with cold",
+            "shiver outside"
+          ],
+          "similar": [
+            "tremble",
+            "shake",
+            "quiver"
+          ],
+          "antonyms": [
+            "sweat",
+            "overheat",
+            "warm up"
+          ],
+          "nonex": [
+            "It does NOT mean to sneeze.",
+            "It does NOT mean to fall down."
+          ],
+          "example": "I started to shiver when I forgot my coat on the cold winter day.",
+          "starter": "I shiver when _______ ...",
+          "why": "The word shiver helps you describe how your body feels when it gets very cold!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 57,
+    "sentences": [
+      {
+        "orig": "the rain fell hevy on the roof and we stayd insid",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "the",
+            "r": "The",
+            "e": "The first word of a sentence must be capitalized."
+          },
+          {
+            "t": "grammar",
+            "w": "hevy",
+            "r": "heavily",
+            "e": "Use the adverb heavily to tell how the rain fell."
+          },
+          {
+            "t": "spelling",
+            "w": "stayd",
+            "r": "stayed",
+            "e": "Stayed is spelled with -ayed, not -ayd."
+          },
+          {
+            "t": "spelling",
+            "w": "insid",
+            "r": "inside",
+            "e": "Inside ends with a silent e."
+          },
+          {
+            "t": "punctuation",
+            "w": "insid",
+            "r": "inside.",
+            "e": "A statement must end with a period."
+          }
+        ],
+        "fixed": "The rain fell heavily on the roof and we stayed inside.",
+        "pos": [
+          { "w": "The", "t": "ART", "q": "Find the article at the start of the sentence." },
+          { "w": "rain", "t": "N", "q": "Find the noun for water that falls from the sky." },
+          { "w": "fell", "t": "V", "q": "Find the past tense verb that tells the action." },
+          { "w": "heavily", "t": "ADV", "q": "Find the adverb that tells how the rain fell." },
+          { "w": "on", "t": "PREP", "q": "Find the preposition that tells where." },
+          { "w": "the", "t": "ART", "q": "Find the article before 'roof.'" },
+          { "w": "roof", "t": "N", "q": "Find the noun for the top of a house." },
+          { "w": "and", "t": "CONJ", "q": "Find the conjunction that joins two ideas." },
+          { "w": "we", "t": "PRO", "q": "Find the pronoun that means a group including me." },
+          { "w": "stayed", "t": "V", "q": "Find the second past tense verb." },
+          { "w": "inside", "t": "ADV", "q": "Find the adverb that tells where we stayed." }
+        ],
+        "manip": {
+          "task": "Replace the adverb 'heavily' with a different adverb that tells how.",
+          "word": "heavily",
+          "examples": [
+            "The rain fell <span class='changed'>softly</span> on the roof and we stayed inside.",
+            "The rain fell <span class='changed'>hard</span> on the roof and we stayed inside."
+          ]
+        },
+        "vocab": {
+          "w": "bloom",
+          "type": "verb/noun",
+          "def": "When a flower opens up its petals; a flower that is open.",
+          "simple": "When flowers bloom, they open up and show their pretty colors!",
+          "examples": [
+            "flowers bloom",
+            "in full bloom",
+            "bloom in spring"
+          ],
+          "similar": [
+            "blossom",
+            "flower",
+            "open"
+          ],
+          "antonyms": [
+            "wilt",
+            "fade",
+            "wither"
+          ],
+          "nonex": [
+            "It does NOT mean a plant is dying.",
+            "It does NOT mean to plant a seed."
+          ],
+          "example": "The roses bloom every spring and fill the garden with color.",
+          "starter": "I saw flowers bloom when _______ ...",
+          "why": "The word bloom helps you describe the beautiful moment when flowers open up!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 58,
+    "sentences": [
+      {
+        "orig": "the wind blew loud and the leavs fell quick to the grond",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "the",
+            "r": "The",
+            "e": "The first word of a sentence must be capitalized."
+          },
+          {
+            "t": "grammar",
+            "w": "loud",
+            "r": "loudly",
+            "e": "Use the adverb loudly to describe how the wind blew."
+          },
+          {
+            "t": "spelling",
+            "w": "leavs",
+            "r": "leaves",
+            "e": "Leaves is spelled with -eaves, not -eavs."
+          },
+          {
+            "t": "grammar",
+            "w": "quick",
+            "r": "quickly",
+            "e": "Use the adverb quickly to describe how the leaves fell."
+          },
+          {
+            "t": "punctuation",
+            "w": "grond",
+            "r": "ground.",
+            "e": "A statement must end with a period, and ground is spelled with -ou-."
+          }
+        ],
+        "fixed": "The wind blew loudly and the leaves fell quickly to the ground.",
+        "pos": [
+          { "w": "The", "t": "ART", "q": "Find the article at the start of the sentence." },
+          { "w": "wind", "t": "N", "q": "Find the noun for moving air." },
+          { "w": "blew", "t": "V", "q": "Find the past tense verb for the wind's action." },
+          { "w": "loudly", "t": "ADV", "q": "Find the adverb that tells how the wind blew." },
+          { "w": "and", "t": "CONJ", "q": "Find the conjunction that joins two ideas." },
+          { "w": "the", "t": "ART", "q": "Find the article before 'leaves.'" },
+          { "w": "leaves", "t": "N", "q": "Find the noun for parts of a tree that fall." },
+          { "w": "fell", "t": "V", "q": "Find the past tense verb that tells what the leaves did." },
+          { "w": "quickly", "t": "ADV", "q": "Find the adverb that tells how the leaves fell." },
+          { "w": "to", "t": "PREP", "q": "Find the preposition that shows direction." },
+          { "w": "the", "t": "ART", "q": "Find the article before 'ground.'" },
+          { "w": "ground", "t": "N", "q": "Find the noun for the surface of the earth." }
+        ],
+        "manip": {
+          "task": "Replace the adverb 'quickly' with a different adverb that tells how.",
+          "word": "quickly",
+          "examples": [
+            "The wind blew loudly and the leaves fell <span class='changed'>gently</span> to the ground.",
+            "The wind blew loudly and the leaves fell <span class='changed'>slowly</span> to the ground."
+          ]
+        },
+        "vocab": {
+          "w": "sprout",
+          "type": "verb/noun",
+          "def": "To begin to grow; a young plant just starting to come up.",
+          "simple": "When a seed sprouts, a tiny green plant starts to push up out of the dirt!",
+          "examples": [
+            "seeds sprout",
+            "a tiny sprout",
+            "sprout in the garden"
+          ],
+          "similar": [
+            "grow",
+            "shoot",
+            "bud"
+          ],
+          "antonyms": [
+            "wilt",
+            "die",
+            "shrink"
+          ],
+          "nonex": [
+            "It does NOT mean a fully grown tree.",
+            "It does NOT mean to pick a flower."
+          ],
+          "example": "We watched the bean seeds sprout into tiny green plants in our cups.",
+          "starter": "I planted a seed and it began to sprout when _______ ...",
+          "why": "The word sprout helps you describe the exciting moment when a new plant begins to grow!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 59,
+    "sentences": [
+      {
+        "orig": "the frog jumpd high and landed safe on the wet rok",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "the",
+            "r": "The",
+            "e": "The first word of a sentence must be capitalized."
+          },
+          {
+            "t": "spelling",
+            "w": "jumpd",
+            "r": "jumped",
+            "e": "Jumped is spelled with -ed, not just -d."
+          },
+          {
+            "t": "grammar",
+            "w": "safe",
+            "r": "safely",
+            "e": "Use the adverb safely to describe how the frog landed."
+          },
+          {
+            "t": "spelling",
+            "w": "rok",
+            "r": "rock",
+            "e": "Rock is spelled with -ck at the end."
+          },
+          {
+            "t": "punctuation",
+            "w": "rok",
+            "r": "rock.",
+            "e": "A statement must end with a period."
+          }
+        ],
+        "fixed": "The frog jumped high and landed safely on the wet rock.",
+        "pos": [
+          { "w": "The", "t": "ART", "q": "Find the article at the start of the sentence." },
+          { "w": "frog", "t": "N", "q": "Find the noun for the animal." },
+          { "w": "jumped", "t": "V", "q": "Find the first past tense action verb." },
+          { "w": "high", "t": "ADV", "q": "Find the adverb that tells how far the frog jumped." },
+          { "w": "and", "t": "CONJ", "q": "Find the conjunction that joins two actions." },
+          { "w": "landed", "t": "V", "q": "Find the second past tense action verb." },
+          { "w": "safely", "t": "ADV", "q": "Find the adverb that tells how the frog landed." },
+          { "w": "on", "t": "PREP", "q": "Find the preposition that tells where." },
+          { "w": "the", "t": "ART", "q": "Find the article before 'wet.'" },
+          { "w": "wet", "t": "ADJ", "q": "Find the adjective that describes the rock." },
+          { "w": "rock", "t": "N", "q": "Find the noun for a hard object on the ground." }
+        ],
+        "manip": {
+          "task": "Replace the adverb 'safely' with a different adverb that tells how.",
+          "word": "safely",
+          "examples": [
+            "The frog jumped high and landed <span class='changed'>softly</span> on the wet rock.",
+            "The frog jumped high and landed <span class='changed'>quietly</span> on the wet rock."
+          ]
+        },
+        "vocab": {
+          "w": "wilt",
+          "type": "verb",
+          "def": "When a plant droops and becomes limp because it needs water or is too hot.",
+          "simple": "When a flower wilts, it gets droopy and sad-looking because it needs water!",
+          "examples": [
+            "flowers wilt",
+            "wilt in the heat",
+            "the plant will wilt"
+          ],
+          "similar": [
+            "droop",
+            "sag",
+            "wither"
+          ],
+          "antonyms": [
+            "bloom",
+            "grow",
+            "thrive"
+          ],
+          "nonex": [
+            "It does NOT mean a plant falls over.",
+            "It does NOT mean to water a plant."
+          ],
+          "example": "The sunflowers began to wilt because we forgot to water them for three days.",
+          "starter": "The plant started to wilt because _______ ...",
+          "why": "The word wilt helps you explain what happens to plants when they do not get enough water!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 60,
+    "sentences": [
+      {
+        "orig": "the bird sang sweet in the tree on a brite morning",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "the",
+            "r": "The",
+            "e": "The first word of a sentence must be capitalized."
+          },
+          {
+            "t": "grammar",
+            "w": "sweet",
+            "r": "sweetly",
+            "e": "Use the adverb sweetly to describe how the bird sang."
+          },
+          {
+            "t": "spelling",
+            "w": "brite",
+            "r": "bright",
+            "e": "Bright is spelled b-r-i-g-h-t."
+          },
+          {
+            "t": "spelling",
+            "w": "morning",
+            "r": "morning",
+            "e": "Morning is spelled correctly here."
+          },
+          {
+            "t": "punctuation",
+            "w": "morning",
+            "r": "morning.",
+            "e": "A statement must end with a period."
+          }
+        ],
+        "fixed": "The bird sang sweetly in the tree on a bright morning.",
+        "pos": [
+          { "w": "The", "t": "ART", "q": "Find the article at the start of the sentence." },
+          { "w": "bird", "t": "N", "q": "Find the noun for the animal that sings." },
+          { "w": "sang", "t": "V", "q": "Find the past tense verb for making music." },
+          { "w": "sweetly", "t": "ADV", "q": "Find the adverb that tells how the bird sang." },
+          { "w": "in", "t": "PREP", "q": "Find the preposition that tells where." },
+          { "w": "the", "t": "ART", "q": "Find the article before 'tree.'" },
+          { "w": "tree", "t": "N", "q": "Find the noun for a tall plant." },
+          { "w": "on", "t": "PREP", "q": "Find the preposition before 'a bright morning.'" },
+          { "w": "a", "t": "ART", "q": "Find the article before 'bright.'" },
+          { "w": "bright", "t": "ADJ", "q": "Find the adjective that describes the morning." },
+          { "w": "morning", "t": "N", "q": "Find the noun for the early part of the day." }
+        ],
+        "manip": {
+          "task": "Replace the adverb 'sweetly' with a different adverb that tells how.",
+          "word": "sweetly",
+          "examples": [
+            "The bird sang <span class='changed'>loudly</span> in the tree on a bright morning.",
+            "The bird sang <span class='changed'>happily</span> in the tree on a bright morning."
+          ]
+        },
+        "vocab": {
+          "w": "shade",
+          "type": "noun",
+          "def": "A cool, dark area blocked from the sun by something like a tree.",
+          "simple": "Shade is the cool spot under a tree where the sun cannot reach you!",
+          "examples": [
+            "sit in the shade",
+            "tree shade",
+            "a patch of shade"
+          ],
+          "similar": [
+            "shadow",
+            "cover",
+            "shelter"
+          ],
+          "antonyms": [
+            "sunlight",
+            "sunshine",
+            "glare"
+          ],
+          "nonex": [
+            "It does NOT mean darkness at night.",
+            "It does NOT mean a window cover."
+          ],
+          "example": "We ate our lunch in the shade of the big oak tree on the hot day.",
+          "starter": "I like to sit in the shade when _______ ...",
+          "why": "The word shade helps you describe that cool spot out of the sun on a hot day!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 61,
+    "sentences": [
+      {
+        "orig": "the puppy ran happy through the muddi puddles in the rain",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "the",
+            "r": "The",
+            "e": "The first word of a sentence must be capitalized."
+          },
+          {
+            "t": "grammar",
+            "w": "happy",
+            "r": "happily",
+            "e": "Use the adverb happily to describe how the puppy ran."
+          },
+          {
+            "t": "spelling",
+            "w": "muddi",
+            "r": "muddy",
+            "e": "Muddy ends with -ddy, not -ddi."
+          },
+          {
+            "t": "spelling",
+            "w": "puddles",
+            "r": "puddles",
+            "e": "Puddles is spelled correctly here."
+          },
+          {
+            "t": "punctuation",
+            "w": "rain",
+            "r": "rain.",
+            "e": "A statement must end with a period."
+          }
+        ],
+        "fixed": "The puppy ran happily through the muddy puddles in the rain.",
+        "pos": [
+          { "w": "The", "t": "ART", "q": "Find the article at the start of the sentence." },
+          { "w": "puppy", "t": "N", "q": "Find the noun for a young dog." },
+          { "w": "ran", "t": "V", "q": "Find the past tense action verb." },
+          { "w": "happily", "t": "ADV", "q": "Find the adverb that tells how the puppy ran." },
+          { "w": "through", "t": "PREP", "q": "Find the preposition that tells where." },
+          { "w": "the", "t": "ART", "q": "Find the article before 'muddy.'" },
+          { "w": "muddy", "t": "ADJ", "q": "Find the adjective that describes the puddles." },
+          { "w": "puddles", "t": "N", "q": "Find the noun for small pools of water." },
+          { "w": "in", "t": "PREP", "q": "Find the preposition that tells location." },
+          { "w": "the", "t": "ART", "q": "Find the article before 'rain.'" },
+          { "w": "rain", "t": "N", "q": "Find the noun for water falling from the sky." }
+        ],
+        "manip": {
+          "task": "Replace the adjective 'muddy' with a different adjective.",
+          "word": "muddy",
+          "examples": [
+            "The puppy ran happily through the <span class='changed'>deep</span> puddles in the rain.",
+            "The puppy ran happily through the <span class='changed'>cold</span> puddles in the rain."
+          ]
+        },
+        "vocab": {
+          "w": "crisp",
+          "type": "adjective",
+          "def": "Cool, fresh, and clean-feeling, especially about air or weather.",
+          "simple": "Crisp air is the cool, fresh feeling you get outside on a nice fall morning!",
+          "examples": [
+            "a crisp morning",
+            "crisp autumn air",
+            "a crisp breeze"
+          ],
+          "similar": [
+            "cool",
+            "fresh",
+            "brisk"
+          ],
+          "antonyms": [
+            "warm",
+            "stuffy",
+            "humid"
+          ],
+          "nonex": [
+            "It does NOT mean frozen or icy.",
+            "It does NOT mean crunchy food."
+          ],
+          "example": "The crisp fall air made my cheeks turn pink as I walked to school.",
+          "starter": "The air felt crisp when _______ ...",
+          "why": "The word crisp helps you describe that fresh, cool feeling in the air on a nice day!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 62,
+    "sentences": [
+      {
+        "orig": "the cat climbd quiet up the tree and lookd down careful",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "the",
+            "r": "The",
+            "e": "The first word of a sentence must be capitalized."
+          },
+          {
+            "t": "spelling",
+            "w": "climbd",
+            "r": "climbed",
+            "e": "Climbed is spelled with -ed at the end."
+          },
+          {
+            "t": "grammar",
+            "w": "quiet",
+            "r": "quietly",
+            "e": "Use the adverb quietly to describe how the cat climbed."
+          },
+          {
+            "t": "grammar",
+            "w": "careful",
+            "r": "carefully",
+            "e": "Use the adverb carefully to describe how the cat looked."
+          },
+          {
+            "t": "punctuation",
+            "w": "careful",
+            "r": "carefully.",
+            "e": "A statement must end with a period."
+          }
+        ],
+        "fixed": "The cat climbed quietly up the tree and looked down carefully.",
+        "pos": [
+          { "w": "The", "t": "ART", "q": "Find the article at the start of the sentence." },
+          { "w": "cat", "t": "N", "q": "Find the noun for the animal." },
+          { "w": "climbed", "t": "V", "q": "Find the first past tense action verb." },
+          { "w": "quietly", "t": "ADV", "q": "Find the adverb that tells how the cat climbed." },
+          { "w": "up", "t": "PREP", "q": "Find the preposition that tells direction." },
+          { "w": "the", "t": "ART", "q": "Find the article before 'tree.'" },
+          { "w": "tree", "t": "N", "q": "Find the noun for a tall plant." },
+          { "w": "and", "t": "CONJ", "q": "Find the conjunction joining two actions." },
+          { "w": "looked", "t": "V", "q": "Find the second past tense action verb." },
+          { "w": "down", "t": "ADV", "q": "Find the adverb that tells the direction of looking." },
+          { "w": "carefully", "t": "ADV", "q": "Find the adverb that tells how the cat looked." }
+        ],
+        "manip": {
+          "task": "Replace the adverb 'quietly' with a different adverb that tells how.",
+          "word": "quietly",
+          "examples": [
+            "The cat climbed <span class='changed'>slowly</span> up the tree and looked down carefully.",
+            "The cat climbed <span class='changed'>quickly</span> up the tree and looked down carefully."
+          ]
+        },
+        "vocab": {
+          "w": "damp",
+          "type": "adjective",
+          "def": "Slightly wet; not fully dry.",
+          "simple": "When something is damp, it feels a little bit wet, like grass in the morning!",
+          "examples": [
+            "damp grass",
+            "a damp towel",
+            "damp air"
+          ],
+          "similar": [
+            "moist",
+            "wet",
+            "soggy"
+          ],
+          "antonyms": [
+            "dry",
+            "parched",
+            "arid"
+          ],
+          "nonex": [
+            "It does NOT mean soaking wet.",
+            "It does NOT mean dirty."
+          ],
+          "example": "The grass was still damp from the rain when we played outside after lunch.",
+          "starter": "My shoes got damp because _______ ...",
+          "why": "The word damp helps you describe something that is a little bit wet but not dripping!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 63,
+    "sentences": [
+      {
+        "orig": "him and me played in the snow and us maked a snowman",
+        "corr": [
+          {
+            "t": "grammar",
+            "w": "him",
+            "r": "He",
+            "e": "Use the subject pronoun He, not the object pronoun him, as the subject."
+          },
+          {
+            "t": "grammar",
+            "w": "me",
+            "r": "I",
+            "e": "Use the subject pronoun I, not the object pronoun me, as the subject."
+          },
+          {
+            "t": "grammar",
+            "w": "us",
+            "r": "we",
+            "e": "Use the subject pronoun we, not the object pronoun us, as the subject."
+          },
+          {
+            "t": "grammar",
+            "w": "maked",
+            "r": "made",
+            "e": "The past tense of make is made, not maked."
+          },
+          {
+            "t": "punctuation",
+            "w": "snowman",
+            "r": "snowman.",
+            "e": "A statement must end with a period."
+          }
+        ],
+        "fixed": "He and I played in the snow and we made a snowman.",
+        "pos": [
+          { "w": "He", "t": "PRO", "q": "Find the subject pronoun for a boy." },
+          { "w": "and", "t": "CONJ", "q": "Find the first conjunction." },
+          { "w": "I", "t": "PRO", "q": "Find the subject pronoun for yourself." },
+          { "w": "played", "t": "V", "q": "Find the first past tense action verb." },
+          { "w": "in", "t": "PREP", "q": "Find the preposition that tells where." },
+          { "w": "the", "t": "ART", "q": "Find the article before 'snow.'" },
+          { "w": "snow", "t": "N", "q": "Find the noun for frozen white flakes." },
+          { "w": "and", "t": "CONJ", "q": "Find the second conjunction." },
+          { "w": "we", "t": "PRO", "q": "Find the subject pronoun meaning a group including me." },
+          { "w": "made", "t": "V", "q": "Find the second past tense action verb." },
+          { "w": "a", "t": "ART", "q": "Find the article before 'snowman.'" },
+          { "w": "snowman", "t": "N", "q": "Find the noun for a figure made of snow." }
+        ],
+        "manip": {
+          "task": "Replace the subject pronoun 'He' with a different subject pronoun.",
+          "word": "He",
+          "examples": [
+            "<span class='changed'>She</span> and I played in the snow and we made a snowman.",
+            "<span class='changed'>They</span> and I played in the snow and we made a snowman."
+          ]
+        },
+        "vocab": {
+          "w": "breezy",
+          "type": "adjective",
+          "def": "Having a light, gentle wind blowing.",
+          "simple": "When it is breezy outside, you can feel a nice, soft wind on your face!",
+          "examples": [
+            "a breezy day",
+            "breezy weather",
+            "a breezy afternoon"
+          ],
+          "similar": [
+            "windy",
+            "airy",
+            "gusty"
+          ],
+          "antonyms": [
+            "still",
+            "calm",
+            "stuffy"
+          ],
+          "nonex": [
+            "It does NOT mean there is a huge storm.",
+            "It does NOT mean it is hot."
+          ],
+          "example": "It was a breezy spring day, and the kite flew high in the sky.",
+          "starter": "On a breezy day, I like to _______ ...",
+          "why": "The word breezy helps you tell someone that there is a nice, gentle wind outside!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 64,
+    "sentences": [
+      {
+        "orig": "her gave the umbrela to he when it started to rane",
+        "corr": [
+          {
+            "t": "grammar",
+            "w": "her",
+            "r": "She",
+            "e": "Use the subject pronoun She, not the object pronoun her, as the subject."
+          },
+          {
+            "t": "spelling",
+            "w": "umbrela",
+            "r": "umbrella",
+            "e": "Umbrella has two l's in the middle."
+          },
+          {
+            "t": "grammar",
+            "w": "he",
+            "r": "him",
+            "e": "Use the object pronoun him after the word to."
+          },
+          {
+            "t": "spelling",
+            "w": "rane",
+            "r": "rain",
+            "e": "Rain is spelled r-a-i-n."
+          },
+          {
+            "t": "punctuation",
+            "w": "rane",
+            "r": "rain.",
+            "e": "A statement must end with a period."
+          }
+        ],
+        "fixed": "She gave the umbrella to him when it started to rain.",
+        "pos": [
+          { "w": "She", "t": "PRO", "q": "Find the subject pronoun for a girl." },
+          { "w": "gave", "t": "V", "q": "Find the past tense verb meaning to hand over." },
+          { "w": "the", "t": "ART", "q": "Find the article before 'umbrella.'" },
+          { "w": "umbrella", "t": "N", "q": "Find the noun for something that keeps you dry." },
+          { "w": "to", "t": "PREP", "q": "Find the preposition." },
+          { "w": "him", "t": "OBJPRO", "q": "Find the object pronoun for a boy." },
+          { "w": "when", "t": "SUBCONJ", "q": "Find the word that tells when something happened." },
+          { "w": "it", "t": "PRO", "q": "Find the pronoun that stands for the weather." },
+          { "w": "started", "t": "V", "q": "Find the past tense verb meaning to begin." },
+          { "w": "to", "t": "PREP", "q": "Find the second preposition." },
+          { "w": "rain", "t": "V", "q": "Find the verb for water falling from the sky." }
+        ],
+        "manip": {
+          "task": "Replace the subject pronoun 'She' with a different subject pronoun.",
+          "word": "She",
+          "examples": [
+            "<span class='changed'>He</span> gave the umbrella to him when it started to rain.",
+            "<span class='changed'>They</span> gave the umbrella to him when it started to rain."
+          ]
+        },
+        "vocab": {
+          "w": "stormy",
+          "type": "adjective",
+          "def": "Having strong winds, heavy rain, thunder, or lightning.",
+          "simple": "When it is stormy, the sky is dark and there is lots of wind and rain!",
+          "examples": [
+            "a stormy night",
+            "stormy weather",
+            "a stormy sky"
+          ],
+          "similar": [
+            "wild",
+            "rough",
+            "fierce"
+          ],
+          "antonyms": [
+            "calm",
+            "clear",
+            "sunny"
+          ],
+          "nonex": [
+            "It does NOT mean just a little cloudy.",
+            "It does NOT mean cold with no wind."
+          ],
+          "example": "On the stormy night, we could hear thunder and see lightning flash.",
+          "starter": "During the stormy weather, I _______ ...",
+          "why": "The word stormy helps you describe weather that is wild and powerful!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 65,
+    "sentences": [
+      {
+        "orig": "them went to the lake and us swam in the cool watter",
+        "corr": [
+          {
+            "t": "grammar",
+            "w": "them",
+            "r": "They",
+            "e": "Use the subject pronoun They, not the object pronoun them, as the subject."
+          },
+          {
+            "t": "grammar",
+            "w": "us",
+            "r": "we",
+            "e": "Use the subject pronoun we, not the object pronoun us, as the subject."
+          },
+          {
+            "t": "spelling",
+            "w": "watter",
+            "r": "water",
+            "e": "Water has one t, not two."
+          },
+          {
+            "t": "grammar",
+            "w": "cool",
+            "r": "cool",
+            "e": "Cool is used correctly as an adjective here."
+          },
+          {
+            "t": "punctuation",
+            "w": "watter",
+            "r": "water.",
+            "e": "A statement must end with a period."
+          }
+        ],
+        "fixed": "They went to the lake and we swam in the cool water.",
+        "pos": [
+          { "w": "They", "t": "PRO", "q": "Find the subject pronoun for a group of people." },
+          { "w": "went", "t": "V", "q": "Find the first past tense action verb." },
+          { "w": "to", "t": "PREP", "q": "Find the preposition that shows direction." },
+          { "w": "the", "t": "ART", "q": "Find the article before 'lake.'" },
+          { "w": "lake", "t": "N", "q": "Find the noun for a body of water." },
+          { "w": "and", "t": "CONJ", "q": "Find the conjunction joining two ideas." },
+          { "w": "we", "t": "PRO", "q": "Find the subject pronoun meaning a group including me." },
+          { "w": "swam", "t": "V", "q": "Find the second past tense action verb." },
+          { "w": "in", "t": "PREP", "q": "Find the preposition that tells location." },
+          { "w": "the", "t": "ART", "q": "Find the article before 'cool.'" },
+          { "w": "cool", "t": "ADJ", "q": "Find the adjective that describes the water." },
+          { "w": "water", "t": "N", "q": "Find the noun for the liquid in the lake." }
+        ],
+        "manip": {
+          "task": "Replace the subject pronoun 'They' with a different subject pronoun.",
+          "word": "They",
+          "examples": [
+            "<span class='changed'>We</span> went to the lake and we swam in the cool water.",
+            "<span class='changed'>She</span> went to the lake and we swam in the cool water."
+          ]
+        },
+        "vocab": {
+          "w": "misty",
+          "type": "adjective",
+          "def": "Filled with a thin fog or very fine water drops in the air.",
+          "simple": "When it is misty, the air looks a little foggy and you cannot see far away!",
+          "examples": [
+            "a misty morning",
+            "misty rain",
+            "a misty forest"
+          ],
+          "similar": [
+            "foggy",
+            "hazy",
+            "cloudy"
+          ],
+          "antonyms": [
+            "clear",
+            "sunny",
+            "bright"
+          ],
+          "nonex": [
+            "It does NOT mean pouring rain.",
+            "It does NOT mean snowy."
+          ],
+          "example": "The misty morning made everything look soft and dreamy near the lake.",
+          "starter": "I walked through the misty _______ and ...",
+          "why": "The word misty helps you describe that soft, foggy feeling in the air!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 66,
+    "sentences": [
+      {
+        "orig": "the dog wagged it's tale and ran to its oner",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "the",
+            "r": "The",
+            "e": "The first word of a sentence must be capitalized."
+          },
+          {
+            "t": "grammar",
+            "w": "it's",
+            "r": "its",
+            "e": "Use its (no apostrophe) to show belonging. It's means it is."
+          },
+          {
+            "t": "spelling",
+            "w": "tale",
+            "r": "tail",
+            "e": "Tail means the body part. Tale means a story."
+          },
+          {
+            "t": "spelling",
+            "w": "oner",
+            "r": "owner",
+            "e": "Owner is spelled with -ow- at the beginning."
+          },
+          {
+            "t": "punctuation",
+            "w": "oner",
+            "r": "owner.",
+            "e": "A statement must end with a period."
+          }
+        ],
+        "fixed": "The dog wagged its tail and ran to its owner.",
+        "pos": [
+          { "w": "The", "t": "ART", "q": "Find the article at the start of the sentence." },
+          { "w": "dog", "t": "N", "q": "Find the noun for the animal." },
+          { "w": "wagged", "t": "V", "q": "Find the first past tense action verb." },
+          { "w": "its", "t": "POSS", "q": "Find the first possessive pronoun meaning belonging to it." },
+          { "w": "tail", "t": "N", "q": "Find the noun for the body part that wags." },
+          { "w": "and", "t": "CONJ", "q": "Find the conjunction joining two actions." },
+          { "w": "ran", "t": "V", "q": "Find the second past tense action verb." },
+          { "w": "to", "t": "PREP", "q": "Find the preposition that shows direction." },
+          { "w": "its", "t": "POSS", "q": "Find the second possessive pronoun meaning belonging to it." },
+          { "w": "owner", "t": "N", "q": "Find the noun for the person who has the dog." }
+        ],
+        "manip": {
+          "task": "Replace the possessive pronoun 'its' (first one) with a different possessive pronoun.",
+          "word": "its",
+          "examples": [
+            "The dog wagged <span class='changed'>her</span> tail and ran to its owner.",
+            "The dog wagged <span class='changed'>his</span> tail and ran to its owner."
+          ]
+        },
+        "vocab": {
+          "w": "foggy",
+          "type": "adjective",
+          "def": "Filled with thick mist that makes it hard to see.",
+          "simple": "When it is foggy, the air is full of tiny water drops and you cannot see very far!",
+          "examples": [
+            "a foggy morning",
+            "foggy weather",
+            "a foggy road"
+          ],
+          "similar": [
+            "misty",
+            "hazy",
+            "murky"
+          ],
+          "antonyms": [
+            "clear",
+            "sunny",
+            "bright"
+          ],
+          "nonex": [
+            "It does NOT mean rainy or stormy.",
+            "It does NOT mean dark at night."
+          ],
+          "example": "It was so foggy this morning that I could not see the house across the street.",
+          "starter": "On a foggy day, I _______ ...",
+          "why": "The word foggy helps you describe when the air is so thick with mist you cannot see well!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 67,
+    "sentences": [
+      {
+        "orig": "me and my frend wore our warm coats to the snowy feeld",
+        "corr": [
+          {
+            "t": "grammar",
+            "w": "me",
+            "r": "My",
+            "e": "Use the subject form. Also, say My friend and I, not Me and my friend."
+          },
+          {
+            "t": "spelling",
+            "w": "frend",
+            "r": "friend",
+            "e": "Friend is spelled f-r-i-e-n-d."
+          },
+          {
+            "t": "grammar",
+            "w": "wore our",
+            "r": "wore our",
+            "e": "Our is the correct possessive pronoun here."
+          },
+          {
+            "t": "spelling",
+            "w": "feeld",
+            "r": "field",
+            "e": "Field is spelled f-i-e-l-d."
+          },
+          {
+            "t": "punctuation",
+            "w": "feeld",
+            "r": "field.",
+            "e": "A statement must end with a period."
+          }
+        ],
+        "fixed": "My friend and I wore our warm coats to the snowy field.",
+        "pos": [
+          { "w": "My", "t": "POSS", "q": "Find the possessive pronoun meaning belonging to me." },
+          { "w": "friend", "t": "N", "q": "Find the noun for a person you like." },
+          { "w": "and", "t": "CONJ", "q": "Find the conjunction joining two subjects." },
+          { "w": "I", "t": "PRO", "q": "Find the subject pronoun for yourself." },
+          { "w": "wore", "t": "V", "q": "Find the past tense verb for putting on clothes." },
+          { "w": "our", "t": "POSS", "q": "Find the possessive pronoun meaning belonging to us." },
+          { "w": "warm", "t": "ADJ", "q": "Find the adjective that describes the coats." },
+          { "w": "coats", "t": "N", "q": "Find the noun for clothing worn over other clothes." },
+          { "w": "to", "t": "PREP", "q": "Find the preposition showing direction." },
+          { "w": "the", "t": "ART", "q": "Find the article before 'snowy.'" },
+          { "w": "snowy", "t": "ADJ", "q": "Find the adjective that describes the field." },
+          { "w": "field", "t": "N", "q": "Find the noun for a large open area of land." }
+        ],
+        "manip": {
+          "task": "Replace the possessive pronoun 'our' with a different possessive pronoun.",
+          "word": "our",
+          "examples": [
+            "My friend and I wore <span class='changed'>their</span> warm coats to the snowy field.",
+            "My friend and I wore <span class='changed'>her</span> warm coats to the snowy field."
+          ]
+        },
+        "vocab": {
+          "w": "chilly",
+          "type": "adjective",
+          "def": "Uncomfortably cool or cold.",
+          "simple": "When it is chilly, it feels cold enough that you want to put on a jacket!",
+          "examples": [
+            "a chilly wind",
+            "a chilly morning",
+            "chilly weather"
+          ],
+          "similar": [
+            "cold",
+            "cool",
+            "nippy"
+          ],
+          "antonyms": [
+            "warm",
+            "hot",
+            "toasty"
+          ],
+          "nonex": [
+            "It does NOT mean freezing with ice everywhere.",
+            "It does NOT mean a type of pepper."
+          ],
+          "example": "The chilly wind made us all zip up our jackets at recess.",
+          "starter": "It was chilly outside so I _______ ...",
+          "why": "The word chilly helps you describe weather that is cold but not freezing!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 68,
+    "sentences": [
+      {
+        "orig": "the children left they're boots by there door after the hike",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "the",
+            "r": "The",
+            "e": "The first word of a sentence must be capitalized."
+          },
+          {
+            "t": "grammar",
+            "w": "they're",
+            "r": "their",
+            "e": "Use the possessive pronoun their to show belonging. They're means they are."
+          },
+          {
+            "t": "grammar",
+            "w": "there",
+            "r": "the",
+            "e": "Use the article the before door, not the word there."
+          },
+          {
+            "t": "spelling",
+            "w": "hike",
+            "r": "hike",
+            "e": "Hike is spelled correctly here."
+          },
+          {
+            "t": "punctuation",
+            "w": "hike",
+            "r": "hike.",
+            "e": "A statement must end with a period."
+          }
+        ],
+        "fixed": "The children left their boots by the door after the hike.",
+        "pos": [
+          { "w": "The", "t": "ART", "q": "Find the article at the start of the sentence." },
+          { "w": "children", "t": "N", "q": "Find the noun for young people." },
+          { "w": "left", "t": "V", "q": "Find the past tense verb meaning placed or put." },
+          { "w": "their", "t": "POSS", "q": "Find the possessive pronoun meaning belonging to them." },
+          { "w": "boots", "t": "N", "q": "Find the noun for shoes that cover the ankle." },
+          { "w": "by", "t": "PREP", "q": "Find the preposition that tells location." },
+          { "w": "the", "t": "ART", "q": "Find the article before 'door.'" },
+          { "w": "door", "t": "N", "q": "Find the noun for an entrance." },
+          { "w": "after", "t": "PREP", "q": "Find the preposition that tells when." },
+          { "w": "the", "t": "ART", "q": "Find the article before 'hike.'" },
+          { "w": "hike", "t": "N", "q": "Find the noun for a long walk outdoors." }
+        ],
+        "manip": {
+          "task": "Replace the possessive pronoun 'their' with a different possessive pronoun.",
+          "word": "their",
+          "examples": [
+            "The children left <span class='changed'>her</span> boots by the door after the hike.",
+            "The children left <span class='changed'>his</span> boots by the door after the hike."
+          ]
+        },
+        "vocab": {
+          "w": "humid",
+          "type": "adjective",
+          "def": "Having a lot of moisture or water in the air.",
+          "simple": "When it is humid, the air feels thick and sticky, and you might start sweating!",
+          "examples": [
+            "a humid day",
+            "humid weather",
+            "hot and humid"
+          ],
+          "similar": [
+            "muggy",
+            "sticky",
+            "steamy"
+          ],
+          "antonyms": [
+            "dry",
+            "arid",
+            "crisp"
+          ],
+          "nonex": [
+            "It does NOT mean raining.",
+            "It does NOT mean very cold."
+          ],
+          "example": "It was so humid outside that my glasses got foggy the moment I walked out.",
+          "starter": "On a humid day, I feel _______ ...",
+          "why": "The word humid helps you describe that hot, sticky feeling in the air on summer days!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 69,
+    "sentences": [
+      {
+        "orig": "i maked the fort by meself and felt very prowd",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "i",
+            "r": "I",
+            "e": "The pronoun I is always capitalized."
+          },
+          {
+            "t": "grammar",
+            "w": "maked",
+            "r": "made",
+            "e": "The past tense of make is made, not maked."
+          },
+          {
+            "t": "grammar",
+            "w": "meself",
+            "r": "myself",
+            "e": "The correct reflexive pronoun is myself, not meself."
+          },
+          {
+            "t": "spelling",
+            "w": "prowd",
+            "r": "proud",
+            "e": "Proud is spelled p-r-o-u-d."
+          },
+          {
+            "t": "punctuation",
+            "w": "prowd",
+            "r": "proud.",
+            "e": "A statement must end with a period."
+          }
+        ],
+        "fixed": "I made the fort by myself and felt very proud.",
+        "pos": [
+          { "w": "I", "t": "PRO", "q": "Find the subject pronoun for yourself." },
+          { "w": "made", "t": "V", "q": "Find the first past tense action verb." },
+          { "w": "the", "t": "ART", "q": "Find the article before 'fort.'" },
+          { "w": "fort", "t": "N", "q": "Find the noun for a play structure." },
+          { "w": "by", "t": "PREP", "q": "Find the preposition before the reflexive pronoun." },
+          { "w": "myself", "t": "PRO", "q": "Find the reflexive pronoun that refers back to I." },
+          { "w": "and", "t": "CONJ", "q": "Find the conjunction joining two ideas." },
+          { "w": "felt", "t": "V", "q": "Find the second past tense verb." },
+          { "w": "very", "t": "ADV", "q": "Find the adverb that makes proud stronger." },
+          { "w": "proud", "t": "ADJ", "q": "Find the adjective that tells a feeling." }
+        ],
+        "manip": {
+          "task": "Replace the reflexive pronoun 'myself' with a different reflexive pronoun.",
+          "word": "myself",
+          "examples": [
+            "I made the fort by <span class='changed'>herself</span> and felt very proud.",
+            "I made the fort by <span class='changed'>himself</span> and felt very proud."
+          ]
+        },
+        "vocab": {
+          "w": "cozy",
+          "type": "adjective",
+          "def": "Warm, comfortable, and giving a feeling of being safe.",
+          "simple": "When something is cozy, it makes you feel warm, safe, and happy inside!",
+          "examples": [
+            "a cozy blanket",
+            "a cozy room",
+            "cozy by the fire"
+          ],
+          "similar": [
+            "snug",
+            "comfy",
+            "warm"
+          ],
+          "antonyms": [
+            "cold",
+            "uncomfortable",
+            "chilly"
+          ],
+          "nonex": [
+            "It does NOT mean boring or sleepy.",
+            "It does NOT mean very hot."
+          ],
+          "example": "We wrapped up in a cozy blanket and read stories on the rainy night.",
+          "starter": "I feel cozy when _______ ...",
+          "why": "The word cozy helps you describe that warm, safe, happy feeling you get inside!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 70,
+    "sentences": [
+      {
+        "orig": "the boy hert hisself when he slipd on the icy path",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "the",
+            "r": "The",
+            "e": "The first word of a sentence must be capitalized."
+          },
+          {
+            "t": "spelling",
+            "w": "hert",
+            "r": "hurt",
+            "e": "Hurt is spelled h-u-r-t."
+          },
+          {
+            "t": "grammar",
+            "w": "hisself",
+            "r": "himself",
+            "e": "The correct reflexive pronoun is himself, not hisself."
+          },
+          {
+            "t": "spelling",
+            "w": "slipd",
+            "r": "slipped",
+            "e": "Slipped needs a double p and -ed ending."
+          },
+          {
+            "t": "punctuation",
+            "w": "path",
+            "r": "path.",
+            "e": "A statement must end with a period."
+          }
+        ],
+        "fixed": "The boy hurt himself when he slipped on the icy path.",
+        "pos": [
+          { "w": "The", "t": "ART", "q": "Find the article at the start of the sentence." },
+          { "w": "boy", "t": "N", "q": "Find the noun for a young male person." },
+          { "w": "hurt", "t": "V", "q": "Find the first verb in the sentence." },
+          { "w": "himself", "t": "PRO", "q": "Find the reflexive pronoun that refers back to the boy." },
+          { "w": "when", "t": "SUBCONJ", "q": "Find the word that tells when something happened." },
+          { "w": "he", "t": "PRO", "q": "Find the subject pronoun for a boy." },
+          { "w": "slipped", "t": "V", "q": "Find the past tense verb meaning to lose balance." },
+          { "w": "on", "t": "PREP", "q": "Find the preposition that tells where." },
+          { "w": "the", "t": "ART", "q": "Find the article before 'icy.'" },
+          { "w": "icy", "t": "ADJ", "q": "Find the adjective that describes the path." },
+          { "w": "path", "t": "N", "q": "Find the noun for a trail or walkway." }
+        ],
+        "manip": {
+          "task": "Replace the reflexive pronoun 'himself' with a different reflexive pronoun.",
+          "word": "himself",
+          "examples": [
+            "The boy hurt <span class='changed'>herself</span> when he slipped on the icy path.",
+            "The boy hurt <span class='changed'>themselves</span> when he slipped on the icy path."
+          ]
+        },
+        "vocab": {
+          "w": "bundled",
+          "type": "adjective/verb",
+          "def": "Wrapped up warmly in many layers of clothing.",
+          "simple": "When you are bundled up, you have lots of warm clothes on to keep out the cold!",
+          "examples": [
+            "bundled up in a coat",
+            "bundled in a scarf",
+            "bundled for winter"
+          ],
+          "similar": [
+            "wrapped",
+            "covered",
+            "layered"
+          ],
+          "antonyms": [
+            "uncovered",
+            "bare",
+            "exposed"
+          ],
+          "nonex": [
+            "It does NOT mean tied in a knot.",
+            "It does NOT mean carrying a package."
+          ],
+          "example": "We bundled up in hats and scarves before we went out to play in the snow.",
+          "starter": "I bundled up because _______ ...",
+          "why": "The word bundled helps you describe getting all wrapped up in warm clothes for cold weather!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 71,
+    "sentences": [
+      {
+        "orig": "the girls dried theirselfs off after they swam in the oshun",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "the",
+            "r": "The",
+            "e": "The first word of a sentence must be capitalized."
+          },
+          {
+            "t": "grammar",
+            "w": "theirselfs",
+            "r": "themselves",
+            "e": "The correct reflexive pronoun is themselves, not theirselfs."
+          },
+          {
+            "t": "spelling",
+            "w": "off",
+            "r": "off",
+            "e": "Off is spelled correctly here."
+          },
+          {
+            "t": "spelling",
+            "w": "oshun",
+            "r": "ocean",
+            "e": "Ocean is spelled o-c-e-a-n."
+          },
+          {
+            "t": "punctuation",
+            "w": "oshun",
+            "r": "ocean.",
+            "e": "A statement must end with a period."
+          }
+        ],
+        "fixed": "The girls dried themselves off after they swam in the ocean.",
+        "pos": [
+          { "w": "The", "t": "ART", "q": "Find the article at the start of the sentence." },
+          { "w": "girls", "t": "N", "q": "Find the noun for young female people." },
+          { "w": "dried", "t": "V", "q": "Find the past tense verb meaning to remove water." },
+          { "w": "themselves", "t": "PRO", "q": "Find the reflexive pronoun that refers back to the girls." },
+          { "w": "off", "t": "ADV", "q": "Find the adverb that goes with dried." },
+          { "w": "after", "t": "SUBCONJ", "q": "Find the word that tells when." },
+          { "w": "they", "t": "PRO", "q": "Find the subject pronoun for a group." },
+          { "w": "swam", "t": "V", "q": "Find the past tense verb for moving in water." },
+          { "w": "in", "t": "PREP", "q": "Find the preposition that tells location." },
+          { "w": "the", "t": "ART", "q": "Find the article before 'ocean.'" },
+          { "w": "ocean", "t": "N", "q": "Find the noun for a large body of salt water." }
+        ],
+        "manip": {
+          "task": "Replace the reflexive pronoun 'themselves' with a different reflexive pronoun.",
+          "word": "themselves",
+          "examples": [
+            "The girls dried <span class='changed'>herself</span> off after they swam in the ocean.",
+            "The girls dried <span class='changed'>ourselves</span> off after they swam in the ocean."
+          ]
+        },
+        "vocab": {
+          "w": "brisk",
+          "type": "adjective",
+          "def": "Cool and fresh in a way that makes you feel awake and alive.",
+          "simple": "When the air is brisk, it is cool and fresh and makes you want to move around!",
+          "examples": [
+            "a brisk walk",
+            "a brisk wind",
+            "brisk autumn air"
+          ],
+          "similar": [
+            "crisp",
+            "cool",
+            "refreshing"
+          ],
+          "antonyms": [
+            "warm",
+            "hot",
+            "stuffy"
+          ],
+          "nonex": [
+            "It does NOT mean freezing cold.",
+            "It does NOT mean walking fast."
+          ],
+          "example": "We took a brisk walk in the cool morning air and felt wide awake.",
+          "starter": "The brisk air made me want to _______ ...",
+          "why": "The word brisk helps you describe that fresh, cool, energizing feeling in the air!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 72,
+    "sentences": [
+      {
+        "orig": "sara lovs the park so him goes their every saterday",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "sara",
+            "r": "Sara",
+            "e": "A person's name is a proper noun and must be capitalized."
+          },
+          {
+            "t": "spelling",
+            "w": "lovs",
+            "r": "loves",
+            "e": "Loves is spelled with an e before the s."
+          },
+          {
+            "t": "grammar",
+            "w": "him",
+            "r": "she",
+            "e": "Sara is a girl, so use the subject pronoun she, not him."
+          },
+          {
+            "t": "spelling",
+            "w": "their",
+            "r": "there",
+            "e": "Use there for a place, not their which shows belonging."
+          },
+          {
+            "t": "punctuation",
+            "w": "saterday",
+            "r": "Saturday.",
+            "e": "A statement must end with a period, and Saturday is a proper noun."
+          }
+        ],
+        "fixed": "Sara loves the park so she goes there every Saturday.",
+        "pos": [
+          { "w": "Sara", "t": "N", "q": "Find the proper noun for a person's name." },
+          { "w": "loves", "t": "V", "q": "Find the present tense verb meaning to like a lot." },
+          { "w": "the", "t": "ART", "q": "Find the article before 'park.'" },
+          { "w": "park", "t": "N", "q": "Find the noun for an outdoor place." },
+          { "w": "so", "t": "CONJ", "q": "Find the conjunction that shows a reason." },
+          { "w": "she", "t": "PRO", "q": "Find the pronoun that replaces Sara." },
+          { "w": "goes", "t": "V", "q": "Find the present tense verb for traveling." },
+          { "w": "there", "t": "ADV", "q": "Find the adverb that tells where." },
+          { "w": "every", "t": "ADJ", "q": "Find the adjective that means each one." },
+          { "w": "Saturday", "t": "N", "q": "Find the proper noun for a day of the week." }
+        ],
+        "manip": {
+          "task": "Replace the pronoun 'she' with a different pronoun that matches a new name.",
+          "word": "she",
+          "examples": [
+            "Sara loves the park so <span class='changed'>he</span> goes there every Saturday.",
+            "Sara loves the park so <span class='changed'>they</span> goes there every Saturday."
+          ]
+        },
+        "vocab": {
+          "w": "sleet",
+          "type": "noun",
+          "def": "A mix of rain and ice that falls from the sky.",
+          "simple": "Sleet is when little pieces of ice fall from the sky, kind of like frozen rain!",
+          "examples": [
+            "sleet on the road",
+            "a sleet storm",
+            "sleet and rain"
+          ],
+          "similar": [
+            "hail",
+            "ice",
+            "freezing rain"
+          ],
+          "antonyms": [
+            "sunshine",
+            "dry weather",
+            "clear skies"
+          ],
+          "nonex": [
+            "It does NOT mean soft, fluffy snow.",
+            "It does NOT mean regular rain."
+          ],
+          "example": "The sleet made the sidewalk slippery, so we walked very carefully to school.",
+          "starter": "When sleet falls, I _______ ...",
+          "why": "The word sleet helps you describe that icy rain that is not quite snow and not quite rain!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 73,
+    "sentences": [
+      {
+        "orig": "the boys forgot they mittens so her hands got very cold",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "the",
+            "r": "The",
+            "e": "The first word of a sentence must be capitalized."
+          },
+          {
+            "t": "grammar",
+            "w": "they",
+            "r": "their",
+            "e": "Use the possessive pronoun their to show the mittens belong to the boys."
+          },
+          {
+            "t": "grammar",
+            "w": "her",
+            "r": "their",
+            "e": "Use their to match the plural noun boys, not the singular her."
+          },
+          {
+            "t": "spelling",
+            "w": "mittens",
+            "r": "mittens",
+            "e": "Mittens is spelled correctly here."
+          },
+          {
+            "t": "punctuation",
+            "w": "cold",
+            "r": "cold.",
+            "e": "A statement must end with a period."
+          }
+        ],
+        "fixed": "The boys forgot their mittens so their hands got very cold.",
+        "pos": [
+          { "w": "The", "t": "ART", "q": "Find the article at the start of the sentence." },
+          { "w": "boys", "t": "N", "q": "Find the noun for young male people." },
+          { "w": "forgot", "t": "V", "q": "Find the past tense verb meaning did not remember." },
+          { "w": "their", "t": "POSS", "q": "Find the first possessive pronoun meaning belonging to them." },
+          { "w": "mittens", "t": "N", "q": "Find the noun for warm hand coverings." },
+          { "w": "so", "t": "CONJ", "q": "Find the conjunction that shows a result." },
+          { "w": "their", "t": "POSS", "q": "Find the second possessive pronoun meaning belonging to them." },
+          { "w": "hands", "t": "N", "q": "Find the noun for body parts at the end of arms." },
+          { "w": "got", "t": "V", "q": "Find the past tense linking verb meaning became." },
+          { "w": "very", "t": "ADV", "q": "Find the adverb that makes cold stronger." },
+          { "w": "cold", "t": "ADJ", "q": "Find the adjective that tells temperature." }
+        ],
+        "manip": {
+          "task": "Replace the possessive pronoun 'their' (first one) with a different possessive pronoun.",
+          "word": "their",
+          "examples": [
+            "The boys forgot <span class='changed'>his</span> mittens so their hands got very cold.",
+            "The boys forgot <span class='changed'>her</span> mittens so their hands got very cold."
+          ]
+        },
+        "vocab": {
+          "w": "gale",
+          "type": "noun",
+          "def": "A very strong wind, stronger than a breeze.",
+          "simple": "A gale is a really powerful wind that can blow things around and bend trees!",
+          "examples": [
+            "a winter gale",
+            "a strong gale",
+            "a gale blew in"
+          ],
+          "similar": [
+            "storm",
+            "windstorm",
+            "squall"
+          ],
+          "antonyms": [
+            "calm",
+            "breeze",
+            "stillness"
+          ],
+          "nonex": [
+            "It does NOT mean a light, soft wind.",
+            "It does NOT mean a type of rain."
+          ],
+          "example": "The gale was so strong that it knocked down branches from the old tree.",
+          "starter": "During the gale, I saw _______ ...",
+          "why": "The word gale helps you describe a very powerful wind that is stronger than a regular breeze!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 74,
+    "sentences": [
+      {
+        "orig": "she quick put on her warmest coat befor the blizard came",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "she",
+            "r": "She",
+            "e": "The first word of a sentence must be capitalized."
+          },
+          {
+            "t": "grammar",
+            "w": "quick",
+            "r": "quickly",
+            "e": "Use the adverb quickly to describe how she put on the coat."
+          },
+          {
+            "t": "spelling",
+            "w": "befor",
+            "r": "before",
+            "e": "Before ends with a silent e."
+          },
+          {
+            "t": "spelling",
+            "w": "blizard",
+            "r": "blizzard",
+            "e": "Blizzard has two z's in the middle."
+          },
+          {
+            "t": "punctuation",
+            "w": "came",
+            "r": "came.",
+            "e": "A statement must end with a period."
+          }
+        ],
+        "fixed": "She quickly put on her warmest coat before the blizzard came.",
+        "pos": [
+          { "w": "She", "t": "PRO", "q": "Find the subject pronoun for a girl." },
+          { "w": "quickly", "t": "ADV", "q": "Find the adverb that tells how she put on the coat." },
+          { "w": "put", "t": "V", "q": "Find the past tense action verb." },
+          { "w": "on", "t": "PREP", "q": "Find the preposition that goes with put." },
+          { "w": "her", "t": "POSS", "q": "Find the possessive pronoun meaning belonging to her." },
+          { "w": "warmest", "t": "ADJ", "q": "Find the superlative adjective meaning the most warm." },
+          { "w": "coat", "t": "N", "q": "Find the noun for clothing worn over other clothes." },
+          { "w": "before", "t": "SUBCONJ", "q": "Find the word that tells when." },
+          { "w": "the", "t": "ART", "q": "Find the article before 'blizzard.'" },
+          { "w": "blizzard", "t": "N", "q": "Find the noun for a big snowstorm." },
+          { "w": "came", "t": "V", "q": "Find the past tense verb meaning arrived." }
+        ],
+        "manip": {
+          "task": "Replace the superlative adjective 'warmest' with a different superlative adjective.",
+          "word": "warmest",
+          "examples": [
+            "She quickly put on her <span class='changed'>thickest</span> coat before the blizzard came.",
+            "She quickly put on her <span class='changed'>heaviest</span> coat before the blizzard came."
+          ]
+        },
+        "vocab": {
+          "w": "blizzard",
+          "type": "noun",
+          "def": "A severe snowstorm with strong winds and heavy snow.",
+          "simple": "A blizzard is a really big snowstorm with lots of wind and so much snow you cannot see!",
+          "examples": [
+            "a winter blizzard",
+            "a big blizzard",
+            "blizzard warning"
+          ],
+          "similar": [
+            "snowstorm",
+            "whiteout",
+            "nor'easter"
+          ],
+          "antonyms": [
+            "sunshine",
+            "clear skies",
+            "heat wave"
+          ],
+          "nonex": [
+            "It does NOT mean a light snowfall.",
+            "It does NOT mean an ice cream treat."
+          ],
+          "example": "The blizzard dropped two feet of snow and we had no school for two days!",
+          "starter": "If a blizzard came, I would _______ ...",
+          "why": "The word blizzard helps you describe the biggest, wildest snowstorms!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 75,
+    "sentences": [
+      {
+        "orig": "we bilt ourselfs a warm shelter and watched the havy rain fall slow",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "we",
+            "r": "We",
+            "e": "The first word of a sentence must be capitalized."
+          },
+          {
+            "t": "spelling",
+            "w": "bilt",
+            "r": "built",
+            "e": "Built is spelled b-u-i-l-t."
+          },
+          {
+            "t": "grammar",
+            "w": "ourselfs",
+            "r": "ourselves",
+            "e": "The correct reflexive pronoun is ourselves, not ourselfs."
+          },
+          {
+            "t": "spelling",
+            "w": "havy",
+            "r": "heavy",
+            "e": "Heavy is spelled h-e-a-v-y."
+          },
+          {
+            "t": "punctuation",
+            "w": "slow",
+            "r": "slowly.",
+            "e": "Use the adverb slowly, and end the sentence with a period."
+          }
+        ],
+        "fixed": "We built ourselves a warm shelter and watched the heavy rain fall slowly.",
+        "pos": [
+          { "w": "We", "t": "PRO", "q": "Find the subject pronoun meaning a group including me." },
+          { "w": "built", "t": "V", "q": "Find the first past tense action verb." },
+          { "w": "ourselves", "t": "PRO", "q": "Find the reflexive pronoun that refers back to we." },
+          { "w": "a", "t": "ART", "q": "Find the article before 'warm.'" },
+          { "w": "warm", "t": "ADJ", "q": "Find the adjective that describes the shelter." },
+          { "w": "shelter", "t": "N", "q": "Find the noun for a place that protects you." },
+          { "w": "and", "t": "CONJ", "q": "Find the conjunction joining two actions." },
+          { "w": "watched", "t": "V", "q": "Find the second past tense action verb." },
+          { "w": "the", "t": "ART", "q": "Find the article before 'heavy.'" },
+          { "w": "heavy", "t": "ADJ", "q": "Find the adjective that describes the rain." },
+          { "w": "rain", "t": "N", "q": "Find the noun for water that falls from the sky." },
+          { "w": "fall", "t": "V", "q": "Find the verb that tells what the rain did." },
+          { "w": "slowly", "t": "ADV", "q": "Find the adverb that tells how the rain fell." }
+        ],
+        "manip": {
+          "task": "Replace the reflexive pronoun 'ourselves' with a different reflexive pronoun.",
+          "word": "ourselves",
+          "examples": [
+            "We built <span class='changed'>himself</span> a warm shelter and watched the heavy rain fall slowly.",
+            "We built <span class='changed'>themselves</span> a warm shelter and watched the heavy rain fall slowly."
+          ]
+        },
+        "vocab": {
+          "w": "haze",
+          "type": "noun",
+          "def": "A thin mist or light fog that makes the air look unclear.",
+          "simple": "Haze is when the air looks a little smoky or cloudy and you cannot see things far away clearly!",
+          "examples": [
+            "a summer haze",
+            "haze over the hills",
+            "a thin haze"
+          ],
+          "similar": [
+            "mist",
+            "fog",
+            "smog"
+          ],
+          "antonyms": [
+            "clarity",
+            "clearness",
+            "brightness"
+          ],
+          "nonex": [
+            "It does NOT mean a thick, dark cloud.",
+            "It does NOT mean smoke from a fire."
+          ],
+          "example": "A thin haze hung over the lake in the early morning before the sun burned it away.",
+          "starter": "I saw haze in the air when _______ ...",
+          "why": "The word haze helps you describe that slightly foggy, unclear look in the air!"
+        }
+      }
+    ]
+  }
+]

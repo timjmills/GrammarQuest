@@ -1,0 +1,1218 @@
+[
+  {
+    "day": 26,
+    "sentences": [
+      {
+        "orig": "a flock of birds flyed over the green feeld",
+        "corr": [
+          {"t": "capitalization", "w": "a", "r": "A", "e": "The first word of a sentence must be capitalized."},
+          {"t": "grammar", "w": "flyed", "r": "flew", "e": "Flew is the correct past tense of fly. It is an irregular verb."},
+          {"t": "grammar", "w": "the", "r": "a", "e": "Use 'a' before a word that starts with a consonant when the field is not specific."},
+          {"t": "spelling", "w": "feeld", "r": "field", "e": "Field is spelled with -ie-, not -ee-."},
+          {"t": "punctuation", "w": "feeld", "r": "field.", "e": "A telling sentence must end with a period."}
+        ],
+        "fixed": "A flock of birds flew over a green field.",
+        "pos": [
+          {"w": "A", "t": "ART", "q": "Find the article at the start of the sentence."},
+          {"w": "flock", "t": "N", "q": "Find the collective noun for a group of birds."},
+          {"w": "of", "t": "PREP", "q": "Find the preposition that connects 'flock' to 'birds.'"},
+          {"w": "birds", "t": "N", "q": "Find the plural noun for animals with feathers."},
+          {"w": "flew", "t": "V", "q": "Find the past tense verb meaning moved through the air."},
+          {"w": "over", "t": "PREP", "q": "Find the preposition that tells where the birds flew."},
+          {"w": "a", "t": "ART", "q": "Find the article before 'green.'"},
+          {"w": "green", "t": "ADJ", "q": "Find the adjective that describes the field's color."},
+          {"w": "field", "t": "N", "q": "Find the noun for an open area of land."}
+        ],
+        "manip": {
+          "task": "Replace the collective noun 'flock' with a different collective noun.",
+          "word": "flock",
+          "examples": [
+            "A <span class='changed'>group</span> of birds flew over a green field.",
+            "A <span class='changed'>bunch</span> of birds flew over a green field."
+          ]
+        },
+        "vocab": {
+          "w": "pounce",
+          "type": "verb",
+          "def": "To jump or spring suddenly in order to catch something.",
+          "simple": "Pounce means to jump quickly to grab or catch something, like a cat jumping on a toy!",
+          "examples": ["pounce on a ball", "pounce at a bug", "ready to pounce"],
+          "similar": ["leap", "jump", "spring"],
+          "antonyms": ["retreat", "back away", "wait"],
+          "nonex": ["It does NOT mean to walk slowly.", "It does NOT mean to sit still."],
+          "example": "The playful kitten will pounce on the yarn every time it moves.",
+          "starter": "I saw an animal pounce when _______ ...",
+          "why": "Pounce is a fun action word that helps you describe quick, exciting movements in your writing!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 27,
+    "sentences": [
+      {
+        "orig": "the herd of deer runned thru the talls grass",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "grammar", "w": "runned", "r": "ran", "e": "Ran is the correct past tense of run. It is an irregular verb."},
+          {"t": "spelling", "w": "thru", "r": "through", "e": "Through is the correct spelling, not thru."},
+          {"t": "spelling", "w": "talls", "r": "tall", "e": "Tall does not need an s when describing one noun."},
+          {"t": "punctuation", "w": "grass", "r": "grass.", "e": "A telling sentence must end with a period."}
+        ],
+        "fixed": "The herd of deer ran through the tall grass.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the start of the sentence."},
+          {"w": "herd", "t": "N", "q": "Find the collective noun for a group of deer."},
+          {"w": "of", "t": "PREP", "q": "Find the preposition that connects 'herd' to 'deer.'"},
+          {"w": "deer", "t": "N", "q": "Find the noun for the animals."},
+          {"w": "ran", "t": "V", "q": "Find the past tense verb meaning moved fast."},
+          {"w": "through", "t": "PREP", "q": "Find the preposition that tells where they ran."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'tall.'"},
+          {"w": "tall", "t": "ADJ", "q": "Find the adjective that describes the grass."},
+          {"w": "grass", "t": "N", "q": "Find the noun for the green plant on the ground."}
+        ],
+        "manip": {
+          "task": "Replace the collective noun 'herd' with a different collective noun.",
+          "word": "herd",
+          "examples": [
+            "The <span class='changed'>group</span> of deer ran through the tall grass.",
+            "The <span class='changed'>pack</span> of deer ran through the tall grass."
+          ]
+        },
+        "vocab": {
+          "w": "burrow",
+          "type": "noun",
+          "def": "A hole or tunnel dug by a small animal to live in.",
+          "simple": "A burrow is a little home underground that animals like rabbits dig for themselves!",
+          "examples": ["a rabbit burrow", "dig a burrow", "hide in a burrow"],
+          "similar": ["hole", "tunnel", "den"],
+          "antonyms": ["surface", "open air", "hilltop"],
+          "nonex": ["It does NOT mean a nest in a tree.", "It does NOT mean a cave in a mountain."],
+          "example": "The rabbit hopped into its burrow to stay safe from the rain.",
+          "starter": "If I lived in a burrow, I would _______ ...",
+          "why": "Burrow helps you describe where small animals live when you write about nature!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 28,
+    "sentences": [
+      {
+        "orig": "a pack of wolfs howld at the brigt moon",
+        "corr": [
+          {"t": "capitalization", "w": "a", "r": "A", "e": "The first word of a sentence must be capitalized."},
+          {"t": "grammar", "w": "wolfs", "r": "wolves", "e": "The plural of wolf is wolves, not wolfs. Change the f to v and add -es."},
+          {"t": "spelling", "w": "howld", "r": "howled", "e": "Howled is spelled with -ed, not -d."},
+          {"t": "spelling", "w": "brigt", "r": "bright", "e": "Bright has an h after the g."},
+          {"t": "punctuation", "w": "moon", "r": "moon.", "e": "A telling sentence must end with a period."}
+        ],
+        "fixed": "A pack of wolves howled at the bright moon.",
+        "pos": [
+          {"w": "A", "t": "ART", "q": "Find the article at the start of the sentence."},
+          {"w": "pack", "t": "N", "q": "Find the collective noun for a group of wolves."},
+          {"w": "of", "t": "PREP", "q": "Find the preposition that connects 'pack' to 'wolves.'"},
+          {"w": "wolves", "t": "N", "q": "Find the plural noun for the animals."},
+          {"w": "howled", "t": "V", "q": "Find the past tense verb for the sound wolves make."},
+          {"w": "at", "t": "PREP", "q": "Find the preposition that tells where they howled."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'bright.'"},
+          {"w": "bright", "t": "ADJ", "q": "Find the adjective that describes the moon."},
+          {"w": "moon", "t": "N", "q": "Find the noun for the round light in the night sky."}
+        ],
+        "manip": {
+          "task": "Replace the collective noun 'pack' with a different collective noun.",
+          "word": "pack",
+          "examples": [
+            "A <span class='changed'>group</span> of wolves howled at the bright moon.",
+            "A <span class='changed'>team</span> of wolves howled at the bright moon."
+          ]
+        },
+        "vocab": {
+          "w": "scurry",
+          "type": "verb",
+          "def": "To move quickly with short, hurried steps.",
+          "simple": "Scurry means to run with tiny fast steps, like a mouse running across the floor!",
+          "examples": ["scurry away", "scurry across the floor", "scurry to hide"],
+          "similar": ["dash", "hurry", "scamper"],
+          "antonyms": ["stroll", "crawl", "linger"],
+          "nonex": ["It does NOT mean to walk slowly.", "It does NOT mean to stop moving."],
+          "example": "The squirrels scurry up the tree when they hear a loud noise.",
+          "starter": "I would scurry if _______ ...",
+          "why": "Scurry is a great verb to make your writing more exciting when you describe how animals move!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 29,
+    "sentences": [
+      {
+        "orig": "the childs lost there tooths at the school fair",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "grammar", "w": "childs", "r": "children", "e": "The plural of child is children, not childs. It is an irregular plural noun."},
+          {"t": "grammar", "w": "there", "r": "their", "e": "Their shows ownership. There means a place."},
+          {"t": "grammar", "w": "tooths", "r": "teeth", "e": "The plural of tooth is teeth, not tooths. It is an irregular plural noun."},
+          {"t": "punctuation", "w": "fair", "r": "fair.", "e": "A telling sentence must end with a period."}
+        ],
+        "fixed": "The children lost their teeth at the school fair.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the start of the sentence."},
+          {"w": "children", "t": "N", "q": "Find the irregular plural noun for young people."},
+          {"w": "lost", "t": "V", "q": "Find the past tense verb meaning no longer had."},
+          {"w": "their", "t": "POSS", "q": "Find the possessive word that shows ownership."},
+          {"w": "teeth", "t": "N", "q": "Find the irregular plural noun for what is in your mouth."},
+          {"w": "at", "t": "PREP", "q": "Find the preposition telling where."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'school.'"},
+          {"w": "school", "t": "N", "q": "Find the noun for a place where kids learn."},
+          {"w": "fair", "t": "N", "q": "Find the noun for a fun event with games."}
+        ],
+        "manip": {
+          "task": "Replace the irregular plural noun 'teeth' with a different irregular plural noun.",
+          "word": "teeth",
+          "examples": [
+            "The children lost their <span class='changed'>mittens</span> at the school fair.",
+            "The children lost their <span class='changed'>hats</span> at the school fair."
+          ]
+        },
+        "vocab": {
+          "w": "slither",
+          "type": "verb",
+          "def": "To slide or glide along the ground like a snake.",
+          "simple": "Slither means to slide along the ground smoothly, the way a snake moves!",
+          "examples": ["slither through the grass", "slither across the path", "slither away"],
+          "similar": ["slide", "glide", "creep"],
+          "antonyms": ["stomp", "march", "gallop"],
+          "nonex": ["It does NOT mean to fly.", "It does NOT mean to hop."],
+          "example": "We watched the long snake slither across the warm rocks in the sun.",
+          "starter": "I saw something slither when _______ ...",
+          "why": "Slither is a great word to describe smooth, sliding movement in your stories!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 30,
+    "sentences": [
+      {
+        "orig": "too mouses hid under the old wuden barn",
+        "corr": [
+          {"t": "capitalization", "w": "too", "r": "Two", "e": "The first word of a sentence must be capitalized."},
+          {"t": "grammar", "w": "mouses", "r": "mice", "e": "The plural of mouse is mice, not mouses. It is an irregular plural noun."},
+          {"t": "spelling", "w": "too", "r": "Two", "e": "Two is the number. Too means also or very much."},
+          {"t": "spelling", "w": "wuden", "r": "wooden", "e": "Wooden is spelled w-o-o-d-e-n."},
+          {"t": "punctuation", "w": "barn", "r": "barn.", "e": "A telling sentence must end with a period."}
+        ],
+        "fixed": "Two mice hid under the old wooden barn.",
+        "pos": [
+          {"w": "Two", "t": "ADJ", "q": "Find the number word that tells how many."},
+          {"w": "mice", "t": "N", "q": "Find the irregular plural noun for small rodents."},
+          {"w": "hid", "t": "V", "q": "Find the past tense verb meaning went out of sight."},
+          {"w": "under", "t": "PREP", "q": "Find the preposition telling where the mice went."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'old.'"},
+          {"w": "old", "t": "ADJ", "q": "Find the adjective that describes the barn's age."},
+          {"w": "wooden", "t": "ADJ", "q": "Find the adjective that tells what the barn is made of."},
+          {"w": "barn", "t": "N", "q": "Find the noun for a farm building."}
+        ],
+        "manip": {
+          "task": "Replace the irregular plural noun 'mice' with a different irregular plural noun.",
+          "word": "mice",
+          "examples": [
+            "Two <span class='changed'>geese</span> hid under the old wooden barn.",
+            "Two <span class='changed'>children</span> hid under the old wooden barn."
+          ]
+        },
+        "vocab": {
+          "w": "gallop",
+          "type": "verb",
+          "def": "To run fast, the way a horse moves at top speed.",
+          "simple": "Gallop means to run really fast with big bouncy steps, like a horse!",
+          "examples": ["gallop across the field", "gallop away", "gallop fast"],
+          "similar": ["race", "sprint", "charge"],
+          "antonyms": ["walk", "stroll", "creep"],
+          "nonex": ["It does NOT mean to tiptoe.", "It does NOT mean to swim."],
+          "example": "The brown horse began to gallop around the open field.",
+          "starter": "I would gallop if _______ ...",
+          "why": "Gallop is a strong action word that helps readers picture fast, exciting movement!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 31,
+    "sentences": [
+      {
+        "orig": "the mans and womans catched many fishs at the lake",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "grammar", "w": "mans", "r": "men", "e": "The plural of man is men, not mans. It is an irregular plural noun."},
+          {"t": "grammar", "w": "womans", "r": "women", "e": "The plural of woman is women, not womans. It is an irregular plural noun."},
+          {"t": "grammar", "w": "catched", "r": "caught", "e": "Caught is the correct past tense of catch. It is an irregular verb."},
+          {"t": "punctuation", "w": "lake", "r": "lake.", "e": "A telling sentence must end with a period."}
+        ],
+        "fixed": "The men and women caught many fish at the lake.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the start of the sentence."},
+          {"w": "men", "t": "N", "q": "Find the irregular plural noun for adult males."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction joining two nouns."},
+          {"w": "women", "t": "N", "q": "Find the irregular plural noun for adult females."},
+          {"w": "caught", "t": "V", "q": "Find the past tense verb meaning grabbed."},
+          {"w": "many", "t": "ADJ", "q": "Find the adjective telling how much fish."},
+          {"w": "fish", "t": "N", "q": "Find the noun for animals that live in water."},
+          {"w": "at", "t": "PREP", "q": "Find the preposition telling where."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'lake.'"},
+          {"w": "lake", "t": "N", "q": "Find the noun for a body of water."}
+        ],
+        "manip": {
+          "task": "Replace the irregular plural noun 'men' with a different irregular plural noun.",
+          "word": "men",
+          "examples": [
+            "The <span class='changed'>children</span> and women caught many fish at the lake.",
+            "The <span class='changed'>people</span> and women caught many fish at the lake."
+          ]
+        },
+        "vocab": {
+          "w": "swoop",
+          "type": "verb",
+          "def": "To fly down quickly through the air to grab something.",
+          "simple": "Swoop means to dive down fast from the sky, like a bird catching its dinner!",
+          "examples": ["swoop down", "swoop in", "swoop over the water"],
+          "similar": ["dive", "plunge", "descend"],
+          "antonyms": ["rise", "climb", "float up"],
+          "nonex": ["It does NOT mean to fly up high.", "It does NOT mean to land gently."],
+          "example": "The eagle will swoop down to catch a fish from the river.",
+          "starter": "If I could swoop like a bird, I would _______ ...",
+          "why": "Swoop is a vivid verb that paints a picture of fast downward movement in your writing!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 32,
+    "sentences": [
+      {
+        "orig": "the dogs bone was burryed in the sandey yard",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "grammar", "w": "dogs", "r": "dog's", "e": "Dog's needs an apostrophe and s to show the bone belongs to the dog."},
+          {"t": "spelling", "w": "burryed", "r": "buried", "e": "Buried is spelled b-u-r-i-e-d."},
+          {"t": "spelling", "w": "sandey", "r": "sandy", "e": "Sandy is spelled with a y at the end, not -ey."},
+          {"t": "punctuation", "w": "yard", "r": "yard.", "e": "A telling sentence must end with a period."}
+        ],
+        "fixed": "The dog's bone was buried in the sandy yard.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the start of the sentence."},
+          {"w": "dog's", "t": "POSS", "q": "Find the singular possessive noun showing the bone belongs to the dog."},
+          {"w": "bone", "t": "N", "q": "Find the noun for a hard part of a body."},
+          {"w": "was", "t": "V", "q": "Find the helping verb."},
+          {"w": "buried", "t": "V", "q": "Find the past tense verb meaning put underground."},
+          {"w": "in", "t": "PREP", "q": "Find the preposition telling where."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'sandy.'"},
+          {"w": "sandy", "t": "ADJ", "q": "Find the adjective describing the yard."},
+          {"w": "yard", "t": "N", "q": "Find the noun for an outdoor area near a house."}
+        ],
+        "manip": {
+          "task": "Replace the possessive noun 'dog's' with a different singular possessive noun.",
+          "word": "dog's",
+          "examples": [
+            "The <span class='changed'>cat's</span> bone was buried in the sandy yard.",
+            "The <span class='changed'>puppy's</span> bone was buried in the sandy yard."
+          ]
+        },
+        "vocab": {
+          "w": "nibble",
+          "type": "verb",
+          "def": "To eat something by taking small, gentle bites.",
+          "simple": "Nibble means to take tiny little bites of food, like a bunny eating a carrot!",
+          "examples": ["nibble on a cracker", "nibble a leaf", "nibble slowly"],
+          "similar": ["munch", "chew", "bite"],
+          "antonyms": ["gulp", "devour", "gobble"],
+          "nonex": ["It does NOT mean to swallow whole.", "It does NOT mean to drink."],
+          "example": "The little rabbit likes to nibble on fresh lettuce from the garden.",
+          "starter": "I like to nibble on _______ when ...",
+          "why": "Nibble is a fun word that helps you describe eating in a more interesting way!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 33,
+    "sentences": [
+      {
+        "orig": "the cats tail was fluffey and very longe",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "grammar", "w": "cats", "r": "cat's", "e": "Cat's needs an apostrophe and s to show the tail belongs to the cat."},
+          {"t": "spelling", "w": "fluffey", "r": "fluffy", "e": "Fluffy is spelled with a y at the end, not -ey."},
+          {"t": "spelling", "w": "longe", "r": "long", "e": "Long does not have an e at the end."},
+          {"t": "punctuation", "w": "longe", "r": "long.", "e": "A telling sentence must end with a period."}
+        ],
+        "fixed": "The cat's tail was fluffy and very long.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the start of the sentence."},
+          {"w": "cat's", "t": "POSS", "q": "Find the singular possessive noun showing the tail belongs to the cat."},
+          {"w": "tail", "t": "N", "q": "Find the noun for the body part at the back of an animal."},
+          {"w": "was", "t": "V", "q": "Find the helping verb."},
+          {"w": "fluffy", "t": "ADJ", "q": "Find the adjective that means soft and puffy."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction joining two describing words."},
+          {"w": "very", "t": "ADV", "q": "Find the adverb that makes 'long' stronger."},
+          {"w": "long", "t": "ADJ", "q": "Find the adjective that tells the size of the tail."}
+        ],
+        "manip": {
+          "task": "Replace the possessive noun 'cat's' with a different singular possessive noun.",
+          "word": "cat's",
+          "examples": [
+            "The <span class='changed'>fox's</span> tail was fluffy and very long.",
+            "The <span class='changed'>horse's</span> tail was fluffy and very long."
+          ]
+        },
+        "vocab": {
+          "w": "perch",
+          "type": "verb",
+          "def": "To sit or rest on something high up, like a branch.",
+          "simple": "Perch means to sit up on something high, like a bird sitting on a tree branch!",
+          "examples": ["perch on a branch", "perch on a fence", "perch up high"],
+          "similar": ["sit", "rest", "roost"],
+          "antonyms": ["fall", "drop", "tumble"],
+          "nonex": ["It does NOT mean to lie down flat.", "It does NOT mean to hang upside down."],
+          "example": "The red bird likes to perch on the top of the wooden fence.",
+          "starter": "If I could perch like a bird, I would sit on _______ ...",
+          "why": "Perch is a useful word to describe where birds and other animals rest up high!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 34,
+    "sentences": [
+      {
+        "orig": "the girls painting was hanged on the classroom woll",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "grammar", "w": "girls", "r": "girl's", "e": "Girl's needs an apostrophe and s to show the painting belongs to the girl."},
+          {"t": "grammar", "w": "hanged", "r": "hung", "e": "Hung is the correct past tense when talking about putting something on a wall."},
+          {"t": "spelling", "w": "woll", "r": "wall", "e": "Wall is spelled with an a, not an o."},
+          {"t": "punctuation", "w": "woll", "r": "wall.", "e": "A telling sentence must end with a period."}
+        ],
+        "fixed": "The girl's painting was hung on the classroom wall.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the start of the sentence."},
+          {"w": "girl's", "t": "POSS", "q": "Find the singular possessive noun showing the painting belongs to the girl."},
+          {"w": "painting", "t": "N", "q": "Find the noun for a picture made with paint."},
+          {"w": "was", "t": "V", "q": "Find the helping verb."},
+          {"w": "hung", "t": "V", "q": "Find the past tense verb meaning put up on a wall."},
+          {"w": "on", "t": "PREP", "q": "Find the preposition telling where the painting was placed."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'classroom.'"},
+          {"w": "classroom", "t": "N", "q": "Find the noun for a room where kids learn."},
+          {"w": "wall", "t": "N", "q": "Find the noun for the side of a room."}
+        ],
+        "manip": {
+          "task": "Replace the possessive noun 'girl's' with a different singular possessive noun.",
+          "word": "girl's",
+          "examples": [
+            "The <span class='changed'>boy's</span> painting was hung on the classroom wall.",
+            "The <span class='changed'>teacher's</span> painting was hung on the classroom wall."
+          ]
+        },
+        "vocab": {
+          "w": "shelter",
+          "type": "noun",
+          "def": "A place that gives protection from bad weather or danger.",
+          "simple": "A shelter is a safe place where you can go to stay dry or warm, like a little house or a cave!",
+          "examples": ["find shelter", "build a shelter", "a warm shelter"],
+          "similar": ["cover", "haven", "refuge"],
+          "antonyms": ["open air", "outdoors", "exposure"],
+          "nonex": ["It does NOT mean a playground.", "It does NOT mean a store."],
+          "example": "The hikers built a small shelter from sticks to stay dry in the rain.",
+          "starter": "I would need a shelter if _______ ...",
+          "why": "Shelter is an important word to know because it helps you talk about staying safe and protected!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 35,
+    "sentences": [
+      {
+        "orig": "the dogs bowls were fild with fresh cool water",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "grammar", "w": "dogs", "r": "dogs'", "e": "Dogs' needs an apostrophe after the s to show the bowls belong to more than one dog."},
+          {"t": "spelling", "w": "fild", "r": "filled", "e": "Filled is spelled with two l's and -ed."},
+          {"t": "spelling", "w": "fresh", "r": "fresh", "e": "Fresh is correct, but cool needs a comma before it in a list of adjectives."},
+          {"t": "punctuation", "w": "water", "r": "water.", "e": "A telling sentence must end with a period."}
+        ],
+        "fixed": "The dogs' bowls were filled with fresh, cool water.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the start of the sentence."},
+          {"w": "dogs'", "t": "POSS", "q": "Find the plural possessive noun showing the bowls belong to the dogs."},
+          {"w": "bowls", "t": "N", "q": "Find the plural noun for dishes that hold food or water."},
+          {"w": "were", "t": "V", "q": "Find the helping verb."},
+          {"w": "filled", "t": "V", "q": "Find the past tense verb meaning made full."},
+          {"w": "with", "t": "PREP", "q": "Find the preposition."},
+          {"w": "fresh", "t": "ADJ", "q": "Find the adjective meaning clean and new."},
+          {"w": "cool", "t": "ADJ", "q": "Find the adjective describing the temperature of the water."},
+          {"w": "water", "t": "N", "q": "Find the noun for the liquid we drink."}
+        ],
+        "manip": {
+          "task": "Replace the plural possessive noun 'dogs'' with a different plural possessive noun.",
+          "word": "dogs'",
+          "examples": [
+            "The <span class='changed'>cats'</span> bowls were filled with fresh, cool water.",
+            "The <span class='changed'>birds'</span> bowls were filled with fresh, cool water."
+          ]
+        },
+        "vocab": {
+          "w": "meadow",
+          "type": "noun",
+          "def": "A field of grass, often with wildflowers, where animals can graze.",
+          "simple": "A meadow is a big, pretty field full of grass and flowers where animals like to eat and play!",
+          "examples": ["a green meadow", "walk through the meadow", "flowers in the meadow"],
+          "similar": ["field", "pasture", "grassland"],
+          "antonyms": ["forest", "desert", "city"],
+          "nonex": ["It does NOT mean a garden with vegetables.", "It does NOT mean a sandy beach."],
+          "example": "The deer grazed in the sunny meadow near the river.",
+          "starter": "If I were in a meadow, I would _______ ...",
+          "why": "Meadow is a beautiful word that helps you describe open, grassy places in nature!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 36,
+    "sentences": [
+      {
+        "orig": "the girls jackets was hangging on there hooks",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "grammar", "w": "girls", "r": "girls'", "e": "Girls' needs an apostrophe after the s to show the jackets belong to more than one girl."},
+          {"t": "grammar", "w": "was", "r": "were", "e": "Use were because jackets is a plural noun."},
+          {"t": "spelling", "w": "hangging", "r": "hanging", "e": "Hanging has only one g in the middle."},
+          {"t": "punctuation", "w": "hooks", "r": "hooks.", "e": "A telling sentence must end with a period."}
+        ],
+        "fixed": "The girls' jackets were hanging on their hooks.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the start of the sentence."},
+          {"w": "girls'", "t": "POSS", "q": "Find the plural possessive noun showing the jackets belong to the girls."},
+          {"w": "jackets", "t": "N", "q": "Find the plural noun for pieces of clothing."},
+          {"w": "were", "t": "V", "q": "Find the helping verb."},
+          {"w": "hanging", "t": "V", "q": "Find the verb meaning placed on a hook."},
+          {"w": "on", "t": "PREP", "q": "Find the preposition telling where."},
+          {"w": "their", "t": "POSS", "q": "Find the possessive word meaning belonging to them."},
+          {"w": "hooks", "t": "N", "q": "Find the plural noun for things you hang coats on."}
+        ],
+        "manip": {
+          "task": "Replace the plural possessive noun 'girls'' with a different plural possessive noun.",
+          "word": "girls'",
+          "examples": [
+            "The <span class='changed'>boys'</span> jackets were hanging on their hooks.",
+            "The <span class='changed'>students'</span> jackets were hanging on their hooks."
+          ]
+        },
+        "vocab": {
+          "w": "den",
+          "type": "noun",
+          "def": "A hidden home or resting place for a wild animal.",
+          "simple": "A den is a cozy hiding spot where animals like bears or foxes sleep and stay safe!",
+          "examples": ["a bear den", "a fox den", "sleep in a den"],
+          "similar": ["lair", "burrow", "nest"],
+          "antonyms": ["open field", "clearing", "sky"],
+          "nonex": ["It does NOT mean a bedroom for people.", "It does NOT mean a birdhouse."],
+          "example": "The mother fox kept her babies warm inside the dark den.",
+          "starter": "If I had a den like an animal, it would be _______ ...",
+          "why": "Den is a useful word to describe where wild animals live and rest in nature stories!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 37,
+    "sentences": [
+      {
+        "orig": "the childrens books were stackd on the liberry shelf",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "grammar", "w": "childrens", "r": "children's", "e": "Children's needs an apostrophe before the s because children is already plural."},
+          {"t": "spelling", "w": "stackd", "r": "stacked", "e": "Stacked is spelled with -ed at the end."},
+          {"t": "spelling", "w": "liberry", "r": "library", "e": "Library is spelled l-i-b-r-a-r-y."},
+          {"t": "punctuation", "w": "shelf", "r": "shelf.", "e": "A telling sentence must end with a period."}
+        ],
+        "fixed": "The children's books were stacked on the library shelf.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the start of the sentence."},
+          {"w": "children's", "t": "POSS", "q": "Find the plural possessive noun showing the books belong to the children."},
+          {"w": "books", "t": "N", "q": "Find the plural noun for things you read."},
+          {"w": "were", "t": "V", "q": "Find the helping verb."},
+          {"w": "stacked", "t": "V", "q": "Find the past tense verb meaning piled up."},
+          {"w": "on", "t": "PREP", "q": "Find the preposition telling where."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'library.'"},
+          {"w": "library", "t": "N", "q": "Find the noun for a place with many books."},
+          {"w": "shelf", "t": "N", "q": "Find the noun for a flat board to hold things."}
+        ],
+        "manip": {
+          "task": "Replace the plural possessive noun 'children's' with a different plural possessive noun.",
+          "word": "children's",
+          "examples": [
+            "The <span class='changed'>teachers'</span> books were stacked on the library shelf.",
+            "The <span class='changed'>students'</span> books were stacked on the library shelf."
+          ]
+        },
+        "vocab": {
+          "w": "hollow",
+          "type": "adjective",
+          "def": "Having an empty space inside; not solid.",
+          "simple": "Hollow means empty inside, like a tube or a hole in a tree trunk!",
+          "examples": ["a hollow log", "a hollow tree", "hollow inside"],
+          "similar": ["empty", "vacant", "bare"],
+          "antonyms": ["solid", "full", "packed"],
+          "nonex": ["It does NOT mean broken.", "It does NOT mean flat."],
+          "example": "The owl made its nest inside the hollow trunk of the old oak tree.",
+          "starter": "I found something hollow when _______ ...",
+          "why": "Hollow helps you describe objects with empty spaces inside, which is great for nature writing!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 38,
+    "sentences": [
+      {
+        "orig": "she are helping the yung birds in there nest",
+        "corr": [
+          {"t": "capitalization", "w": "she", "r": "She", "e": "The first word of a sentence must be capitalized."},
+          {"t": "grammar", "w": "are", "r": "is", "e": "Use is with she, not are. She is a singular pronoun."},
+          {"t": "spelling", "w": "yung", "r": "young", "e": "Young is spelled y-o-u-n-g."},
+          {"t": "grammar", "w": "there", "r": "their", "e": "Their shows ownership. There means a place."},
+          {"t": "punctuation", "w": "nest", "r": "nest.", "e": "A telling sentence must end with a period."}
+        ],
+        "fixed": "She is helping the young birds in their nest.",
+        "pos": [
+          {"w": "She", "t": "PRO", "q": "Find the pronoun at the start of the sentence."},
+          {"w": "is", "t": "V", "q": "Find the helping verb that goes with she."},
+          {"w": "helping", "t": "V", "q": "Find the action verb meaning giving aid."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'young.'"},
+          {"w": "young", "t": "ADJ", "q": "Find the adjective meaning not old."},
+          {"w": "birds", "t": "N", "q": "Find the plural noun for animals with feathers."},
+          {"w": "in", "t": "PREP", "q": "Find the preposition telling where."},
+          {"w": "their", "t": "POSS", "q": "Find the possessive word meaning belonging to them."},
+          {"w": "nest", "t": "N", "q": "Find the noun for a bird's home."}
+        ],
+        "manip": {
+          "task": "Replace the helping verb 'is' with a different helping verb.",
+          "word": "is",
+          "examples": [
+            "She <span class='changed'>was</span> helping the young birds in their nest.",
+            "She <span class='changed'>has</span> been helping the young birds in their nest."
+          ]
+        },
+        "vocab": {
+          "w": "roam",
+          "type": "verb",
+          "def": "To move around freely without a set path or direction.",
+          "simple": "Roam means to walk around wherever you want, with no plan of where to go!",
+          "examples": ["roam the hills", "roam freely", "roam around the park"],
+          "similar": ["wander", "drift", "ramble"],
+          "antonyms": ["stay", "remain", "settle"],
+          "nonex": ["It does NOT mean to run fast.", "It does NOT mean to sit in one place."],
+          "example": "The wild horses roam across the wide open plains all day long.",
+          "starter": "If I could roam anywhere, I would go to _______ ...",
+          "why": "Roam is a great word for describing free movement in stories about animals and adventures!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 39,
+    "sentences": [
+      {
+        "orig": "we has planted many prety flowers in the gardin",
+        "corr": [
+          {"t": "capitalization", "w": "we", "r": "We", "e": "The first word of a sentence must be capitalized."},
+          {"t": "grammar", "w": "has", "r": "have", "e": "Use have with we, not has. We is a plural pronoun."},
+          {"t": "spelling", "w": "prety", "r": "pretty", "e": "Pretty is spelled with two t's: p-r-e-t-t-y."},
+          {"t": "spelling", "w": "gardin", "r": "garden", "e": "Garden is spelled with an e, not an i: g-a-r-d-e-n."},
+          {"t": "punctuation", "w": "gardin", "r": "garden.", "e": "A telling sentence must end with a period."}
+        ],
+        "fixed": "We have planted many pretty flowers in the garden.",
+        "pos": [
+          {"w": "We", "t": "PRO", "q": "Find the pronoun meaning a group that includes me."},
+          {"w": "have", "t": "V", "q": "Find the helping verb that goes with we."},
+          {"w": "planted", "t": "V", "q": "Find the past tense verb meaning put in the ground."},
+          {"w": "many", "t": "ADJ", "q": "Find the adjective telling how much."},
+          {"w": "pretty", "t": "ADJ", "q": "Find the adjective meaning nice to look at."},
+          {"w": "flowers", "t": "N", "q": "Find the plural noun for colorful plants."},
+          {"w": "in", "t": "PREP", "q": "Find the preposition telling where."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'garden.'"},
+          {"w": "garden", "t": "N", "q": "Find the noun for a place where plants grow."}
+        ],
+        "manip": {
+          "task": "Replace the helping verb 'have' with a different helping verb.",
+          "word": "have",
+          "examples": [
+            "We <span class='changed'>had</span> planted many pretty flowers in the garden.",
+            "We <span class='changed'>are</span> planting many pretty flowers in the garden."
+          ]
+        },
+        "vocab": {
+          "w": "graze",
+          "type": "verb",
+          "def": "To eat grass or plants growing in a field.",
+          "simple": "Graze means to eat grass and plants, like cows do in a big open field!",
+          "examples": ["graze in a field", "graze on grass", "cows grazing"],
+          "similar": ["feed", "nibble", "munch"],
+          "antonyms": ["fast", "starve", "skip meals"],
+          "nonex": ["It does NOT mean to hunt.", "It does NOT mean to drink water."],
+          "example": "The sheep graze on the green hillside every morning after sunrise.",
+          "starter": "I saw animals graze when _______ ...",
+          "why": "Graze is a useful word to describe how farm and wild animals eat in fields and pastures!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 40,
+    "sentences": [
+      {
+        "orig": "the nurse were checkin the sick boy's temperture",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "grammar", "w": "were", "r": "was", "e": "Use was with nurse because nurse is a singular noun."},
+          {"t": "spelling", "w": "checkin", "r": "checking", "e": "Checking needs a g at the end: checking."},
+          {"t": "spelling", "w": "temperture", "r": "temperature", "e": "Temperature is spelled t-e-m-p-e-r-a-t-u-r-e."},
+          {"t": "punctuation", "w": "temperture", "r": "temperature.", "e": "A telling sentence must end with a period."}
+        ],
+        "fixed": "The nurse was checking the sick boy's temperature.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the start of the sentence."},
+          {"w": "nurse", "t": "N", "q": "Find the noun for a person who helps sick people."},
+          {"w": "was", "t": "V", "q": "Find the helping verb that goes with nurse."},
+          {"w": "checking", "t": "V", "q": "Find the action verb meaning looking at carefully."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'sick.'"},
+          {"w": "sick", "t": "ADJ", "q": "Find the adjective meaning not feeling well."},
+          {"w": "boy's", "t": "POSS", "q": "Find the singular possessive noun."},
+          {"w": "temperature", "t": "N", "q": "Find the noun for how hot or cold something is."}
+        ],
+        "manip": {
+          "task": "Replace the helping verb 'was' with a different helping verb.",
+          "word": "was",
+          "examples": [
+            "The nurse <span class='changed'>is</span> checking the sick boy's temperature.",
+            "The nurse <span class='changed'>had been</span> checking the sick boy's temperature."
+          ]
+        },
+        "vocab": {
+          "w": "patrol",
+          "type": "verb",
+          "def": "To walk around an area to keep it safe and watch for problems.",
+          "simple": "Patrol means to walk around a place to make sure everything is safe, like a guard or police officer!",
+          "examples": ["patrol the streets", "patrol the park", "on patrol"],
+          "similar": ["guard", "watch", "monitor"],
+          "antonyms": ["ignore", "neglect", "abandon"],
+          "nonex": ["It does NOT mean to sleep.", "It does NOT mean to play."],
+          "example": "The park ranger will patrol the trails to make sure all the hikers are safe.",
+          "starter": "If I could patrol somewhere, I would choose _______ because ...",
+          "why": "Patrol is a good word for talking about people who help keep our communities safe!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 41,
+    "sentences": [
+      {
+        "orig": "the boy sitted on a big rock and hided behind a bush",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "grammar", "w": "sitted", "r": "sat", "e": "Sat is the correct past tense of sit. It is an irregular verb."},
+          {"t": "grammar", "w": "hided", "r": "hid", "e": "Hid is the correct past tense of hide. It is an irregular verb."},
+          {"t": "spelling", "w": "behind", "r": "behind", "e": "Behind is correct. The word bush needs the article 'a' before it."},
+          {"t": "punctuation", "w": "bush", "r": "bush.", "e": "A telling sentence must end with a period."}
+        ],
+        "fixed": "The boy sat on a big rock and hid behind a bush.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the start of the sentence."},
+          {"w": "boy", "t": "N", "q": "Find the noun for a young male."},
+          {"w": "sat", "t": "V", "q": "Find the irregular past tense verb for sit."},
+          {"w": "on", "t": "PREP", "q": "Find the preposition telling where he sat."},
+          {"w": "a", "t": "ART", "q": "Find the article before 'big.'"},
+          {"w": "big", "t": "ADJ", "q": "Find the adjective describing the rock's size."},
+          {"w": "rock", "t": "N", "q": "Find the noun for a large stone."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction joining two actions."},
+          {"w": "hid", "t": "V", "q": "Find the irregular past tense verb for hide."},
+          {"w": "behind", "t": "PREP", "q": "Find the preposition meaning at the back of."},
+          {"w": "a", "t": "ART", "q": "Find the article before 'bush.'"},
+          {"w": "bush", "t": "N", "q": "Find the noun for a small, thick plant."}
+        ],
+        "manip": {
+          "task": "Replace the irregular past tense verb 'sat' with a different irregular past tense verb.",
+          "word": "sat",
+          "examples": [
+            "The boy <span class='changed'>stood</span> on a big rock and hid behind a bush.",
+            "The boy <span class='changed'>jumped</span> on a big rock and hid behind a bush."
+          ]
+        },
+        "vocab": {
+          "w": "loyal",
+          "type": "adjective",
+          "def": "Always faithful and supportive; never giving up on someone.",
+          "simple": "Loyal means you always stick by your friends and family, no matter what!",
+          "examples": ["a loyal friend", "a loyal dog", "stay loyal"],
+          "similar": ["faithful", "true", "devoted"],
+          "antonyms": ["disloyal", "unfaithful", "false"],
+          "nonex": ["It does NOT mean bossy.", "It does NOT mean shy."],
+          "example": "The loyal dog waited by the door every day until its owner came home.",
+          "starter": "I am loyal to _______ because ...",
+          "why": "Being loyal helps you build strong friendships and shows people they can count on you!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 42,
+    "sentences": [
+      {
+        "orig": "she telled her frend a story and then runned home",
+        "corr": [
+          {"t": "capitalization", "w": "she", "r": "She", "e": "The first word of a sentence must be capitalized."},
+          {"t": "grammar", "w": "telled", "r": "told", "e": "Told is the correct past tense of tell. It is an irregular verb."},
+          {"t": "spelling", "w": "frend", "r": "friend", "e": "Friend is spelled f-r-i-e-n-d."},
+          {"t": "grammar", "w": "runned", "r": "ran", "e": "Ran is the correct past tense of run. It is an irregular verb."},
+          {"t": "punctuation", "w": "home", "r": "home.", "e": "A telling sentence must end with a period."}
+        ],
+        "fixed": "She told her friend a story and then ran home.",
+        "pos": [
+          {"w": "She", "t": "PRO", "q": "Find the pronoun at the start of the sentence."},
+          {"w": "told", "t": "V", "q": "Find the irregular past tense verb for tell."},
+          {"w": "her", "t": "POSS", "q": "Find the possessive word meaning belonging to her."},
+          {"w": "friend", "t": "N", "q": "Find the noun for a person you like and trust."},
+          {"w": "a", "t": "ART", "q": "Find the article before 'story.'"},
+          {"w": "story", "t": "N", "q": "Find the noun for a tale with a beginning, middle, and end."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction joining two actions."},
+          {"w": "then", "t": "ADV", "q": "Find the adverb meaning after that."},
+          {"w": "ran", "t": "V", "q": "Find the irregular past tense verb for run."},
+          {"w": "home", "t": "N", "q": "Find the noun for the place where you live."}
+        ],
+        "manip": {
+          "task": "Replace the irregular past tense verb 'told' with a different irregular past tense verb.",
+          "word": "told",
+          "examples": [
+            "She <span class='changed'>gave</span> her friend a story and then ran home.",
+            "She <span class='changed'>read</span> her friend a story and then ran home."
+          ]
+        },
+        "vocab": {
+          "w": "waddle",
+          "type": "verb",
+          "def": "To walk with short steps, swaying from side to side like a duck.",
+          "simple": "Waddle means to walk with wiggly steps from side to side, like a penguin or a duck!",
+          "examples": ["waddle to the pond", "waddle along", "waddle like a duck"],
+          "similar": ["toddle", "shuffle", "sway"],
+          "antonyms": ["run", "sprint", "dash"],
+          "nonex": ["It does NOT mean to skip.", "It does NOT mean to fly."],
+          "example": "The baby ducks waddle behind their mother all the way to the pond.",
+          "starter": "I tried to waddle like a _______ and it was ...",
+          "why": "Waddle is a fun word that helps you describe a silly, side-to-side way of walking!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 43,
+    "sentences": [
+      {
+        "orig": "he gived his sister a warm blankit and she smild",
+        "corr": [
+          {"t": "capitalization", "w": "he", "r": "He", "e": "The first word of a sentence must be capitalized."},
+          {"t": "grammar", "w": "gived", "r": "gave", "e": "Gave is the correct past tense of give. It is an irregular verb."},
+          {"t": "spelling", "w": "blankit", "r": "blanket", "e": "Blanket is spelled with an e, not an i: b-l-a-n-k-e-t."},
+          {"t": "spelling", "w": "smild", "r": "smiled", "e": "Smiled is spelled with an e before the d: smiled."},
+          {"t": "punctuation", "w": "smild", "r": "smiled.", "e": "A telling sentence must end with a period."}
+        ],
+        "fixed": "He gave his sister a warm blanket and she smiled.",
+        "pos": [
+          {"w": "He", "t": "PRO", "q": "Find the pronoun at the start of the sentence."},
+          {"w": "gave", "t": "V", "q": "Find the irregular past tense verb for give."},
+          {"w": "his", "t": "POSS", "q": "Find the possessive word meaning belonging to him."},
+          {"w": "sister", "t": "N", "q": "Find the noun for a female sibling."},
+          {"w": "a", "t": "ART", "q": "Find the article before 'warm.'"},
+          {"w": "warm", "t": "ADJ", "q": "Find the adjective describing the blanket's temperature."},
+          {"w": "blanket", "t": "N", "q": "Find the noun for a cover used to stay warm."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction joining two parts of the sentence."},
+          {"w": "she", "t": "PRO", "q": "Find the pronoun for a girl."},
+          {"w": "smiled", "t": "V", "q": "Find the past tense verb meaning showed happiness on her face."}
+        ],
+        "manip": {
+          "task": "Replace the irregular past tense verb 'gave' with a different irregular past tense verb.",
+          "word": "gave",
+          "examples": [
+            "He <span class='changed'>brought</span> his sister a warm blanket and she smiled.",
+            "He <span class='changed'>made</span> his sister a warm blanket and she smiled."
+          ]
+        },
+        "vocab": {
+          "w": "flutter",
+          "type": "verb",
+          "def": "To fly with quick, light wing movements or to wave gently in the air.",
+          "simple": "Flutter means to move wings fast and lightly, like a butterfly flying from flower to flower!",
+          "examples": ["flutter its wings", "flutter around", "flutter in the breeze"],
+          "similar": ["flap", "wave", "float"],
+          "antonyms": ["hold still", "stay put", "freeze"],
+          "nonex": ["It does NOT mean to stomp.", "It does NOT mean to crash."],
+          "example": "The colorful butterflies flutter from one flower to the next in the garden.",
+          "starter": "I watched something flutter when _______ ...",
+          "why": "Flutter is a lovely word for describing gentle, light movements in nature!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 44,
+    "sentences": [
+      {
+        "orig": "she maked a beutiful card and comed to the party",
+        "corr": [
+          {"t": "capitalization", "w": "she", "r": "She", "e": "The first word of a sentence must be capitalized."},
+          {"t": "grammar", "w": "maked", "r": "made", "e": "Made is the correct past tense of make. It is an irregular verb."},
+          {"t": "spelling", "w": "beutiful", "r": "beautiful", "e": "Beautiful is spelled b-e-a-u-t-i-f-u-l."},
+          {"t": "grammar", "w": "comed", "r": "came", "e": "Came is the correct past tense of come. It is an irregular verb."},
+          {"t": "punctuation", "w": "party", "r": "party.", "e": "A telling sentence must end with a period."}
+        ],
+        "fixed": "She made a beautiful card and came to the party.",
+        "pos": [
+          {"w": "She", "t": "PRO", "q": "Find the pronoun at the start of the sentence."},
+          {"w": "made", "t": "V", "q": "Find the irregular past tense verb for make."},
+          {"w": "a", "t": "ART", "q": "Find the article before 'beautiful.'"},
+          {"w": "beautiful", "t": "ADJ", "q": "Find the adjective meaning very pretty."},
+          {"w": "card", "t": "N", "q": "Find the noun for folded paper with a message."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction joining two actions."},
+          {"w": "came", "t": "V", "q": "Find the irregular past tense verb for come."},
+          {"w": "to", "t": "PREP", "q": "Find the preposition showing direction."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'party.'"},
+          {"w": "party", "t": "N", "q": "Find the noun for a fun gathering of people."}
+        ],
+        "manip": {
+          "task": "Replace the irregular past tense verb 'made' with a different irregular past tense verb.",
+          "word": "made",
+          "examples": [
+            "She <span class='changed'>drew</span> a beautiful card and came to the party.",
+            "She <span class='changed'>bought</span> a beautiful card and came to the party."
+          ]
+        },
+        "vocab": {
+          "w": "huddle",
+          "type": "verb",
+          "def": "To crowd together in a tight group, often for warmth or safety.",
+          "simple": "Huddle means to squeeze close together in a group, like penguins keeping warm!",
+          "examples": ["huddle together", "huddle for warmth", "huddle in a circle"],
+          "similar": ["cluster", "gather", "bunch up"],
+          "antonyms": ["scatter", "spread out", "separate"],
+          "nonex": ["It does NOT mean to fight.", "It does NOT mean to run away."],
+          "example": "The baby chicks huddle under their mother's wings to stay warm at night.",
+          "starter": "We had to huddle together when _______ ...",
+          "why": "Huddle helps you describe how animals and people come close together for comfort or safety!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 45,
+    "sentences": [
+      {
+        "orig": "he seed a big eagle and taked a pictur of it",
+        "corr": [
+          {"t": "capitalization", "w": "he", "r": "He", "e": "The first word of a sentence must be capitalized."},
+          {"t": "grammar", "w": "seed", "r": "saw", "e": "Saw is the correct past tense of see. It is an irregular verb."},
+          {"t": "grammar", "w": "taked", "r": "took", "e": "Took is the correct past tense of take. It is an irregular verb."},
+          {"t": "spelling", "w": "pictur", "r": "picture", "e": "Picture is spelled with an e at the end: p-i-c-t-u-r-e."},
+          {"t": "punctuation", "w": "it", "r": "it.", "e": "A telling sentence must end with a period."}
+        ],
+        "fixed": "He saw a big eagle and took a picture of it.",
+        "pos": [
+          {"w": "He", "t": "PRO", "q": "Find the pronoun at the start of the sentence."},
+          {"w": "saw", "t": "V", "q": "Find the irregular past tense verb for see."},
+          {"w": "a", "t": "ART", "q": "Find the article before 'big.'"},
+          {"w": "big", "t": "ADJ", "q": "Find the adjective describing the eagle's size."},
+          {"w": "eagle", "t": "N", "q": "Find the noun for a large bird."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction joining two actions."},
+          {"w": "took", "t": "V", "q": "Find the irregular past tense verb for take."},
+          {"w": "a", "t": "ART", "q": "Find the article before 'picture.'"},
+          {"w": "picture", "t": "N", "q": "Find the noun for a photo."},
+          {"w": "of", "t": "PREP", "q": "Find the preposition connecting picture to it."},
+          {"w": "it", "t": "PRO", "q": "Find the pronoun that refers to the eagle."}
+        ],
+        "manip": {
+          "task": "Replace the irregular past tense verb 'saw' with a different irregular past tense verb.",
+          "word": "saw",
+          "examples": [
+            "He <span class='changed'>found</span> a big eagle and took a picture of it.",
+            "He <span class='changed'>spotted</span> a big eagle and took a picture of it."
+          ]
+        },
+        "vocab": {
+          "w": "forage",
+          "type": "verb",
+          "def": "To search for food in the wild.",
+          "simple": "Forage means to look around for food to eat, like a bear looking for berries in the woods!",
+          "examples": ["forage for berries", "forage in the forest", "forage for food"],
+          "similar": ["search", "hunt", "scavenge"],
+          "antonyms": ["store", "hoard", "save"],
+          "nonex": ["It does NOT mean to cook food.", "It does NOT mean to buy food at a store."],
+          "example": "The raccoons forage in the forest for nuts and berries every evening.",
+          "starter": "If I had to forage for food, I would look for _______ ...",
+          "why": "Forage is useful for writing about how animals find their food in nature!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 46,
+    "sentences": [
+      {
+        "orig": "the girl writed a letter and sended it to her grandma",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "grammar", "w": "writed", "r": "wrote", "e": "Wrote is the correct past tense of write. It is an irregular verb."},
+          {"t": "grammar", "w": "sended", "r": "sent", "e": "Sent is the correct past tense of send. It is an irregular verb."},
+          {"t": "spelling", "w": "letter", "r": "letter", "e": "Letter is correct. Grandma should stay as is too."},
+          {"t": "punctuation", "w": "grandma", "r": "grandma.", "e": "A telling sentence must end with a period."}
+        ],
+        "fixed": "The girl wrote a letter and sent it to her grandma.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the start of the sentence."},
+          {"w": "girl", "t": "N", "q": "Find the noun for a young female."},
+          {"w": "wrote", "t": "V", "q": "Find the irregular past tense verb for write."},
+          {"w": "a", "t": "ART", "q": "Find the article before 'letter.'"},
+          {"w": "letter", "t": "N", "q": "Find the noun for a written message."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction joining two actions."},
+          {"w": "sent", "t": "V", "q": "Find the irregular past tense verb for send."},
+          {"w": "it", "t": "PRO", "q": "Find the pronoun that refers to the letter."},
+          {"w": "to", "t": "PREP", "q": "Find the preposition showing direction."},
+          {"w": "her", "t": "POSS", "q": "Find the possessive word meaning belonging to her."},
+          {"w": "grandma", "t": "N", "q": "Find the noun for a grandmother."}
+        ],
+        "manip": {
+          "task": "Replace the irregular past tense verb 'wrote' with a different irregular past tense verb.",
+          "word": "wrote",
+          "examples": [
+            "The girl <span class='changed'>drew</span> a letter and sent it to her grandma.",
+            "The girl <span class='changed'>typed</span> a letter and sent it to her grandma."
+          ]
+        },
+        "vocab": {
+          "w": "tend",
+          "type": "verb",
+          "def": "To take care of or look after something or someone.",
+          "simple": "Tend means to take care of something, like a farmer taking care of animals or plants!",
+          "examples": ["tend the garden", "tend the animals", "tend to a sick friend"],
+          "similar": ["care for", "look after", "nurture"],
+          "antonyms": ["neglect", "ignore", "abandon"],
+          "nonex": ["It does NOT mean to break.", "It does NOT mean to throw away."],
+          "example": "The kind farmer wakes up early to tend the chickens and cows every morning.",
+          "starter": "I like to tend _______ because ...",
+          "why": "Tend is a caring word that shows how we look after living things around us!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 47,
+    "sentences": [
+      {
+        "orig": "he run fast but the girls runs even fasterr",
+        "corr": [
+          {"t": "capitalization", "w": "he", "r": "He", "e": "The first word of a sentence must be capitalized."},
+          {"t": "grammar", "w": "run", "r": "runs", "e": "Use runs with he because he is singular. He runs."},
+          {"t": "grammar", "w": "runs", "r": "run", "e": "Use run with girls because girls is plural. The girls run."},
+          {"t": "spelling", "w": "fasterr", "r": "faster", "e": "Faster has only one r at the end."},
+          {"t": "punctuation", "w": "fasterr", "r": "faster.", "e": "A telling sentence must end with a period."}
+        ],
+        "fixed": "He runs fast but the girls run even faster.",
+        "pos": [
+          {"w": "He", "t": "PRO", "q": "Find the pronoun at the start of the sentence."},
+          {"w": "runs", "t": "V", "q": "Find the verb that agrees with the singular subject he."},
+          {"w": "fast", "t": "ADV", "q": "Find the adverb telling how he runs."},
+          {"w": "but", "t": "CONJ", "q": "Find the conjunction that shows a contrast."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'girls.'"},
+          {"w": "girls", "t": "N", "q": "Find the plural noun for young females."},
+          {"w": "run", "t": "V", "q": "Find the verb that agrees with the plural subject girls."},
+          {"w": "even", "t": "ADV", "q": "Find the adverb that makes faster stronger."},
+          {"w": "faster", "t": "ADV", "q": "Find the adverb comparing speed."}
+        ],
+        "manip": {
+          "task": "Replace the verb 'runs' with a different verb that agrees with the singular subject.",
+          "word": "runs",
+          "examples": [
+            "He <span class='changed'>jumps</span> fast but the girls run even faster.",
+            "He <span class='changed'>swims</span> fast but the girls run even faster."
+          ]
+        },
+        "vocab": {
+          "w": "mend",
+          "type": "verb",
+          "def": "To fix or repair something that is broken or damaged.",
+          "simple": "Mend means to fix something that is broken, like sewing a hole in your shirt!",
+          "examples": ["mend a shirt", "mend a fence", "mend a broken toy"],
+          "similar": ["fix", "repair", "patch"],
+          "antonyms": ["break", "damage", "ruin"],
+          "nonex": ["It does NOT mean to throw away.", "It does NOT mean to buy a new one."],
+          "example": "My mom helped me mend my ripped backpack with a needle and thread.",
+          "starter": "I had to mend _______ when ...",
+          "why": "Mend is a useful word about fixing things instead of throwing them away!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 48,
+    "sentences": [
+      {
+        "orig": "she are happy and the boys is playing in the feild",
+        "corr": [
+          {"t": "capitalization", "w": "she", "r": "She", "e": "The first word of a sentence must be capitalized."},
+          {"t": "grammar", "w": "are", "r": "is", "e": "Use is with she because she is singular. She is."},
+          {"t": "grammar", "w": "is", "r": "are", "e": "Use are with boys because boys is plural. The boys are."},
+          {"t": "spelling", "w": "feild", "r": "field", "e": "Field is spelled f-i-e-l-d. Remember: i before e."},
+          {"t": "punctuation", "w": "feild", "r": "field.", "e": "A telling sentence must end with a period."}
+        ],
+        "fixed": "She is happy and the boys are playing in the field.",
+        "pos": [
+          {"w": "She", "t": "PRO", "q": "Find the pronoun at the start of the sentence."},
+          {"w": "is", "t": "V", "q": "Find the helping verb that agrees with she."},
+          {"w": "happy", "t": "ADJ", "q": "Find the adjective meaning feeling good."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction joining two parts."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'boys.'"},
+          {"w": "boys", "t": "N", "q": "Find the plural noun for young males."},
+          {"w": "are", "t": "V", "q": "Find the helping verb that agrees with boys."},
+          {"w": "playing", "t": "V", "q": "Find the action verb meaning having fun."},
+          {"w": "in", "t": "PREP", "q": "Find the preposition telling where."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'field.'"},
+          {"w": "field", "t": "N", "q": "Find the noun for an open area of land."}
+        ],
+        "manip": {
+          "task": "Replace the adjective 'happy' with a different adjective.",
+          "word": "happy",
+          "examples": [
+            "She is <span class='changed'>excited</span> and the boys are playing in the field.",
+            "She is <span class='changed'>cheerful</span> and the boys are playing in the field."
+          ]
+        },
+        "vocab": {
+          "w": "fetch",
+          "type": "verb",
+          "def": "To go and get something and bring it back.",
+          "simple": "Fetch means to go get something and bring it back, like when a dog brings you a ball!",
+          "examples": ["fetch the ball", "fetch some water", "fetch the newspaper"],
+          "similar": ["get", "retrieve", "bring"],
+          "antonyms": ["drop", "leave", "release"],
+          "nonex": ["It does NOT mean to throw.", "It does NOT mean to hide."],
+          "example": "The happy dog loves to fetch the stick whenever we throw it into the yard.",
+          "starter": "I can fetch _______ for ...",
+          "why": "Fetch is a great action word that means going to get something and bringing it back!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 49,
+    "sentences": [
+      {
+        "orig": "a crowd of peoples cheered when the teams goalie catched the ball",
+        "corr": [
+          {"t": "capitalization", "w": "a", "r": "A", "e": "The first word of a sentence must be capitalized."},
+          {"t": "grammar", "w": "peoples", "r": "people", "e": "People is already plural. You do not add an s to it."},
+          {"t": "grammar", "w": "teams", "r": "team's", "e": "Team's needs an apostrophe and s to show the goalie belongs to the team."},
+          {"t": "grammar", "w": "catched", "r": "caught", "e": "Caught is the correct past tense of catch. It is an irregular verb."},
+          {"t": "punctuation", "w": "ball", "r": "ball.", "e": "A telling sentence must end with a period."}
+        ],
+        "fixed": "A crowd of people cheered when the team's goalie caught the ball.",
+        "pos": [
+          {"w": "A", "t": "ART", "q": "Find the article at the start of the sentence."},
+          {"w": "crowd", "t": "N", "q": "Find the collective noun for a large group of people."},
+          {"w": "of", "t": "PREP", "q": "Find the preposition connecting crowd to people."},
+          {"w": "people", "t": "N", "q": "Find the irregular plural noun for persons."},
+          {"w": "cheered", "t": "V", "q": "Find the past tense verb meaning shouted with joy."},
+          {"w": "when", "t": "SUBCONJ", "q": "Find the word that connects two parts of the sentence in time."},
+          {"w": "the", "t": "ART", "q": "Find the article before team's."},
+          {"w": "team's", "t": "POSS", "q": "Find the singular possessive noun."},
+          {"w": "goalie", "t": "N", "q": "Find the noun for the player who guards the goal."},
+          {"w": "caught", "t": "V", "q": "Find the irregular past tense verb for catch."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'ball.'"},
+          {"w": "ball", "t": "N", "q": "Find the noun for a round object used in sports."}
+        ],
+        "manip": {
+          "task": "Replace the collective noun 'crowd' with a different collective noun.",
+          "word": "crowd",
+          "examples": [
+            "A <span class='changed'>group</span> of people cheered when the team's goalie caught the ball.",
+            "A <span class='changed'>bunch</span> of people cheered when the team's goalie caught the ball."
+          ]
+        },
+        "vocab": {
+          "w": "nestle",
+          "type": "verb",
+          "def": "To settle comfortably and snugly into a warm or safe place.",
+          "simple": "Nestle means to curl up and get cozy in a warm spot, like a baby animal in its nest!",
+          "examples": ["nestle in a blanket", "nestle close", "nestle in a nest"],
+          "similar": ["snuggle", "cuddle", "curl up"],
+          "antonyms": ["squirm", "move away", "stand up"],
+          "nonex": ["It does NOT mean to fight.", "It does NOT mean to jump around."],
+          "example": "The kittens nestle close to their mother to stay warm on cold nights.",
+          "starter": "I like to nestle _______ when ...",
+          "why": "Nestle is a cozy word that helps you describe warm, comfortable moments in your writing!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 50,
+    "sentences": [
+      {
+        "orig": "the firefighters trucks raced down the strete and they saved the familys pets",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "grammar", "w": "firefighters", "r": "firefighters'", "e": "Firefighters' needs an apostrophe after the s to show the trucks belong to the firefighters."},
+          {"t": "spelling", "w": "strete", "r": "street", "e": "Street is spelled s-t-r-e-e-t with two e's."},
+          {"t": "grammar", "w": "familys", "r": "family's", "e": "Family's needs an apostrophe and s to show the pets belong to the family."},
+          {"t": "punctuation", "w": "pets", "r": "pets.", "e": "A telling sentence must end with a period."}
+        ],
+        "fixed": "The firefighters' trucks raced down the street and they saved the family's pets.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the start of the sentence."},
+          {"w": "firefighters'", "t": "POSS", "q": "Find the plural possessive noun showing the trucks belong to the firefighters."},
+          {"w": "trucks", "t": "N", "q": "Find the plural noun for large vehicles."},
+          {"w": "raced", "t": "V", "q": "Find the past tense verb meaning went very fast."},
+          {"w": "down", "t": "PREP", "q": "Find the preposition telling the direction."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'street.'"},
+          {"w": "street", "t": "N", "q": "Find the noun for a road in a town."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction joining two parts."},
+          {"w": "they", "t": "PRO", "q": "Find the pronoun that refers to the firefighters."},
+          {"w": "saved", "t": "V", "q": "Find the past tense verb meaning rescued."},
+          {"w": "the", "t": "ART", "q": "Find the article before family's."},
+          {"w": "family's", "t": "POSS", "q": "Find the singular possessive noun."},
+          {"w": "pets", "t": "N", "q": "Find the plural noun for animals kept at home."}
+        ],
+        "manip": {
+          "task": "Replace the plural possessive noun 'firefighters'' with a different plural possessive noun.",
+          "word": "firefighters'",
+          "examples": [
+            "The <span class='changed'>police officers'</span> trucks raced down the street and they saved the family's pets.",
+            "The <span class='changed'>rangers'</span> trucks raced down the street and they saved the family's pets."
+          ]
+        },
+        "vocab": {
+          "w": "trot",
+          "type": "verb",
+          "def": "To move at a speed between walking and running, with short bouncy steps.",
+          "simple": "Trot means to go faster than a walk but slower than a run, like a horse going at a steady pace!",
+          "examples": ["trot along the path", "trot to school", "trot across the yard"],
+          "similar": ["jog", "lope", "canter"],
+          "antonyms": ["sprint", "crawl", "stand still"],
+          "nonex": ["It does NOT mean to run at full speed.", "It does NOT mean to sit down."],
+          "example": "The pony will trot around the ring while the children watch and clap.",
+          "starter": "I like to trot when _______ ...",
+          "why": "Trot is a great word to describe a pace that is faster than walking but not quite running!"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,2231 @@
+[
+  {
+    "day": 101,
+    "sentences": [
+      {
+        "orig": "we packed apples sandwichs and juise for the picnic",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "we",
+            "r": "We",
+            "e": "The first word of a sentence must be capitalized."
+          },
+          {
+            "t": "punctuation",
+            "w": "apples sandwichs",
+            "r": "apples, sandwiches,",
+            "e": "Use commas to separate three or more items in a series."
+          },
+          {
+            "t": "spelling",
+            "w": "sandwichs",
+            "r": "sandwiches",
+            "e": "Sandwich ends in -ch, so the plural adds -es: sandwiches."
+          },
+          {
+            "t": "spelling",
+            "w": "juise",
+            "r": "juice",
+            "e": "Juice is spelled j-u-i-c-e, not j-u-i-s-e."
+          },
+          {
+            "t": "punctuation",
+            "w": "picnic",
+            "r": "picnic.",
+            "e": "A declarative sentence must end with a period."
+          }
+        ],
+        "fixed": "We packed apples, sandwiches, and juice for the picnic.",
+        "pos": [
+          { "w": "We", "t": "PRO", "q": "Find the pronoun that means 'you and I together.'" },
+          { "w": "packed", "t": "V", "q": "Find the past tense verb meaning 'put things in a bag.'" },
+          { "w": "apples", "t": "N", "q": "Find the noun that names a red or green fruit." },
+          { "w": "sandwiches", "t": "N", "q": "Find the noun for food made with bread." },
+          { "w": "and", "t": "CONJ", "q": "Find the conjunction joining the items in the list." },
+          { "w": "juice", "t": "N", "q": "Find the noun for a drink made from fruit." },
+          { "w": "for", "t": "PREP", "q": "Find the preposition that tells the purpose." },
+          { "w": "the", "t": "ART", "q": "Find the article before 'picnic.'" },
+          { "w": "picnic", "t": "N", "q": "Find the noun for an outdoor meal." }
+        ],
+        "manip": {
+          "task": "Replace the noun 'juice' with a different drink.",
+          "word": "juice",
+          "examples": [
+            "We packed apples, sandwiches, and <span class='changed'>water</span> for the picnic.",
+            "We packed apples, sandwiches, and <span class='changed'>milk</span> for the picnic."
+          ]
+        },
+        "vocab": {
+          "w": "destination",
+          "type": "noun",
+          "def": "The place where someone is going or being sent.",
+          "simple": "A destination is the place you are trying to get to on a trip!",
+          "examples": [
+            "a vacation destination",
+            "our final destination",
+            "a fun destination"
+          ],
+          "similar": [
+            "goal",
+            "target",
+            "endpoint"
+          ],
+          "antonyms": [
+            "origin",
+            "start",
+            "beginning"
+          ],
+          "nonex": [
+            "It does NOT mean the trip itself.",
+            "It does NOT mean how you get there."
+          ],
+          "example": "The park was our destination for the class field trip.",
+          "starter": "My favorite destination is _______ because...",
+          "why": "Knowing the word destination helps you talk about where you want to go!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 102,
+    "sentences": [
+      {
+        "orig": "she brot red blew and green ballons to the party",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "she",
+            "r": "She",
+            "e": "The first word of a sentence must be capitalized."
+          },
+          {
+            "t": "spelling",
+            "w": "brot",
+            "r": "brought",
+            "e": "Brought is the past tense of bring. It is spelled b-r-o-u-g-h-t."
+          },
+          {
+            "t": "punctuation",
+            "w": "red blew",
+            "r": "red, blue,",
+            "e": "Use commas to separate three or more items in a series."
+          },
+          {
+            "t": "spelling",
+            "w": "ballons",
+            "r": "balloons",
+            "e": "Balloons has two l's and two o's: b-a-l-l-o-o-n-s."
+          },
+          {
+            "t": "punctuation",
+            "w": "party",
+            "r": "party.",
+            "e": "A declarative sentence must end with a period."
+          }
+        ],
+        "fixed": "She brought red, blue, and green balloons to the party.",
+        "pos": [
+          { "w": "She", "t": "PRO", "q": "Find the pronoun that takes the place of a girl's name." },
+          { "w": "brought", "t": "V", "q": "Find the past tense verb meaning 'carried to a place.'" },
+          { "w": "red", "t": "ADJ", "q": "Find the adjective naming a warm color." },
+          { "w": "blue", "t": "ADJ", "q": "Find the adjective naming a cool color." },
+          { "w": "and", "t": "CONJ", "q": "Find the conjunction joining the last color in the list." },
+          { "w": "green", "t": "ADJ", "q": "Find the adjective naming the color of grass." },
+          { "w": "balloons", "t": "N", "q": "Find the noun for things you blow up at parties." },
+          { "w": "to", "t": "PREP", "q": "Find the preposition showing direction." },
+          { "w": "the", "t": "ART", "q": "Find the article before 'party.'" },
+          { "w": "party", "t": "N", "q": "Find the noun for a fun gathering." }
+        ],
+        "manip": {
+          "task": "Replace the adjective 'green' with a different color.",
+          "word": "green",
+          "examples": [
+            "She brought red, blue, and <span class='changed'>yellow</span> balloons to the party.",
+            "She brought red, blue, and <span class='changed'>pink</span> balloons to the party."
+          ]
+        },
+        "vocab": {
+          "w": "depart",
+          "type": "verb",
+          "def": "To leave a place, especially to start a journey.",
+          "simple": "Depart means to leave and start going somewhere!",
+          "examples": [
+            "depart from the airport",
+            "depart on a trip",
+            "ready to depart"
+          ],
+          "similar": [
+            "leave",
+            "go",
+            "exit"
+          ],
+          "antonyms": [
+            "arrive",
+            "stay",
+            "remain"
+          ],
+          "nonex": [
+            "It does NOT mean to come back.",
+            "It does NOT mean to wait."
+          ],
+          "example": "The train will depart from the station at nine o'clock.",
+          "starter": "I had to depart when _______ ...",
+          "why": "Depart is a useful word for talking about when you leave on trips and adventures!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 103,
+    "sentences": [
+      {
+        "orig": "my bruther likes dogs cats and hamsters at the pet stor",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "my",
+            "r": "My",
+            "e": "The first word of a sentence must be capitalized."
+          },
+          {
+            "t": "spelling",
+            "w": "bruther",
+            "r": "brother",
+            "e": "Brother is spelled b-r-o-t-h-e-r, not b-r-u-t-h-e-r."
+          },
+          {
+            "t": "punctuation",
+            "w": "dogs cats",
+            "r": "dogs, cats,",
+            "e": "Use commas to separate three or more items in a series."
+          },
+          {
+            "t": "spelling",
+            "w": "stor",
+            "r": "store",
+            "e": "Store ends with a silent e: s-t-o-r-e."
+          },
+          {
+            "t": "punctuation",
+            "w": "store",
+            "r": "store.",
+            "e": "A declarative sentence must end with a period."
+          }
+        ],
+        "fixed": "My brother likes dogs, cats, and hamsters at the pet store.",
+        "pos": [
+          { "w": "My", "t": "POSS", "q": "Find the possessive pronoun meaning 'belonging to me.'" },
+          { "w": "brother", "t": "N", "q": "Find the noun for a male sibling." },
+          { "w": "likes", "t": "V", "q": "Find the present tense verb meaning 'enjoys.'" },
+          { "w": "dogs", "t": "N", "q": "Find the plural noun for a common pet that barks." },
+          { "w": "cats", "t": "N", "q": "Find the plural noun for a common pet that meows." },
+          { "w": "and", "t": "CONJ", "q": "Find the conjunction joining the last animal in the list." },
+          { "w": "hamsters", "t": "N", "q": "Find the plural noun for small furry pets." },
+          { "w": "at", "t": "PREP", "q": "Find the preposition showing location." },
+          { "w": "the", "t": "ART", "q": "Find the article before 'pet.'" },
+          { "w": "pet", "t": "ADJ", "q": "Find the word describing the type of store." },
+          { "w": "store", "t": "N", "q": "Find the noun for a place where you buy things." }
+        ],
+        "manip": {
+          "task": "Replace the noun 'hamsters' with a different pet.",
+          "word": "hamsters",
+          "examples": [
+            "My brother likes dogs, cats, and <span class='changed'>birds</span> at the pet store.",
+            "My brother likes dogs, cats, and <span class='changed'>fish</span> at the pet store."
+          ]
+        },
+        "vocab": {
+          "w": "arrive",
+          "type": "verb",
+          "def": "To reach the place you were traveling to.",
+          "simple": "Arrive means you finally get to where you were going!",
+          "examples": [
+            "arrive at school",
+            "arrive on time",
+            "arrive safely"
+          ],
+          "similar": [
+            "reach",
+            "come",
+            "show up"
+          ],
+          "antonyms": [
+            "leave",
+            "depart",
+            "go"
+          ],
+          "nonex": [
+            "It does NOT mean to leave a place.",
+            "It does NOT mean to be lost."
+          ],
+          "example": "We will arrive at the beach before lunch if we leave now.",
+          "starter": "I was happy to arrive at _______ because...",
+          "why": "Arrive helps you tell others when you get to a place!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 104,
+    "sentences": [
+      {
+        "orig": "the fare was on june 15 2026 in dallas texas",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "the",
+            "r": "The",
+            "e": "The first word of a sentence must be capitalized."
+          },
+          {
+            "t": "spelling",
+            "w": "fare",
+            "r": "fair",
+            "e": "A fair is an outdoor event. Fare means the price of a ride."
+          },
+          {
+            "t": "punctuation",
+            "w": "15 2026",
+            "r": "15, 2026,",
+            "e": "Use a comma between the day and the year in a date, and after the year when the sentence continues."
+          },
+          {
+            "t": "punctuation",
+            "w": "dallas texas",
+            "r": "Dallas, Texas.",
+            "e": "Use a comma between a city and a state name."
+          },
+          {
+            "t": "capitalization",
+            "w": "dallas texas",
+            "r": "Dallas, Texas",
+            "e": "City and state names are proper nouns and must be capitalized."
+          }
+        ],
+        "fixed": "The fair was on June 15, 2026, in Dallas, Texas.",
+        "pos": [
+          { "w": "The", "t": "ART", "q": "Find the article at the beginning of the sentence." },
+          { "w": "fair", "t": "N", "q": "Find the noun for an outdoor event with rides and games." },
+          { "w": "was", "t": "V", "q": "Find the past tense helping verb." },
+          { "w": "on", "t": "PREP", "q": "Find the preposition that tells when." },
+          { "w": "June", "t": "N", "q": "Find the proper noun for a month." },
+          { "w": "15", "t": "N", "q": "Find the number that tells the day of the month." },
+          { "w": "2026", "t": "N", "q": "Find the number that tells the year." },
+          { "w": "in", "t": "PREP", "q": "Find the preposition showing location." },
+          { "w": "Dallas", "t": "N", "q": "Find the proper noun for a city in Texas." },
+          { "w": "Texas", "t": "N", "q": "Find the proper noun for a state." }
+        ],
+        "manip": {
+          "task": "Replace the proper noun 'Dallas' with a different city name.",
+          "word": "Dallas",
+          "examples": [
+            "The fair was on June 15, 2026, in <span class='changed'>Houston</span>, Texas.",
+            "The fair was on June 15, 2026, in <span class='changed'>Austin</span>, Texas."
+          ]
+        },
+        "vocab": {
+          "w": "souvenir",
+          "type": "noun",
+          "def": "A thing that you keep to remind you of a place or event.",
+          "simple": "A souvenir is something you buy or keep to remember a trip!",
+          "examples": [
+            "a souvenir from the beach",
+            "a souvenir shop",
+            "a special souvenir"
+          ],
+          "similar": [
+            "keepsake",
+            "memento",
+            "token"
+          ],
+          "antonyms": [
+            "trash",
+            "junk",
+            "garbage"
+          ],
+          "nonex": [
+            "It does NOT mean a gift you give someone else.",
+            "It does NOT mean something you throw away."
+          ],
+          "example": "She bought a small shell as a souvenir from the beach trip.",
+          "starter": "My favorite souvenir is _______ because...",
+          "why": "A souvenir helps you remember the fun places you visit!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 105,
+    "sentences": [
+      {
+        "orig": "we mooved to miami florida on march 10 2025",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "we",
+            "r": "We",
+            "e": "The first word of a sentence must be capitalized."
+          },
+          {
+            "t": "spelling",
+            "w": "mooved",
+            "r": "moved",
+            "e": "Moved has one o, not two: m-o-v-e-d."
+          },
+          {
+            "t": "punctuation",
+            "w": "miami florida",
+            "r": "Miami, Florida",
+            "e": "Use a comma between a city name and a state name."
+          },
+          {
+            "t": "capitalization",
+            "w": "miami florida",
+            "r": "Miami, Florida",
+            "e": "City and state names are proper nouns and must be capitalized."
+          },
+          {
+            "t": "punctuation",
+            "w": "10 2025",
+            "r": "10, 2025.",
+            "e": "Use a comma between the day and the year in a date."
+          }
+        ],
+        "fixed": "We moved to Miami, Florida on March 10, 2025.",
+        "pos": [
+          { "w": "We", "t": "PRO", "q": "Find the pronoun meaning 'our group.'" },
+          { "w": "moved", "t": "V", "q": "Find the past tense verb meaning 'went to live in a new place.'" },
+          { "w": "to", "t": "PREP", "q": "Find the preposition showing direction." },
+          { "w": "Miami", "t": "N", "q": "Find the proper noun for a city in Florida." },
+          { "w": "Florida", "t": "N", "q": "Find the proper noun for a state." },
+          { "w": "on", "t": "PREP", "q": "Find the preposition that tells when." },
+          { "w": "March", "t": "N", "q": "Find the proper noun for a month." },
+          { "w": "10", "t": "N", "q": "Find the number that tells the day." },
+          { "w": "2025", "t": "N", "q": "Find the number that tells the year." }
+        ],
+        "manip": {
+          "task": "Replace the proper noun 'Miami' with a different city name.",
+          "word": "Miami",
+          "examples": [
+            "We moved to <span class='changed'>Orlando</span>, Florida on March 10, 2025.",
+            "We moved to <span class='changed'>Tampa</span>, Florida on March 10, 2025."
+          ]
+        },
+        "vocab": {
+          "w": "luggage",
+          "type": "noun",
+          "def": "Bags and suitcases that you take when you travel.",
+          "simple": "Luggage is all the bags you pack for a trip!",
+          "examples": [
+            "heavy luggage",
+            "pack the luggage",
+            "carry the luggage"
+          ],
+          "similar": [
+            "baggage",
+            "bags",
+            "suitcases"
+          ],
+          "antonyms": [
+            "nothing",
+            "empty hands",
+            "bare"
+          ],
+          "nonex": [
+            "It does NOT mean just one bag.",
+            "It does NOT mean the things inside the bags."
+          ],
+          "example": "Dad put all the luggage in the trunk before the road trip.",
+          "starter": "I packed my luggage with _______ for my trip to...",
+          "why": "Luggage is an important word to know when you travel somewhere!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 106,
+    "sentences": [
+      {
+        "orig": "the consert in denver colorado is on july 4 2026",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "the",
+            "r": "The",
+            "e": "The first word of a sentence must be capitalized."
+          },
+          {
+            "t": "spelling",
+            "w": "consert",
+            "r": "concert",
+            "e": "Concert is spelled c-o-n-c-e-r-t, not c-o-n-s-e-r-t."
+          },
+          {
+            "t": "punctuation",
+            "w": "denver colorado",
+            "r": "Denver, Colorado",
+            "e": "Use a comma between a city name and a state name."
+          },
+          {
+            "t": "capitalization",
+            "w": "denver colorado",
+            "r": "Denver, Colorado",
+            "e": "City and state names are proper nouns and must be capitalized."
+          },
+          {
+            "t": "punctuation",
+            "w": "4 2026",
+            "r": "4, 2026.",
+            "e": "Use a comma between the day and the year in a date."
+          }
+        ],
+        "fixed": "The concert in Denver, Colorado is on July 4, 2026.",
+        "pos": [
+          { "w": "The", "t": "ART", "q": "Find the article at the beginning of the sentence." },
+          { "w": "concert", "t": "N", "q": "Find the noun for a music show." },
+          { "w": "in", "t": "PREP", "q": "Find the preposition showing location." },
+          { "w": "Denver", "t": "N", "q": "Find the proper noun for a city in Colorado." },
+          { "w": "Colorado", "t": "N", "q": "Find the proper noun for a state." },
+          { "w": "is", "t": "V", "q": "Find the present tense linking verb." },
+          { "w": "on", "t": "PREP", "q": "Find the preposition that tells when." },
+          { "w": "July", "t": "N", "q": "Find the proper noun for a summer month." },
+          { "w": "4", "t": "N", "q": "Find the number that tells the day." },
+          { "w": "2026", "t": "N", "q": "Find the number that tells the year." }
+        ],
+        "manip": {
+          "task": "Replace the month 'July' with a different month.",
+          "word": "July",
+          "examples": [
+            "The concert in Denver, Colorado is on <span class='changed'>August</span> 4, 2026.",
+            "The concert in Denver, Colorado is on <span class='changed'>May</span> 4, 2026."
+          ]
+        },
+        "vocab": {
+          "w": "aboard",
+          "type": "preposition",
+          "def": "On or into a ship, train, bus, or airplane.",
+          "simple": "Aboard means you are on a vehicle like a bus, train, or plane!",
+          "examples": [
+            "climb aboard",
+            "all aboard the train",
+            "go aboard the ship"
+          ],
+          "similar": [
+            "on",
+            "onto",
+            "inside"
+          ],
+          "antonyms": [
+            "off",
+            "outside",
+            "away"
+          ],
+          "nonex": [
+            "It does NOT mean under the vehicle.",
+            "It does NOT mean next to the vehicle."
+          ],
+          "example": "The kids climbed aboard the big yellow school bus.",
+          "starter": "I went aboard a _______ when I...",
+          "why": "Aboard is a fun word to use when you talk about riding on buses, trains, and planes!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 107,
+    "sentences": [
+      {
+        "orig": "dear grandma we had a grate time at the lake",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "dear",
+            "r": "Dear",
+            "e": "The first word of a sentence or greeting must be capitalized."
+          },
+          {
+            "t": "punctuation",
+            "w": "grandma we",
+            "r": "Grandma, we",
+            "e": "Use a comma after the name in a greeting like Dear Grandma."
+          },
+          {
+            "t": "capitalization",
+            "w": "grandma",
+            "r": "Grandma",
+            "e": "Grandma is used as a name here, so it must be capitalized."
+          },
+          {
+            "t": "spelling",
+            "w": "grate",
+            "r": "great",
+            "e": "Great means wonderful. Grate means to shred food."
+          },
+          {
+            "t": "punctuation",
+            "w": "lake",
+            "r": "lake.",
+            "e": "A declarative sentence must end with a period."
+          }
+        ],
+        "fixed": "Dear Grandma, we had a great time at the lake.",
+        "pos": [
+          { "w": "Dear", "t": "ADJ", "q": "Find the adjective used in a letter greeting." },
+          { "w": "Grandma", "t": "N", "q": "Find the proper noun used as a name for a grandmother." },
+          { "w": "we", "t": "PRO", "q": "Find the pronoun meaning 'our group.'" },
+          { "w": "had", "t": "V", "q": "Find the past tense verb." },
+          { "w": "a", "t": "ART", "q": "Find the article before 'great.'" },
+          { "w": "great", "t": "ADJ", "q": "Find the adjective meaning 'wonderful.'" },
+          { "w": "time", "t": "N", "q": "Find the noun meaning a period of enjoyment." },
+          { "w": "at", "t": "PREP", "q": "Find the preposition showing location." },
+          { "w": "the", "t": "ART", "q": "Find the article before 'lake.'" },
+          { "w": "lake", "t": "N", "q": "Find the noun for a body of water." }
+        ],
+        "manip": {
+          "task": "Replace the noun 'lake' with a different place.",
+          "word": "lake",
+          "examples": [
+            "Dear Grandma, we had a great time at the <span class='changed'>beach</span>.",
+            "Dear Grandma, we had a great time at the <span class='changed'>park</span>."
+          ]
+        },
+        "vocab": {
+          "w": "foreign",
+          "type": "adjective",
+          "def": "From or in another country; not from your own country.",
+          "simple": "Foreign means something is from a different country!",
+          "examples": [
+            "a foreign country",
+            "foreign food",
+            "a foreign language"
+          ],
+          "similar": [
+            "overseas",
+            "international",
+            "faraway"
+          ],
+          "antonyms": [
+            "local",
+            "domestic",
+            "nearby"
+          ],
+          "nonex": [
+            "It does NOT mean strange or weird.",
+            "It does NOT mean bad."
+          ],
+          "example": "They tried foreign food from five different countries at the festival.",
+          "starter": "I would like to visit a foreign country like _______ because...",
+          "why": "Knowing the word foreign helps you talk about other countries and cultures!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 108,
+    "sentences": [
+      {
+        "orig": "dear uncle tom thanck you for the birthday presint",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "dear",
+            "r": "Dear",
+            "e": "The first word of a greeting must be capitalized."
+          },
+          {
+            "t": "punctuation",
+            "w": "tom thanck",
+            "r": "Tom, thank",
+            "e": "Use a comma after the name in a letter greeting."
+          },
+          {
+            "t": "spelling",
+            "w": "thanck",
+            "r": "thank",
+            "e": "Thank is spelled t-h-a-n-k, without a c."
+          },
+          {
+            "t": "spelling",
+            "w": "presint",
+            "r": "present",
+            "e": "Present is spelled p-r-e-s-e-n-t, not p-r-e-s-i-n-t."
+          },
+          {
+            "t": "punctuation",
+            "w": "present",
+            "r": "present.",
+            "e": "A declarative sentence must end with a period."
+          }
+        ],
+        "fixed": "Dear Uncle Tom, thank you for the birthday present.",
+        "pos": [
+          { "w": "Dear", "t": "ADJ", "q": "Find the adjective used in a letter greeting." },
+          { "w": "Uncle", "t": "N", "q": "Find the noun used as a title before a name." },
+          { "w": "Tom", "t": "N", "q": "Find the proper noun that is a person's name." },
+          { "w": "thank", "t": "V", "q": "Find the verb meaning 'to show thanks.'" },
+          { "w": "you", "t": "PRO", "q": "Find the pronoun meaning the person being spoken to." },
+          { "w": "for", "t": "PREP", "q": "Find the preposition that tells the reason." },
+          { "w": "the", "t": "ART", "q": "Find the article before 'birthday.'" },
+          { "w": "birthday", "t": "ADJ", "q": "Find the word describing what kind of present." },
+          { "w": "present", "t": "N", "q": "Find the noun meaning a gift." }
+        ],
+        "manip": {
+          "task": "Replace the noun 'present' with a different gift word.",
+          "word": "present",
+          "examples": [
+            "Dear Uncle Tom, thank you for the birthday <span class='changed'>card</span>.",
+            "Dear Uncle Tom, thank you for the birthday <span class='changed'>surprise</span>."
+          ]
+        },
+        "vocab": {
+          "w": "scenic",
+          "type": "adjective",
+          "def": "Having beautiful natural views or scenery.",
+          "simple": "Scenic means a place has really pretty things to look at, like mountains or lakes!",
+          "examples": [
+            "a scenic view",
+            "a scenic drive",
+            "a scenic trail"
+          ],
+          "similar": [
+            "beautiful",
+            "pretty",
+            "lovely"
+          ],
+          "antonyms": [
+            "ugly",
+            "plain",
+            "dull"
+          ],
+          "nonex": [
+            "It does NOT mean scary.",
+            "It does NOT mean very big."
+          ],
+          "example": "We took the scenic road so we could see the mountains and rivers.",
+          "starter": "The most scenic place I have seen is _______ because...",
+          "why": "Scenic is a great word for describing beautiful places you visit!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 109,
+    "sentences": [
+      {
+        "orig": "your frend sam wrote at the end of her leter",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "your",
+            "r": "Your",
+            "e": "The first word of a sentence must be capitalized."
+          },
+          {
+            "t": "spelling",
+            "w": "frend",
+            "r": "friend",
+            "e": "Friend is spelled f-r-i-e-n-d. Remember: i before e."
+          },
+          {
+            "t": "capitalization",
+            "w": "sam",
+            "r": "Sam",
+            "e": "A person's name is a proper noun and must be capitalized."
+          },
+          {
+            "t": "spelling",
+            "w": "leter",
+            "r": "letter",
+            "e": "Letter has two t's in the middle: l-e-t-t-e-r."
+          },
+          {
+            "t": "punctuation",
+            "w": "letter",
+            "r": "letter.",
+            "e": "A declarative sentence must end with a period."
+          }
+        ],
+        "fixed": "Your friend, Sam wrote at the end of her letter.",
+        "pos": [
+          { "w": "Your", "t": "POSS", "q": "Find the possessive pronoun meaning 'belonging to you.'" },
+          { "w": "friend", "t": "N", "q": "Find the noun meaning someone you like and trust." },
+          { "w": "Sam", "t": "N", "q": "Find the proper noun that is a person's name." },
+          { "w": "wrote", "t": "V", "q": "Find the past tense verb meaning 'put words on paper.'" },
+          { "w": "at", "t": "PREP", "q": "Find the preposition showing position." },
+          { "w": "the", "t": "ART", "q": "Find the article before 'end.'" },
+          { "w": "end", "t": "N", "q": "Find the noun meaning the last part." },
+          { "w": "of", "t": "PREP", "q": "Find the preposition showing connection." },
+          { "w": "her", "t": "POSS", "q": "Find the possessive pronoun meaning 'belonging to her.'" },
+          { "w": "letter", "t": "N", "q": "Find the noun for a written message." }
+        ],
+        "manip": {
+          "task": "Replace the proper noun 'Sam' with a different name.",
+          "word": "Sam",
+          "examples": [
+            "Your friend, <span class='changed'>Lily</span> wrote at the end of her letter.",
+            "Your friend, <span class='changed'>Maya</span> wrote at the end of her letter."
+          ]
+        },
+        "vocab": {
+          "w": "festive",
+          "type": "adjective",
+          "def": "Cheerful and exciting, like a party or celebration.",
+          "simple": "Festive means something feels happy and fun, like a holiday party!",
+          "examples": [
+            "a festive mood",
+            "festive lights",
+            "a festive dinner"
+          ],
+          "similar": [
+            "cheerful",
+            "merry",
+            "joyous"
+          ],
+          "antonyms": [
+            "gloomy",
+            "sad",
+            "plain"
+          ],
+          "nonex": [
+            "It does NOT mean expensive.",
+            "It does NOT mean noisy."
+          ],
+          "example": "The room looked festive with colorful streamers and balloons.",
+          "starter": "I feel festive when _______ because...",
+          "why": "Festive is a great word to describe the happy feeling of holidays and parties!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 110,
+    "sentences": [
+      {
+        "orig": "she cant find her shoos becuz they are under the bed",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "she",
+            "r": "She",
+            "e": "The first word of a sentence must be capitalized."
+          },
+          {
+            "t": "punctuation",
+            "w": "cant",
+            "r": "can't",
+            "e": "Can't is a contraction of 'cannot.' It needs an apostrophe between n and t."
+          },
+          {
+            "t": "spelling",
+            "w": "shoos",
+            "r": "shoes",
+            "e": "Shoes is spelled s-h-o-e-s, not s-h-o-o-s."
+          },
+          {
+            "t": "spelling",
+            "w": "becuz",
+            "r": "because",
+            "e": "Because is spelled b-e-c-a-u-s-e."
+          },
+          {
+            "t": "punctuation",
+            "w": "bed",
+            "r": "bed.",
+            "e": "A declarative sentence must end with a period."
+          }
+        ],
+        "fixed": "She can't find her shoes because they are under the bed.",
+        "pos": [
+          { "w": "She", "t": "PRO", "q": "Find the pronoun that takes the place of a girl's name." },
+          { "w": "can't", "t": "V", "q": "Find the contraction that means 'cannot.'" },
+          { "w": "find", "t": "V", "q": "Find the verb meaning 'to look for and see.'" },
+          { "w": "her", "t": "POSS", "q": "Find the possessive pronoun meaning 'belonging to her.'" },
+          { "w": "shoes", "t": "N", "q": "Find the plural noun for things you wear on your feet." },
+          { "w": "because", "t": "SUBCONJ", "q": "Find the conjunction that tells why." },
+          { "w": "they", "t": "PRO", "q": "Find the pronoun that takes the place of 'shoes.'" },
+          { "w": "are", "t": "V", "q": "Find the linking verb." },
+          { "w": "under", "t": "PREP", "q": "Find the preposition meaning 'below.'" },
+          { "w": "the", "t": "ART", "q": "Find the article before 'bed.'" },
+          { "w": "bed", "t": "N", "q": "Find the noun for furniture you sleep in." }
+        ],
+        "manip": {
+          "task": "Replace the preposition 'under' with a different preposition.",
+          "word": "under",
+          "examples": [
+            "She can't find her shoes because they are <span class='changed'>behind</span> the bed.",
+            "She can't find her shoes because they are <span class='changed'>beside</span> the bed."
+          ]
+        },
+        "vocab": {
+          "w": "parade",
+          "type": "noun",
+          "def": "A group of people walking or marching together to celebrate something.",
+          "simple": "A parade is when people march down the street together, often with music and floats!",
+          "examples": [
+            "a holiday parade",
+            "watch the parade",
+            "march in the parade"
+          ],
+          "similar": [
+            "march",
+            "procession",
+            "march"
+          ],
+          "antonyms": [
+            "standstill",
+            "halt",
+            "stop"
+          ],
+          "nonex": [
+            "It does NOT mean a race.",
+            "It does NOT mean just any crowd."
+          ],
+          "example": "The town held a big parade down Main Street on the Fourth of July.",
+          "starter": "I once saw a parade that had _______ and...",
+          "why": "Parades are special events that bring people together to celebrate!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 111,
+    "sentences": [
+      {
+        "orig": "he dont know ware the liberry is in this town",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "he",
+            "r": "He",
+            "e": "The first word of a sentence must be capitalized."
+          },
+          {
+            "t": "grammar",
+            "w": "dont",
+            "r": "doesn't",
+            "e": "Use doesn't (does not) with he, she, or it. Don't is used with I, you, we, or they."
+          },
+          {
+            "t": "spelling",
+            "w": "ware",
+            "r": "where",
+            "e": "Where asks about a place. It is spelled w-h-e-r-e."
+          },
+          {
+            "t": "spelling",
+            "w": "liberry",
+            "r": "library",
+            "e": "Library is spelled l-i-b-r-a-r-y, not l-i-b-e-r-r-y."
+          },
+          {
+            "t": "punctuation",
+            "w": "town",
+            "r": "town.",
+            "e": "A declarative sentence must end with a period."
+          }
+        ],
+        "fixed": "He doesn't know where the library is in this town.",
+        "pos": [
+          { "w": "He", "t": "PRO", "q": "Find the pronoun that takes the place of a boy's name." },
+          { "w": "doesn't", "t": "V", "q": "Find the contraction that means 'does not.'" },
+          { "w": "know", "t": "V", "q": "Find the verb meaning 'to have information about.'" },
+          { "w": "where", "t": "ADV", "q": "Find the adverb asking about a place." },
+          { "w": "the", "t": "ART", "q": "Find the article before 'library.'" },
+          { "w": "library", "t": "N", "q": "Find the noun for a place with lots of books." },
+          { "w": "is", "t": "V", "q": "Find the linking verb." },
+          { "w": "in", "t": "PREP", "q": "Find the preposition showing location." },
+          { "w": "this", "t": "DEM", "q": "Find the demonstrative word before 'town.'" },
+          { "w": "town", "t": "N", "q": "Find the noun for a small city." }
+        ],
+        "manip": {
+          "task": "Replace the noun 'library' with a different building.",
+          "word": "library",
+          "examples": [
+            "He doesn't know where the <span class='changed'>museum</span> is in this town.",
+            "He doesn't know where the <span class='changed'>hospital</span> is in this town."
+          ]
+        },
+        "vocab": {
+          "w": "reunion",
+          "type": "noun",
+          "def": "A gathering of people who have not seen each other for a long time.",
+          "simple": "A reunion is when family or friends get together again after being apart!",
+          "examples": [
+            "a family reunion",
+            "a class reunion",
+            "a happy reunion"
+          ],
+          "similar": [
+            "gathering",
+            "get-together",
+            "meetup"
+          ],
+          "antonyms": [
+            "separation",
+            "parting",
+            "goodbye"
+          ],
+          "nonex": [
+            "It does NOT mean meeting someone new.",
+            "It does NOT mean a regular daily visit."
+          ],
+          "example": "The whole family traveled to the park for a big reunion.",
+          "starter": "At our family reunion, we _______ ...",
+          "why": "Reunions remind us how important it is to see the people we love!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 112,
+    "sentences": [
+      {
+        "orig": "they wont be able to com becuse its too cold outside",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "they",
+            "r": "They",
+            "e": "The first word of a sentence must be capitalized."
+          },
+          {
+            "t": "punctuation",
+            "w": "wont",
+            "r": "won't",
+            "e": "Won't is a contraction of 'will not.' It needs an apostrophe between n and t."
+          },
+          {
+            "t": "spelling",
+            "w": "com",
+            "r": "come",
+            "e": "Come ends with a silent e: c-o-m-e."
+          },
+          {
+            "t": "spelling",
+            "w": "becuse",
+            "r": "because",
+            "e": "Because is spelled b-e-c-a-u-s-e."
+          },
+          {
+            "t": "punctuation",
+            "w": "outside",
+            "r": "outside.",
+            "e": "A declarative sentence must end with a period."
+          }
+        ],
+        "fixed": "They won't be able to come because it's too cold outside.",
+        "pos": [
+          { "w": "They", "t": "PRO", "q": "Find the pronoun meaning 'those people.'" },
+          { "w": "won't", "t": "V", "q": "Find the contraction that means 'will not.'" },
+          { "w": "be", "t": "V", "q": "Find the helping verb after 'won't.'" },
+          { "w": "able", "t": "ADJ", "q": "Find the adjective meaning 'can do something.'" },
+          { "w": "to", "t": "PREP", "q": "Find the preposition before the verb 'come.'" },
+          { "w": "come", "t": "V", "q": "Find the verb meaning 'to go to a place.'" },
+          { "w": "because", "t": "SUBCONJ", "q": "Find the conjunction that tells the reason." },
+          { "w": "it's", "t": "PRO", "q": "Find the contraction that means 'it is.'" },
+          { "w": "too", "t": "ADV", "q": "Find the adverb meaning 'more than enough.'" },
+          { "w": "cold", "t": "ADJ", "q": "Find the adjective describing the temperature." },
+          { "w": "outside", "t": "ADV", "q": "Find the adverb telling where it is cold." }
+        ],
+        "manip": {
+          "task": "Replace the adjective 'cold' with a different weather word.",
+          "word": "cold",
+          "examples": [
+            "They won't be able to come because it's too <span class='changed'>rainy</span> outside.",
+            "They won't be able to come because it's too <span class='changed'>windy</span> outside."
+          ]
+        },
+        "vocab": {
+          "w": "occasion",
+          "type": "noun",
+          "def": "A special event or a particular time when something happens.",
+          "simple": "An occasion is a special time, like a birthday or holiday!",
+          "examples": [
+            "a special occasion",
+            "a happy occasion",
+            "a rare occasion"
+          ],
+          "similar": [
+            "event",
+            "happening",
+            "moment"
+          ],
+          "antonyms": [
+            "routine",
+            "everyday",
+            "ordinary"
+          ],
+          "nonex": [
+            "It does NOT mean any random day.",
+            "It does NOT mean a problem."
+          ],
+          "example": "Grandma made a cake for the special occasion of our family dinner.",
+          "starter": "A special occasion I remember is _______ because...",
+          "why": "Occasion helps you talk about the important times in your life!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 113,
+    "sentences": [
+      {
+        "orig": "the cats toy was under the big couch in the livving room",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "the",
+            "r": "The",
+            "e": "The first word of a sentence must be capitalized."
+          },
+          {
+            "t": "punctuation",
+            "w": "cats",
+            "r": "cat's",
+            "e": "Cat's needs an apostrophe to show the toy belongs to the cat."
+          },
+          {
+            "t": "spelling",
+            "w": "livving",
+            "r": "living",
+            "e": "Living has one v, not two: l-i-v-i-n-g."
+          },
+          {
+            "t": "grammar",
+            "w": "big",
+            "r": "big",
+            "e": "Big is correct here as an adjective describing the couch."
+          },
+          {
+            "t": "punctuation",
+            "w": "room",
+            "r": "room.",
+            "e": "A declarative sentence must end with a period."
+          }
+        ],
+        "fixed": "The cat's toy was under the big couch in the living room.",
+        "pos": [
+          { "w": "The", "t": "ART", "q": "Find the article at the beginning of the sentence." },
+          { "w": "cat's", "t": "N", "q": "Find the possessive noun showing the toy belongs to the cat." },
+          { "w": "toy", "t": "N", "q": "Find the noun for something you play with." },
+          { "w": "was", "t": "V", "q": "Find the past tense linking verb." },
+          { "w": "under", "t": "PREP", "q": "Find the preposition meaning 'below.'" },
+          { "w": "the", "t": "ART", "q": "Find the article before 'big.'" },
+          { "w": "big", "t": "ADJ", "q": "Find the adjective describing the size of the couch." },
+          { "w": "couch", "t": "N", "q": "Find the noun for a piece of furniture you sit on." },
+          { "w": "in", "t": "PREP", "q": "Find the preposition showing location." },
+          { "w": "the", "t": "ART", "q": "Find the article before 'living.'" },
+          { "w": "living", "t": "ADJ", "q": "Find the word describing the type of room." },
+          { "w": "room", "t": "N", "q": "Find the noun for a space in a house." }
+        ],
+        "manip": {
+          "task": "Replace the noun 'couch' with a different piece of furniture.",
+          "word": "couch",
+          "examples": [
+            "The cat's toy was under the big <span class='changed'>table</span> in the living room.",
+            "The cat's toy was under the big <span class='changed'>chair</span> in the living room."
+          ]
+        },
+        "vocab": {
+          "w": "decorate",
+          "type": "verb",
+          "def": "To make something look more attractive by adding pretty things to it.",
+          "simple": "Decorate means to make something look nice by adding special things!",
+          "examples": [
+            "decorate a room",
+            "decorate a cake",
+            "decorate for a party"
+          ],
+          "similar": [
+            "adorn",
+            "trim",
+            "beautify"
+          ],
+          "antonyms": [
+            "strip",
+            "bare",
+            "ruin"
+          ],
+          "nonex": [
+            "It does NOT mean to clean up.",
+            "It does NOT mean to take things away."
+          ],
+          "example": "We helped decorate the classroom with paper snowflakes and stars.",
+          "starter": "I like to decorate my _______ with...",
+          "why": "Decorating lets you be creative and make places look special!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 114,
+    "sentences": [
+      {
+        "orig": "the dogs bone was berried in the sandy yard",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "the",
+            "r": "The",
+            "e": "The first word of a sentence must be capitalized."
+          },
+          {
+            "t": "punctuation",
+            "w": "dogs",
+            "r": "dog's",
+            "e": "Dog's needs an apostrophe to show the bone belongs to the dog."
+          },
+          {
+            "t": "spelling",
+            "w": "berried",
+            "r": "buried",
+            "e": "Buried is spelled b-u-r-i-e-d. Berried means covered in berries."
+          },
+          {
+            "t": "spelling",
+            "w": "sandy",
+            "r": "sandy",
+            "e": "Sandy is spelled correctly here."
+          },
+          {
+            "t": "punctuation",
+            "w": "yard",
+            "r": "yard.",
+            "e": "A declarative sentence must end with a period."
+          }
+        ],
+        "fixed": "The dog's bone was buried in the sandy yard.",
+        "pos": [
+          { "w": "The", "t": "ART", "q": "Find the article at the beginning of the sentence." },
+          { "w": "dog's", "t": "N", "q": "Find the possessive noun showing the bone belongs to the dog." },
+          { "w": "bone", "t": "N", "q": "Find the noun for what a dog likes to chew." },
+          { "w": "was", "t": "V", "q": "Find the past tense helping verb." },
+          { "w": "buried", "t": "V", "q": "Find the past tense verb meaning 'put underground.'" },
+          { "w": "in", "t": "PREP", "q": "Find the preposition showing location." },
+          { "w": "the", "t": "ART", "q": "Find the article before 'sandy.'" },
+          { "w": "sandy", "t": "ADJ", "q": "Find the adjective meaning 'full of sand.'" },
+          { "w": "yard", "t": "N", "q": "Find the noun for the outdoor area around a house." }
+        ],
+        "manip": {
+          "task": "Replace the adjective 'sandy' with a different adjective.",
+          "word": "sandy",
+          "examples": [
+            "The dog's bone was buried in the <span class='changed'>muddy</span> yard.",
+            "The dog's bone was buried in the <span class='changed'>grassy</span> yard."
+          ]
+        },
+        "vocab": {
+          "w": "ornament",
+          "type": "noun",
+          "def": "A small, pretty object used to make something look nicer.",
+          "simple": "An ornament is a pretty thing you use to decorate, like on a tree!",
+          "examples": [
+            "a glass ornament",
+            "a tree ornament",
+            "a shiny ornament"
+          ],
+          "similar": [
+            "decoration",
+            "trinket",
+            "charm"
+          ],
+          "antonyms": [
+            "eyesore",
+            "mess",
+            "clutter"
+          ],
+          "nonex": [
+            "It does NOT mean a big piece of furniture.",
+            "It does NOT mean a tool."
+          ],
+          "example": "She hung a sparkly ornament on the holiday tree.",
+          "starter": "My favorite ornament is _______ because...",
+          "why": "Ornaments make things look special and festive!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 115,
+    "sentences": [
+      {
+        "orig": "the babys blankit was soft and warm on the chare",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "the",
+            "r": "The",
+            "e": "The first word of a sentence must be capitalized."
+          },
+          {
+            "t": "punctuation",
+            "w": "babys",
+            "r": "baby's",
+            "e": "Baby's needs an apostrophe to show the blanket belongs to the baby."
+          },
+          {
+            "t": "spelling",
+            "w": "blankit",
+            "r": "blanket",
+            "e": "Blanket is spelled b-l-a-n-k-e-t, not b-l-a-n-k-i-t."
+          },
+          {
+            "t": "spelling",
+            "w": "chare",
+            "r": "chair",
+            "e": "Chair is spelled c-h-a-i-r, not c-h-a-r-e."
+          },
+          {
+            "t": "punctuation",
+            "w": "chair",
+            "r": "chair.",
+            "e": "A declarative sentence must end with a period."
+          }
+        ],
+        "fixed": "The baby's blanket was soft and warm on the chair.",
+        "pos": [
+          { "w": "The", "t": "ART", "q": "Find the article at the beginning of the sentence." },
+          { "w": "baby's", "t": "N", "q": "Find the possessive noun showing the blanket belongs to the baby." },
+          { "w": "blanket", "t": "N", "q": "Find the noun for a soft cover you use to stay warm." },
+          { "w": "was", "t": "V", "q": "Find the past tense linking verb." },
+          { "w": "soft", "t": "ADJ", "q": "Find the adjective meaning 'smooth and gentle to touch.'" },
+          { "w": "and", "t": "CONJ", "q": "Find the conjunction joining two adjectives." },
+          { "w": "warm", "t": "ADJ", "q": "Find the adjective meaning 'a little hot.'" },
+          { "w": "on", "t": "PREP", "q": "Find the preposition showing location." },
+          { "w": "the", "t": "ART", "q": "Find the article before 'chair.'" },
+          { "w": "chair", "t": "N", "q": "Find the noun for a piece of furniture you sit on." }
+        ],
+        "manip": {
+          "task": "Replace the adjective 'warm' with a different adjective.",
+          "word": "warm",
+          "examples": [
+            "The baby's blanket was soft and <span class='changed'>cozy</span> on the chair.",
+            "The baby's blanket was soft and <span class='changed'>fluffy</span> on the chair."
+          ]
+        },
+        "vocab": {
+          "w": "globe",
+          "type": "noun",
+          "def": "A round model of the Earth that shows all the countries and oceans.",
+          "simple": "A globe is a round ball that shows a map of the whole world!",
+          "examples": [
+            "spin the globe",
+            "a classroom globe",
+            "look at the globe"
+          ],
+          "similar": [
+            "world",
+            "sphere",
+            "Earth"
+          ],
+          "antonyms": [
+            "flat map",
+            "chart",
+            "plan"
+          ],
+          "nonex": [
+            "It does NOT mean just any ball.",
+            "It does NOT mean a flat map."
+          ],
+          "example": "The teacher spun the globe and pointed to the country we were studying.",
+          "starter": "When I look at a globe, I want to visit _______ because...",
+          "why": "A globe helps you see all the countries and oceans in the world!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 116,
+    "sentences": [
+      {
+        "orig": "its going to rain so grab you're umbrela today",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "its",
+            "r": "It's",
+            "e": "The first word of a sentence must be capitalized. Also, it's means 'it is' and needs an apostrophe."
+          },
+          {
+            "t": "punctuation",
+            "w": "its",
+            "r": "It's",
+            "e": "It's with an apostrophe means 'it is.' Its without an apostrophe shows ownership."
+          },
+          {
+            "t": "grammar",
+            "w": "you're",
+            "r": "your",
+            "e": "Your shows ownership (your umbrella). You're means 'you are.'"
+          },
+          {
+            "t": "spelling",
+            "w": "umbrela",
+            "r": "umbrella",
+            "e": "Umbrella has two l's: u-m-b-r-e-l-l-a."
+          },
+          {
+            "t": "punctuation",
+            "w": "today",
+            "r": "today.",
+            "e": "A declarative sentence must end with a period."
+          }
+        ],
+        "fixed": "It's going to rain so grab your umbrella today.",
+        "pos": [
+          { "w": "It's", "t": "PRO", "q": "Find the contraction that means 'it is.'" },
+          { "w": "going", "t": "V", "q": "Find the verb in the phrase 'going to rain.'" },
+          { "w": "to", "t": "PREP", "q": "Find the preposition before 'rain.'" },
+          { "w": "rain", "t": "V", "q": "Find the verb meaning 'water falling from the sky.'" },
+          { "w": "so", "t": "CONJ", "q": "Find the conjunction that tells the result." },
+          { "w": "grab", "t": "V", "q": "Find the verb meaning 'to take quickly.'" },
+          { "w": "your", "t": "POSS", "q": "Find the possessive pronoun meaning 'belonging to you.'" },
+          { "w": "umbrella", "t": "N", "q": "Find the noun for something that keeps you dry in rain." },
+          { "w": "today", "t": "ADV", "q": "Find the adverb telling when." }
+        ],
+        "manip": {
+          "task": "Replace the noun 'umbrella' with a different item.",
+          "word": "umbrella",
+          "examples": [
+            "It's going to rain so grab your <span class='changed'>raincoat</span> today.",
+            "It's going to rain so grab your <span class='changed'>boots</span> today."
+          ]
+        },
+        "vocab": {
+          "w": "compass",
+          "type": "noun",
+          "def": "A tool with a needle that always points north, used to find direction.",
+          "simple": "A compass is a tool that shows you which way is north, south, east, and west!",
+          "examples": [
+            "read a compass",
+            "use a compass",
+            "a compass needle"
+          ],
+          "similar": [
+            "guide",
+            "direction finder",
+            "navigator"
+          ],
+          "antonyms": [
+            "confusion",
+            "mystery",
+            "guesswork"
+          ],
+          "nonex": [
+            "It does NOT mean a map.",
+            "It does NOT draw circles (that is a different kind of compass)."
+          ],
+          "example": "The hikers used a compass to find their way through the forest.",
+          "starter": "If I had a compass, I would _______ ...",
+          "why": "A compass helps you find your way when you are exploring!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 117,
+    "sentences": [
+      {
+        "orig": "their going to the park but there dog staied home",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "their",
+            "r": "They're",
+            "e": "The first word of a sentence must be capitalized."
+          },
+          {
+            "t": "grammar",
+            "w": "their",
+            "r": "They're",
+            "e": "They're means 'they are.' Their shows ownership."
+          },
+          {
+            "t": "grammar",
+            "w": "there",
+            "r": "their",
+            "e": "Their shows ownership (their dog). There means a place."
+          },
+          {
+            "t": "spelling",
+            "w": "staied",
+            "r": "stayed",
+            "e": "Stay keeps the y when adding -ed: stayed, not staied."
+          },
+          {
+            "t": "punctuation",
+            "w": "home",
+            "r": "home.",
+            "e": "A declarative sentence must end with a period."
+          }
+        ],
+        "fixed": "They're going to the park but their dog stayed home.",
+        "pos": [
+          { "w": "They're", "t": "PRO", "q": "Find the contraction that means 'they are.'" },
+          { "w": "going", "t": "V", "q": "Find the verb meaning 'traveling to.'" },
+          { "w": "to", "t": "PREP", "q": "Find the preposition showing direction." },
+          { "w": "the", "t": "ART", "q": "Find the article before 'park.'" },
+          { "w": "park", "t": "N", "q": "Find the noun for an outdoor place to play." },
+          { "w": "but", "t": "CONJ", "q": "Find the conjunction that shows contrast." },
+          { "w": "their", "t": "POSS", "q": "Find the possessive pronoun meaning 'belonging to them.'" },
+          { "w": "dog", "t": "N", "q": "Find the noun for a pet that barks." },
+          { "w": "stayed", "t": "V", "q": "Find the past tense verb meaning 'remained.'" },
+          { "w": "home", "t": "N", "q": "Find the noun for the place where you live." }
+        ],
+        "manip": {
+          "task": "Replace the noun 'park' with a different place.",
+          "word": "park",
+          "examples": [
+            "They're going to the <span class='changed'>beach</span> but their dog stayed home.",
+            "They're going to the <span class='changed'>store</span> but their dog stayed home."
+          ]
+        },
+        "vocab": {
+          "w": "route",
+          "type": "noun",
+          "def": "The road or path you take to get from one place to another.",
+          "simple": "A route is the way you go to get somewhere!",
+          "examples": [
+            "the bus route",
+            "take the fastest route",
+            "follow the route"
+          ],
+          "similar": [
+            "path",
+            "road",
+            "way"
+          ],
+          "antonyms": [
+            "dead end",
+            "blockage",
+            "detour"
+          ],
+          "nonex": [
+            "It does NOT mean the destination.",
+            "It does NOT mean getting lost."
+          ],
+          "example": "We took a new route to school and saw some pretty gardens.",
+          "starter": "The route I take to _______ goes past...",
+          "why": "Route helps you describe how you get from one place to another!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 118,
+    "sentences": [
+      {
+        "orig": "your the best frend and its not hard to sea why",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "your",
+            "r": "You're",
+            "e": "The first word of a sentence must be capitalized."
+          },
+          {
+            "t": "grammar",
+            "w": "your",
+            "r": "You're",
+            "e": "You're means 'you are.' Your shows ownership."
+          },
+          {
+            "t": "spelling",
+            "w": "frend",
+            "r": "friend",
+            "e": "Friend is spelled f-r-i-e-n-d. Remember: i before e."
+          },
+          {
+            "t": "spelling",
+            "w": "sea",
+            "r": "see",
+            "e": "See means to look at. Sea is a large body of water."
+          },
+          {
+            "t": "punctuation",
+            "w": "why",
+            "r": "why.",
+            "e": "A declarative sentence must end with a period."
+          }
+        ],
+        "fixed": "You're the best friend and it's not hard to see why.",
+        "pos": [
+          { "w": "You're", "t": "PRO", "q": "Find the contraction that means 'you are.'" },
+          { "w": "the", "t": "ART", "q": "Find the article before 'best.'" },
+          { "w": "best", "t": "ADJ", "q": "Find the superlative adjective meaning 'number one.'" },
+          { "w": "friend", "t": "N", "q": "Find the noun for someone you like and trust." },
+          { "w": "and", "t": "CONJ", "q": "Find the conjunction joining two ideas." },
+          { "w": "it's", "t": "PRO", "q": "Find the contraction that means 'it is.'" },
+          { "w": "not", "t": "ADV", "q": "Find the adverb that makes the sentence negative." },
+          { "w": "hard", "t": "ADJ", "q": "Find the adjective meaning 'difficult.'" },
+          { "w": "to", "t": "PREP", "q": "Find the preposition before 'see.'" },
+          { "w": "see", "t": "V", "q": "Find the verb meaning 'to understand.'" },
+          { "w": "why", "t": "ADV", "q": "Find the adverb asking about a reason." }
+        ],
+        "manip": {
+          "task": "Replace the adjective 'best' with a different adjective.",
+          "word": "best",
+          "examples": [
+            "You're the <span class='changed'>greatest</span> friend and it's not hard to see why.",
+            "You're the <span class='changed'>nicest</span> friend and it's not hard to see why."
+          ]
+        },
+        "vocab": {
+          "w": "distant",
+          "type": "adjective",
+          "def": "Far away in space or time.",
+          "simple": "Distant means something is very far away!",
+          "examples": [
+            "a distant land",
+            "a distant star",
+            "distant mountains"
+          ],
+          "similar": [
+            "far",
+            "remote",
+            "faraway"
+          ],
+          "antonyms": [
+            "near",
+            "close",
+            "nearby"
+          ],
+          "nonex": [
+            "It does NOT mean invisible.",
+            "It does NOT mean tiny."
+          ],
+          "example": "We could see the distant mountains from the top of the hill.",
+          "starter": "The most distant place I have been is _______ ...",
+          "why": "Distant is a vivid word for describing things that are far away from you!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 119,
+    "sentences": [
+      {
+        "orig": "we eat turkee on thanksgiving near the atlantic ocean",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "we",
+            "r": "We",
+            "e": "The first word of a sentence must be capitalized."
+          },
+          {
+            "t": "spelling",
+            "w": "turkee",
+            "r": "turkey",
+            "e": "Turkey is spelled t-u-r-k-e-y, not t-u-r-k-e-e."
+          },
+          {
+            "t": "capitalization",
+            "w": "thanksgiving",
+            "r": "Thanksgiving",
+            "e": "Thanksgiving is a holiday name and must be capitalized."
+          },
+          {
+            "t": "capitalization",
+            "w": "atlantic ocean",
+            "r": "Atlantic Ocean",
+            "e": "Atlantic Ocean is a proper noun and both words must be capitalized."
+          },
+          {
+            "t": "punctuation",
+            "w": "ocean",
+            "r": "Ocean.",
+            "e": "A declarative sentence must end with a period."
+          }
+        ],
+        "fixed": "We eat turkey on Thanksgiving near the Atlantic Ocean.",
+        "pos": [
+          { "w": "We", "t": "PRO", "q": "Find the pronoun meaning 'our group.'" },
+          { "w": "eat", "t": "V", "q": "Find the present tense verb meaning 'to chew and swallow food.'" },
+          { "w": "turkey", "t": "N", "q": "Find the noun for a large bird eaten at holidays." },
+          { "w": "on", "t": "PREP", "q": "Find the preposition that tells when." },
+          { "w": "Thanksgiving", "t": "N", "q": "Find the proper noun for a November holiday." },
+          { "w": "near", "t": "PREP", "q": "Find the preposition meaning 'close to.'" },
+          { "w": "the", "t": "ART", "q": "Find the article before 'Atlantic.'" },
+          { "w": "Atlantic", "t": "ADJ", "q": "Find the word that is part of the ocean's name." },
+          { "w": "Ocean", "t": "N", "q": "Find the noun for a large body of salt water." }
+        ],
+        "manip": {
+          "task": "Replace the holiday name 'Thanksgiving' with a different holiday.",
+          "word": "Thanksgiving",
+          "examples": [
+            "We eat turkey on <span class='changed'>Christmas</span> near the Atlantic Ocean.",
+            "We eat turkey on <span class='changed'>Easter</span> near the Atlantic Ocean."
+          ]
+        },
+        "vocab": {
+          "w": "familiar",
+          "type": "adjective",
+          "def": "Well known because you have seen or experienced it before.",
+          "simple": "Familiar means you know something because you have seen it or done it before!",
+          "examples": [
+            "a familiar face",
+            "a familiar place",
+            "a familiar song"
+          ],
+          "similar": [
+            "known",
+            "recognized",
+            "common"
+          ],
+          "antonyms": [
+            "strange",
+            "unknown",
+            "new"
+          ],
+          "nonex": [
+            "It does NOT mean boring.",
+            "It does NOT mean related to family."
+          ],
+          "example": "The park felt familiar because we had visited it many times before.",
+          "starter": "A place that feels familiar to me is _______ because...",
+          "why": "Familiar helps you describe things you already know well!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 120,
+    "sentences": [
+      {
+        "orig": "the rocky mountins are butiful during the forth of july",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "the",
+            "r": "The",
+            "e": "The first word of a sentence must be capitalized."
+          },
+          {
+            "t": "capitalization",
+            "w": "rocky mountins",
+            "r": "Rocky Mountains",
+            "e": "Rocky Mountains is a proper noun and must be capitalized."
+          },
+          {
+            "t": "spelling",
+            "w": "butiful",
+            "r": "beautiful",
+            "e": "Beautiful is spelled b-e-a-u-t-i-f-u-l."
+          },
+          {
+            "t": "capitalization",
+            "w": "forth of july",
+            "r": "Fourth of July",
+            "e": "Fourth of July is a holiday name and must be capitalized."
+          },
+          {
+            "t": "punctuation",
+            "w": "july",
+            "r": "July.",
+            "e": "A declarative sentence must end with a period."
+          }
+        ],
+        "fixed": "The Rocky Mountains are beautiful during the Fourth of July.",
+        "pos": [
+          { "w": "The", "t": "ART", "q": "Find the article at the beginning of the sentence." },
+          { "w": "Rocky", "t": "ADJ", "q": "Find the first word in the mountain range name." },
+          { "w": "Mountains", "t": "N", "q": "Find the noun for very tall landforms." },
+          { "w": "are", "t": "V", "q": "Find the present tense linking verb." },
+          { "w": "beautiful", "t": "ADJ", "q": "Find the adjective meaning 'very pretty.'" },
+          { "w": "during", "t": "PREP", "q": "Find the preposition that tells when." },
+          { "w": "the", "t": "ART", "q": "Find the article before 'Fourth.'" },
+          { "w": "Fourth", "t": "N", "q": "Find the first word of the holiday name." },
+          { "w": "of", "t": "PREP", "q": "Find the preposition in the holiday name." },
+          { "w": "July", "t": "N", "q": "Find the proper noun for a summer month." }
+        ],
+        "manip": {
+          "task": "Replace the geographic name 'Rocky Mountains' with a different place.",
+          "word": "Rocky Mountains",
+          "examples": [
+            "The <span class='changed'>Grand Canyon</span> is beautiful during the Fourth of July.",
+            "The <span class='changed'>Great Lakes</span> are beautiful during the Fourth of July."
+          ]
+        },
+        "vocab": {
+          "w": "exotic",
+          "type": "adjective",
+          "def": "Unusual and exciting because it comes from a faraway place.",
+          "simple": "Exotic means something is really cool and different because it comes from far away!",
+          "examples": [
+            "an exotic animal",
+            "exotic fruit",
+            "an exotic place"
+          ],
+          "similar": [
+            "unusual",
+            "tropical",
+            "rare"
+          ],
+          "antonyms": [
+            "common",
+            "ordinary",
+            "plain"
+          ],
+          "nonex": [
+            "It does NOT mean scary.",
+            "It does NOT mean expensive."
+          ],
+          "example": "The zoo had exotic birds with bright feathers from the rainforest.",
+          "starter": "The most exotic thing I have ever seen is _______ ...",
+          "why": "Exotic is a fun word for describing amazing things from faraway places!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 121,
+    "sentences": [
+      {
+        "orig": "on christmas we vizited the pacific ocean in california",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "on",
+            "r": "On",
+            "e": "The first word of a sentence must be capitalized."
+          },
+          {
+            "t": "capitalization",
+            "w": "christmas",
+            "r": "Christmas",
+            "e": "Christmas is a holiday name and must be capitalized."
+          },
+          {
+            "t": "spelling",
+            "w": "vizited",
+            "r": "visited",
+            "e": "Visited is spelled with an s, not a z: v-i-s-i-t-e-d."
+          },
+          {
+            "t": "capitalization",
+            "w": "pacific ocean",
+            "r": "Pacific Ocean",
+            "e": "Pacific Ocean is a proper noun and both words must be capitalized."
+          },
+          {
+            "t": "punctuation",
+            "w": "california",
+            "r": "California.",
+            "e": "A declarative sentence must end with a period. Also, California must be capitalized."
+          }
+        ],
+        "fixed": "On Christmas we visited the Pacific Ocean in California.",
+        "pos": [
+          { "w": "On", "t": "PREP", "q": "Find the preposition that tells when." },
+          { "w": "Christmas", "t": "N", "q": "Find the proper noun for a December holiday." },
+          { "w": "we", "t": "PRO", "q": "Find the pronoun meaning 'our group.'" },
+          { "w": "visited", "t": "V", "q": "Find the past tense verb meaning 'went to see.'" },
+          { "w": "the", "t": "ART", "q": "Find the article before 'Pacific.'" },
+          { "w": "Pacific", "t": "ADJ", "q": "Find the word that is part of the ocean's name." },
+          { "w": "Ocean", "t": "N", "q": "Find the noun for a large body of salt water." },
+          { "w": "in", "t": "PREP", "q": "Find the preposition showing location." },
+          { "w": "California", "t": "N", "q": "Find the proper noun for a state." }
+        ],
+        "manip": {
+          "task": "Replace the holiday name 'Christmas' with a different holiday.",
+          "word": "Christmas",
+          "examples": [
+            "On <span class='changed'>Thanksgiving</span> we visited the Pacific Ocean in California.",
+            "On <span class='changed'>Easter</span> we visited the Pacific Ocean in California."
+          ]
+        },
+        "vocab": {
+          "w": "memorable",
+          "type": "adjective",
+          "def": "Worth remembering because it is special or unusual.",
+          "simple": "Memorable means something is so special that you will always remember it!",
+          "examples": [
+            "a memorable trip",
+            "a memorable day",
+            "a memorable event"
+          ],
+          "similar": [
+            "unforgettable",
+            "special",
+            "notable"
+          ],
+          "antonyms": [
+            "forgettable",
+            "boring",
+            "dull"
+          ],
+          "nonex": [
+            "It does NOT mean something you wrote down.",
+            "It does NOT mean something sad."
+          ],
+          "example": "The trip to the beach was the most memorable day of the summer.",
+          "starter": "The most memorable thing that happened to me was _______ because...",
+          "why": "Memorable helps you describe the special moments you never want to forget!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 122,
+    "sentences": [
+      {
+        "orig": "dr. jones gave us crayola crayons at the scool clinic",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "dr.",
+            "r": "Dr.",
+            "e": "Dr. is an abbreviation for Doctor and must be capitalized."
+          },
+          {
+            "t": "capitalization",
+            "w": "jones",
+            "r": "Jones",
+            "e": "A person's last name is a proper noun and must be capitalized."
+          },
+          {
+            "t": "capitalization",
+            "w": "crayola",
+            "r": "Crayola",
+            "e": "Crayola is a brand name and must be capitalized."
+          },
+          {
+            "t": "spelling",
+            "w": "scool",
+            "r": "school",
+            "e": "School has an h after the c: s-c-h-o-o-l."
+          },
+          {
+            "t": "punctuation",
+            "w": "clinic",
+            "r": "clinic.",
+            "e": "A declarative sentence must end with a period."
+          }
+        ],
+        "fixed": "Dr. Jones gave us Crayola crayons at the school clinic.",
+        "pos": [
+          { "w": "Dr.", "t": "N", "q": "Find the abbreviation for Doctor." },
+          { "w": "Jones", "t": "N", "q": "Find the proper noun that is a last name." },
+          { "w": "gave", "t": "V", "q": "Find the past tense verb meaning 'handed to someone.'" },
+          { "w": "us", "t": "OBJPRO", "q": "Find the object pronoun meaning 'to our group.'" },
+          { "w": "Crayola", "t": "N", "q": "Find the proper noun that is a brand name." },
+          { "w": "crayons", "t": "N", "q": "Find the noun for colored wax sticks used for drawing." },
+          { "w": "at", "t": "PREP", "q": "Find the preposition showing location." },
+          { "w": "the", "t": "ART", "q": "Find the article before 'school.'" },
+          { "w": "school", "t": "ADJ", "q": "Find the word describing the type of clinic." },
+          { "w": "clinic", "t": "N", "q": "Find the noun for a place where you see a doctor." }
+        ],
+        "manip": {
+          "task": "Replace the brand name 'Crayola' with a different brand.",
+          "word": "Crayola",
+          "examples": [
+            "Dr. Jones gave us <span class='changed'>Faber-Castell</span> crayons at the school clinic.",
+            "Dr. Jones gave us <span class='changed'>RoseArt</span> crayons at the school clinic."
+          ]
+        },
+        "vocab": {
+          "w": "native",
+          "type": "adjective",
+          "def": "Belonging to the place where you were born or where something originally comes from.",
+          "simple": "Native means something belongs to the place where it started or was born!",
+          "examples": [
+            "a native plant",
+            "a native animal",
+            "native to this country"
+          ],
+          "similar": [
+            "local",
+            "original",
+            "homegrown"
+          ],
+          "antonyms": [
+            "foreign",
+            "imported",
+            "alien"
+          ],
+          "nonex": [
+            "It does NOT mean wild or dangerous.",
+            "It does NOT mean old."
+          ],
+          "example": "The cactus is native to the desert and grows well in hot weather.",
+          "starter": "An animal that is native to my area is _______ ...",
+          "why": "Native helps you talk about where plants, animals, and people come from!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 123,
+    "sentences": [
+      {
+        "orig": "mrs. lee red a lego book to the class after luntch",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "mrs.",
+            "r": "Mrs.",
+            "e": "Mrs. is a title and must be capitalized."
+          },
+          {
+            "t": "spelling",
+            "w": "red",
+            "r": "read",
+            "e": "Read is the past tense of read. Red is a color."
+          },
+          {
+            "t": "capitalization",
+            "w": "lego",
+            "r": "LEGO",
+            "e": "LEGO is a brand name and should be written in capital letters."
+          },
+          {
+            "t": "spelling",
+            "w": "luntch",
+            "r": "lunch",
+            "e": "Lunch is spelled l-u-n-c-h, without a t."
+          },
+          {
+            "t": "punctuation",
+            "w": "lunch",
+            "r": "lunch.",
+            "e": "A declarative sentence must end with a period."
+          }
+        ],
+        "fixed": "Mrs. Lee read a LEGO book to the class after lunch.",
+        "pos": [
+          { "w": "Mrs.", "t": "N", "q": "Find the abbreviation title for a married woman." },
+          { "w": "Lee", "t": "N", "q": "Find the proper noun that is a last name." },
+          { "w": "read", "t": "V", "q": "Find the past tense verb meaning 'said words from a book out loud.'" },
+          { "w": "a", "t": "ART", "q": "Find the article before 'LEGO.'" },
+          { "w": "LEGO", "t": "N", "q": "Find the proper noun that is a toy brand name." },
+          { "w": "book", "t": "N", "q": "Find the noun for something with pages you read." },
+          { "w": "to", "t": "PREP", "q": "Find the preposition showing direction." },
+          { "w": "the", "t": "ART", "q": "Find the article before 'class.'" },
+          { "w": "class", "t": "N", "q": "Find the noun for a group of students." },
+          { "w": "after", "t": "PREP", "q": "Find the preposition telling when." },
+          { "w": "lunch", "t": "N", "q": "Find the noun for the midday meal." }
+        ],
+        "manip": {
+          "task": "Replace the brand name 'LEGO' with a different topic.",
+          "word": "LEGO",
+          "examples": [
+            "Mrs. Lee read a <span class='changed'>dinosaur</span> book to the class after lunch.",
+            "Mrs. Lee read a <span class='changed'>space</span> book to the class after lunch."
+          ]
+        },
+        "vocab": {
+          "w": "wander",
+          "type": "verb",
+          "def": "To walk around without a clear plan or direction.",
+          "simple": "Wander means to walk around slowly without knowing exactly where you are going!",
+          "examples": [
+            "wander through the park",
+            "wander around the store",
+            "wander down the path"
+          ],
+          "similar": [
+            "roam",
+            "stroll",
+            "drift"
+          ],
+          "antonyms": [
+            "rush",
+            "hurry",
+            "march"
+          ],
+          "nonex": [
+            "It does NOT mean to be lost.",
+            "It does NOT mean to run."
+          ],
+          "example": "We liked to wander through the market and look at all the colorful stalls.",
+          "starter": "I like to wander around _______ because...",
+          "why": "Wandering is a fun way to explore and discover new things!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 124,
+    "sentences": [
+      {
+        "orig": "the boys hat blew off on january 2 2026 in portland oregon",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "the",
+            "r": "The",
+            "e": "The first word of a sentence must be capitalized."
+          },
+          {
+            "t": "punctuation",
+            "w": "boys",
+            "r": "boy's",
+            "e": "Boy's needs an apostrophe to show the hat belongs to the boy."
+          },
+          {
+            "t": "punctuation",
+            "w": "2 2026",
+            "r": "2, 2026,",
+            "e": "Use a comma between the day and the year in a date, and after the year when the sentence continues."
+          },
+          {
+            "t": "punctuation",
+            "w": "portland oregon",
+            "r": "Portland, Oregon.",
+            "e": "Use a comma between a city and a state name."
+          },
+          {
+            "t": "capitalization",
+            "w": "portland oregon",
+            "r": "Portland, Oregon",
+            "e": "City and state names are proper nouns and must be capitalized."
+          }
+        ],
+        "fixed": "The boy's hat blew off on January 2, 2026, in Portland, Oregon.",
+        "pos": [
+          { "w": "The", "t": "ART", "q": "Find the article at the beginning of the sentence." },
+          { "w": "boy's", "t": "N", "q": "Find the possessive noun showing the hat belongs to the boy." },
+          { "w": "hat", "t": "N", "q": "Find the noun for something worn on the head." },
+          { "w": "blew", "t": "V", "q": "Find the past tense verb meaning 'moved by wind.'" },
+          { "w": "off", "t": "ADV", "q": "Find the adverb meaning 'away from.'" },
+          { "w": "on", "t": "PREP", "q": "Find the preposition that tells when." },
+          { "w": "January", "t": "N", "q": "Find the proper noun for the first month." },
+          { "w": "2", "t": "N", "q": "Find the number that tells the day." },
+          { "w": "2026", "t": "N", "q": "Find the number that tells the year." },
+          { "w": "in", "t": "PREP", "q": "Find the preposition showing location." },
+          { "w": "Portland", "t": "N", "q": "Find the proper noun for a city." },
+          { "w": "Oregon", "t": "N", "q": "Find the proper noun for a state." }
+        ],
+        "manip": {
+          "task": "Replace the noun 'hat' with a different item.",
+          "word": "hat",
+          "examples": [
+            "The boy's <span class='changed'>scarf</span> blew off on January 2, 2026, in Portland, Oregon.",
+            "The boy's <span class='changed'>kite</span> blew off on January 2, 2026, in Portland, Oregon."
+          ]
+        },
+        "vocab": {
+          "w": "harbor",
+          "type": "noun",
+          "def": "A sheltered area of water where ships can anchor safely.",
+          "simple": "A harbor is a safe place near the shore where boats park!",
+          "examples": [
+            "a busy harbor",
+            "sail into the harbor",
+            "a fishing harbor"
+          ],
+          "similar": [
+            "port",
+            "dock",
+            "marina"
+          ],
+          "antonyms": [
+            "open sea",
+            "deep ocean",
+            "shore"
+          ],
+          "nonex": [
+            "It does NOT mean the middle of the ocean.",
+            "It does NOT mean a river."
+          ],
+          "example": "The fishing boats returned to the harbor before the storm hit.",
+          "starter": "At the harbor I saw _______ ...",
+          "why": "Harbors are exciting places where you can see boats and ships coming and going!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 125,
+    "sentences": [
+      {
+        "orig": "on halloween we carve pumkins and dr. smith dont hand out candy",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "on",
+            "r": "On",
+            "e": "The first word of a sentence must be capitalized."
+          },
+          {
+            "t": "capitalization",
+            "w": "halloween",
+            "r": "Halloween",
+            "e": "Halloween is a holiday name and must be capitalized."
+          },
+          {
+            "t": "spelling",
+            "w": "pumkins",
+            "r": "pumpkins",
+            "e": "Pumpkins has a p before the k: p-u-m-p-k-i-n-s."
+          },
+          {
+            "t": "grammar",
+            "w": "dont",
+            "r": "doesn't",
+            "e": "Use doesn't with Dr. Smith (he/she). Don't is used with I, you, we, or they."
+          },
+          {
+            "t": "punctuation",
+            "w": "candy",
+            "r": "candy.",
+            "e": "A declarative sentence must end with a period."
+          }
+        ],
+        "fixed": "On Halloween we carve pumpkins and Dr. Smith doesn't hand out candy.",
+        "pos": [
+          { "w": "On", "t": "PREP", "q": "Find the preposition that tells when." },
+          { "w": "Halloween", "t": "N", "q": "Find the proper noun for an October holiday." },
+          { "w": "we", "t": "PRO", "q": "Find the pronoun meaning 'our group.'" },
+          { "w": "carve", "t": "V", "q": "Find the verb meaning 'to cut a shape into.'" },
+          { "w": "pumpkins", "t": "N", "q": "Find the plural noun for large orange vegetables." },
+          { "w": "and", "t": "CONJ", "q": "Find the conjunction joining two ideas." },
+          { "w": "Dr.", "t": "N", "q": "Find the abbreviation for Doctor." },
+          { "w": "Smith", "t": "N", "q": "Find the proper noun that is a last name." },
+          { "w": "doesn't", "t": "V", "q": "Find the contraction that means 'does not.'" },
+          { "w": "hand", "t": "V", "q": "Find the verb meaning 'to give.'" },
+          { "w": "out", "t": "ADV", "q": "Find the adverb that is part of 'hand out.'" },
+          { "w": "candy", "t": "N", "q": "Find the noun for sweet treats." }
+        ],
+        "manip": {
+          "task": "Replace the noun 'candy' with a different treat.",
+          "word": "candy",
+          "examples": [
+            "On Halloween we carve pumpkins and Dr. Smith doesn't hand out <span class='changed'>stickers</span>.",
+            "On Halloween we carve pumpkins and Dr. Smith doesn't hand out <span class='changed'>popcorn</span>."
+          ]
+        },
+        "vocab": {
+          "w": "vessel",
+          "type": "noun",
+          "def": "A large boat or ship used for traveling on water.",
+          "simple": "A vessel is a big boat or ship that sails across the water!",
+          "examples": [
+            "a sailing vessel",
+            "a cargo vessel",
+            "a large vessel"
+          ],
+          "similar": [
+            "ship",
+            "boat",
+            "craft"
+          ],
+          "antonyms": [
+            "raft",
+            "canoe",
+            "rowboat"
+          ],
+          "nonex": [
+            "It does NOT mean a small cup or bowl (though that is another meaning).",
+            "It does NOT mean a car."
+          ],
+          "example": "The large vessel sailed across the ocean carrying goods to a faraway port.",
+          "starter": "If I could travel on any vessel, I would choose a _______ because...",
+          "why": "Vessel is a great word for describing big boats and ships that travel the seas!"
+        }
+      }
+    ]
+  }
+]

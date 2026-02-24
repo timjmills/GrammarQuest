@@ -1,0 +1,1162 @@
+[
+  {
+    "day": 51,
+    "sentences": [
+      {
+        "orig": "i see a red brd in the tre",
+        "corr": [
+          {"t": "capitalization", "w": "i", "r": "I", "e": "The word I is always a capital letter."},
+          {"t": "spelling", "w": "brd", "r": "bird", "e": "Bird is spelled b-i-r-d."},
+          {"t": "grammar", "w": "in", "r": "on", "e": "We say on the tree, not in the tree."},
+          {"t": "spelling", "w": "tre", "r": "tree", "e": "Tree has two e's at the end."},
+          {"t": "punctuation", "w": "tree", "r": "tree.", "e": "A sentence needs a period at the end."}
+        ],
+        "fixed": "I see a red bird on the tree.",
+        "pos": [
+          {"w": "I", "t": "N", "q": "Find the word that means me."},
+          {"w": "see", "t": "V", "q": "Find the action word for using your eyes."},
+          {"w": "a", "t": "ART", "q": "Find the little word before red."},
+          {"w": "red", "t": "ADJ", "q": "Find the color word that tells about the bird."},
+          {"w": "bird", "t": "N", "q": "Find the animal with feathers."},
+          {"w": "on", "t": "PREP", "q": "Find the word that tells where the bird is."},
+          {"w": "the", "t": "ART", "q": "Find the little word before tree."},
+          {"w": "tree", "t": "N", "q": "Find the tall plant with leaves."}
+        ],
+        "manip": {
+          "task": "Change the color word to a new color.",
+          "word": "red",
+          "examples": [
+            "I see a <span class='changed'>blue</span> bird on the tree.",
+            "I see a <span class='changed'>yellow</span> bird on the tree."
+          ]
+        },
+        "vocab": {
+          "w": "vivid",
+          "type": "adjective",
+          "def": "Very bright and strong in color.",
+          "simple": "Vivid means a color that is super bright and easy to see!",
+          "examples": ["a vivid red", "a vivid sunset", "vivid paint"],
+          "similar": ["bright", "bold", "colorful"],
+          "antonyms": ["dull", "faded", "pale"],
+          "nonex": ["It does NOT mean dark or hard to see.", "It does NOT mean white."],
+          "example": "The vivid red bird sat on the tree.",
+          "starter": "I saw a vivid _______ ...",
+          "why": "Vivid helps you tell people exactly how bright a color is!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 52,
+    "sentences": [
+      {
+        "orig": "the bloo sky is big and prity",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word starts with a capital letter."},
+          {"t": "spelling", "w": "bloo", "r": "blue", "e": "Blue is spelled b-l-u-e."},
+          {"t": "spelling", "w": "prity", "r": "pretty", "e": "Pretty is spelled p-r-e-t-t-y."},
+          {"t": "grammar", "w": "big", "r": "wide", "e": "We say the sky is wide, not big."},
+          {"t": "punctuation", "w": "pretty", "r": "pretty.", "e": "A sentence needs a period at the end."}
+        ],
+        "fixed": "The blue sky is wide and pretty.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the little word at the start."},
+          {"w": "blue", "t": "ADJ", "q": "Find the color word that tells about the sky."},
+          {"w": "sky", "t": "N", "q": "Find the word for what is above us."},
+          {"w": "is", "t": "V", "q": "Find the word that links sky to wide."},
+          {"w": "wide", "t": "ADJ", "q": "Find the word that tells how the sky looks."},
+          {"w": "and", "t": "CONJ", "q": "Find the word that joins two ideas."},
+          {"w": "pretty", "t": "ADJ", "q": "Find the word that means nice to look at."}
+        ],
+        "manip": {
+          "task": "Change the color word to a new color.",
+          "word": "blue",
+          "examples": [
+            "The <span class='changed'>pink</span> sky is wide and pretty.",
+            "The <span class='changed'>gray</span> sky is wide and pretty."
+          ]
+        },
+        "vocab": {
+          "w": "dull",
+          "type": "adjective",
+          "def": "Not bright or shiny; boring to look at.",
+          "simple": "Dull means not bright. A dull color is hard to see!",
+          "examples": ["a dull gray", "a dull day", "a dull color"],
+          "similar": ["faded", "dim", "pale"],
+          "antonyms": ["bright", "vivid", "shiny"],
+          "nonex": ["It does NOT mean sharp.", "It does NOT mean dark like nighttime."],
+          "example": "The dull gray sky had no sun.",
+          "starter": "The color was so dull that _______ ...",
+          "why": "Dull helps you describe things that are not bright or fun to see!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 53,
+    "sentences": [
+      {
+        "orig": "i hav a grene frog on my bed",
+        "corr": [
+          {"t": "capitalization", "w": "i", "r": "I", "e": "The word I is always a capital letter."},
+          {"t": "spelling", "w": "hav", "r": "have", "e": "Have is spelled h-a-v-e with an e at the end."},
+          {"t": "spelling", "w": "grene", "r": "green", "e": "Green is spelled g-r-e-e-n."},
+          {"t": "grammar", "w": "on", "r": "in", "e": "We say in my bed, not on my bed for a toy."},
+          {"t": "punctuation", "w": "bed", "r": "bed.", "e": "A sentence needs a period at the end."}
+        ],
+        "fixed": "I have a green frog in my bed.",
+        "pos": [
+          {"w": "I", "t": "N", "q": "Find the word that means me."},
+          {"w": "have", "t": "V", "q": "Find the action word for keeping something."},
+          {"w": "a", "t": "ART", "q": "Find the little word before green."},
+          {"w": "green", "t": "ADJ", "q": "Find the color word that tells about the frog."},
+          {"w": "frog", "t": "N", "q": "Find the animal that hops."},
+          {"w": "in", "t": "PREP", "q": "Find the word that tells where the frog is."},
+          {"w": "my", "t": "ADJ", "q": "Find the word that means it belongs to me."},
+          {"w": "bed", "t": "N", "q": "Find the thing you sleep in."}
+        ],
+        "manip": {
+          "task": "Change the color word to a new color.",
+          "word": "green",
+          "examples": [
+            "I have a <span class='changed'>red</span> frog in my bed.",
+            "I have a <span class='changed'>yellow</span> frog in my bed."
+          ]
+        },
+        "vocab": {
+          "w": "shade",
+          "type": "noun",
+          "def": "A type or version of a color.",
+          "simple": "A shade is one kind of a color. Light blue and dark blue are two shades of blue!",
+          "examples": ["a shade of green", "a dark shade", "a light shade"],
+          "similar": ["tint", "hue", "tone"],
+          "antonyms": ["brightness", "glare", "light"],
+          "nonex": ["It does NOT mean the shadow under a tree.", "It does NOT mean a lamp shade."],
+          "example": "The frog was a pretty shade of green.",
+          "starter": "My favorite shade of _______ is ...",
+          "why": "Shade helps you talk about all the different kinds of one color!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 54,
+    "sentences": [
+      {
+        "orig": "the big dg sat on a rug",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word starts with a capital letter."},
+          {"t": "spelling", "w": "big", "r": "big", "e": "Big is correct! But we need another fix."},
+          {"t": "spelling", "w": "dg", "r": "dog", "e": "Dog is spelled d-o-g."},
+          {"t": "grammar", "w": "on", "r": "on", "e": "On is correct here."},
+          {"t": "punctuation", "w": "rug", "r": "rug.", "e": "A sentence needs a period at the end."}
+        ],
+        "fixed": "The big dog sat on a rug.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the little word at the start."},
+          {"w": "big", "t": "ADJ", "q": "Find the word that tells how large the dog is."},
+          {"w": "dog", "t": "N", "q": "Find the pet animal."},
+          {"w": "sat", "t": "V", "q": "Find the action word for sitting."},
+          {"w": "on", "t": "PREP", "q": "Find the word that tells where the dog sat."},
+          {"w": "a", "t": "ART", "q": "Find the little word before rug."},
+          {"w": "rug", "t": "N", "q": "Find the thing on the floor."}
+        ],
+        "manip": {
+          "task": "Change the size word to a new size.",
+          "word": "big",
+          "examples": [
+            "The <span class='changed'>little</span> dog sat on a rug.",
+            "The <span class='changed'>tall</span> dog sat on a rug."
+          ]
+        },
+        "vocab": {
+          "w": "enormous",
+          "type": "adjective",
+          "def": "Very, very big. Much bigger than normal.",
+          "simple": "Enormous means super big! Like a whale or a mountain!",
+          "examples": ["an enormous dog", "an enormous hill", "an enormous wave"],
+          "similar": ["huge", "giant", "massive"],
+          "antonyms": ["tiny", "small", "little"],
+          "nonex": ["It does NOT mean just a little big.", "It does NOT mean fat."],
+          "example": "The enormous dog was as big as a pony.",
+          "starter": "I saw something enormous. It was _______ ...",
+          "why": "Enormous is a fun word to use when big just is not big enough!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 55,
+    "sentences": [
+      {
+        "orig": "i see a litl cat in the box",
+        "corr": [
+          {"t": "capitalization", "w": "i", "r": "I", "e": "The word I is always a capital letter."},
+          {"t": "spelling", "w": "litl", "r": "little", "e": "Little is spelled l-i-t-t-l-e."},
+          {"t": "grammar", "w": "a", "r": "a", "e": "A is correct before little."},
+          {"t": "grammar", "w": "in", "r": "in", "e": "In is correct for inside a box."},
+          {"t": "punctuation", "w": "box", "r": "box.", "e": "A sentence needs a period at the end."}
+        ],
+        "fixed": "I see a little cat in the box.",
+        "pos": [
+          {"w": "I", "t": "N", "q": "Find the word that means me."},
+          {"w": "see", "t": "V", "q": "Find the action word for using your eyes."},
+          {"w": "a", "t": "ART", "q": "Find the little word before little."},
+          {"w": "little", "t": "ADJ", "q": "Find the word that tells the size of the cat."},
+          {"w": "cat", "t": "N", "q": "Find the pet animal that says meow."},
+          {"w": "in", "t": "PREP", "q": "Find the word that tells where the cat is."},
+          {"w": "the", "t": "ART", "q": "Find the little word before box."},
+          {"w": "box", "t": "N", "q": "Find the thing the cat is inside."}
+        ],
+        "manip": {
+          "task": "Change the size word to a new size.",
+          "word": "little",
+          "examples": [
+            "I see a <span class='changed'>small</span> cat in the box.",
+            "I see a <span class='changed'>round</span> cat in the box."
+          ]
+        },
+        "vocab": {
+          "w": "miniature",
+          "type": "adjective",
+          "def": "A very small copy of something bigger.",
+          "simple": "Miniature means really tiny! Like a toy car that looks like a real car!",
+          "examples": ["a miniature house", "a miniature cat", "a miniature train"],
+          "similar": ["tiny", "small", "little"],
+          "antonyms": ["huge", "giant", "enormous"],
+          "nonex": ["It does NOT mean broken.", "It does NOT mean a baby animal."],
+          "example": "The miniature cat fit in my hand.",
+          "starter": "I wish I had a miniature _______ ...",
+          "why": "Miniature is a cool word for things that are really, really small!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 56,
+    "sentences": [
+      {
+        "orig": "the tal man has a rond hat",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word starts with a capital letter."},
+          {"t": "spelling", "w": "tal", "r": "tall", "e": "Tall is spelled t-a-l-l with two l's."},
+          {"t": "spelling", "w": "rond", "r": "round", "e": "Round is spelled r-o-u-n-d."},
+          {"t": "grammar", "w": "has", "r": "has", "e": "Has is correct for one person."},
+          {"t": "punctuation", "w": "hat", "r": "hat.", "e": "A sentence needs a period at the end."}
+        ],
+        "fixed": "The tall man has a round hat.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the little word at the start."},
+          {"w": "tall", "t": "ADJ", "q": "Find the word that tells how high the man is."},
+          {"w": "man", "t": "N", "q": "Find the word for a grown-up boy."},
+          {"w": "has", "t": "V", "q": "Find the action word for keeping something."},
+          {"w": "a", "t": "ART", "q": "Find the little word before round."},
+          {"w": "round", "t": "ADJ", "q": "Find the shape word that tells about the hat."},
+          {"w": "hat", "t": "N", "q": "Find the thing you wear on your head."}
+        ],
+        "manip": {
+          "task": "Change the shape word to a new shape.",
+          "word": "round",
+          "examples": [
+            "The tall man has a <span class='changed'>flat</span> hat.",
+            "The tall man has a <span class='changed'>big</span> hat."
+          ]
+        },
+        "vocab": {
+          "w": "slender",
+          "type": "adjective",
+          "def": "Thin and graceful looking.",
+          "simple": "Slender means thin and nice to look at! Like a tall thin tree!",
+          "examples": ["a slender tree", "a slender cat", "slender fingers"],
+          "similar": ["thin", "slim", "lean"],
+          "antonyms": ["wide", "thick", "fat"],
+          "nonex": ["It does NOT mean weak.", "It does NOT mean short."],
+          "example": "The slender cat walked on the fence.",
+          "starter": "The slender _______ looked like ...",
+          "why": "Slender is a nice way to say something is thin and pretty!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 57,
+    "sentences": [
+      {
+        "orig": "the sft bunny sat on my lap",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word starts with a capital letter."},
+          {"t": "spelling", "w": "sft", "r": "soft", "e": "Soft is spelled s-o-f-t."},
+          {"t": "grammar", "w": "bunny", "r": "bunny", "e": "Bunny is correct here."},
+          {"t": "grammar", "w": "on", "r": "on", "e": "On is correct for sitting on a lap."},
+          {"t": "punctuation", "w": "lap", "r": "lap.", "e": "A sentence needs a period at the end."}
+        ],
+        "fixed": "The soft bunny sat on my lap.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the little word at the start."},
+          {"w": "soft", "t": "ADJ", "q": "Find the word that tells how the bunny feels to touch."},
+          {"w": "bunny", "t": "N", "q": "Find the animal that hops."},
+          {"w": "sat", "t": "V", "q": "Find the action word for sitting."},
+          {"w": "on", "t": "PREP", "q": "Find the word that tells where the bunny sat."},
+          {"w": "my", "t": "ADJ", "q": "Find the word that means it belongs to me."},
+          {"w": "lap", "t": "N", "q": "Find the part of your body when you sit."}
+        ],
+        "manip": {
+          "task": "Change the feeling word to a new feeling.",
+          "word": "soft",
+          "examples": [
+            "The <span class='changed'>warm</span> bunny sat on my lap.",
+            "The <span class='changed'>fluffy</span> bunny sat on my lap."
+          ]
+        },
+        "vocab": {
+          "w": "fluffy",
+          "type": "adjective",
+          "def": "Soft, light, and puffy like a cloud.",
+          "simple": "Fluffy means soft and puffy! Like a bunny or a cloud!",
+          "examples": ["a fluffy bunny", "fluffy clouds", "a fluffy pillow"],
+          "similar": ["soft", "fuzzy", "puffy"],
+          "antonyms": ["flat", "hard", "rough"],
+          "nonex": ["It does NOT mean wet.", "It does NOT mean heavy."],
+          "example": "The fluffy bunny felt so soft on my lap.",
+          "starter": "The fluffiest thing I ever touched was _______ ...",
+          "why": "Fluffy is a fun word to describe things that are soft and puffy!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 58,
+    "sentences": [
+      {
+        "orig": "i herd a lowd dog at the prk",
+        "corr": [
+          {"t": "capitalization", "w": "i", "r": "I", "e": "The word I is always a capital letter."},
+          {"t": "spelling", "w": "herd", "r": "heard", "e": "Heard is spelled h-e-a-r-d."},
+          {"t": "spelling", "w": "lowd", "r": "loud", "e": "Loud is spelled l-o-u-d."},
+          {"t": "spelling", "w": "prk", "r": "park", "e": "Park is spelled p-a-r-k."},
+          {"t": "punctuation", "w": "park", "r": "park.", "e": "A sentence needs a period at the end."}
+        ],
+        "fixed": "I heard a loud dog at the park.",
+        "pos": [
+          {"w": "I", "t": "N", "q": "Find the word that means me."},
+          {"w": "heard", "t": "V", "q": "Find the action word for using your ears."},
+          {"w": "a", "t": "ART", "q": "Find the little word before loud."},
+          {"w": "loud", "t": "ADJ", "q": "Find the word that tells how the dog sounds."},
+          {"w": "dog", "t": "N", "q": "Find the pet animal that barks."},
+          {"w": "at", "t": "PREP", "q": "Find the word that tells where."},
+          {"w": "the", "t": "ART", "q": "Find the little word before park."},
+          {"w": "park", "t": "N", "q": "Find the place where you play outside."}
+        ],
+        "manip": {
+          "task": "Change the sound word to a new sound word.",
+          "word": "loud",
+          "examples": [
+            "I heard a <span class='changed'>quiet</span> dog at the park.",
+            "I heard a <span class='changed'>happy</span> dog at the park."
+          ]
+        },
+        "vocab": {
+          "w": "rough",
+          "type": "adjective",
+          "def": "Not smooth. Bumpy or scratchy to touch.",
+          "simple": "Rough means bumpy and not smooth. Like a rock or tree bark!",
+          "examples": ["rough hands", "a rough rock", "rough sand"],
+          "similar": ["bumpy", "scratchy", "coarse"],
+          "antonyms": ["smooth", "soft", "silky"],
+          "nonex": ["It does NOT mean hard like a test.", "It does NOT mean mean or angry."],
+          "example": "The rough bark on the tree felt scratchy.",
+          "starter": "Something that feels rough is _______ ...",
+          "why": "Rough helps you tell people how things feel when you touch them!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 59,
+    "sentences": [
+      {
+        "orig": "the hot soop is in a big cup",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word starts with a capital letter."},
+          {"t": "spelling", "w": "soop", "r": "soup", "e": "Soup is spelled s-o-u-p."},
+          {"t": "grammar", "w": "is", "r": "is", "e": "Is is correct for one thing."},
+          {"t": "grammar", "w": "a", "r": "a", "e": "A is correct before big."},
+          {"t": "punctuation", "w": "cup", "r": "cup.", "e": "A sentence needs a period at the end."}
+        ],
+        "fixed": "The hot soup is in a big cup.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the little word at the start."},
+          {"w": "hot", "t": "ADJ", "q": "Find the word that tells how the soup feels."},
+          {"w": "soup", "t": "N", "q": "Find the food you eat with a spoon."},
+          {"w": "is", "t": "V", "q": "Find the word that tells where the soup is."},
+          {"w": "in", "t": "PREP", "q": "Find the word that means inside."},
+          {"w": "a", "t": "ART", "q": "Find the little word before big."},
+          {"w": "big", "t": "ADJ", "q": "Find the word that tells how large the cup is."},
+          {"w": "cup", "t": "N", "q": "Find the thing you drink from."}
+        ],
+        "manip": {
+          "task": "Change the feeling word to a new feeling.",
+          "word": "hot",
+          "examples": [
+            "The <span class='changed'>cold</span> soup is in a big cup.",
+            "The <span class='changed'>sweet</span> soup is in a big cup."
+          ]
+        },
+        "vocab": {
+          "w": "bitter",
+          "type": "adjective",
+          "def": "A sharp, strong taste that is not sweet.",
+          "simple": "Bitter means a yucky taste! Like dark chocolate or lemon peel!",
+          "examples": ["bitter tea", "bitter medicine", "a bitter taste"],
+          "similar": ["sour", "sharp", "tart"],
+          "antonyms": ["sweet", "sugary", "mild"],
+          "nonex": ["It does NOT mean spicy or hot.", "It does NOT mean salty."],
+          "example": "The bitter soup made me make a funny face.",
+          "starter": "Something that tastes bitter is _______ ...",
+          "why": "Bitter helps you tell people about strong tastes that are not sweet!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 60,
+    "sentences": [
+      {
+        "orig": "i see one fsh in the big pnd",
+        "corr": [
+          {"t": "capitalization", "w": "i", "r": "I", "e": "The word I is always a capital letter."},
+          {"t": "spelling", "w": "fsh", "r": "fish", "e": "Fish is spelled f-i-s-h."},
+          {"t": "grammar", "w": "in", "r": "in", "e": "In is correct for inside water."},
+          {"t": "spelling", "w": "pnd", "r": "pond", "e": "Pond is spelled p-o-n-d."},
+          {"t": "punctuation", "w": "pond", "r": "pond.", "e": "A sentence needs a period at the end."}
+        ],
+        "fixed": "I see one fish in the big pond.",
+        "pos": [
+          {"w": "I", "t": "N", "q": "Find the word that means me."},
+          {"w": "see", "t": "V", "q": "Find the action word for using your eyes."},
+          {"w": "one", "t": "ADJ", "q": "Find the number word that tells how many fish."},
+          {"w": "fish", "t": "N", "q": "Find the animal that swims."},
+          {"w": "in", "t": "PREP", "q": "Find the word that means inside."},
+          {"w": "the", "t": "ART", "q": "Find the little word before big."},
+          {"w": "big", "t": "ADJ", "q": "Find the word that tells the size of the pond."},
+          {"w": "pond", "t": "N", "q": "Find the small body of water."}
+        ],
+        "manip": {
+          "task": "Change the number word to a new number.",
+          "word": "one",
+          "examples": [
+            "I see <span class='changed'>two</span> fish in the big pond.",
+            "I see <span class='changed'>three</span> fish in the big pond."
+          ]
+        },
+        "vocab": {
+          "w": "plenty",
+          "type": "noun",
+          "def": "More than enough of something.",
+          "simple": "Plenty means a lot! More than you need!",
+          "examples": ["plenty of food", "plenty of fish", "plenty of time"],
+          "similar": ["lots", "many", "enough"],
+          "antonyms": ["few", "none", "scarce"],
+          "nonex": ["It does NOT mean exactly the right amount.", "It does NOT mean too many."],
+          "example": "There were plenty of fish in the big pond.",
+          "starter": "We had plenty of _______ at ...",
+          "why": "Plenty is a handy word to say you have more than enough!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 61,
+    "sentences": [
+      {
+        "orig": "i hav two red cusp at hom",
+        "corr": [
+          {"t": "capitalization", "w": "i", "r": "I", "e": "The word I is always a capital letter."},
+          {"t": "spelling", "w": "hav", "r": "have", "e": "Have is spelled h-a-v-e with an e at the end."},
+          {"t": "spelling", "w": "cusp", "r": "cups", "e": "Cups is spelled c-u-p-s."},
+          {"t": "spelling", "w": "hom", "r": "home", "e": "Home is spelled h-o-m-e with an e at the end."},
+          {"t": "punctuation", "w": "home", "r": "home.", "e": "A sentence needs a period at the end."}
+        ],
+        "fixed": "I have two red cups at home.",
+        "pos": [
+          {"w": "I", "t": "N", "q": "Find the word that means me."},
+          {"w": "have", "t": "V", "q": "Find the action word for keeping something."},
+          {"w": "two", "t": "ADJ", "q": "Find the number word that tells how many cups."},
+          {"w": "red", "t": "ADJ", "q": "Find the color word that tells about the cups."},
+          {"w": "cups", "t": "N", "q": "Find the things you drink from."},
+          {"w": "at", "t": "PREP", "q": "Find the word that tells where."},
+          {"w": "home", "t": "N", "q": "Find the place where you live."}
+        ],
+        "manip": {
+          "task": "Change the number word to a new number.",
+          "word": "two",
+          "examples": [
+            "I have <span class='changed'>three</span> red cups at home.",
+            "I have <span class='changed'>many</span> red cups at home."
+          ]
+        },
+        "vocab": {
+          "w": "several",
+          "type": "adjective",
+          "def": "More than two but not very many.",
+          "simple": "Several means a few! More than two but not a huge number!",
+          "examples": ["several cups", "several birds", "several days"],
+          "similar": ["a few", "some", "a handful"],
+          "antonyms": ["none", "one", "many"],
+          "nonex": ["It does NOT mean exactly seven.", "It does NOT mean a lot."],
+          "example": "I have several red cups at home.",
+          "starter": "I have several _______ in my ...",
+          "why": "Several is a great word when you have more than two but not tons!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 62,
+    "sentences": [
+      {
+        "orig": "i see meny bugs on the rok",
+        "corr": [
+          {"t": "capitalization", "w": "i", "r": "I", "e": "The word I is always a capital letter."},
+          {"t": "spelling", "w": "meny", "r": "many", "e": "Many is spelled m-a-n-y."},
+          {"t": "grammar", "w": "bugs", "r": "bugs", "e": "Bugs is correct with many."},
+          {"t": "spelling", "w": "rok", "r": "rock", "e": "Rock is spelled r-o-c-k."},
+          {"t": "punctuation", "w": "rock", "r": "rock.", "e": "A sentence needs a period at the end."}
+        ],
+        "fixed": "I see many bugs on the rock.",
+        "pos": [
+          {"w": "I", "t": "N", "q": "Find the word that means me."},
+          {"w": "see", "t": "V", "q": "Find the action word for using your eyes."},
+          {"w": "many", "t": "ADJ", "q": "Find the number word that tells how many bugs."},
+          {"w": "bugs", "t": "N", "q": "Find the tiny crawling animals."},
+          {"w": "on", "t": "PREP", "q": "Find the word that tells where the bugs are."},
+          {"w": "the", "t": "ART", "q": "Find the little word before rock."},
+          {"w": "rock", "t": "N", "q": "Find the hard thing on the ground."}
+        ],
+        "manip": {
+          "task": "Change the number word to a new number.",
+          "word": "many",
+          "examples": [
+            "I see <span class='changed'>three</span> bugs on the rock.",
+            "I see <span class='changed'>two</span> bugs on the rock."
+          ]
+        },
+        "vocab": {
+          "w": "scarce",
+          "type": "adjective",
+          "def": "Very hard to find. Not enough of something.",
+          "simple": "Scarce means hard to find! When there is not much of something!",
+          "examples": ["scarce food", "scarce water", "scarce bugs"],
+          "similar": ["rare", "few", "limited"],
+          "antonyms": ["plenty", "common", "many"],
+          "nonex": ["It does NOT mean scary.", "It does NOT mean zero."],
+          "example": "Bugs were scarce in the cold winter.",
+          "starter": "Something that is scarce is _______ ...",
+          "why": "Scarce helps you tell people when there is not much of something!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 63,
+    "sentences": [
+      {
+        "orig": "sam and i run at the prk",
+        "corr": [
+          {"t": "capitalization", "w": "sam", "r": "Sam", "e": "A person's name always starts with a capital letter."},
+          {"t": "capitalization", "w": "i", "r": "I", "e": "The word I is always a capital letter."},
+          {"t": "grammar", "w": "run", "r": "ran", "e": "We say ran because it already happened."},
+          {"t": "spelling", "w": "prk", "r": "park", "e": "Park is spelled p-a-r-k."},
+          {"t": "punctuation", "w": "park", "r": "park.", "e": "A sentence needs a period at the end."}
+        ],
+        "fixed": "Sam and I ran at the park.",
+        "pos": [
+          {"w": "Sam", "t": "N", "q": "Find the name of the person."},
+          {"w": "and", "t": "CONJ", "q": "Find the word that joins two people."},
+          {"w": "I", "t": "N", "q": "Find the word that means me."},
+          {"w": "ran", "t": "V", "q": "Find the action word for moving fast."},
+          {"w": "at", "t": "PREP", "q": "Find the word that tells where."},
+          {"w": "the", "t": "ART", "q": "Find the little word before park."},
+          {"w": "park", "t": "N", "q": "Find the place where you play outside."}
+        ],
+        "manip": {
+          "task": "Change the name to a different name.",
+          "word": "Sam",
+          "examples": [
+            "<span class='changed'>Ben</span> and I ran at the park.",
+            "<span class='changed'>Mia</span> and I ran at the park."
+          ]
+        },
+        "vocab": {
+          "w": "cheerful",
+          "type": "adjective",
+          "def": "Happy and full of good feelings.",
+          "simple": "Cheerful means really happy! With a big smile!",
+          "examples": ["a cheerful boy", "a cheerful smile", "cheerful music"],
+          "similar": ["happy", "joyful", "glad"],
+          "antonyms": ["sad", "gloomy", "unhappy"],
+          "nonex": ["It does NOT mean loud.", "It does NOT mean silly."],
+          "example": "Sam was cheerful when he ran at the park.",
+          "starter": "I feel cheerful when _______ ...",
+          "why": "Cheerful is a great word to describe people who are full of joy!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 64,
+    "sentences": [
+      {
+        "orig": "mom gave ben a red hat at hom",
+        "corr": [
+          {"t": "capitalization", "w": "mom", "r": "Mom", "e": "Mom starts with a capital letter when used as a name."},
+          {"t": "capitalization", "w": "ben", "r": "Ben", "e": "A person's name always starts with a capital letter."},
+          {"t": "grammar", "w": "gave", "r": "gave", "e": "Gave is correct for the past."},
+          {"t": "spelling", "w": "hom", "r": "home", "e": "Home is spelled h-o-m-e with an e at the end."},
+          {"t": "punctuation", "w": "home", "r": "home.", "e": "A sentence needs a period at the end."}
+        ],
+        "fixed": "Mom gave Ben a red hat at home.",
+        "pos": [
+          {"w": "Mom", "t": "N", "q": "Find the name for your mother."},
+          {"w": "gave", "t": "V", "q": "Find the action word for giving."},
+          {"w": "Ben", "t": "N", "q": "Find the name of the boy."},
+          {"w": "a", "t": "ART", "q": "Find the little word before red."},
+          {"w": "red", "t": "ADJ", "q": "Find the color word that tells about the hat."},
+          {"w": "hat", "t": "N", "q": "Find the thing you wear on your head."},
+          {"w": "at", "t": "PREP", "q": "Find the word that tells where."},
+          {"w": "home", "t": "N", "q": "Find the place where you live."}
+        ],
+        "manip": {
+          "task": "Change the name to a different name.",
+          "word": "Ben",
+          "examples": [
+            "Mom gave <span class='changed'>Sam</span> a red hat at home.",
+            "Mom gave <span class='changed'>Lily</span> a red hat at home."
+          ]
+        },
+        "vocab": {
+          "w": "timid",
+          "type": "adjective",
+          "def": "Shy and a little bit scared.",
+          "simple": "Timid means shy and a bit scared! Like hiding behind Mom!",
+          "examples": ["a timid boy", "a timid mouse", "a timid kitten"],
+          "similar": ["shy", "quiet", "nervous"],
+          "antonyms": ["brave", "bold", "fearless"],
+          "nonex": ["It does NOT mean rude.", "It does NOT mean slow."],
+          "example": "The timid boy hid behind Mom.",
+          "starter": "I feel timid when _______ ...",
+          "why": "Timid helps you describe that shy, scared feeling we all get!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 65,
+    "sentences": [
+      {
+        "orig": "dad and sam got a big fsh",
+        "corr": [
+          {"t": "capitalization", "w": "dad", "r": "Dad", "e": "Dad starts with a capital letter when used as a name."},
+          {"t": "capitalization", "w": "sam", "r": "Sam", "e": "A person's name always starts with a capital letter."},
+          {"t": "grammar", "w": "got", "r": "got", "e": "Got is correct for the past."},
+          {"t": "spelling", "w": "fsh", "r": "fish", "e": "Fish is spelled f-i-s-h."},
+          {"t": "punctuation", "w": "fish", "r": "fish.", "e": "A sentence needs a period at the end."}
+        ],
+        "fixed": "Dad and Sam got a big fish.",
+        "pos": [
+          {"w": "Dad", "t": "N", "q": "Find the name for your father."},
+          {"w": "and", "t": "CONJ", "q": "Find the word that joins two people."},
+          {"w": "Sam", "t": "N", "q": "Find the name of the person."},
+          {"w": "got", "t": "V", "q": "Find the action word for getting something."},
+          {"w": "a", "t": "ART", "q": "Find the little word before big."},
+          {"w": "big", "t": "ADJ", "q": "Find the word that tells the size of the fish."},
+          {"w": "fish", "t": "N", "q": "Find the animal that swims."}
+        ],
+        "manip": {
+          "task": "Change the name to a different name.",
+          "word": "Sam",
+          "examples": [
+            "Dad and <span class='changed'>Mia</span> got a big fish.",
+            "Dad and <span class='changed'>Ben</span> got a big fish."
+          ]
+        },
+        "vocab": {
+          "w": "bold",
+          "type": "adjective",
+          "def": "Brave and not afraid to try new things.",
+          "simple": "Bold means brave and not scared! Ready to try anything!",
+          "examples": ["a bold boy", "a bold move", "bold colors"],
+          "similar": ["brave", "fearless", "daring"],
+          "antonyms": ["shy", "timid", "scared"],
+          "nonex": ["It does NOT mean loud.", "It does NOT mean bossy."],
+          "example": "The bold boy jumped into the lake.",
+          "starter": "I was bold when I _______ ...",
+          "why": "Bold is a great word for being brave and trying new things!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 66,
+    "sentences": [
+      {
+        "orig": "the cat sit on two big bed",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word starts with a capital letter."},
+          {"t": "grammar", "w": "sit", "r": "sits", "e": "One cat sits. We add -s for one."},
+          {"t": "grammar", "w": "bed", "r": "beds", "e": "Two beds needs an -s at the end."},
+          {"t": "grammar", "w": "two", "r": "two", "e": "Two is correct as a number word."},
+          {"t": "punctuation", "w": "beds", "r": "beds.", "e": "A sentence needs a period at the end."}
+        ],
+        "fixed": "The cat sits on two big beds.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the little word at the start."},
+          {"w": "cat", "t": "N", "q": "Find the pet animal that says meow."},
+          {"w": "sits", "t": "V", "q": "Find the action word for sitting."},
+          {"w": "on", "t": "PREP", "q": "Find the word that tells where the cat is."},
+          {"w": "two", "t": "ADJ", "q": "Find the number word."},
+          {"w": "big", "t": "ADJ", "q": "Find the word that tells the size."},
+          {"w": "beds", "t": "N", "q": "Find the things you sleep in. It has -s for more than one!"}
+        ],
+        "manip": {
+          "task": "Change the noun to a different plural noun.",
+          "word": "beds",
+          "examples": [
+            "The cat sits on two big <span class='changed'>rugs</span>.",
+            "The cat sits on two big <span class='changed'>mats</span>."
+          ]
+        },
+        "vocab": {
+          "w": "flock",
+          "type": "noun",
+          "def": "A group of birds or sheep together.",
+          "simple": "A flock is a bunch of birds flying or walking together!",
+          "examples": ["a flock of birds", "a flock of sheep", "a flock of ducks"],
+          "similar": ["group", "bunch", "herd"],
+          "antonyms": ["one", "single", "alone"],
+          "nonex": ["It does NOT mean one bird.", "It does NOT mean a group of fish."],
+          "example": "A flock of birds sat on the fence.",
+          "starter": "I saw a flock of _______ ...",
+          "why": "Flock is a special word for a group of birds or sheep!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 67,
+    "sentences": [
+      {
+        "orig": "i see three dog in the yrd",
+        "corr": [
+          {"t": "capitalization", "w": "i", "r": "I", "e": "The word I is always a capital letter."},
+          {"t": "grammar", "w": "dog", "r": "dogs", "e": "Three dogs needs an -s at the end."},
+          {"t": "grammar", "w": "in", "r": "in", "e": "In is correct for inside the yard."},
+          {"t": "spelling", "w": "yrd", "r": "yard", "e": "Yard is spelled y-a-r-d."},
+          {"t": "punctuation", "w": "yard", "r": "yard.", "e": "A sentence needs a period at the end."}
+        ],
+        "fixed": "I see three dogs in the yard.",
+        "pos": [
+          {"w": "I", "t": "N", "q": "Find the word that means me."},
+          {"w": "see", "t": "V", "q": "Find the action word for using your eyes."},
+          {"w": "three", "t": "ADJ", "q": "Find the number word that tells how many dogs."},
+          {"w": "dogs", "t": "N", "q": "Find the pet animals. It has -s for more than one!"},
+          {"w": "in", "t": "PREP", "q": "Find the word that means inside."},
+          {"w": "the", "t": "ART", "q": "Find the little word before yard."},
+          {"w": "yard", "t": "N", "q": "Find the grassy area outside your home."}
+        ],
+        "manip": {
+          "task": "Change the plural noun to a different plural noun.",
+          "word": "dogs",
+          "examples": [
+            "I see three <span class='changed'>cats</span> in the yard.",
+            "I see three <span class='changed'>birds</span> in the yard."
+          ]
+        },
+        "vocab": {
+          "w": "bunch",
+          "type": "noun",
+          "def": "A group of things together.",
+          "simple": "A bunch is a group of things! Like a bunch of grapes or flowers!",
+          "examples": ["a bunch of grapes", "a bunch of flowers", "a bunch of kids"],
+          "similar": ["group", "cluster", "pile"],
+          "antonyms": ["one", "single", "individual"],
+          "nonex": ["It does NOT mean just two things.", "It does NOT mean a line of things."],
+          "example": "I saw a bunch of dogs in the yard.",
+          "starter": "I have a bunch of _______ ...",
+          "why": "Bunch is a handy word for a group of things together!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 68,
+    "sentences": [
+      {
+        "orig": "the two brd sit on the fens",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word starts with a capital letter."},
+          {"t": "grammar", "w": "brd", "r": "birds", "e": "Two birds needs an -s at the end. Bird is spelled b-i-r-d-s."},
+          {"t": "grammar", "w": "sit", "r": "sit", "e": "Sit is correct for two birds."},
+          {"t": "spelling", "w": "fens", "r": "fence", "e": "Fence is spelled f-e-n-c-e."},
+          {"t": "punctuation", "w": "fence", "r": "fence.", "e": "A sentence needs a period at the end."}
+        ],
+        "fixed": "The two birds sit on the fence.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the little word at the start."},
+          {"w": "two", "t": "ADJ", "q": "Find the number word."},
+          {"w": "birds", "t": "N", "q": "Find the animals with feathers. It has -s for more than one!"},
+          {"w": "sit", "t": "V", "q": "Find the action word for sitting."},
+          {"w": "on", "t": "PREP", "q": "Find the word that tells where the birds are."},
+          {"w": "the", "t": "ART", "q": "Find the little word before fence."},
+          {"w": "fence", "t": "N", "q": "Find the thing around a yard."}
+        ],
+        "manip": {
+          "task": "Change the number word to a new number.",
+          "word": "two",
+          "examples": [
+            "The <span class='changed'>three</span> birds sit on the fence.",
+            "The <span class='changed'>many</span> birds sit on the fence."
+          ]
+        },
+        "vocab": {
+          "w": "pair",
+          "type": "noun",
+          "def": "Two things that go together.",
+          "simple": "A pair means two! Like a pair of shoes or a pair of socks!",
+          "examples": ["a pair of shoes", "a pair of birds", "a pair of hands"],
+          "similar": ["two", "couple", "duo"],
+          "antonyms": ["one", "single", "group"],
+          "nonex": ["It does NOT mean three or more.", "It does NOT mean a fruit (that is pear!)."],
+          "example": "A pair of birds sat on the fence.",
+          "starter": "I have a pair of _______ ...",
+          "why": "Pair is a special word that means exactly two things together!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 69,
+    "sentences": [
+      {
+        "orig": "i luv the big red sun",
+        "corr": [
+          {"t": "capitalization", "w": "i", "r": "I", "e": "The word I is always a capital letter."},
+          {"t": "spelling", "w": "luv", "r": "love", "e": "Love is spelled l-o-v-e."},
+          {"t": "grammar", "w": "the", "r": "the", "e": "The is correct before big."},
+          {"t": "grammar", "w": "sun", "r": "sun", "e": "Sun is correct here."},
+          {"t": "punctuation", "w": "sun", "r": "sun!", "e": "An exciting sentence ends with an exclamation mark!"}
+        ],
+        "fixed": "I love the big red sun!",
+        "pos": [
+          {"w": "I", "t": "N", "q": "Find the word that means me."},
+          {"w": "love", "t": "V", "q": "Find the action word for really liking something."},
+          {"w": "the", "t": "ART", "q": "Find the little word before big."},
+          {"w": "big", "t": "ADJ", "q": "Find the word that tells the size of the sun."},
+          {"w": "red", "t": "ADJ", "q": "Find the color word that tells about the sun."},
+          {"w": "sun", "t": "N", "q": "Find the bright thing in the sky."}
+        ],
+        "manip": {
+          "task": "Change the color word to a new color.",
+          "word": "red",
+          "examples": [
+            "I love the big <span class='changed'>yellow</span> sun!",
+            "I love the big <span class='changed'>pink</span> sun!"
+          ]
+        },
+        "vocab": {
+          "w": "splendid",
+          "type": "adjective",
+          "def": "Very beautiful and impressive.",
+          "simple": "Splendid means really, really wonderful! The best you can think of!",
+          "examples": ["a splendid day", "a splendid sunset", "splendid colors"],
+          "similar": ["wonderful", "amazing", "beautiful"],
+          "antonyms": ["awful", "ugly", "terrible"],
+          "nonex": ["It does NOT mean just okay.", "It does NOT mean big."],
+          "example": "The splendid red sun lit up the sky!",
+          "starter": "I saw something splendid. It was _______ ...",
+          "why": "Splendid is a fancy word for something truly wonderful!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 70,
+    "sentences": [
+      {
+        "orig": "the dog can jmp so hi",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word starts with a capital letter."},
+          {"t": "spelling", "w": "jmp", "r": "jump", "e": "Jump is spelled j-u-m-p."},
+          {"t": "grammar", "w": "so", "r": "so", "e": "So is correct here."},
+          {"t": "spelling", "w": "hi", "r": "high", "e": "High is spelled h-i-g-h."},
+          {"t": "punctuation", "w": "high", "r": "high!", "e": "An exciting sentence ends with an exclamation mark!"}
+        ],
+        "fixed": "The dog can jump so high!",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the little word at the start."},
+          {"w": "dog", "t": "N", "q": "Find the pet animal that barks."},
+          {"w": "can", "t": "V", "q": "Find the word that means is able to."},
+          {"w": "jump", "t": "V", "q": "Find the action word for going up in the air."},
+          {"w": "so", "t": "ADV", "q": "Find the word that means very much."},
+          {"w": "high", "t": "ADJ", "q": "Find the word that tells how far up."}
+        ],
+        "manip": {
+          "task": "Change the action word to a new action.",
+          "word": "jump",
+          "examples": [
+            "The dog can <span class='changed'>run</span> so high!",
+            "The dog can <span class='changed'>leap</span> so high!"
+          ]
+        },
+        "vocab": {
+          "w": "marvelous",
+          "type": "adjective",
+          "def": "Causing great wonder. Really amazing.",
+          "simple": "Marvelous means super amazing! It makes you say wow!",
+          "examples": ["a marvelous trick", "a marvelous day", "marvelous news"],
+          "similar": ["amazing", "wonderful", "fantastic"],
+          "antonyms": ["terrible", "awful", "boring"],
+          "nonex": ["It does NOT mean just good enough.", "It does NOT mean magic."],
+          "example": "The dog did a marvelous jump!",
+          "starter": "Something marvelous happened when _______ ...",
+          "why": "Marvelous is a great word to show you are amazed!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 71,
+    "sentences": [
+      {
+        "orig": "we got a nw pet cat at hom",
+        "corr": [
+          {"t": "capitalization", "w": "we", "r": "We", "e": "The first word starts with a capital letter."},
+          {"t": "spelling", "w": "nw", "r": "new", "e": "New is spelled n-e-w."},
+          {"t": "grammar", "w": "pet", "r": "pet", "e": "Pet is correct before cat."},
+          {"t": "spelling", "w": "hom", "r": "home", "e": "Home is spelled h-o-m-e with an e at the end."},
+          {"t": "punctuation", "w": "home", "r": "home!", "e": "An exciting sentence ends with an exclamation mark!"}
+        ],
+        "fixed": "We got a new pet cat at home!",
+        "pos": [
+          {"w": "We", "t": "N", "q": "Find the word that means us."},
+          {"w": "got", "t": "V", "q": "Find the action word for getting something."},
+          {"w": "a", "t": "ART", "q": "Find the little word before new."},
+          {"w": "new", "t": "ADJ", "q": "Find the word that means not old."},
+          {"w": "pet", "t": "ADJ", "q": "Find the word that tells the kind of cat."},
+          {"w": "cat", "t": "N", "q": "Find the animal that says meow."},
+          {"w": "at", "t": "PREP", "q": "Find the word that tells where."},
+          {"w": "home", "t": "N", "q": "Find the place where you live."}
+        ],
+        "manip": {
+          "task": "Change the animal to a different animal.",
+          "word": "cat",
+          "examples": [
+            "We got a new pet <span class='changed'>dog</span> at home!",
+            "We got a new pet <span class='changed'>fish</span> at home!"
+          ]
+        },
+        "vocab": {
+          "w": "dreadful",
+          "type": "adjective",
+          "def": "Very bad or very scary.",
+          "simple": "Dreadful means really, really bad! Something you do not like at all!",
+          "examples": ["dreadful weather", "a dreadful smell", "a dreadful noise"],
+          "similar": ["terrible", "awful", "horrible"],
+          "antonyms": ["wonderful", "lovely", "great"],
+          "nonex": ["It does NOT mean just a little bad.", "It does NOT mean sad."],
+          "example": "The dreadful rain kept us inside all day!",
+          "starter": "The most dreadful thing was _______ ...",
+          "why": "Dreadful is a strong word for when something is really bad!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 72,
+    "sentences": [
+      {
+        "orig": "i wnt to the stor with mom",
+        "corr": [
+          {"t": "capitalization", "w": "i", "r": "I", "e": "The word I is always a capital letter."},
+          {"t": "spelling", "w": "wnt", "r": "went", "e": "Went is spelled w-e-n-t."},
+          {"t": "spelling", "w": "stor", "r": "store", "e": "Store is spelled s-t-o-r-e with an e at the end."},
+          {"t": "capitalization", "w": "mom", "r": "Mom", "e": "Mom starts with a capital letter when used as a name."},
+          {"t": "punctuation", "w": "Mom", "r": "Mom.", "e": "A sentence needs a period at the end."}
+        ],
+        "fixed": "I went to the store with Mom.",
+        "pos": [
+          {"w": "I", "t": "N", "q": "Find the word that means me."},
+          {"w": "went", "t": "V", "q": "Find the action word for going somewhere."},
+          {"w": "to", "t": "PREP", "q": "Find the word that tells direction."},
+          {"w": "the", "t": "ART", "q": "Find the little word before store."},
+          {"w": "store", "t": "N", "q": "Find the place where you buy things."},
+          {"w": "with", "t": "PREP", "q": "Find the word that means together."},
+          {"w": "Mom", "t": "N", "q": "Find the name for your mother."}
+        ],
+        "manip": {
+          "task": "Change who you went with to a different person.",
+          "word": "Mom",
+          "examples": [
+            "I went to the store with <span class='changed'>Dad</span>.",
+            "I went to the store with <span class='changed'>Sam</span>."
+          ]
+        },
+        "vocab": {
+          "w": "journey",
+          "type": "noun",
+          "def": "A trip from one place to another.",
+          "simple": "A journey is a trip! Going from here to somewhere else!",
+          "examples": ["a long journey", "a fun journey", "a journey to school"],
+          "similar": ["trip", "adventure", "travel"],
+          "antonyms": ["stay", "rest", "stop"],
+          "nonex": ["It does NOT mean just walking around.", "It does NOT mean getting lost."],
+          "example": "I went on a journey to the store with Mom.",
+          "starter": "My favorite journey was to _______ ...",
+          "why": "Journey is a fun word for any kind of trip you take!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 73,
+    "sentences": [
+      {
+        "orig": "i sat by the tre with dad",
+        "corr": [
+          {"t": "capitalization", "w": "i", "r": "I", "e": "The word I is always a capital letter."},
+          {"t": "grammar", "w": "sat", "r": "sat", "e": "Sat is correct for the past."},
+          {"t": "spelling", "w": "tre", "r": "tree", "e": "Tree has two e's at the end."},
+          {"t": "capitalization", "w": "dad", "r": "Dad", "e": "Dad starts with a capital letter when used as a name."},
+          {"t": "punctuation", "w": "Dad", "r": "Dad.", "e": "A sentence needs a period at the end."}
+        ],
+        "fixed": "I sat by the tree with Dad.",
+        "pos": [
+          {"w": "I", "t": "N", "q": "Find the word that means me."},
+          {"w": "sat", "t": "V", "q": "Find the action word for sitting."},
+          {"w": "by", "t": "PREP", "q": "Find the word that means next to."},
+          {"w": "the", "t": "ART", "q": "Find the little word before tree."},
+          {"w": "tree", "t": "N", "q": "Find the tall plant with leaves."},
+          {"w": "with", "t": "PREP", "q": "Find the word that means together."},
+          {"w": "Dad", "t": "N", "q": "Find the name for your father."}
+        ],
+        "manip": {
+          "task": "Change who you sat with to a different person.",
+          "word": "Dad",
+          "examples": [
+            "I sat by the tree with <span class='changed'>Mom</span>.",
+            "I sat by the tree with <span class='changed'>Ben</span>."
+          ]
+        },
+        "vocab": {
+          "w": "companion",
+          "type": "noun",
+          "def": "A friend who goes with you.",
+          "simple": "A companion is a friend who is with you! Someone you do things with!",
+          "examples": ["a travel companion", "my companion", "a good companion"],
+          "similar": ["friend", "buddy", "pal"],
+          "antonyms": ["stranger", "enemy", "loner"],
+          "nonex": ["It does NOT mean a pet.", "It does NOT mean a boss."],
+          "example": "Dad was my companion by the tree.",
+          "starter": "My favorite companion is _______ because ...",
+          "why": "Companion is a nice word for someone who keeps you company!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 74,
+    "sentences": [
+      {
+        "orig": "the smal yelo brd sat on a log",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word starts with a capital letter."},
+          {"t": "spelling", "w": "smal", "r": "small", "e": "Small is spelled s-m-a-l-l with two l's."},
+          {"t": "spelling", "w": "yelo", "r": "yellow", "e": "Yellow is spelled y-e-l-l-o-w."},
+          {"t": "spelling", "w": "brd", "r": "bird", "e": "Bird is spelled b-i-r-d."},
+          {"t": "punctuation", "w": "log", "r": "log.", "e": "A sentence needs a period at the end."}
+        ],
+        "fixed": "The small yellow bird sat on a log.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the little word at the start."},
+          {"w": "small", "t": "ADJ", "q": "Find the word that tells the size of the bird."},
+          {"w": "yellow", "t": "ADJ", "q": "Find the color word that tells about the bird."},
+          {"w": "bird", "t": "N", "q": "Find the animal with feathers."},
+          {"w": "sat", "t": "V", "q": "Find the action word for sitting."},
+          {"w": "on", "t": "PREP", "q": "Find the word that tells where."},
+          {"w": "a", "t": "ART", "q": "Find the little word before log."},
+          {"w": "log", "t": "N", "q": "Find the piece of a tree on the ground."}
+        ],
+        "manip": {
+          "task": "Change the color word to a new color.",
+          "word": "yellow",
+          "examples": [
+            "The small <span class='changed'>blue</span> bird sat on a log.",
+            "The small <span class='changed'>red</span> bird sat on a log."
+          ]
+        },
+        "vocab": {
+          "w": "delightful",
+          "type": "adjective",
+          "def": "Very pleasing and enjoyable.",
+          "simple": "Delightful means something that makes you really happy!",
+          "examples": ["a delightful day", "a delightful song", "delightful food"],
+          "similar": ["lovely", "wonderful", "pleasant"],
+          "antonyms": ["awful", "unpleasant", "horrible"],
+          "nonex": ["It does NOT mean funny.", "It does NOT mean surprising."],
+          "example": "The delightful little bird sang a sweet song.",
+          "starter": "Something delightful happened when _______ ...",
+          "why": "Delightful is a happy word for things that bring you joy!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 75,
+    "sentences": [
+      {
+        "orig": "sam and i see three big cats by the pond",
+        "corr": [
+          {"t": "capitalization", "w": "sam", "r": "Sam", "e": "A person's name always starts with a capital letter."},
+          {"t": "capitalization", "w": "i", "r": "I", "e": "The word I is always a capital letter."},
+          {"t": "grammar", "w": "see", "r": "saw", "e": "We say saw because it already happened."},
+          {"t": "grammar", "w": "cats", "r": "cats", "e": "Cats is correct with -s for more than one."},
+          {"t": "punctuation", "w": "pond", "r": "pond.", "e": "A sentence needs a period at the end."}
+        ],
+        "fixed": "Sam and I saw three big cats by the pond.",
+        "pos": [
+          {"w": "Sam", "t": "N", "q": "Find the name of the person."},
+          {"w": "and", "t": "CONJ", "q": "Find the word that joins two people."},
+          {"w": "I", "t": "N", "q": "Find the word that means me."},
+          {"w": "saw", "t": "V", "q": "Find the action word for using your eyes in the past."},
+          {"w": "three", "t": "ADJ", "q": "Find the number word."},
+          {"w": "big", "t": "ADJ", "q": "Find the word that tells the size of the cats."},
+          {"w": "cats", "t": "N", "q": "Find the animals with -s for more than one."},
+          {"w": "by", "t": "PREP", "q": "Find the word that means next to."},
+          {"w": "the", "t": "ART", "q": "Find the little word before pond."},
+          {"w": "pond", "t": "N", "q": "Find the small body of water."}
+        ],
+        "manip": {
+          "task": "Change the animal to a different plural animal.",
+          "word": "cats",
+          "examples": [
+            "Sam and I saw three big <span class='changed'>dogs</span> by the pond.",
+            "Sam and I saw three big <span class='changed'>birds</span> by the pond."
+          ]
+        },
+        "vocab": {
+          "w": "magnificent",
+          "type": "adjective",
+          "def": "Extremely beautiful or impressive.",
+          "simple": "Magnificent means the most amazing thing ever! Better than great!",
+          "examples": ["a magnificent castle", "a magnificent view", "a magnificent animal"],
+          "similar": ["grand", "stunning", "spectacular"],
+          "antonyms": ["plain", "ugly", "ordinary"],
+          "nonex": ["It does NOT mean just pretty.", "It does NOT mean very big."],
+          "example": "We saw three magnificent cats by the pond.",
+          "starter": "The most magnificent thing I ever saw was _______ ...",
+          "why": "Magnificent is the biggest, best word for something truly amazing!"
+        }
+      }
+    ]
+  }
+]

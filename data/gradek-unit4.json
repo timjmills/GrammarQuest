@@ -1,0 +1,1157 @@
+[
+  {
+    "day": 76,
+    "sentences": [
+      {
+        "orig": "i like to play with mi frend",
+        "corr": [
+          {"t": "capitalization", "w": "i", "r": "I", "e": "The pronoun I is always capitalized."},
+          {"t": "spelling", "w": "mi", "r": "my", "e": "My is spelled m-y, not m-i."},
+          {"t": "grammar", "w": "play", "r": "play", "e": "Play is an action verb that tells what I do."},
+          {"t": "spelling", "w": "frend", "r": "friend", "e": "Friend is spelled f-r-i-e-n-d."},
+          {"t": "punctuation", "w": "frend", "r": "friend.", "e": "A sentence must end with a period."}
+        ],
+        "fixed": "I like to play with my friend.",
+        "pos": [
+          {"w": "I", "t": "PRO", "q": "Find the pronoun that means 'me, the speaker.'"},
+          {"w": "like", "t": "V", "q": "Find the verb that tells a feeling."},
+          {"w": "to", "t": "PREP", "q": "Find the small word before 'play.'"},
+          {"w": "play", "t": "V", "q": "Find the action verb."},
+          {"w": "with", "t": "PREP", "q": "Find the preposition that means 'together.'"},
+          {"w": "my", "t": "POSS", "q": "Find the word that means 'belonging to me.'"},
+          {"w": "friend", "t": "N", "q": "Find the noun for a person you like."}
+        ],
+        "manip": {
+          "task": "Replace the verb 'play' with a different verb.",
+          "word": "play",
+          "examples": [
+            "I like to <span class='changed'>run</span> with my friend.",
+            "I like to <span class='changed'>read</span> with my friend."
+          ]
+        },
+        "vocab": {
+          "w": "cooperate",
+          "type": "verb",
+          "def": "To work together with others to get something done.",
+          "simple": "Cooperate means to help each other and work as a team!",
+          "examples": ["cooperate on a project", "cooperate with friends", "cooperate in class"],
+          "similar": ["help", "share", "team up"],
+          "antonyms": ["fight", "argue", "refuse"],
+          "nonex": ["It does NOT mean to do things all by yourself.", "It does NOT mean to boss others around."],
+          "example": "The kids cooperate to build a tall tower with blocks.",
+          "starter": "I cooperate when I _______ ...",
+          "why": "When you cooperate, you can do bigger things than you can alone!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 77,
+    "sentences": [
+      {
+        "orig": "i see he runing to the dor",
+        "corr": [
+          {"t": "capitalization", "w": "i", "r": "I", "e": "The pronoun I is always capitalized."},
+          {"t": "grammar", "w": "he", "r": "he", "e": "He is a pronoun for a boy or man."},
+          {"t": "spelling", "w": "runing", "r": "running", "e": "Running has two n's in the middle."},
+          {"t": "spelling", "w": "dor", "r": "door", "e": "Door is spelled d-o-o-r."},
+          {"t": "punctuation", "w": "dor", "r": "door.", "e": "A sentence must end with a period."}
+        ],
+        "fixed": "I see he running to the door.",
+        "pos": [
+          {"w": "I", "t": "PRO", "q": "Find the pronoun that means 'me, the speaker.'"},
+          {"w": "see", "t": "V", "q": "Find the verb that means to look at."},
+          {"w": "he", "t": "PRO", "q": "Find the pronoun for a boy."},
+          {"w": "running", "t": "V", "q": "Find the action verb."},
+          {"w": "to", "t": "PREP", "q": "Find the preposition before 'the.'"},
+          {"w": "the", "t": "ART", "q": "Find the article before 'door.'"},
+          {"w": "door", "t": "N", "q": "Find the noun you walk through."}
+        ],
+        "manip": {
+          "task": "Replace the pronoun 'he' with a different pronoun.",
+          "word": "he",
+          "examples": [
+            "I see <span class='changed'>she</span> running to the door.",
+            "I see <span class='changed'>it</span> running to the door."
+          ]
+        },
+        "vocab": {
+          "w": "responsible",
+          "type": "adjective",
+          "def": "Taking care of what you are supposed to do.",
+          "simple": "Responsible means you do your jobs and keep your promises!",
+          "examples": ["a responsible student", "be responsible for your pet", "a responsible helper"],
+          "similar": ["careful", "reliable", "trusty"],
+          "antonyms": ["careless", "lazy", "forgetful"],
+          "nonex": ["It does NOT mean doing whatever you want.", "It does NOT mean letting someone else do your work."],
+          "example": "She is responsible and always puts her toys away.",
+          "starter": "I am responsible when I _______ ...",
+          "why": "Being responsible shows others they can count on you!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 78,
+    "sentences": [
+      {
+        "orig": "i see she sits on a big rug",
+        "corr": [
+          {"t": "capitalization", "w": "i", "r": "I", "e": "The pronoun I is always capitalized."},
+          {"t": "grammar", "w": "she", "r": "she", "e": "She is a pronoun for a girl or woman."},
+          {"t": "spelling", "w": "sits", "r": "sits", "e": "Sits is spelled correctly with a short i."},
+          {"t": "grammar", "w": "a", "r": "a", "e": "We use 'a' before words that start with a consonant."},
+          {"t": "punctuation", "w": "rug", "r": "rug.", "e": "A sentence must end with a period."}
+        ],
+        "fixed": "I see she sits on a big rug.",
+        "pos": [
+          {"w": "I", "t": "PRO", "q": "Find the pronoun that means 'me, the speaker.'"},
+          {"w": "see", "t": "V", "q": "Find the verb that means to look at."},
+          {"w": "she", "t": "PRO", "q": "Find the pronoun for a girl."},
+          {"w": "sits", "t": "V", "q": "Find the action verb."},
+          {"w": "on", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "a", "t": "ART", "q": "Find the article before 'big.'"},
+          {"w": "big", "t": "ADJ", "q": "Find the adjective that tells the size."},
+          {"w": "rug", "t": "N", "q": "Find the noun you sit on."}
+        ],
+        "manip": {
+          "task": "Replace the adjective 'big' with a different adjective.",
+          "word": "big",
+          "examples": [
+            "I see she sits on a <span class='changed'>red</span> rug.",
+            "I see she sits on a <span class='changed'>soft</span> rug."
+          ]
+        },
+        "vocab": {
+          "w": "respectful",
+          "type": "adjective",
+          "def": "Treating others in a kind and polite way.",
+          "simple": "Respectful means being nice and polite to everyone!",
+          "examples": ["a respectful student", "respectful words", "respectful behavior"],
+          "similar": ["polite", "kind", "nice"],
+          "antonyms": ["rude", "mean", "unkind"],
+          "nonex": ["It does NOT mean being quiet all the time.", "It does NOT mean doing everything someone says."],
+          "example": "He is respectful and says please and thank you.",
+          "starter": "I am respectful when I _______ ...",
+          "why": "Being respectful makes everyone feel safe and happy!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 79,
+    "sentences": [
+      {
+        "orig": "we go to the park and we hav fun",
+        "corr": [
+          {"t": "capitalization", "w": "we", "r": "We", "e": "The first word of a sentence must be capitalized."},
+          {"t": "grammar", "w": "we", "r": "We", "e": "We is a pronoun that means 'me and others.'"},
+          {"t": "spelling", "w": "hav", "r": "have", "e": "Have ends with a silent e."},
+          {"t": "grammar", "w": "and", "r": "and", "e": "And is a joining word that connects two ideas."},
+          {"t": "punctuation", "w": "fun", "r": "fun.", "e": "A sentence must end with a period."}
+        ],
+        "fixed": "We go to the park and we have fun.",
+        "pos": [
+          {"w": "We", "t": "PRO", "q": "Find the pronoun that means 'me and others.'"},
+          {"w": "go", "t": "V", "q": "Find the verb that means to move somewhere."},
+          {"w": "to", "t": "PREP", "q": "Find the preposition before 'the.'"},
+          {"w": "the", "t": "ART", "q": "Find the article before 'park.'"},
+          {"w": "park", "t": "N", "q": "Find the noun for a place to play outside."},
+          {"w": "and", "t": "CONJ", "q": "Find the word that joins two ideas."},
+          {"w": "we", "t": "PRO", "q": "Find the pronoun that means 'me and others.'"},
+          {"w": "have", "t": "V", "q": "Find the verb that means to own or feel."},
+          {"w": "fun", "t": "N", "q": "Find the noun that means a good time."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'park' with a different place.",
+          "word": "park",
+          "examples": [
+            "We go to the <span class='changed'>pool</span> and we have fun.",
+            "We go to the <span class='changed'>yard</span> and we have fun."
+          ]
+        },
+        "vocab": {
+          "w": "include",
+          "type": "verb",
+          "def": "To let someone be part of a group or activity.",
+          "simple": "Include means to let others join in with you!",
+          "examples": ["include a new friend", "include everyone", "include her in the game"],
+          "similar": ["invite", "welcome", "add"],
+          "antonyms": ["leave out", "exclude", "ignore"],
+          "nonex": ["It does NOT mean to play alone.", "It does NOT mean to keep others away."],
+          "example": "We include the new kid in our game at recess.",
+          "starter": "I include others when I _______ ...",
+          "why": "When you include others, everyone gets to have fun!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 80,
+    "sentences": [
+      {
+        "orig": "thay run fast and thay win the rase",
+        "corr": [
+          {"t": "capitalization", "w": "thay", "r": "They", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "thay", "r": "They", "e": "They is spelled t-h-e-y."},
+          {"t": "spelling", "w": "thay", "r": "they", "e": "They is spelled t-h-e-y."},
+          {"t": "spelling", "w": "rase", "r": "race", "e": "Race is spelled r-a-c-e with a silent e."},
+          {"t": "punctuation", "w": "rase", "r": "race.", "e": "A sentence must end with a period."}
+        ],
+        "fixed": "They run fast and they win the race.",
+        "pos": [
+          {"w": "They", "t": "PRO", "q": "Find the pronoun that means 'those people.'"},
+          {"w": "run", "t": "V", "q": "Find the action verb for moving fast."},
+          {"w": "fast", "t": "ADV", "q": "Find the word that tells how they run."},
+          {"w": "and", "t": "CONJ", "q": "Find the word that joins two ideas."},
+          {"w": "they", "t": "PRO", "q": "Find the pronoun that means 'those people.'"},
+          {"w": "win", "t": "V", "q": "Find the verb that means to come in first."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'race.'"},
+          {"w": "race", "t": "N", "q": "Find the noun for a running contest."}
+        ],
+        "manip": {
+          "task": "Replace the pronoun 'They' with a name.",
+          "word": "They",
+          "examples": [
+            "<span class='changed'>Sam and Mia</span> run fast and they win the race.",
+            "<span class='changed'>The kids</span> run fast and they win the race."
+          ]
+        },
+        "vocab": {
+          "w": "team",
+          "type": "noun",
+          "def": "A group of people who work or play together.",
+          "simple": "A team is a group that works together to do something!",
+          "examples": ["a soccer team", "a team of friends", "our class team"],
+          "similar": ["group", "crew", "squad"],
+          "antonyms": ["individual", "solo", "alone"],
+          "nonex": ["It does NOT mean just one person.", "It does NOT mean people who are fighting."],
+          "example": "Our team works together to clean up the room.",
+          "starter": "I am on a team when I _______ ...",
+          "why": "Teams help people do things they cannot do alone!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 81,
+    "sentences": [
+      {
+        "orig": "it is a big red bal on the flor",
+        "corr": [
+          {"t": "capitalization", "w": "it", "r": "It", "e": "The first word of a sentence must be capitalized."},
+          {"t": "grammar", "w": "it", "r": "It", "e": "It is a pronoun for a thing."},
+          {"t": "spelling", "w": "bal", "r": "ball", "e": "Ball has two l's at the end."},
+          {"t": "spelling", "w": "flor", "r": "floor", "e": "Floor is spelled f-l-o-o-r."},
+          {"t": "punctuation", "w": "flor", "r": "floor.", "e": "A sentence must end with a period."}
+        ],
+        "fixed": "It is a big red ball on the floor.",
+        "pos": [
+          {"w": "It", "t": "PRO", "q": "Find the pronoun for a thing."},
+          {"w": "is", "t": "V", "q": "Find the verb that tells what something is."},
+          {"w": "a", "t": "ART", "q": "Find the article before 'big.'"},
+          {"w": "big", "t": "ADJ", "q": "Find the adjective that tells the size."},
+          {"w": "red", "t": "ADJ", "q": "Find the adjective that tells the color."},
+          {"w": "ball", "t": "N", "q": "Find the noun you play with."},
+          {"w": "on", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'floor.'"},
+          {"w": "floor", "t": "N", "q": "Find the noun you walk on."}
+        ],
+        "manip": {
+          "task": "Replace the adjective 'red' with a different color.",
+          "word": "red",
+          "examples": [
+            "It is a big <span class='changed'>blue</span> ball on the floor.",
+            "It is a big <span class='changed'>green</span> ball on the floor."
+          ]
+        },
+        "vocab": {
+          "w": "depend",
+          "type": "verb",
+          "def": "To need help from someone or something.",
+          "simple": "Depend means you need someone to help you!",
+          "examples": ["depend on a friend", "depend on mom", "depend on the teacher"],
+          "similar": ["need", "rely on", "count on"],
+          "antonyms": ["do alone", "manage", "handle"],
+          "nonex": ["It does NOT mean you never need help.", "It does NOT mean to ignore others."],
+          "example": "I depend on my mom to help me tie my shoes.",
+          "starter": "I depend on _______ when ...",
+          "why": "Everyone depends on others sometimes, and that is okay!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 82,
+    "sentences": [
+      {
+        "orig": "my cat is on mi bed and he naps",
+        "corr": [
+          {"t": "capitalization", "w": "my", "r": "My", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "mi", "r": "my", "e": "My is spelled m-y, not m-i."},
+          {"t": "grammar", "w": "my", "r": "my", "e": "My is a possessive word meaning 'belonging to me.'"},
+          {"t": "grammar", "w": "he", "r": "he", "e": "He is a pronoun for a boy or a male animal."},
+          {"t": "punctuation", "w": "naps", "r": "naps.", "e": "A sentence must end with a period."}
+        ],
+        "fixed": "My cat is on my bed and he naps.",
+        "pos": [
+          {"w": "My", "t": "POSS", "q": "Find the possessive word that means 'belonging to me.'"},
+          {"w": "cat", "t": "N", "q": "Find the noun for a pet animal."},
+          {"w": "is", "t": "V", "q": "Find the verb that tells what something is."},
+          {"w": "on", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "my", "t": "POSS", "q": "Find the possessive word before 'bed.'"},
+          {"w": "bed", "t": "N", "q": "Find the noun you sleep on."},
+          {"w": "and", "t": "CONJ", "q": "Find the word that joins two ideas."},
+          {"w": "he", "t": "PRO", "q": "Find the pronoun for the cat."},
+          {"w": "naps", "t": "V", "q": "Find the verb that means to sleep."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'cat' with a different pet.",
+          "word": "cat",
+          "examples": [
+            "My <span class='changed'>dog</span> is on my bed and he naps.",
+            "My <span class='changed'>rabbit</span> is on my bed and he naps."
+          ]
+        },
+        "vocab": {
+          "w": "treasure",
+          "type": "noun",
+          "def": "Something very special and valuable to you.",
+          "simple": "A treasure is something you think is really special!",
+          "examples": ["a hidden treasure", "my favorite treasure", "a treasure box"],
+          "similar": ["prize", "gem", "jewel"],
+          "antonyms": ["junk", "trash", "garbage"],
+          "nonex": ["It does NOT have to be gold or money.", "It does NOT mean something you throw away."],
+          "example": "My teddy bear is my treasure because I love it so much.",
+          "starter": "My treasure is _______ because ...",
+          "why": "A treasure can be anything you love, not just gold!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 83,
+    "sentences": [
+      {
+        "orig": "his dog is big and his dog can rin",
+        "corr": [
+          {"t": "capitalization", "w": "his", "r": "His", "e": "The first word of a sentence must be capitalized."},
+          {"t": "grammar", "w": "his", "r": "His", "e": "His is a possessive word meaning 'belonging to him.'"},
+          {"t": "grammar", "w": "his", "r": "his", "e": "His tells us the dog belongs to a boy."},
+          {"t": "spelling", "w": "rin", "r": "run", "e": "Run is spelled r-u-n, not r-i-n."},
+          {"t": "punctuation", "w": "rin", "r": "run.", "e": "A sentence must end with a period."}
+        ],
+        "fixed": "His dog is big and his dog can run.",
+        "pos": [
+          {"w": "His", "t": "POSS", "q": "Find the possessive word that means 'belonging to him.'"},
+          {"w": "dog", "t": "N", "q": "Find the noun for a pet animal."},
+          {"w": "is", "t": "V", "q": "Find the verb that tells what something is."},
+          {"w": "big", "t": "ADJ", "q": "Find the adjective that tells the size."},
+          {"w": "and", "t": "CONJ", "q": "Find the word that joins two ideas."},
+          {"w": "his", "t": "POSS", "q": "Find the possessive word before 'dog.'"},
+          {"w": "dog", "t": "N", "q": "Find the noun for a pet animal."},
+          {"w": "can", "t": "V", "q": "Find the helping verb."},
+          {"w": "run", "t": "V", "q": "Find the action verb for moving fast."}
+        ],
+        "manip": {
+          "task": "Replace the adjective 'big' with a different adjective.",
+          "word": "big",
+          "examples": [
+            "His dog is <span class='changed'>fast</span> and his dog can run.",
+            "His dog is <span class='changed'>brown</span> and his dog can run."
+          ]
+        },
+        "vocab": {
+          "w": "precious",
+          "type": "adjective",
+          "def": "Very important and loved very much.",
+          "simple": "Precious means something you love a lot and want to keep safe!",
+          "examples": ["a precious toy", "precious memories", "a precious pet"],
+          "similar": ["special", "dear", "valuable"],
+          "antonyms": ["worthless", "unimportant", "common"],
+          "nonex": ["It does NOT mean something you do not care about.", "It does NOT always mean it costs a lot of money."],
+          "example": "Her little kitten is precious to her.",
+          "starter": "Something precious to me is _______ because ...",
+          "why": "Precious helps you tell people what is really important to you!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 84,
+    "sentences": [
+      {
+        "orig": "her hat is prety and it is rede",
+        "corr": [
+          {"t": "capitalization", "w": "her", "r": "Her", "e": "The first word of a sentence must be capitalized."},
+          {"t": "grammar", "w": "her", "r": "Her", "e": "Her is a possessive word meaning 'belonging to her.'"},
+          {"t": "spelling", "w": "prety", "r": "pretty", "e": "Pretty has two t's in the middle."},
+          {"t": "spelling", "w": "rede", "r": "red", "e": "Red is spelled r-e-d with no silent e."},
+          {"t": "punctuation", "w": "rede", "r": "red.", "e": "A sentence must end with a period."}
+        ],
+        "fixed": "Her hat is pretty and it is red.",
+        "pos": [
+          {"w": "Her", "t": "POSS", "q": "Find the possessive word that means 'belonging to her.'"},
+          {"w": "hat", "t": "N", "q": "Find the noun you wear on your head."},
+          {"w": "is", "t": "V", "q": "Find the verb that tells what something is."},
+          {"w": "pretty", "t": "ADJ", "q": "Find the adjective that means nice to look at."},
+          {"w": "and", "t": "CONJ", "q": "Find the word that joins two ideas."},
+          {"w": "it", "t": "PRO", "q": "Find the pronoun for a thing."},
+          {"w": "is", "t": "V", "q": "Find the second verb in this sentence."},
+          {"w": "red", "t": "ADJ", "q": "Find the adjective that tells the color."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'hat' with a different clothing item.",
+          "word": "hat",
+          "examples": [
+            "Her <span class='changed'>dress</span> is pretty and it is red.",
+            "Her <span class='changed'>bag</span> is pretty and it is red."
+          ]
+        },
+        "vocab": {
+          "w": "belong",
+          "type": "verb",
+          "def": "To be a part of a group or to be owned by someone.",
+          "simple": "Belong means you are part of something or it is yours!",
+          "examples": ["belong to a team", "belong in the box", "this belongs to me"],
+          "similar": ["own", "fit in", "be part of"],
+          "antonyms": ["lose", "misplace", "be left out"],
+          "nonex": ["It does NOT mean to be alone.", "It does NOT mean to take something that is not yours."],
+          "example": "These crayons belong to our class.",
+          "starter": "I belong to _______ because ...",
+          "why": "Knowing where things belong helps you stay organized!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 85,
+    "sentences": [
+      {
+        "orig": "who is that kid on the sweng",
+        "corr": [
+          {"t": "capitalization", "w": "who", "r": "Who", "e": "The first word of a sentence must be capitalized."},
+          {"t": "grammar", "w": "who", "r": "Who", "e": "Who is a question word that asks about a person."},
+          {"t": "grammar", "w": "that", "r": "that", "e": "That is a word that points to something."},
+          {"t": "spelling", "w": "sweng", "r": "swing", "e": "Swing is spelled s-w-i-n-g."},
+          {"t": "punctuation", "w": "sweng", "r": "swing?", "e": "A question must end with a question mark."}
+        ],
+        "fixed": "Who is that kid on the swing?",
+        "pos": [
+          {"w": "Who", "t": "PRO", "q": "Find the question word that asks about a person."},
+          {"w": "is", "t": "V", "q": "Find the verb that tells what something is."},
+          {"w": "that", "t": "ADJ", "q": "Find the word that points to the kid."},
+          {"w": "kid", "t": "N", "q": "Find the noun for a young person."},
+          {"w": "on", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'swing.'"},
+          {"w": "swing", "t": "N", "q": "Find the noun for something you sit on at the playground."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'swing' with a different playground thing.",
+          "word": "swing",
+          "examples": [
+            "Who is that kid on the <span class='changed'>slide</span>?",
+            "Who is that kid on the <span class='changed'>bench</span>?"
+          ]
+        },
+        "vocab": {
+          "w": "curious",
+          "type": "adjective",
+          "def": "Wanting to learn or know about something.",
+          "simple": "Curious means you really want to find out about something!",
+          "examples": ["a curious kid", "curious about animals", "curious eyes"],
+          "similar": ["interested", "eager", "nosy"],
+          "antonyms": ["bored", "uninterested", "careless"],
+          "nonex": ["It does NOT mean being scared.", "It does NOT mean you already know the answer."],
+          "example": "She is curious about the bugs in the garden.",
+          "starter": "I am curious about _______ because ...",
+          "why": "Being curious helps you learn new and exciting things!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 86,
+    "sentences": [
+      {
+        "orig": "what is in the big bocks",
+        "corr": [
+          {"t": "capitalization", "w": "what", "r": "What", "e": "The first word of a sentence must be capitalized."},
+          {"t": "grammar", "w": "what", "r": "What", "e": "What is a question word that asks about a thing."},
+          {"t": "grammar", "w": "the", "r": "the", "e": "The is an article that points to a specific thing."},
+          {"t": "spelling", "w": "bocks", "r": "box", "e": "Box is spelled b-o-x."},
+          {"t": "punctuation", "w": "bocks", "r": "box?", "e": "A question must end with a question mark."}
+        ],
+        "fixed": "What is in the big box?",
+        "pos": [
+          {"w": "What", "t": "PRO", "q": "Find the question word that asks about a thing."},
+          {"w": "is", "t": "V", "q": "Find the verb that tells what something is."},
+          {"w": "in", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'big.'"},
+          {"w": "big", "t": "ADJ", "q": "Find the adjective that tells the size."},
+          {"w": "box", "t": "N", "q": "Find the noun for a container."}
+        ],
+        "manip": {
+          "task": "Replace the adjective 'big' with a different adjective.",
+          "word": "big",
+          "examples": [
+            "What is in the <span class='changed'>red</span> box?",
+            "What is in the <span class='changed'>little</span> box?"
+          ]
+        },
+        "vocab": {
+          "w": "wonder",
+          "type": "verb",
+          "def": "To think about something and want to know more.",
+          "simple": "Wonder means your brain is asking questions about something!",
+          "examples": ["wonder about the stars", "wonder why it rains", "wonder what is inside"],
+          "similar": ["think about", "question", "ponder"],
+          "antonyms": ["know", "ignore", "forget"],
+          "nonex": ["It does NOT mean you are worried.", "It does NOT mean you already know the answer."],
+          "example": "I wonder what is inside that big box.",
+          "starter": "I wonder why _______ ...",
+          "why": "Wondering is how great ideas and discoveries begin!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 87,
+    "sentences": [
+      {
+        "orig": "where is my red pene",
+        "corr": [
+          {"t": "capitalization", "w": "where", "r": "Where", "e": "The first word of a sentence must be capitalized."},
+          {"t": "grammar", "w": "where", "r": "Where", "e": "Where is a question word that asks about a place."},
+          {"t": "grammar", "w": "my", "r": "my", "e": "My is a possessive word meaning 'belonging to me.'"},
+          {"t": "spelling", "w": "pene", "r": "pen", "e": "Pen is spelled p-e-n with no extra e."},
+          {"t": "punctuation", "w": "pene", "r": "pen?", "e": "A question must end with a question mark."}
+        ],
+        "fixed": "Where is my red pen?",
+        "pos": [
+          {"w": "Where", "t": "PRO", "q": "Find the question word that asks about a place."},
+          {"w": "is", "t": "V", "q": "Find the verb."},
+          {"w": "my", "t": "POSS", "q": "Find the possessive word that means 'belonging to me.'"},
+          {"w": "red", "t": "ADJ", "q": "Find the adjective that tells the color."},
+          {"w": "pen", "t": "N", "q": "Find the noun you write with."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'pen' with something else you look for.",
+          "word": "pen",
+          "examples": [
+            "Where is my red <span class='changed'>cup</span>?",
+            "Where is my red <span class='changed'>bag</span>?"
+          ]
+        },
+        "vocab": {
+          "w": "mystery",
+          "type": "noun",
+          "def": "Something that is hard to understand or explain.",
+          "simple": "A mystery is something you do not know yet and want to figure out!",
+          "examples": ["a fun mystery", "solve the mystery", "a mystery book"],
+          "similar": ["puzzle", "secret", "riddle"],
+          "antonyms": ["answer", "fact", "solution"],
+          "nonex": ["It does NOT mean something scary.", "It does NOT mean something you will never find out."],
+          "example": "Where did my crayon go? It is a mystery!",
+          "starter": "A mystery I want to solve is _______ ...",
+          "why": "Mysteries make you think and use clues to find answers!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 88,
+    "sentences": [
+      {
+        "orig": "the cat sats on the sof mat",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "sats", "r": "sits", "e": "Sits is spelled s-i-t-s."},
+          {"t": "grammar", "w": "sats", "r": "sits", "e": "Sits is the verb, the action part of this sentence."},
+          {"t": "spelling", "w": "sof", "r": "soft", "e": "Soft ends with a t."},
+          {"t": "punctuation", "w": "mat", "r": "mat.", "e": "A sentence must end with a period."}
+        ],
+        "fixed": "The cat sits on the soft mat.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the start."},
+          {"w": "cat", "t": "N", "q": "Find the noun for the animal. This is the subject."},
+          {"w": "sits", "t": "V", "q": "Find the verb. This is the action part."},
+          {"w": "on", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'soft.'"},
+          {"w": "soft", "t": "ADJ", "q": "Find the adjective that tells how the mat feels."},
+          {"w": "mat", "t": "N", "q": "Find the noun the cat sits on."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'cat' with a different animal.",
+          "word": "cat",
+          "examples": [
+            "The <span class='changed'>dog</span> sits on the soft mat.",
+            "The <span class='changed'>frog</span> sits on the soft mat."
+          ]
+        },
+        "vocab": {
+          "w": "sentence",
+          "type": "noun",
+          "def": "A group of words that tells a complete idea.",
+          "simple": "A sentence is words put together to tell a whole idea!",
+          "examples": ["write a sentence", "read the sentence", "a complete sentence"],
+          "similar": ["statement", "phrase", "line"],
+          "antonyms": ["word", "letter", "fragment"],
+          "nonex": ["It is NOT just one word by itself.", "It is NOT a group of random words."],
+          "example": "The cat sits on the mat is a complete sentence.",
+          "starter": "I can write a sentence about _______ ...",
+          "why": "Sentences help you share your ideas so others can understand!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 89,
+    "sentences": [
+      {
+        "orig": "she runed to the big tre",
+        "corr": [
+          {"t": "capitalization", "w": "she", "r": "She", "e": "The first word of a sentence must be capitalized."},
+          {"t": "grammar", "w": "she", "r": "She", "e": "She is the subject pronoun doing the action."},
+          {"t": "spelling", "w": "runed", "r": "ran", "e": "The past tense of run is ran, not runed."},
+          {"t": "spelling", "w": "tre", "r": "tree", "e": "Tree has two e's at the end."},
+          {"t": "punctuation", "w": "tre", "r": "tree.", "e": "A sentence must end with a period."}
+        ],
+        "fixed": "She ran to the big tree.",
+        "pos": [
+          {"w": "She", "t": "PRO", "q": "Find the pronoun for a girl. This is the subject."},
+          {"w": "ran", "t": "V", "q": "Find the action verb. This is what she did."},
+          {"w": "to", "t": "PREP", "q": "Find the preposition."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'big.'"},
+          {"w": "big", "t": "ADJ", "q": "Find the adjective that tells the size."},
+          {"w": "tree", "t": "N", "q": "Find the noun for a tall plant."}
+        ],
+        "manip": {
+          "task": "Replace the verb 'ran' with a different action.",
+          "word": "ran",
+          "examples": [
+            "She <span class='changed'>walked</span> to the big tree.",
+            "She <span class='changed'>skipped</span> to the big tree."
+          ]
+        },
+        "vocab": {
+          "w": "express",
+          "type": "verb",
+          "def": "To show or tell how you feel or what you think.",
+          "simple": "Express means to show your feelings or ideas!",
+          "examples": ["express your feelings", "express an idea", "express joy"],
+          "similar": ["show", "share", "tell"],
+          "antonyms": ["hide", "keep inside", "hold back"],
+          "nonex": ["It does NOT mean to keep your feelings secret.", "It does NOT mean to be loud or yell."],
+          "example": "She can express her feelings by drawing a picture.",
+          "starter": "I express my feelings when I _______ ...",
+          "why": "Expressing yourself helps others know how you feel!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 90,
+    "sentences": [
+      {
+        "orig": "we talkd to the nise teecher",
+        "corr": [
+          {"t": "capitalization", "w": "we", "r": "We", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "talkd", "r": "talked", "e": "Talked ends with -ed."},
+          {"t": "spelling", "w": "nise", "r": "nice", "e": "Nice is spelled n-i-c-e."},
+          {"t": "spelling", "w": "teecher", "r": "teacher", "e": "Teacher is spelled t-e-a-c-h-e-r."},
+          {"t": "punctuation", "w": "teecher", "r": "teacher.", "e": "A sentence must end with a period."}
+        ],
+        "fixed": "We talked to the nice teacher.",
+        "pos": [
+          {"w": "We", "t": "PRO", "q": "Find the subject pronoun meaning 'me and others.'"},
+          {"w": "talked", "t": "V", "q": "Find the past tense action verb."},
+          {"w": "to", "t": "PREP", "q": "Find the preposition."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'nice.'"},
+          {"w": "nice", "t": "ADJ", "q": "Find the adjective that describes the teacher."},
+          {"w": "teacher", "t": "N", "q": "Find the noun for a person who teaches."}
+        ],
+        "manip": {
+          "task": "Replace the adjective 'nice' with a different adjective.",
+          "word": "nice",
+          "examples": [
+            "We talked to the <span class='changed'>kind</span> teacher.",
+            "We talked to the <span class='changed'>funny</span> teacher."
+          ]
+        },
+        "vocab": {
+          "w": "communicate",
+          "type": "verb",
+          "def": "To share ideas or feelings with someone using words or actions.",
+          "simple": "Communicate means to tell someone what you think or feel!",
+          "examples": ["communicate with words", "communicate by writing", "communicate a message"],
+          "similar": ["talk", "share", "tell"],
+          "antonyms": ["ignore", "be quiet", "keep secret"],
+          "nonex": ["It does NOT mean talking to yourself.", "It does NOT always mean using words."],
+          "example": "We communicate with our teacher by raising our hands.",
+          "starter": "I communicate with my friends by _______ ...",
+          "why": "Communicating helps people understand each other!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 91,
+    "sentences": [
+      {
+        "orig": "the litle brow dog ran fast",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "litle", "r": "little", "e": "Little has two t's in the middle."},
+          {"t": "spelling", "w": "brow", "r": "brown", "e": "Brown ends with an n."},
+          {"t": "grammar", "w": "ran", "r": "ran", "e": "Ran is the verb that tells what the dog did."},
+          {"t": "punctuation", "w": "fast", "r": "fast.", "e": "A sentence must end with a period."}
+        ],
+        "fixed": "The little brown dog ran fast.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the start."},
+          {"w": "little", "t": "ADJ", "q": "Find the adjective that tells the size."},
+          {"w": "brown", "t": "ADJ", "q": "Find the adjective that tells the color."},
+          {"w": "dog", "t": "N", "q": "Find the noun for the animal."},
+          {"w": "ran", "t": "V", "q": "Find the verb that tells what the dog did."},
+          {"w": "fast", "t": "ADV", "q": "Find the word that tells how the dog ran."}
+        ],
+        "manip": {
+          "task": "Add another adjective before 'dog.'",
+          "word": "dog",
+          "examples": [
+            "The little brown <span class='changed'>fluffy</span> dog ran fast.",
+            "The little brown <span class='changed'>happy</span> dog ran fast."
+          ]
+        },
+        "vocab": {
+          "w": "describe",
+          "type": "verb",
+          "def": "To tell what something looks like or how it is.",
+          "simple": "Describe means to use words to tell about something!",
+          "examples": ["describe a picture", "describe your pet", "describe the weather"],
+          "similar": ["explain", "tell about", "show"],
+          "antonyms": ["hide", "ignore", "skip"],
+          "nonex": ["It does NOT mean to draw a picture.", "It does NOT mean to point at something."],
+          "example": "Can you describe your favorite animal to me?",
+          "starter": "I can describe my _______ by saying ...",
+          "why": "Describing helps people see pictures in their minds!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 92,
+    "sentences": [
+      {
+        "orig": "a tol happy boy jmped up",
+        "corr": [
+          {"t": "capitalization", "w": "a", "r": "A", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "tol", "r": "tall", "e": "Tall has two l's at the end."},
+          {"t": "grammar", "w": "happy", "r": "happy", "e": "Happy is an adjective that describes the boy."},
+          {"t": "spelling", "w": "jmped", "r": "jumped", "e": "Jumped is spelled j-u-m-p-e-d."},
+          {"t": "punctuation", "w": "up", "r": "up.", "e": "A sentence must end with a period."}
+        ],
+        "fixed": "A tall happy boy jumped up.",
+        "pos": [
+          {"w": "A", "t": "ART", "q": "Find the article at the start."},
+          {"w": "tall", "t": "ADJ", "q": "Find the adjective that tells the size."},
+          {"w": "happy", "t": "ADJ", "q": "Find the adjective that tells the feeling."},
+          {"w": "boy", "t": "N", "q": "Find the noun for a young male person."},
+          {"w": "jumped", "t": "V", "q": "Find the action verb."},
+          {"w": "up", "t": "PREP", "q": "Find the word that tells the direction."}
+        ],
+        "manip": {
+          "task": "Replace the adjective 'happy' with a different feeling.",
+          "word": "happy",
+          "examples": [
+            "A tall <span class='changed'>excited</span> boy jumped up.",
+            "A tall <span class='changed'>silly</span> boy jumped up."
+          ]
+        },
+        "vocab": {
+          "w": "detail",
+          "type": "noun",
+          "def": "A small piece of information about something.",
+          "simple": "A detail is a small fact that tells you more about something!",
+          "examples": ["a tiny detail", "add more details", "an important detail"],
+          "similar": ["fact", "piece", "bit"],
+          "antonyms": ["whole", "summary", "overview"],
+          "nonex": ["It does NOT mean the whole thing.", "It does NOT mean something big and obvious."],
+          "example": "One detail about my dog is that he has a brown spot on his nose.",
+          "starter": "One detail about my _______ is ...",
+          "why": "Details make your stories more interesting and clear!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 93,
+    "sentences": [
+      {
+        "orig": "she has a smal wite kitten",
+        "corr": [
+          {"t": "capitalization", "w": "she", "r": "She", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "smal", "r": "small", "e": "Small has two l's at the end."},
+          {"t": "spelling", "w": "wite", "r": "white", "e": "White starts with w-h."},
+          {"t": "grammar", "w": "kitten", "r": "kitten", "e": "Kitten is a noun, the thing she has."},
+          {"t": "punctuation", "w": "kitten", "r": "kitten.", "e": "A sentence must end with a period."}
+        ],
+        "fixed": "She has a small white kitten.",
+        "pos": [
+          {"w": "She", "t": "PRO", "q": "Find the pronoun for a girl."},
+          {"w": "has", "t": "V", "q": "Find the verb that means to own."},
+          {"w": "a", "t": "ART", "q": "Find the article before 'small.'"},
+          {"w": "small", "t": "ADJ", "q": "Find the adjective that tells the size."},
+          {"w": "white", "t": "ADJ", "q": "Find the adjective that tells the color."},
+          {"w": "kitten", "t": "N", "q": "Find the noun for a baby cat."}
+        ],
+        "manip": {
+          "task": "Replace the adjective 'white' with a different color.",
+          "word": "white",
+          "examples": [
+            "She has a small <span class='changed'>black</span> kitten.",
+            "She has a small <span class='changed'>gray</span> kitten."
+          ]
+        },
+        "vocab": {
+          "w": "brilliant",
+          "type": "adjective",
+          "def": "Very bright or very smart.",
+          "simple": "Brilliant means super bright or super smart!",
+          "examples": ["a brilliant light", "a brilliant idea", "a brilliant student"],
+          "similar": ["bright", "clever", "smart"],
+          "antonyms": ["dull", "dim", "silly"],
+          "nonex": ["It does NOT mean just okay.", "It does NOT mean dark or quiet."],
+          "example": "She had a brilliant idea for the class project.",
+          "starter": "Something brilliant I saw was _______ ...",
+          "why": "Brilliant is a great word to describe amazing things and people!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 94,
+    "sentences": [
+      {
+        "orig": "the cat is undre the big tabel",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "undre", "r": "under", "e": "Under is spelled u-n-d-e-r."},
+          {"t": "grammar", "w": "undre", "r": "under", "e": "Under is a preposition that tells where."},
+          {"t": "spelling", "w": "tabel", "r": "table", "e": "Table is spelled t-a-b-l-e."},
+          {"t": "punctuation", "w": "tabel", "r": "table.", "e": "A sentence must end with a period."}
+        ],
+        "fixed": "The cat is under the big table.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the start."},
+          {"w": "cat", "t": "N", "q": "Find the noun for the animal."},
+          {"w": "is", "t": "V", "q": "Find the verb."},
+          {"w": "under", "t": "PREP", "q": "Find the preposition that means below."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'big.'"},
+          {"w": "big", "t": "ADJ", "q": "Find the adjective that tells the size."},
+          {"w": "table", "t": "N", "q": "Find the noun for furniture you eat at."}
+        ],
+        "manip": {
+          "task": "Replace the preposition 'under' with a different preposition.",
+          "word": "under",
+          "examples": [
+            "The cat is <span class='changed'>on</span> the big table.",
+            "The cat is <span class='changed'>by</span> the big table."
+          ]
+        },
+        "vocab": {
+          "w": "beneath",
+          "type": "preposition",
+          "def": "Under or below something.",
+          "simple": "Beneath means under something, like under a table!",
+          "examples": ["beneath the bed", "beneath the tree", "beneath the blanket"],
+          "similar": ["under", "below", "underneath"],
+          "antonyms": ["above", "over", "on top of"],
+          "nonex": ["It does NOT mean on top of something.", "It does NOT mean next to something."],
+          "example": "The toy is beneath the bed where I cannot see it.",
+          "starter": "Something beneath my _______ is ...",
+          "why": "Beneath is another way to say under, and good readers know many words!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 95,
+    "sentences": [
+      {
+        "orig": "the bird floo over the tal fen",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "floo", "r": "flew", "e": "Flew is the past tense of fly, spelled f-l-e-w."},
+          {"t": "grammar", "w": "over", "r": "over", "e": "Over is a preposition that means above."},
+          {"t": "spelling", "w": "fen", "r": "fence", "e": "Fence is spelled f-e-n-c-e."},
+          {"t": "punctuation", "w": "fen", "r": "fence.", "e": "A sentence must end with a period."}
+        ],
+        "fixed": "The bird flew over the tall fence.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the start."},
+          {"w": "bird", "t": "N", "q": "Find the noun for the animal."},
+          {"w": "flew", "t": "V", "q": "Find the verb that tells what the bird did."},
+          {"w": "over", "t": "PREP", "q": "Find the preposition that means above."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'tall.'"},
+          {"w": "tall", "t": "ADJ", "q": "Find the adjective that tells the size."},
+          {"w": "fence", "t": "N", "q": "Find the noun for a wall around a yard."}
+        ],
+        "manip": {
+          "task": "Replace the preposition 'over' with a different preposition.",
+          "word": "over",
+          "examples": [
+            "The bird flew <span class='changed'>by</span> the tall fence.",
+            "The bird flew <span class='changed'>past</span> the tall fence."
+          ]
+        },
+        "vocab": {
+          "w": "beyond",
+          "type": "preposition",
+          "def": "Past something or farther away than something.",
+          "simple": "Beyond means farther away, on the other side!",
+          "examples": ["beyond the hill", "beyond the fence", "beyond the door"],
+          "similar": ["past", "farther", "on the other side"],
+          "antonyms": ["near", "close", "before"],
+          "nonex": ["It does NOT mean right next to you.", "It does NOT mean behind you."],
+          "example": "The park is beyond the big hill.",
+          "starter": "Beyond my school, I can see _______ ...",
+          "why": "Beyond helps you talk about things that are far away!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 96,
+    "sentences": [
+      {
+        "orig": "he sits bi the pond with his pal",
+        "corr": [
+          {"t": "capitalization", "w": "he", "r": "He", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "bi", "r": "by", "e": "By is spelled b-y."},
+          {"t": "grammar", "w": "bi", "r": "by", "e": "By is a preposition that means next to."},
+          {"t": "grammar", "w": "with", "r": "with", "e": "With is a preposition meaning together."},
+          {"t": "punctuation", "w": "pal", "r": "pal.", "e": "A sentence must end with a period."}
+        ],
+        "fixed": "He sits by the pond with his pal.",
+        "pos": [
+          {"w": "He", "t": "PRO", "q": "Find the pronoun for a boy."},
+          {"w": "sits", "t": "V", "q": "Find the action verb."},
+          {"w": "by", "t": "PREP", "q": "Find the preposition that means next to."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'pond.'"},
+          {"w": "pond", "t": "N", "q": "Find the noun for a small body of water."},
+          {"w": "with", "t": "PREP", "q": "Find the preposition that means together."},
+          {"w": "his", "t": "POSS", "q": "Find the possessive word meaning 'belonging to him.'"},
+          {"w": "pal", "t": "N", "q": "Find the noun that means friend."}
+        ],
+        "manip": {
+          "task": "Replace the preposition 'by' with a different preposition.",
+          "word": "by",
+          "examples": [
+            "He sits <span class='changed'>near</span> the pond with his pal.",
+            "He sits <span class='changed'>at</span> the pond with his pal."
+          ]
+        },
+        "vocab": {
+          "w": "surround",
+          "type": "verb",
+          "def": "To be all around something on every side.",
+          "simple": "Surround means to be all the way around something!",
+          "examples": ["surround the house", "surround with friends", "trees surround the pond"],
+          "similar": ["circle", "ring", "wrap around"],
+          "antonyms": ["leave", "open up", "move away"],
+          "nonex": ["It does NOT mean to be on just one side.", "It does NOT mean to go inside."],
+          "example": "Big trees surround the pond in the park.",
+          "starter": "Things that surround my school are _______ ...",
+          "why": "Surround is a great word to describe what is all around you!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 97,
+    "sentences": [
+      {
+        "orig": "the fat cet sat on a mat",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "cet", "r": "cat", "e": "Cat is in the -at family: c-a-t."},
+          {"t": "grammar", "w": "sat", "r": "sat", "e": "Sat is in the -at family too, like cat and mat."},
+          {"t": "grammar", "w": "a", "r": "a", "e": "We use 'a' before words starting with a consonant."},
+          {"t": "punctuation", "w": "mat", "r": "mat.", "e": "A sentence must end with a period."}
+        ],
+        "fixed": "The fat cat sat on a mat.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the start."},
+          {"w": "fat", "t": "ADJ", "q": "Find the adjective that tells the size. What word family is it in?"},
+          {"w": "cat", "t": "N", "q": "Find the noun in the -at word family."},
+          {"w": "sat", "t": "V", "q": "Find the verb in the -at word family."},
+          {"w": "on", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "a", "t": "ART", "q": "Find the article before 'mat.'"},
+          {"w": "mat", "t": "N", "q": "Find the noun in the -at word family."}
+        ],
+        "manip": {
+          "task": "Replace the -at word 'mat' with another -at word.",
+          "word": "mat",
+          "examples": [
+            "The fat cat sat on a <span class='changed'>hat</span>.",
+            "The fat cat sat on a <span class='changed'>bat</span>."
+          ]
+        },
+        "vocab": {
+          "w": "pattern",
+          "type": "noun",
+          "def": "Something that repeats in the same way over and over.",
+          "simple": "A pattern is something that happens again and again in the same way!",
+          "examples": ["a color pattern", "a word pattern", "a number pattern"],
+          "similar": ["design", "sequence", "repeat"],
+          "antonyms": ["random", "mess", "jumble"],
+          "nonex": ["It does NOT mean something that only happens once.", "It does NOT mean something messy with no order."],
+          "example": "Cat, bat, mat is a pattern because they all end in -at.",
+          "starter": "A pattern I see is _______ ...",
+          "why": "Finding patterns helps you learn to read and spell new words!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 98,
+    "sentences": [
+      {
+        "orig": "the big pig can dig in the mud",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "grammar", "w": "big", "r": "big", "e": "Big is in the -ig family, like pig and dig."},
+          {"t": "grammar", "w": "pig", "r": "pig", "e": "Pig is a noun in the -ig word family."},
+          {"t": "grammar", "w": "dig", "r": "dig", "e": "Dig is a verb in the -ig word family."},
+          {"t": "punctuation", "w": "mud", "r": "mud.", "e": "A sentence must end with a period."}
+        ],
+        "fixed": "The big pig can dig in the mud.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the start."},
+          {"w": "big", "t": "ADJ", "q": "Find the adjective in the -ig word family."},
+          {"w": "pig", "t": "N", "q": "Find the noun in the -ig word family."},
+          {"w": "can", "t": "V", "q": "Find the helping verb."},
+          {"w": "dig", "t": "V", "q": "Find the action verb in the -ig word family."},
+          {"w": "in", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'mud.'"},
+          {"w": "mud", "t": "N", "q": "Find the noun for wet dirt."}
+        ],
+        "manip": {
+          "task": "Replace the -ig word 'dig' with another -ig word.",
+          "word": "dig",
+          "examples": [
+            "The big pig can <span class='changed'>jig</span> in the mud.",
+            "The big pig can <span class='changed'>wig</span> in the mud."
+          ]
+        },
+        "vocab": {
+          "w": "rhyme",
+          "type": "verb",
+          "def": "Words that end with the same sound.",
+          "simple": "Rhyme means words that sound the same at the end, like cat and hat!",
+          "examples": ["cat and hat rhyme", "big and pig rhyme", "fun and run rhyme"],
+          "similar": ["match", "sound alike", "go together"],
+          "antonyms": ["clash", "mismatch", "differ"],
+          "nonex": ["It does NOT mean words that start the same.", "It does NOT mean words that mean the same thing."],
+          "example": "Pig, big, and dig all rhyme because they end in -ig.",
+          "starter": "A word that rhymes with _______ is ...",
+          "why": "Rhyming helps you learn word families and read new words!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 99,
+    "sentences": [
+      {
+        "orig": "who has my big red buk",
+        "corr": [
+          {"t": "capitalization", "w": "who", "r": "Who", "e": "The first word of a sentence must be capitalized."},
+          {"t": "grammar", "w": "who", "r": "Who", "e": "Who is a question word asking about a person."},
+          {"t": "grammar", "w": "my", "r": "my", "e": "My is a possessive word meaning 'belonging to me.'"},
+          {"t": "spelling", "w": "buk", "r": "book", "e": "Book is spelled b-o-o-k."},
+          {"t": "punctuation", "w": "buk", "r": "book?", "e": "A question must end with a question mark."}
+        ],
+        "fixed": "Who has my big red book?",
+        "pos": [
+          {"w": "Who", "t": "PRO", "q": "Find the question word asking about a person."},
+          {"w": "has", "t": "V", "q": "Find the verb that means to own."},
+          {"w": "my", "t": "POSS", "q": "Find the possessive word meaning 'belonging to me.'"},
+          {"w": "big", "t": "ADJ", "q": "Find the adjective that tells the size."},
+          {"w": "red", "t": "ADJ", "q": "Find the adjective that tells the color."},
+          {"w": "book", "t": "N", "q": "Find the noun you read."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'book' with something else you own.",
+          "word": "book",
+          "examples": [
+            "Who has my big red <span class='changed'>ball</span>?",
+            "Who has my big red <span class='changed'>cup</span>?"
+          ]
+        },
+        "vocab": {
+          "w": "accomplish",
+          "type": "verb",
+          "def": "To finish something you were trying to do.",
+          "simple": "Accomplish means you did it! You finished something!",
+          "examples": ["accomplish a goal", "accomplish a task", "accomplish your work"],
+          "similar": ["finish", "complete", "achieve"],
+          "antonyms": ["quit", "give up", "fail"],
+          "nonex": ["It does NOT mean to start something.", "It does NOT mean to try and then stop."],
+          "example": "She felt proud when she could accomplish reading her first book.",
+          "starter": "I accomplished _______ when I ...",
+          "why": "When you accomplish something, you feel proud of yourself!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 100,
+    "sentences": [
+      {
+        "orig": "we had fun and she lieks her class",
+        "corr": [
+          {"t": "capitalization", "w": "we", "r": "We", "e": "The first word of a sentence must be capitalized."},
+          {"t": "grammar", "w": "she", "r": "she", "e": "She is a pronoun for a girl."},
+          {"t": "spelling", "w": "lieks", "r": "likes", "e": "Likes is spelled l-i-k-e-s."},
+          {"t": "grammar", "w": "her", "r": "her", "e": "Her is a possessive word meaning 'belonging to her.'"},
+          {"t": "punctuation", "w": "class", "r": "class.", "e": "A sentence must end with a period."}
+        ],
+        "fixed": "We had fun and she likes her class.",
+        "pos": [
+          {"w": "We", "t": "PRO", "q": "Find the pronoun meaning 'me and others.'"},
+          {"w": "had", "t": "V", "q": "Find the past tense verb."},
+          {"w": "fun", "t": "N", "q": "Find the noun meaning a good time."},
+          {"w": "and", "t": "CONJ", "q": "Find the joining word."},
+          {"w": "she", "t": "PRO", "q": "Find the pronoun for a girl."},
+          {"w": "likes", "t": "V", "q": "Find the verb that tells a feeling."},
+          {"w": "her", "t": "POSS", "q": "Find the possessive word meaning 'belonging to her.'"},
+          {"w": "class", "t": "N", "q": "Find the noun for a group of students."}
+        ],
+        "manip": {
+          "task": "Replace the pronoun 'she' with a different pronoun.",
+          "word": "she",
+          "examples": [
+            "We had fun and <span class='changed'>he</span> likes her class.",
+            "We had fun and <span class='changed'>I</span> like her class."
+          ]
+        },
+        "vocab": {
+          "w": "celebrate",
+          "type": "verb",
+          "def": "To do something special because something good happened.",
+          "simple": "Celebrate means to have fun because something great happened!",
+          "examples": ["celebrate a birthday", "celebrate with friends", "celebrate finishing a book"],
+          "similar": ["party", "cheer", "enjoy"],
+          "antonyms": ["ignore", "forget", "mourn"],
+          "nonex": ["It does NOT mean to be sad.", "It does NOT mean a regular day."],
+          "example": "We celebrate when we finish all 100 days of school!",
+          "starter": "I celebrate when _______ ...",
+          "why": "Celebrating makes special moments even more fun!"
+        }
+      }
+    ]
+  }
+]

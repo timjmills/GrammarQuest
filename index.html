@@ -3,17 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Daily Oral Language - Complete Edition (Days 1-150) - 5 Errors | POS: N→V→ADJ→ADV→PREP</title>
+    <title>Grammar Quest - Daily Oral Language</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Crimson+Pro:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <div class="container">
+        <div class="grade-selector-bar">
+            <button class="grade-tab active" onclick="switchGrade('mixed')" id="tab-mixed">Mixed Grade</button>
+            <button class="grade-tab" onclick="switchGrade('gradek')" id="tab-gradek">Grade K</button>
+            <button class="grade-tab" onclick="switchGrade('grade1')" id="tab-grade1">Grade 1</button>
+            <button class="grade-tab" onclick="switchGrade('grade2')" id="tab-grade2">Grade 2</button>
+            <button class="grade-tab" onclick="switchGrade('grade3')" id="tab-grade3">Grade 3</button>
+            <button class="grade-tab" onclick="switchGrade('grade4')" id="tab-grade4">Grade 4</button>
+            <button class="grade-tab" onclick="switchGrade('grade5')" id="tab-grade5">Grade 5</button>
+        </div>
         <div class="header">
             <div style="display:flex;align-items:center;flex-wrap:wrap">
-                <div class="day-badge">Day <span id="currentDay">26</span></div>
+                <div class="day-badge">Day <span id="currentDay">1</span></div>
                 <span class="day-info">Day <span id="dayNum">1</span> of 150</span>
-                <span class="segment-badge">5 Errors | POS: N→V→ADJ→ADV→PREP→Other</span>
+                <span class="segment-badge" id="segmentBadge">5 Errors | POS: N→V→ADJ→ADV→PREP→Other</span>
             </div>
             <div class="nav">
                 <button class="nav-btn" id="prevBtn" onclick="prevDay()">← Previous</button>
@@ -36,7 +45,11 @@
     <div class="help-overlay" id="helpOverlay" onclick="if(event.target===this)hideHelp()">
         <div class="help-modal">
             <button class="help-close" onclick="hideHelp()">✕</button>
-            <h2 class="help-title">📖 Complete Edition: Days 1-150</h2>
+            <h2 class="help-title">📖 Grammar Quest - Help Guide</h2>
+            <div class="help-section">
+                <h3>📚 Grade Selection</h3>
+                <p>Use the <strong>grade tabs</strong> at the top to switch between Mixed Grade, Grade 3, Grade 4, and Grade 5 content. Each module has 150 days of lessons.</p>
+            </div>
             <div class="help-section">
                 <h3>🔢 Error Rules</h3>
                 <p>Each sentence contains <strong>exactly 5 errors</strong> to find and correct.</p>
@@ -60,14 +73,71 @@
                 <p><strong>OBJPRO</strong> = Object Pronoun (me, him, her, us, them)</p>
                 <p><strong>POSS</strong> = Possessive &nbsp; <strong>PP</strong> = Past Participle &nbsp; <strong>MODAL</strong> = Modal Verb</p>
             </div>
-            <div class="help-section">
+            <div class="help-section" id="help-periods">
                 <h3>Weekly Focus by Period</h3>
-                <p><strong>Period 1</strong> (Days 1-25): Foundations - Basic grammar</p>
-                <p><strong>Period 2</strong> (Days 26-50): Connections - Pronouns, progressives</p>
-                <p><strong>Period 3</strong> (Days 51-75): Builders - FANBOYS, adverbs, articles</p>
-                <p><strong>Period 4</strong> (Days 76-100): Complexity - Complex sentences, possessives, perfect tense</p>
-                <p><strong>Period 5</strong> (Days 101-125): Refinement - Appositives, passive voice, conditionals</p>
-                <p><strong>Period 6</strong> (Days 126-150): Mastery - Complete tense system, modal perfects</p>
+                <div id="help-mixed-periods">
+                    <p><strong>Mixed Grade Periods:</strong></p>
+                    <p><strong>Period 1</strong> (Days 1-25): Foundations - Basic grammar</p>
+                    <p><strong>Period 2</strong> (Days 26-50): Connections - Pronouns, progressives</p>
+                    <p><strong>Period 3</strong> (Days 51-75): Builders - FANBOYS, adverbs, articles</p>
+                    <p><strong>Period 4</strong> (Days 76-100): Complexity - Complex sentences, possessives, perfect tense</p>
+                    <p><strong>Period 5</strong> (Days 101-125): Refinement - Appositives, passive voice, conditionals</p>
+                    <p><strong>Period 6</strong> (Days 126-150): Mastery - Complete tense system, modal perfects</p>
+                </div>
+                <div id="help-gradek-periods" style="display:none">
+                    <p><strong>Grade K Units:</strong></p>
+                    <p><strong>Unit 1</strong> (Days 1-25): Words & Naming - Common nouns, action verbs, capitalization, periods, CVC spelling</p>
+                    <p><strong>Unit 2</strong> (Days 26-50): Actions & Sentences - Telling/asking sentences, question marks, capitalize I, articles, prepositions</p>
+                    <p><strong>Unit 3</strong> (Days 51-75): Describing Words - Color/size/sensory adjectives, proper nouns, plurals, exclamations</p>
+                    <p><strong>Unit 4</strong> (Days 76-100): Pronouns & Building - Subject pronouns, possessives, question words, expanding sentences</p>
+                    <p><strong>Unit 5</strong> (Days 101-125): Punctuation & Patterns - End marks, pet names, is/are, plurals, antonyms</p>
+                    <p><strong>Unit 6</strong> (Days 126-150): Word Power & Mastery - Multiple meanings, categories, inflections, comprehensive review</p>
+                </div>
+                <div id="help-grade1-periods" style="display:none">
+                    <p><strong>Grade 1 Units:</strong></p>
+                    <p><strong>Unit 1</strong> (Days 1-25): Foundations & Review - Common/proper nouns, action verbs, articles, plural nouns</p>
+                    <p><strong>Unit 2</strong> (Days 26-50): Verbs & Tenses - Past/future tense, helping verbs, commands, subject-verb agreement</p>
+                    <p><strong>Unit 3</strong> (Days 51-75): Adjectives & Descriptions - Descriptive/quantity adjectives, a vs. an, pronouns, demonstratives</p>
+                    <p><strong>Unit 4</strong> (Days 76-100): Sentence Building - Conjunctions, compound sentences, possessive nouns, commas in series</p>
+                    <p><strong>Unit 5</strong> (Days 101-125): Punctuation & Mechanics - Contractions, object pronouns, adverbs of time, vowel teams</p>
+                    <p><strong>Unit 6</strong> (Days 126-150): Word Study & Mastery - Prefixes, suffixes, compound words, homophones, review</p>
+                </div>
+                <div id="help-grade2-periods" style="display:none">
+                    <p><strong>Grade 2 Units:</strong></p>
+                    <p><strong>Unit 1</strong> (Days 1-25): Foundations & Review - Common/proper nouns, verbs, tenses, articles</p>
+                    <p><strong>Unit 2</strong> (Days 26-50): Nouns & Verbs Expansion - Collective nouns, irregular plurals/past tense, possessives</p>
+                    <p><strong>Unit 3</strong> (Days 51-75): Adjectives, Adverbs & Pronouns - Comparative/superlative, reflexive pronouns</p>
+                    <p><strong>Unit 4</strong> (Days 76-100): Sentence Structure & Conjunctions - Fragments, run-ons, compound sentences, prepositions</p>
+                    <p><strong>Unit 5</strong> (Days 101-125): Punctuation & Mechanics - Commas, apostrophes, contractions, capitalization</p>
+                    <p><strong>Unit 6</strong> (Days 126-150): Word Study & Mastery - Prefixes, suffixes, compound words, homophones</p>
+                </div>
+                <div id="help-grade3-periods" style="display:none">
+                    <p><strong>Grade 3 Units:</strong></p>
+                    <p><strong>Unit 1</strong> (Days 1-25): Foundations & Review - Common/proper nouns, plurals, verbs, tenses</p>
+                    <p><strong>Unit 2</strong> (Days 26-50): Nouns & Verbs Mastery - Abstract nouns, possessives, irregular verbs, tense consistency</p>
+                    <p><strong>Unit 3</strong> (Days 51-75): Adjectives, Adverbs & Pronouns - Comparative/superlative, pronoun-antecedent agreement</p>
+                    <p><strong>Unit 4</strong> (Days 76-100): Sentence Structure & Conjunctions - FANBOYS, compound/complex sentences, fragments/run-ons</p>
+                    <p><strong>Unit 5</strong> (Days 101-125): Punctuation & Mechanics - Commas, dialogue, apostrophes, capitalization</p>
+                    <p><strong>Unit 6</strong> (Days 126-150): Word Study & Mastery - Latin roots, prefixes/suffixes, figurative language</p>
+                </div>
+                <div id="help-grade4-periods" style="display:none">
+                    <p><strong>Grade 4 Units:</strong></p>
+                    <p><strong>Unit 1</strong> (Days 1-25): Foundations & Review - Irregular plurals, tenses, comparatives</p>
+                    <p><strong>Unit 2</strong> (Days 26-50): Progressive Tenses & Modals - was/am/will be walking, can/may/must</p>
+                    <p><strong>Unit 3</strong> (Days 51-75): Sentence Architecture - Prepositional phrases, relative pronouns/adverbs</p>
+                    <p><strong>Unit 4</strong> (Days 76-100): Punctuation & Mechanics - Commas, dialogue, confused words</p>
+                    <p><strong>Unit 5</strong> (Days 101-125): Word Study & Figurative Language - Greek/Latin roots, similes, metaphors</p>
+                    <p><strong>Unit 6</strong> (Days 126-150): Mastery & Integration - Comprehensive review & assessment</p>
+                </div>
+                <div id="help-grade5-periods" style="display:none">
+                    <p><strong>Grade 5 Periods:</strong></p>
+                    <p><strong>Unit 1</strong> (Days 1-25): Foundations & Review - Grade 3-4 review + Grade 5 intro</p>
+                    <p><strong>Unit 2</strong> (Days 26-50): Time Travelers - Perfect tenses & tense mastery</p>
+                    <p><strong>Unit 3</strong> (Days 51-75): Master Builders - Conjunctions, clauses & sentence architecture</p>
+                    <p><strong>Unit 4</strong> (Days 76-100): Precision Editors - Advanced punctuation & mechanics</p>
+                    <p><strong>Unit 5</strong> (Days 101-125): Word Detectives - Greek/Latin roots & figurative language</p>
+                    <p><strong>Unit 6</strong> (Days 126-150): Grammar Champions - Mastery & integration</p>
+                </div>
             </div>
         </div>
     </div>
