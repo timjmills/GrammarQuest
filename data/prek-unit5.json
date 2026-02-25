@@ -1,0 +1,2645 @@
+[
+  {
+    "day": 101,
+    "sentences": [
+      {
+        "orig": "the shrt iz rede",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "the",
+            "r": "The",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "shrt",
+            "r": "shirt",
+            "e": "Shirt has the letters s-h-i-r-t. We say 'shurt.'"
+          },
+          {
+            "t": "spelling",
+            "w": "iz",
+            "r": "is",
+            "e": "Is is spelled i-s, not i-z."
+          },
+          {
+            "t": "spelling",
+            "w": "rede",
+            "r": "red",
+            "e": "Red does not have an e."
+          },
+          {
+            "t": "punctuation",
+            "w": "red",
+            "r": "red.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "The shirt is red.",
+        "pos": [
+          {
+            "w": "The",
+            "t": "ART",
+            "q": "Find the word that comes before 'shirt.'"
+          },
+          {
+            "w": "shirt",
+            "t": "N",
+            "q": "Find the clothes word."
+          },
+          {
+            "w": "is",
+            "t": "V",
+            "q": "Find the small word that tells what the shirt is."
+          },
+          {
+            "w": "red",
+            "t": "ADJ",
+            "q": "Find the color word."
+          }
+        ],
+        "manip": {
+          "task": "Change the color word 'red' to a different color.",
+          "word": "red",
+          "examples": [
+            "The shirt is <span class='changed'>blue</span>.",
+            "The shirt is <span class='changed'>green</span>."
+          ]
+        },
+        "vocab": {
+          "w": "shirt",
+          "type": "noun",
+          "def": "A piece of clothing you wear on the top part of your body.",
+          "simple": "A shirt covers your arms and tummy!",
+          "examples": [
+            "a red shirt",
+            "a big shirt",
+            "my shirt"
+          ],
+          "similar": [
+            "top",
+            "blouse",
+            "tee"
+          ],
+          "antonyms": [
+            "pants",
+            "shoes"
+          ],
+          "nonex": [
+            "It does NOT go on your feet.",
+            "It does NOT go on your head."
+          ],
+          "example": "The shirt is red and soft.",
+          "starter": "My shirt is _______ ...",
+          "why": "Shirt helps you name the clothes you wear every day!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 102,
+    "sentences": [
+      {
+        "orig": "i see a hatt on teh bedd",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "i",
+            "r": "I",
+            "e": "The word 'I' is always a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "hatt",
+            "r": "hat",
+            "e": "Hat has only one 't' at the end. We spell it h-a-t."
+          },
+          {
+            "t": "spelling",
+            "w": "teh",
+            "r": "the",
+            "e": "The is spelled t-h-e."
+          },
+          {
+            "t": "spelling",
+            "w": "bedd",
+            "r": "bed",
+            "e": "Bed has only one d."
+          },
+          {
+            "t": "punctuation",
+            "w": "bed",
+            "r": "bed.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "I see a hat on the bed.",
+        "pos": [
+          {
+            "w": "I",
+            "t": "PRO",
+            "q": "Find the word that means 'me.'"
+          },
+          {
+            "w": "see",
+            "t": "V",
+            "q": "Find the action word for looking."
+          },
+          {
+            "w": "a",
+            "t": "ART",
+            "q": "Find the tiny word before 'hat.'"
+          },
+          {
+            "w": "hat",
+            "t": "N",
+            "q": "Find the clothes word that goes on your head."
+          },
+          {
+            "w": "on",
+            "t": "PREP",
+            "q": "Find the word that tells where the hat is."
+          },
+          {
+            "w": "the",
+            "t": "ART",
+            "q": "Find another small word before 'bed.'"
+          },
+          {
+            "w": "bed",
+            "t": "N",
+            "q": "Find the thing word you sleep on."
+          }
+        ],
+        "manip": {
+          "task": "Change 'bed' to a different place where you could put a hat.",
+          "word": "bed",
+          "examples": [
+            "I see a hat on the <span class='changed'>chair</span>.",
+            "I see a hat on the <span class='changed'>table</span>."
+          ]
+        },
+        "vocab": {
+          "w": "hat",
+          "type": "noun",
+          "def": "A covering you wear on top of your head.",
+          "simple": "A hat sits on your head!",
+          "examples": [
+            "a big hat",
+            "a red hat",
+            "my hat"
+          ],
+          "similar": [
+            "cap",
+            "beanie",
+            "hood"
+          ],
+          "antonyms": [
+            "shoe",
+            "sock"
+          ],
+          "nonex": [
+            "It does NOT go on your hands.",
+            "It does NOT go on your feet."
+          ],
+          "example": "I see a hat on the bed.",
+          "starter": "My hat is _______ ...",
+          "why": "Hat helps you talk about the clothes you wear on your head!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 103,
+    "sentences": [
+      {
+        "orig": "my smal shu iz red",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "my",
+            "r": "My",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "smal",
+            "r": "small",
+            "e": "Small has two l's at the end. We spell it s-m-a-l-l."
+          },
+          {
+            "t": "spelling",
+            "w": "shu",
+            "r": "shoe",
+            "e": "Shoe is spelled s-h-o-e. The 'oe' makes the long 'oo' sound."
+          },
+          {
+            "t": "spelling",
+            "w": "iz",
+            "r": "is",
+            "e": "Is is spelled i-s, not i-z."
+          },
+          {
+            "t": "punctuation",
+            "w": "red",
+            "r": "red.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "My small shoe is red.",
+        "pos": [
+          {
+            "w": "My",
+            "t": "ART",
+            "q": "Find the word that means 'belonging to me.'"
+          },
+          {
+            "w": "small",
+            "t": "ADJ",
+            "q": "Find the size word."
+          },
+          {
+            "w": "shoe",
+            "t": "N",
+            "q": "Find the clothes word that goes on your foot."
+          },
+          {
+            "w": "is",
+            "t": "V",
+            "q": "Find the small word that tells what the shoe is."
+          },
+          {
+            "w": "red",
+            "t": "ADJ",
+            "q": "Find the color word."
+          }
+        ],
+        "manip": {
+          "task": "Change the color word 'red' to a different color.",
+          "word": "red",
+          "examples": [
+            "My small shoe is <span class='changed'>blue</span>.",
+            "My small shoe is <span class='changed'>green</span>."
+          ]
+        },
+        "vocab": {
+          "w": "shoe",
+          "type": "noun",
+          "def": "A hard covering you wear on your foot to protect it.",
+          "simple": "A shoe goes on your foot!",
+          "examples": [
+            "a red shoe",
+            "my shoe",
+            "a big shoe"
+          ],
+          "similar": [
+            "boot",
+            "sneaker",
+            "sandal"
+          ],
+          "antonyms": [
+            "hat",
+            "shirt"
+          ],
+          "nonex": [
+            "It does NOT go on your head.",
+            "It does NOT go on your hand."
+          ],
+          "example": "My shoe is too small.",
+          "starter": "My shoe is _______ ...",
+          "why": "Shoe helps you talk about what you wear on your feet!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 104,
+    "sentences": [
+      {
+        "orig": "i hve a cote that is worm",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "i",
+            "r": "I",
+            "e": "The word 'I' is always a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "cote",
+            "r": "coat",
+            "e": "Coat is spelled c-o-a-t. The 'oa' makes the long 'o' sound."
+          },
+          {
+            "t": "spelling",
+            "w": "hve",
+            "r": "have",
+            "e": "have is spelled h-a-v-e."
+          },
+          {
+            "t": "spelling",
+            "w": "worm",
+            "r": "warm",
+            "e": "Warm has an a, not o."
+          },
+          {
+            "t": "punctuation",
+            "w": "warm",
+            "r": "warm.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "I have a coat that is warm.",
+        "pos": [
+          {
+            "w": "I",
+            "t": "PRO",
+            "q": "Find the word that means 'me.'"
+          },
+          {
+            "w": "have",
+            "t": "V",
+            "q": "Find the action word that means to own something."
+          },
+          {
+            "w": "a",
+            "t": "ART",
+            "q": "Find the tiny word before 'coat.'"
+          },
+          {
+            "w": "coat",
+            "t": "N",
+            "q": "Find the clothes word you wear when it is cold."
+          },
+          {
+            "w": "that",
+            "t": "PRO",
+            "q": "Find the small joining word."
+          },
+          {
+            "w": "is",
+            "t": "V",
+            "q": "Find the small word that tells what the coat is."
+          },
+          {
+            "w": "warm",
+            "t": "ADJ",
+            "q": "Find the describing word that means not cold."
+          }
+        ],
+        "manip": {
+          "task": "Change the describing word 'warm' to a different describing word.",
+          "word": "warm",
+          "examples": [
+            "I have a coat that is <span class='changed'>new</span>.",
+            "I have a coat that is <span class='changed'>big</span>."
+          ]
+        },
+        "vocab": {
+          "w": "coat",
+          "type": "noun",
+          "def": "A thick piece of clothing you wear over your other clothes to stay warm.",
+          "simple": "A coat keeps you warm when it is cold outside!",
+          "examples": [
+            "a big coat",
+            "a blue coat",
+            "my coat"
+          ],
+          "similar": [
+            "jacket",
+            "sweater"
+          ],
+          "antonyms": [
+            "shorts",
+            "swimsuit"
+          ],
+          "nonex": [
+            "It does NOT go on your feet.",
+            "It is NOT only for summer."
+          ],
+          "example": "I have a big coat.",
+          "starter": "My coat is _______ ...",
+          "why": "Coat helps you talk about staying warm in cold weather!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 105,
+    "sentences": [
+      {
+        "orig": "the blu sok iz mine",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "the",
+            "r": "The",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "blu",
+            "r": "blue",
+            "e": "Blue ends with an 'e.' We spell it b-l-u-e."
+          },
+          {
+            "t": "spelling",
+            "w": "sok",
+            "r": "sock",
+            "e": "Sock ends with 'ck.' We spell it s-o-c-k."
+          },
+          {
+            "t": "spelling",
+            "w": "iz",
+            "r": "is",
+            "e": "Is is spelled i-s, not i-z."
+          },
+          {
+            "t": "punctuation",
+            "w": "mine",
+            "r": "mine.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "The blue sock is mine.",
+        "pos": [
+          {
+            "w": "The",
+            "t": "ART",
+            "q": "Find the word that comes before 'blue.'"
+          },
+          {
+            "w": "blue",
+            "t": "ADJ",
+            "q": "Find the color word."
+          },
+          {
+            "w": "sock",
+            "t": "N",
+            "q": "Find the clothes word that goes on your foot under your shoe."
+          },
+          {
+            "w": "is",
+            "t": "V",
+            "q": "Find the small word that tells what the sock is."
+          },
+          {
+            "w": "mine",
+            "t": "PRO",
+            "q": "Find the word that means 'it belongs to me.'"
+          }
+        ],
+        "manip": {
+          "task": "Change the color word 'blue' to a different color.",
+          "word": "blue",
+          "examples": [
+            "The <span class='changed'>red</span> sock is mine.",
+            "The <span class='changed'>green</span> sock is mine."
+          ]
+        },
+        "vocab": {
+          "w": "sock",
+          "type": "noun",
+          "def": "A soft cloth covering you wear on your foot, under your shoe.",
+          "simple": "A sock goes on your foot and keeps it warm!",
+          "examples": [
+            "a blue sock",
+            "my sock",
+            "a warm sock"
+          ],
+          "similar": [
+            "stocking",
+            "footwear"
+          ],
+          "antonyms": [
+            "hat",
+            "glove"
+          ],
+          "nonex": [
+            "It does NOT go on your hand.",
+            "It does NOT go on your head."
+          ],
+          "example": "The sock is blue and soft.",
+          "starter": "My sock is _______ ...",
+          "why": "Sock helps you name what you wear on your feet inside your shoes!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 106,
+    "sentences": [
+      {
+        "orig": "the nw cat is worm",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "the",
+            "r": "The",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "nw",
+            "r": "new",
+            "e": "New is spelled n-e-w. It has the letter 'e' in the middle."
+          },
+          {
+            "t": "spelling",
+            "w": "cat",
+            "r": "coat",
+            "e": "coat is spelled c-o-a-t."
+          },
+          {
+            "t": "spelling",
+            "w": "worm",
+            "r": "warm",
+            "e": "Warm has an a, not o."
+          },
+          {
+            "t": "punctuation",
+            "w": "warm",
+            "r": "warm.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "The new coat is warm.",
+        "pos": [
+          {
+            "w": "The",
+            "t": "ART",
+            "q": "Find the word that comes before 'new.'"
+          },
+          {
+            "w": "new",
+            "t": "ADJ",
+            "q": "Find the describing word that means not old."
+          },
+          {
+            "w": "coat",
+            "t": "N",
+            "q": "Find the clothes word you wear in the cold."
+          },
+          {
+            "w": "is",
+            "t": "V",
+            "q": "Find the small word that tells what the coat is."
+          },
+          {
+            "w": "warm",
+            "t": "ADJ",
+            "q": "Find the describing word that means not cold."
+          }
+        ],
+        "manip": {
+          "task": "Change the describing word 'new' to a different describing word.",
+          "word": "new",
+          "examples": [
+            "The <span class='changed'>big</span> coat is warm.",
+            "The <span class='changed'>red</span> coat is warm."
+          ]
+        },
+        "vocab": {
+          "w": "new",
+          "type": "adjective",
+          "def": "Something that has never been used before or was just made.",
+          "simple": "New means you just got it and it has never been used!",
+          "examples": [
+            "a new coat",
+            "a new toy",
+            "new shoes"
+          ],
+          "similar": [
+            "fresh",
+            "brand-new"
+          ],
+          "antonyms": [
+            "old",
+            "used",
+            "worn"
+          ],
+          "nonex": [
+            "It does NOT mean broken.",
+            "It does NOT mean small."
+          ],
+          "example": "The new coat is warm.",
+          "starter": "My new _______ is ...",
+          "why": "New helps you tell people when you just got something special!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 107,
+    "sentences": [
+      {
+        "orig": "i gow tew skool today",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "i",
+            "r": "I",
+            "e": "The word 'I' is always a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "skool",
+            "r": "school",
+            "e": "School is spelled s-c-h-o-o-l. The 'ch' makes a 'k' sound here."
+          },
+          {
+            "t": "spelling",
+            "w": "tew",
+            "r": "to",
+            "e": "To is spelled t-o."
+          },
+          {
+            "t": "spelling",
+            "w": "gow",
+            "r": "go",
+            "e": "Go is spelled g-o."
+          },
+          {
+            "t": "punctuation",
+            "w": "today",
+            "r": "today.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "I go to school today.",
+        "pos": [
+          {
+            "w": "I",
+            "t": "PRO",
+            "q": "Find the word that means 'me.'"
+          },
+          {
+            "w": "go",
+            "t": "V",
+            "q": "Find the action word for moving somewhere."
+          },
+          {
+            "w": "to",
+            "t": "PREP",
+            "q": "Find the word that tells where you are going."
+          },
+          {
+            "w": "school",
+            "t": "N",
+            "q": "Find the place word where you learn."
+          },
+          {
+            "w": "today",
+            "t": "ADV",
+            "q": "Find the time word that means 'this day.'"
+          }
+        ],
+        "manip": {
+          "task": "Change 'school' to a different place you can go.",
+          "word": "school",
+          "examples": [
+            "I go to <span class='changed'>the park</span> today.",
+            "I go to <span class='changed'>the store</span> today."
+          ]
+        },
+        "vocab": {
+          "w": "school",
+          "type": "noun",
+          "def": "A building where children go to learn reading, writing, and math.",
+          "simple": "School is where you come to learn and play with friends!",
+          "examples": [
+            "go to school",
+            "my school",
+            "a big school"
+          ],
+          "similar": [
+            "class",
+            "classroom"
+          ],
+          "antonyms": [
+            "home",
+            "park"
+          ],
+          "nonex": [
+            "It does NOT mean a toy store.",
+            "It does NOT mean a playground."
+          ],
+          "example": "I go to school every day.",
+          "starter": "At school, I like to _______ ...",
+          "why": "School helps you talk about the place where you learn!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 108,
+    "sentences": [
+      {
+        "orig": "we pla att the prk now",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "we",
+            "r": "We",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "prk",
+            "r": "park",
+            "e": "Park is spelled p-a-r-k. It has an 'a' in the middle."
+          },
+          {
+            "t": "spelling",
+            "w": "att",
+            "r": "at",
+            "e": "At has only one t."
+          },
+          {
+            "t": "spelling",
+            "w": "pla",
+            "r": "play",
+            "e": "Play ends with y: p-l-a-y."
+          },
+          {
+            "t": "punctuation",
+            "w": "now",
+            "r": "now.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "We play at the park now.",
+        "pos": [
+          {
+            "w": "We",
+            "t": "PRO",
+            "q": "Find the word that means 'me and others.'"
+          },
+          {
+            "w": "play",
+            "t": "V",
+            "q": "Find the action word for having fun."
+          },
+          {
+            "w": "at",
+            "t": "PREP",
+            "q": "Find the word that tells where we play."
+          },
+          {
+            "w": "the",
+            "t": "ART",
+            "q": "Find the small word before 'park.'"
+          },
+          {
+            "w": "park",
+            "t": "N",
+            "q": "Find the place word where you play outside."
+          },
+          {
+            "w": "now",
+            "t": "ADV",
+            "q": "Find the time word that means 'right this moment.'"
+          }
+        ],
+        "manip": {
+          "task": "Change the action word 'play' to a different thing you do at the park.",
+          "word": "play",
+          "examples": [
+            "We <span class='changed'>run</span> at the park now.",
+            "We <span class='changed'>jump</span> at the park now."
+          ]
+        },
+        "vocab": {
+          "w": "park",
+          "type": "noun",
+          "def": "An outdoor place with grass and trees where people can play and rest.",
+          "simple": "A park is a place outside where you can run and play!",
+          "examples": [
+            "the park",
+            "a big park",
+            "play at the park"
+          ],
+          "similar": [
+            "playground",
+            "garden"
+          ],
+          "antonyms": [
+            "school",
+            "store",
+            "home"
+          ],
+          "nonex": [
+            "It does NOT mean a room inside.",
+            "It does NOT mean a store."
+          ],
+          "example": "We play at the park.",
+          "starter": "At the park, I like to _______ ...",
+          "why": "Park helps you talk about one of your favorite outdoor places!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 109,
+    "sentences": [
+      {
+        "orig": "mom iz att the stor now",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "mom",
+            "r": "Mom",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "stor",
+            "r": "store",
+            "e": "Store ends with an 'e.' We spell it s-t-o-r-e."
+          },
+          {
+            "t": "spelling",
+            "w": "iz",
+            "r": "is",
+            "e": "Is is spelled i-s, not i-z."
+          },
+          {
+            "t": "spelling",
+            "w": "att",
+            "r": "at",
+            "e": "At has only one t."
+          },
+          {
+            "t": "punctuation",
+            "w": "now",
+            "r": "now.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "Mom is at the store now.",
+        "pos": [
+          {
+            "w": "Mom",
+            "t": "N",
+            "q": "Find the person word for your mother."
+          },
+          {
+            "w": "is",
+            "t": "V",
+            "q": "Find the small word that tells where mom is."
+          },
+          {
+            "w": "at",
+            "t": "PREP",
+            "q": "Find the word that tells where mom is."
+          },
+          {
+            "w": "the",
+            "t": "ART",
+            "q": "Find the small word before 'store.'"
+          },
+          {
+            "w": "store",
+            "t": "N",
+            "q": "Find the place word where you buy things."
+          },
+          {
+            "w": "now",
+            "t": "ADV",
+            "q": "Find the time word that means 'right this moment.'"
+          }
+        ],
+        "manip": {
+          "task": "Change 'Mom' to a different person.",
+          "word": "Mom",
+          "examples": [
+            "<span class='changed'>Dad</span> is at the store now.",
+            "<span class='changed'>She</span> is at the store now."
+          ]
+        },
+        "vocab": {
+          "w": "store",
+          "type": "noun",
+          "def": "A place where people go to buy things like food and clothes.",
+          "simple": "A store is where you go to get the things you need!",
+          "examples": [
+            "the store",
+            "a big store",
+            "go to the store"
+          ],
+          "similar": [
+            "shop",
+            "market"
+          ],
+          "antonyms": [
+            "home",
+            "school",
+            "park"
+          ],
+          "nonex": [
+            "It does NOT mean a library.",
+            "It does NOT mean a hospital."
+          ],
+          "example": "Mom is at the store.",
+          "starter": "At the store, I like to buy _______ ...",
+          "why": "Store helps you talk about where your family gets food and clothes!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 110,
+    "sentences": [
+      {
+        "orig": "i ried teh bik to school",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "i",
+            "r": "I",
+            "e": "The word 'I' is always a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "bik",
+            "r": "bike",
+            "e": "Bike ends with an 'e.' We spell it b-i-k-e."
+          },
+          {
+            "t": "spelling",
+            "w": "teh",
+            "r": "the",
+            "e": "The is spelled t-h-e."
+          },
+          {
+            "t": "spelling",
+            "w": "ried",
+            "r": "ride",
+            "e": "Ride is spelled r-i-d-e."
+          },
+          {
+            "t": "punctuation",
+            "w": "school",
+            "r": "school.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "I ride the bike to school.",
+        "pos": [
+          {
+            "w": "I",
+            "t": "PRO",
+            "q": "Find the word that means 'me.'"
+          },
+          {
+            "w": "ride",
+            "t": "V",
+            "q": "Find the action word for going on a bike."
+          },
+          {
+            "w": "the",
+            "t": "ART",
+            "q": "Find the small word before 'bike.'"
+          },
+          {
+            "w": "bike",
+            "t": "N",
+            "q": "Find the transport word you pedal with your feet."
+          },
+          {
+            "w": "to",
+            "t": "PREP",
+            "q": "Find the word that tells where you are going."
+          },
+          {
+            "w": "school",
+            "t": "N",
+            "q": "Find the place word where you learn."
+          }
+        ],
+        "manip": {
+          "task": "Change 'school' to a different place you can ride to.",
+          "word": "school",
+          "examples": [
+            "I ride the bike to <span class='changed'>the park</span>.",
+            "I ride the bike to <span class='changed'>the store</span>."
+          ]
+        },
+        "vocab": {
+          "w": "bike",
+          "type": "noun",
+          "def": "A vehicle with two wheels that you pedal with your feet to move.",
+          "simple": "A bike has two wheels and you ride it by pushing with your feet!",
+          "examples": [
+            "my bike",
+            "a red bike",
+            "ride a bike"
+          ],
+          "similar": [
+            "bicycle",
+            "cycle"
+          ],
+          "antonyms": [
+            "car",
+            "bus"
+          ],
+          "nonex": [
+            "It does NOT have four wheels.",
+            "It does NOT have a motor engine."
+          ],
+          "example": "I ride the bike to school.",
+          "starter": "I ride my bike to _______ ...",
+          "why": "Bike helps you talk about one way you can travel from place to place!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 111,
+    "sentences": [
+      {
+        "orig": "the buss iz bige",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "the",
+            "r": "The",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "buss",
+            "r": "bus",
+            "e": "Bus has only one 's' at the end. We spell it b-u-s."
+          },
+          {
+            "t": "spelling",
+            "w": "iz",
+            "r": "is",
+            "e": "Is is spelled i-s, not i-z."
+          },
+          {
+            "t": "spelling",
+            "w": "bige",
+            "r": "big",
+            "e": "Big does not have an e."
+          },
+          {
+            "t": "punctuation",
+            "w": "big",
+            "r": "big.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "The bus is big.",
+        "pos": [
+          {
+            "w": "The",
+            "t": "ART",
+            "q": "Find the word that comes before 'bus.'"
+          },
+          {
+            "w": "bus",
+            "t": "N",
+            "q": "Find the big transport word."
+          },
+          {
+            "w": "is",
+            "t": "V",
+            "q": "Find the small word that tells what the bus is."
+          },
+          {
+            "w": "big",
+            "t": "ADJ",
+            "q": "Find the size word."
+          }
+        ],
+        "manip": {
+          "task": "Change the size word 'big' to a different describing word.",
+          "word": "big",
+          "examples": [
+            "The bus is <span class='changed'>yellow</span>.",
+            "The bus is <span class='changed'>long</span>."
+          ]
+        },
+        "vocab": {
+          "w": "bus",
+          "type": "noun",
+          "def": "A large vehicle that carries many people from place to place.",
+          "simple": "A bus is a big vehicle that many people ride together!",
+          "examples": [
+            "the school bus",
+            "a big bus",
+            "ride the bus"
+          ],
+          "similar": [
+            "van",
+            "coach"
+          ],
+          "antonyms": [
+            "bike",
+            "car"
+          ],
+          "nonex": [
+            "It does NOT have only two wheels.",
+            "It does NOT fly in the sky."
+          ],
+          "example": "The bus is big and yellow.",
+          "starter": "I ride the bus to _______ ...",
+          "why": "Bus helps you talk about how people travel together to places!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 112,
+    "sentences": [
+      {
+        "orig": "dad haz uh kar that is red",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "dad",
+            "r": "Dad",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "kar",
+            "r": "car",
+            "e": "Car starts with 'c,' not 'k.' We spell it c-a-r."
+          },
+          {
+            "t": "spelling",
+            "w": "uh",
+            "r": "a",
+            "e": "The word 'a' is just the letter a."
+          },
+          {
+            "t": "spelling",
+            "w": "haz",
+            "r": "has",
+            "e": "Has ends with s, not z."
+          },
+          {
+            "t": "punctuation",
+            "w": "red",
+            "r": "red.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "Dad has a car that is red.",
+        "pos": [
+          {
+            "w": "Dad",
+            "t": "N",
+            "q": "Find the person word for your father."
+          },
+          {
+            "w": "has",
+            "t": "V",
+            "q": "Find the action word that means to own."
+          },
+          {
+            "w": "a",
+            "t": "ART",
+            "q": "Find the tiny word before 'car.'"
+          },
+          {
+            "w": "car",
+            "t": "N",
+            "q": "Find the transport word with four wheels."
+          },
+          {
+            "w": "that",
+            "t": "PRO",
+            "q": "Find the small joining word."
+          },
+          {
+            "w": "is",
+            "t": "V",
+            "q": "Find the small word that tells what the car is."
+          },
+          {
+            "w": "red",
+            "t": "ADJ",
+            "q": "Find the color word."
+          }
+        ],
+        "manip": {
+          "task": "Change the color word 'red' to a different color.",
+          "word": "red",
+          "examples": [
+            "Dad has a car that is <span class='changed'>blue</span>.",
+            "Dad has a car that is <span class='changed'>black</span>."
+          ]
+        },
+        "vocab": {
+          "w": "car",
+          "type": "noun",
+          "def": "A vehicle with four wheels and an engine that carries a few people.",
+          "simple": "A car has four wheels and takes you from place to place!",
+          "examples": [
+            "a red car",
+            "dad's car",
+            "a big car"
+          ],
+          "similar": [
+            "vehicle",
+            "automobile"
+          ],
+          "antonyms": [
+            "bike",
+            "bus"
+          ],
+          "nonex": [
+            "It does NOT have two wheels.",
+            "It does NOT fly."
+          ],
+          "example": "Dad has a red car.",
+          "starter": "I ride in a car to _______ ...",
+          "why": "Car helps you talk about one of the most common ways people travel!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 113,
+    "sentences": [
+      {
+        "orig": "the hatt iz bige",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "the",
+            "r": "The",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "hatt",
+            "r": "hat",
+            "e": "Hat has only one t."
+          },
+          {
+            "t": "spelling",
+            "w": "bige",
+            "r": "big",
+            "e": "Big does not have an e."
+          },
+          {
+            "t": "spelling",
+            "w": "iz",
+            "r": "is",
+            "e": "Is is spelled i-s, not i-z."
+          },
+          {
+            "t": "punctuation",
+            "w": "big",
+            "r": "big.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "The hat is big.",
+        "pos": [
+          {
+            "w": "The",
+            "t": "ART",
+            "q": "Find the word that comes before 'hat.'"
+          },
+          {
+            "w": "hat",
+            "t": "N",
+            "q": "Find the clothes word."
+          },
+          {
+            "w": "is",
+            "t": "V",
+            "q": "Find the small word that describes the hat."
+          },
+          {
+            "w": "big",
+            "t": "ADJ",
+            "q": "Find the size word."
+          }
+        ],
+        "manip": {
+          "task": "Change the describing word 'big' to a different describing word.",
+          "word": "big",
+          "examples": [
+            "The hat is <span class='changed'>red</span>.",
+            "The hat is <span class='changed'>old</span>."
+          ]
+        },
+        "vocab": {
+          "w": "big",
+          "type": "adjective",
+          "def": "Larger than normal in size or amount.",
+          "simple": "Big means something is very large!",
+          "examples": [
+            "a big hat",
+            "a big bus",
+            "a big dog"
+          ],
+          "similar": [
+            "large",
+            "huge",
+            "giant"
+          ],
+          "antonyms": [
+            "small",
+            "little",
+            "tiny"
+          ],
+          "nonex": [
+            "It does NOT mean tall only.",
+            "It does NOT mean heavy only."
+          ],
+          "example": "The hat is big and red.",
+          "starter": "My _______ is big because ...",
+          "why": "Big is a useful describing word that helps you tell about the size of things!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 114,
+    "sentences": [
+      {
+        "orig": "the shkool iz farr",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "the",
+            "r": "The",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "shkool",
+            "r": "school",
+            "e": "School is spelled s-c-h-o-o-l. It does not start with 'shk.'"
+          },
+          {
+            "t": "spelling",
+            "w": "iz",
+            "r": "is",
+            "e": "Is is spelled i-s, not i-z."
+          },
+          {
+            "t": "spelling",
+            "w": "farr",
+            "r": "far",
+            "e": "Far has only one r."
+          },
+          {
+            "t": "punctuation",
+            "w": "far",
+            "r": "far.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "The school is far.",
+        "pos": [
+          {
+            "w": "The",
+            "t": "ART",
+            "q": "Find the word that comes before 'school.'"
+          },
+          {
+            "w": "school",
+            "t": "N",
+            "q": "Find the place word where you learn."
+          },
+          {
+            "w": "is",
+            "t": "V",
+            "q": "Find the small word that tells about the school."
+          },
+          {
+            "w": "far",
+            "t": "ADV",
+            "q": "Find the describing word that tells how close or far."
+          }
+        ],
+        "manip": {
+          "task": "Change 'school' to a different place.",
+          "word": "school",
+          "examples": [
+            "The <span class='changed'>park</span> is far.",
+            "The <span class='changed'>store</span> is far."
+          ]
+        },
+        "vocab": {
+          "w": "far",
+          "type": "adjective",
+          "def": "A long distance away, not close or nearby.",
+          "simple": "Far means something is not close to you. You have to travel a lot!",
+          "examples": [
+            "far away",
+            "very far",
+            "not far"
+          ],
+          "similar": [
+            "distant",
+            "away"
+          ],
+          "antonyms": [
+            "near",
+            "close",
+            "here"
+          ],
+          "nonex": [
+            "It does NOT mean tall.",
+            "It does NOT mean fast."
+          ],
+          "example": "The school is far from my home.",
+          "starter": "The _______ is far from _______ ...",
+          "why": "Far helps you tell people how much distance there is to a place!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 115,
+    "sentences": [
+      {
+        "orig": "the nw stor iz open",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "the",
+            "r": "The",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "nw",
+            "r": "new",
+            "e": "New is spelled n-e-w. It has the letter 'e' in the middle."
+          },
+          {
+            "t": "spelling",
+            "w": "stor",
+            "r": "store",
+            "e": "Store ends with an 'e.' We spell it s-t-o-r-e."
+          },
+          {
+            "t": "spelling",
+            "w": "iz",
+            "r": "is",
+            "e": "Is is spelled i-s, not i-z."
+          },
+          {
+            "t": "punctuation",
+            "w": "open",
+            "r": "open.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "The new store is open.",
+        "pos": [
+          {
+            "w": "The",
+            "t": "ART",
+            "q": "Find the word that comes before 'new.'"
+          },
+          {
+            "w": "new",
+            "t": "ADJ",
+            "q": "Find the describing word that means not old."
+          },
+          {
+            "w": "store",
+            "t": "N",
+            "q": "Find the place word where you buy things."
+          },
+          {
+            "w": "is",
+            "t": "V",
+            "q": "Find the small word that tells about the store."
+          },
+          {
+            "w": "open",
+            "t": "ADJ",
+            "q": "Find the describing word that means you can go in."
+          }
+        ],
+        "manip": {
+          "task": "Change the describing word 'new' to a different describing word.",
+          "word": "new",
+          "examples": [
+            "The <span class='changed'>big</span> store is open.",
+            "The <span class='changed'>small</span> store is open."
+          ]
+        },
+        "vocab": {
+          "w": "small",
+          "type": "adjective",
+          "def": "Little in size, not big.",
+          "simple": "Small means something is little and not big!",
+          "examples": [
+            "a small hat",
+            "a small store",
+            "a small bug"
+          ],
+          "similar": [
+            "little",
+            "tiny",
+            "mini"
+          ],
+          "antonyms": [
+            "big",
+            "large",
+            "huge"
+          ],
+          "nonex": [
+            "It does NOT mean quiet.",
+            "It does NOT mean easy."
+          ],
+          "example": "The store is small but nice.",
+          "starter": "My _______ is small because ...",
+          "why": "Small helps you describe the size of the things around you!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 116,
+    "sentences": [
+      {
+        "orig": "is teh hatt rede",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "is",
+            "r": "Is",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "hatt",
+            "r": "hat",
+            "e": "Hat has only one t."
+          },
+          {
+            "t": "spelling",
+            "w": "rede",
+            "r": "red",
+            "e": "Red does not have an e."
+          },
+          {
+            "t": "spelling",
+            "w": "teh",
+            "r": "the",
+            "e": "The is spelled t-h-e."
+          },
+          {
+            "t": "punctuation",
+            "w": "red",
+            "r": "red?",
+            "e": "A question ends with a question mark."
+          }
+        ],
+        "fixed": "Is the hat red?",
+        "pos": [
+          {
+            "w": "Is",
+            "t": "V",
+            "q": "Find the small word that starts the question."
+          },
+          {
+            "w": "the",
+            "t": "ART",
+            "q": "Find the small word before 'hat.'"
+          },
+          {
+            "w": "hat",
+            "t": "N",
+            "q": "Find the clothes word."
+          },
+          {
+            "w": "red",
+            "t": "ADJ",
+            "q": "Find the color word."
+          }
+        ],
+        "manip": {
+          "task": "Change the color word 'red' to a different color.",
+          "word": "red",
+          "examples": [
+            "Is the hat <span class='changed'>blue</span>?",
+            "Is the hat <span class='changed'>green</span>?"
+          ]
+        },
+        "vocab": {
+          "w": "red",
+          "type": "adjective",
+          "def": "The color of fire trucks, apples, and strawberries.",
+          "simple": "Red is a bright, bold color!",
+          "examples": [
+            "a red hat",
+            "a red apple",
+            "a red car"
+          ],
+          "similar": [
+            "scarlet",
+            "crimson"
+          ],
+          "antonyms": [
+            "blue",
+            "green"
+          ],
+          "nonex": [
+            "It does NOT mean orange.",
+            "It does NOT mean pink."
+          ],
+          "example": "Is the hat red?",
+          "starter": "I see something red. It is _______ ...",
+          "why": "Red is a color word that helps you describe the things around you!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 117,
+    "sentences": [
+      {
+        "orig": "is teh buss bige",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "is",
+            "r": "Is",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "buss",
+            "r": "bus",
+            "e": "Bus has only one s."
+          },
+          {
+            "t": "spelling",
+            "w": "bige",
+            "r": "big",
+            "e": "Big does not have an e."
+          },
+          {
+            "t": "spelling",
+            "w": "teh",
+            "r": "the",
+            "e": "The is spelled t-h-e."
+          },
+          {
+            "t": "punctuation",
+            "w": "big",
+            "r": "big?",
+            "e": "A question ends with a question mark."
+          }
+        ],
+        "fixed": "Is the bus big?",
+        "pos": [
+          {
+            "w": "Is",
+            "t": "V",
+            "q": "Find the small word that starts the question."
+          },
+          {
+            "w": "the",
+            "t": "ART",
+            "q": "Find the small word before 'bus.'"
+          },
+          {
+            "w": "bus",
+            "t": "N",
+            "q": "Find the big transport word."
+          },
+          {
+            "w": "big",
+            "t": "ADJ",
+            "q": "Find the size word."
+          }
+        ],
+        "manip": {
+          "task": "Change 'bus' to a different thing you can ask about.",
+          "word": "bus",
+          "examples": [
+            "Is the <span class='changed'>car</span> big?",
+            "Is the <span class='changed'>bike</span> big?"
+          ]
+        },
+        "vocab": {
+          "w": "question",
+          "type": "noun",
+          "def": "Something you ask when you want to know information about something.",
+          "simple": "A question is what you say when you want to find something out!",
+          "examples": [
+            "ask a question",
+            "a good question",
+            "my question"
+          ],
+          "similar": [
+            "query",
+            "asking"
+          ],
+          "antonyms": [
+            "answer",
+            "reply"
+          ],
+          "nonex": [
+            "It does NOT mean a statement.",
+            "It does NOT mean an order."
+          ],
+          "example": "Is the bus big? That is a question!",
+          "starter": "My question is _______ ...",
+          "why": "Question helps you understand the sentences that end with a question mark!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 118,
+    "sentences": [
+      {
+        "orig": "is teh bik nw",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "is",
+            "r": "Is",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "bik",
+            "r": "bike",
+            "e": "Bike has a silent e."
+          },
+          {
+            "t": "spelling",
+            "w": "nw",
+            "r": "new",
+            "e": "New needs an e: n-e-w."
+          },
+          {
+            "t": "spelling",
+            "w": "teh",
+            "r": "the",
+            "e": "The is spelled t-h-e."
+          },
+          {
+            "t": "punctuation",
+            "w": "new",
+            "r": "new?",
+            "e": "A question ends with a question mark."
+          }
+        ],
+        "fixed": "Is the bike new?",
+        "pos": [
+          {
+            "w": "Is",
+            "t": "V",
+            "q": "Find the small word that starts the question."
+          },
+          {
+            "w": "the",
+            "t": "ART",
+            "q": "Find the small word before 'bike.'"
+          },
+          {
+            "w": "bike",
+            "t": "N",
+            "q": "Find the transport word you pedal."
+          },
+          {
+            "w": "new",
+            "t": "ADJ",
+            "q": "Find the describing word that means not old."
+          }
+        ],
+        "manip": {
+          "task": "Change the describing word 'new' to a different describing word.",
+          "word": "new",
+          "examples": [
+            "Is the bike <span class='changed'>red</span>?",
+            "Is the bike <span class='changed'>big</span>?"
+          ]
+        },
+        "vocab": {
+          "w": "old",
+          "type": "adjective",
+          "def": "Having existed for a long time, not new or recent.",
+          "simple": "Old means something has been around for a long, long time!",
+          "examples": [
+            "an old coat",
+            "an old bike",
+            "an old hat"
+          ],
+          "similar": [
+            "worn",
+            "used",
+            "aged"
+          ],
+          "antonyms": [
+            "new",
+            "fresh",
+            "brand-new"
+          ],
+          "nonex": [
+            "It does NOT mean broken.",
+            "It does NOT mean small."
+          ],
+          "example": "Is the bike new or old?",
+          "starter": "My _______ is old because ...",
+          "why": "Old helps you describe things and talk about whether something is new or not!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 119,
+    "sentences": [
+      {
+        "orig": "she haz a rede shu on",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "she",
+            "r": "She",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "shu",
+            "r": "shoe",
+            "e": "Shoe is spelled s-h-o-e. It has an 'oe' at the end."
+          },
+          {
+            "t": "spelling",
+            "w": "rede",
+            "r": "red",
+            "e": "Red does not have an e."
+          },
+          {
+            "t": "spelling",
+            "w": "haz",
+            "r": "has",
+            "e": "Has ends with s, not z."
+          },
+          {
+            "t": "punctuation",
+            "w": "on",
+            "r": "on.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "She has a red shoe on.",
+        "pos": [
+          {
+            "w": "She",
+            "t": "PRO",
+            "q": "Find the word that means 'a girl or woman.'"
+          },
+          {
+            "w": "has",
+            "t": "V",
+            "q": "Find the action word that means to own."
+          },
+          {
+            "w": "a",
+            "t": "ART",
+            "q": "Find the tiny word before 'red.'"
+          },
+          {
+            "w": "red",
+            "t": "ADJ",
+            "q": "Find the color word."
+          },
+          {
+            "w": "shoe",
+            "t": "N",
+            "q": "Find the clothes word that goes on your foot."
+          },
+          {
+            "w": "on",
+            "t": "PREP",
+            "q": "Find the word that tells the shoe is being worn."
+          }
+        ],
+        "manip": {
+          "task": "Change the color word 'red' to a different color.",
+          "word": "red",
+          "examples": [
+            "She has a <span class='changed'>blue</span> shoe on.",
+            "She has a <span class='changed'>pink</span> shoe on."
+          ]
+        },
+        "vocab": {
+          "w": "blue",
+          "type": "adjective",
+          "def": "The color of the sky and the ocean on a sunny day.",
+          "simple": "Blue is the color of the sky!",
+          "examples": [
+            "a blue shoe",
+            "a blue hat",
+            "the blue sky"
+          ],
+          "similar": [
+            "navy",
+            "sky-blue",
+            "aqua"
+          ],
+          "antonyms": [
+            "red",
+            "orange"
+          ],
+          "nonex": [
+            "It does NOT mean purple.",
+            "It does NOT mean green."
+          ],
+          "example": "She has a blue shoe.",
+          "starter": "I see something blue. It is _______ ...",
+          "why": "Blue is a color word that helps you describe the things around you!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 120,
+    "sentences": [
+      {
+        "orig": "he haz a bige hatt",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "he",
+            "r": "He",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "hatt",
+            "r": "hat",
+            "e": "Hat has only one t."
+          },
+          {
+            "t": "spelling",
+            "w": "bige",
+            "r": "big",
+            "e": "Big does not have an e."
+          },
+          {
+            "t": "spelling",
+            "w": "haz",
+            "r": "has",
+            "e": "Has ends with s, not z."
+          },
+          {
+            "t": "punctuation",
+            "w": "hat",
+            "r": "hat.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "He has a big hat.",
+        "pos": [
+          {
+            "w": "He",
+            "t": "PRO",
+            "q": "Find the word that means 'a boy or man.'"
+          },
+          {
+            "w": "has",
+            "t": "V",
+            "q": "Find the action word that means to own."
+          },
+          {
+            "w": "a",
+            "t": "ART",
+            "q": "Find the tiny word before 'big.'"
+          },
+          {
+            "w": "big",
+            "t": "ADJ",
+            "q": "Find the size word."
+          },
+          {
+            "w": "hat",
+            "t": "N",
+            "q": "Find the clothes word that goes on your head."
+          }
+        ],
+        "manip": {
+          "task": "Change the size word 'big' to a different describing word.",
+          "word": "big",
+          "examples": [
+            "He has a <span class='changed'>red</span> hat.",
+            "He has a <span class='changed'>small</span> hat."
+          ]
+        },
+        "vocab": {
+          "w": "describe",
+          "type": "verb",
+          "def": "To tell what something looks like or what kind it is using words.",
+          "simple": "Describe means to say what something is like!",
+          "examples": [
+            "describe the hat",
+            "describe the color",
+            "describe your coat"
+          ],
+          "similar": [
+            "tell about",
+            "explain",
+            "say"
+          ],
+          "antonyms": [
+            "hide",
+            "ignore"
+          ],
+          "nonex": [
+            "It does NOT mean to draw.",
+            "It does NOT mean to count."
+          ],
+          "example": "I can describe his big hat.",
+          "starter": "I can describe my _______ ...",
+          "why": "Describe helps you use words to paint a picture for someone!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 121,
+    "sentences": [
+      {
+        "orig": "the blu annd nw coat is warm",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "the",
+            "r": "The",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "blu",
+            "r": "blue",
+            "e": "Blue ends with an 'e.' We spell it b-l-u-e."
+          },
+          {
+            "t": "spelling",
+            "w": "nw",
+            "r": "new",
+            "e": "New is spelled n-e-w. It has the letter 'e' in the middle."
+          },
+          {
+            "t": "spelling",
+            "w": "annd",
+            "r": "and",
+            "e": "And has only one n."
+          },
+          {
+            "t": "punctuation",
+            "w": "warm",
+            "r": "warm.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "The blue and new coat is warm.",
+        "pos": [
+          {
+            "w": "The",
+            "t": "ART",
+            "q": "Find the word that comes before 'blue.'"
+          },
+          {
+            "w": "blue",
+            "t": "ADJ",
+            "q": "Find the color word."
+          },
+          {
+            "w": "and",
+            "t": "CONJ",
+            "q": "Find the joining word."
+          },
+          {
+            "w": "new",
+            "t": "ADJ",
+            "q": "Find the describing word that means not old."
+          },
+          {
+            "w": "coat",
+            "t": "N",
+            "q": "Find the clothes word you wear in the cold."
+          },
+          {
+            "w": "is",
+            "t": "V",
+            "q": "Find the small word that connects the coat to the description."
+          },
+          {
+            "w": "warm",
+            "t": "ADJ",
+            "q": "Find the describing word that means not cold."
+          }
+        ],
+        "manip": {
+          "task": "Change the color word 'blue' to a different color.",
+          "word": "blue",
+          "examples": [
+            "The <span class='changed'>red</span> and new coat is warm.",
+            "The <span class='changed'>green</span> and new coat is warm."
+          ]
+        },
+        "vocab": {
+          "w": "and",
+          "type": "conjunction",
+          "def": "A word that joins two ideas or things together.",
+          "simple": "And is a joining word. It connects two things!",
+          "examples": [
+            "blue and new",
+            "big and warm",
+            "a coat and a hat"
+          ],
+          "similar": [
+            "plus",
+            "also",
+            "with"
+          ],
+          "antonyms": [
+            "but",
+            "without"
+          ],
+          "nonex": [
+            "It does NOT mean 'or.'",
+            "It does NOT mean 'not.'"
+          ],
+          "example": "The coat is blue and new.",
+          "starter": "I have a _______ and a _______ ...",
+          "why": "And is a very useful joining word you will use every single day!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 122,
+    "sentences": [
+      {
+        "orig": "i put on mi sok and my hatt",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "i",
+            "r": "I",
+            "e": "The word 'I' is always a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "sok",
+            "r": "sock",
+            "e": "Sock ends with 'ck.' We spell it s-o-c-k."
+          },
+          {
+            "t": "spelling",
+            "w": "mi",
+            "r": "my",
+            "e": "My is spelled m-y."
+          },
+          {
+            "t": "spelling",
+            "w": "hatt",
+            "r": "hat",
+            "e": "Hat has only one t."
+          },
+          {
+            "t": "punctuation",
+            "w": "hat",
+            "r": "hat.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "I put on my sock and my hat.",
+        "pos": [
+          {
+            "w": "I",
+            "t": "PRO",
+            "q": "Find the word that means 'me.'"
+          },
+          {
+            "w": "put",
+            "t": "V",
+            "q": "Find the action word."
+          },
+          {
+            "w": "on",
+            "t": "PREP",
+            "q": "Find the word that tells how you put the sock on."
+          },
+          {
+            "w": "my",
+            "t": "ART",
+            "q": "Find the first word that means 'belonging to me.'"
+          },
+          {
+            "w": "sock",
+            "t": "N",
+            "q": "Find the clothes word that goes under your shoe."
+          },
+          {
+            "w": "and",
+            "t": "CONJ",
+            "q": "Find the joining word."
+          },
+          {
+            "w": "my",
+            "t": "ART",
+            "q": "Find the second word that means 'belonging to me.'"
+          },
+          {
+            "w": "hat",
+            "t": "N",
+            "q": "Find the clothes word that goes on your head."
+          }
+        ],
+        "manip": {
+          "task": "Change 'hat' to a different clothes word.",
+          "word": "hat",
+          "examples": [
+            "I put on my sock and my <span class='changed'>coat</span>.",
+            "I put on my sock and my <span class='changed'>shirt</span>."
+          ]
+        },
+        "vocab": {
+          "w": "put on",
+          "type": "verb",
+          "def": "To place clothing on your body so you are wearing it.",
+          "simple": "Put on means to dress yourself with something!",
+          "examples": [
+            "put on a coat",
+            "put on my hat",
+            "put on my shoe"
+          ],
+          "similar": [
+            "wear",
+            "dress",
+            "slip on"
+          ],
+          "antonyms": [
+            "take off",
+            "remove"
+          ],
+          "nonex": [
+            "It does NOT mean to throw something.",
+            "It does NOT mean to eat."
+          ],
+          "example": "I put on my sock and shoe.",
+          "starter": "Every morning, I put on my _______ ...",
+          "why": "Put on helps you talk about getting dressed every day!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 123,
+    "sentences": [
+      {
+        "orig": "the bik is att the prk today",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "the",
+            "r": "The",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "bik",
+            "r": "bike",
+            "e": "Bike ends with an 'e.' We spell it b-i-k-e."
+          },
+          {
+            "t": "spelling",
+            "w": "prk",
+            "r": "park",
+            "e": "Park is spelled p-a-r-k. It has an 'a' in the middle."
+          },
+          {
+            "t": "spelling",
+            "w": "att",
+            "r": "at",
+            "e": "At has only one t."
+          },
+          {
+            "t": "punctuation",
+            "w": "today",
+            "r": "today.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "The bike is at the park today.",
+        "pos": [
+          {
+            "w": "The",
+            "t": "ART",
+            "q": "Find the word that comes before 'bike.'"
+          },
+          {
+            "w": "bike",
+            "t": "N",
+            "q": "Find the transport word with two wheels."
+          },
+          {
+            "w": "is",
+            "t": "V",
+            "q": "Find the small word that tells where the bike is."
+          },
+          {
+            "w": "at",
+            "t": "PREP",
+            "q": "Find the word that tells where."
+          },
+          {
+            "w": "the",
+            "t": "ART",
+            "q": "Find another small word before 'park.'"
+          },
+          {
+            "w": "park",
+            "t": "N",
+            "q": "Find the outdoor place word."
+          },
+          {
+            "w": "today",
+            "t": "ADV",
+            "q": "Find the time word that means 'this day.'"
+          }
+        ],
+        "manip": {
+          "task": "Change 'bike' to a different transport word.",
+          "word": "bike",
+          "examples": [
+            "The <span class='changed'>bus</span> is at the park today.",
+            "The <span class='changed'>car</span> is at the park today."
+          ]
+        },
+        "vocab": {
+          "w": "at",
+          "type": "preposition",
+          "def": "A word that tells where something or someone is located.",
+          "simple": "At tells you where something is!",
+          "examples": [
+            "at the park",
+            "at school",
+            "at the store"
+          ],
+          "similar": [
+            "in",
+            "on",
+            "by"
+          ],
+          "antonyms": [
+            "away from",
+            "far from"
+          ],
+          "nonex": [
+            "It does NOT tell you when.",
+            "It does NOT tell you how."
+          ],
+          "example": "The bike is at the park.",
+          "starter": "I am at _______ ...",
+          "why": "At is a little word that tells people where you are!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 124,
+    "sentences": [
+      {
+        "orig": "she ridez the buss to skool today",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "she",
+            "r": "She",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "buss",
+            "r": "bus",
+            "e": "Bus has only one 's' at the end. We spell it b-u-s."
+          },
+          {
+            "t": "spelling",
+            "w": "skool",
+            "r": "school",
+            "e": "School is spelled s-c-h-o-o-l. It does not start with 'sk.'"
+          },
+          {
+            "t": "spelling",
+            "w": "ridez",
+            "r": "rides",
+            "e": "Rides ends with s, not z."
+          },
+          {
+            "t": "punctuation",
+            "w": "today",
+            "r": "today.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "She rides the bus to school today.",
+        "pos": [
+          {
+            "w": "She",
+            "t": "PRO",
+            "q": "Find the word that means 'a girl or woman.'"
+          },
+          {
+            "w": "rides",
+            "t": "V",
+            "q": "Find the action word for going on a vehicle."
+          },
+          {
+            "w": "the",
+            "t": "ART",
+            "q": "Find the small word before 'bus.'"
+          },
+          {
+            "w": "bus",
+            "t": "N",
+            "q": "Find the big transport word."
+          },
+          {
+            "w": "to",
+            "t": "PREP",
+            "q": "Find the word that tells where she is going."
+          },
+          {
+            "w": "school",
+            "t": "N",
+            "q": "Find the place word where you learn."
+          },
+          {
+            "w": "today",
+            "t": "ADV",
+            "q": "Find the time word that means 'this day.'"
+          }
+        ],
+        "manip": {
+          "task": "Change 'She' to a different person word.",
+          "word": "She",
+          "examples": [
+            "<span class='changed'>He</span> rides the bus to school today.",
+            "<span class='changed'>Mom</span> rides the bus to school today."
+          ]
+        },
+        "vocab": {
+          "w": "ride",
+          "type": "verb",
+          "def": "To sit on or in a vehicle and be carried to a place.",
+          "simple": "Ride means to go somewhere in or on a vehicle!",
+          "examples": [
+            "ride the bus",
+            "ride a bike",
+            "ride in a car"
+          ],
+          "similar": [
+            "travel",
+            "go",
+            "take"
+          ],
+          "antonyms": [
+            "walk",
+            "run",
+            "stay"
+          ],
+          "nonex": [
+            "It does NOT mean to drive.",
+            "It does NOT mean to fly a plane."
+          ],
+          "example": "She rides the bus to school.",
+          "starter": "I ride the _______ to _______ ...",
+          "why": "Ride helps you talk about how you travel from one place to another!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 125,
+    "sentences": [
+      {
+        "orig": "my nw shrt is at the stor today",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "my",
+            "r": "My",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "shrt",
+            "r": "shirt",
+            "e": "Shirt is spelled s-h-i-r-t. It has an 'i' in the middle."
+          },
+          {
+            "t": "spelling",
+            "w": "stor",
+            "r": "store",
+            "e": "Store ends with an 'e.' We spell it s-t-o-r-e."
+          },
+          {
+            "t": "spelling",
+            "w": "nw",
+            "r": "new",
+            "e": "New needs an e: n-e-w."
+          },
+          {
+            "t": "punctuation",
+            "w": "today",
+            "r": "today.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "My new shirt is at the store today.",
+        "pos": [
+          {
+            "w": "My",
+            "t": "ART",
+            "q": "Find the word that means 'belonging to me.'"
+          },
+          {
+            "w": "new",
+            "t": "ADJ",
+            "q": "Find the describing word that means not old."
+          },
+          {
+            "w": "shirt",
+            "t": "N",
+            "q": "Find the clothes word."
+          },
+          {
+            "w": "is",
+            "t": "V",
+            "q": "Find the small word that tells where the shirt is."
+          },
+          {
+            "w": "at",
+            "t": "PREP",
+            "q": "Find the word that tells where."
+          },
+          {
+            "w": "the",
+            "t": "ART",
+            "q": "Find the small word before 'store.'"
+          },
+          {
+            "w": "store",
+            "t": "N",
+            "q": "Find the place word where you buy things."
+          },
+          {
+            "w": "today",
+            "t": "ADV",
+            "q": "Find the time word that means 'this day.'"
+          }
+        ],
+        "manip": {
+          "task": "Change 'shirt' to a different clothes word.",
+          "word": "shirt",
+          "examples": [
+            "My new <span class='changed'>hat</span> is at the store today.",
+            "My new <span class='changed'>coat</span> is at the store today."
+          ]
+        },
+        "vocab": {
+          "w": "clothes",
+          "type": "noun",
+          "def": "All the things you wear on your body, like shirts, pants, hats, and shoes.",
+          "simple": "Clothes are everything you wear on your body!",
+          "examples": [
+            "new clothes",
+            "my clothes",
+            "warm clothes"
+          ],
+          "similar": [
+            "clothing",
+            "outfit",
+            "wear"
+          ],
+          "antonyms": [],
+          "nonex": [
+            "It does NOT mean furniture.",
+            "It does NOT mean food."
+          ],
+          "example": "My new clothes are at the store.",
+          "starter": "My favorite clothes are _______ ...",
+          "why": "Clothes is a big word that names all the things you wear every day!"
+        }
+      }
+    ]
+  }
+]

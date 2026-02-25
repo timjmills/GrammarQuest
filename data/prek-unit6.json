@@ -1,0 +1,2696 @@
+[
+  {
+    "day": 126,
+    "sentences": [
+      {
+        "orig": "i hve a rede bal here",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "i",
+            "r": "I",
+            "e": "The word 'I' is always a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "bal",
+            "r": "ball",
+            "e": "Ball has two l's at the end. We spell it b-a-l-l."
+          },
+          {
+            "t": "spelling",
+            "w": "rede",
+            "r": "red",
+            "e": "Red does not have an e."
+          },
+          {
+            "t": "spelling",
+            "w": "hve",
+            "r": "have",
+            "e": "have is spelled h-a-v-e."
+          },
+          {
+            "t": "punctuation",
+            "w": "here",
+            "r": "here.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "I have a red ball here.",
+        "pos": [
+          {
+            "w": "I",
+            "t": "PRO",
+            "q": "Find the word that means 'me.'"
+          },
+          {
+            "w": "have",
+            "t": "V",
+            "q": "Find the action word that means to own something."
+          },
+          {
+            "w": "a",
+            "t": "ART",
+            "q": "Find the tiny word before 'red.'"
+          },
+          {
+            "w": "red",
+            "t": "ADJ",
+            "q": "Find the color word."
+          },
+          {
+            "w": "ball",
+            "t": "N",
+            "q": "Find the toy word."
+          },
+          {
+            "w": "here",
+            "t": "ADV",
+            "q": "Find the word that tells where the ball is."
+          }
+        ],
+        "manip": {
+          "task": "Change the color word 'red' to a different color.",
+          "word": "red",
+          "examples": [
+            "I have a <span class='changed'>blue</span> ball here.",
+            "I have a <span class='changed'>green</span> ball here."
+          ]
+        },
+        "vocab": {
+          "w": "ball",
+          "type": "noun",
+          "def": "A round toy that you can throw, catch, kick, or bounce.",
+          "simple": "A ball is a round toy that bounces and rolls!",
+          "examples": [
+            "a red ball",
+            "a big ball",
+            "my ball"
+          ],
+          "similar": [
+            "sphere",
+            "orb"
+          ],
+          "antonyms": [
+            "block",
+            "cube"
+          ],
+          "nonex": [
+            "It does NOT have corners.",
+            "It does NOT have flat sides."
+          ],
+          "example": "I have a red ball.",
+          "starter": "I play with my ball by _______ ...",
+          "why": "Ball is one of the most fun toy words you can learn!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 127,
+    "sentences": [
+      {
+        "orig": "she haz uh dol that is soft",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "she",
+            "r": "She",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "dol",
+            "r": "doll",
+            "e": "Doll has two l's at the end. We spell it d-o-l-l."
+          },
+          {
+            "t": "spelling",
+            "w": "uh",
+            "r": "a",
+            "e": "The word 'a' is just the letter a."
+          },
+          {
+            "t": "spelling",
+            "w": "haz",
+            "r": "has",
+            "e": "Has ends with s, not z."
+          },
+          {
+            "t": "punctuation",
+            "w": "soft",
+            "r": "soft.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "She has a doll that is soft.",
+        "pos": [
+          {
+            "w": "She",
+            "t": "PRO",
+            "q": "Find the word that means 'a girl or woman.'"
+          },
+          {
+            "w": "has",
+            "t": "V",
+            "q": "Find the action word that means to own."
+          },
+          {
+            "w": "a",
+            "t": "ART",
+            "q": "Find the tiny word before 'doll.'"
+          },
+          {
+            "w": "doll",
+            "t": "N",
+            "q": "Find the toy word."
+          },
+          {
+            "w": "that",
+            "t": "PRO",
+            "q": "Find the small joining word."
+          },
+          {
+            "w": "is",
+            "t": "V",
+            "q": "Find the small word that tells what the doll is."
+          },
+          {
+            "w": "soft",
+            "t": "ADJ",
+            "q": "Find the describing word that means gentle to touch."
+          }
+        ],
+        "manip": {
+          "task": "Change 'doll' to a different toy word.",
+          "word": "doll",
+          "examples": [
+            "She has a <span class='changed'>ball</span> that is soft.",
+            "She has a <span class='changed'>toy</span> that is soft."
+          ]
+        },
+        "vocab": {
+          "w": "doll",
+          "type": "noun",
+          "def": "A small toy that looks like a person or baby, used for pretend play.",
+          "simple": "A doll is a toy that looks like a little person!",
+          "examples": [
+            "a soft doll",
+            "my doll",
+            "a big doll"
+          ],
+          "similar": [
+            "toy",
+            "figure",
+            "puppet"
+          ],
+          "antonyms": [
+            "ball",
+            "block"
+          ],
+          "nonex": [
+            "It does NOT have wheels.",
+            "It is NOT something you eat."
+          ],
+          "example": "She has a soft doll.",
+          "starter": "My doll is _______ ...",
+          "why": "Doll helps you talk about one of the most classic toys for playing!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 128,
+    "sentences": [
+      {
+        "orig": "he haz uh blok that is red",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "he",
+            "r": "He",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "blok",
+            "r": "block",
+            "e": "Block ends with 'ck.' We spell it b-l-o-c-k."
+          },
+          {
+            "t": "spelling",
+            "w": "uh",
+            "r": "a",
+            "e": "The word 'a' is just the letter a."
+          },
+          {
+            "t": "spelling",
+            "w": "haz",
+            "r": "has",
+            "e": "Has ends with s, not z."
+          },
+          {
+            "t": "punctuation",
+            "w": "red",
+            "r": "red.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "He has a block that is red.",
+        "pos": [
+          {
+            "w": "He",
+            "t": "PRO",
+            "q": "Find the word that means 'a boy or man.'"
+          },
+          {
+            "w": "has",
+            "t": "V",
+            "q": "Find the action word that means to own."
+          },
+          {
+            "w": "a",
+            "t": "ART",
+            "q": "Find the tiny word before 'block.'"
+          },
+          {
+            "w": "block",
+            "t": "N",
+            "q": "Find the toy word that is a shape."
+          },
+          {
+            "w": "that",
+            "t": "PRO",
+            "q": "Find the small joining word."
+          },
+          {
+            "w": "is",
+            "t": "V",
+            "q": "Find the small word that tells what the block is."
+          },
+          {
+            "w": "red",
+            "t": "ADJ",
+            "q": "Find the color word."
+          }
+        ],
+        "manip": {
+          "task": "Change 'He' to a different person word.",
+          "word": "He",
+          "examples": [
+            "<span class='changed'>She</span> has a block that is red.",
+            "<span class='changed'>I</span> have a block that is red."
+          ]
+        },
+        "vocab": {
+          "w": "block",
+          "type": "noun",
+          "def": "A solid square or rectangular toy used for stacking and building.",
+          "simple": "A block is a solid toy with flat sides. You can stack blocks to build tall towers!",
+          "examples": [
+            "a red block",
+            "my block",
+            "a big block"
+          ],
+          "similar": [
+            "cube",
+            "brick",
+            "piece"
+          ],
+          "antonyms": [
+            "ball",
+            "circle"
+          ],
+          "nonex": [
+            "It is NOT round like a ball.",
+            "It does NOT bounce."
+          ],
+          "example": "He has a red block.",
+          "starter": "I can build with my block by _______ ...",
+          "why": "Block is a great toy word and also a shape word to know!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 129,
+    "sentences": [
+      {
+        "orig": "i se uh sirkl here",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "i",
+            "r": "I",
+            "e": "The word 'I' is always a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "sirkl",
+            "r": "circle",
+            "e": "Circle is spelled c-i-r-c-l-e. It starts with the letter 'c.'"
+          },
+          {
+            "t": "spelling",
+            "w": "uh",
+            "r": "a",
+            "e": "The word 'a' is just the letter a."
+          },
+          {
+            "t": "spelling",
+            "w": "se",
+            "r": "see",
+            "e": "See has two e's: s-e-e."
+          },
+          {
+            "t": "punctuation",
+            "w": "here",
+            "r": "here.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "I see a circle here.",
+        "pos": [
+          {
+            "w": "I",
+            "t": "PRO",
+            "q": "Find the word that means 'me.'"
+          },
+          {
+            "w": "see",
+            "t": "V",
+            "q": "Find the action word for looking."
+          },
+          {
+            "w": "a",
+            "t": "ART",
+            "q": "Find the tiny word before 'circle.'"
+          },
+          {
+            "w": "circle",
+            "t": "N",
+            "q": "Find the round shape word."
+          },
+          {
+            "w": "here",
+            "t": "ADV",
+            "q": "Find the word that tells where the circle is."
+          }
+        ],
+        "manip": {
+          "task": "Change 'circle' to a different shape word.",
+          "word": "circle",
+          "examples": [
+            "I see a <span class='changed'>square</span> here.",
+            "I see a <span class='changed'>star</span> here."
+          ]
+        },
+        "vocab": {
+          "w": "circle",
+          "type": "noun",
+          "def": "A perfectly round, closed shape with no corners.",
+          "simple": "A circle is a round shape, like the sun or a ball!",
+          "examples": [
+            "a red circle",
+            "draw a circle",
+            "a big circle"
+          ],
+          "similar": [
+            "ring",
+            "round",
+            "loop"
+          ],
+          "antonyms": [
+            "square",
+            "triangle"
+          ],
+          "nonex": [
+            "It does NOT have corners.",
+            "It does NOT have straight sides."
+          ],
+          "example": "I see a big circle.",
+          "starter": "I can find a circle on _______ ...",
+          "why": "Circle is an important shape word you will use in math and art!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 130,
+    "sentences": [
+      {
+        "orig": "the skware iz bloo",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "the",
+            "r": "The",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "skware",
+            "r": "square",
+            "e": "Square is spelled s-q-u-a-r-e. It starts with s-q."
+          },
+          {
+            "t": "spelling",
+            "w": "iz",
+            "r": "is",
+            "e": "Is is spelled i-s, not i-z."
+          },
+          {
+            "t": "spelling",
+            "w": "bloo",
+            "r": "blue",
+            "e": "Blue is spelled b-l-u-e."
+          },
+          {
+            "t": "punctuation",
+            "w": "blue",
+            "r": "blue.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "The square is blue.",
+        "pos": [
+          {
+            "w": "The",
+            "t": "ART",
+            "q": "Find the word that comes before 'square.'"
+          },
+          {
+            "w": "square",
+            "t": "N",
+            "q": "Find the shape word with four equal sides."
+          },
+          {
+            "w": "is",
+            "t": "V",
+            "q": "Find the small word that tells about the square."
+          },
+          {
+            "w": "blue",
+            "t": "ADJ",
+            "q": "Find the color word."
+          }
+        ],
+        "manip": {
+          "task": "Change the color word 'blue' to a different color.",
+          "word": "blue",
+          "examples": [
+            "The square is <span class='changed'>red</span>.",
+            "The square is <span class='changed'>green</span>."
+          ]
+        },
+        "vocab": {
+          "w": "square",
+          "type": "noun",
+          "def": "A flat shape with four equal sides and four corners.",
+          "simple": "A square has four equal sides. All sides are the same!",
+          "examples": [
+            "a blue square",
+            "draw a square",
+            "a big square"
+          ],
+          "similar": [
+            "rectangle",
+            "box shape"
+          ],
+          "antonyms": [
+            "circle",
+            "triangle"
+          ],
+          "nonex": [
+            "It does NOT have round sides.",
+            "It does NOT have three corners."
+          ],
+          "example": "The square is blue.",
+          "starter": "I can find a square on _______ ...",
+          "why": "Square is a shape word you will use every day in math!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 131,
+    "sentences": [
+      {
+        "orig": "i se a hart onn the card",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "i",
+            "r": "I",
+            "e": "The word 'I' is always a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "hart",
+            "r": "heart",
+            "e": "Heart is spelled h-e-a-r-t. It has an 'ea' in the middle."
+          },
+          {
+            "t": "spelling",
+            "w": "se",
+            "r": "see",
+            "e": "See has two e's: s-e-e."
+          },
+          {
+            "t": "spelling",
+            "w": "onn",
+            "r": "on",
+            "e": "On has only one n."
+          },
+          {
+            "t": "punctuation",
+            "w": "card",
+            "r": "card.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "I see a heart on the card.",
+        "pos": [
+          {
+            "w": "I",
+            "t": "PRO",
+            "q": "Find the word that means 'me.'"
+          },
+          {
+            "w": "see",
+            "t": "V",
+            "q": "Find the action word for looking."
+          },
+          {
+            "w": "a",
+            "t": "ART",
+            "q": "Find the tiny word before 'heart.'"
+          },
+          {
+            "w": "heart",
+            "t": "N",
+            "q": "Find the love shape word."
+          },
+          {
+            "w": "on",
+            "t": "PREP",
+            "q": "Find the word that tells where the heart is."
+          },
+          {
+            "w": "the",
+            "t": "ART",
+            "q": "Find the small word before 'card.'"
+          },
+          {
+            "w": "card",
+            "t": "N",
+            "q": "Find the paper thing word."
+          }
+        ],
+        "manip": {
+          "task": "Change 'card' to a different place where you might see a heart.",
+          "word": "card",
+          "examples": [
+            "I see a heart on the <span class='changed'>block</span>.",
+            "I see a heart on the <span class='changed'>shirt</span>."
+          ]
+        },
+        "vocab": {
+          "w": "heart",
+          "type": "noun",
+          "def": "A shape with two rounded bumps at the top and a point at the bottom, often used as a symbol of love.",
+          "simple": "A heart is a special shape that means love!",
+          "examples": [
+            "a red heart",
+            "draw a heart",
+            "a big heart"
+          ],
+          "similar": [
+            "love shape"
+          ],
+          "antonyms": [
+            "square",
+            "circle"
+          ],
+          "nonex": [
+            "It does NOT have equal sides.",
+            "It does NOT look like a box."
+          ],
+          "example": "I see a heart on the card.",
+          "starter": "I drew a heart for _______ ...",
+          "why": "Heart is a shape word that is also a symbol for love and kindness!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 132,
+    "sentences": [
+      {
+        "orig": "i pla wif the big bal now",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "i",
+            "r": "I",
+            "e": "The word 'I' is always a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "pla",
+            "r": "play",
+            "e": "Play ends with 'ay.' We spell it p-l-a-y."
+          },
+          {
+            "t": "spelling",
+            "w": "bal",
+            "r": "ball",
+            "e": "Ball has two l's at the end. We spell it b-a-l-l."
+          },
+          {
+            "t": "spelling",
+            "w": "wif",
+            "r": "with",
+            "e": "With ends in t-h: w-i-t-h."
+          },
+          {
+            "t": "punctuation",
+            "w": "now",
+            "r": "now.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "I play with the big ball now.",
+        "pos": [
+          {
+            "w": "I",
+            "t": "PRO",
+            "q": "Find the pronoun that means 'me.'"
+          },
+          {
+            "w": "play",
+            "t": "V",
+            "q": "Find the action word for having fun."
+          },
+          {
+            "w": "with",
+            "t": "PREP",
+            "q": "Find the word that tells how you play."
+          },
+          {
+            "w": "the",
+            "t": "ART",
+            "q": "Find the small word before 'big.'"
+          },
+          {
+            "w": "big",
+            "t": "ADJ",
+            "q": "Find the size word."
+          },
+          {
+            "w": "ball",
+            "t": "N",
+            "q": "Find the round toy word."
+          },
+          {
+            "w": "now",
+            "t": "ADV",
+            "q": "Find the time word that means 'right this moment.'"
+          }
+        ],
+        "manip": {
+          "task": "Change 'ball' to a different toy you can play with.",
+          "word": "ball",
+          "examples": [
+            "I play with the big <span class='changed'>doll</span> now.",
+            "I play with the big <span class='changed'>block</span> now."
+          ]
+        },
+        "vocab": {
+          "w": "play",
+          "type": "verb",
+          "def": "To do something fun, often with toys or other children.",
+          "simple": "Play means to have fun!",
+          "examples": [
+            "I play",
+            "we play",
+            "play with a ball"
+          ],
+          "similar": [
+            "have fun",
+            "enjoy",
+            "games"
+          ],
+          "antonyms": [
+            "work",
+            "sleep",
+            "rest"
+          ],
+          "nonex": [
+            "It does NOT mean to be sad.",
+            "It does NOT mean to sit still."
+          ],
+          "example": "I play with the ball.",
+          "starter": "I like to play with _______ ...",
+          "why": "Play is one of the most important action words for telling about your day!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 133,
+    "sentences": [
+      {
+        "orig": "he kan bild a towr",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "he",
+            "r": "He",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "bild",
+            "r": "build",
+            "e": "Build is spelled b-u-i-l-d. It has a 'u' and 'i' together."
+          },
+          {
+            "t": "spelling",
+            "w": "kan",
+            "r": "can",
+            "e": "Can starts with c, not k."
+          },
+          {
+            "t": "spelling",
+            "w": "towr",
+            "r": "tower",
+            "e": "Tower needs an e: t-o-w-e-r."
+          },
+          {
+            "t": "punctuation",
+            "w": "tower",
+            "r": "tower.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "He can build a tower.",
+        "pos": [
+          {
+            "w": "He",
+            "t": "PRO",
+            "q": "Find the pronoun that means 'a boy or man.'"
+          },
+          {
+            "w": "can",
+            "t": "V",
+            "q": "Find the word that means someone is able to do something."
+          },
+          {
+            "w": "build",
+            "t": "V",
+            "q": "Find the action word for making something."
+          },
+          {
+            "w": "a",
+            "t": "ART",
+            "q": "Find the tiny word before 'tower.'"
+          },
+          {
+            "w": "tower",
+            "t": "N",
+            "q": "Find the tall thing word."
+          }
+        ],
+        "manip": {
+          "task": "Change 'He' to a different pronoun.",
+          "word": "He",
+          "examples": [
+            "<span class='changed'>She</span> can build a tower.",
+            "<span class='changed'>I</span> can build a tower."
+          ]
+        },
+        "vocab": {
+          "w": "build",
+          "type": "verb",
+          "def": "To put pieces together to make something new, like stacking blocks.",
+          "simple": "Build means to make something by putting pieces together!",
+          "examples": [
+            "build a tower",
+            "build with blocks",
+            "build a house"
+          ],
+          "similar": [
+            "make",
+            "create",
+            "stack"
+          ],
+          "antonyms": [
+            "break",
+            "knock down"
+          ],
+          "nonex": [
+            "It does NOT mean to throw.",
+            "It does NOT mean to eat."
+          ],
+          "example": "He can build a big tower.",
+          "starter": "I can build a _______ with _______ ...",
+          "why": "Build is an action word that tells you how to make great things!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 134,
+    "sentences": [
+      {
+        "orig": "she liks teh red dol today",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "she",
+            "r": "She",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "liks",
+            "r": "likes",
+            "e": "Likes is spelled l-i-k-e-s. It has an 'e' before the 's.'"
+          },
+          {
+            "t": "spelling",
+            "w": "dol",
+            "r": "doll",
+            "e": "Doll has two l's at the end. We spell it d-o-l-l."
+          },
+          {
+            "t": "spelling",
+            "w": "teh",
+            "r": "the",
+            "e": "The is spelled t-h-e."
+          },
+          {
+            "t": "punctuation",
+            "w": "today",
+            "r": "today.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "She likes the red doll today.",
+        "pos": [
+          {
+            "w": "She",
+            "t": "PRO",
+            "q": "Find the pronoun that means 'a girl or woman.'"
+          },
+          {
+            "w": "likes",
+            "t": "V",
+            "q": "Find the action word that shows she enjoys something."
+          },
+          {
+            "w": "the",
+            "t": "ART",
+            "q": "Find the small word before 'red.'"
+          },
+          {
+            "w": "red",
+            "t": "ADJ",
+            "q": "Find the color word."
+          },
+          {
+            "w": "doll",
+            "t": "N",
+            "q": "Find the toy word."
+          },
+          {
+            "w": "today",
+            "t": "ADV",
+            "q": "Find the time word that means 'this day.'"
+          }
+        ],
+        "manip": {
+          "task": "Change 'She' to a different pronoun.",
+          "word": "She",
+          "examples": [
+            "<span class='changed'>He</span> likes the red doll today.",
+            "<span class='changed'>I</span> like the red doll today."
+          ]
+        },
+        "vocab": {
+          "w": "like",
+          "type": "verb",
+          "def": "To enjoy something or feel happy about it.",
+          "simple": "Like means something makes you happy!",
+          "examples": [
+            "I like toys",
+            "she likes dolls",
+            "he likes blocks"
+          ],
+          "similar": [
+            "enjoy",
+            "love",
+            "want"
+          ],
+          "antonyms": [
+            "dislike",
+            "hate"
+          ],
+          "nonex": [
+            "It does NOT mean to take something.",
+            "It does NOT mean to throw."
+          ],
+          "example": "She likes the red doll.",
+          "starter": "I like _______ because ...",
+          "why": "Like is an important word for telling people what makes you happy!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 135,
+    "sentences": [
+      {
+        "orig": "we kan sher the new gam now",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "we",
+            "r": "We",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "sher",
+            "r": "share",
+            "e": "Share is spelled s-h-a-r-e. It ends with an 'e.'"
+          },
+          {
+            "t": "spelling",
+            "w": "gam",
+            "r": "game",
+            "e": "Game ends with an 'e.' We spell it g-a-m-e."
+          },
+          {
+            "t": "spelling",
+            "w": "kan",
+            "r": "can",
+            "e": "Can starts with c, not k."
+          },
+          {
+            "t": "punctuation",
+            "w": "now",
+            "r": "now.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "We can share the new game now.",
+        "pos": [
+          {
+            "w": "We",
+            "t": "PRO",
+            "q": "Find the pronoun that means 'me and others.'"
+          },
+          {
+            "w": "can",
+            "t": "V",
+            "q": "Find the word that means someone is able to do something."
+          },
+          {
+            "w": "share",
+            "t": "V",
+            "q": "Find the action word for using something together."
+          },
+          {
+            "w": "the",
+            "t": "ART",
+            "q": "Find the small word before 'new.'"
+          },
+          {
+            "w": "new",
+            "t": "ADJ",
+            "q": "Find the describing word that means not old."
+          },
+          {
+            "w": "game",
+            "t": "N",
+            "q": "Find the play word."
+          },
+          {
+            "w": "now",
+            "t": "ADV",
+            "q": "Find the time word that means 'right this moment.'"
+          }
+        ],
+        "manip": {
+          "task": "Change 'game' to a different toy you can share.",
+          "word": "game",
+          "examples": [
+            "We can share the new <span class='changed'>ball</span> now.",
+            "We can share the new <span class='changed'>blocks</span> now."
+          ]
+        },
+        "vocab": {
+          "w": "share",
+          "type": "verb",
+          "def": "To use or divide something so others can have some too.",
+          "simple": "Share means to let others use or have some of what you have!",
+          "examples": [
+            "share a game",
+            "share toys",
+            "share food"
+          ],
+          "similar": [
+            "give",
+            "divide",
+            "take turns"
+          ],
+          "antonyms": [
+            "keep",
+            "hoard",
+            "take"
+          ],
+          "nonex": [
+            "It does NOT mean to take everything.",
+            "It does NOT mean to hide."
+          ],
+          "example": "We can share the game.",
+          "starter": "I share my _______ with _______ ...",
+          "why": "Share is an important word for being a kind friend and a good learner!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 136,
+    "sentences": [
+      {
+        "orig": "they pla wif the big bloks now",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "they",
+            "r": "They",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "pla",
+            "r": "play",
+            "e": "Play ends with 'ay.' We spell it p-l-a-y."
+          },
+          {
+            "t": "spelling",
+            "w": "bloks",
+            "r": "blocks",
+            "e": "Blocks ends with 'cks.' We spell it b-l-o-c-k-s."
+          },
+          {
+            "t": "spelling",
+            "w": "wif",
+            "r": "with",
+            "e": "With ends in t-h: w-i-t-h."
+          },
+          {
+            "t": "punctuation",
+            "w": "now",
+            "r": "now.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "They play with the big blocks now.",
+        "pos": [
+          {
+            "w": "They",
+            "t": "PRO",
+            "q": "Find the pronoun that means 'more than one person.'"
+          },
+          {
+            "w": "play",
+            "t": "V",
+            "q": "Find the action word for having fun."
+          },
+          {
+            "w": "with",
+            "t": "PREP",
+            "q": "Find the word that tells how they play."
+          },
+          {
+            "w": "the",
+            "t": "ART",
+            "q": "Find the small word before 'big.'"
+          },
+          {
+            "w": "big",
+            "t": "ADJ",
+            "q": "Find the size word."
+          },
+          {
+            "w": "blocks",
+            "t": "N",
+            "q": "Find the toy word."
+          },
+          {
+            "w": "now",
+            "t": "ADV",
+            "q": "Find the time word that means 'right this moment.'"
+          }
+        ],
+        "manip": {
+          "task": "Change 'They' to a different pronoun.",
+          "word": "They",
+          "examples": [
+            "<span class='changed'>We</span> play with the big blocks now.",
+            "<span class='changed'>She</span> plays with the big blocks now."
+          ]
+        },
+        "vocab": {
+          "w": "they",
+          "type": "pronoun",
+          "def": "A word used to talk about two or more people or things that are not here with you.",
+          "simple": "They means more than one person that you are talking about!",
+          "examples": [
+            "they play",
+            "they run",
+            "they share"
+          ],
+          "similar": [
+            "those people",
+            "the group"
+          ],
+          "antonyms": [
+            "I",
+            "he",
+            "she"
+          ],
+          "nonex": [
+            "It does NOT mean just one person.",
+            "It does NOT mean me."
+          ],
+          "example": "They play with the big blocks.",
+          "starter": "They are _______ ...",
+          "why": "They is a pronoun that helps you talk about other people without repeating their names!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 137,
+    "sentences": [
+      {
+        "orig": "it iz a bige red bal here",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "it",
+            "r": "It",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "bal",
+            "r": "ball",
+            "e": "Ball has two l's at the end. We spell it b-a-l-l."
+          },
+          {
+            "t": "spelling",
+            "w": "iz",
+            "r": "is",
+            "e": "Is is spelled i-s, not i-z."
+          },
+          {
+            "t": "spelling",
+            "w": "bige",
+            "r": "big",
+            "e": "Big does not have an e."
+          },
+          {
+            "t": "punctuation",
+            "w": "here",
+            "r": "here.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "It is a big red ball here.",
+        "pos": [
+          {
+            "w": "It",
+            "t": "PRO",
+            "q": "Find the pronoun that means 'a thing.'"
+          },
+          {
+            "w": "is",
+            "t": "V",
+            "q": "Find the small word that tells what it is."
+          },
+          {
+            "w": "a",
+            "t": "ART",
+            "q": "Find the tiny word before 'big.'"
+          },
+          {
+            "w": "big",
+            "t": "ADJ",
+            "q": "Find the size word."
+          },
+          {
+            "w": "red",
+            "t": "ADJ",
+            "q": "Find the color word."
+          },
+          {
+            "w": "ball",
+            "t": "N",
+            "q": "Find the round toy word."
+          },
+          {
+            "w": "here",
+            "t": "ADV",
+            "q": "Find the word that tells where the ball is."
+          }
+        ],
+        "manip": {
+          "task": "Change the color word 'red' to a different color.",
+          "word": "red",
+          "examples": [
+            "It is a big <span class='changed'>blue</span> ball here.",
+            "It is a big <span class='changed'>green</span> ball here."
+          ]
+        },
+        "vocab": {
+          "w": "it",
+          "type": "pronoun",
+          "def": "A word used to talk about a thing instead of saying its name again.",
+          "simple": "It is the word for a thing! Instead of saying 'ball, ball, ball,' you can say 'it.'",
+          "examples": [
+            "it is big",
+            "it is red",
+            "it is my toy"
+          ],
+          "similar": [
+            "the thing",
+            "that"
+          ],
+          "antonyms": [
+            "he",
+            "she",
+            "I"
+          ],
+          "nonex": [
+            "It does NOT mean a person.",
+            "It does NOT mean me."
+          ],
+          "example": "It is a big ball.",
+          "starter": "My toy is _______ . It is _______ ...",
+          "why": "It is a pronoun that helps you talk about things without repeating the same word!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 138,
+    "sentences": [
+      {
+        "orig": "we luv the bige rede ball",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "we",
+            "r": "We",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "luv",
+            "r": "love",
+            "e": "Love is spelled l-o-v-e. It has an 'o' in the middle and ends with 'e.'"
+          },
+          {
+            "t": "spelling",
+            "w": "bige",
+            "r": "big",
+            "e": "Big does not have an e."
+          },
+          {
+            "t": "spelling",
+            "w": "rede",
+            "r": "red",
+            "e": "Red does not have an e."
+          },
+          {
+            "t": "punctuation",
+            "w": "ball",
+            "r": "ball!",
+            "e": "An excited sentence ends with an exclamation mark."
+          }
+        ],
+        "fixed": "We love the big red ball!",
+        "pos": [
+          {
+            "w": "We",
+            "t": "PRO",
+            "q": "Find the pronoun that means 'me and others.'"
+          },
+          {
+            "w": "love",
+            "t": "V",
+            "q": "Find the action word that means you really, really like something."
+          },
+          {
+            "w": "the",
+            "t": "ART",
+            "q": "Find the small word before 'big.'"
+          },
+          {
+            "w": "big",
+            "t": "ADJ",
+            "q": "Find the size word."
+          },
+          {
+            "w": "red",
+            "t": "ADJ",
+            "q": "Find the color word."
+          },
+          {
+            "w": "ball",
+            "t": "N",
+            "q": "Find the round toy word."
+          }
+        ],
+        "manip": {
+          "task": "Change the size word 'big' to a different describing word.",
+          "word": "big",
+          "examples": [
+            "We love the <span class='changed'>small</span> red ball!",
+            "We love the <span class='changed'>new</span> red ball!"
+          ]
+        },
+        "vocab": {
+          "w": "love",
+          "type": "verb",
+          "def": "To feel a very strong, happy feeling about someone or something.",
+          "simple": "Love means you like something very, very much!",
+          "examples": [
+            "I love my family",
+            "we love to play",
+            "love the ball"
+          ],
+          "similar": [
+            "adore",
+            "enjoy",
+            "like a lot"
+          ],
+          "antonyms": [
+            "hate",
+            "dislike"
+          ],
+          "nonex": [
+            "It does NOT mean you just like it a little.",
+            "It does NOT mean you want to throw it away."
+          ],
+          "example": "We love the big ball!",
+          "starter": "I love _______ because ...",
+          "why": "Love is a big feeling word that tells people what is most special to you!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 139,
+    "sentences": [
+      {
+        "orig": "she lerns soo fasst",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "she",
+            "r": "She",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "lerns",
+            "r": "learns",
+            "e": "Learns is spelled l-e-a-r-n-s. It has an 'ea' in the middle."
+          },
+          {
+            "t": "spelling",
+            "w": "soo",
+            "r": "so",
+            "e": "so is spelled s-o."
+          },
+          {
+            "t": "spelling",
+            "w": "fasst",
+            "r": "fast",
+            "e": "Fast has only one s."
+          },
+          {
+            "t": "punctuation",
+            "w": "fast",
+            "r": "fast!",
+            "e": "An excited sentence ends with an exclamation mark."
+          }
+        ],
+        "fixed": "She learns so fast!",
+        "pos": [
+          {
+            "w": "She",
+            "t": "PRO",
+            "q": "Find the pronoun that means 'a girl or woman.'"
+          },
+          {
+            "w": "learns",
+            "t": "V",
+            "q": "Find the action word for getting new knowledge."
+          },
+          {
+            "w": "so",
+            "t": "ADV",
+            "q": "Find the word that means 'very.'"
+          },
+          {
+            "w": "fast",
+            "t": "ADJ",
+            "q": "Find the describing word that means quickly."
+          }
+        ],
+        "manip": {
+          "task": "Change the describing word 'fast' to a different describing word.",
+          "word": "fast",
+          "examples": [
+            "She learns so <span class='changed'>well</span>!",
+            "She learns so <span class='changed'>much</span>!"
+          ]
+        },
+        "vocab": {
+          "w": "learn",
+          "type": "verb",
+          "def": "To get new knowledge or skills by studying or practicing.",
+          "simple": "Learn means to find out something new!",
+          "examples": [
+            "learn to read",
+            "learn new words",
+            "learn at school"
+          ],
+          "similar": [
+            "study",
+            "practice",
+            "discover"
+          ],
+          "antonyms": [
+            "forget",
+            "ignore"
+          ],
+          "nonex": [
+            "It does NOT mean to sleep.",
+            "It does NOT mean to eat."
+          ],
+          "example": "She learns so fast!",
+          "starter": "I learn new things when _______ ...",
+          "why": "Learn is a word that describes something great that you do every single day!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 140,
+    "sentences": [
+      {
+        "orig": "i luv my nw toi",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "i",
+            "r": "I",
+            "e": "The word 'I' is always a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "luv",
+            "r": "love",
+            "e": "Love is spelled l-o-v-e. It has an 'o' and ends with 'e.'"
+          },
+          {
+            "t": "spelling",
+            "w": "nw",
+            "r": "new",
+            "e": "New needs an e: n-e-w."
+          },
+          {
+            "t": "spelling",
+            "w": "toi",
+            "r": "toy",
+            "e": "Toy ends with y: t-o-y."
+          },
+          {
+            "t": "punctuation",
+            "w": "toy",
+            "r": "toy!",
+            "e": "An excited sentence ends with an exclamation mark."
+          }
+        ],
+        "fixed": "I love my new toy!",
+        "pos": [
+          {
+            "w": "I",
+            "t": "PRO",
+            "q": "Find the pronoun that means 'me.'"
+          },
+          {
+            "w": "love",
+            "t": "V",
+            "q": "Find the action word that means you really, really like something."
+          },
+          {
+            "w": "my",
+            "t": "ART",
+            "q": "Find the word that means 'belonging to me.'"
+          },
+          {
+            "w": "new",
+            "t": "ADJ",
+            "q": "Find the describing word that means not old."
+          },
+          {
+            "w": "toy",
+            "t": "N",
+            "q": "Find the play thing word."
+          }
+        ],
+        "manip": {
+          "task": "Change 'toy' to a different thing you love.",
+          "word": "toy",
+          "examples": [
+            "I love my new <span class='changed'>doll</span>!",
+            "I love my new <span class='changed'>ball</span>!"
+          ]
+        },
+        "vocab": {
+          "w": "toy",
+          "type": "noun",
+          "def": "An object made for children to play with and have fun.",
+          "simple": "A toy is something you play with and enjoy!",
+          "examples": [
+            "my toy",
+            "a new toy",
+            "play with a toy"
+          ],
+          "similar": [
+            "game",
+            "plaything"
+          ],
+          "antonyms": [
+            "tool",
+            "work"
+          ],
+          "nonex": [
+            "It does NOT mean food.",
+            "It does NOT mean clothes."
+          ],
+          "example": "I love my new toy!",
+          "starter": "My favorite toy is _______ because ...",
+          "why": "Toy is an important word for talking about all the fun things you play with!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 141,
+    "sentences": [
+      {
+        "orig": "she kan se a starr",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "she",
+            "r": "She",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "kan",
+            "r": "can",
+            "e": "Can starts with c, not k."
+          },
+          {
+            "t": "spelling",
+            "w": "starr",
+            "r": "star",
+            "e": "Star has only one r."
+          },
+          {
+            "t": "spelling",
+            "w": "se",
+            "r": "see",
+            "e": "See has two e's: s-e-e."
+          },
+          {
+            "t": "punctuation",
+            "w": "star",
+            "r": "star.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "She can see a star.",
+        "pos": [
+          {
+            "w": "She",
+            "t": "PRO",
+            "q": "Find the pronoun that means 'a girl or woman.'"
+          },
+          {
+            "w": "can",
+            "t": "V",
+            "q": "Find the word that means someone is able to do something."
+          },
+          {
+            "w": "see",
+            "t": "V",
+            "q": "Find the action word for looking."
+          },
+          {
+            "w": "a",
+            "t": "ART",
+            "q": "Find the tiny word before 'star.'"
+          },
+          {
+            "w": "star",
+            "t": "N",
+            "q": "Find the shape word with five points."
+          }
+        ],
+        "manip": {
+          "task": "Change 'star' to a different shape.",
+          "word": "star",
+          "examples": [
+            "She can see a <span class='changed'>circle</span>.",
+            "She can see a <span class='changed'>heart</span>."
+          ]
+        },
+        "vocab": {
+          "w": "star",
+          "type": "noun",
+          "def": "A shape with five or more points that stick out from a center.",
+          "simple": "A star is a shape with points that stick out, like the stars in the sky!",
+          "examples": [
+            "a yellow star",
+            "draw a star",
+            "a big star"
+          ],
+          "similar": [
+            "sparkle shape"
+          ],
+          "antonyms": [
+            "circle",
+            "square"
+          ],
+          "nonex": [
+            "It does NOT have curved sides.",
+            "It does NOT have four equal sides."
+          ],
+          "example": "She can see a yellow star.",
+          "starter": "I can draw a star that is _______ ...",
+          "why": "Star is a shape word and also helps you talk about the lights you see in the night sky!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 142,
+    "sentences": [
+      {
+        "orig": "we lern att skool today",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "we",
+            "r": "We",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "lern",
+            "r": "learn",
+            "e": "Learn is spelled l-e-a-r-n. It has an 'ea' in the middle."
+          },
+          {
+            "t": "spelling",
+            "w": "skool",
+            "r": "school",
+            "e": "School is spelled s-c-h-o-o-l. The 'ch' makes a 'k' sound here."
+          },
+          {
+            "t": "spelling",
+            "w": "att",
+            "r": "at",
+            "e": "At has only one t."
+          },
+          {
+            "t": "punctuation",
+            "w": "today",
+            "r": "today.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "We learn at school today.",
+        "pos": [
+          {
+            "w": "We",
+            "t": "PRO",
+            "q": "Find the pronoun that means 'me and others.'"
+          },
+          {
+            "w": "learn",
+            "t": "V",
+            "q": "Find the action word for getting new knowledge."
+          },
+          {
+            "w": "at",
+            "t": "PREP",
+            "q": "Find the word that tells where we learn."
+          },
+          {
+            "w": "school",
+            "t": "N",
+            "q": "Find the place word where you learn every day."
+          },
+          {
+            "w": "today",
+            "t": "ADV",
+            "q": "Find the time word that means 'this day.'"
+          }
+        ],
+        "manip": {
+          "task": "Change the place word 'school' to a different place.",
+          "word": "school",
+          "examples": [
+            "We learn at <span class='changed'>home</span> today.",
+            "We learn at <span class='changed'>the park</span> today."
+          ]
+        },
+        "vocab": {
+          "w": "we",
+          "type": "pronoun",
+          "def": "A word that means 'me and one or more other people together.'",
+          "simple": "We means you and other people together!",
+          "examples": [
+            "we play",
+            "we learn",
+            "we share"
+          ],
+          "similar": [
+            "us",
+            "our group"
+          ],
+          "antonyms": [
+            "I",
+            "he",
+            "she"
+          ],
+          "nonex": [
+            "It does NOT mean just one person.",
+            "It does NOT mean just other people without you."
+          ],
+          "example": "We learn at school.",
+          "starter": "We can _______ together ...",
+          "why": "We is a pronoun that helps you talk about yourself and your friends at the same time!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 143,
+    "sentences": [
+      {
+        "orig": "they hve a rede gam today",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "they",
+            "r": "They",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "gam",
+            "r": "game",
+            "e": "Game ends with an 'e.' We spell it g-a-m-e."
+          },
+          {
+            "t": "spelling",
+            "w": "hve",
+            "r": "have",
+            "e": "have is spelled h-a-v-e."
+          },
+          {
+            "t": "spelling",
+            "w": "rede",
+            "r": "red",
+            "e": "Red does not have an e."
+          },
+          {
+            "t": "punctuation",
+            "w": "today",
+            "r": "today.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "They have a red game today.",
+        "pos": [
+          {
+            "w": "They",
+            "t": "PRO",
+            "q": "Find the pronoun that means 'more than one person.'"
+          },
+          {
+            "w": "have",
+            "t": "V",
+            "q": "Find the action word that means to own."
+          },
+          {
+            "w": "a",
+            "t": "ART",
+            "q": "Find the tiny word before 'red.'"
+          },
+          {
+            "w": "red",
+            "t": "ADJ",
+            "q": "Find the color word."
+          },
+          {
+            "w": "game",
+            "t": "N",
+            "q": "Find the play word."
+          },
+          {
+            "w": "today",
+            "t": "ADV",
+            "q": "Find the time word that means 'this day.'"
+          }
+        ],
+        "manip": {
+          "task": "Change the color word 'red' to a different color.",
+          "word": "red",
+          "examples": [
+            "They have a <span class='changed'>blue</span> game today.",
+            "They have a <span class='changed'>new</span> game today."
+          ]
+        },
+        "vocab": {
+          "w": "game",
+          "type": "noun",
+          "def": "An activity with rules that people play for fun, often with others.",
+          "simple": "A game is a fun activity you play with rules, like a board game or a ball game!",
+          "examples": [
+            "a red game",
+            "play a game",
+            "my game"
+          ],
+          "similar": [
+            "activity",
+            "play",
+            "sport"
+          ],
+          "antonyms": [
+            "work",
+            "chores"
+          ],
+          "nonex": [
+            "It does NOT mean homework.",
+            "It does NOT mean a nap."
+          ],
+          "example": "They have a red game.",
+          "starter": "My favorite game is _______ because ...",
+          "why": "Game is a great word for talking about the fun activities you do with friends!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 144,
+    "sentences": [
+      {
+        "orig": "i can see a bige rede bal here",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "i",
+            "r": "I",
+            "e": "The word 'I' is always a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "bal",
+            "r": "ball",
+            "e": "Ball has two l's at the end. We spell it b-a-l-l."
+          },
+          {
+            "t": "spelling",
+            "w": "bige",
+            "r": "big",
+            "e": "Big does not have an e."
+          },
+          {
+            "t": "spelling",
+            "w": "rede",
+            "r": "red",
+            "e": "Red does not have an e."
+          },
+          {
+            "t": "punctuation",
+            "w": "here",
+            "r": "here.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "I can see a big red ball here.",
+        "pos": [
+          {
+            "w": "I",
+            "t": "PRO",
+            "q": "Find the pronoun that means 'me.'"
+          },
+          {
+            "w": "can",
+            "t": "V",
+            "q": "Find the word that means you are able to do something."
+          },
+          {
+            "w": "see",
+            "t": "V",
+            "q": "Find the action word for looking."
+          },
+          {
+            "w": "a",
+            "t": "ART",
+            "q": "Find the tiny word before 'big.'"
+          },
+          {
+            "w": "big",
+            "t": "ADJ",
+            "q": "Find the size word."
+          },
+          {
+            "w": "red",
+            "t": "ADJ",
+            "q": "Find the color word."
+          },
+          {
+            "w": "ball",
+            "t": "N",
+            "q": "Find the round toy word."
+          },
+          {
+            "w": "here",
+            "t": "ADV",
+            "q": "Find the word that tells where the ball is."
+          }
+        ],
+        "manip": {
+          "task": "Change the color word 'red' to a different color.",
+          "word": "red",
+          "examples": [
+            "I can see a big <span class='changed'>blue</span> ball here.",
+            "I can see a big <span class='changed'>green</span> ball here."
+          ]
+        },
+        "vocab": {
+          "w": "can",
+          "type": "verb",
+          "def": "A word that means you are able to do something.",
+          "simple": "Can means you are able to do something!",
+          "examples": [
+            "I can see",
+            "she can run",
+            "we can share"
+          ],
+          "similar": [
+            "able to",
+            "know how to"
+          ],
+          "antonyms": [
+            "cannot",
+            "can't"
+          ],
+          "nonex": [
+            "It does NOT mean you always do it.",
+            "It does NOT mean you must do it."
+          ],
+          "example": "I can see a big red ball.",
+          "starter": "I can _______ because ...",
+          "why": "Can is an important word that tells people what you are able to do!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 145,
+    "sentences": [
+      {
+        "orig": "she kan bild a tawl tower",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "she",
+            "r": "She",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "bild",
+            "r": "build",
+            "e": "Build is spelled b-u-i-l-d. It has a 'u' and 'i' together."
+          },
+          {
+            "t": "spelling",
+            "w": "kan",
+            "r": "can",
+            "e": "Can starts with c, not k."
+          },
+          {
+            "t": "spelling",
+            "w": "tawl",
+            "r": "tall",
+            "e": "Tall has two l's: t-a-l-l."
+          },
+          {
+            "t": "punctuation",
+            "w": "tower",
+            "r": "tower.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "She can build a tall tower.",
+        "pos": [
+          {
+            "w": "She",
+            "t": "PRO",
+            "q": "Find the pronoun that means 'a girl or woman.'"
+          },
+          {
+            "w": "can",
+            "t": "V",
+            "q": "Find the word that means she is able to do something."
+          },
+          {
+            "w": "build",
+            "t": "V",
+            "q": "Find the action word for making something."
+          },
+          {
+            "w": "a",
+            "t": "ART",
+            "q": "Find the tiny word before 'tall.'"
+          },
+          {
+            "w": "tall",
+            "t": "ADJ",
+            "q": "Find the describing word that means very high."
+          },
+          {
+            "w": "tower",
+            "t": "N",
+            "q": "Find the tall thing word."
+          }
+        ],
+        "manip": {
+          "task": "Change the describing word 'tall' to a different describing word.",
+          "word": "tall",
+          "examples": [
+            "She can build a <span class='changed'>big</span> tower.",
+            "She can build a <span class='changed'>red</span> tower."
+          ]
+        },
+        "vocab": {
+          "w": "tall",
+          "type": "adjective",
+          "def": "Higher than normal, reaching up a long way.",
+          "simple": "Tall means something is very high up!",
+          "examples": [
+            "a tall tower",
+            "a tall tree",
+            "very tall"
+          ],
+          "similar": [
+            "high",
+            "big",
+            "long"
+          ],
+          "antonyms": [
+            "short",
+            "small",
+            "low"
+          ],
+          "nonex": [
+            "It does NOT mean wide.",
+            "It does NOT mean heavy."
+          ],
+          "example": "She can build a tall tower.",
+          "starter": "The _______ is very tall because ...",
+          "why": "Tall is a describing word that helps you talk about the height of things!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 146,
+    "sentences": [
+      {
+        "orig": "they pla a gam at the prk now",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "they",
+            "r": "They",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "pla",
+            "r": "play",
+            "e": "Play ends with 'ay.' We spell it p-l-a-y."
+          },
+          {
+            "t": "spelling",
+            "w": "gam",
+            "r": "game",
+            "e": "Game ends with an 'e.' We spell it g-a-m-e."
+          },
+          {
+            "t": "spelling",
+            "w": "prk",
+            "r": "park",
+            "e": "Park is spelled p-a-r-k. It has an 'a' in the middle."
+          },
+          {
+            "t": "punctuation",
+            "w": "now",
+            "r": "now.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "They play a game at the park now.",
+        "pos": [
+          {
+            "w": "They",
+            "t": "PRO",
+            "q": "Find the pronoun that means 'more than one person.'"
+          },
+          {
+            "w": "play",
+            "t": "V",
+            "q": "Find the action word for having fun."
+          },
+          {
+            "w": "a",
+            "t": "ART",
+            "q": "Find the tiny word before 'game.'"
+          },
+          {
+            "w": "game",
+            "t": "N",
+            "q": "Find the play word."
+          },
+          {
+            "w": "at",
+            "t": "PREP",
+            "q": "Find the word that tells where they play."
+          },
+          {
+            "w": "the",
+            "t": "ART",
+            "q": "Find the small word before 'park.'"
+          },
+          {
+            "w": "park",
+            "t": "N",
+            "q": "Find the outdoor place word."
+          },
+          {
+            "w": "now",
+            "t": "ADV",
+            "q": "Find the time word that means 'right this moment.'"
+          }
+        ],
+        "manip": {
+          "task": "Change 'park' to a different place.",
+          "word": "park",
+          "examples": [
+            "They play a game at the <span class='changed'>school</span> now.",
+            "They play a game at the <span class='changed'>store</span> now."
+          ]
+        },
+        "vocab": {
+          "w": "friend",
+          "type": "noun",
+          "def": "A person you like to spend time with and play with.",
+          "simple": "A friend is someone you play with and care about!",
+          "examples": [
+            "my friend",
+            "a good friend",
+            "play with a friend"
+          ],
+          "similar": [
+            "buddy",
+            "pal",
+            "playmate"
+          ],
+          "antonyms": [
+            "stranger",
+            "enemy"
+          ],
+          "nonex": [
+            "It does NOT mean someone who is mean to you.",
+            "It does NOT mean a toy."
+          ],
+          "example": "They play a game at the park with a friend.",
+          "starter": "My friend is _______ . We like to _______ ...",
+          "why": "Friend is an important word for talking about the people who make you happy!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 147,
+    "sentences": [
+      {
+        "orig": "he liks the blu skware today",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "he",
+            "r": "He",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "liks",
+            "r": "likes",
+            "e": "Likes is spelled l-i-k-e-s. It has an 'e' before the 's.'"
+          },
+          {
+            "t": "spelling",
+            "w": "blu",
+            "r": "blue",
+            "e": "Blue ends with an 'e.' We spell it b-l-u-e."
+          },
+          {
+            "t": "spelling",
+            "w": "skware",
+            "r": "square",
+            "e": "Square is spelled s-q-u-a-r-e. It starts with s-q."
+          },
+          {
+            "t": "punctuation",
+            "w": "today",
+            "r": "today.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "He likes the blue square today.",
+        "pos": [
+          {
+            "w": "He",
+            "t": "PRO",
+            "q": "Find the pronoun that means 'a boy or man.'"
+          },
+          {
+            "w": "likes",
+            "t": "V",
+            "q": "Find the action word that shows he enjoys something."
+          },
+          {
+            "w": "the",
+            "t": "ART",
+            "q": "Find the small word before 'blue.'"
+          },
+          {
+            "w": "blue",
+            "t": "ADJ",
+            "q": "Find the color word."
+          },
+          {
+            "w": "square",
+            "t": "N",
+            "q": "Find the shape word with four equal sides."
+          },
+          {
+            "w": "today",
+            "t": "ADV",
+            "q": "Find the time word that means 'this day.'"
+          }
+        ],
+        "manip": {
+          "task": "Change the color word 'blue' to a different color.",
+          "word": "blue",
+          "examples": [
+            "He likes the <span class='changed'>red</span> square today.",
+            "He likes the <span class='changed'>green</span> square today."
+          ]
+        },
+        "vocab": {
+          "w": "color",
+          "type": "noun",
+          "def": "The way something looks based on how it reflects light, such as red, blue, or green.",
+          "simple": "Color is the word for red, blue, green, and all the beautiful colors you can see!",
+          "examples": [
+            "my favorite color",
+            "a bright color",
+            "what color is it?"
+          ],
+          "similar": [
+            "shade",
+            "hue",
+            "tint"
+          ],
+          "antonyms": [],
+          "nonex": [
+            "It does NOT mean a shape.",
+            "It does NOT mean a size."
+          ],
+          "example": "He likes the blue color of the square.",
+          "starter": "My favorite color is _______ because ...",
+          "why": "Color is a word that helps you describe and talk about everything you see!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 148,
+    "sentences": [
+      {
+        "orig": "we sher the nw gam today",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "we",
+            "r": "We",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "sher",
+            "r": "share",
+            "e": "Share is spelled s-h-a-r-e. It ends with an 'e.'"
+          },
+          {
+            "t": "spelling",
+            "w": "gam",
+            "r": "game",
+            "e": "Game ends with an 'e.' We spell it g-a-m-e."
+          },
+          {
+            "t": "spelling",
+            "w": "nw",
+            "r": "new",
+            "e": "New needs an e: n-e-w."
+          },
+          {
+            "t": "punctuation",
+            "w": "today",
+            "r": "today.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "We share the new game today.",
+        "pos": [
+          {
+            "w": "We",
+            "t": "PRO",
+            "q": "Find the pronoun that means 'me and others.'"
+          },
+          {
+            "w": "share",
+            "t": "V",
+            "q": "Find the action word for using something together."
+          },
+          {
+            "w": "the",
+            "t": "ART",
+            "q": "Find the small word before 'new.'"
+          },
+          {
+            "w": "new",
+            "t": "ADJ",
+            "q": "Find the describing word that means not old."
+          },
+          {
+            "w": "game",
+            "t": "N",
+            "q": "Find the play word."
+          },
+          {
+            "w": "today",
+            "t": "ADV",
+            "q": "Find the time word that means 'this day.'"
+          }
+        ],
+        "manip": {
+          "task": "Change 'game' to a different toy you can share.",
+          "word": "game",
+          "examples": [
+            "We share the new <span class='changed'>ball</span> today.",
+            "We share the new <span class='changed'>blocks</span> today."
+          ]
+        },
+        "vocab": {
+          "w": "together",
+          "type": "adverb",
+          "def": "With each other, at the same time and in the same place.",
+          "simple": "Together means doing something with other people at the same time!",
+          "examples": [
+            "play together",
+            "learn together",
+            "share together"
+          ],
+          "similar": [
+            "with each other",
+            "as one",
+            "as a group"
+          ],
+          "antonyms": [
+            "alone",
+            "apart",
+            "separate"
+          ],
+          "nonex": [
+            "It does NOT mean alone.",
+            "It does NOT mean one at a time."
+          ],
+          "example": "We share the new game together.",
+          "starter": "I like to _______ together with _______ ...",
+          "why": "Together is a word that shows friendship and teamwork!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 149,
+    "sentences": [
+      {
+        "orig": "i can lern mi shapez",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "i",
+            "r": "I",
+            "e": "The word 'I' is always a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "lern",
+            "r": "learn",
+            "e": "Learn is spelled l-e-a-r-n. It has an 'ea' in the middle."
+          },
+          {
+            "t": "spelling",
+            "w": "shapez",
+            "r": "shapes",
+            "e": "Shapes ends with s, not z."
+          },
+          {
+            "t": "spelling",
+            "w": "mi",
+            "r": "my",
+            "e": "My is spelled m-y."
+          },
+          {
+            "t": "punctuation",
+            "w": "shapes",
+            "r": "shapes.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "I can learn my shapes.",
+        "pos": [
+          {
+            "w": "I",
+            "t": "PRO",
+            "q": "Find the pronoun that means 'me.'"
+          },
+          {
+            "w": "can",
+            "t": "V",
+            "q": "Find the word that means you are able to do something."
+          },
+          {
+            "w": "learn",
+            "t": "V",
+            "q": "Find the action word for getting new knowledge."
+          },
+          {
+            "w": "my",
+            "t": "ART",
+            "q": "Find the word that means 'belonging to me.'"
+          },
+          {
+            "w": "shapes",
+            "t": "N",
+            "q": "Find the word for circles, squares, and stars."
+          }
+        ],
+        "manip": {
+          "task": "Change 'shapes' to something else you can learn.",
+          "word": "shapes",
+          "examples": [
+            "I can learn my <span class='changed'>colors</span>.",
+            "I can learn my <span class='changed'>words</span>."
+          ]
+        },
+        "vocab": {
+          "w": "shape",
+          "type": "noun",
+          "def": "The outline or form of something, like a circle, square, triangle, or star.",
+          "simple": "A shape is what something looks like from the outside, like a circle or a square!",
+          "examples": [
+            "my shape",
+            "a round shape",
+            "what shape is it?"
+          ],
+          "similar": [
+            "form",
+            "figure",
+            "outline"
+          ],
+          "antonyms": [],
+          "nonex": [
+            "It does NOT mean a color.",
+            "It does NOT mean a size."
+          ],
+          "example": "I can learn my shapes.",
+          "starter": "My favorite shape is _______ because ...",
+          "why": "Shape is an important word that helps you describe and sort the things you see!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 150,
+    "sentences": [
+      {
+        "orig": "we pla and lern evry day",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "we",
+            "r": "We",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "pla",
+            "r": "play",
+            "e": "Play ends with 'ay.' We spell it p-l-a-y."
+          },
+          {
+            "t": "spelling",
+            "w": "lern",
+            "r": "learn",
+            "e": "Learn is spelled l-e-a-r-n. It has an 'ea' in the middle."
+          },
+          {
+            "t": "spelling",
+            "w": "evry",
+            "r": "every",
+            "e": "Every is spelled e-v-e-r-y. It has two 'e's."
+          },
+          {
+            "t": "punctuation",
+            "w": "day",
+            "r": "day.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "We play and learn every day.",
+        "pos": [
+          {
+            "w": "We",
+            "t": "PRO",
+            "q": "Find the pronoun that means 'me and others.'"
+          },
+          {
+            "w": "play",
+            "t": "V",
+            "q": "Find the first action word."
+          },
+          {
+            "w": "and",
+            "t": "CONJ",
+            "q": "Find the joining word."
+          },
+          {
+            "w": "learn",
+            "t": "V",
+            "q": "Find the second action word."
+          },
+          {
+            "w": "every",
+            "t": "ADJ",
+            "q": "Find the word that means 'all of the days.'"
+          },
+          {
+            "w": "day",
+            "t": "N",
+            "q": "Find the time word."
+          }
+        ],
+        "manip": {
+          "task": "Change 'learn' to a different action word.",
+          "word": "learn",
+          "examples": [
+            "We play and <span class='changed'>share</span> every day.",
+            "We play and <span class='changed'>build</span> every day."
+          ]
+        },
+        "vocab": {
+          "w": "every",
+          "type": "adjective",
+          "def": "All of the people or things in a group, without leaving any out.",
+          "simple": "Every means all of them, not just some!",
+          "examples": [
+            "every day",
+            "every toy",
+            "every friend"
+          ],
+          "similar": [
+            "all",
+            "each"
+          ],
+          "antonyms": [
+            "none",
+            "no"
+          ],
+          "nonex": [
+            "It does NOT mean just one.",
+            "It does NOT mean sometimes."
+          ],
+          "example": "We play and learn every day.",
+          "starter": "Every day, I like to _______ ...",
+          "why": "Every is a powerful word that means all — not just some — of something!"
+        }
+      }
+    ]
+  }
+]

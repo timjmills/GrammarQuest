@@ -4,6 +4,7 @@ let currentGrade = 'mixed';
 
 const GRADE_FILES = {
     'mixed': 'data/days.json',
+    'prek': 'data/prek.json',
     'gradek': 'data/gradek.json',
     'grade1': 'data/grade1.json',
     'grade2': 'data/grade2.json',
@@ -14,6 +15,7 @@ const GRADE_FILES = {
 
 const GRADE_LABELS = {
     'mixed': '5 Errors | POS: N\u2192V\u2192ADJ\u2192ADV\u2192PREP\u2192Other',
+    'prek': '5 Errors | Pre-K ELL: Nouns \u2022 Verbs \u2022 Classroom Survival',
     'gradek': '5 Errors | Grade K: Nouns \u2022 Verbs \u2022 CVC Spelling \u2022 Sight Words',
     'grade1': '5 Errors | Grade 1: Nouns \u2022 Verbs \u2022 Sentences \u2022 Spelling',
     'grade2': '5 Errors | Grade 2: Irregular Plurals \u2022 Past Tense \u2022 Pronouns',
@@ -50,6 +52,7 @@ function switchGrade(grade) {
 
     // Update help periods visibility
     document.getElementById('help-mixed-periods').style.display = grade === 'mixed' ? '' : 'none';
+    document.getElementById('help-prek-periods').style.display = grade === 'prek' ? '' : 'none';
     document.getElementById('help-gradek-periods').style.display = grade === 'gradek' ? '' : 'none';
     document.getElementById('help-grade1-periods').style.display = grade === 'grade1' ? '' : 'none';
     document.getElementById('help-grade2-periods').style.display = grade === 'grade2' ? '' : 'none';
@@ -1023,7 +1026,7 @@ function printWorksheet(idx) {
 '</style></head><body onload="setTimeout(function(){window.print()},300)">' +
 
 '<div class="pg">' +
-'<div class="hd"><div><h1>\ud83d\udcda Daily Oral Language</h1><div class="sb">Day ' + day + ' \u2022 Sentence ' + num + '</div></div>' +
+'<div class="hd"><div><h1>Daily Oral Language</h1><div class="sb">Day ' + day + ' \u2022 Sentence ' + num + '</div></div>' +
 '<div class="hdr"><div><span class="fl">Name:</span><span class="fn"></span></div><div><span class="fl">Date:</span><span class="fn fd"></span></div></div></div>' +
 
 '<div class="sc"><div class="sh"><span class="nm">1</span><span class="st">Sentence Correction</span></div>' +
@@ -1043,19 +1046,19 @@ function printWorksheet(idx) {
 '<div class="p2">Day ' + day + ' \u2022 Sentence ' + num + ' \u2014 continued</div>' +
 
 '<div class="sc"><div class="sh"><span class="nm">3</span><span class="st">Sentence Manipulation</span></div>' +
-'<div class="tb">\u270f\ufe0f <strong>Task:</strong> ' + task + '</div>' +
+'<div class="tb"><strong>Task:</strong> ' + task + '</div>' +
 '<div class="lb">Rewrite the sentence with your change:</div>' +
 '<div class="wl"></div><div class="wl"></div><div class="wl"></div></div>' +
 
 '<hr class="dv">' +
 
-'<div class="sc"><div class="sh"><span class="nm">4</span><span class="st">\u2b50 Vocabulary Word</span></div>' +
+'<div class="sc"><div class="sh"><span class="nm">4</span><span class="st">Vocabulary Word</span></div>' +
 '<div class="vr"><span class="vl">Word:</span><span class="vt"></span></div>' +
 '<div class="vr"><span class="vl">Definition:</span><span class="vn"></span></div>' +
 '<div class="wl"></div>' +
 '<div class="vr"><span class="vl">Synonyms:</span><span class="vn"></span></div>' +
 '<div class="vr"><span class="vl">Antonyms:</span><span class="vn"></span></div>' +
-'<div class="wp">\u270f\ufe0f Write your own sentence using this word:</div>' +
+'<div class="wp">Write your own sentence using this word:</div>' +
 '<div class="wl"></div><div class="wl"></div><div class="wl"></div></div>' +
 '</div>' +
 

@@ -1,0 +1,2516 @@
+[
+  {
+    "day": 51,
+    "sentences": [
+      {
+        "orig": "my momy iz nise",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "my",
+            "r": "My",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "momy",
+            "r": "mom",
+            "e": "The word 'mom' is spelled m-o-m."
+          },
+          {
+            "t": "spelling",
+            "w": "iz",
+            "r": "is",
+            "e": "Is is spelled i-s, not i-z."
+          },
+          {
+            "t": "spelling",
+            "w": "nise",
+            "r": "nice",
+            "e": "Nice is spelled n-i-c-e. It has a 'c' in it."
+          },
+          {
+            "t": "punctuation",
+            "w": "nice",
+            "r": "nice.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "My mom is nice.",
+        "pos": [
+          {
+            "w": "My",
+            "t": "ART",
+            "q": "Find the word that means 'belonging to me.'"
+          },
+          {
+            "w": "mom",
+            "t": "N",
+            "q": "Find the person word for your mother."
+          },
+          {
+            "w": "is",
+            "t": "V",
+            "q": "Find the small word that tells what mom is."
+          },
+          {
+            "w": "nice",
+            "t": "ADJ",
+            "q": "Find the word that tells how mom is."
+          }
+        ],
+        "manip": {
+          "task": "Change 'nice' to another word that tells about mom.",
+          "word": "nice",
+          "examples": [
+            "My mom is <span class='changed'>kind</span>.",
+            "My mom is <span class='changed'>fun</span>."
+          ]
+        },
+        "vocab": {
+          "w": "family",
+          "type": "noun",
+          "def": "The people who love and take care of you, like your mom, dad, and siblings.",
+          "simple": "Family means the people who love you at home!",
+          "examples": [
+            "a big family",
+            "my family eats",
+            "I love my family"
+          ],
+          "similar": [
+            "home",
+            "loved ones",
+            "relatives"
+          ],
+          "antonyms": [
+            "strangers",
+            "alone"
+          ],
+          "nonex": [
+            "It does NOT mean just your friends.",
+            "It does NOT mean just your teacher."
+          ],
+          "example": "My mom is part of my family.",
+          "starter": "My family is _______ ...",
+          "why": "Family is an important word to tell people who you live with and love!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 52,
+    "sentences": [
+      {
+        "orig": "my dady iz bige",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "my",
+            "r": "My",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "dady",
+            "r": "dad",
+            "e": "The word 'dad' is spelled d-a-d."
+          },
+          {
+            "t": "spelling",
+            "w": "iz",
+            "r": "is",
+            "e": "Is is spelled i-s, not i-z."
+          },
+          {
+            "t": "spelling",
+            "w": "bige",
+            "r": "big",
+            "e": "Big does not have an e."
+          },
+          {
+            "t": "punctuation",
+            "w": "big",
+            "r": "big.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "My dad is big.",
+        "pos": [
+          {
+            "w": "My",
+            "t": "ART",
+            "q": "Find the word that means 'belonging to me.'"
+          },
+          {
+            "w": "dad",
+            "t": "N",
+            "q": "Find the person word for your father."
+          },
+          {
+            "w": "is",
+            "t": "V",
+            "q": "Find the word that tells what dad is."
+          },
+          {
+            "w": "big",
+            "t": "ADJ",
+            "q": "Find the word that tells how dad looks."
+          }
+        ],
+        "manip": {
+          "task": "Change 'big' to another word that tells about dad.",
+          "word": "big",
+          "examples": [
+            "My dad is <span class='changed'>tall</span>.",
+            "My dad is <span class='changed'>strong</span>."
+          ]
+        },
+        "vocab": {
+          "w": "strong",
+          "type": "adjective",
+          "def": "Having a lot of power in your body, able to lift heavy things.",
+          "simple": "Strong means your body can do a lot!",
+          "examples": [
+            "a strong dad",
+            "strong arms",
+            "a strong hug"
+          ],
+          "similar": [
+            "powerful",
+            "tough",
+            "big"
+          ],
+          "antonyms": [
+            "weak",
+            "small",
+            "tiny"
+          ],
+          "nonex": [
+            "It does NOT mean loud.",
+            "It does NOT mean fast."
+          ],
+          "example": "My dad is strong and lifts heavy bags.",
+          "starter": "I feel strong when I _______ ...",
+          "why": "Strong helps you tell about people and things with lots of power!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 53,
+    "sentences": [
+      {
+        "orig": "the bayb iz smal",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "the",
+            "r": "The",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "bayb",
+            "r": "baby",
+            "e": "Baby is spelled b-a-b-y. It ends with a 'y.'"
+          },
+          {
+            "t": "spelling",
+            "w": "iz",
+            "r": "is",
+            "e": "Is is spelled i-s, not i-z."
+          },
+          {
+            "t": "spelling",
+            "w": "smal",
+            "r": "small",
+            "e": "Small has two l's at the end: s-m-a-l-l."
+          },
+          {
+            "t": "punctuation",
+            "w": "smal",
+            "r": "small.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "The baby is small.",
+        "pos": [
+          {
+            "w": "The",
+            "t": "ART",
+            "q": "Find the word that comes before 'baby.'"
+          },
+          {
+            "w": "baby",
+            "t": "N",
+            "q": "Find the person word for a very little one."
+          },
+          {
+            "w": "is",
+            "t": "V",
+            "q": "Find the word that tells about the baby."
+          },
+          {
+            "w": "small",
+            "t": "ADJ",
+            "q": "Find the word that tells how big the baby is."
+          }
+        ],
+        "manip": {
+          "task": "Change 'small' to another word that tells about the baby.",
+          "word": "small",
+          "examples": [
+            "The baby is <span class='changed'>tiny</span>.",
+            "The baby is <span class='changed'>soft</span>."
+          ]
+        },
+        "vocab": {
+          "w": "tiny",
+          "type": "adjective",
+          "def": "Very, very small — even smaller than small!",
+          "simple": "Tiny means very little, like a baby or an ant!",
+          "examples": [
+            "a tiny baby",
+            "a tiny ant",
+            "tiny fingers"
+          ],
+          "similar": [
+            "small",
+            "little",
+            "mini"
+          ],
+          "antonyms": [
+            "big",
+            "huge",
+            "tall"
+          ],
+          "nonex": [
+            "It does NOT mean thin or flat.",
+            "It does NOT mean short only."
+          ],
+          "example": "The baby has tiny little hands.",
+          "starter": "Something tiny in my house is _______ ...",
+          "why": "Tiny helps you tell people that something is very, very small!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 54,
+    "sentences": [
+      {
+        "orig": "my sistr iz funn",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "my",
+            "r": "My",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "sistr",
+            "r": "sister",
+            "e": "Sister is spelled s-i-s-t-e-r. It has an 'e' before the 'r.'"
+          },
+          {
+            "t": "spelling",
+            "w": "iz",
+            "r": "is",
+            "e": "Is is spelled i-s, not i-z."
+          },
+          {
+            "t": "spelling",
+            "w": "funn",
+            "r": "fun",
+            "e": "Fun has only one n."
+          },
+          {
+            "t": "punctuation",
+            "w": "fun",
+            "r": "fun.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "My sister is fun.",
+        "pos": [
+          {
+            "w": "My",
+            "t": "ART",
+            "q": "Find the word that means 'belonging to me.'"
+          },
+          {
+            "w": "sister",
+            "t": "N",
+            "q": "Find the person word for a girl in your family."
+          },
+          {
+            "w": "is",
+            "t": "V",
+            "q": "Find the word that tells about sister."
+          },
+          {
+            "w": "fun",
+            "t": "ADJ",
+            "q": "Find the word that tells how sister is."
+          }
+        ],
+        "manip": {
+          "task": "Change 'fun' to another word that tells about sister.",
+          "word": "fun",
+          "examples": [
+            "My sister is <span class='changed'>kind</span>.",
+            "My sister is <span class='changed'>smart</span>."
+          ]
+        },
+        "vocab": {
+          "w": "share",
+          "type": "verb",
+          "def": "To give some of what you have to another person.",
+          "simple": "Share means to let someone else have some too!",
+          "examples": [
+            "share a toy",
+            "share food",
+            "share with my sister"
+          ],
+          "similar": [
+            "give",
+            "split",
+            "divide"
+          ],
+          "antonyms": [
+            "keep",
+            "take",
+            "grab"
+          ],
+          "nonex": [
+            "It does NOT mean to take everything.",
+            "It does NOT mean to hide."
+          ],
+          "example": "My sister and I share our toys.",
+          "starter": "I like to share _______ ...",
+          "why": "Share is an important word for living and playing with others!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 55,
+    "sentences": [
+      {
+        "orig": "my brodhr iz tawl",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "my",
+            "r": "My",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "brodhr",
+            "r": "brother",
+            "e": "Brother is spelled b-r-o-t-h-e-r."
+          },
+          {
+            "t": "spelling",
+            "w": "iz",
+            "r": "is",
+            "e": "Is is spelled i-s, not i-z."
+          },
+          {
+            "t": "spelling",
+            "w": "tawl",
+            "r": "tall",
+            "e": "Tall has two l's: t-a-l-l."
+          },
+          {
+            "t": "punctuation",
+            "w": "tall",
+            "r": "tall.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "My brother is tall.",
+        "pos": [
+          {
+            "w": "My",
+            "t": "ART",
+            "q": "Find the word that means 'belonging to me.'"
+          },
+          {
+            "w": "brother",
+            "t": "N",
+            "q": "Find the person word for a boy in your family."
+          },
+          {
+            "w": "is",
+            "t": "V",
+            "q": "Find the word that tells about brother."
+          },
+          {
+            "w": "tall",
+            "t": "ADJ",
+            "q": "Find the word that tells how brother looks."
+          }
+        ],
+        "manip": {
+          "task": "Change 'brother' to a different family member.",
+          "word": "brother",
+          "examples": [
+            "My <span class='changed'>dad</span> is tall.",
+            "My <span class='changed'>uncle</span> is tall."
+          ]
+        },
+        "vocab": {
+          "w": "help",
+          "type": "verb",
+          "def": "To do something good for another person so their job is easier.",
+          "simple": "Help means to do something good for someone else!",
+          "examples": [
+            "help my brother",
+            "help at home",
+            "help a friend"
+          ],
+          "similar": [
+            "assist",
+            "support",
+            "aid"
+          ],
+          "antonyms": [
+            "ignore",
+            "hurt",
+            "block"
+          ],
+          "nonex": [
+            "It does NOT mean doing everything for them.",
+            "It does NOT mean taking over."
+          ],
+          "example": "My brother can help me reach the top shelf.",
+          "starter": "I help my family when I _______ ...",
+          "why": "Help is a word you use every day to tell about being kind to others!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 56,
+    "sentences": [
+      {
+        "orig": "i luv mi momm",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "i",
+            "r": "I",
+            "e": "The word 'I' is always a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "luv",
+            "r": "love",
+            "e": "Love is spelled l-o-v-e. It has an 'o' and an 'e.'"
+          },
+          {
+            "t": "spelling",
+            "w": "mi",
+            "r": "my",
+            "e": "My is spelled m-y."
+          },
+          {
+            "t": "spelling",
+            "w": "momm",
+            "r": "mom",
+            "e": "Mom has only one m at the end."
+          },
+          {
+            "t": "punctuation",
+            "w": "mom",
+            "r": "mom.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "I love my mom.",
+        "pos": [
+          {
+            "w": "I",
+            "t": "PRO",
+            "q": "Find the word that means 'me.'"
+          },
+          {
+            "w": "love",
+            "t": "V",
+            "q": "Find the feeling action word."
+          },
+          {
+            "w": "my",
+            "t": "ART",
+            "q": "Find the word that means 'belonging to me.'"
+          },
+          {
+            "w": "mom",
+            "t": "N",
+            "q": "Find the person word for your mother."
+          }
+        ],
+        "manip": {
+          "task": "Change 'mom' to another family member you love.",
+          "word": "mom",
+          "examples": [
+            "I love my <span class='changed'>dad</span>.",
+            "I love my <span class='changed'>baby</span>."
+          ]
+        },
+        "vocab": {
+          "w": "love",
+          "type": "verb",
+          "def": "A warm, happy feeling you have for people or things that are very special to you.",
+          "simple": "Love is the big happy feeling you have for your family!",
+          "examples": [
+            "I love my mom",
+            "love my pet",
+            "love to play"
+          ],
+          "similar": [
+            "care",
+            "adore",
+            "cherish"
+          ],
+          "antonyms": [
+            "hate",
+            "dislike"
+          ],
+          "nonex": [
+            "It does NOT mean just liking something a little.",
+            "It does NOT mean wanting."
+          ],
+          "example": "I love my mom and dad very much.",
+          "starter": "I love _______ ...",
+          "why": "Love is one of the most important words you can say!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 57,
+    "sentences": [
+      {
+        "orig": "i se uh bedd",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "i",
+            "r": "I",
+            "e": "The word 'I' is always a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "se",
+            "r": "see",
+            "e": "See has two e's: s-e-e."
+          },
+          {
+            "t": "spelling",
+            "w": "uh",
+            "r": "a",
+            "e": "The word 'a' is just the letter a."
+          },
+          {
+            "t": "spelling",
+            "w": "bedd",
+            "r": "bed",
+            "e": "Bed has only one d."
+          },
+          {
+            "t": "punctuation",
+            "w": "bed",
+            "r": "bed.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "I see a bed.",
+        "pos": [
+          {
+            "w": "I",
+            "t": "PRO",
+            "q": "Find the word that means 'me.'"
+          },
+          {
+            "w": "see",
+            "t": "V",
+            "q": "Find the action word that means to look."
+          },
+          {
+            "w": "a",
+            "t": "ART",
+            "q": "Find the small word before 'bed.'"
+          },
+          {
+            "w": "bed",
+            "t": "N",
+            "q": "Find the thing word for where you sleep."
+          }
+        ],
+        "manip": {
+          "task": "Change 'bed' to another thing in your home.",
+          "word": "bed",
+          "examples": [
+            "I see a <span class='changed'>chair</span>.",
+            "I see a <span class='changed'>door</span>."
+          ]
+        },
+        "vocab": {
+          "w": "soft",
+          "type": "adjective",
+          "def": "Smooth and easy to touch, not hard or rough.",
+          "simple": "Soft means it feels good when you touch it, like a pillow!",
+          "examples": [
+            "a soft bed",
+            "soft fur",
+            "a soft blanket"
+          ],
+          "similar": [
+            "fluffy",
+            "smooth",
+            "gentle"
+          ],
+          "antonyms": [
+            "hard",
+            "rough",
+            "stiff"
+          ],
+          "nonex": [
+            "It does NOT mean quiet.",
+            "It does NOT mean small."
+          ],
+          "example": "The bed is very soft and cozy.",
+          "starter": "Something soft in my home is _______ ...",
+          "why": "Soft helps you tell people how something feels when you touch it!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 58,
+    "sentences": [
+      {
+        "orig": "the dor iz rede",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "the",
+            "r": "The",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "dor",
+            "r": "door",
+            "e": "Door is spelled d-o-o-r. It has two o's."
+          },
+          {
+            "t": "spelling",
+            "w": "iz",
+            "r": "is",
+            "e": "Is is spelled i-s, not i-z."
+          },
+          {
+            "t": "spelling",
+            "w": "rede",
+            "r": "red",
+            "e": "Red does not have an e."
+          },
+          {
+            "t": "punctuation",
+            "w": "red",
+            "r": "red.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "The door is red.",
+        "pos": [
+          {
+            "w": "The",
+            "t": "ART",
+            "q": "Find the word that comes before 'door.'"
+          },
+          {
+            "w": "door",
+            "t": "N",
+            "q": "Find the thing word you open to go in and out."
+          },
+          {
+            "w": "is",
+            "t": "V",
+            "q": "Find the word that tells about the door."
+          },
+          {
+            "w": "red",
+            "t": "ADJ",
+            "q": "Find the color word that tells about the door."
+          }
+        ],
+        "manip": {
+          "task": "Change 'red' to a different color for the door.",
+          "word": "red",
+          "examples": [
+            "The door is <span class='changed'>blue</span>.",
+            "The door is <span class='changed'>green</span>."
+          ]
+        },
+        "vocab": {
+          "w": "open",
+          "type": "verb",
+          "def": "To move something so you can go through or get inside.",
+          "simple": "Open means to pull or push so you can go in!",
+          "examples": [
+            "open the door",
+            "open a box",
+            "open a book"
+          ],
+          "similar": [
+            "unlock",
+            "pull",
+            "push"
+          ],
+          "antonyms": [
+            "close",
+            "shut",
+            "lock"
+          ],
+          "nonex": [
+            "It does NOT mean to break.",
+            "It does NOT mean to go away."
+          ],
+          "example": "I open the red door to go inside.",
+          "starter": "I open the door when _______ ...",
+          "why": "Open is a word you use every day at home and at school!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 59,
+    "sentences": [
+      {
+        "orig": "we stt att the tabel",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "we",
+            "r": "We",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "stt",
+            "r": "sit",
+            "e": "Sit needs an i: s-i-t."
+          },
+          {
+            "t": "spelling",
+            "w": "att",
+            "r": "at",
+            "e": "At has only one t."
+          },
+          {
+            "t": "spelling",
+            "w": "tabel",
+            "r": "table",
+            "e": "Table is spelled t-a-b-l-e. The 'l' and 'e' are at the end."
+          },
+          {
+            "t": "punctuation",
+            "w": "table",
+            "r": "table.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "We sit at the table.",
+        "pos": [
+          {
+            "w": "We",
+            "t": "PRO",
+            "q": "Find the word that means 'me and others.'"
+          },
+          {
+            "w": "sit",
+            "t": "V",
+            "q": "Find the action word for resting on a seat."
+          },
+          {
+            "w": "at",
+            "t": "PREP",
+            "q": "Find the word that tells where we sit."
+          },
+          {
+            "w": "the",
+            "t": "ART",
+            "q": "Find the word that comes before 'table.'"
+          },
+          {
+            "w": "table",
+            "t": "N",
+            "q": "Find the thing word for the big flat surface."
+          }
+        ],
+        "manip": {
+          "task": "Change 'sit' to another action at the table.",
+          "word": "sit",
+          "examples": [
+            "We <span class='changed'>eat</span> at the table.",
+            "We <span class='changed'>draw</span> at the table."
+          ]
+        },
+        "vocab": {
+          "w": "together",
+          "type": "adverb",
+          "def": "When two or more people do something at the same time and place.",
+          "simple": "Together means doing something with other people!",
+          "examples": [
+            "sit together",
+            "eat together",
+            "play together"
+          ],
+          "similar": [
+            "with each other",
+            "as a group",
+            "side by side"
+          ],
+          "antonyms": [
+            "alone",
+            "apart",
+            "separately"
+          ],
+          "nonex": [
+            "It does NOT mean at the same time only.",
+            "It does NOT mean mixed up."
+          ],
+          "example": "We sit together at the table for dinner.",
+          "starter": "I like to be together with _______ ...",
+          "why": "Together is a great word for talking about doing things with family!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 60,
+    "sentences": [
+      {
+        "orig": "i stt onn mi chaer",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "i",
+            "r": "I",
+            "e": "The word 'I' is always a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "stt",
+            "r": "sit",
+            "e": "Sit needs an i: s-i-t."
+          },
+          {
+            "t": "spelling",
+            "w": "onn",
+            "r": "on",
+            "e": "On has only one n."
+          },
+          {
+            "t": "spelling",
+            "w": "mi",
+            "r": "my",
+            "e": "My is spelled m-y."
+          },
+          {
+            "t": "spelling",
+            "w": "chaer",
+            "r": "chair.",
+            "e": "Chair is spelled c-h-a-i-r. It ends with i-r."
+          }
+        ],
+        "fixed": "I sit on my chair.",
+        "pos": [
+          {
+            "w": "I",
+            "t": "PRO",
+            "q": "Find the word that means 'me.'"
+          },
+          {
+            "w": "sit",
+            "t": "V",
+            "q": "Find the action word for resting on a seat."
+          },
+          {
+            "w": "on",
+            "t": "PREP",
+            "q": "Find the word that tells where you sit."
+          },
+          {
+            "w": "my",
+            "t": "ART",
+            "q": "Find the word that means 'belonging to me.'"
+          },
+          {
+            "w": "chair",
+            "t": "N",
+            "q": "Find the thing word for a seat with legs."
+          }
+        ],
+        "manip": {
+          "task": "Change 'chair' to another place you can sit.",
+          "word": "chair",
+          "examples": [
+            "I sit on my <span class='changed'>bed</span>.",
+            "I sit on my <span class='changed'>mat</span>."
+          ]
+        },
+        "vocab": {
+          "w": "rest",
+          "type": "verb",
+          "def": "To stop moving and relax your body, often by sitting or lying down.",
+          "simple": "Rest means to stop and let your body feel calm!",
+          "examples": [
+            "rest on a chair",
+            "rest in bed",
+            "rest after lunch"
+          ],
+          "similar": [
+            "relax",
+            "sit",
+            "lie down"
+          ],
+          "antonyms": [
+            "run",
+            "play",
+            "jump"
+          ],
+          "nonex": [
+            "It does NOT mean to sleep only.",
+            "It does NOT mean to stop forever."
+          ],
+          "example": "I sit on my chair and rest after school.",
+          "starter": "I like to rest when _______ ...",
+          "why": "Rest is an important word for talking about taking care of your body!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 61,
+    "sentences": [
+      {
+        "orig": "i drnk mi melk",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "i",
+            "r": "I",
+            "e": "The first word in a sentence starts with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "drnk",
+            "r": "drink",
+            "e": "Drink needs an i: d-r-i-n-k."
+          },
+          {
+            "t": "spelling",
+            "w": "mi",
+            "r": "my",
+            "e": "My is spelled m-y."
+          },
+          {
+            "t": "spelling",
+            "w": "melk",
+            "r": "milk",
+            "e": "Milk has an i, not e."
+          },
+          {
+            "t": "punctuation",
+            "w": "milk",
+            "r": "milk.",
+            "e": "A sentence ends with a period."
+          }
+        ],
+        "fixed": "I drink my milk.",
+        "pos": [
+          {
+            "w": "I",
+            "p": "PRO",
+            "t": "PRO"
+          },
+          {
+            "w": "drink",
+            "p": "V"
+          },
+          {
+            "w": "my",
+            "p": "ART",
+            "t": "ART"
+          },
+          {
+            "w": "milk",
+            "p": "N"
+          }
+        ],
+        "manip": {
+          "task": "Change 'milk' to another drink you like.",
+          "word": "milk",
+          "examples": [
+            "I drink <span class='changed'>water</span>.",
+            "I drink <span class='changed'>juice</span>."
+          ]
+        },
+        "vocab": {
+          "w": "thirsty",
+          "type": "adjective",
+          "def": "Feeling like you need to drink something.",
+          "simple": "Thirsty means your body wants a drink!",
+          "examples": [
+            "I am thirsty",
+            "a thirsty baby",
+            "feel thirsty after running"
+          ],
+          "similar": [
+            "dry",
+            "parched"
+          ],
+          "antonyms": [
+            "full",
+            "satisfied"
+          ],
+          "nonex": [
+            "It does NOT mean hungry.",
+            "It does NOT mean tired."
+          ],
+          "example": "I drink milk when I am thirsty.",
+          "starter": "I feel thirsty when _______ ...",
+          "why": "Thirsty is a body word that tells when you need to drink!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 62,
+    "sentences": [
+      {
+        "orig": "i ete teh bred",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "i",
+            "r": "I",
+            "e": "The first word in a sentence starts with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "ete",
+            "r": "eat",
+            "e": "Eat is spelled e-a-t."
+          },
+          {
+            "t": "spelling",
+            "w": "teh",
+            "r": "the",
+            "e": "The is spelled t-h-e."
+          },
+          {
+            "t": "spelling",
+            "w": "bred",
+            "r": "bread",
+            "e": "Bread has an a: b-r-e-a-d."
+          },
+          {
+            "t": "punctuation",
+            "w": "bread",
+            "r": "bread.",
+            "e": "A sentence ends with a period."
+          }
+        ],
+        "fixed": "I eat the bread.",
+        "pos": [
+          {
+            "w": "I",
+            "p": "PRO",
+            "t": "PRO"
+          },
+          {
+            "w": "eat",
+            "p": "V"
+          },
+          {
+            "w": "the",
+            "p": "ART",
+            "t": "ART"
+          },
+          {
+            "w": "bread",
+            "p": "N"
+          }
+        ],
+        "manip": {
+          "task": "Change 'bread' to another food you eat.",
+          "word": "bread",
+          "examples": [
+            "I eat <span class='changed'>rice</span>.",
+            "I eat <span class='changed'>soup</span>."
+          ]
+        },
+        "vocab": {
+          "w": "hungry",
+          "type": "adjective",
+          "def": "Feeling like your body needs food.",
+          "simple": "Hungry means your tummy wants to eat!",
+          "examples": [
+            "I am hungry",
+            "a hungry baby",
+            "feel hungry at lunch"
+          ],
+          "similar": [
+            "famished",
+            "empty"
+          ],
+          "antonyms": [
+            "full",
+            "satisfied"
+          ],
+          "nonex": [
+            "It does NOT mean thirsty.",
+            "It does NOT mean sleepy."
+          ],
+          "example": "I eat bread when I am hungry.",
+          "starter": "I feel hungry when _______ ...",
+          "why": "Hungry is a body word that tells when you need to eat!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 63,
+    "sentences": [
+      {
+        "orig": "my momm cukz ris",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "my",
+            "r": "My",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "momm",
+            "r": "mom",
+            "e": "Mom has only one m at the end."
+          },
+          {
+            "t": "spelling",
+            "w": "cukz",
+            "r": "cooks",
+            "e": "Cooks is spelled c-o-o-k-s. It has two o's."
+          },
+          {
+            "t": "spelling",
+            "w": "ris",
+            "r": "rice",
+            "e": "Rice has a silent e: r-i-c-e."
+          },
+          {
+            "t": "punctuation",
+            "w": "rice",
+            "r": "rice.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "My mom cooks rice.",
+        "pos": [
+          {
+            "w": "My",
+            "t": "ART",
+            "q": "Find the word that means 'belonging to me.'"
+          },
+          {
+            "w": "mom",
+            "t": "N",
+            "q": "Find the person word for your mother."
+          },
+          {
+            "w": "cooks",
+            "t": "V",
+            "q": "Find the action word for making hot food."
+          },
+          {
+            "w": "rice",
+            "t": "N",
+            "q": "Find the food word for the small white grains."
+          }
+        ],
+        "manip": {
+          "task": "Change 'rice' to another food mom cooks.",
+          "word": "rice",
+          "examples": [
+            "My mom cooks <span class='changed'>soup</span>.",
+            "My mom cooks <span class='changed'>eggs</span>."
+          ]
+        },
+        "vocab": {
+          "w": "cook",
+          "type": "verb",
+          "def": "To make food hot and ready to eat, using a stove or oven.",
+          "simple": "Cook means to make food hot so we can eat it!",
+          "examples": [
+            "cook rice",
+            "cook soup",
+            "cook with dad"
+          ],
+          "similar": [
+            "prepare",
+            "make",
+            "heat"
+          ],
+          "antonyms": [
+            "eat raw",
+            "leave cold"
+          ],
+          "nonex": [
+            "It does NOT mean to eat.",
+            "It does NOT mean to wash food."
+          ],
+          "example": "My mom cooks rice for our family.",
+          "starter": "I help cook when I _______ ...",
+          "why": "Cook is an action word for making yummy food at home!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 64,
+    "sentences": [
+      {
+        "orig": "my dadd wosh teh dish",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "my",
+            "r": "My",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "dadd",
+            "r": "dad",
+            "e": "Dad has only one d at the end."
+          },
+          {
+            "t": "spelling",
+            "w": "wosh",
+            "r": "washes",
+            "e": "Washes is spelled w-a-s-h-e-s. It ends with -es."
+          },
+          {
+            "t": "spelling",
+            "w": "teh",
+            "r": "the",
+            "e": "The is spelled t-h-e."
+          },
+          {
+            "t": "spelling",
+            "w": "dish",
+            "r": "dishes.",
+            "e": "Dishes is the plural of dish. Add -es to dish."
+          }
+        ],
+        "fixed": "My dad washes the dishes.",
+        "pos": [
+          {
+            "w": "My",
+            "t": "ART",
+            "q": "Find the word that means 'belonging to me.'"
+          },
+          {
+            "w": "dad",
+            "t": "N",
+            "q": "Find the person word for your father."
+          },
+          {
+            "w": "washes",
+            "t": "V",
+            "q": "Find the action word for cleaning with water."
+          },
+          {
+            "w": "the",
+            "t": "ART",
+            "q": "Find the word that comes before 'dishes.'"
+          },
+          {
+            "w": "dishes",
+            "t": "N",
+            "q": "Find the thing word for the plates you eat from."
+          }
+        ],
+        "manip": {
+          "task": "Change 'dad' to another family member who helps wash.",
+          "word": "dad",
+          "examples": [
+            "My <span class='changed'>mom</span> washes the dishes.",
+            "My <span class='changed'>brother</span> washes the dishes."
+          ]
+        },
+        "vocab": {
+          "w": "clean",
+          "type": "adjective",
+          "def": "Free from dirt, not messy.",
+          "simple": "Clean means all washed and tidy, no dirt!",
+          "examples": [
+            "clean dishes",
+            "clean hands",
+            "a clean room"
+          ],
+          "similar": [
+            "tidy",
+            "neat",
+            "fresh"
+          ],
+          "antonyms": [
+            "dirty",
+            "messy",
+            "muddy"
+          ],
+          "nonex": [
+            "It does NOT mean empty.",
+            "It does NOT mean bright."
+          ],
+          "example": "My dad washes the dishes until they are clean.",
+          "starter": "I keep my _______ clean ...",
+          "why": "Clean is a word you use every day to talk about keeping things tidy!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 65,
+    "sentences": [
+      {
+        "orig": "the bayb sleps in uh bed",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "the",
+            "r": "The",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "bayb",
+            "r": "baby",
+            "e": "Baby is spelled b-a-b-y."
+          },
+          {
+            "t": "spelling",
+            "w": "sleps",
+            "r": "sleeps",
+            "e": "Sleeps is spelled s-l-e-e-p-s. It has two e's."
+          },
+          {
+            "t": "spelling",
+            "w": "uh",
+            "r": "a",
+            "e": "The word 'a' is just the letter a."
+          },
+          {
+            "t": "punctuation",
+            "w": "bed",
+            "r": "bed.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "The baby sleeps in a bed.",
+        "pos": [
+          {
+            "w": "The",
+            "t": "ART",
+            "q": "Find the word that comes before 'baby.'"
+          },
+          {
+            "w": "baby",
+            "t": "N",
+            "q": "Find the person word for a very little one."
+          },
+          {
+            "w": "sleeps",
+            "t": "V",
+            "q": "Find the action word for resting with your eyes closed."
+          },
+          {
+            "w": "in",
+            "t": "PREP",
+            "q": "Find the word that tells where the baby sleeps."
+          },
+          {
+            "w": "a",
+            "t": "ART",
+            "q": "Find the small word before 'bed.'"
+          },
+          {
+            "w": "bed",
+            "t": "N",
+            "q": "Find the thing word for where you rest."
+          }
+        ],
+        "manip": {
+          "task": "Change 'baby' to another family member who sleeps.",
+          "word": "baby",
+          "examples": [
+            "The <span class='changed'>dog</span> sleeps in a bed.",
+            "The <span class='changed'>cat</span> sleeps in a bed."
+          ]
+        },
+        "vocab": {
+          "w": "sleepy",
+          "type": "adjective",
+          "def": "Feeling like you want to close your eyes and sleep.",
+          "simple": "Sleepy means your eyes want to close and rest!",
+          "examples": [
+            "a sleepy baby",
+            "feel sleepy at night",
+            "sleepy eyes"
+          ],
+          "similar": [
+            "tired",
+            "drowsy",
+            "yawning"
+          ],
+          "antonyms": [
+            "awake",
+            "alert",
+            "active"
+          ],
+          "nonex": [
+            "It does NOT mean bored.",
+            "It does NOT mean sick."
+          ],
+          "example": "The baby looks sleepy after a long day.",
+          "starter": "I feel sleepy when _______ ...",
+          "why": "Sleepy helps you tell people your body needs rest!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 66,
+    "sentences": [
+      {
+        "orig": "my momm iz tawl",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "my",
+            "r": "My",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "momm",
+            "r": "mom",
+            "e": "Mom has only one m at the end."
+          },
+          {
+            "t": "spelling",
+            "w": "iz",
+            "r": "is",
+            "e": "Is is spelled i-s, not i-z."
+          },
+          {
+            "t": "spelling",
+            "w": "tawl",
+            "r": "tall",
+            "e": "Tall has two l's: t-a-l-l."
+          },
+          {
+            "t": "punctuation",
+            "w": "tall",
+            "r": "tall.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "My mom is tall.",
+        "pos": [
+          {
+            "w": "My",
+            "t": "ART",
+            "q": "Find the word that means 'belonging to me.'"
+          },
+          {
+            "w": "mom",
+            "t": "N",
+            "q": "Find the person word for your mother."
+          },
+          {
+            "w": "is",
+            "t": "V",
+            "q": "Find the word that tells about mom."
+          },
+          {
+            "w": "tall",
+            "t": "ADJ",
+            "q": "Find the word that tells how mom looks."
+          }
+        ],
+        "manip": {
+          "task": "Change 'tall' to another word that tells about mom.",
+          "word": "tall",
+          "examples": [
+            "My mom is <span class='changed'>kind</span>.",
+            "My mom is <span class='changed'>busy</span>."
+          ]
+        },
+        "vocab": {
+          "w": "busy",
+          "type": "adjective",
+          "def": "Having many things to do, not free to stop and play.",
+          "simple": "Busy means there is a lot to do and not much time!",
+          "examples": [
+            "my mom is busy",
+            "a busy kitchen",
+            "busy cooking"
+          ],
+          "similar": [
+            "active",
+            "working",
+            "occupied"
+          ],
+          "antonyms": [
+            "free",
+            "relaxed",
+            "idle"
+          ],
+          "nonex": [
+            "It does NOT mean tired.",
+            "It does NOT mean upset."
+          ],
+          "example": "My mom is busy cooking dinner for us.",
+          "starter": "I am busy when I _______ ...",
+          "why": "Busy is a useful word to describe people who have lots of work to do!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 67,
+    "sentences": [
+      {
+        "orig": "my dadd iz funy",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "my",
+            "r": "My",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "dadd",
+            "r": "dad",
+            "e": "Dad has only one d at the end."
+          },
+          {
+            "t": "spelling",
+            "w": "iz",
+            "r": "is",
+            "e": "Is is spelled i-s, not i-z."
+          },
+          {
+            "t": "spelling",
+            "w": "funy",
+            "r": "funny",
+            "e": "Funny has two n's: f-u-n-n-y."
+          },
+          {
+            "t": "punctuation",
+            "w": "funny",
+            "r": "funny.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "My dad is funny.",
+        "pos": [
+          {
+            "w": "My",
+            "t": "ART",
+            "q": "Find the word that means 'belonging to me.'"
+          },
+          {
+            "w": "dad",
+            "t": "N",
+            "q": "Find the person word for your father."
+          },
+          {
+            "w": "is",
+            "t": "V",
+            "q": "Find the word that tells about dad."
+          },
+          {
+            "w": "funny",
+            "t": "ADJ",
+            "q": "Find the word that tells how dad is."
+          }
+        ],
+        "manip": {
+          "task": "Change 'funny' to another word that tells about dad.",
+          "word": "funny",
+          "examples": [
+            "My dad is <span class='changed'>smart</span>.",
+            "My dad is <span class='changed'>kind</span>."
+          ]
+        },
+        "vocab": {
+          "w": "laugh",
+          "type": "verb",
+          "def": "To make a happy, loud sound when something is funny.",
+          "simple": "Laugh is the sound you make when something is very funny!",
+          "examples": [
+            "laugh at a joke",
+            "laugh with dad",
+            "laugh out loud"
+          ],
+          "similar": [
+            "giggle",
+            "chuckle",
+            "smile"
+          ],
+          "antonyms": [
+            "cry",
+            "frown",
+            "be sad"
+          ],
+          "nonex": [
+            "It does NOT mean to shout.",
+            "It does NOT mean to clap."
+          ],
+          "example": "My dad is funny and makes me laugh.",
+          "starter": "I laugh when _______ ...",
+          "why": "Laugh is a happy word for a sound you make when you feel joy!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 68,
+    "sentences": [
+      {
+        "orig": "my sistr iz smrt",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "my",
+            "r": "My",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "sistr",
+            "r": "sister",
+            "e": "Sister is spelled s-i-s-t-e-r."
+          },
+          {
+            "t": "spelling",
+            "w": "iz",
+            "r": "is",
+            "e": "Is is spelled i-s, not i-z."
+          },
+          {
+            "t": "spelling",
+            "w": "smrt",
+            "r": "smart",
+            "e": "Smart needs an a: s-m-a-r-t."
+          },
+          {
+            "t": "punctuation",
+            "w": "smart",
+            "r": "smart.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "My sister is smart.",
+        "pos": [
+          {
+            "w": "My",
+            "t": "ART",
+            "q": "Find the word that means 'belonging to me.'"
+          },
+          {
+            "w": "sister",
+            "t": "N",
+            "q": "Find the person word for a girl in your family."
+          },
+          {
+            "w": "is",
+            "t": "V",
+            "q": "Find the word that tells about sister."
+          },
+          {
+            "w": "smart",
+            "t": "ADJ",
+            "q": "Find the word that tells how sister thinks."
+          }
+        ],
+        "manip": {
+          "task": "Change 'smart' to another word that tells about sister.",
+          "word": "smart",
+          "examples": [
+            "My sister is <span class='changed'>brave</span>.",
+            "My sister is <span class='changed'>kind</span>."
+          ]
+        },
+        "vocab": {
+          "w": "smart",
+          "type": "adjective",
+          "def": "Good at learning and thinking, able to figure things out.",
+          "simple": "Smart means your brain learns new things really well!",
+          "examples": [
+            "a smart sister",
+            "a smart idea",
+            "smart at school"
+          ],
+          "similar": [
+            "clever",
+            "bright",
+            "wise"
+          ],
+          "antonyms": [
+            "confused",
+            "lost"
+          ],
+          "nonex": [
+            "It does NOT mean fast.",
+            "It does NOT mean loud."
+          ],
+          "example": "My sister is smart and knows so many words.",
+          "starter": "I feel smart when I _______ ...",
+          "why": "Smart helps you tell people how well someone thinks and learns!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 69,
+    "sentences": [
+      {
+        "orig": "i ete a eg",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "i",
+            "r": "I",
+            "e": "The word 'I' is always a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "ete",
+            "r": "eat",
+            "e": "Eat is spelled e-a-t. It has an 'a' in the middle."
+          },
+          {
+            "t": "grammar",
+            "w": "a",
+            "r": "an",
+            "e": "Use 'an' before a word that starts with a vowel sound, like 'e.'"
+          },
+          {
+            "t": "spelling",
+            "w": "eg",
+            "r": "egg",
+            "e": "Egg is spelled e-g-g. It has two g's at the end."
+          },
+          {
+            "t": "punctuation",
+            "w": "eg",
+            "r": "egg.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "I eat an egg.",
+        "pos": [
+          {
+            "w": "I",
+            "t": "PRO",
+            "q": "Find the word that means 'me.'"
+          },
+          {
+            "w": "eat",
+            "t": "V",
+            "q": "Find the action word for having food."
+          },
+          {
+            "w": "an",
+            "t": "ART",
+            "q": "Find the small word before 'egg.'"
+          },
+          {
+            "w": "egg",
+            "t": "N",
+            "q": "Find the food word for the oval thing from a bird."
+          }
+        ],
+        "manip": {
+          "task": "Change 'egg' to another food that starts with a vowel.",
+          "word": "egg",
+          "examples": [
+            "I eat an <span class='changed'>apple</span>.",
+            "I eat an <span class='changed'>orange</span>."
+          ]
+        },
+        "vocab": {
+          "w": "breakfast",
+          "type": "noun",
+          "def": "The first meal you eat in the morning after you wake up.",
+          "simple": "Breakfast is the food you eat when you first wake up!",
+          "examples": [
+            "eat breakfast",
+            "breakfast with mom",
+            "a warm breakfast"
+          ],
+          "similar": [
+            "morning meal",
+            "first meal"
+          ],
+          "antonyms": [
+            "dinner",
+            "supper"
+          ],
+          "nonex": [
+            "It does NOT mean a snack at night.",
+            "It does NOT mean any meal."
+          ],
+          "example": "I eat an egg for breakfast every morning.",
+          "starter": "For breakfast I like to eat _______ ...",
+          "why": "Breakfast is an important word for talking about your morning routine!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 70,
+    "sentences": [
+      {
+        "orig": "my dadd maks supe",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "my",
+            "r": "My",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "dadd",
+            "r": "dad",
+            "e": "Dad has only one d at the end."
+          },
+          {
+            "t": "spelling",
+            "w": "maks",
+            "r": "makes",
+            "e": "Makes is spelled m-a-k-e-s. It has an 'e' before the 's.'"
+          },
+          {
+            "t": "spelling",
+            "w": "supe",
+            "r": "soup",
+            "e": "Soup is spelled s-o-u-p. The vowels are o-u."
+          },
+          {
+            "t": "punctuation",
+            "w": "soup",
+            "r": "soup.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "My dad makes soup.",
+        "pos": [
+          {
+            "w": "My",
+            "t": "ART",
+            "q": "Find the word that means 'belonging to me.'"
+          },
+          {
+            "w": "dad",
+            "t": "N",
+            "q": "Find the person word for your father."
+          },
+          {
+            "w": "makes",
+            "t": "V",
+            "q": "Find the action word for creating food."
+          },
+          {
+            "w": "soup",
+            "t": "N",
+            "q": "Find the food word for a warm, liquid meal."
+          }
+        ],
+        "manip": {
+          "task": "Change 'soup' to another food dad makes.",
+          "word": "soup",
+          "examples": [
+            "My dad makes <span class='changed'>rice</span>.",
+            "My dad makes <span class='changed'>bread</span>."
+          ]
+        },
+        "vocab": {
+          "w": "warm",
+          "type": "adjective",
+          "def": "A little bit hot, like soup or a blanket from the dryer.",
+          "simple": "Warm means not too hot and not too cold — just right!",
+          "examples": [
+            "warm soup",
+            "warm hands",
+            "a warm hug"
+          ],
+          "similar": [
+            "cozy",
+            "heated",
+            "toasty"
+          ],
+          "antonyms": [
+            "cold",
+            "cool",
+            "icy"
+          ],
+          "nonex": [
+            "It does NOT mean burning hot.",
+            "It does NOT mean freezing."
+          ],
+          "example": "My dad makes warm soup for dinner.",
+          "starter": "I feel warm when _______ ...",
+          "why": "Warm is a word to tell how something feels — not too hot, just right!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 71,
+    "sentences": [
+      {
+        "orig": "we ete bred att home",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "we",
+            "r": "We",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "ete",
+            "r": "eat",
+            "e": "Eat is spelled e-a-t. It has an 'a' in the middle."
+          },
+          {
+            "t": "spelling",
+            "w": "bred",
+            "r": "bread",
+            "e": "Bread is spelled b-r-e-a-d. It has an 'a' before the 'd.'"
+          },
+          {
+            "t": "spelling",
+            "w": "att",
+            "r": "at",
+            "e": "At has only one t."
+          },
+          {
+            "t": "punctuation",
+            "w": "home",
+            "r": "home.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "We eat bread at home.",
+        "pos": [
+          {
+            "w": "We",
+            "t": "PRO",
+            "q": "Find the word that means 'me and others.'"
+          },
+          {
+            "w": "eat",
+            "t": "V",
+            "q": "Find the action word for having food."
+          },
+          {
+            "w": "bread",
+            "t": "N",
+            "q": "Find the food word for the soft baked loaf."
+          },
+          {
+            "w": "at",
+            "t": "PREP",
+            "q": "Find the word that tells where we eat."
+          },
+          {
+            "w": "home",
+            "t": "N",
+            "q": "Find the place word for where your family lives."
+          }
+        ],
+        "manip": {
+          "task": "Change 'bread' to another food you eat at home.",
+          "word": "bread",
+          "examples": [
+            "We eat <span class='changed'>soup</span> at home.",
+            "We eat <span class='changed'>rice</span> at home."
+          ]
+        },
+        "vocab": {
+          "w": "meal",
+          "type": "noun",
+          "def": "Food that is prepared and eaten at a certain time of day.",
+          "simple": "A meal is all the food you eat at one time, like lunch or dinner!",
+          "examples": [
+            "a warm meal",
+            "eat a meal",
+            "share a meal"
+          ],
+          "similar": [
+            "food",
+            "dinner",
+            "lunch"
+          ],
+          "antonyms": [
+            "snack",
+            "nothing"
+          ],
+          "nonex": [
+            "It does NOT mean just one bite.",
+            "It does NOT mean a drink."
+          ],
+          "example": "We eat a meal of bread and soup at home.",
+          "starter": "My favorite meal is _______ ...",
+          "why": "Meal is a great word for talking about eating together as a family!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 72,
+    "sentences": [
+      {
+        "orig": "a kat iz inn my rum",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "a",
+            "r": "A",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "kat",
+            "r": "cat",
+            "e": "Cat starts with c, not k."
+          },
+          {
+            "t": "spelling",
+            "w": "iz",
+            "r": "is",
+            "e": "Is is spelled i-s, not i-z."
+          },
+          {
+            "t": "spelling",
+            "w": "inn",
+            "r": "in",
+            "e": "In has only one n."
+          },
+          {
+            "t": "spelling",
+            "w": "rum",
+            "r": "room.",
+            "e": "Room is spelled r-o-o-m. It has two o's."
+          }
+        ],
+        "fixed": "A cat is in my room.",
+        "pos": [
+          {
+            "w": "A",
+            "t": "ART",
+            "q": "Find the small word before 'cat.'"
+          },
+          {
+            "w": "cat",
+            "t": "N",
+            "q": "Find the animal word."
+          },
+          {
+            "w": "is",
+            "t": "V",
+            "q": "Find the word that tells where the cat is."
+          },
+          {
+            "w": "in",
+            "t": "PREP",
+            "q": "Find the word that tells where — inside."
+          },
+          {
+            "w": "my",
+            "t": "ART",
+            "q": "Find the word that means 'belonging to me.'"
+          },
+          {
+            "w": "room",
+            "t": "N",
+            "q": "Find the place word for a part of your home."
+          }
+        ],
+        "manip": {
+          "task": "Change 'cat' to another animal that could be in your room.",
+          "word": "cat",
+          "examples": [
+            "A <span class='changed'>dog</span> is in my room.",
+            "A <span class='changed'>bird</span> is in my room."
+          ]
+        },
+        "vocab": {
+          "w": "room",
+          "type": "noun",
+          "def": "A part of a building with its own walls, floor, and ceiling.",
+          "simple": "A room is a space inside your home, like a bedroom or kitchen!",
+          "examples": [
+            "my room",
+            "a big room",
+            "a clean room"
+          ],
+          "similar": [
+            "space",
+            "area",
+            "place"
+          ],
+          "antonyms": [
+            "outside",
+            "yard"
+          ],
+          "nonex": [
+            "It does NOT mean the whole house.",
+            "It does NOT mean a hallway."
+          ],
+          "example": "A cat sleeps in my cozy room.",
+          "starter": "In my room I have _______ ...",
+          "why": "Room is a home word for talking about the different spaces inside a house!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 73,
+    "sentences": [
+      {
+        "orig": "the melk iz on the tabel",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "the",
+            "r": "The",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "melk",
+            "r": "milk",
+            "e": "Milk has an i, not e."
+          },
+          {
+            "t": "spelling",
+            "w": "iz",
+            "r": "is",
+            "e": "Is is spelled i-s, not i-z."
+          },
+          {
+            "t": "spelling",
+            "w": "tabel",
+            "r": "table",
+            "e": "Table is spelled t-a-b-l-e."
+          },
+          {
+            "t": "punctuation",
+            "w": "table",
+            "r": "table.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "The milk is on the table.",
+        "pos": [
+          {
+            "w": "The",
+            "t": "ART",
+            "q": "Find the word that comes before 'milk.'"
+          },
+          {
+            "w": "milk",
+            "t": "N",
+            "q": "Find the food word for the white drink."
+          },
+          {
+            "w": "is",
+            "t": "V",
+            "q": "Find the word that tells where the milk is."
+          },
+          {
+            "w": "on",
+            "t": "PREP",
+            "q": "Find the word that tells where — on top."
+          },
+          {
+            "w": "the",
+            "t": "ART",
+            "q": "Find another 'the' word before 'table.'"
+          },
+          {
+            "w": "table",
+            "t": "N",
+            "q": "Find the thing word for the big flat surface."
+          }
+        ],
+        "manip": {
+          "task": "Change 'milk' to another drink or food on the table.",
+          "word": "milk",
+          "examples": [
+            "The <span class='changed'>soup</span> is on the table.",
+            "The <span class='changed'>bread</span> is on the table."
+          ]
+        },
+        "vocab": {
+          "w": "ready",
+          "type": "adjective",
+          "def": "All set and prepared to do something.",
+          "simple": "Ready means everything is set and you can start!",
+          "examples": [
+            "ready to eat",
+            "the food is ready",
+            "get ready"
+          ],
+          "similar": [
+            "set",
+            "prepared",
+            "all done"
+          ],
+          "antonyms": [
+            "not ready",
+            "waiting",
+            "unfinished"
+          ],
+          "nonex": [
+            "It does NOT mean fast.",
+            "It does NOT mean easy."
+          ],
+          "example": "The milk is on the table and we are ready to eat.",
+          "starter": "I am ready when _______ ...",
+          "why": "Ready is a great word to say when it is time to eat or start something!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 74,
+    "sentences": [
+      {
+        "orig": "my brodhr etes en eg",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "my",
+            "r": "My",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "brodhr",
+            "r": "brother",
+            "e": "Brother is spelled b-r-o-t-h-e-r."
+          },
+          {
+            "t": "spelling",
+            "w": "etes",
+            "r": "eats",
+            "e": "Eats is spelled e-a-t-s. It has an 'a' in the middle."
+          },
+          {
+            "t": "spelling",
+            "w": "en",
+            "r": "an",
+            "e": "An is spelled a-n."
+          },
+          {
+            "t": "spelling",
+            "w": "eg",
+            "r": "egg.",
+            "e": "Egg is spelled e-g-g. It has two g's at the end."
+          }
+        ],
+        "fixed": "My brother eats an egg.",
+        "pos": [
+          {
+            "w": "My",
+            "t": "ART",
+            "q": "Find the word that means 'belonging to me.'"
+          },
+          {
+            "w": "brother",
+            "t": "N",
+            "q": "Find the person word for a boy in your family."
+          },
+          {
+            "w": "eats",
+            "t": "V",
+            "q": "Find the action word for having food."
+          },
+          {
+            "w": "an",
+            "t": "ART",
+            "q": "Find the small word before 'egg.'"
+          },
+          {
+            "w": "egg",
+            "t": "N",
+            "q": "Find the food word for the oval shape from a bird."
+          }
+        ],
+        "manip": {
+          "task": "Change 'brother' to another family member.",
+          "word": "brother",
+          "examples": [
+            "My <span class='changed'>mom</span> eats an egg.",
+            "My <span class='changed'>sister</span> eats an egg."
+          ]
+        },
+        "vocab": {
+          "w": "delicious",
+          "type": "adjective",
+          "def": "Tasting very, very good.",
+          "simple": "Delicious means food that tastes amazing!",
+          "examples": [
+            "a delicious egg",
+            "delicious soup",
+            "delicious bread"
+          ],
+          "similar": [
+            "yummy",
+            "tasty",
+            "good"
+          ],
+          "antonyms": [
+            "yucky",
+            "bad",
+            "nasty"
+          ],
+          "nonex": [
+            "It does NOT mean a lot of food.",
+            "It does NOT mean pretty."
+          ],
+          "example": "My brother eats the delicious egg with a smile.",
+          "starter": "Something delicious I love to eat is _______ ...",
+          "why": "Delicious is a great word to describe food you really love to eat!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 75,
+    "sentences": [
+      {
+        "orig": "we luv owr hom",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "we",
+            "r": "We",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "luv",
+            "r": "love",
+            "e": "Love is spelled l-o-v-e. It has an 'o' and an 'e.'"
+          },
+          {
+            "t": "spelling",
+            "w": "owr",
+            "r": "our",
+            "e": "Our is spelled o-u-r."
+          },
+          {
+            "t": "spelling",
+            "w": "hom",
+            "r": "home",
+            "e": "Home has a silent e."
+          },
+          {
+            "t": "punctuation",
+            "w": "home",
+            "r": "home.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "We love our home.",
+        "pos": [
+          {
+            "w": "We",
+            "t": "PRO",
+            "q": "Find the word that means 'me and others.'"
+          },
+          {
+            "w": "love",
+            "t": "V",
+            "q": "Find the feeling action word."
+          },
+          {
+            "w": "our",
+            "t": "ART",
+            "q": "Find the word that means 'belonging to us.'"
+          },
+          {
+            "w": "home",
+            "t": "N",
+            "q": "Find the place word for where your family lives."
+          }
+        ],
+        "manip": {
+          "task": "Change 'home' to another place your family loves.",
+          "word": "home",
+          "examples": [
+            "We love our <span class='changed'>school</span>.",
+            "We love our <span class='changed'>yard</span>."
+          ]
+        },
+        "vocab": {
+          "w": "home",
+          "type": "noun",
+          "def": "The place where your family lives together.",
+          "simple": "Home is the special place where your family is!",
+          "examples": [
+            "my home",
+            "a warm home",
+            "come home"
+          ],
+          "similar": [
+            "house",
+            "family place",
+            "shelter"
+          ],
+          "antonyms": [
+            "away",
+            "outside",
+            "school"
+          ],
+          "nonex": [
+            "It does NOT mean any building.",
+            "It does NOT mean just the bedroom."
+          ],
+          "example": "We love our home because our family is there.",
+          "starter": "My home is special because _______ ...",
+          "why": "Home is a warm word for the place where you are safe and with your family!"
+        }
+      }
+    ]
+  }
+]

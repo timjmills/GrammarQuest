@@ -1,0 +1,2617 @@
+[
+  {
+    "day": 76,
+    "sentences": [
+      {
+        "orig": "a dg kan runn",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "a",
+            "r": "A",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "dg",
+            "r": "dog",
+            "e": "Dog is spelled d-o-g. It needs an 'o' in the middle."
+          },
+          {
+            "t": "spelling",
+            "w": "kan",
+            "r": "can",
+            "e": "Can starts with c, not k."
+          },
+          {
+            "t": "spelling",
+            "w": "runn",
+            "r": "run",
+            "e": "Run has only one n."
+          },
+          {
+            "t": "punctuation",
+            "w": "run",
+            "r": "run.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "A dog can run.",
+        "pos": [
+          {
+            "w": "A",
+            "t": "ART",
+            "q": "Find the small word before 'dog.'"
+          },
+          {
+            "w": "dog",
+            "t": "N",
+            "q": "Find the animal word."
+          },
+          {
+            "w": "can",
+            "t": "V",
+            "q": "Find the helping word."
+          },
+          {
+            "w": "run",
+            "t": "V",
+            "q": "Find the action word for moving fast."
+          }
+        ],
+        "manip": {
+          "task": "Change 'run' to another thing a dog can do.",
+          "word": "run",
+          "examples": [
+            "A dog can <span class='changed'>jump</span>.",
+            "A dog can <span class='changed'>sit</span>."
+          ]
+        },
+        "vocab": {
+          "w": "pet",
+          "type": "noun",
+          "def": "An animal that lives with you and that your family takes care of.",
+          "simple": "A pet is an animal that lives in your home and you love it!",
+          "examples": [
+            "a pet dog",
+            "my pet cat",
+            "feed my pet"
+          ],
+          "similar": [
+            "animal",
+            "companion"
+          ],
+          "antonyms": [
+            "wild animal",
+            "stray"
+          ],
+          "nonex": [
+            "It does NOT mean a toy animal.",
+            "It does NOT mean any animal you see outside."
+          ],
+          "example": "A dog is a great pet for a family.",
+          "starter": "My favorite pet is _______ ...",
+          "why": "Pet is an important word for talking about the animals that live with us!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 77,
+    "sentences": [
+      {
+        "orig": "the kat iz fatt",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "the",
+            "r": "The",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "kat",
+            "r": "cat",
+            "e": "Cat starts with the letter 'c,' not 'k.'"
+          },
+          {
+            "t": "spelling",
+            "w": "iz",
+            "r": "is",
+            "e": "Is is spelled i-s, not i-z."
+          },
+          {
+            "t": "spelling",
+            "w": "fatt",
+            "r": "fat",
+            "e": "Fat has only one t."
+          },
+          {
+            "t": "punctuation",
+            "w": "fat",
+            "r": "fat.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "The cat is fat.",
+        "pos": [
+          {
+            "w": "The",
+            "t": "ART",
+            "q": "Find the word that comes before 'cat.'"
+          },
+          {
+            "w": "cat",
+            "t": "N",
+            "q": "Find the animal word."
+          },
+          {
+            "w": "is",
+            "t": "V",
+            "q": "Find the word that tells about the cat."
+          },
+          {
+            "w": "fat",
+            "t": "ADJ",
+            "q": "Find the word that tells how the cat looks."
+          }
+        ],
+        "manip": {
+          "task": "Change 'fat' to another word that tells about the cat.",
+          "word": "fat",
+          "examples": [
+            "The cat is <span class='changed'>soft</span>.",
+            "The cat is <span class='changed'>small</span>."
+          ]
+        },
+        "vocab": {
+          "w": "purr",
+          "type": "verb",
+          "def": "The low, rumbling, happy sound that a cat makes.",
+          "simple": "Purr is the happy sound a cat makes when it feels good!",
+          "examples": [
+            "the cat purrs",
+            "purr softly",
+            "purr when happy"
+          ],
+          "similar": [
+            "hum",
+            "rumble"
+          ],
+          "antonyms": [
+            "hiss",
+            "growl",
+            "meow loudly"
+          ],
+          "nonex": [
+            "It does NOT mean barking.",
+            "It does NOT mean crying."
+          ],
+          "example": "The fat cat likes to purr in the sun.",
+          "starter": "A cat purrs when _______ ...",
+          "why": "Purr helps you talk about the happy sounds that cats make!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 78,
+    "sentences": [
+      {
+        "orig": "a brd kan fli",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "a",
+            "r": "A",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "brd",
+            "r": "bird",
+            "e": "Bird is spelled b-i-r-d. It needs an 'i' in the middle."
+          },
+          {
+            "t": "spelling",
+            "w": "kan",
+            "r": "can",
+            "e": "Can starts with c, not k."
+          },
+          {
+            "t": "spelling",
+            "w": "fli",
+            "r": "fly",
+            "e": "Fly is spelled f-l-y. It ends with a 'y.'"
+          },
+          {
+            "t": "punctuation",
+            "w": "fly",
+            "r": "fly.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "A bird can fly.",
+        "pos": [
+          {
+            "w": "A",
+            "t": "ART",
+            "q": "Find the small word before 'bird.'"
+          },
+          {
+            "w": "bird",
+            "t": "N",
+            "q": "Find the animal word for one that has wings."
+          },
+          {
+            "w": "can",
+            "t": "V",
+            "q": "Find the helping word."
+          },
+          {
+            "w": "fly",
+            "t": "V",
+            "q": "Find the action word for moving through the air."
+          }
+        ],
+        "manip": {
+          "task": "Change 'bird' to another animal.",
+          "word": "bird",
+          "examples": [
+            "A <span class='changed'>dog</span> can fly.",
+            "A <span class='changed'>bee</span> can fly."
+          ]
+        },
+        "vocab": {
+          "w": "wing",
+          "type": "noun",
+          "def": "The part of a bird's body that it moves to fly through the air.",
+          "simple": "A wing is what a bird uses to go up and fly in the sky!",
+          "examples": [
+            "a bird's wing",
+            "big wings",
+            "flap its wings"
+          ],
+          "similar": [
+            "feather",
+            "fin"
+          ],
+          "antonyms": [
+            "leg",
+            "foot"
+          ],
+          "nonex": [
+            "It does NOT mean a leg.",
+            "It does NOT mean a tail."
+          ],
+          "example": "A bird uses its wing to fly high in the sky.",
+          "starter": "If I had wings I would fly to _______ ...",
+          "why": "Wing is an important body part word for talking about birds!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 79,
+    "sentences": [
+      {
+        "orig": "i se uh fsh in water",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "i",
+            "r": "I",
+            "e": "The word 'I' is always a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "se",
+            "r": "see",
+            "e": "See has two e's: s-e-e."
+          },
+          {
+            "t": "spelling",
+            "w": "uh",
+            "r": "a",
+            "e": "The word 'a' is just the letter a."
+          },
+          {
+            "t": "spelling",
+            "w": "fsh",
+            "r": "fish",
+            "e": "Fish is spelled f-i-s-h. It needs an 'i' in the middle."
+          },
+          {
+            "t": "punctuation",
+            "w": "water",
+            "r": "water.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "I see a fish in water.",
+        "pos": [
+          {
+            "w": "I",
+            "t": "PRO",
+            "q": "Find the word that means 'me.'"
+          },
+          {
+            "w": "see",
+            "t": "V",
+            "q": "Find the action word that means to look."
+          },
+          {
+            "w": "a",
+            "t": "ART",
+            "q": "Find the small word before 'fish.'"
+          },
+          {
+            "w": "fish",
+            "t": "N",
+            "q": "Find the animal word that lives in water."
+          },
+          {
+            "w": "in",
+            "t": "PREP",
+            "q": "Find the word that tells where the fish is."
+          },
+          {
+            "w": "water",
+            "t": "N",
+            "q": "Find the word for the clear liquid."
+          }
+        ],
+        "manip": {
+          "task": "Change 'fish' to another animal you can see.",
+          "word": "fish",
+          "examples": [
+            "I see a <span class='changed'>frog</span> in water.",
+            "I see a <span class='changed'>bug</span> in water."
+          ]
+        },
+        "vocab": {
+          "w": "swim",
+          "type": "verb",
+          "def": "To move through water using your body.",
+          "simple": "Swim means to move in the water like a fish!",
+          "examples": [
+            "fish swim",
+            "swim in a pond",
+            "swim fast"
+          ],
+          "similar": [
+            "splash",
+            "glide",
+            "float"
+          ],
+          "antonyms": [
+            "sink",
+            "stand still",
+            "fly"
+          ],
+          "nonex": [
+            "It does NOT mean to walk in water.",
+            "It does NOT mean to drink water."
+          ],
+          "example": "I see a fish swim in the water.",
+          "starter": "I swim when _______ ...",
+          "why": "Swim is a great action word for things that move in the water!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 80,
+    "sentences": [
+      {
+        "orig": "a kow iz onn the farm",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "a",
+            "r": "A",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "kow",
+            "r": "cow",
+            "e": "Cow starts with the letter 'c,' not 'k.'"
+          },
+          {
+            "t": "spelling",
+            "w": "iz",
+            "r": "is",
+            "e": "Is is spelled i-s, not i-z."
+          },
+          {
+            "t": "spelling",
+            "w": "onn",
+            "r": "on",
+            "e": "On has only one n."
+          },
+          {
+            "t": "punctuation",
+            "w": "farm",
+            "r": "farm.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "A cow is on the farm.",
+        "pos": [
+          {
+            "w": "A",
+            "t": "ART",
+            "q": "Find the small word before 'cow.'"
+          },
+          {
+            "w": "cow",
+            "t": "N",
+            "q": "Find the farm animal word."
+          },
+          {
+            "w": "is",
+            "t": "V",
+            "q": "Find the word that tells where the cow is."
+          },
+          {
+            "w": "on",
+            "t": "PREP",
+            "q": "Find the word that tells where — on top of a place."
+          },
+          {
+            "w": "the",
+            "t": "ART",
+            "q": "Find the word that comes before 'farm.'"
+          },
+          {
+            "w": "farm",
+            "t": "N",
+            "q": "Find the place word where animals live and food grows."
+          }
+        ],
+        "manip": {
+          "task": "Change 'cow' to another farm animal.",
+          "word": "cow",
+          "examples": [
+            "A <span class='changed'>pig</span> is on the farm.",
+            "A <span class='changed'>hen</span> is on the farm."
+          ]
+        },
+        "vocab": {
+          "w": "farm",
+          "type": "noun",
+          "def": "A place where animals live and food is grown.",
+          "simple": "A farm is a place with animals and plants for food!",
+          "examples": [
+            "a big farm",
+            "animals on the farm",
+            "food from the farm"
+          ],
+          "similar": [
+            "ranch",
+            "field",
+            "land"
+          ],
+          "antonyms": [
+            "city",
+            "school",
+            "store"
+          ],
+          "nonex": [
+            "It does NOT mean a park.",
+            "It does NOT mean a zoo."
+          ],
+          "example": "A cow lives on the farm with the pig.",
+          "starter": "On a farm I would see _______ ...",
+          "why": "Farm is an important word for talking about where animals and food come from!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 81,
+    "sentences": [
+      {
+        "orig": "a frg iz inn the mud",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "a",
+            "r": "A",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "frg",
+            "r": "frog",
+            "e": "Frog is spelled f-r-o-g. It needs an 'o' in the middle."
+          },
+          {
+            "t": "spelling",
+            "w": "iz",
+            "r": "is",
+            "e": "Is is spelled i-s, not i-z."
+          },
+          {
+            "t": "spelling",
+            "w": "inn",
+            "r": "in",
+            "e": "In has only one n."
+          },
+          {
+            "t": "punctuation",
+            "w": "mud",
+            "r": "mud.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "A frog is in the mud.",
+        "pos": [
+          {
+            "w": "A",
+            "t": "ART",
+            "q": "Find the small word before 'frog.'"
+          },
+          {
+            "w": "frog",
+            "t": "N",
+            "q": "Find the animal word that hops."
+          },
+          {
+            "w": "is",
+            "t": "V",
+            "q": "Find the word that tells where the frog is."
+          },
+          {
+            "w": "in",
+            "t": "PREP",
+            "q": "Find the word that tells where — inside something."
+          },
+          {
+            "w": "the",
+            "t": "ART",
+            "q": "Find the word that comes before 'mud.'"
+          },
+          {
+            "w": "mud",
+            "t": "N",
+            "q": "Find the word for wet, dirty ground."
+          }
+        ],
+        "manip": {
+          "task": "Change 'mud' to another place the frog could be.",
+          "word": "mud",
+          "examples": [
+            "A frog is in the <span class='changed'>pond</span>.",
+            "A frog is in the <span class='changed'>grass</span>."
+          ]
+        },
+        "vocab": {
+          "w": "hop",
+          "type": "verb",
+          "def": "To jump with two feet together, like a frog or a bunny.",
+          "simple": "Hop means to jump up and land — like a frog does!",
+          "examples": [
+            "frogs hop",
+            "hop on one foot",
+            "hop in the mud"
+          ],
+          "similar": [
+            "jump",
+            "leap",
+            "bounce"
+          ],
+          "antonyms": [
+            "stand still",
+            "crawl",
+            "walk"
+          ],
+          "nonex": [
+            "It does NOT mean to run.",
+            "It does NOT mean to fall."
+          ],
+          "example": "A frog can hop in and out of the mud.",
+          "starter": "I can hop _______ times in a row ...",
+          "why": "Hop is a fun action word for animals that move by jumping!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 82,
+    "sentences": [
+      {
+        "orig": "i se uh bige tre",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "i",
+            "r": "I",
+            "e": "The word 'I' is always a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "se",
+            "r": "see",
+            "e": "See has two e's: s-e-e."
+          },
+          {
+            "t": "spelling",
+            "w": "uh",
+            "r": "a",
+            "e": "The word 'a' is just the letter a."
+          },
+          {
+            "t": "spelling",
+            "w": "bige",
+            "r": "big",
+            "e": "Big does not have an e."
+          },
+          {
+            "t": "spelling",
+            "w": "tre",
+            "r": "tree.",
+            "e": "Tree is spelled t-r-e-e. It ends with two e's."
+          }
+        ],
+        "fixed": "I see a big tree.",
+        "pos": [
+          {
+            "w": "I",
+            "t": "PRO",
+            "q": "Find the word that means 'me.'"
+          },
+          {
+            "w": "see",
+            "t": "V",
+            "q": "Find the action word that means to look."
+          },
+          {
+            "w": "a",
+            "t": "ART",
+            "q": "Find the small word before 'big.'"
+          },
+          {
+            "w": "big",
+            "t": "ADJ",
+            "q": "Find the word that tells about the tree."
+          },
+          {
+            "w": "tree",
+            "t": "N",
+            "q": "Find the nature word for the tall plant with a trunk."
+          }
+        ],
+        "manip": {
+          "task": "Change 'big' to another word that tells about the tree.",
+          "word": "big",
+          "examples": [
+            "I see a <span class='changed'>tall</span> tree.",
+            "I see a <span class='changed'>green</span> tree."
+          ]
+        },
+        "vocab": {
+          "w": "tall",
+          "type": "adjective",
+          "def": "Reaching high up, much higher than usual.",
+          "simple": "Tall means going very high up, like a big tree!",
+          "examples": [
+            "a tall tree",
+            "a tall building",
+            "tall grass"
+          ],
+          "similar": [
+            "high",
+            "big",
+            "large"
+          ],
+          "antonyms": [
+            "short",
+            "small",
+            "low"
+          ],
+          "nonex": [
+            "It does NOT mean wide.",
+            "It does NOT mean heavy."
+          ],
+          "example": "I see a very tall tree in the park.",
+          "starter": "Something tall that I have seen is _______ ...",
+          "why": "Tall helps you tell people how high something reaches up!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 83,
+    "sentences": [
+      {
+        "orig": "a flowr iz rede",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "a",
+            "r": "A",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "flowr",
+            "r": "flower",
+            "e": "Flower is spelled f-l-o-w-e-r. It has an 'e' before the 'r.'"
+          },
+          {
+            "t": "spelling",
+            "w": "iz",
+            "r": "is",
+            "e": "Is is spelled i-s, not i-z."
+          },
+          {
+            "t": "spelling",
+            "w": "rede",
+            "r": "red",
+            "e": "Red does not have an e."
+          },
+          {
+            "t": "punctuation",
+            "w": "red",
+            "r": "red.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "A flower is red.",
+        "pos": [
+          {
+            "w": "A",
+            "t": "ART",
+            "q": "Find the small word before 'flower.'"
+          },
+          {
+            "w": "flower",
+            "t": "N",
+            "q": "Find the nature word for the pretty plant that blooms."
+          },
+          {
+            "w": "is",
+            "t": "V",
+            "q": "Find the word that tells about the flower."
+          },
+          {
+            "w": "red",
+            "t": "ADJ",
+            "q": "Find the color word that tells about the flower."
+          }
+        ],
+        "manip": {
+          "task": "Change 'red' to a different color for the flower.",
+          "word": "red",
+          "examples": [
+            "A flower is <span class='changed'>pink</span>.",
+            "A flower is <span class='changed'>yellow</span>."
+          ]
+        },
+        "vocab": {
+          "w": "bloom",
+          "type": "verb",
+          "def": "When a flower opens up and shows its petals.",
+          "simple": "Bloom means a flower opens up and shows its pretty colors!",
+          "examples": [
+            "flowers bloom",
+            "bloom in spring",
+            "bloom red"
+          ],
+          "similar": [
+            "open",
+            "blossom",
+            "grow"
+          ],
+          "antonyms": [
+            "close",
+            "wilt",
+            "die"
+          ],
+          "nonex": [
+            "It does NOT mean to fall off.",
+            "It does NOT mean to be planted."
+          ],
+          "example": "A red flower will bloom in the warm sun.",
+          "starter": "Flowers bloom when _______ ...",
+          "why": "Bloom is a great nature word for when flowers open up in spring!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 84,
+    "sentences": [
+      {
+        "orig": "the sn iz hott",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "the",
+            "r": "The",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "sn",
+            "r": "sun",
+            "e": "Sun is spelled s-u-n. It needs a 'u' in the middle."
+          },
+          {
+            "t": "spelling",
+            "w": "iz",
+            "r": "is",
+            "e": "Is is spelled i-s, not i-z."
+          },
+          {
+            "t": "spelling",
+            "w": "hott",
+            "r": "hot",
+            "e": "Hot has only one t."
+          },
+          {
+            "t": "punctuation",
+            "w": "hot",
+            "r": "hot.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "The sun is hot.",
+        "pos": [
+          {
+            "w": "The",
+            "t": "ART",
+            "q": "Find the word that comes before 'sun.'"
+          },
+          {
+            "w": "sun",
+            "t": "N",
+            "q": "Find the nature word for the big yellow star in the sky."
+          },
+          {
+            "w": "is",
+            "t": "V",
+            "q": "Find the word that tells about the sun."
+          },
+          {
+            "w": "hot",
+            "t": "ADJ",
+            "q": "Find the word that tells how the sun feels."
+          }
+        ],
+        "manip": {
+          "task": "Change 'hot' to another word that tells about the sun.",
+          "word": "hot",
+          "examples": [
+            "The sun is <span class='changed'>bright</span>.",
+            "The sun is <span class='changed'>big</span>."
+          ]
+        },
+        "vocab": {
+          "w": "shine",
+          "type": "verb",
+          "def": "To give out bright light.",
+          "simple": "Shine means to give off bright, warm light like the sun!",
+          "examples": [
+            "the sun shines",
+            "shine bright",
+            "shine on the flowers"
+          ],
+          "similar": [
+            "glow",
+            "beam",
+            "light up"
+          ],
+          "antonyms": [
+            "dim",
+            "darken",
+            "cloud over"
+          ],
+          "nonex": [
+            "It does NOT mean to burn.",
+            "It does NOT mean to heat only."
+          ],
+          "example": "The hot sun shines on the big tree.",
+          "starter": "The sun shines when _______ ...",
+          "why": "Shine is a great light word to describe the sun on a bright day!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 85,
+    "sentences": [
+      {
+        "orig": "the rane iz wett",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "the",
+            "r": "The",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "rane",
+            "r": "rain",
+            "e": "Rain is spelled r-a-i-n. The vowels are a-i."
+          },
+          {
+            "t": "spelling",
+            "w": "iz",
+            "r": "is",
+            "e": "Is is spelled i-s, not i-z."
+          },
+          {
+            "t": "spelling",
+            "w": "wett",
+            "r": "wet",
+            "e": "Wet has only one t."
+          },
+          {
+            "t": "punctuation",
+            "w": "wet",
+            "r": "wet.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "The rain is wet.",
+        "pos": [
+          {
+            "w": "The",
+            "t": "ART",
+            "q": "Find the word that comes before 'rain.'"
+          },
+          {
+            "w": "rain",
+            "t": "N",
+            "q": "Find the weather word for water that falls from the sky."
+          },
+          {
+            "w": "is",
+            "t": "V",
+            "q": "Find the word that tells about the rain."
+          },
+          {
+            "w": "wet",
+            "t": "ADJ",
+            "q": "Find the word that tells how rain feels."
+          }
+        ],
+        "manip": {
+          "task": "Change 'rain' to another weather word.",
+          "word": "rain",
+          "examples": [
+            "The <span class='changed'>sun</span> is wet.",
+            "The <span class='changed'>wind</span> is wet."
+          ]
+        },
+        "vocab": {
+          "w": "drip",
+          "type": "verb",
+          "def": "When drops of water fall down one at a time.",
+          "simple": "Drip means water falls down in little drops!",
+          "examples": [
+            "rain drips",
+            "water drips",
+            "drip on the ground"
+          ],
+          "similar": [
+            "drop",
+            "trickle",
+            "fall"
+          ],
+          "antonyms": [
+            "pour",
+            "flood",
+            "dry"
+          ],
+          "nonex": [
+            "It does NOT mean to splash.",
+            "It does NOT mean to flow fast."
+          ],
+          "example": "The wet rain drips from the leaves of the tree.",
+          "starter": "Water drips when _______ ...",
+          "why": "Drip is a great water word that tells about small drops falling down!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 86,
+    "sentences": [
+      {
+        "orig": "a bugg iz onn a leaf",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "a",
+            "r": "A",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "bugg",
+            "r": "bug",
+            "e": "Bug has only one g."
+          },
+          {
+            "t": "spelling",
+            "w": "iz",
+            "r": "is",
+            "e": "Is is spelled i-s, not i-z."
+          },
+          {
+            "t": "spelling",
+            "w": "onn",
+            "r": "on",
+            "e": "On has only one n."
+          },
+          {
+            "t": "punctuation",
+            "w": "leaf",
+            "r": "leaf.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "A bug is on a leaf.",
+        "pos": [
+          {
+            "w": "A",
+            "t": "ART",
+            "q": "Find the small word before 'bug.'"
+          },
+          {
+            "w": "bug",
+            "t": "N",
+            "q": "Find the tiny animal word."
+          },
+          {
+            "w": "is",
+            "t": "V",
+            "q": "Find the word that tells where the bug is."
+          },
+          {
+            "w": "on",
+            "t": "PREP",
+            "q": "Find the word that tells where — on top."
+          },
+          {
+            "w": "a",
+            "t": "ART",
+            "q": "Find the small word before 'leaf.'"
+          },
+          {
+            "w": "leaf",
+            "t": "N",
+            "q": "Find the nature word that grows on a tree."
+          }
+        ],
+        "manip": {
+          "task": "Change 'leaf' to another place the bug could be.",
+          "word": "leaf",
+          "examples": [
+            "A bug is on a <span class='changed'>flower</span>.",
+            "A bug is on a <span class='changed'>log</span>."
+          ]
+        },
+        "vocab": {
+          "w": "leaf",
+          "type": "noun",
+          "def": "The flat, green part that grows on a plant or tree.",
+          "simple": "A leaf is the flat green part of a plant!",
+          "examples": [
+            "a green leaf",
+            "a big leaf",
+            "leaves on a tree"
+          ],
+          "similar": [
+            "petal",
+            "frond"
+          ],
+          "antonyms": [
+            "root",
+            "trunk",
+            "branch"
+          ],
+          "nonex": [
+            "It does NOT mean the whole plant.",
+            "It does NOT mean bark."
+          ],
+          "example": "A tiny bug sits on a green leaf.",
+          "starter": "I found a leaf that was _______ ...",
+          "why": "Leaf is a nature word that helps you talk about plants and trees!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 87,
+    "sentences": [
+      {
+        "orig": "the frig hopps tew the pond",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "the",
+            "r": "The",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "frig",
+            "r": "frog",
+            "e": "Frog has an o: f-r-o-g."
+          },
+          {
+            "t": "spelling",
+            "w": "hopps",
+            "r": "hops",
+            "e": "Hops has only one p."
+          },
+          {
+            "t": "spelling",
+            "w": "tew",
+            "r": "to",
+            "e": "To is spelled t-o."
+          },
+          {
+            "t": "punctuation",
+            "w": "pond",
+            "r": "pond.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "The frog hops to the pond.",
+        "pos": [
+          {
+            "w": "The",
+            "t": "ART",
+            "q": "Find the word that comes before 'frog.'"
+          },
+          {
+            "w": "frog",
+            "t": "N",
+            "q": "Find the animal word that hops."
+          },
+          {
+            "w": "hops",
+            "t": "V",
+            "q": "Find the action word for jumping."
+          },
+          {
+            "w": "to",
+            "t": "PREP",
+            "q": "Find the word that tells where the frog is going."
+          },
+          {
+            "w": "the",
+            "t": "ART",
+            "q": "Find another 'the' word before 'pond.'"
+          },
+          {
+            "w": "pond",
+            "t": "N",
+            "q": "Find the nature word for a small body of water."
+          }
+        ],
+        "manip": {
+          "task": "Change 'pond' to another place the frog can hop to.",
+          "word": "pond",
+          "examples": [
+            "The frog hops to the <span class='changed'>mud</span>.",
+            "The frog hops to the <span class='changed'>grass</span>."
+          ]
+        },
+        "vocab": {
+          "w": "pond",
+          "type": "noun",
+          "def": "A small area of water, smaller than a lake, where animals often live.",
+          "simple": "A pond is a small pool of water where frogs and fish live!",
+          "examples": [
+            "a pond for frogs",
+            "a small pond",
+            "swim in a pond"
+          ],
+          "similar": [
+            "puddle",
+            "lake",
+            "pool"
+          ],
+          "antonyms": [
+            "dry land",
+            "desert",
+            "hill"
+          ],
+          "nonex": [
+            "It does NOT mean an ocean.",
+            "It does NOT mean a swimming pool."
+          ],
+          "example": "The frog lives in and around the pond.",
+          "starter": "At the pond I might see _______ ...",
+          "why": "Pond is a nature word for a small body of water where animals live!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 88,
+    "sentences": [
+      {
+        "orig": "it iz hott tooday",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "it",
+            "r": "It",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "iz",
+            "r": "is",
+            "e": "Is is spelled i-s, not i-z."
+          },
+          {
+            "t": "spelling",
+            "w": "hott",
+            "r": "hot",
+            "e": "Hot has only one 't' at the end: h-o-t."
+          },
+          {
+            "t": "spelling",
+            "w": "tooday",
+            "r": "today",
+            "e": "Today starts with t-o."
+          },
+          {
+            "t": "punctuation",
+            "w": "today",
+            "r": "today.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "It is hot today.",
+        "pos": [
+          {
+            "w": "It",
+            "t": "PRO",
+            "q": "Find the word that tells about the weather."
+          },
+          {
+            "w": "is",
+            "t": "V",
+            "q": "Find the word that tells what the weather is."
+          },
+          {
+            "w": "hot",
+            "t": "ADJ",
+            "q": "Find the word that tells about the temperature."
+          },
+          {
+            "w": "today",
+            "t": "ADV",
+            "q": "Find the word that tells when."
+          }
+        ],
+        "manip": {
+          "task": "Change 'hot' to another weather word.",
+          "word": "hot",
+          "examples": [
+            "It is <span class='changed'>cold</span> today.",
+            "It is <span class='changed'>wet</span> today."
+          ]
+        },
+        "vocab": {
+          "w": "weather",
+          "type": "noun",
+          "def": "What the air outside is like — sunny, rainy, cold, or windy.",
+          "simple": "Weather is what the sky and air are like outside every day!",
+          "examples": [
+            "hot weather",
+            "cold weather",
+            "rainy weather"
+          ],
+          "similar": [
+            "climate",
+            "sky",
+            "outside air"
+          ],
+          "antonyms": [],
+          "nonex": [
+            "It does NOT mean just rain.",
+            "It does NOT mean how you feel inside."
+          ],
+          "example": "It is hot today because the weather is sunny.",
+          "starter": "My favorite weather is _______ ...",
+          "why": "Weather is an everyday word for talking about what is happening outside!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 89,
+    "sentences": [
+      {
+        "orig": "it iz kold inn winter",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "it",
+            "r": "It",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "iz",
+            "r": "is",
+            "e": "Is is spelled i-s, not i-z."
+          },
+          {
+            "t": "spelling",
+            "w": "kold",
+            "r": "cold",
+            "e": "Cold starts with the letter 'c,' not 'k.'"
+          },
+          {
+            "t": "spelling",
+            "w": "inn",
+            "r": "in",
+            "e": "In has only one n."
+          },
+          {
+            "t": "punctuation",
+            "w": "winter",
+            "r": "winter.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "It is cold in winter.",
+        "pos": [
+          {
+            "w": "It",
+            "t": "PRO",
+            "q": "Find the word that tells about the weather."
+          },
+          {
+            "w": "is",
+            "t": "V",
+            "q": "Find the word that tells what the weather is."
+          },
+          {
+            "w": "cold",
+            "t": "ADJ",
+            "q": "Find the word that tells about the temperature."
+          },
+          {
+            "w": "in",
+            "t": "PREP",
+            "q": "Find the word that tells when — during a season."
+          },
+          {
+            "w": "winter",
+            "t": "N",
+            "q": "Find the season word for the coldest time of year."
+          }
+        ],
+        "manip": {
+          "task": "Change 'winter' to another season.",
+          "word": "winter",
+          "examples": [
+            "It is cold in <span class='changed'>autumn</span>.",
+            "It is cold in <span class='changed'>spring</span>."
+          ]
+        },
+        "vocab": {
+          "w": "cold",
+          "type": "adjective",
+          "def": "Having a low temperature, the opposite of hot.",
+          "simple": "Cold means the air or something feels very chilly!",
+          "examples": [
+            "cold in winter",
+            "cold water",
+            "cold wind"
+          ],
+          "similar": [
+            "chilly",
+            "icy",
+            "freezing"
+          ],
+          "antonyms": [
+            "hot",
+            "warm",
+            "sunny"
+          ],
+          "nonex": [
+            "It does NOT mean dark.",
+            "It does NOT mean wet only."
+          ],
+          "example": "It is very cold in the winter and I need a coat.",
+          "starter": "When it is cold I like to _______ ...",
+          "why": "Cold is an important weather word to tell people about cool temperatures!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 90,
+    "sentences": [
+      {
+        "orig": "the wett dg rann in",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "the",
+            "r": "The",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "wett",
+            "r": "wet",
+            "e": "Wet has only one 't' at the end: w-e-t."
+          },
+          {
+            "t": "spelling",
+            "w": "dg",
+            "r": "dog",
+            "e": "Dog needs an o: d-o-g."
+          },
+          {
+            "t": "spelling",
+            "w": "rann",
+            "r": "ran",
+            "e": "Ran has only one n."
+          },
+          {
+            "t": "punctuation",
+            "w": "in",
+            "r": "in.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "The wet dog ran in.",
+        "pos": [
+          {
+            "w": "The",
+            "t": "ART",
+            "q": "Find the word that comes before 'wet.'"
+          },
+          {
+            "w": "wet",
+            "t": "ADJ",
+            "q": "Find the word that tells how the dog is."
+          },
+          {
+            "w": "dog",
+            "t": "N",
+            "q": "Find the animal word."
+          },
+          {
+            "w": "ran",
+            "t": "V",
+            "q": "Find the action word for moving fast in the past."
+          },
+          {
+            "w": "in",
+            "t": "PREP",
+            "q": "Find the word that tells where the dog went."
+          }
+        ],
+        "manip": {
+          "task": "Change 'wet' to another word that tells about the dog.",
+          "word": "wet",
+          "examples": [
+            "The <span class='changed'>big</span> dog ran in.",
+            "The <span class='changed'>muddy</span> dog ran in."
+          ]
+        },
+        "vocab": {
+          "w": "muddy",
+          "type": "adjective",
+          "def": "Covered with or full of mud.",
+          "simple": "Muddy means covered in wet, dirty mud!",
+          "examples": [
+            "a muddy dog",
+            "muddy boots",
+            "muddy ground"
+          ],
+          "similar": [
+            "dirty",
+            "messy",
+            "wet"
+          ],
+          "antonyms": [
+            "clean",
+            "dry",
+            "tidy"
+          ],
+          "nonex": [
+            "It does NOT mean just wet.",
+            "It does NOT mean broken."
+          ],
+          "example": "The muddy dog ran inside after playing in the rain.",
+          "starter": "Something that gets muddy outside is _______ ...",
+          "why": "Muddy is a great word for describing things that have been in the mud!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 91,
+    "sentences": [
+      {
+        "orig": "i se a dg inn the yard",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "i",
+            "r": "I",
+            "e": "The word 'I' is always a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "se",
+            "r": "see",
+            "e": "See has two e's: s-e-e."
+          },
+          {
+            "t": "spelling",
+            "w": "dg",
+            "r": "dog",
+            "e": "Dog is spelled d-o-g. It needs an 'o' in the middle."
+          },
+          {
+            "t": "spelling",
+            "w": "inn",
+            "r": "in",
+            "e": "In has only one n."
+          },
+          {
+            "t": "punctuation",
+            "w": "yard",
+            "r": "yard.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "I see a dog in the yard.",
+        "pos": [
+          {
+            "w": "I",
+            "t": "PRO",
+            "q": "Find the word that means 'me.'"
+          },
+          {
+            "w": "see",
+            "t": "V",
+            "q": "Find the action word that means to look."
+          },
+          {
+            "w": "a",
+            "t": "ART",
+            "q": "Find the small word before 'dog.'"
+          },
+          {
+            "w": "dog",
+            "t": "N",
+            "q": "Find the animal word."
+          },
+          {
+            "w": "in",
+            "t": "PREP",
+            "q": "Find the word that tells where the dog is."
+          },
+          {
+            "w": "the",
+            "t": "ART",
+            "q": "Find the word that comes before 'yard.'"
+          },
+          {
+            "w": "yard",
+            "t": "N",
+            "q": "Find the place word for the outdoor space near a home."
+          }
+        ],
+        "manip": {
+          "task": "Change 'dog' to another animal you could see in the yard.",
+          "word": "dog",
+          "examples": [
+            "I see a <span class='changed'>bird</span> in the yard.",
+            "I see a <span class='changed'>cat</span> in the yard."
+          ]
+        },
+        "vocab": {
+          "w": "yard",
+          "type": "noun",
+          "def": "The outdoor space of grass and ground right around a house.",
+          "simple": "The yard is the grassy outdoor space next to your home!",
+          "examples": [
+            "play in the yard",
+            "a big yard",
+            "a dog in the yard"
+          ],
+          "similar": [
+            "garden",
+            "lawn",
+            "outdoor space"
+          ],
+          "antonyms": [
+            "inside",
+            "room",
+            "house"
+          ],
+          "nonex": [
+            "It does NOT mean a park.",
+            "It does NOT mean a street."
+          ],
+          "example": "I see a dog running in the yard.",
+          "starter": "In my yard I like to _______ ...",
+          "why": "Yard is an important outdoor word for talking about the space around your home!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 92,
+    "sentences": [
+      {
+        "orig": "a brd iz onn a tre",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "a",
+            "r": "A",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "brd",
+            "r": "bird",
+            "e": "Bird is spelled b-i-r-d. It needs an 'i' in the middle."
+          },
+          {
+            "t": "spelling",
+            "w": "iz",
+            "r": "is",
+            "e": "Is is spelled i-s, not i-z."
+          },
+          {
+            "t": "spelling",
+            "w": "onn",
+            "r": "on",
+            "e": "On has only one n."
+          },
+          {
+            "t": "spelling",
+            "w": "tre",
+            "r": "tree.",
+            "e": "Tree is spelled t-r-e-e. It has two e's at the end."
+          }
+        ],
+        "fixed": "A bird is on a tree.",
+        "pos": [
+          {
+            "w": "A",
+            "t": "ART",
+            "q": "Find the small word before 'bird.'"
+          },
+          {
+            "w": "bird",
+            "t": "N",
+            "q": "Find the animal word that has wings."
+          },
+          {
+            "w": "is",
+            "t": "V",
+            "q": "Find the word that tells where the bird is."
+          },
+          {
+            "w": "on",
+            "t": "PREP",
+            "q": "Find the word that tells where — on top."
+          },
+          {
+            "w": "a",
+            "t": "ART",
+            "q": "Find the small word before 'tree.'"
+          },
+          {
+            "w": "tree",
+            "t": "N",
+            "q": "Find the nature word for the tall plant with a trunk."
+          }
+        ],
+        "manip": {
+          "task": "Change 'tree' to another place the bird could sit.",
+          "word": "tree",
+          "examples": [
+            "A bird is on a <span class='changed'>branch</span>.",
+            "A bird is on a <span class='changed'>fence</span>."
+          ]
+        },
+        "vocab": {
+          "w": "branch",
+          "type": "noun",
+          "def": "One of the long, arm-like parts of a tree that grows out from the trunk.",
+          "simple": "A branch is an arm that grows out from a tree — birds sit on it!",
+          "examples": [
+            "a long branch",
+            "sit on a branch",
+            "birds on the branch"
+          ],
+          "similar": [
+            "limb",
+            "arm",
+            "twig"
+          ],
+          "antonyms": [
+            "root",
+            "trunk",
+            "ground"
+          ],
+          "nonex": [
+            "It does NOT mean the whole tree.",
+            "It does NOT mean a leaf."
+          ],
+          "example": "A bird sits on a branch of the tall tree.",
+          "starter": "On a branch of a tree I might see _______ ...",
+          "why": "Branch is an important tree word for talking about where birds and animals rest!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 93,
+    "sentences": [
+      {
+        "orig": "i se a fsh att the pond",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "i",
+            "r": "I",
+            "e": "The word 'I' is always a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "se",
+            "r": "see",
+            "e": "See has two e's: s-e-e."
+          },
+          {
+            "t": "spelling",
+            "w": "fsh",
+            "r": "fish",
+            "e": "Fish is spelled f-i-s-h. It needs an 'i' in the middle."
+          },
+          {
+            "t": "spelling",
+            "w": "att",
+            "r": "at",
+            "e": "At has only one t."
+          },
+          {
+            "t": "punctuation",
+            "w": "pond",
+            "r": "pond.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "I see a fish at the pond.",
+        "pos": [
+          {
+            "w": "I",
+            "t": "PRO",
+            "q": "Find the word that means 'me.'"
+          },
+          {
+            "w": "see",
+            "t": "V",
+            "q": "Find the action word that means to look."
+          },
+          {
+            "w": "a",
+            "t": "ART",
+            "q": "Find the small word before 'fish.'"
+          },
+          {
+            "w": "fish",
+            "t": "N",
+            "q": "Find the animal word that lives in water."
+          },
+          {
+            "w": "at",
+            "t": "PREP",
+            "q": "Find the word that tells where I see the fish."
+          },
+          {
+            "w": "the",
+            "t": "ART",
+            "q": "Find the word that comes before 'pond.'"
+          },
+          {
+            "w": "pond",
+            "t": "N",
+            "q": "Find the place word for a small body of water."
+          }
+        ],
+        "manip": {
+          "task": "Change 'fish' to another animal at the pond.",
+          "word": "fish",
+          "examples": [
+            "I see a <span class='changed'>frog</span> at the pond.",
+            "I see a <span class='changed'>duck</span> at the pond."
+          ]
+        },
+        "vocab": {
+          "w": "splash",
+          "type": "verb",
+          "def": "To throw drops of water around by moving quickly in it.",
+          "simple": "Splash means to hit water so drops fly everywhere!",
+          "examples": [
+            "fish splash",
+            "splash in the pond",
+            "splash in rain"
+          ],
+          "similar": [
+            "spray",
+            "dash",
+            "plop"
+          ],
+          "antonyms": [
+            "dry",
+            "still",
+            "calm"
+          ],
+          "nonex": [
+            "It does NOT mean to swim slowly.",
+            "It does NOT mean to drink."
+          ],
+          "example": "I see a fish splash at the pond.",
+          "starter": "I like to splash in _______ ...",
+          "why": "Splash is a fun water word for when things hit water and drops fly!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 94,
+    "sentences": [
+      {
+        "orig": "a brd kan fli hiy",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "a",
+            "r": "A",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "brd",
+            "r": "bird",
+            "e": "Bird is spelled b-i-r-d."
+          },
+          {
+            "t": "spelling",
+            "w": "kan",
+            "r": "can",
+            "e": "Can starts with c, not k."
+          },
+          {
+            "t": "spelling",
+            "w": "fli",
+            "r": "fly",
+            "e": "Fly is spelled f-l-y. It ends with a 'y.'"
+          },
+          {
+            "t": "spelling",
+            "w": "hiy",
+            "r": "high.",
+            "e": "High is spelled h-i-g-h. It has a 'gh' at the end."
+          }
+        ],
+        "fixed": "A bird can fly high.",
+        "pos": [
+          {
+            "w": "A",
+            "t": "ART",
+            "q": "Find the small word before 'bird.'"
+          },
+          {
+            "w": "bird",
+            "t": "N",
+            "q": "Find the animal word with wings."
+          },
+          {
+            "w": "can",
+            "t": "V",
+            "q": "Find the helping word."
+          },
+          {
+            "w": "fly",
+            "t": "V",
+            "q": "Find the action word for moving through the air."
+          },
+          {
+            "w": "high",
+            "t": "ADV",
+            "q": "Find the word that tells how the bird flies."
+          }
+        ],
+        "manip": {
+          "task": "Change 'high' to another word that tells how the bird flies.",
+          "word": "high",
+          "examples": [
+            "A bird can fly <span class='changed'>low</span>.",
+            "A bird can fly <span class='changed'>fast</span>."
+          ]
+        },
+        "vocab": {
+          "w": "high",
+          "type": "adjective",
+          "def": "Far up above the ground.",
+          "simple": "High means very far up in the air!",
+          "examples": [
+            "fly high",
+            "a high tree",
+            "high in the sky"
+          ],
+          "similar": [
+            "up",
+            "tall",
+            "above"
+          ],
+          "antonyms": [
+            "low",
+            "down",
+            "below"
+          ],
+          "nonex": [
+            "It does NOT mean fast.",
+            "It does NOT mean far away."
+          ],
+          "example": "A bird can fly high up in the blue sky.",
+          "starter": "Something I can see high in the sky is _______ ...",
+          "why": "High is a great word to tell how far up something is in the sky!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 95,
+    "sentences": [
+      {
+        "orig": "a fsh kan swm fast",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "a",
+            "r": "A",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "fsh",
+            "r": "fish",
+            "e": "Fish is spelled f-i-s-h. It needs an 'i.'"
+          },
+          {
+            "t": "spelling",
+            "w": "kan",
+            "r": "can",
+            "e": "Can starts with c, not k."
+          },
+          {
+            "t": "spelling",
+            "w": "swm",
+            "r": "swim",
+            "e": "Swim is spelled s-w-i-m. It needs an 'i.'"
+          },
+          {
+            "t": "punctuation",
+            "w": "fast",
+            "r": "fast.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "A fish can swim fast.",
+        "pos": [
+          {
+            "w": "A",
+            "t": "ART",
+            "q": "Find the small word before 'fish.'"
+          },
+          {
+            "w": "fish",
+            "t": "N",
+            "q": "Find the animal word that lives in water."
+          },
+          {
+            "w": "can",
+            "t": "V",
+            "q": "Find the helping word."
+          },
+          {
+            "w": "swim",
+            "t": "V",
+            "q": "Find the action word for moving in water."
+          },
+          {
+            "w": "fast",
+            "t": "ADV",
+            "q": "Find the word that tells how the fish swims."
+          }
+        ],
+        "manip": {
+          "task": "Change 'fish' to another animal that can swim.",
+          "word": "fish",
+          "examples": [
+            "A <span class='changed'>frog</span> can swim fast.",
+            "A <span class='changed'>duck</span> can swim fast."
+          ]
+        },
+        "vocab": {
+          "w": "fast",
+          "type": "adjective",
+          "def": "Moving or happening quickly, in a short time.",
+          "simple": "Fast means moving very quickly — zoom!",
+          "examples": [
+            "swim fast",
+            "run fast",
+            "a fast fish"
+          ],
+          "similar": [
+            "quick",
+            "speedy",
+            "swift"
+          ],
+          "antonyms": [
+            "slow",
+            "lazy",
+            "still"
+          ],
+          "nonex": [
+            "It does NOT mean loud.",
+            "It does NOT mean strong."
+          ],
+          "example": "A fish can swim very fast in the water.",
+          "starter": "I can move fast when I _______ ...",
+          "why": "Fast is a great word to describe how quickly animals and people move!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 96,
+    "sentences": [
+      {
+        "orig": "a frg kan hopp far",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "a",
+            "r": "A",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "frg",
+            "r": "frog",
+            "e": "Frog is spelled f-r-o-g. It needs an 'o' in the middle."
+          },
+          {
+            "t": "spelling",
+            "w": "kan",
+            "r": "can",
+            "e": "Can starts with c, not k."
+          },
+          {
+            "t": "spelling",
+            "w": "hopp",
+            "r": "hop",
+            "e": "Hop has only one p."
+          },
+          {
+            "t": "punctuation",
+            "w": "far",
+            "r": "far.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "A frog can hop far.",
+        "pos": [
+          {
+            "w": "A",
+            "t": "ART",
+            "q": "Find the small word before 'frog.'"
+          },
+          {
+            "w": "frog",
+            "t": "N",
+            "q": "Find the animal word that hops."
+          },
+          {
+            "w": "can",
+            "t": "V",
+            "q": "Find the helping word."
+          },
+          {
+            "w": "hop",
+            "t": "V",
+            "q": "Find the action word for jumping."
+          },
+          {
+            "w": "far",
+            "t": "ADV",
+            "q": "Find the word that tells how far the frog can hop."
+          }
+        ],
+        "manip": {
+          "task": "Change 'hop' to another thing a frog can do.",
+          "word": "hop",
+          "examples": [
+            "A frog can <span class='changed'>swim</span> far.",
+            "A frog can <span class='changed'>jump</span> far."
+          ]
+        },
+        "vocab": {
+          "w": "jump",
+          "type": "verb",
+          "def": "To push yourself up into the air with your legs.",
+          "simple": "Jump means to push up with your legs and leave the ground!",
+          "examples": [
+            "frogs jump",
+            "jump over a log",
+            "jump high"
+          ],
+          "similar": [
+            "hop",
+            "leap",
+            "bounce"
+          ],
+          "antonyms": [
+            "stand",
+            "crawl",
+            "sit"
+          ],
+          "nonex": [
+            "It does NOT mean to fall.",
+            "It does NOT mean to slide."
+          ],
+          "example": "A frog can jump and hop very far.",
+          "starter": "I can jump as high as _______ ...",
+          "why": "Jump is a great action word for moving up and off the ground!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 97,
+    "sentences": [
+      {
+        "orig": "the dg runns tew me",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "the",
+            "r": "The",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "dg",
+            "r": "dog",
+            "e": "Dog is spelled d-o-g. It needs an 'o' in the middle."
+          },
+          {
+            "t": "spelling",
+            "w": "runns",
+            "r": "runs",
+            "e": "Runs has only one n."
+          },
+          {
+            "t": "spelling",
+            "w": "tew",
+            "r": "to",
+            "e": "To is spelled t-o."
+          },
+          {
+            "t": "punctuation",
+            "w": "me",
+            "r": "me.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "The dog runs to me.",
+        "pos": [
+          {
+            "w": "The",
+            "t": "ART",
+            "q": "Find the word that comes before 'dog.'"
+          },
+          {
+            "w": "dog",
+            "t": "N",
+            "q": "Find the animal word."
+          },
+          {
+            "w": "runs",
+            "t": "V",
+            "q": "Find the action word for moving fast."
+          },
+          {
+            "w": "to",
+            "t": "PREP",
+            "q": "Find the word that tells where the dog is going."
+          },
+          {
+            "w": "me",
+            "t": "PRO",
+            "q": "Find the word that means 'I am receiving.'"
+          }
+        ],
+        "manip": {
+          "task": "Change 'dog' to another pet that can run to you.",
+          "word": "dog",
+          "examples": [
+            "The <span class='changed'>cat</span> runs to me.",
+            "The <span class='changed'>rabbit</span> runs to me."
+          ]
+        },
+        "vocab": {
+          "w": "loyal",
+          "type": "adjective",
+          "def": "Always staying with you and being your friend, no matter what.",
+          "simple": "Loyal means your pet or friend always stays with you and loves you!",
+          "examples": [
+            "a loyal dog",
+            "a loyal friend",
+            "always loyal"
+          ],
+          "similar": [
+            "faithful",
+            "true",
+            "devoted"
+          ],
+          "antonyms": [
+            "disloyal",
+            "unfaithful",
+            "distant"
+          ],
+          "nonex": [
+            "It does NOT mean obedient only.",
+            "It does NOT mean quiet."
+          ],
+          "example": "The dog runs to me because it is loyal and loves me.",
+          "starter": "A loyal friend always _______ ...",
+          "why": "Loyal is a warm word that tells about a pet or friend who always stays by your side!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 98,
+    "sentences": [
+      {
+        "orig": "a flowr groes biy the tre",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "a",
+            "r": "A",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "flowr",
+            "r": "flower",
+            "e": "Flower is spelled f-l-o-w-e-r. It has an 'e' before the 'r.'"
+          },
+          {
+            "t": "spelling",
+            "w": "groes",
+            "r": "grows",
+            "e": "Grows is spelled g-r-o-w-s."
+          },
+          {
+            "t": "spelling",
+            "w": "biy",
+            "r": "by",
+            "e": "By is spelled b-y."
+          },
+          {
+            "t": "spelling",
+            "w": "tre",
+            "r": "tree.",
+            "e": "Tree is spelled t-r-e-e. It ends with two e's."
+          }
+        ],
+        "fixed": "A flower grows by the tree.",
+        "pos": [
+          {
+            "w": "A",
+            "t": "ART",
+            "q": "Find the small word before 'flower.'"
+          },
+          {
+            "w": "flower",
+            "t": "N",
+            "q": "Find the nature word for the pretty plant."
+          },
+          {
+            "w": "grows",
+            "t": "V",
+            "q": "Find the action word for getting bigger."
+          },
+          {
+            "w": "by",
+            "t": "PREP",
+            "q": "Find the word that tells where — beside something."
+          },
+          {
+            "w": "the",
+            "t": "ART",
+            "q": "Find the word that comes before 'tree.'"
+          },
+          {
+            "w": "tree",
+            "t": "N",
+            "q": "Find the nature word for the tall plant with a trunk."
+          }
+        ],
+        "manip": {
+          "task": "Change 'flower' to another thing that grows by a tree.",
+          "word": "flower",
+          "examples": [
+            "A <span class='changed'>mushroom</span> grows by the tree.",
+            "A <span class='changed'>plant</span> grows by the tree."
+          ]
+        },
+        "vocab": {
+          "w": "grow",
+          "type": "verb",
+          "def": "To get bigger over time, like a plant or an animal.",
+          "simple": "Grow means to get bigger and bigger, like a plant in the sun!",
+          "examples": [
+            "flowers grow",
+            "grow tall",
+            "grow in the sun"
+          ],
+          "similar": [
+            "get bigger",
+            "sprout",
+            "bloom"
+          ],
+          "antonyms": [
+            "shrink",
+            "wilt",
+            "die"
+          ],
+          "nonex": [
+            "It does NOT mean to appear suddenly.",
+            "It does NOT mean just for plants."
+          ],
+          "example": "A flower grows bigger every day by the tree.",
+          "starter": "Something I have watched grow is _______ ...",
+          "why": "Grow is an important nature word for talking about plants and living things!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 99,
+    "sentences": [
+      {
+        "orig": "the kow iz onn the farm",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "the",
+            "r": "The",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "kow",
+            "r": "cow",
+            "e": "Cow starts with the letter 'c,' not 'k.'"
+          },
+          {
+            "t": "spelling",
+            "w": "iz",
+            "r": "is",
+            "e": "Is is spelled i-s, not i-z."
+          },
+          {
+            "t": "spelling",
+            "w": "onn",
+            "r": "on",
+            "e": "On has only one n."
+          },
+          {
+            "t": "punctuation",
+            "w": "farm",
+            "r": "farm.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "The cow is on the farm.",
+        "pos": [
+          {
+            "w": "The",
+            "t": "ART",
+            "q": "Find the word that comes before 'cow.'"
+          },
+          {
+            "w": "cow",
+            "t": "N",
+            "q": "Find the farm animal word."
+          },
+          {
+            "w": "is",
+            "t": "V",
+            "q": "Find the word that tells where the cow is."
+          },
+          {
+            "w": "on",
+            "t": "PREP",
+            "q": "Find the word that tells where — on a place."
+          },
+          {
+            "w": "the",
+            "t": "ART",
+            "q": "Find another 'the' word before 'farm.'"
+          },
+          {
+            "w": "farm",
+            "t": "N",
+            "q": "Find the place word where animals and food grow."
+          }
+        ],
+        "manip": {
+          "task": "Change 'cow' to another farm animal.",
+          "word": "cow",
+          "examples": [
+            "The <span class='changed'>pig</span> is on the farm.",
+            "The <span class='changed'>hen</span> is on the farm."
+          ]
+        },
+        "vocab": {
+          "w": "nature",
+          "type": "noun",
+          "def": "The world outside made of plants, animals, water, and sky — not made by people.",
+          "simple": "Nature is everything outside that is not made by people — trees, animals, and sky!",
+          "examples": [
+            "animals in nature",
+            "love nature",
+            "explore nature"
+          ],
+          "similar": [
+            "outdoors",
+            "the wild",
+            "the earth"
+          ],
+          "antonyms": [
+            "city",
+            "building",
+            "man-made"
+          ],
+          "nonex": [
+            "It does NOT mean just animals.",
+            "It does NOT mean just plants."
+          ],
+          "example": "The cow on the farm is part of beautiful nature.",
+          "starter": "My favorite part of nature is _______ ...",
+          "why": "Nature is a big, important word for all the living things and places in our world!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 100,
+    "sentences": [
+      {
+        "orig": "i luv animuls annd trees",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "i",
+            "r": "I",
+            "e": "The word 'I' is always a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "luv",
+            "r": "love",
+            "e": "Love is spelled l-o-v-e. It has an 'o' and an 'e.'"
+          },
+          {
+            "t": "spelling",
+            "w": "animuls",
+            "r": "animals",
+            "e": "Animals has an a: a-n-i-m-a-l-s."
+          },
+          {
+            "t": "spelling",
+            "w": "annd",
+            "r": "and",
+            "e": "And has only one n."
+          },
+          {
+            "t": "punctuation",
+            "w": "trees",
+            "r": "trees.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "I love animals and trees.",
+        "pos": [
+          {
+            "w": "I",
+            "t": "PRO",
+            "q": "Find the word that means 'me.'"
+          },
+          {
+            "w": "love",
+            "t": "V",
+            "q": "Find the feeling action word."
+          },
+          {
+            "w": "animals",
+            "t": "N",
+            "q": "Find the word for all living creatures."
+          },
+          {
+            "w": "and",
+            "t": "CONJ",
+            "q": "Find the joining word."
+          },
+          {
+            "w": "trees",
+            "t": "N",
+            "q": "Find the nature word for tall plants."
+          }
+        ],
+        "manip": {
+          "task": "Change 'trees' to another nature word you love.",
+          "word": "trees",
+          "examples": [
+            "I love animals and <span class='changed'>flowers</span>.",
+            "I love animals and <span class='changed'>rain</span>."
+          ]
+        },
+        "vocab": {
+          "w": "explore",
+          "type": "verb",
+          "def": "To go out and look at new places and things with curiosity.",
+          "simple": "Explore means to go look around and discover new things!",
+          "examples": [
+            "explore the yard",
+            "explore nature",
+            "explore the farm"
+          ],
+          "similar": [
+            "discover",
+            "search",
+            "adventure"
+          ],
+          "antonyms": [
+            "stay inside",
+            "ignore",
+            "hide"
+          ],
+          "nonex": [
+            "It does NOT mean to run away.",
+            "It does NOT mean to take things."
+          ],
+          "example": "I love animals and trees when I explore outside.",
+          "starter": "I would like to explore _______ ...",
+          "why": "Explore is an exciting word for going out to discover the amazing world of nature!"
+        }
+      }
+    ]
+  }
+]

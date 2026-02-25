@@ -1,0 +1,2491 @@
+[
+  {
+    "day": 1,
+    "sentences": [
+      {
+        "orig": "i se uh buk here",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "i",
+            "r": "I",
+            "e": "The word 'I' is always a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "buk",
+            "r": "book",
+            "e": "Book is spelled b-o-o-k. It has two o's!"
+          },
+          {
+            "t": "spelling",
+            "w": "se",
+            "r": "see",
+            "e": "See has two e's: s-e-e."
+          },
+          {
+            "t": "spelling",
+            "w": "uh",
+            "r": "a",
+            "e": "The word 'a' is just the letter a."
+          },
+          {
+            "t": "punctuation",
+            "w": "here",
+            "r": "here.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "I see a book here.",
+        "pos": [
+          {
+            "w": "I",
+            "t": "PRO",
+            "q": "Find the word that means 'me.'"
+          },
+          {
+            "w": "see",
+            "t": "V",
+            "q": "Find the action word for looking."
+          },
+          {
+            "w": "a",
+            "t": "ART",
+            "q": "Find the tiny word before 'book.'"
+          },
+          {
+            "w": "book",
+            "t": "N",
+            "q": "Find the thing word you can read."
+          },
+          {
+            "w": "here",
+            "t": "ADV",
+            "q": "Find the word that tells where the book is."
+          }
+        ],
+        "manip": {
+          "task": "Change 'book' to a different classroom thing.",
+          "word": "book",
+          "examples": [
+            "I see a <span class='changed'>pen</span> here.",
+            "I see a <span class='changed'>bag</span> here."
+          ]
+        },
+        "vocab": {
+          "w": "book",
+          "type": "noun",
+          "def": "A thing with pages that you read.",
+          "simple": "A book has pages with words and pictures!",
+          "examples": [
+            "a big book",
+            "a little book",
+            "a red book"
+          ],
+          "similar": [
+            "story",
+            "reader"
+          ],
+          "antonyms": [],
+          "nonex": [
+            "It is NOT a piece of paper.",
+            "It is NOT a pencil."
+          ],
+          "example": "I see a book on my desk.",
+          "starter": "My favorite book is _______ ...",
+          "why": "Book is a very important school word!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 2,
+    "sentences": [
+      {
+        "orig": "i hav uh pn now",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "i",
+            "r": "I",
+            "e": "The word 'I' is always a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "hav",
+            "r": "have",
+            "e": "Have is spelled h-a-v-e. It has an 'e' at the end."
+          },
+          {
+            "t": "spelling",
+            "w": "pn",
+            "r": "pen",
+            "e": "Pen is spelled p-e-n. It has three letters."
+          },
+          {
+            "t": "spelling",
+            "w": "uh",
+            "r": "a",
+            "e": "The word 'a' is just the letter a."
+          },
+          {
+            "t": "punctuation",
+            "w": "now",
+            "r": "now.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "I have a pen now.",
+        "pos": [
+          {
+            "w": "I",
+            "t": "PRO",
+            "q": "Find the word that means 'me.'"
+          },
+          {
+            "w": "have",
+            "t": "V",
+            "q": "Find the action word that means to own something."
+          },
+          {
+            "w": "a",
+            "t": "ART",
+            "q": "Find the tiny word before 'pen.'"
+          },
+          {
+            "w": "pen",
+            "t": "N",
+            "q": "Find the thing word you write with."
+          },
+          {
+            "w": "now",
+            "t": "ADV",
+            "q": "Find the word that means 'at this time.'"
+          }
+        ],
+        "manip": {
+          "task": "Change 'pen' to a different thing you write with.",
+          "word": "pen",
+          "examples": [
+            "I have a <span class='changed'>cup</span> now.",
+            "I have a <span class='changed'>book</span> now."
+          ]
+        },
+        "vocab": {
+          "w": "pen",
+          "type": "noun",
+          "def": "A tool with ink that you use to write.",
+          "simple": "A pen makes marks so you can write!",
+          "examples": [
+            "a red pen",
+            "a blue pen",
+            "my pen"
+          ],
+          "similar": [
+            "pencil",
+            "marker"
+          ],
+          "antonyms": [],
+          "nonex": [
+            "It is NOT a crayon.",
+            "It is NOT a ruler."
+          ],
+          "example": "I have a pen to write my name.",
+          "starter": "I use my pen to _______ ...",
+          "why": "Pen is a word you use every day at school!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 3,
+    "sentences": [
+      {
+        "orig": "my dsk iz bg",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "my",
+            "r": "My",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "dsk",
+            "r": "desk",
+            "e": "Desk is spelled d-e-s-k. It has four letters."
+          },
+          {
+            "t": "spelling",
+            "w": "bg",
+            "r": "big",
+            "e": "Big needs an i: b-i-g."
+          },
+          {
+            "t": "spelling",
+            "w": "iz",
+            "r": "is",
+            "e": "Is is spelled i-s, not i-z."
+          },
+          {
+            "t": "punctuation",
+            "w": "big",
+            "r": "big.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "My desk is big.",
+        "pos": [
+          {
+            "w": "My",
+            "t": "ART",
+            "q": "Find the word that means 'belonging to me.'"
+          },
+          {
+            "w": "desk",
+            "t": "N",
+            "q": "Find the thing word where you sit and work."
+          },
+          {
+            "w": "is",
+            "t": "V",
+            "q": "Find the little action word."
+          },
+          {
+            "w": "big",
+            "t": "ADJ",
+            "q": "Find the word that tells about size."
+          }
+        ],
+        "manip": {
+          "task": "Change 'big' to a different describing word.",
+          "word": "big",
+          "examples": [
+            "My desk is <span class='changed'>clean</span>.",
+            "My desk is <span class='changed'>new</span>."
+          ]
+        },
+        "vocab": {
+          "w": "desk",
+          "type": "noun",
+          "def": "A table at school where you sit and do your work.",
+          "simple": "A desk is your special work table at school!",
+          "examples": [
+            "my desk",
+            "a big desk",
+            "a clean desk"
+          ],
+          "similar": [
+            "table",
+            "workspace"
+          ],
+          "antonyms": [],
+          "nonex": [
+            "It is NOT a chair.",
+            "It is NOT a bed."
+          ],
+          "example": "My desk is big and clean.",
+          "starter": "On my desk I have _______ ...",
+          "why": "Desk is important because you work there every day!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 4,
+    "sentences": [
+      {
+        "orig": "i lik mi bg",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "i",
+            "r": "I",
+            "e": "The word 'I' is always a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "lik",
+            "r": "like",
+            "e": "Like has a silent e: l-i-k-e."
+          },
+          {
+            "t": "spelling",
+            "w": "mi",
+            "r": "my",
+            "e": "My is spelled m-y."
+          },
+          {
+            "t": "spelling",
+            "w": "bg",
+            "r": "bag",
+            "e": "Bag needs an a: b-a-g."
+          },
+          {
+            "t": "punctuation",
+            "w": "bag",
+            "r": "bag.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "I like my bag.",
+        "pos": [
+          {
+            "w": "I",
+            "t": "PRO",
+            "q": "Find the word that means 'me.'"
+          },
+          {
+            "w": "like",
+            "t": "V",
+            "q": "Find the action word that means you enjoy something."
+          },
+          {
+            "w": "my",
+            "t": "ART",
+            "q": "Find the word that means 'belonging to me.'"
+          },
+          {
+            "w": "bag",
+            "t": "N",
+            "q": "Find the thing word you carry to school."
+          }
+        ],
+        "manip": {
+          "task": "Change 'bag' to something else you like.",
+          "word": "bag",
+          "examples": [
+            "I like my <span class='changed'>book</span>.",
+            "I like my <span class='changed'>pen</span>."
+          ]
+        },
+        "vocab": {
+          "w": "bag",
+          "type": "noun",
+          "def": "A soft container you carry things in.",
+          "simple": "A bag holds your things when you go to school!",
+          "examples": [
+            "my bag",
+            "a big bag",
+            "a blue bag"
+          ],
+          "similar": [
+            "backpack",
+            "sack"
+          ],
+          "antonyms": [],
+          "nonex": [
+            "It is NOT a box.",
+            "It is NOT a pocket."
+          ],
+          "example": "I put my book in my bag.",
+          "starter": "In my bag I have _______ ...",
+          "why": "Bag is a word you use every school day!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 5,
+    "sentences": [
+      {
+        "orig": "i drinkk frum mi cup",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "i",
+            "r": "I",
+            "e": "The word 'I' is always a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "drinkk",
+            "r": "drink",
+            "e": "Drink has only one 'k' at the end. Drink: d-r-i-n-k."
+          },
+          {
+            "t": "spelling",
+            "w": "mi",
+            "r": "my",
+            "e": "My is spelled m-y."
+          },
+          {
+            "t": "spelling",
+            "w": "frum",
+            "r": "from",
+            "e": "From has an o: f-r-o-m."
+          },
+          {
+            "t": "punctuation",
+            "w": "cup",
+            "r": "cup.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "I drink from my cup.",
+        "pos": [
+          {
+            "w": "I",
+            "t": "PRO",
+            "q": "Find the word that means 'me.'"
+          },
+          {
+            "w": "drink",
+            "t": "V",
+            "q": "Find the action word for having water."
+          },
+          {
+            "w": "from",
+            "t": "PREP",
+            "q": "Find the word that tells where the water comes from."
+          },
+          {
+            "w": "my",
+            "t": "ART",
+            "q": "Find the word that means 'belonging to me.'"
+          },
+          {
+            "w": "cup",
+            "t": "N",
+            "q": "Find the thing word you drink from."
+          }
+        ],
+        "manip": {
+          "task": "Change 'cup' to a different thing you drink from.",
+          "word": "cup",
+          "examples": [
+            "I drink from my <span class='changed'>jug</span>.",
+            "I drink from my <span class='changed'>mug</span>."
+          ]
+        },
+        "vocab": {
+          "w": "cup",
+          "type": "noun",
+          "def": "A small round thing you drink water from.",
+          "simple": "A cup holds your water or juice!",
+          "examples": [
+            "a red cup",
+            "my cup",
+            "a big cup"
+          ],
+          "similar": [
+            "mug",
+            "glass"
+          ],
+          "antonyms": [],
+          "nonex": [
+            "It is NOT a plate.",
+            "It is NOT a spoon."
+          ],
+          "example": "I drink water from my cup.",
+          "starter": "I use my cup to _______ ...",
+          "why": "Cup is a word you use at lunch every day!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 6,
+    "sentences": [
+      {
+        "orig": "my techr iz nise",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "my",
+            "r": "My",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "techr",
+            "r": "teacher",
+            "e": "Teacher is spelled t-e-a-c-h-e-r. It is a long word!"
+          },
+          {
+            "t": "spelling",
+            "w": "nise",
+            "r": "nice",
+            "e": "Nice has a c: n-i-c-e."
+          },
+          {
+            "t": "spelling",
+            "w": "iz",
+            "r": "is",
+            "e": "Is is spelled i-s, not i-z."
+          },
+          {
+            "t": "punctuation",
+            "w": "nice",
+            "r": "nice.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "My teacher is nice.",
+        "pos": [
+          {
+            "w": "My",
+            "t": "ART",
+            "q": "Find the word that means 'belonging to me.'"
+          },
+          {
+            "w": "teacher",
+            "t": "N",
+            "q": "Find the person word for the one who teaches."
+          },
+          {
+            "w": "is",
+            "t": "V",
+            "q": "Find the little action word."
+          },
+          {
+            "w": "nice",
+            "t": "ADJ",
+            "q": "Find the word that means kind and good."
+          }
+        ],
+        "manip": {
+          "task": "Change 'nice' to a different describing word.",
+          "word": "nice",
+          "examples": [
+            "My teacher is <span class='changed'>kind</span>.",
+            "My teacher is <span class='changed'>great</span>."
+          ]
+        },
+        "vocab": {
+          "w": "teacher",
+          "type": "noun",
+          "def": "A person whose job is to help you learn.",
+          "simple": "A teacher helps you learn new things every day!",
+          "examples": [
+            "my teacher",
+            "a kind teacher",
+            "a good teacher"
+          ],
+          "similar": [
+            "instructor",
+            "educator"
+          ],
+          "antonyms": [
+            "student"
+          ],
+          "nonex": [
+            "It is NOT a doctor.",
+            "It is NOT a parent (usually)."
+          ],
+          "example": "My teacher reads a book to me.",
+          "starter": "My teacher helps me _______ ...",
+          "why": "Teacher is one of the most important words at school!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 7,
+    "sentences": [
+      {
+        "orig": "my frend iz fn",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "my",
+            "r": "My",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "frend",
+            "r": "friend",
+            "e": "Friend is spelled f-r-i-e-n-d. It has an 'i' in the middle."
+          },
+          {
+            "t": "spelling",
+            "w": "fn",
+            "r": "fun",
+            "e": "Fun needs a u: f-u-n."
+          },
+          {
+            "t": "spelling",
+            "w": "iz",
+            "r": "is",
+            "e": "Is is spelled i-s, not i-z."
+          },
+          {
+            "t": "punctuation",
+            "w": "fun",
+            "r": "fun.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "My friend is fun.",
+        "pos": [
+          {
+            "w": "My",
+            "t": "ART",
+            "q": "Find the word that means 'belonging to me.'"
+          },
+          {
+            "w": "friend",
+            "t": "N",
+            "q": "Find the person word for someone you like."
+          },
+          {
+            "w": "is",
+            "t": "V",
+            "q": "Find the little action word."
+          },
+          {
+            "w": "fun",
+            "t": "ADJ",
+            "q": "Find the word that means enjoyable."
+          }
+        ],
+        "manip": {
+          "task": "Change 'fun' to a different describing word.",
+          "word": "fun",
+          "examples": [
+            "My friend is <span class='changed'>nice</span>.",
+            "My friend is <span class='changed'>kind</span>."
+          ]
+        },
+        "vocab": {
+          "w": "friend",
+          "type": "noun",
+          "def": "A person you like and play with.",
+          "simple": "A friend is someone who is kind to you!",
+          "examples": [
+            "my friend",
+            "a good friend",
+            "a new friend"
+          ],
+          "similar": [
+            "pal",
+            "buddy"
+          ],
+          "antonyms": [
+            "stranger"
+          ],
+          "nonex": [
+            "It is NOT someone you do not know.",
+            "It is NOT just anyone."
+          ],
+          "example": "He is my friend at school.",
+          "starter": "My friend and I like to _______ ...",
+          "why": "Friend is a happy word you will use every day!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 8,
+    "sentences": [
+      {
+        "orig": "the boi kan rn",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "the",
+            "r": "The",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "boi",
+            "r": "boy",
+            "e": "Boy is spelled b-o-y, not b-o-i."
+          },
+          {
+            "t": "spelling",
+            "w": "rn",
+            "r": "run",
+            "e": "Run needs a u: r-u-n."
+          },
+          {
+            "t": "spelling",
+            "w": "kan",
+            "r": "can",
+            "e": "Can starts with c, not k."
+          },
+          {
+            "t": "punctuation",
+            "w": "run",
+            "r": "run.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "The boy can run.",
+        "pos": [
+          {
+            "w": "The",
+            "t": "ART",
+            "q": "Find the word before 'boy.'"
+          },
+          {
+            "w": "boy",
+            "t": "N",
+            "q": "Find the person word for a young male."
+          },
+          {
+            "w": "can",
+            "t": "V",
+            "q": "Find the word that means 'is able to.'"
+          },
+          {
+            "w": "run",
+            "t": "V",
+            "q": "Find the action word for moving fast."
+          }
+        ],
+        "manip": {
+          "task": "Change 'boy' to a different person word.",
+          "word": "boy",
+          "examples": [
+            "The <span class='changed'>girl</span> can run.",
+            "The <span class='changed'>baby</span> can run."
+          ]
+        },
+        "vocab": {
+          "w": "boy",
+          "type": "noun",
+          "def": "A young male person.",
+          "simple": "A boy is a young male, like a son or brother!",
+          "examples": [
+            "a big boy",
+            "a little boy",
+            "a happy boy"
+          ],
+          "similar": [
+            "kid",
+            "child",
+            "son"
+          ],
+          "antonyms": [
+            "girl"
+          ],
+          "nonex": [
+            "It is NOT a man (a man is older).",
+            "It is NOT a girl."
+          ],
+          "example": "The boy runs fast at school.",
+          "starter": "The boy in my class can _______ ...",
+          "why": "Boy is a people word you will use every day!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 9,
+    "sentences": [
+      {
+        "orig": "the grl haz uh bag",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "the",
+            "r": "The",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "grl",
+            "r": "girl",
+            "e": "Girl is spelled g-i-r-l. It has four letters."
+          },
+          {
+            "t": "spelling",
+            "w": "uh",
+            "r": "a",
+            "e": "The word 'a' is just the letter a."
+          },
+          {
+            "t": "spelling",
+            "w": "haz",
+            "r": "has",
+            "e": "Has ends with s, not z."
+          },
+          {
+            "t": "punctuation",
+            "w": "bag",
+            "r": "bag.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "The girl has a bag.",
+        "pos": [
+          {
+            "w": "The",
+            "t": "ART",
+            "q": "Find the word before 'girl.'"
+          },
+          {
+            "w": "girl",
+            "t": "N",
+            "q": "Find the person word for a young female."
+          },
+          {
+            "w": "has",
+            "t": "V",
+            "q": "Find the action word that means to own something."
+          },
+          {
+            "w": "a",
+            "t": "ART",
+            "q": "Find the tiny word before 'bag.'"
+          },
+          {
+            "w": "bag",
+            "t": "N",
+            "q": "Find the thing word she carries."
+          }
+        ],
+        "manip": {
+          "task": "Change 'bag' to something else the girl has.",
+          "word": "bag",
+          "examples": [
+            "The girl has a <span class='changed'>book</span>.",
+            "The girl has a <span class='changed'>cup</span>."
+          ]
+        },
+        "vocab": {
+          "w": "girl",
+          "type": "noun",
+          "def": "A young female person.",
+          "simple": "A girl is a young female, like a daughter or sister!",
+          "examples": [
+            "a big girl",
+            "a little girl",
+            "a happy girl"
+          ],
+          "similar": [
+            "kid",
+            "child",
+            "daughter"
+          ],
+          "antonyms": [
+            "boy"
+          ],
+          "nonex": [
+            "It is NOT a woman (a woman is older).",
+            "It is NOT a boy."
+          ],
+          "example": "The girl puts her bag on the desk.",
+          "starter": "The girl in my class can _______ ...",
+          "why": "Girl is a people word you will use every day!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 10,
+    "sentences": [
+      {
+        "orig": "the smal bayb kan cry",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "the",
+            "r": "The",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "smal",
+            "r": "small",
+            "e": "Small has two l's at the end. Small: s-m-a-l-l."
+          },
+          {
+            "t": "spelling",
+            "w": "bayb",
+            "r": "baby",
+            "e": "Baby is spelled b-a-b-y."
+          },
+          {
+            "t": "spelling",
+            "w": "kan",
+            "r": "can",
+            "e": "Can starts with c, not k."
+          },
+          {
+            "t": "punctuation",
+            "w": "cry",
+            "r": "cry.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "The small baby can cry.",
+        "pos": [
+          {
+            "w": "The",
+            "t": "ART",
+            "q": "Find the word before 'small.'"
+          },
+          {
+            "w": "small",
+            "t": "ADJ",
+            "q": "Find the word that describes the baby's size."
+          },
+          {
+            "w": "baby",
+            "t": "N",
+            "q": "Find the person word for a very young child."
+          },
+          {
+            "w": "can",
+            "t": "V",
+            "q": "Find the word that means 'is able to.'"
+          },
+          {
+            "w": "cry",
+            "t": "V",
+            "q": "Find the action word for when you have tears."
+          }
+        ],
+        "manip": {
+          "task": "Change 'small' to a different describing word.",
+          "word": "small",
+          "examples": [
+            "The <span class='changed'>cute</span> baby can cry.",
+            "The <span class='changed'>tiny</span> baby can cry."
+          ]
+        },
+        "vocab": {
+          "w": "baby",
+          "type": "noun",
+          "def": "A very young child who cannot walk yet.",
+          "simple": "A baby is very little and needs lots of care!",
+          "examples": [
+            "a tiny baby",
+            "my baby brother",
+            "a happy baby"
+          ],
+          "similar": [
+            "infant",
+            "newborn"
+          ],
+          "antonyms": [
+            "adult",
+            "grown-up"
+          ],
+          "nonex": [
+            "It is NOT a toddler who walks.",
+            "It is NOT an older child."
+          ],
+          "example": "The baby is small and cute.",
+          "starter": "A baby can _______ ...",
+          "why": "Baby is a fun word and easy to say!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 11,
+    "sentences": [
+      {
+        "orig": "i se uh rede bag",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "i",
+            "r": "I",
+            "e": "The word 'I' is always a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "rede",
+            "r": "red",
+            "e": "Red is spelled r-e-d. It has three letters, not four."
+          },
+          {
+            "t": "spelling",
+            "w": "uh",
+            "r": "a",
+            "e": "The word 'a' is just the letter a."
+          },
+          {
+            "t": "spelling",
+            "w": "se",
+            "r": "see",
+            "e": "See has two e's: s-e-e."
+          },
+          {
+            "t": "punctuation",
+            "w": "bag",
+            "r": "bag.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "I see a red bag.",
+        "pos": [
+          {
+            "w": "I",
+            "t": "PRO",
+            "q": "Find the word that means 'me.'"
+          },
+          {
+            "w": "see",
+            "t": "V",
+            "q": "Find the action word for looking."
+          },
+          {
+            "w": "a",
+            "t": "ART",
+            "q": "Find the tiny word before 'red.'"
+          },
+          {
+            "w": "red",
+            "t": "ADJ",
+            "q": "Find the color word."
+          },
+          {
+            "w": "bag",
+            "t": "N",
+            "q": "Find the thing word."
+          }
+        ],
+        "manip": {
+          "task": "Change 'red' to a different color.",
+          "word": "red",
+          "examples": [
+            "I see a <span class='changed'>blue</span> bag.",
+            "I see a <span class='changed'>green</span> bag."
+          ]
+        },
+        "vocab": {
+          "w": "red",
+          "type": "adjective",
+          "def": "A bright color like an apple or fire.",
+          "simple": "Red is the color of an apple!",
+          "examples": [
+            "a red bag",
+            "a red apple",
+            "a red pen"
+          ],
+          "similar": [
+            "pink",
+            "orange"
+          ],
+          "antonyms": [],
+          "nonex": [
+            "It is NOT blue.",
+            "It is NOT green."
+          ],
+          "example": "I see a red bag on my desk.",
+          "starter": "Something red in my classroom is _______ ...",
+          "why": "Red is one of the most common color words!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 12,
+    "sentences": [
+      {
+        "orig": "i lik blu kupps",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "i",
+            "r": "I",
+            "e": "The word 'I' is always a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "blu",
+            "r": "blue",
+            "e": "Blue is spelled b-l-u-e. It has an 'e' at the end."
+          },
+          {
+            "t": "spelling",
+            "w": "lik",
+            "r": "like",
+            "e": "Like has a silent e: l-i-k-e."
+          },
+          {
+            "t": "spelling",
+            "w": "kupps",
+            "r": "cups",
+            "e": "Cups starts with c: c-u-p-s."
+          },
+          {
+            "t": "punctuation",
+            "w": "cups",
+            "r": "cups.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "I like blue cups.",
+        "pos": [
+          {
+            "w": "I",
+            "t": "PRO",
+            "q": "Find the word that means 'me.'"
+          },
+          {
+            "w": "like",
+            "t": "V",
+            "q": "Find the action word that means you enjoy something."
+          },
+          {
+            "w": "blue",
+            "t": "ADJ",
+            "q": "Find the color word."
+          },
+          {
+            "w": "cups",
+            "t": "N",
+            "q": "Find the thing word — more than one!"
+          }
+        ],
+        "manip": {
+          "task": "Change 'blue' to a different color.",
+          "word": "blue",
+          "examples": [
+            "I like <span class='changed'>red</span> cups.",
+            "I like <span class='changed'>green</span> cups."
+          ]
+        },
+        "vocab": {
+          "w": "blue",
+          "type": "adjective",
+          "def": "A color like the sky or the ocean.",
+          "simple": "Blue is the color of the sky on a sunny day!",
+          "examples": [
+            "a blue cup",
+            "a blue book",
+            "a blue bag"
+          ],
+          "similar": [
+            "navy",
+            "sky-blue"
+          ],
+          "antonyms": [],
+          "nonex": [
+            "It is NOT red.",
+            "It is NOT yellow."
+          ],
+          "example": "I like my blue cup at school.",
+          "starter": "Something blue I see is _______ ...",
+          "why": "Blue is a very common color word!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 13,
+    "sentences": [
+      {
+        "orig": "i se uh grene book",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "i",
+            "r": "I",
+            "e": "The word 'I' is always a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "grene",
+            "r": "green",
+            "e": "Green is spelled g-r-e-e-n. It has two e's in the middle."
+          },
+          {
+            "t": "spelling",
+            "w": "uh",
+            "r": "a",
+            "e": "The word 'a' is just the letter a."
+          },
+          {
+            "t": "spelling",
+            "w": "se",
+            "r": "see",
+            "e": "See has two e's: s-e-e."
+          },
+          {
+            "t": "punctuation",
+            "w": "book",
+            "r": "book.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "I see a green book.",
+        "pos": [
+          {
+            "w": "I",
+            "t": "PRO",
+            "q": "Find the word that means 'me.'"
+          },
+          {
+            "w": "see",
+            "t": "V",
+            "q": "Find the action word for looking."
+          },
+          {
+            "w": "a",
+            "t": "ART",
+            "q": "Find the tiny word before 'green.'"
+          },
+          {
+            "w": "green",
+            "t": "ADJ",
+            "q": "Find the color word."
+          },
+          {
+            "w": "book",
+            "t": "N",
+            "q": "Find the thing word you can read."
+          }
+        ],
+        "manip": {
+          "task": "Change 'green' to a different color.",
+          "word": "green",
+          "examples": [
+            "I see a <span class='changed'>red</span> book.",
+            "I see a <span class='changed'>blue</span> book."
+          ]
+        },
+        "vocab": {
+          "w": "green",
+          "type": "adjective",
+          "def": "A color like grass and leaves.",
+          "simple": "Green is the color of grass and plants!",
+          "examples": [
+            "a green book",
+            "a green tree",
+            "a green pen"
+          ],
+          "similar": [
+            "lime",
+            "olive"
+          ],
+          "antonyms": [],
+          "nonex": [
+            "It is NOT red.",
+            "It is NOT blue."
+          ],
+          "example": "I see a green book on the desk.",
+          "starter": "Something green outside is _______ ...",
+          "why": "Green is easy to see in nature every day!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 14,
+    "sentences": [
+      {
+        "orig": "she haz uh yelow cup",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "she",
+            "r": "She",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "yelow",
+            "r": "yellow",
+            "e": "Yellow is spelled y-e-l-l-o-w. It has two l's in the middle."
+          },
+          {
+            "t": "spelling",
+            "w": "uh",
+            "r": "a",
+            "e": "The word 'a' is just the letter a."
+          },
+          {
+            "t": "spelling",
+            "w": "haz",
+            "r": "has",
+            "e": "Has ends with s, not z."
+          },
+          {
+            "t": "punctuation",
+            "w": "cup",
+            "r": "cup.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "She has a yellow cup.",
+        "pos": [
+          {
+            "w": "She",
+            "t": "PRO",
+            "q": "Find the word for a girl or woman."
+          },
+          {
+            "w": "has",
+            "t": "V",
+            "q": "Find the action word that means to own something."
+          },
+          {
+            "w": "a",
+            "t": "ART",
+            "q": "Find the tiny word before 'yellow.'"
+          },
+          {
+            "w": "yellow",
+            "t": "ADJ",
+            "q": "Find the color word."
+          },
+          {
+            "w": "cup",
+            "t": "N",
+            "q": "Find the thing word."
+          }
+        ],
+        "manip": {
+          "task": "Change 'yellow' to a different color.",
+          "word": "yellow",
+          "examples": [
+            "She has a <span class='changed'>red</span> cup.",
+            "She has a <span class='changed'>blue</span> cup."
+          ]
+        },
+        "vocab": {
+          "w": "yellow",
+          "type": "adjective",
+          "def": "A bright color like the sun or a banana.",
+          "simple": "Yellow is the color of the sun!",
+          "examples": [
+            "a yellow cup",
+            "a yellow sun",
+            "yellow bananas"
+          ],
+          "similar": [
+            "gold",
+            "bright"
+          ],
+          "antonyms": [],
+          "nonex": [
+            "It is NOT orange.",
+            "It is NOT green."
+          ],
+          "example": "She has a yellow cup on her desk.",
+          "starter": "Something yellow I see is _______ ...",
+          "why": "Yellow is a bright and happy color word!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 15,
+    "sentences": [
+      {
+        "orig": "the dg kan se me",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "the",
+            "r": "The",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "se",
+            "r": "see",
+            "e": "See is spelled s-e-e. It has two e's at the end."
+          },
+          {
+            "t": "spelling",
+            "w": "dg",
+            "r": "dog",
+            "e": "Dog needs an o: d-o-g."
+          },
+          {
+            "t": "spelling",
+            "w": "kan",
+            "r": "can",
+            "e": "Can starts with c, not k."
+          },
+          {
+            "t": "punctuation",
+            "w": "me",
+            "r": "me.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "The dog can see me.",
+        "pos": [
+          {
+            "w": "The",
+            "t": "ART",
+            "q": "Find the word before 'dog.'"
+          },
+          {
+            "w": "dog",
+            "t": "N",
+            "q": "Find the animal word."
+          },
+          {
+            "w": "can",
+            "t": "V",
+            "q": "Find the word that means 'is able to.'"
+          },
+          {
+            "w": "see",
+            "t": "V",
+            "q": "Find the action word for looking."
+          },
+          {
+            "w": "me",
+            "t": "PRO",
+            "q": "Find the word that means 'I.'"
+          }
+        ],
+        "manip": {
+          "task": "Change 'dog' to a different animal.",
+          "word": "dog",
+          "examples": [
+            "The <span class='changed'>cat</span> can see me.",
+            "The <span class='changed'>bird</span> can see me."
+          ]
+        },
+        "vocab": {
+          "w": "see",
+          "type": "verb",
+          "def": "To use your eyes to look at something.",
+          "simple": "See means to look at something with your eyes!",
+          "examples": [
+            "I see a book.",
+            "I see my friend.",
+            "I see the sun."
+          ],
+          "similar": [
+            "look",
+            "watch"
+          ],
+          "antonyms": [
+            "miss",
+            "ignore"
+          ],
+          "nonex": [
+            "It does NOT mean to hear.",
+            "It does NOT mean to touch."
+          ],
+          "example": "The dog can see me run.",
+          "starter": "I can see _______ ...",
+          "why": "See is an important action word you use every day!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 16,
+    "sentences": [
+      {
+        "orig": "i lik mi pn",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "i",
+            "r": "I",
+            "e": "The word 'I' is always a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "lik",
+            "r": "like",
+            "e": "Like is spelled l-i-k-e. It has an 'e' at the end."
+          },
+          {
+            "t": "spelling",
+            "w": "mi",
+            "r": "my",
+            "e": "My is spelled m-y."
+          },
+          {
+            "t": "spelling",
+            "w": "pn",
+            "r": "pen",
+            "e": "Pen needs an e: p-e-n."
+          },
+          {
+            "t": "punctuation",
+            "w": "pen",
+            "r": "pen.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "I like my pen.",
+        "pos": [
+          {
+            "w": "I",
+            "t": "PRO",
+            "q": "Find the word that means 'me.'"
+          },
+          {
+            "w": "like",
+            "t": "V",
+            "q": "Find the action word that means you enjoy something."
+          },
+          {
+            "w": "my",
+            "t": "ART",
+            "q": "Find the word that means 'belonging to me.'"
+          },
+          {
+            "w": "pen",
+            "t": "N",
+            "q": "Find the thing word you write with."
+          }
+        ],
+        "manip": {
+          "task": "Change 'pen' to something else you like.",
+          "word": "pen",
+          "examples": [
+            "I like my <span class='changed'>book</span>.",
+            "I like my <span class='changed'>desk</span>."
+          ]
+        },
+        "vocab": {
+          "w": "like",
+          "type": "verb",
+          "def": "To enjoy something or think it is good.",
+          "simple": "Like means you think something is nice or fun!",
+          "examples": [
+            "I like books.",
+            "I like my friend.",
+            "I like to run."
+          ],
+          "similar": [
+            "enjoy",
+            "love"
+          ],
+          "antonyms": [
+            "dislike",
+            "hate"
+          ],
+          "nonex": [
+            "It does NOT mean you need something.",
+            "It does NOT mean you are sad."
+          ],
+          "example": "I like my red pen very much.",
+          "starter": "I like _______ because ...",
+          "why": "Like is a feeling word you use to talk about things you enjoy!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 17,
+    "sentences": [
+      {
+        "orig": "i gow tew skool today",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "i",
+            "r": "I",
+            "e": "The word 'I' is always a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "skool",
+            "r": "school",
+            "e": "School is spelled s-c-h-o-o-l. It has a 'ch' in the middle."
+          },
+          {
+            "t": "spelling",
+            "w": "gow",
+            "r": "go",
+            "e": "Go is spelled g-o."
+          },
+          {
+            "t": "spelling",
+            "w": "tew",
+            "r": "to",
+            "e": "To is spelled t-o."
+          },
+          {
+            "t": "punctuation",
+            "w": "today",
+            "r": "today.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "I go to school today.",
+        "pos": [
+          {
+            "w": "I",
+            "t": "PRO",
+            "q": "Find the word that means 'me.'"
+          },
+          {
+            "w": "go",
+            "t": "V",
+            "q": "Find the action word for moving to a place."
+          },
+          {
+            "w": "to",
+            "t": "PREP",
+            "q": "Find the word that tells where."
+          },
+          {
+            "w": "school",
+            "t": "N",
+            "q": "Find the place word where you learn."
+          },
+          {
+            "w": "today",
+            "t": "ADV",
+            "q": "Find the time word that means right now, this day."
+          }
+        ],
+        "manip": {
+          "task": "Change 'school' to a different place.",
+          "word": "school",
+          "examples": [
+            "I go to <span class='changed'>class</span> today.",
+            "I go to <span class='changed'>lunch</span> today."
+          ]
+        },
+        "vocab": {
+          "w": "school",
+          "type": "noun",
+          "def": "A building where children go to learn.",
+          "simple": "School is the place where you learn every day!",
+          "examples": [
+            "my school",
+            "go to school",
+            "a big school"
+          ],
+          "similar": [
+            "class",
+            "academy"
+          ],
+          "antonyms": [
+            "home"
+          ],
+          "nonex": [
+            "It is NOT a store.",
+            "It is NOT a hospital."
+          ],
+          "example": "She can go to school every day.",
+          "starter": "At school I like to _______ ...",
+          "why": "School is where you are right now — a very important word!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 18,
+    "sentences": [
+      {
+        "orig": "i gow tew klass",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "i",
+            "r": "I",
+            "e": "The word 'I' is always a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "gow",
+            "r": "go",
+            "e": "Go is spelled g-o."
+          },
+          {
+            "t": "spelling",
+            "w": "tew",
+            "r": "to",
+            "e": "To is spelled t-o."
+          },
+          {
+            "t": "spelling",
+            "w": "klass",
+            "r": "class",
+            "e": "Class starts with c, not k."
+          },
+          {
+            "t": "punctuation",
+            "w": "class",
+            "r": "class.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "I go to class.",
+        "pos": [
+          {
+            "w": "I",
+            "t": "PRO",
+            "q": "Find the word that means 'me.'"
+          },
+          {
+            "w": "go",
+            "t": "V",
+            "q": "Find the action word for moving to a place."
+          },
+          {
+            "w": "to",
+            "t": "PREP",
+            "q": "Find the word that tells where."
+          },
+          {
+            "w": "class",
+            "t": "N",
+            "q": "Find the place word where you learn."
+          }
+        ],
+        "manip": {
+          "task": "Change 'class' to a different place at school.",
+          "word": "class",
+          "examples": [
+            "I go to <span class='changed'>school</span>.",
+            "I go to <span class='changed'>lunch</span>."
+          ]
+        },
+        "vocab": {
+          "w": "class",
+          "type": "noun",
+          "def": "A group of students who learn together with a teacher.",
+          "simple": "Your class is you and all your friends learning together!",
+          "examples": [
+            "my class",
+            "go to class",
+            "a big class"
+          ],
+          "similar": [
+            "group",
+            "room"
+          ],
+          "antonyms": [],
+          "nonex": [
+            "It is NOT just one person.",
+            "It is NOT a place outside."
+          ],
+          "example": "I go to class with my friends.",
+          "starter": "In my class there are _______ ...",
+          "why": "Class is an important word you hear every school day!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 19,
+    "sentences": [
+      {
+        "orig": "the book iz onn mi desk",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "the",
+            "r": "The",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "iz",
+            "r": "is",
+            "e": "Is is spelled i-s, not i-z."
+          },
+          {
+            "t": "spelling",
+            "w": "onn",
+            "r": "on",
+            "e": "On has only one n."
+          },
+          {
+            "t": "spelling",
+            "w": "mi",
+            "r": "my",
+            "e": "My is spelled m-y."
+          },
+          {
+            "t": "punctuation",
+            "w": "desk",
+            "r": "desk.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "The book is on my desk.",
+        "pos": [
+          {
+            "w": "The",
+            "t": "ART",
+            "q": "Find the word before 'book.'"
+          },
+          {
+            "w": "book",
+            "t": "N",
+            "q": "Find the thing word you read."
+          },
+          {
+            "w": "is",
+            "t": "V",
+            "q": "Find the little action word."
+          },
+          {
+            "w": "on",
+            "t": "PREP",
+            "q": "Find the word that tells where."
+          },
+          {
+            "w": "my",
+            "t": "ART",
+            "q": "Find the word that means 'belonging to me.'"
+          },
+          {
+            "w": "desk",
+            "t": "N",
+            "q": "Find the place word where you work."
+          }
+        ],
+        "manip": {
+          "task": "Change 'desk' to a different place.",
+          "word": "desk",
+          "examples": [
+            "The book is on my <span class='changed'>bag</span>.",
+            "The book is on my <span class='changed'>chair</span>."
+          ]
+        },
+        "vocab": {
+          "w": "on",
+          "type": "preposition",
+          "def": "Touching the top of something.",
+          "simple": "'On' tells where something is — it is touching the top!",
+          "examples": [
+            "on the desk",
+            "on my bag",
+            "on the floor"
+          ],
+          "similar": [
+            "atop",
+            "above"
+          ],
+          "antonyms": [
+            "under",
+            "below"
+          ],
+          "nonex": [
+            "It does NOT mean inside.",
+            "It does NOT mean next to."
+          ],
+          "example": "The book is on my desk.",
+          "starter": "I put my _______ on _______ ...",
+          "why": "'On' is a where word — it tells you where things are!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 20,
+    "sentences": [
+      {
+        "orig": "i hav uh bloo pen",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "i",
+            "r": "I",
+            "e": "The word 'I' is always a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "hav",
+            "r": "have",
+            "e": "Have is spelled h-a-v-e. It has an 'e' at the end."
+          },
+          {
+            "t": "spelling",
+            "w": "uh",
+            "r": "a",
+            "e": "The word 'a' is just the letter a."
+          },
+          {
+            "t": "spelling",
+            "w": "bloo",
+            "r": "blue",
+            "e": "Blue is spelled b-l-u-e."
+          },
+          {
+            "t": "punctuation",
+            "w": "pen",
+            "r": "pen.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "I have a blue pen.",
+        "pos": [
+          {
+            "w": "I",
+            "t": "PRO",
+            "q": "Find the word that means 'me.'"
+          },
+          {
+            "w": "have",
+            "t": "V",
+            "q": "Find the action word that means to own something."
+          },
+          {
+            "w": "a",
+            "t": "ART",
+            "q": "Find the tiny word before 'blue.'"
+          },
+          {
+            "w": "blue",
+            "t": "ADJ",
+            "q": "Find the color word."
+          },
+          {
+            "w": "pen",
+            "t": "N",
+            "q": "Find the thing word you write with."
+          }
+        ],
+        "manip": {
+          "task": "Change 'blue' to a different color.",
+          "word": "blue",
+          "examples": [
+            "I have a <span class='changed'>red</span> pen.",
+            "I have a <span class='changed'>green</span> pen."
+          ]
+        },
+        "vocab": {
+          "w": "have",
+          "type": "verb",
+          "def": "To own or hold something.",
+          "simple": "'Have' means something belongs to you or you are holding it!",
+          "examples": [
+            "I have a book.",
+            "I have a friend.",
+            "I have a pen."
+          ],
+          "similar": [
+            "own",
+            "hold"
+          ],
+          "antonyms": [
+            "lack",
+            "need"
+          ],
+          "nonex": [
+            "It does NOT mean to want something.",
+            "It does NOT mean to give something away."
+          ],
+          "example": "I have a blue pen on my desk.",
+          "starter": "I have _______ in my bag.",
+          "why": "'Have' is one of the most useful words in English!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 21,
+    "sentences": [
+      {
+        "orig": "the grl annd the boy stt",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "the",
+            "r": "The",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "grl",
+            "r": "girl",
+            "e": "Girl is spelled g-i-r-l. It has four letters."
+          },
+          {
+            "t": "spelling",
+            "w": "annd",
+            "r": "and",
+            "e": "And has only one n."
+          },
+          {
+            "t": "spelling",
+            "w": "stt",
+            "r": "sit",
+            "e": "Sit needs an i: s-i-t."
+          },
+          {
+            "t": "punctuation",
+            "w": "sit",
+            "r": "sit.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "The girl and the boy sit.",
+        "pos": [
+          {
+            "w": "The",
+            "t": "ART",
+            "q": "Find the first word before 'girl.'"
+          },
+          {
+            "w": "girl",
+            "t": "N",
+            "q": "Find the person word for a young female."
+          },
+          {
+            "w": "and",
+            "t": "CONJ",
+            "q": "Find the joining word."
+          },
+          {
+            "w": "the",
+            "t": "ART",
+            "q": "Find the word before 'boy.'"
+          },
+          {
+            "w": "boy",
+            "t": "N",
+            "q": "Find the person word for a young male."
+          },
+          {
+            "w": "sit",
+            "t": "V",
+            "q": "Find the action word for being in a chair."
+          }
+        ],
+        "manip": {
+          "task": "Change 'sit' to a different action.",
+          "word": "sit",
+          "examples": [
+            "The girl and the boy <span class='changed'>run</span>.",
+            "The girl and the boy <span class='changed'>stand</span>."
+          ]
+        },
+        "vocab": {
+          "w": "and",
+          "type": "conjunction",
+          "def": "A word that joins two things together.",
+          "simple": "'And' connects two things, like 'you AND me!'",
+          "examples": [
+            "girl and boy",
+            "red and blue",
+            "run and sit"
+          ],
+          "similar": [
+            "also",
+            "plus"
+          ],
+          "antonyms": [
+            "but",
+            "or"
+          ],
+          "nonex": [
+            "It does NOT separate things.",
+            "It does NOT mean just one thing."
+          ],
+          "example": "The girl and the boy sit in class.",
+          "starter": "I like _______ and _______ ...",
+          "why": "'And' helps you talk about two things at once!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 22,
+    "sentences": [
+      {
+        "orig": "the kat can stt onn mat",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "the",
+            "r": "The",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "kat",
+            "r": "cat",
+            "e": "Cat starts with c, not k."
+          },
+          {
+            "t": "spelling",
+            "w": "stt",
+            "r": "sit",
+            "e": "Sit needs an i: s-i-t."
+          },
+          {
+            "t": "spelling",
+            "w": "onn",
+            "r": "on",
+            "e": "On has only one n."
+          },
+          {
+            "t": "punctuation",
+            "w": "mat",
+            "r": "mat.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "The cat can sit on mat.",
+        "pos": [
+          {
+            "w": "The",
+            "t": "ART",
+            "q": "Find the word before 'cat.'"
+          },
+          {
+            "w": "cat",
+            "t": "N",
+            "q": "Find the animal word."
+          },
+          {
+            "w": "can",
+            "t": "V",
+            "q": "Find the word that means 'is able to.'"
+          },
+          {
+            "w": "sit",
+            "t": "V",
+            "q": "Find the action word for resting on something."
+          },
+          {
+            "w": "on",
+            "t": "PREP",
+            "q": "Find the where word."
+          },
+          {
+            "w": "mat",
+            "t": "N",
+            "q": "Find the flat thing word."
+          }
+        ],
+        "manip": {
+          "task": "Change 'cat' to a different animal.",
+          "word": "cat",
+          "examples": [
+            "The <span class='changed'>dog</span> can sit on mat.",
+            "The <span class='changed'>frog</span> can sit on mat."
+          ]
+        },
+        "vocab": {
+          "w": "sit",
+          "type": "verb",
+          "def": "To rest your body on a chair or the floor.",
+          "simple": "'Sit' means to put your bottom on something!",
+          "examples": [
+            "sit on a mat",
+            "sit in a chair",
+            "sit with me"
+          ],
+          "similar": [
+            "rest",
+            "settle"
+          ],
+          "antonyms": [
+            "stand",
+            "run"
+          ],
+          "nonex": [
+            "It does NOT mean to lie down.",
+            "It does NOT mean to jump."
+          ],
+          "example": "The cat can sit on the mat.",
+          "starter": "I sit on _______ ...",
+          "why": "'Sit' is an action word you hear every day at school!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 23,
+    "sentences": [
+      {
+        "orig": "i se uh bige dog",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "i",
+            "r": "I",
+            "e": "The word 'I' is always a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "se",
+            "r": "see",
+            "e": "See has two e's: s-e-e."
+          },
+          {
+            "t": "spelling",
+            "w": "uh",
+            "r": "a",
+            "e": "The word 'a' is just the letter a."
+          },
+          {
+            "t": "spelling",
+            "w": "bige",
+            "r": "big",
+            "e": "Big does not have an e."
+          },
+          {
+            "t": "punctuation",
+            "w": "dog",
+            "r": "dog.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "I see a big dog.",
+        "pos": [
+          {
+            "w": "I",
+            "t": "PRO",
+            "q": "Find the word that means 'me.'"
+          },
+          {
+            "w": "see",
+            "t": "V",
+            "q": "Find the action word for looking."
+          },
+          {
+            "w": "a",
+            "t": "ART",
+            "q": "Find the tiny word before 'big.'"
+          },
+          {
+            "w": "big",
+            "t": "ADJ",
+            "q": "Find the describing word about size."
+          },
+          {
+            "w": "dog",
+            "t": "N",
+            "q": "Find the animal word."
+          }
+        ],
+        "manip": {
+          "task": "Change 'dog' to a different animal.",
+          "word": "dog",
+          "examples": [
+            "I see a big <span class='changed'>cat</span>.",
+            "I see a big <span class='changed'>bird</span>."
+          ]
+        },
+        "vocab": {
+          "w": "big",
+          "type": "adjective",
+          "def": "Large in size; not small.",
+          "simple": "'Big' means something is very large!",
+          "examples": [
+            "a big dog",
+            "a big book",
+            "a big school"
+          ],
+          "similar": [
+            "large",
+            "huge",
+            "great"
+          ],
+          "antonyms": [
+            "small",
+            "tiny",
+            "little"
+          ],
+          "nonex": [
+            "It does NOT mean heavy.",
+            "It does NOT mean tall."
+          ],
+          "example": "I see a big dog at school.",
+          "starter": "Something big I see is _______ ...",
+          "why": "'Big' helps you describe the size of things!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 24,
+    "sentences": [
+      {
+        "orig": "she haz uh rede book",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "she",
+            "r": "She",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "haz",
+            "r": "has",
+            "e": "Has is spelled h-a-s, not h-a-z."
+          },
+          {
+            "t": "spelling",
+            "w": "rede",
+            "r": "red",
+            "e": "Red is spelled r-e-d. It has only three letters."
+          },
+          {
+            "t": "spelling",
+            "w": "uh",
+            "r": "a",
+            "e": "The word 'a' is just the letter a."
+          },
+          {
+            "t": "punctuation",
+            "w": "book",
+            "r": "book.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "She has a red book.",
+        "pos": [
+          {
+            "w": "She",
+            "t": "PRO",
+            "q": "Find the word for a girl or woman."
+          },
+          {
+            "w": "has",
+            "t": "V",
+            "q": "Find the action word that means to own something."
+          },
+          {
+            "w": "a",
+            "t": "ART",
+            "q": "Find the tiny word before 'red.'"
+          },
+          {
+            "w": "red",
+            "t": "ADJ",
+            "q": "Find the color word."
+          },
+          {
+            "w": "book",
+            "t": "N",
+            "q": "Find the thing word you can read."
+          }
+        ],
+        "manip": {
+          "task": "Change 'red' to a different color.",
+          "word": "red",
+          "examples": [
+            "She has a <span class='changed'>blue</span> book.",
+            "She has a <span class='changed'>green</span> book."
+          ]
+        },
+        "vocab": {
+          "w": "color",
+          "type": "noun",
+          "def": "What you see when you look at red, blue, green, or yellow things.",
+          "simple": "Color is what makes things look red, blue, or green!",
+          "examples": [
+            "red is a color",
+            "blue is a color",
+            "my favorite color"
+          ],
+          "similar": [
+            "shade",
+            "hue"
+          ],
+          "antonyms": [],
+          "nonex": [
+            "A color is NOT a shape.",
+            "A color is NOT a size."
+          ],
+          "example": "Her book has a red color.",
+          "starter": "My favorite color is _______ ...",
+          "why": "Knowing color words helps you describe everything around you!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 25,
+    "sentences": [
+      {
+        "orig": "i lik mi blu desk",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "i",
+            "r": "I",
+            "e": "The word 'I' is always a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "lik",
+            "r": "like",
+            "e": "Like is spelled l-i-k-e. It has an 'e' at the end."
+          },
+          {
+            "t": "spelling",
+            "w": "blu",
+            "r": "blue",
+            "e": "Blue is spelled b-l-u-e. It has an 'e' at the end."
+          },
+          {
+            "t": "spelling",
+            "w": "mi",
+            "r": "my",
+            "e": "My is spelled m-y."
+          },
+          {
+            "t": "punctuation",
+            "w": "desk",
+            "r": "desk.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "I like my blue desk.",
+        "pos": [
+          {
+            "w": "I",
+            "t": "PRO",
+            "q": "Find the word that means 'me.'"
+          },
+          {
+            "w": "like",
+            "t": "V",
+            "q": "Find the action word that means you enjoy something."
+          },
+          {
+            "w": "my",
+            "t": "ART",
+            "q": "Find the word that means 'belonging to me.'"
+          },
+          {
+            "w": "blue",
+            "t": "ADJ",
+            "q": "Find the color word."
+          },
+          {
+            "w": "desk",
+            "t": "N",
+            "q": "Find the thing word where you do your work."
+          }
+        ],
+        "manip": {
+          "task": "Change 'blue' to a different color.",
+          "word": "blue",
+          "examples": [
+            "I like my <span class='changed'>red</span> desk.",
+            "I like my <span class='changed'>green</span> desk."
+          ]
+        },
+        "vocab": {
+          "w": "classroom",
+          "type": "noun",
+          "def": "The room where your class learns together.",
+          "simple": "A classroom is your special room at school!",
+          "examples": [
+            "my classroom",
+            "a big classroom",
+            "our classroom"
+          ],
+          "similar": [
+            "class",
+            "room",
+            "school room"
+          ],
+          "antonyms": [],
+          "nonex": [
+            "It is NOT a bedroom.",
+            "It is NOT a kitchen."
+          ],
+          "example": "I like my blue desk in the classroom.",
+          "starter": "In my classroom I can see _______ ...",
+          "why": "Classroom is the most important place word for school!"
+        }
+      }
+    ]
+  }
+]

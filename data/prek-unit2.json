@@ -1,0 +1,2454 @@
+[
+  {
+    "day": 26,
+    "sentences": [
+      {
+        "orig": "my hed iz bg",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "my",
+            "r": "My",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "hed",
+            "r": "head",
+            "e": "Head is spelled h-e-a-d. It has an 'a' in the middle."
+          },
+          {
+            "t": "spelling",
+            "w": "bg",
+            "r": "big",
+            "e": "Big needs an i: b-i-g."
+          },
+          {
+            "t": "spelling",
+            "w": "iz",
+            "r": "is",
+            "e": "Is is spelled i-s, not i-z."
+          },
+          {
+            "t": "punctuation",
+            "w": "big",
+            "r": "big.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "My head is big.",
+        "pos": [
+          {
+            "w": "My",
+            "t": "ART",
+            "q": "Find the word that means 'belonging to me.'"
+          },
+          {
+            "w": "head",
+            "t": "N",
+            "q": "Find the body part word at the top of you."
+          },
+          {
+            "w": "is",
+            "t": "V",
+            "q": "Find the little action word."
+          },
+          {
+            "w": "big",
+            "t": "ADJ",
+            "q": "Find the word that tells about size."
+          }
+        ],
+        "manip": {
+          "task": "Change 'big' to a different describing word.",
+          "word": "big",
+          "examples": [
+            "My head is <span class='changed'>round</span>.",
+            "My head is <span class='changed'>small</span>."
+          ]
+        },
+        "vocab": {
+          "w": "head",
+          "type": "noun",
+          "def": "The top part of your body where your face and brain are.",
+          "simple": "Your head is at the top of your body. It holds your brain!",
+          "examples": [
+            "my head",
+            "a big head",
+            "shake your head"
+          ],
+          "similar": [
+            "skull",
+            "noggin"
+          ],
+          "antonyms": [],
+          "nonex": [
+            "It is NOT your arm.",
+            "It is NOT your foot."
+          ],
+          "example": "My head is at the top of my body.",
+          "starter": "I use my head to _______ ...",
+          "why": "Head is the first body part word to know!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 27,
+    "sentences": [
+      {
+        "orig": "my hnd iz bg",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "my",
+            "r": "My",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "hnd",
+            "r": "hand",
+            "e": "Hand is spelled h-a-n-d. It has four letters."
+          },
+          {
+            "t": "spelling",
+            "w": "bg",
+            "r": "big",
+            "e": "Big needs an i: b-i-g."
+          },
+          {
+            "t": "spelling",
+            "w": "iz",
+            "r": "is",
+            "e": "Is is spelled i-s, not i-z."
+          },
+          {
+            "t": "punctuation",
+            "w": "big",
+            "r": "big.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "My hand is big.",
+        "pos": [
+          {
+            "w": "My",
+            "t": "ART",
+            "q": "Find the word that means 'belonging to me.'"
+          },
+          {
+            "w": "hand",
+            "t": "N",
+            "q": "Find the body part word at the end of your arm."
+          },
+          {
+            "w": "is",
+            "t": "V",
+            "q": "Find the little action word."
+          },
+          {
+            "w": "big",
+            "t": "ADJ",
+            "q": "Find the word that tells about size."
+          }
+        ],
+        "manip": {
+          "task": "Change 'big' to a different describing word.",
+          "word": "big",
+          "examples": [
+            "My hand is <span class='changed'>small</span>.",
+            "My hand is <span class='changed'>warm</span>."
+          ]
+        },
+        "vocab": {
+          "w": "hand",
+          "type": "noun",
+          "def": "The body part at the end of your arm that you use to hold and touch things.",
+          "simple": "Your hand has five fingers and helps you hold things!",
+          "examples": [
+            "my hand",
+            "raise your hand",
+            "a big hand"
+          ],
+          "similar": [
+            "palm",
+            "fist"
+          ],
+          "antonyms": [],
+          "nonex": [
+            "It is NOT your foot.",
+            "It is NOT your head."
+          ],
+          "example": "I raise my hand in class.",
+          "starter": "I use my hand to _______ ...",
+          "why": "Hand is a very important body word — you use your hands all day!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 28,
+    "sentences": [
+      {
+        "orig": "my fut iz cleen",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "my",
+            "r": "My",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "fut",
+            "r": "foot",
+            "e": "Foot is spelled f-o-o-t. It has two o's in the middle."
+          },
+          {
+            "t": "spelling",
+            "w": "cleen",
+            "r": "clean",
+            "e": "Clean has an a: c-l-e-a-n."
+          },
+          {
+            "t": "spelling",
+            "w": "iz",
+            "r": "is",
+            "e": "Is is spelled i-s, not i-z."
+          },
+          {
+            "t": "punctuation",
+            "w": "clean",
+            "r": "clean.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "My foot is clean.",
+        "pos": [
+          {
+            "w": "My",
+            "t": "ART",
+            "q": "Find the word that means 'belonging to me.'"
+          },
+          {
+            "w": "foot",
+            "t": "N",
+            "q": "Find the body part word at the bottom of your leg."
+          },
+          {
+            "w": "is",
+            "t": "V",
+            "q": "Find the little action word."
+          },
+          {
+            "w": "clean",
+            "t": "ADJ",
+            "q": "Find the word that means not dirty."
+          }
+        ],
+        "manip": {
+          "task": "Change 'clean' to a different describing word.",
+          "word": "clean",
+          "examples": [
+            "My foot is <span class='changed'>big</span>.",
+            "My foot is <span class='changed'>small</span>."
+          ]
+        },
+        "vocab": {
+          "w": "foot",
+          "type": "noun",
+          "def": "The body part at the bottom of your leg that you walk on.",
+          "simple": "Your foot helps you stand and walk!",
+          "examples": [
+            "my foot",
+            "a big foot",
+            "stomp your foot"
+          ],
+          "similar": [
+            "toe",
+            "sole"
+          ],
+          "antonyms": [],
+          "nonex": [
+            "It is NOT your hand.",
+            "It is NOT your head."
+          ],
+          "example": "My foot is small and fits in my shoe.",
+          "starter": "I use my foot to _______ ...",
+          "why": "Foot is an important body word — you use your feet to walk!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 29,
+    "sentences": [
+      {
+        "orig": "my erm iz lng",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "my",
+            "r": "My",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "erm",
+            "r": "arm",
+            "e": "Arm is spelled a-r-m. It has three letters."
+          },
+          {
+            "t": "spelling",
+            "w": "lng",
+            "r": "long",
+            "e": "Long needs an o: l-o-n-g."
+          },
+          {
+            "t": "spelling",
+            "w": "iz",
+            "r": "is",
+            "e": "Is is spelled i-s, not i-z."
+          },
+          {
+            "t": "punctuation",
+            "w": "long",
+            "r": "long.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "My arm is long.",
+        "pos": [
+          {
+            "w": "My",
+            "t": "ART",
+            "q": "Find the word that means 'belonging to me.'"
+          },
+          {
+            "w": "arm",
+            "t": "N",
+            "q": "Find the body part word between your shoulder and hand."
+          },
+          {
+            "w": "is",
+            "t": "V",
+            "q": "Find the little action word."
+          },
+          {
+            "w": "long",
+            "t": "ADJ",
+            "q": "Find the word that tells about length."
+          }
+        ],
+        "manip": {
+          "task": "Change 'arm' to a different body part.",
+          "word": "arm",
+          "examples": [
+            "My <span class='changed'>hand</span> is long.",
+            "My <span class='changed'>leg</span> is long."
+          ]
+        },
+        "vocab": {
+          "w": "arm",
+          "type": "noun",
+          "def": "The long body part that connects your shoulder to your hand.",
+          "simple": "Your arm goes from your shoulder to your hand!",
+          "examples": [
+            "my arm",
+            "a long arm",
+            "wave your arm"
+          ],
+          "similar": [
+            "limb",
+            "elbow"
+          ],
+          "antonyms": [],
+          "nonex": [
+            "It is NOT your leg.",
+            "It is NOT your head."
+          ],
+          "example": "I wave my arm to say hello.",
+          "starter": "I use my arm to _______ ...",
+          "why": "Arm is a body word — you use your arms to reach and hug!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 30,
+    "sentences": [
+      {
+        "orig": "my lge iz lng",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "my",
+            "r": "My",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "lge",
+            "r": "leg",
+            "e": "Leg is spelled l-e-g. It has three letters."
+          },
+          {
+            "t": "spelling",
+            "w": "lng",
+            "r": "long",
+            "e": "Long needs an o: l-o-n-g."
+          },
+          {
+            "t": "spelling",
+            "w": "iz",
+            "r": "is",
+            "e": "Is is spelled i-s, not i-z."
+          },
+          {
+            "t": "punctuation",
+            "w": "long",
+            "r": "long.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "My leg is long.",
+        "pos": [
+          {
+            "w": "My",
+            "t": "ART",
+            "q": "Find the word that means 'belonging to me.'"
+          },
+          {
+            "w": "leg",
+            "t": "N",
+            "q": "Find the body part word you use to walk."
+          },
+          {
+            "w": "is",
+            "t": "V",
+            "q": "Find the little action word."
+          },
+          {
+            "w": "long",
+            "t": "ADJ",
+            "q": "Find the word that tells about length."
+          }
+        ],
+        "manip": {
+          "task": "Change 'long' to a different describing word.",
+          "word": "long",
+          "examples": [
+            "My leg is <span class='changed'>strong</span>.",
+            "My leg is <span class='changed'>thin</span>."
+          ]
+        },
+        "vocab": {
+          "w": "leg",
+          "type": "noun",
+          "def": "The long body part you use to walk, run, and kick.",
+          "simple": "Your leg goes from your hip to your foot. You use it to walk!",
+          "examples": [
+            "my leg",
+            "a long leg",
+            "kick your leg"
+          ],
+          "similar": [
+            "limb",
+            "knee"
+          ],
+          "antonyms": [],
+          "nonex": [
+            "It is NOT your arm.",
+            "It is NOT your back."
+          ],
+          "example": "My leg is long and helps me run.",
+          "starter": "I use my leg to _______ ...",
+          "why": "Leg is a body word — you use your legs to move all day!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 31,
+    "sentences": [
+      {
+        "orig": "my ey kan se",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "my",
+            "r": "My",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "ey",
+            "r": "eye",
+            "e": "Eye is spelled e-y-e. It has an 'e' at the start and the end."
+          },
+          {
+            "t": "spelling",
+            "w": "se",
+            "r": "see",
+            "e": "See has two e's: s-e-e."
+          },
+          {
+            "t": "spelling",
+            "w": "kan",
+            "r": "can",
+            "e": "Can starts with c, not k."
+          },
+          {
+            "t": "punctuation",
+            "w": "see",
+            "r": "see.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "My eye can see.",
+        "pos": [
+          {
+            "w": "My",
+            "t": "ART",
+            "q": "Find the word that means 'belonging to me.'"
+          },
+          {
+            "w": "eye",
+            "t": "N",
+            "q": "Find the body part word you see with."
+          },
+          {
+            "w": "can",
+            "t": "V",
+            "q": "Find the word that means 'is able to.'"
+          },
+          {
+            "w": "see",
+            "t": "V",
+            "q": "Find the action word for looking."
+          }
+        ],
+        "manip": {
+          "task": "Change 'eye' to a different body part.",
+          "word": "eye",
+          "examples": [
+            "My <span class='changed'>hand</span> can see.",
+            "My <span class='changed'>ear</span> can see."
+          ]
+        },
+        "vocab": {
+          "w": "eye",
+          "type": "noun",
+          "def": "The body part in your face that you use to see.",
+          "simple": "Your eye lets you see the world around you!",
+          "examples": [
+            "my eye",
+            "a blue eye",
+            "open your eye"
+          ],
+          "similar": [
+            "sight",
+            "pupil"
+          ],
+          "antonyms": [],
+          "nonex": [
+            "It is NOT your ear.",
+            "It is NOT your nose."
+          ],
+          "example": "I see a red book with my eye.",
+          "starter": "I use my eye to see _______ ...",
+          "why": "Eye is a short, important word for a very important body part!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 32,
+    "sentences": [
+      {
+        "orig": "my eer kan heer",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "my",
+            "r": "My",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "eer",
+            "r": "ear",
+            "e": "Ear is spelled e-a-r. It has three letters."
+          },
+          {
+            "t": "spelling",
+            "w": "heer",
+            "r": "hear",
+            "e": "Hear is spelled h-e-a-r."
+          },
+          {
+            "t": "spelling",
+            "w": "kan",
+            "r": "can",
+            "e": "Can starts with c, not k."
+          },
+          {
+            "t": "punctuation",
+            "w": "hear",
+            "r": "hear.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "My ear can hear.",
+        "pos": [
+          {
+            "w": "My",
+            "t": "ART",
+            "q": "Find the word that means 'belonging to me.'"
+          },
+          {
+            "w": "ear",
+            "t": "N",
+            "q": "Find the body part word you hear with."
+          },
+          {
+            "w": "can",
+            "t": "V",
+            "q": "Find the word that means 'is able to.'"
+          },
+          {
+            "w": "hear",
+            "t": "V",
+            "q": "Find the action word for listening."
+          }
+        ],
+        "manip": {
+          "task": "Change 'ear' to a different body part.",
+          "word": "ear",
+          "examples": [
+            "My <span class='changed'>eye</span> can hear.",
+            "My <span class='changed'>hand</span> can hear."
+          ]
+        },
+        "vocab": {
+          "w": "ear",
+          "type": "noun",
+          "def": "The body part on the side of your head that you use to hear sounds.",
+          "simple": "Your ear hears music, talking, and all sounds!",
+          "examples": [
+            "my ear",
+            "a big ear",
+            "listen with your ear"
+          ],
+          "similar": [
+            "hearing",
+            "lobe"
+          ],
+          "antonyms": [],
+          "nonex": [
+            "It is NOT your eye.",
+            "It is NOT your mouth."
+          ],
+          "example": "I hear my teacher with my ear.",
+          "starter": "My ear can hear _______ ...",
+          "why": "Ear is important — you use your ears to hear everything!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 33,
+    "sentences": [
+      {
+        "orig": "i kan klap my hndz",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "i",
+            "r": "I",
+            "e": "The word 'I' is always a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "klap",
+            "r": "clap",
+            "e": "Clap starts with the letters 'cl,' not 'kl.' Clap: c-l-a-p."
+          },
+          {
+            "t": "spelling",
+            "w": "kan",
+            "r": "can",
+            "e": "Can starts with c, not k."
+          },
+          {
+            "t": "spelling",
+            "w": "hndz",
+            "r": "hands",
+            "e": "Hands needs an a: h-a-n-d-s."
+          },
+          {
+            "t": "punctuation",
+            "w": "hands",
+            "r": "hands.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "I can clap my hands.",
+        "pos": [
+          {
+            "w": "I",
+            "t": "PRO",
+            "q": "Find the word that means 'me.'"
+          },
+          {
+            "w": "can",
+            "t": "V",
+            "q": "Find the word that means 'is able to.'"
+          },
+          {
+            "w": "clap",
+            "t": "V",
+            "q": "Find the action word for making a sound with your hands."
+          },
+          {
+            "w": "my",
+            "t": "ART",
+            "q": "Find the word that means 'belonging to me.'"
+          },
+          {
+            "w": "hands",
+            "t": "N",
+            "q": "Find the body part word — more than one!"
+          }
+        ],
+        "manip": {
+          "task": "Change 'clap' to a different action.",
+          "word": "clap",
+          "examples": [
+            "I can <span class='changed'>wave</span> my hands.",
+            "I can <span class='changed'>raise</span> my hands."
+          ]
+        },
+        "vocab": {
+          "w": "clap",
+          "type": "verb",
+          "def": "To hit your two hands together to make a sound.",
+          "simple": "Clap means to hit your hands together — like when you are happy!",
+          "examples": [
+            "clap your hands",
+            "clap for a friend",
+            "I can clap"
+          ],
+          "similar": [
+            "pat",
+            "tap"
+          ],
+          "antonyms": [],
+          "nonex": [
+            "It does NOT mean to wave.",
+            "It does NOT mean to stomp."
+          ],
+          "example": "I can clap my hands for my friend.",
+          "starter": "I clap my hands when _______ ...",
+          "why": "Clap is a fun action word you can do right now!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 34,
+    "sentences": [
+      {
+        "orig": "i kan wav mi arm",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "i",
+            "r": "I",
+            "e": "The word 'I' is always a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "wav",
+            "r": "wave",
+            "e": "Wave is spelled w-a-v-e. It has an 'e' at the end."
+          },
+          {
+            "t": "spelling",
+            "w": "kan",
+            "r": "can",
+            "e": "Can starts with c, not k."
+          },
+          {
+            "t": "spelling",
+            "w": "mi",
+            "r": "my",
+            "e": "My is spelled m-y."
+          },
+          {
+            "t": "punctuation",
+            "w": "arm",
+            "r": "arm.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "I can wave my arm.",
+        "pos": [
+          {
+            "w": "I",
+            "t": "PRO",
+            "q": "Find the word that means 'me.'"
+          },
+          {
+            "w": "can",
+            "t": "V",
+            "q": "Find the word that means 'is able to.'"
+          },
+          {
+            "w": "wave",
+            "t": "V",
+            "q": "Find the action word for moving your arm side to side."
+          },
+          {
+            "w": "my",
+            "t": "ART",
+            "q": "Find the word that means 'belonging to me.'"
+          },
+          {
+            "w": "arm",
+            "t": "N",
+            "q": "Find the body part word."
+          }
+        ],
+        "manip": {
+          "task": "Change 'arm' to a different body part.",
+          "word": "arm",
+          "examples": [
+            "I can wave my <span class='changed'>hand</span>.",
+            "I can wave my <span class='changed'>leg</span>."
+          ]
+        },
+        "vocab": {
+          "w": "wave",
+          "type": "verb",
+          "def": "To move your hand or arm back and forth to say hello or goodbye.",
+          "simple": "Wave means to move your hand to say hi or bye!",
+          "examples": [
+            "wave hello",
+            "wave goodbye",
+            "I can wave"
+          ],
+          "similar": [
+            "gesture",
+            "signal"
+          ],
+          "antonyms": [],
+          "nonex": [
+            "It does NOT mean to clap.",
+            "It does NOT mean to point."
+          ],
+          "example": "I can wave my arm to say hello.",
+          "starter": "I wave when _______ ...",
+          "why": "Wave is a friendly action word — you use it to greet people!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 35,
+    "sentences": [
+      {
+        "orig": "i tuch mi hed now",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "i",
+            "r": "I",
+            "e": "The word 'I' is always a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "tuch",
+            "r": "touch",
+            "e": "Touch is spelled t-o-u-c-h. It has 'ou' in the middle."
+          },
+          {
+            "t": "spelling",
+            "w": "hed",
+            "r": "head",
+            "e": "Head is spelled h-e-a-d. It has an 'a' in the middle."
+          },
+          {
+            "t": "spelling",
+            "w": "mi",
+            "r": "my",
+            "e": "My is spelled m-y."
+          },
+          {
+            "t": "punctuation",
+            "w": "now",
+            "r": "now.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "I touch my head now.",
+        "pos": [
+          {
+            "w": "I",
+            "t": "PRO",
+            "q": "Find the word that means 'me.'"
+          },
+          {
+            "w": "touch",
+            "t": "V",
+            "q": "Find the action word for putting your hand on something."
+          },
+          {
+            "w": "my",
+            "t": "ART",
+            "q": "Find the word that means 'belonging to me.'"
+          },
+          {
+            "w": "head",
+            "t": "N",
+            "q": "Find the body part word at the top of you."
+          },
+          {
+            "w": "now",
+            "t": "ADV",
+            "q": "Find the word that means 'at this time.'"
+          }
+        ],
+        "manip": {
+          "task": "Change 'head' to a different body part.",
+          "word": "head",
+          "examples": [
+            "I touch my <span class='changed'>ear</span> now.",
+            "I touch my <span class='changed'>arm</span> now."
+          ]
+        },
+        "vocab": {
+          "w": "touch",
+          "type": "verb",
+          "def": "To put your hand or finger on something gently.",
+          "simple": "Touch means to put your hand on something!",
+          "examples": [
+            "touch your head",
+            "touch a book",
+            "I can touch"
+          ],
+          "similar": [
+            "feel",
+            "pat",
+            "tap"
+          ],
+          "antonyms": [],
+          "nonex": [
+            "It does NOT mean to hit.",
+            "It does NOT mean to push hard."
+          ],
+          "example": "I can touch my head with my hand.",
+          "starter": "I can touch my _______ ...",
+          "why": "Touch is a great action word for learning body parts!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 36,
+    "sentences": [
+      {
+        "orig": "i kan jmp upp",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "i",
+            "r": "I",
+            "e": "The word 'I' is always a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "jmp",
+            "r": "jump",
+            "e": "Jump is spelled j-u-m-p. It has four letters."
+          },
+          {
+            "t": "spelling",
+            "w": "kan",
+            "r": "can",
+            "e": "Can starts with c, not k."
+          },
+          {
+            "t": "spelling",
+            "w": "upp",
+            "r": "up",
+            "e": "Up has only one p."
+          },
+          {
+            "t": "punctuation",
+            "w": "up",
+            "r": "up.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "I can jump up.",
+        "pos": [
+          {
+            "w": "I",
+            "t": "PRO",
+            "q": "Find the word that means 'me.'"
+          },
+          {
+            "w": "can",
+            "t": "V",
+            "q": "Find the word that means 'is able to.'"
+          },
+          {
+            "w": "jump",
+            "t": "V",
+            "q": "Find the action word for leaving the ground."
+          },
+          {
+            "w": "up",
+            "t": "PREP",
+            "q": "Find the direction word."
+          }
+        ],
+        "manip": {
+          "task": "Change 'up' to a different direction word.",
+          "word": "up",
+          "examples": [
+            "I can jump <span class='changed'>high</span>.",
+            "I can jump <span class='changed'>far</span>."
+          ]
+        },
+        "vocab": {
+          "w": "jump",
+          "type": "verb",
+          "def": "To push off the ground with your feet and go into the air.",
+          "simple": "Jump means to go up in the air with your feet!",
+          "examples": [
+            "I can jump.",
+            "jump up",
+            "jump high"
+          ],
+          "similar": [
+            "hop",
+            "leap",
+            "bounce"
+          ],
+          "antonyms": [
+            "sit",
+            "stand still"
+          ],
+          "nonex": [
+            "It does NOT mean to walk.",
+            "It does NOT mean to crawl."
+          ],
+          "example": "I can jump up in the air.",
+          "starter": "I like to jump when _______ ...",
+          "why": "Jump is a fun movement word — try it right now!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 37,
+    "sentences": [
+      {
+        "orig": "i kan wok tew class",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "i",
+            "r": "I",
+            "e": "The word 'I' is always a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "wok",
+            "r": "walk",
+            "e": "Walk is spelled w-a-l-k. It has a silent 'l.'"
+          },
+          {
+            "t": "spelling",
+            "w": "kan",
+            "r": "can",
+            "e": "Can starts with c, not k."
+          },
+          {
+            "t": "spelling",
+            "w": "tew",
+            "r": "to",
+            "e": "To is spelled t-o."
+          },
+          {
+            "t": "punctuation",
+            "w": "class",
+            "r": "class.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "I can walk to class.",
+        "pos": [
+          {
+            "w": "I",
+            "t": "PRO",
+            "q": "Find the word that means 'me.'"
+          },
+          {
+            "w": "can",
+            "t": "V",
+            "q": "Find the word that means 'is able to.'"
+          },
+          {
+            "w": "walk",
+            "t": "V",
+            "q": "Find the action word for moving on your feet slowly."
+          },
+          {
+            "w": "to",
+            "t": "PREP",
+            "q": "Find the word that tells where."
+          },
+          {
+            "w": "class",
+            "t": "N",
+            "q": "Find the place word where you learn."
+          }
+        ],
+        "manip": {
+          "task": "Change 'class' to a different place.",
+          "word": "class",
+          "examples": [
+            "I can walk to <span class='changed'>school</span>.",
+            "I can walk to <span class='changed'>lunch</span>."
+          ]
+        },
+        "vocab": {
+          "w": "walk",
+          "type": "verb",
+          "def": "To move on your feet at a normal, not fast, speed.",
+          "simple": "Walk means to move on your feet — not too fast!",
+          "examples": [
+            "walk to class",
+            "walk with me",
+            "I can walk"
+          ],
+          "similar": [
+            "stroll",
+            "step"
+          ],
+          "antonyms": [
+            "run",
+            "stop"
+          ],
+          "nonex": [
+            "It does NOT mean to run fast.",
+            "It does NOT mean to jump."
+          ],
+          "example": "I can walk to class with my friend.",
+          "starter": "I walk to _______ every day.",
+          "why": "Walk is a movement word — you do it many times a day!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 38,
+    "sentences": [
+      {
+        "orig": "i kan runn fasst",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "i",
+            "r": "I",
+            "e": "The word 'I' is always a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "runn",
+            "r": "run",
+            "e": "Run has only one 'n' at the end. Run: r-u-n."
+          },
+          {
+            "t": "spelling",
+            "w": "kan",
+            "r": "can",
+            "e": "Can starts with c, not k."
+          },
+          {
+            "t": "spelling",
+            "w": "fasst",
+            "r": "fast",
+            "e": "Fast has only one s."
+          },
+          {
+            "t": "punctuation",
+            "w": "fast",
+            "r": "fast.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "I can run fast.",
+        "pos": [
+          {
+            "w": "I",
+            "t": "PRO",
+            "q": "Find the word that means 'me.'"
+          },
+          {
+            "w": "can",
+            "t": "V",
+            "q": "Find the word that means 'is able to.'"
+          },
+          {
+            "w": "run",
+            "t": "V",
+            "q": "Find the action word for moving very fast."
+          },
+          {
+            "w": "fast",
+            "t": "ADV",
+            "q": "Find the word that tells how fast."
+          }
+        ],
+        "manip": {
+          "task": "Change 'fast' to a different describing word.",
+          "word": "fast",
+          "examples": [
+            "I can run <span class='changed'>far</span>.",
+            "I can run <span class='changed'>well</span>."
+          ]
+        },
+        "vocab": {
+          "w": "run",
+          "type": "verb",
+          "def": "To move your legs very fast to go from one place to another.",
+          "simple": "Run means to go very fast on your feet!",
+          "examples": [
+            "I can run.",
+            "run fast",
+            "run to me"
+          ],
+          "similar": [
+            "sprint",
+            "dash",
+            "jog"
+          ],
+          "antonyms": [
+            "walk",
+            "stop",
+            "sit"
+          ],
+          "nonex": [
+            "It does NOT mean to walk slowly.",
+            "It does NOT mean to jump."
+          ],
+          "example": "I can run fast on the playground.",
+          "starter": "I like to run when _______ ...",
+          "why": "Run is an important action word for playing and sports!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 39,
+    "sentences": [
+      {
+        "orig": "i kan stnd upp",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "i",
+            "r": "I",
+            "e": "The word 'I' is always a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "kan",
+            "r": "can",
+            "e": "Can starts with c, not k."
+          },
+          {
+            "t": "spelling",
+            "w": "stnd",
+            "r": "stand",
+            "e": "Stand needs an a: s-t-a-n-d."
+          },
+          {
+            "t": "spelling",
+            "w": "upp",
+            "r": "up",
+            "e": "Up has only one p."
+          },
+          {
+            "t": "punctuation",
+            "w": "up",
+            "r": "up.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "I can stand up.",
+        "pos": [
+          {
+            "w": "I",
+            "t": "PRO",
+            "q": "Find the word that means 'me.'"
+          },
+          {
+            "w": "can",
+            "t": "V",
+            "q": "Find the word that means 'is able to.'"
+          },
+          {
+            "w": "stand",
+            "t": "V",
+            "q": "Find the action word for being on your feet."
+          },
+          {
+            "w": "up",
+            "t": "PREP",
+            "q": "Find the direction word."
+          }
+        ],
+        "manip": {
+          "task": "Change 'stand' to a different action.",
+          "word": "stand",
+          "examples": [
+            "I can <span class='changed'>jump</span> up.",
+            "I can <span class='changed'>look</span> up."
+          ]
+        },
+        "vocab": {
+          "w": "stand",
+          "type": "verb",
+          "def": "To be upright on your feet, not sitting or lying down.",
+          "simple": "Stand means to be on your feet with your body straight!",
+          "examples": [
+            "stand up",
+            "stand tall",
+            "I can stand"
+          ],
+          "similar": [
+            "rise",
+            "get up"
+          ],
+          "antonyms": [
+            "sit",
+            "lie down"
+          ],
+          "nonex": [
+            "It does NOT mean to run.",
+            "It does NOT mean to jump."
+          ],
+          "example": "I can stand up in the morning.",
+          "starter": "I stand up when _______ ...",
+          "why": "Stand is an important body action word!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 40,
+    "sentences": [
+      {
+        "orig": "i em hapee tooday",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "i",
+            "r": "I",
+            "e": "The word 'I' is always a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "hapee",
+            "r": "happy",
+            "e": "Happy is spelled h-a-p-p-y. It ends in a 'y,' not 'ee.'"
+          },
+          {
+            "t": "spelling",
+            "w": "em",
+            "r": "am",
+            "e": "Am is spelled a-m."
+          },
+          {
+            "t": "spelling",
+            "w": "tooday",
+            "r": "today",
+            "e": "Today starts with t-o."
+          },
+          {
+            "t": "punctuation",
+            "w": "today",
+            "r": "today.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "I am happy today.",
+        "pos": [
+          {
+            "w": "I",
+            "t": "PRO",
+            "q": "Find the word that means 'me.'"
+          },
+          {
+            "w": "am",
+            "t": "V",
+            "q": "Find the little action word."
+          },
+          {
+            "w": "happy",
+            "t": "ADJ",
+            "q": "Find the feeling word that means you feel good."
+          },
+          {
+            "w": "today",
+            "t": "ADV",
+            "q": "Find the time word that means right now, this day."
+          }
+        ],
+        "manip": {
+          "task": "Change 'happy' to a different feeling word.",
+          "word": "happy",
+          "examples": [
+            "I am <span class='changed'>glad</span> today.",
+            "I am <span class='changed'>great</span> today."
+          ]
+        },
+        "vocab": {
+          "w": "happy",
+          "type": "adjective",
+          "def": "Feeling very good and glad, like when you smile.",
+          "simple": "Happy means you feel great and want to smile!",
+          "examples": [
+            "I am happy.",
+            "a happy face",
+            "happy friends"
+          ],
+          "similar": [
+            "glad",
+            "joyful",
+            "cheerful"
+          ],
+          "antonyms": [
+            "sad",
+            "mad",
+            "upset"
+          ],
+          "nonex": [
+            "It does NOT mean tired.",
+            "It does NOT mean scared."
+          ],
+          "example": "I am happy when I play with my friends.",
+          "starter": "I feel happy when _______ ...",
+          "why": "Happy is one of the most important feeling words!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 41,
+    "sentences": [
+      {
+        "orig": "she iz sade tooday",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "she",
+            "r": "She",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "sade",
+            "r": "sad",
+            "e": "Sad is spelled s-a-d. It has only three letters."
+          },
+          {
+            "t": "spelling",
+            "w": "iz",
+            "r": "is",
+            "e": "Is is spelled i-s, not i-z."
+          },
+          {
+            "t": "spelling",
+            "w": "tooday",
+            "r": "today",
+            "e": "Today starts with t-o."
+          },
+          {
+            "t": "punctuation",
+            "w": "today",
+            "r": "today.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "She is sad today.",
+        "pos": [
+          {
+            "w": "She",
+            "t": "PRO",
+            "q": "Find the word for a girl or woman."
+          },
+          {
+            "w": "is",
+            "t": "V",
+            "q": "Find the little action word."
+          },
+          {
+            "w": "sad",
+            "t": "ADJ",
+            "q": "Find the feeling word that means not happy."
+          },
+          {
+            "w": "today",
+            "t": "ADV",
+            "q": "Find the time word."
+          }
+        ],
+        "manip": {
+          "task": "Change 'sad' to a different feeling word.",
+          "word": "sad",
+          "examples": [
+            "She is <span class='changed'>happy</span> today.",
+            "She is <span class='changed'>tired</span> today."
+          ]
+        },
+        "vocab": {
+          "w": "sad",
+          "type": "adjective",
+          "def": "Feeling unhappy, like when something is wrong or you miss someone.",
+          "simple": "Sad means you do not feel happy. Maybe you want to cry.",
+          "examples": [
+            "I am sad.",
+            "a sad face",
+            "feel sad"
+          ],
+          "similar": [
+            "unhappy",
+            "upset",
+            "down"
+          ],
+          "antonyms": [
+            "happy",
+            "glad",
+            "joyful"
+          ],
+          "nonex": [
+            "It does NOT mean scared.",
+            "It does NOT mean angry."
+          ],
+          "example": "She is sad when she misses her mom.",
+          "starter": "I feel sad when _______ ...",
+          "why": "Sad is an important feeling word to know and share!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 42,
+    "sentences": [
+      {
+        "orig": "i em madd att him",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "i",
+            "r": "I",
+            "e": "The word 'I' is always a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "em",
+            "r": "am",
+            "e": "Am is spelled a-m."
+          },
+          {
+            "t": "spelling",
+            "w": "madd",
+            "r": "mad",
+            "e": "Mad has only one d."
+          },
+          {
+            "t": "spelling",
+            "w": "att",
+            "r": "at",
+            "e": "At has only one t."
+          },
+          {
+            "t": "punctuation",
+            "w": "him",
+            "r": "him.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "I am mad at him.",
+        "pos": [
+          {
+            "w": "I",
+            "t": "PRO",
+            "q": "Find the word that means 'me.'"
+          },
+          {
+            "w": "am",
+            "t": "V",
+            "q": "Find the little action word."
+          },
+          {
+            "w": "mad",
+            "t": "ADJ",
+            "q": "Find the feeling word that means angry."
+          },
+          {
+            "w": "at",
+            "t": "PREP",
+            "q": "Find the word that tells who the feeling is about."
+          },
+          {
+            "w": "him",
+            "t": "PRO",
+            "q": "Find the word for a boy or man."
+          }
+        ],
+        "manip": {
+          "task": "Change 'mad' to a different feeling word.",
+          "word": "mad",
+          "examples": [
+            "I am <span class='changed'>sad</span> at him.",
+            "I am <span class='changed'>happy</span> at him."
+          ]
+        },
+        "vocab": {
+          "w": "mad",
+          "type": "adjective",
+          "def": "Feeling angry or upset because something is not fair or right.",
+          "simple": "Mad means you feel angry inside!",
+          "examples": [
+            "I am mad.",
+            "a mad face",
+            "feel mad"
+          ],
+          "similar": [
+            "angry",
+            "upset",
+            "cross"
+          ],
+          "antonyms": [
+            "happy",
+            "calm",
+            "glad"
+          ],
+          "nonex": [
+            "It does NOT mean silly.",
+            "It does NOT mean scared."
+          ],
+          "example": "I feel mad when someone takes my book.",
+          "starter": "I feel mad when _______ ...",
+          "why": "Mad is a feeling word — knowing it helps you tell others how you feel!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 43,
+    "sentences": [
+      {
+        "orig": "i em tierd tooday",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "i",
+            "r": "I",
+            "e": "The word 'I' is always a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "tierd",
+            "r": "tired",
+            "e": "Tired is spelled t-i-r-e-d. The 'i' comes before 'r.'"
+          },
+          {
+            "t": "spelling",
+            "w": "em",
+            "r": "am",
+            "e": "Am is spelled a-m."
+          },
+          {
+            "t": "spelling",
+            "w": "tooday",
+            "r": "today",
+            "e": "Today starts with t-o."
+          },
+          {
+            "t": "punctuation",
+            "w": "today",
+            "r": "today.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "I am tired today.",
+        "pos": [
+          {
+            "w": "I",
+            "t": "PRO",
+            "q": "Find the word that means 'me.'"
+          },
+          {
+            "w": "am",
+            "t": "V",
+            "q": "Find the little action word."
+          },
+          {
+            "w": "tired",
+            "t": "ADJ",
+            "q": "Find the feeling word that means needing sleep."
+          },
+          {
+            "w": "today",
+            "t": "ADV",
+            "q": "Find the time word that means right now, this day."
+          }
+        ],
+        "manip": {
+          "task": "Change 'tired' to a different feeling word.",
+          "word": "tired",
+          "examples": [
+            "I am <span class='changed'>happy</span> today.",
+            "I am <span class='changed'>sad</span> today."
+          ]
+        },
+        "vocab": {
+          "w": "tired",
+          "type": "adjective",
+          "def": "Feeling like you need to rest or sleep because you have done a lot.",
+          "simple": "Tired means your body wants to rest!",
+          "examples": [
+            "I am tired.",
+            "a tired face",
+            "feel tired after running"
+          ],
+          "similar": [
+            "sleepy",
+            "weary",
+            "worn out"
+          ],
+          "antonyms": [
+            "awake",
+            "energetic",
+            "ready"
+          ],
+          "nonex": [
+            "It does NOT mean bored.",
+            "It does NOT mean sick."
+          ],
+          "example": "I am tired after I run and jump.",
+          "starter": "I feel tired when _______ ...",
+          "why": "Tired is a feeling word — it is important to know when your body needs rest!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 44,
+    "sentences": [
+      {
+        "orig": "my frend kan rn",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "my",
+            "r": "My",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "frend",
+            "r": "friend",
+            "e": "Friend is spelled f-r-i-e-n-d. It has an 'i' in the middle."
+          },
+          {
+            "t": "spelling",
+            "w": "rn",
+            "r": "run",
+            "e": "Run needs a u: r-u-n."
+          },
+          {
+            "t": "spelling",
+            "w": "kan",
+            "r": "can",
+            "e": "Can starts with c, not k."
+          },
+          {
+            "t": "punctuation",
+            "w": "run",
+            "r": "run.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "My friend can run.",
+        "pos": [
+          {
+            "w": "My",
+            "t": "ART",
+            "q": "Find the word that means 'belonging to me.'"
+          },
+          {
+            "w": "friend",
+            "t": "N",
+            "q": "Find the person word for someone you like."
+          },
+          {
+            "w": "can",
+            "t": "V",
+            "q": "Find the word that means 'is able to.'"
+          },
+          {
+            "w": "run",
+            "t": "V",
+            "q": "Find the action word for moving fast."
+          }
+        ],
+        "manip": {
+          "task": "Change 'friend' to a different person word.",
+          "word": "friend",
+          "examples": [
+            "My <span class='changed'>teacher</span> can run.",
+            "My <span class='changed'>mom</span> can run."
+          ]
+        },
+        "vocab": {
+          "w": "hello",
+          "type": "noun",
+          "def": "A word you say when you first see someone, as a greeting.",
+          "simple": "Hello is what you say when you meet someone!",
+          "examples": [
+            "say hello",
+            "hello friend",
+            "hello teacher"
+          ],
+          "similar": [
+            "hi",
+            "hey",
+            "greetings"
+          ],
+          "antonyms": [
+            "goodbye",
+            "bye"
+          ],
+          "nonex": [
+            "It is NOT what you say when you leave.",
+            "It is NOT an action."
+          ],
+          "example": "I say hello when I see my friend.",
+          "starter": "I say hello to _______ ...",
+          "why": "Hello is a very important greeting word!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 45,
+    "sentences": [
+      {
+        "orig": "i tuch wif mi hand",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "i",
+            "r": "I",
+            "e": "The word 'I' is always a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "tuch",
+            "r": "touch",
+            "e": "Touch is spelled t-o-u-c-h. It has 'ou' in the middle."
+          },
+          {
+            "t": "spelling",
+            "w": "wif",
+            "r": "with",
+            "e": "With ends in t-h: w-i-t-h."
+          },
+          {
+            "t": "spelling",
+            "w": "mi",
+            "r": "my",
+            "e": "My is spelled m-y."
+          },
+          {
+            "t": "punctuation",
+            "w": "hand",
+            "r": "hand.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "I touch with my hand.",
+        "pos": [
+          {
+            "w": "I",
+            "t": "PRO",
+            "q": "Find the word that means 'me.'"
+          },
+          {
+            "w": "touch",
+            "t": "V",
+            "q": "Find the action word for putting your hand on something."
+          },
+          {
+            "w": "with",
+            "t": "PREP",
+            "q": "Find the word that tells how."
+          },
+          {
+            "w": "my",
+            "t": "ART",
+            "q": "Find the word that means 'belonging to me.'"
+          },
+          {
+            "w": "hand",
+            "t": "N",
+            "q": "Find the body part word."
+          }
+        ],
+        "manip": {
+          "task": "Change 'hand' to a different body part.",
+          "word": "hand",
+          "examples": [
+            "I touch with my <span class='changed'>foot</span>.",
+            "I touch with my <span class='changed'>arm</span>."
+          ]
+        },
+        "vocab": {
+          "w": "point",
+          "type": "verb",
+          "def": "To stretch out your finger to show where something is.",
+          "simple": "Point means to use your finger to show something!",
+          "examples": [
+            "point to the book",
+            "point your finger",
+            "I can point"
+          ],
+          "similar": [
+            "show",
+            "indicate",
+            "direct"
+          ],
+          "antonyms": [],
+          "nonex": [
+            "It does NOT mean to touch.",
+            "It does NOT mean to wave."
+          ],
+          "example": "I use my hand to point to the book.",
+          "starter": "I point to _______ when I see it.",
+          "why": "Point is a useful word for showing people things!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 46,
+    "sentences": [
+      {
+        "orig": "i jmp hie upp",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "i",
+            "r": "I",
+            "e": "The word 'I' is always a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "jmp",
+            "r": "jump",
+            "e": "Jump is spelled j-u-m-p. It has four letters."
+          },
+          {
+            "t": "spelling",
+            "w": "hie",
+            "r": "high",
+            "e": "High is spelled h-i-g-h. It ends with 'gh.'"
+          },
+          {
+            "t": "spelling",
+            "w": "upp",
+            "r": "up",
+            "e": "Up has only one p."
+          },
+          {
+            "t": "punctuation",
+            "w": "up",
+            "r": "up.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "I jump high up.",
+        "pos": [
+          {
+            "w": "I",
+            "t": "PRO",
+            "q": "Find the word that means 'me.'"
+          },
+          {
+            "w": "jump",
+            "t": "V",
+            "q": "Find the action word for going up in the air."
+          },
+          {
+            "w": "high",
+            "t": "ADV",
+            "q": "Find the word that tells how far up."
+          },
+          {
+            "w": "up",
+            "t": "PREP",
+            "q": "Find the direction word."
+          }
+        ],
+        "manip": {
+          "task": "Change 'high' to a different describing word.",
+          "word": "high",
+          "examples": [
+            "I jump <span class='changed'>far</span> up.",
+            "I jump <span class='changed'>fast</span> up."
+          ]
+        },
+        "vocab": {
+          "w": "high",
+          "type": "adjective",
+          "def": "Far up from the ground; the opposite of low.",
+          "simple": "High means far up, like the top of a tree!",
+          "examples": [
+            "jump high",
+            "a high shelf",
+            "fly high"
+          ],
+          "similar": [
+            "tall",
+            "up",
+            "elevated"
+          ],
+          "antonyms": [
+            "low",
+            "down",
+            "short"
+          ],
+          "nonex": [
+            "It does NOT mean fast.",
+            "It does NOT mean big."
+          ],
+          "example": "My leg helps me jump very high.",
+          "starter": "I can jump as high as _______ ...",
+          "why": "High is a direction word that helps describe where things are!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 47,
+    "sentences": [
+      {
+        "orig": "i kan wav att her",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "i",
+            "r": "I",
+            "e": "The word 'I' is always a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "wav",
+            "r": "wave",
+            "e": "Wave is spelled w-a-v-e. It has an 'e' at the end."
+          },
+          {
+            "t": "spelling",
+            "w": "kan",
+            "r": "can",
+            "e": "Can starts with c, not k."
+          },
+          {
+            "t": "spelling",
+            "w": "att",
+            "r": "at",
+            "e": "At has only one t."
+          },
+          {
+            "t": "punctuation",
+            "w": "her",
+            "r": "her.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "I can wave at her.",
+        "pos": [
+          {
+            "w": "I",
+            "t": "PRO",
+            "q": "Find the word that means 'me.'"
+          },
+          {
+            "w": "can",
+            "t": "V",
+            "q": "Find the word that means 'is able to.'"
+          },
+          {
+            "w": "wave",
+            "t": "V",
+            "q": "Find the action word for moving your hand to say hello."
+          },
+          {
+            "w": "at",
+            "t": "PREP",
+            "q": "Find the word that tells who you are waving toward."
+          },
+          {
+            "w": "her",
+            "t": "PRO",
+            "q": "Find the word for a girl or woman."
+          }
+        ],
+        "manip": {
+          "task": "Change 'her' to a different pronoun.",
+          "word": "her",
+          "examples": [
+            "I can wave at <span class='changed'>him</span>.",
+            "I can wave at <span class='changed'>them</span>."
+          ]
+        },
+        "vocab": {
+          "w": "her",
+          "type": "pronoun",
+          "def": "A word used to talk about a girl or woman.",
+          "simple": "'Her' means a girl or woman — someone like she!",
+          "examples": [
+            "wave at her",
+            "give it to her",
+            "I see her"
+          ],
+          "similar": [
+            "she",
+            "the girl"
+          ],
+          "antonyms": [
+            "him",
+            "he"
+          ],
+          "nonex": [
+            "It is NOT used for a boy.",
+            "It is NOT used for a thing."
+          ],
+          "example": "I can wave at her when I see her.",
+          "starter": "I can see her when _______ ...",
+          "why": "'Her' is a pronoun word — it is a short word for a girl!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 48,
+    "sentences": [
+      {
+        "orig": "he kan klap hs hands",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "he",
+            "r": "He",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "klap",
+            "r": "clap",
+            "e": "Clap starts with 'cl,' not 'kl.' Clap: c-l-a-p."
+          },
+          {
+            "t": "spelling",
+            "w": "kan",
+            "r": "can",
+            "e": "Can starts with c, not k."
+          },
+          {
+            "t": "spelling",
+            "w": "hs",
+            "r": "his",
+            "e": "his is spelled h-i-s."
+          },
+          {
+            "t": "punctuation",
+            "w": "hands",
+            "r": "hands.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "He can clap his hands.",
+        "pos": [
+          {
+            "w": "He",
+            "t": "PRO",
+            "q": "Find the word for a boy or man."
+          },
+          {
+            "w": "can",
+            "t": "V",
+            "q": "Find the word that means 'is able to.'"
+          },
+          {
+            "w": "clap",
+            "t": "V",
+            "q": "Find the action word for hitting your hands together."
+          },
+          {
+            "w": "his",
+            "t": "ART",
+            "q": "Find the word that means 'belonging to him.'"
+          },
+          {
+            "w": "hands",
+            "t": "N",
+            "q": "Find the body part word — more than one!"
+          }
+        ],
+        "manip": {
+          "task": "Change 'clap' to a different action.",
+          "word": "clap",
+          "examples": [
+            "He can <span class='changed'>wave</span> his hands.",
+            "He can <span class='changed'>raise</span> his hands."
+          ]
+        },
+        "vocab": {
+          "w": "his",
+          "type": "pronoun",
+          "def": "A word that means something belongs to a boy or man.",
+          "simple": "'His' means it belongs to a boy. It is his!",
+          "examples": [
+            "his hands",
+            "his book",
+            "his friend"
+          ],
+          "similar": [
+            "he",
+            "the boy's"
+          ],
+          "antonyms": [
+            "her",
+            "my",
+            "their"
+          ],
+          "nonex": [
+            "It is NOT used for a girl.",
+            "It is NOT used for a thing."
+          ],
+          "example": "He can clap his hands at school.",
+          "starter": "His favorite thing is _______ ...",
+          "why": "'His' is a pronoun word — a short word to say something belongs to a boy!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 49,
+    "sentences": [
+      {
+        "orig": "we kan wok togethr",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "we",
+            "r": "We",
+            "e": "The first word of a sentence must start with a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "wok",
+            "r": "walk",
+            "e": "Walk is spelled w-a-l-k. It has a silent 'l.'"
+          },
+          {
+            "t": "spelling",
+            "w": "kan",
+            "r": "can",
+            "e": "Can starts with c, not k."
+          },
+          {
+            "t": "spelling",
+            "w": "togethr",
+            "r": "together",
+            "e": "Together needs an e at the end."
+          },
+          {
+            "t": "punctuation",
+            "w": "together",
+            "r": "together.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "We can walk together.",
+        "pos": [
+          {
+            "w": "We",
+            "t": "PRO",
+            "q": "Find the word that means 'me and others.'"
+          },
+          {
+            "w": "can",
+            "t": "V",
+            "q": "Find the word that means 'is able to.'"
+          },
+          {
+            "w": "walk",
+            "t": "V",
+            "q": "Find the action word for moving on your feet."
+          },
+          {
+            "w": "together",
+            "t": "ADV",
+            "q": "Find the word that means at the same time."
+          }
+        ],
+        "manip": {
+          "task": "Change 'walk' to a different action.",
+          "word": "walk",
+          "examples": [
+            "We can <span class='changed'>run</span> together.",
+            "We can <span class='changed'>jump</span> together."
+          ]
+        },
+        "vocab": {
+          "w": "we",
+          "type": "pronoun",
+          "def": "A word that means you and other people together.",
+          "simple": "'We' means me and my friends or family — all of us!",
+          "examples": [
+            "we can walk",
+            "we are happy",
+            "we like school"
+          ],
+          "similar": [
+            "us",
+            "our group"
+          ],
+          "antonyms": [
+            "I",
+            "he",
+            "she"
+          ],
+          "nonex": [
+            "It is NOT just one person.",
+            "It is NOT just you."
+          ],
+          "example": "We can walk to class together.",
+          "starter": "We can _______ together.",
+          "why": "'We' is a pronoun for groups — it is a very important word!"
+        }
+      }
+    ]
+  },
+  {
+    "day": 50,
+    "sentences": [
+      {
+        "orig": "i em hapee att school",
+        "corr": [
+          {
+            "t": "capitalization",
+            "w": "i",
+            "r": "I",
+            "e": "The word 'I' is always a big letter."
+          },
+          {
+            "t": "spelling",
+            "w": "hapee",
+            "r": "happy",
+            "e": "Happy is spelled h-a-p-p-y. It ends in 'y,' not 'ee.'"
+          },
+          {
+            "t": "spelling",
+            "w": "em",
+            "r": "am",
+            "e": "Am is spelled a-m."
+          },
+          {
+            "t": "spelling",
+            "w": "att",
+            "r": "at",
+            "e": "At has only one t."
+          },
+          {
+            "t": "punctuation",
+            "w": "school",
+            "r": "school.",
+            "e": "A sentence needs a period at the end."
+          }
+        ],
+        "fixed": "I am happy at school.",
+        "pos": [
+          {
+            "w": "I",
+            "t": "PRO",
+            "q": "Find the word that means 'me.'"
+          },
+          {
+            "w": "am",
+            "t": "V",
+            "q": "Find the little action word."
+          },
+          {
+            "w": "happy",
+            "t": "ADJ",
+            "q": "Find the feeling word that means you feel good."
+          },
+          {
+            "w": "at",
+            "t": "PREP",
+            "q": "Find the word that tells where."
+          },
+          {
+            "w": "school",
+            "t": "N",
+            "q": "Find the place word where you learn."
+          }
+        ],
+        "manip": {
+          "task": "Change 'school' to a different place word.",
+          "word": "school",
+          "examples": [
+            "I am happy at <span class='changed'>home</span>.",
+            "I am happy at <span class='changed'>lunch</span>."
+          ]
+        },
+        "vocab": {
+          "w": "body",
+          "type": "noun",
+          "def": "All the parts of you together — your head, arms, legs, and everything.",
+          "simple": "Your body is all of you — head, hands, feet, and more!",
+          "examples": [
+            "my body",
+            "move your body",
+            "a healthy body"
+          ],
+          "similar": [
+            "self",
+            "form"
+          ],
+          "antonyms": [],
+          "nonex": [
+            "It is NOT just one body part.",
+            "It is NOT your clothes."
+          ],
+          "example": "My body is happy when I run and jump.",
+          "starter": "My body can _______ ...",
+          "why": "Body is the big word for ALL of your body parts together!"
+        }
+      }
+    ]
+  }
+]
