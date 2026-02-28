@@ -26,6 +26,42 @@ const GRADE_LABELS = {
     'ufli': '5 Errors | UFLI Phonics: Systematic Phonics \u2022 Heart Words \u2022 Decodable Text'
 };
 
+const TAG_CONFIG = {
+    'N': {abbr: 'N', name: 'Noun', css: 'noun'},
+    'V': {abbr: 'V', name: 'Verb', css: 'verb'},
+    'ADJ': {abbr: 'ADJ', name: 'Adj', css: 'adj'},
+    'ADV': {abbr: 'ADV', name: 'Adv', css: 'adv'},
+    'PRO': {abbr: 'PRO', name: 'Pronoun', css: 'pro'},
+    'PREP': {abbr: 'PREP', name: 'Prep', css: 'prep'},
+    'CONJ': {abbr: 'CONJ', name: 'Conj', css: 'noun'},
+    'SUBCONJ': {abbr: 'SC', name: 'SubConj', css: 'prep'},
+    'MODAL': {abbr: 'MV', name: 'Modal Verb', css: 'verb'},
+    'PASS': {abbr: 'PV', name: 'Passive Verb', css: 'verb'},
+    'PP': {abbr: 'PP', name: 'Past Part', css: 'verb'},
+    'RELPRO': {abbr: 'RP', name: 'Rel Pro', css: 'pro'},
+    'OBJPRO': {abbr: 'OP', name: 'Obj Pro', css: 'pro'},
+    'POSS': {abbr: 'POSS', name: 'Poss', css: 'adj'},
+    'ART': {abbr: 'ART', name: 'Article', css: 'noun'},
+    'DEM': {abbr: 'DEM', name: 'Dem', css: 'adj'}
+};
+const DISPLAY_ORDER = ['N', 'V', 'MODAL', 'PASS', 'PP', 'ADJ', 'ADV', 'PRO', 'RELPRO', 'OBJPRO', 'PREP', 'SUBCONJ', 'CONJ', 'POSS', 'ART', 'DEM'];
+
+function buildPOSTags(orderedPOS) {
+    const counts = {};
+    orderedPOS.forEach(p => {
+        const t = p.t.toUpperCase();
+        counts[t] = (counts[t] || 0) + 1;
+    });
+    let tags = '';
+    DISPLAY_ORDER.forEach(type => {
+        if (counts[type]) {
+            const cfg = TAG_CONFIG[type] || {abbr: type, name: type, css: 'noun'};
+            tags += `<span class="tag ${cfg.css}" title="${getPOSDesc(type)}">${counts[type]} ${cfg.abbr}</span>`;
+        }
+    });
+    return tags;
+}
+
 document.addEventListener('DOMContentLoaded', () => {
     loadGradeData(currentGrade);
 });
@@ -93,10 +129,18 @@ function getOrderedPOS(sent) {
     // HARDCODED POS TYPE PRIORITY ORDER
     const TYPE_PRIORITY = ['N', 'V', 'ADJ', 'ADV', 'PREP', 'PRO', 'OBJPRO', 'CONJ', 'SUBCONJ', 'ART', 'DEM', 'POSS', 'PP', 'RELPRO', 'PASS', 'MODAL'];
 
-    // Find position of each word in the fixed sentence
+    // Find position of each word in the fixed sentence, handling duplicate words
+    const usedPositions = new Set();
     const posWithIndex = sent.pos.map((p, origIdx) => {
         const word = p.w.toLowerCase();
-        const pos = fixed.indexOf(word);
+        let pos = -1;
+        let searchFrom = 0;
+        while (searchFrom < fixed.length) {
+            const idx = fixed.indexOf(word, searchFrom);
+            if (idx === -1) break;
+            if (!usedPositions.has(idx)) { pos = idx; usedPositions.add(idx); break; }
+            searchFrom = idx + 1;
+        }
         return { ...p, position: pos >= 0 ? pos : 9999, origIdx };
     });
 
@@ -264,43 +308,7 @@ function renderDay() {
         const corrections = getCorrections(sent);
         const orderedPOS = getOrderedPOS(sent);
 
-        // Count all POS types SPECIFICALLY - don't group them
-        const counts = {};
-        orderedPOS.forEach(p => {
-            const t = p.t.toUpperCase();
-            counts[t] = (counts[t] || 0) + 1;
-        });
-
-        // Build tags with specific abbreviations and full names
-        const tagConfig = {
-            'N': {abbr: 'N', name: 'Noun', css: 'noun'},
-            'V': {abbr: 'V', name: 'Verb', css: 'verb'},
-            'ADJ': {abbr: 'ADJ', name: 'Adj', css: 'adj'},
-            'ADV': {abbr: 'ADV', name: 'Adv', css: 'adv'},
-            'PRO': {abbr: 'PRO', name: 'Pronoun', css: 'pro'},
-            'PREP': {abbr: 'PREP', name: 'Prep', css: 'prep'},
-            'CONJ': {abbr: 'CONJ', name: 'Conj', css: 'noun'},
-            'SUBCONJ': {abbr: 'SC', name: 'SubConj', css: 'prep'},
-            'MODAL': {abbr: 'MV', name: 'Modal Verb', css: 'verb'},
-            'PASS': {abbr: 'PV', name: 'Passive Verb', css: 'verb'},
-            'PP': {abbr: 'PP', name: 'Past Part', css: 'verb'},
-            'RELPRO': {abbr: 'RP', name: 'Rel Pro', css: 'pro'},
-            'OBJPRO': {abbr: 'OP', name: 'Obj Pro', css: 'pro'},
-            'POSS': {abbr: 'POSS', name: 'Poss', css: 'adj'},
-            'ART': {abbr: 'ART', name: 'Article', css: 'noun'},
-            'DEM': {abbr: 'DEM', name: 'Dem', css: 'adj'}
-        };
-
-        // Order for display (most common first)
-        const displayOrder = ['N', 'V', 'MODAL', 'PASS', 'PP', 'ADJ', 'ADV', 'PRO', 'RELPRO', 'OBJPRO', 'PREP', 'SUBCONJ', 'CONJ', 'POSS', 'ART', 'DEM'];
-
-        let tags = '';
-        displayOrder.forEach(type => {
-            if (counts[type]) {
-                const cfg = tagConfig[type] || {abbr: type, name: type, css: 'noun'};
-                tags += `<span class="tag ${cfg.css}" title="${getPOSDesc(type)}">${counts[type]} ${cfg.abbr}</span>`;
-            }
-        });
+        const tags = buildPOSTags(orderedPOS);
 
         // Build UFLI panel if in UFLI mode
         let ufliPanel = '';
@@ -315,8 +323,8 @@ function renderDay() {
                 <span class="find-label">
                     Find <span class="tag err">${corrections.length} errors</span> and ${tags}
                 </span>
-                <button class="popout-btn" onclick="openPopout(${idx})" title="Open as individual lesson">&#x26F6;</button>
-                <button class="print-btn" onclick="printWorksheet(${idx})" title="Print worksheet">&#x1F5A8;</button>
+                <button class="popout-btn" onclick="openPopout(${idx})" title="Open as individual lesson" aria-label="Open as individual lesson">&#x26F6;</button>
+                <button class="print-btn" onclick="printWorksheet(${idx})" title="Print worksheet" aria-label="Print worksheet">&#x1F5A8;</button>
             </div>
             ${ufliPanel}
             <div class="sentence-display" id="sent-${idx}">${formatSentence(sent, state)}</div>
@@ -403,10 +411,12 @@ function formatSentence(sent, state) {
     function findPosition(text, searchTerm) {
         // Escape special regex characters but keep spaces
         const escaped = searchTerm.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-        // Use word boundary at start and end
-        const re = new RegExp(`(?:^|(?<=[\\s]))${escaped}(?=[\\s]|$)`, 'gi');
+        // Use capturing group instead of lookbehind for Safari compatibility
+        const re = new RegExp(`(?:^|\\s)(${escaped})(?=\\s|$)`, 'gi');
         const match = re.exec(text);
-        return match ? match.index : -1;
+        if (!match) return -1;
+        // If matched after whitespace, return the position of the captured word (not the space)
+        return match.index + (match[0].length - match[1].length);
     }
 
     // Build a list of corrections with their positions in the original text
@@ -739,38 +749,7 @@ function openPopout(idx) {
 
     const corrections = getCorrections(sent);
     const orderedPOS = getOrderedPOS(sent);
-    const counts = {};
-    orderedPOS.forEach(p => {
-        const t = p.t.toUpperCase();
-        counts[t] = (counts[t] || 0) + 1;
-    });
-
-    const tagConfig = {
-        'N': {abbr: 'N', name: 'Noun', css: 'noun'},
-        'V': {abbr: 'V', name: 'Verb', css: 'verb'},
-        'ADJ': {abbr: 'ADJ', name: 'Adj', css: 'adj'},
-        'ADV': {abbr: 'ADV', name: 'Adv', css: 'adv'},
-        'PRO': {abbr: 'PRO', name: 'Pronoun', css: 'pro'},
-        'PREP': {abbr: 'PREP', name: 'Prep', css: 'prep'},
-        'CONJ': {abbr: 'CONJ', name: 'Conj', css: 'noun'},
-        'SUBCONJ': {abbr: 'SC', name: 'SubConj', css: 'prep'},
-        'MODAL': {abbr: 'MV', name: 'Modal Verb', css: 'verb'},
-        'PASS': {abbr: 'PV', name: 'Passive Verb', css: 'verb'},
-        'PP': {abbr: 'PP', name: 'Past Part', css: 'verb'},
-        'RELPRO': {abbr: 'RP', name: 'Rel Pro', css: 'pro'},
-        'OBJPRO': {abbr: 'OP', name: 'Obj Pro', css: 'pro'},
-        'POSS': {abbr: 'POSS', name: 'Poss', css: 'adj'},
-        'ART': {abbr: 'ART', name: 'Article', css: 'noun'},
-        'DEM': {abbr: 'DEM', name: 'Dem', css: 'adj'}
-    };
-    const displayOrder = ['N', 'V', 'MODAL', 'PASS', 'PP', 'ADJ', 'ADV', 'PRO', 'RELPRO', 'OBJPRO', 'PREP', 'SUBCONJ', 'CONJ', 'POSS', 'ART', 'DEM'];
-    let tags = '';
-    displayOrder.forEach(type => {
-        if (counts[type]) {
-            const cfg = tagConfig[type] || {abbr: type, name: type, css: 'noun'};
-            tags += `<span class="tag ${cfg.css}" title="${getPOSDesc(type)}">${counts[type]} ${cfg.abbr}</span>`;
-        }
-    });
+    const tags = buildPOSTags(orderedPOS);
 
     const state = states[key];
 
@@ -786,8 +765,8 @@ function openPopout(idx) {
                     <span class="popout-day-badge">Day ${currentDay}</span>
                     <span class="popout-sentence-label">Sentence ${idx + 1} \u2014 Individual Lesson</span>
                 </div>
-                <button class="popout-header-print" onclick="printWorksheet(${idx})" title="Print worksheet">&#x1F5A8;</button>
-                <button class="popout-close" onclick="closePopout()">\u2715</button>
+                <button class="popout-header-print" onclick="printWorksheet(${idx})" title="Print worksheet" aria-label="Print worksheet">&#x1F5A8;</button>
+                <button class="popout-close" onclick="closePopout()" aria-label="Close popout">\u2715</button>
             </div>
             <div class="popout-task-bar">
                 Find <span class="tag err">${corrections.length} errors</span> and ${tags}
