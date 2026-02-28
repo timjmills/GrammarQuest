@@ -311,6 +311,19 @@ function speakWord(word) {
 // ========== INIT ==========
 document.addEventListener('DOMContentLoaded', () => {
     loadSavedState();
+
+    // Apply URL params (deep links override saved state)
+    const params = new URLSearchParams(window.location.search);
+    const urlGrade = params.get('grade');
+    const urlDay = params.get('day');
+    const urlMode = params.get('mode');
+    if (urlGrade && GRADE_FILES[urlGrade]) currentGrade = urlGrade;
+    if (urlDay && parseInt(urlDay) > 0) currentDay = parseInt(urlDay);
+    if (urlMode && ['show', 'help', 'practice'].includes(urlMode)) {
+        appMode = urlMode;
+        updateModeButtons();
+    }
+
     // Update grade tab UI
     document.querySelectorAll('.grade-tab').forEach(t => t.classList.remove('active'));
     const tab = document.getElementById('tab-' + currentGrade);
@@ -678,6 +691,8 @@ function renderDay() {
                 <button class="popout-btn" onclick="openPopout(${idx})" title="Open as individual lesson" aria-label="Open as individual lesson">&#x26F6;</button>
                 <button class="print-btn" onclick="printWorksheet(${idx})" title="Print worksheet" aria-label="Print worksheet">&#x1F5A8;</button>
                 <button class="print-btn" onclick="printWorksheet(${idx}, true)" title="Print answer key" aria-label="Print answer key" style="color:#e53935">&#x1F511;</button>
+                <button class="share-link-btn" onclick="copyLink(${idx},'help')" title="Copy Help mode link">Help Link</button>
+                <button class="share-link-btn" onclick="copyLink(${idx},'practice')" title="Copy Practice mode link">Practice Link</button>
             </div>
             ${ufliPanel}
             <div id="help-banner-${idx}">${appMode === 'help' && state.phase === 0 && state.step === 0 ? '<div class="help-banner">Can you spot the mistakes? Look at the highlighted words!</div>' : ''}</div>
@@ -1605,6 +1620,23 @@ function restorePopout() {
 
     // Auto-scroll in practice mode
     scrollPopoutToAction();
+}
+
+// ========== SHARE LINK ==========
+function copyLink(idx, mode) {
+    const url = new URL(window.location.href.split('?')[0]);
+    url.searchParams.set('grade', currentGrade);
+    url.searchParams.set('day', currentDay);
+    url.searchParams.set('mode', mode);
+    navigator.clipboard.writeText(url.toString()).then(() => {
+        const toast = document.createElement('div');
+        toast.className = 'share-toast';
+        toast.textContent = (mode === 'help' ? 'Help' : 'Practice') + ' link copied!';
+        document.body.appendChild(toast);
+        setTimeout(() => toast.remove(), 2200);
+    }).catch(() => {
+        prompt('Copy this link:', url.toString());
+    });
 }
 
 // ========== PRINT WORKSHEET (with optional answer key) ==========
