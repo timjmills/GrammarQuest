@@ -6112,8 +6112,7 @@
           "well"
         ],
         "heartWords": [
-          "the",
-          "can"
+          "the"
         ],
         "sentenceType": "intro"
       },
@@ -6780,7 +6779,6 @@
         ],
         "heartWords": [
           "he",
-          "can",
           "the",
           "with",
           "of"
@@ -7057,8 +7055,7 @@
           "and",
           "but",
           "he",
-          "has",
-          "not"
+          "has"
         ],
         "sentenceType": "application"
       }
@@ -7188,7 +7185,6 @@
         ],
         "heartWords": [
           "the",
-          "can",
           "from"
         ],
         "sentenceType": "intro"
@@ -7329,7 +7325,6 @@
         ],
         "heartWords": [
           "the",
-          "can",
           "and",
           "on"
         ],
@@ -7589,9 +7584,7 @@
           "quest"
         ],
         "heartWords": [
-          "the",
-          "did",
-          "not"
+          "the"
         ],
         "sentenceType": "application"
       }
@@ -7745,7 +7738,6 @@
         ],
         "heartWords": [
           "the",
-          "can",
           "and",
           "on"
         ],
@@ -10452,8 +10444,7 @@
         "heartWords": [
           "the",
           "a",
-          "of",
-          "did"
+          "of"
         ],
         "sentenceType": "intro"
       },
@@ -10603,8 +10594,7 @@
           "the",
           "to",
           "for",
-          "they",
-          "did"
+          "they"
         ],
         "sentenceType": "application"
       }
@@ -14955,8 +14945,7 @@
         "heartWords": [
           "the",
           "on",
-          "and",
-          "not"
+          "and"
         ],
         "sentenceType": "application"
       }
@@ -16865,7 +16854,6 @@
           "by",
           "so",
           "he",
-          "can",
           "at"
         ],
         "sentenceType": "application"
@@ -17500,7 +17488,7 @@
             "q": "Find the conjunction that joins two ideas."
           },
           {
-            "w": "give",
+            "w": "gave",
             "t": "V",
             "q": "Find the verb that means to hand over."
           },
@@ -17742,7 +17730,7 @@
             "e": "A statement must end with a period."
           }
         ],
-        "fixed": "The dog broke a bone and runs home.",
+        "fixed": "The dog broke a bone and ran home.",
         "pos": [
           {
             "w": "The",
@@ -17775,7 +17763,7 @@
             "q": "Find the conjunction that joins two ideas."
           },
           {
-            "w": "runs",
+            "w": "ran",
             "t": "V",
             "q": "Find the verb that means to move fast."
           },
@@ -18419,7 +18407,7 @@
             "e": "A statement must end with a period."
           }
         ],
-        "fixed": "She shakes the phone and it made a big noise.",
+        "fixed": "She shook the phone and it made a big noise.",
         "pos": [
           {
             "w": "She",
@@ -18427,7 +18415,7 @@
             "q": "Find the pronoun that means a girl."
           },
           {
-            "w": "shakes",
+            "w": "shook",
             "t": "V",
             "q": "Find the verb that means to move back and forth."
           },
@@ -18655,7 +18643,6 @@
           "the",
           "on",
           "his",
-          "not",
           "a"
         ],
         "sentenceType": "intro"
@@ -18827,8 +18814,7 @@
           "to",
           "the",
           "but",
-          "that",
-          "can"
+          "that"
         ],
         "sentenceType": "application"
       }
@@ -19309,7 +19295,7 @@
             "e": "A statement must end with a period."
           }
         ],
-        "fixed": "Shane grabbed a chip and a grape and then he shakes the plate.",
+        "fixed": "Shane grabbed a chip and a grape and then he shook the plate.",
         "pos": [
           {
             "w": "Shane",
@@ -19362,7 +19348,7 @@
             "q": "Find the pronoun that means Shane."
           },
           {
-            "w": "shakes",
+            "w": "shook",
             "t": "V",
             "q": "Find the digraph + VCe verb."
           },
@@ -19870,7 +19856,7 @@
             "e": "A statement must end with a period."
           }
         ],
-        "fixed": "We sorted the corn and store it in the boxes for winter.",
+        "fixed": "We sorted the corn and stored it in the boxes for winter.",
         "pos": [
           {
             "w": "We",
@@ -19898,7 +19884,7 @@
             "q": "Find the conjunction."
           },
           {
-            "w": "store",
+            "w": "stored",
             "t": "V",
             "q": "Find the second verb."
           },
@@ -23456,7 +23442,7 @@
     "day": 83,
     "sentences": [
       {
-        "orig": "the bote floats down the rode to the lake",
+        "orig": "the bote floats down the rivur to the lake",
         "corr": [
           {
             "t": "capitalization",
@@ -23472,9 +23458,9 @@
           },
           {
             "t": "spelling",
-            "w": "rode",
-            "r": "road",
-            "e": "Road is spelled r-o-a-d. The 'oa' says /oh/."
+            "w": "rivur",
+            "r": "river",
+            "e": "River is a noun for a flowing body of water."
           },
           {
             "t": "grammar",
@@ -23489,7 +23475,7 @@
             "e": "A statement must end with a period."
           }
         ],
-        "fixed": "The boat floated down the road to the lake.",
+        "fixed": "The boat floated down the river to the lake.",
         "pos": [
           {
             "w": "The",
@@ -23620,7 +23606,7 @@
             "e": "A statement must end with a period."
           }
         ],
-        "fixed": "The toad sat on the road and croaked as the goat walks by in a coat.",
+        "fixed": "The toad sat on the road and croaked as the goat walked by in a coat.",
         "pos": [
           {
             "w": "The",
@@ -23678,7 +23664,7 @@
             "q": "Find the noun for a farm animal."
           },
           {
-            "w": "walks",
+            "w": "walked",
             "t": "V",
             "q": "Find the verb for moving on foot."
           },
@@ -25964,7 +25950,7 @@
             "e": "A statement must end with a period."
           }
         ],
-        "fixed": "The coins fall out of his pocket and rolled on the floor.",
+        "fixed": "The coins fell out of his pocket and rolled on the floor.",
         "pos": [
           {
             "w": "The",
@@ -25977,7 +25963,7 @@
             "q": "Find the noun for small round money."
           },
           {
-            "w": "fall",
+            "w": "fell",
             "t": "V",
             "q": "Find the first verb."
           },
@@ -26426,7 +26412,7 @@
             "e": "A statement must end with a period."
           }
         ],
-        "fixed": "The boys and girls enjoy played with the royal puppets at school.",
+        "fixed": "The boys and girls enjoyed playing with the royal puppets at school.",
         "pos": [
           {
             "w": "The",
@@ -26449,12 +26435,12 @@
             "q": "Find the second noun for people."
           },
           {
-            "w": "enjoy",
+            "w": "enjoyed",
             "t": "V",
             "q": "Find the verb that means to like."
           },
           {
-            "w": "played",
+            "w": "playing",
             "t": "V",
             "q": "Find the verb for having fun."
           },
@@ -26560,9 +26546,9 @@
           },
           {
             "t": "spelling",
-            "w": "lowd",
-            "r": "loud",
-            "e": "Loud is spelled l-o-u-d. The 'ou' says /ow/."
+            "w": "clowds",
+            "r": "clouds",
+            "e": "Clouds uses the 'ou' diphthong — c-l-o-u-d-s."
           },
           {
             "t": "spelling",
@@ -26583,7 +26569,7 @@
             "e": "A statement must end with a period."
           }
         ],
-        "fixed": "The loud clouds blocked out the sun all day.",
+        "fixed": "The dark clouds blocked out the sun all day.",
         "pos": [
           {
             "w": "The",
@@ -26591,9 +26577,9 @@
             "q": "Find the article at the beginning."
           },
           {
-            "w": "loud",
+            "w": "dark",
             "t": "ADJ",
-            "q": "Find the adjective that describes the clouds."
+            "q": "Find the adjective that describes the cdarks."
           },
           {
             "w": "clouds",
@@ -27024,7 +27010,7 @@
             "e": "A statement must end with a period."
           }
         ],
-        "fixed": "The clown frowns and took a bow as the crowd clapped and cheered loudly.",
+        "fixed": "The clown frowned and took a bow as the crowd clapped and cheered loudly.",
         "pos": [
           {
             "w": "The",
@@ -27037,7 +27023,7 @@
             "q": "Find the noun for a funny person."
           },
           {
-            "w": "frowns",
+            "w": "frowned",
             "t": "V",
             "q": "Find the verb for making a sad face."
           },
@@ -27319,7 +27305,7 @@
             "e": "A statement must end with a period."
           }
         ],
-        "fixed": "A few birds flew over the garden as we chew on fresh fruit by the creek.",
+        "fixed": "A few birds flew over the garden as we chewed on fresh fruit by the creek.",
         "pos": [
           {
             "w": "A",
@@ -27367,7 +27353,7 @@
             "q": "Find the pronoun."
           },
           {
-            "w": "chew",
+            "w": "chewed",
             "t": "V",
             "q": "Find the verb for eating slowly."
           },
@@ -27640,7 +27626,7 @@
             "e": "A statement must end with a period."
           }
         ],
-        "fixed": "The author pauses and then read the story about a dinosaur to the class.",
+        "fixed": "The author paused and then read the story about a dinosaur to the class.",
         "pos": [
           {
             "w": "The",
@@ -27653,7 +27639,7 @@
             "q": "Find the noun for a person who writes books."
           },
           {
-            "w": "pauses",
+            "w": "paused",
             "t": "V",
             "q": "Find the verb that means to stop briefly."
           },

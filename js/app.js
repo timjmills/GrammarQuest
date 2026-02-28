@@ -32,17 +32,23 @@ document.addEventListener('DOMContentLoaded', () => {
 
 function loadGradeData(grade) {
     fetch(GRADE_FILES[grade])
-        .then(r => r.json())
+        .then(r => { if (!r.ok) throw new Error('Failed to load'); return r.json(); })
         .then(data => {
             DATA = data;
             states = {};
-            currentDay = 1;
+            currentDay = data.length > 0 ? data[0].day : 1;
             renderDay();
+        })
+        .catch(() => {
+            DATA = [];
+            states = {};
+            document.getElementById('content').innerHTML = '<div class="card" style="text-align:center;padding:40px"><p style="font-size:1.2rem;color:#e53935">Error loading data. Please refresh the page.</p></div>';
         });
 }
 
 function switchGrade(grade) {
     if (grade === currentGrade) return;
+    if (popoutIdx !== null) closePopout();
     currentGrade = grade;
 
     // Update tab styling
@@ -1126,16 +1132,23 @@ ufliPrintSection +
     const blob = new Blob([html], { type: 'text/html' });
     const url = URL.createObjectURL(blob);
     const win = window.open(url, '_blank');
-    if (!win) { alert('Please allow popups to print worksheets.'); return; }
+    if (!win) { alert('Please allow popups to print worksheets.'); URL.revokeObjectURL(url); return; }
+    setTimeout(() => URL.revokeObjectURL(url), 60000);
 }
 
-function getMaxDay() { return DATA.length > 0 ? DATA[DATA.length - 1].day : 150; }
-function prevDay() { if (currentDay > 1) { currentDay--; renderDay(); } }
-function nextDay() { if (currentDay < getMaxDay()) { currentDay++; renderDay(); } }
+function getMaxDay() { return DATA.length > 0 ? DATA[DATA.length - 1].day : 1; }
+function prevDay() {
+    const idx = DATA.findIndex(d => d.day === currentDay);
+    if (idx > 0) { currentDay = DATA[idx - 1].day; renderDay(); }
+}
+function nextDay() {
+    const idx = DATA.findIndex(d => d.day === currentDay);
+    if (idx < DATA.length - 1) { currentDay = DATA[idx + 1].day; renderDay(); }
+}
 function goToDay() {
     const v = parseInt(document.getElementById('dayInput').value);
-    const max = getMaxDay();
-    if (v >= 1 && v <= max) { currentDay = v; renderDay(); }
+    const match = DATA.find(d => d.day === v);
+    if (match) { currentDay = v; renderDay(); }
 }
 
 function setSize(v) {
@@ -1153,6 +1166,7 @@ document.addEventListener('keydown', e => {
         return;
     }
     if (popoutIdx !== null) return;
+    if (document.activeElement && document.activeElement.tagName === 'INPUT') return;
     if (e.key === 'ArrowLeft') prevDay();
     if (e.key === 'ArrowRight') nextDay();
 });
