@@ -830,6 +830,43 @@ function formatSentence(sent, state) {
         }
     }
 
+    // In help mode, highlight remaining unrevealed errors
+    if (appMode === 'help' && corrCount < corrections.length) {
+        const remaining = corrections.slice(corrCount);
+        const highlights = [];
+        for (const c of remaining) {
+            if (c.w === '(missing)') continue;
+            const escaped = c.w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+            const re = new RegExp(`(?:^|\\s)(${escaped})(?=\\s|[.,!?;:]|$)`, 'gi');
+            const match = re.exec(result);
+            if (match) {
+                const pos = match.index + (match[0].length - match[1].length);
+                // Only highlight if not inside an existing HTML tag
+                const beforeMatch = result.substring(0, pos);
+                const openTags = (beforeMatch.match(/</g) || []).length;
+                const closeTags = (beforeMatch.match(/>/g) || []).length;
+                if (openTags <= closeTags) {
+                    highlights.push({ pos, len: match[1].length });
+                }
+            }
+        }
+        highlights.sort((a, b) => b.pos - a.pos);
+        const filtered = [];
+        let minStart = Infinity;
+        for (const h of highlights) {
+            if (h.pos + h.len <= minStart) {
+                filtered.push(h);
+                minStart = h.pos;
+            }
+        }
+        for (const h of filtered) {
+            const before = result.substring(0, h.pos);
+            const word = result.substring(h.pos, h.pos + h.len);
+            const after = result.substring(h.pos + h.len);
+            result = before + `<span class="help-highlight">${word}</span>` + after;
+        }
+    }
+
     return result;
 }
 
