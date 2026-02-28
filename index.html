@@ -35,10 +35,27 @@
         </div>
         <div class="controls">
             <button class="help-btn" onclick="showHelp()">Help Guide</button>
+            <div class="mode-toggle">
+                <label class="toggle-label" for="modeSwitch">
+                    <span class="toggle-text" id="modeLabel">Presentation</span>
+                    <input type="checkbox" id="modeSwitch" onchange="toggleMode(this.checked)">
+                    <span class="toggle-slider"></span>
+                </label>
+            </div>
             <div class="size-ctrl">
                 <span>Text Size:</span>
-                <input type="range" min="20" max="38" value="26" oninput="setSize(this.value)">
+                <input type="range" min="20" max="38" value="26" oninput="setSize(this.value)" id="sizeSlider">
                 <span class="size-val" id="sizeVal">26px</span>
+            </div>
+        </div>
+        <div class="dashboard" id="dashboard">
+            <div class="dash-progress">
+                <div class="dash-progress-bar"><div class="dash-progress-fill" id="dashFill" style="width:0%"></div></div>
+                <span class="dash-progress-text" id="dashText">0/150 days completed</span>
+            </div>
+            <div class="dash-stats">
+                <span class="dash-streak" id="dashStreak">0 day streak</span>
+                <button class="dash-review-btn" id="dashReviewBtn" onclick="toggleReviewMode()" style="display:none">Review (0)</button>
             </div>
         </div>
         <div id="content"></div>
@@ -168,6 +185,7 @@
             </div>
         </div>
     </div>
+    <script src="data/word-families.js" defer></script>
     <script src="js/app.js" defer></script>
 </body>
 </html>

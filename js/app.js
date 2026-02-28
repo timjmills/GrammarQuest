@@ -1,6 +1,8 @@
 let DATA = [];
 let currentDay = 1;
 let currentGrade = 'mixed';
+let interactiveMode = false;
+let reviewMode = false;
 
 const GRADE_FILES = {
     'mixed': 'data/days.json',
@@ -62,7 +64,255 @@ function buildPOSTags(orderedPOS) {
     return tags;
 }
 
+// ========== LOCALSTORAGE PERSISTENCE ==========
+const STORAGE_PREFIX = 'gq_';
+function saveState() {
+    try {
+        localStorage.setItem(STORAGE_PREFIX + 'states_' + currentGrade, JSON.stringify(states));
+        localStorage.setItem(STORAGE_PREFIX + 'day_' + currentGrade, currentDay);
+        localStorage.setItem(STORAGE_PREFIX + 'grade', currentGrade);
+        localStorage.setItem(STORAGE_PREFIX + 'mode', interactiveMode ? 'interactive' : 'presentation');
+        localStorage.setItem(STORAGE_PREFIX + 'textSize', document.documentElement.style.getPropertyValue('--size') || '26px');
+        // Save completed days
+        const completed = JSON.parse(localStorage.getItem(STORAGE_PREFIX + 'completed_' + currentGrade) || '[]');
+        localStorage.setItem(STORAGE_PREFIX + 'completed_' + currentGrade, JSON.stringify(completed));
+        // Save flagged sentences for review
+        const flagged = JSON.parse(localStorage.getItem(STORAGE_PREFIX + 'flagged_' + currentGrade) || '[]');
+        localStorage.setItem(STORAGE_PREFIX + 'flagged_' + currentGrade, JSON.stringify(flagged));
+        // Save writing responses
+        const writing = JSON.parse(localStorage.getItem(STORAGE_PREFIX + 'writing_' + currentGrade) || '{}');
+        localStorage.setItem(STORAGE_PREFIX + 'writing_' + currentGrade, JSON.stringify(writing));
+    } catch (e) { /* localStorage full or unavailable */ }
+}
+
+function loadSavedState() {
+    try {
+        const savedGrade = localStorage.getItem(STORAGE_PREFIX + 'grade');
+        if (savedGrade && GRADE_FILES[savedGrade]) {
+            currentGrade = savedGrade;
+        }
+        interactiveMode = localStorage.getItem(STORAGE_PREFIX + 'mode') === 'interactive';
+        const savedSize = localStorage.getItem(STORAGE_PREFIX + 'textSize');
+        if (savedSize) {
+            document.documentElement.style.setProperty('--size', savedSize);
+            const sizeNum = parseInt(savedSize);
+            const slider = document.getElementById('sizeSlider');
+            if (slider) slider.value = sizeNum;
+            const sizeVal = document.getElementById('sizeVal');
+            if (sizeVal) sizeVal.textContent = savedSize;
+        }
+        // Restore mode toggle UI
+        const modeSwitch = document.getElementById('modeSwitch');
+        if (modeSwitch) modeSwitch.checked = interactiveMode;
+        const modeLabel = document.getElementById('modeLabel');
+        if (modeLabel) modeLabel.textContent = interactiveMode ? 'Interactive' : 'Presentation';
+        // Restore streak
+        updateStreak();
+    } catch (e) { /* localStorage unavailable */ }
+}
+
+function loadSavedStates() {
+    try {
+        const saved = localStorage.getItem(STORAGE_PREFIX + 'states_' + currentGrade);
+        if (saved) states = JSON.parse(saved);
+        const savedDay = localStorage.getItem(STORAGE_PREFIX + 'day_' + currentGrade);
+        if (savedDay) currentDay = parseInt(savedDay);
+    } catch (e) { /* localStorage unavailable */ }
+}
+
+function markDayCompleted(day) {
+    try {
+        const key = STORAGE_PREFIX + 'completed_' + currentGrade;
+        const completed = JSON.parse(localStorage.getItem(key) || '[]');
+        if (!completed.includes(day)) {
+            completed.push(day);
+            localStorage.setItem(key, JSON.stringify(completed));
+        }
+        updateStreak();
+        updateDashboard();
+    } catch (e) {}
+}
+
+function getCompletedDays() {
+    try {
+        return JSON.parse(localStorage.getItem(STORAGE_PREFIX + 'completed_' + currentGrade) || '[]');
+    } catch (e) { return []; }
+}
+
+function flagForReview(day, sentIdx) {
+    try {
+        const key = STORAGE_PREFIX + 'flagged_' + currentGrade;
+        const flagged = JSON.parse(localStorage.getItem(key) || '[]');
+        const entry = `${day}-${sentIdx}`;
+        if (!flagged.includes(entry)) {
+            flagged.push(entry);
+            localStorage.setItem(key, JSON.stringify(flagged));
+        }
+        updateDashboard();
+    } catch (e) {}
+}
+
+function unflagForReview(day, sentIdx) {
+    try {
+        const key = STORAGE_PREFIX + 'flagged_' + currentGrade;
+        const flagged = JSON.parse(localStorage.getItem(key) || '[]');
+        const entry = `${day}-${sentIdx}`;
+        const idx = flagged.indexOf(entry);
+        if (idx !== -1) {
+            flagged.splice(idx, 1);
+            localStorage.setItem(key, JSON.stringify(flagged));
+        }
+        updateDashboard();
+    } catch (e) {}
+}
+
+function getFlaggedSentences() {
+    try {
+        return JSON.parse(localStorage.getItem(STORAGE_PREFIX + 'flagged_' + currentGrade) || '[]');
+    } catch (e) { return []; }
+}
+
+function saveWritingResponse(day, sentIdx, text) {
+    try {
+        const key = STORAGE_PREFIX + 'writing_' + currentGrade;
+        const writing = JSON.parse(localStorage.getItem(key) || '{}');
+        writing[`${day}-${sentIdx}`] = text;
+        localStorage.setItem(key, JSON.stringify(writing));
+    } catch (e) {}
+}
+
+function getWritingResponse(day, sentIdx) {
+    try {
+        const writing = JSON.parse(localStorage.getItem(STORAGE_PREFIX + 'writing_' + currentGrade) || '{}');
+        return writing[`${day}-${sentIdx}`] || '';
+    } catch (e) { return ''; }
+}
+
+// ========== STREAK TRACKING ==========
+function updateStreak() {
+    try {
+        const streakData = JSON.parse(localStorage.getItem(STORAGE_PREFIX + 'streak') || '{"count":0,"lastDate":""}');
+        const today = new Date().toISOString().split('T')[0];
+        const yesterday = new Date(Date.now() - 86400000).toISOString().split('T')[0];
+
+        if (streakData.lastDate === today) {
+            // Already counted today
+        } else if (streakData.lastDate === yesterday) {
+            // Continue streak
+            streakData.count++;
+            streakData.lastDate = today;
+        } else if (!streakData.lastDate) {
+            // First time
+            streakData.count = 1;
+            streakData.lastDate = today;
+        } else {
+            // Streak broken
+            streakData.count = 1;
+            streakData.lastDate = today;
+        }
+        localStorage.setItem(STORAGE_PREFIX + 'streak', JSON.stringify(streakData));
+        return streakData;
+    } catch (e) { return { count: 0, lastDate: '' }; }
+}
+
+function getStreak() {
+    try {
+        const streakData = JSON.parse(localStorage.getItem(STORAGE_PREFIX + 'streak') || '{"count":0,"lastDate":""}');
+        const today = new Date().toISOString().split('T')[0];
+        const yesterday = new Date(Date.now() - 86400000).toISOString().split('T')[0];
+        // If last activity was more than a day ago, streak is 0
+        if (streakData.lastDate !== today && streakData.lastDate !== yesterday) {
+            return 0;
+        }
+        return streakData.count;
+    } catch (e) { return 0; }
+}
+
+// ========== DASHBOARD ==========
+function updateDashboard() {
+    const completed = getCompletedDays();
+    const totalDays = DATA.length || 150;
+    const pct = Math.round((completed.length / totalDays) * 100);
+    const streak = getStreak();
+    const flagged = getFlaggedSentences();
+
+    const fill = document.getElementById('dashFill');
+    const text = document.getElementById('dashText');
+    const streakEl = document.getElementById('dashStreak');
+    const reviewBtn = document.getElementById('dashReviewBtn');
+
+    if (fill) fill.style.width = pct + '%';
+    if (text) text.textContent = `${completed.length}/${totalDays} days done`;
+    if (streakEl) {
+        if (streak > 0) {
+            streakEl.textContent = `\ud83d\udd25 ${streak} day streak!`;
+            streakEl.style.display = '';
+        } else {
+            streakEl.style.display = 'none';
+        }
+    }
+    if (reviewBtn) {
+        if (flagged.length > 0) {
+            reviewBtn.style.display = '';
+            reviewBtn.textContent = `Review (${flagged.length})`;
+            reviewBtn.classList.toggle('active', reviewMode);
+        } else {
+            reviewBtn.style.display = 'none';
+            if (reviewMode) {
+                reviewMode = false;
+                renderDay();
+            }
+        }
+    }
+}
+
+// ========== TEXT-TO-SPEECH ==========
+function speakText(text, rate) {
+    if (!window.speechSynthesis) return;
+    window.speechSynthesis.cancel();
+    const utterance = new SpeechSynthesisUtterance(text);
+    // Slower for younger grades
+    const youngGrades = ['prek', 'gradek', 'grade1', 'ufli'];
+    utterance.rate = rate || (youngGrades.includes(currentGrade) ? 0.8 : 0.95);
+    utterance.pitch = 1;
+
+    // Update button state
+    const btns = document.querySelectorAll('.tts-btn.speaking');
+    btns.forEach(b => b.classList.remove('speaking'));
+
+    utterance.onend = () => {
+        document.querySelectorAll('.tts-btn.speaking').forEach(b => b.classList.remove('speaking'));
+    };
+    window.speechSynthesis.speak(utterance);
+}
+
+function speakSentence(idx) {
+    const lesson = DATA.find(d => d.day === currentDay);
+    if (!lesson) return;
+    const sent = lesson.sentences[idx];
+    const state = states[`${currentDay}-${idx}`];
+    // Read the fixed sentence if corrections are done, otherwise the original
+    const text = (state && state.phase >= 2) ? sent.fixed : sent.orig;
+    // Clean HTML tags from text
+    const clean = text.replace(/<[^>]+>/g, '');
+
+    const btn = document.querySelector(`#tts-${idx}`);
+    if (btn) btn.classList.add('speaking');
+    speakText(clean);
+}
+
+function speakWord(word) {
+    speakText(word, 0.7);
+}
+
+// ========== INIT ==========
 document.addEventListener('DOMContentLoaded', () => {
+    loadSavedState();
+    // Update grade tab UI
+    document.querySelectorAll('.grade-tab').forEach(t => t.classList.remove('active'));
+    const tab = document.getElementById('tab-' + currentGrade);
+    if (tab) tab.classList.add('active');
+    document.getElementById('segmentBadge').textContent = GRADE_LABELS[currentGrade];
     loadGradeData(currentGrade);
 });
 
@@ -72,8 +322,13 @@ function loadGradeData(grade) {
         .then(data => {
             DATA = data;
             states = {};
-            currentDay = data.length > 0 ? data[0].day : 1;
+            loadSavedStates();
+            // Validate saved day exists in data
+            if (!DATA.find(d => d.day === currentDay)) {
+                currentDay = data.length > 0 ? data[0].day : 1;
+            }
             renderDay();
+            updateDashboard();
         })
         .catch(() => {
             DATA = [];
@@ -85,6 +340,8 @@ function loadGradeData(grade) {
 function switchGrade(grade) {
     if (grade === currentGrade) return;
     if (popoutIdx !== null) closePopout();
+    // Save current grade state before switching
+    saveState();
     currentGrade = grade;
 
     // Update tab styling
@@ -95,18 +352,29 @@ function switchGrade(grade) {
     document.getElementById('segmentBadge').textContent = GRADE_LABELS[grade];
 
     // Update help periods visibility
-    document.getElementById('help-mixed-periods').style.display = grade === 'mixed' ? '' : 'none';
-    document.getElementById('help-prek-periods').style.display = grade === 'prek' ? '' : 'none';
-    document.getElementById('help-ufli-periods').style.display = grade === 'ufli' ? '' : 'none';
-    document.getElementById('help-gradek-periods').style.display = grade === 'gradek' ? '' : 'none';
-    document.getElementById('help-grade1-periods').style.display = grade === 'grade1' ? '' : 'none';
-    document.getElementById('help-grade2-periods').style.display = grade === 'grade2' ? '' : 'none';
-    document.getElementById('help-grade3-periods').style.display = grade === 'grade3' ? '' : 'none';
-    document.getElementById('help-grade4-periods').style.display = grade === 'grade4' ? '' : 'none';
-    document.getElementById('help-grade5-periods').style.display = grade === 'grade5' ? '' : 'none';
+    const helpIds = ['mixed','prek','ufli','gradek','grade1','grade2','grade3','grade4','grade5'];
+    helpIds.forEach(id => {
+        const el = document.getElementById('help-' + id + '-periods');
+        if (el) el.style.display = id === grade ? '' : 'none';
+    });
 
-    // Load new data
+    reviewMode = false;
     loadGradeData(grade);
+}
+
+// ========== MODE TOGGLE ==========
+function toggleMode(checked) {
+    interactiveMode = checked;
+    const label = document.getElementById('modeLabel');
+    if (label) label.textContent = interactiveMode ? 'Interactive' : 'Presentation';
+    saveState();
+    renderDay();
+}
+
+function toggleReviewMode() {
+    reviewMode = !reviewMode;
+    updateDashboard();
+    renderDay();
 }
 
 // ========== APP STATE & FUNCTIONS ==========
@@ -115,21 +383,16 @@ let popoutIdx = null;
 
 // RULE 1: EXACTLY 5 errors per sentence (hardcoded limit)
 const MAX_ERRORS = 5;
-const EXACT_ERRORS = 5; // Sentences should have exactly this many errors
+const EXACT_ERRORS = 5;
 function getCorrections(sent) {
-    // Enforce exactly 5 errors - take first 5 if more exist
     return sent.corr.slice(0, MAX_ERRORS);
 }
 
 // RULE 2: Sort POS by TYPE PRIORITY first, then left-to-right within each type
-// Priority Order: 1) Nouns 2) Verbs 3) Adjectives 4) Adverbs 5) Prepositions 6) Others
 function getOrderedPOS(sent) {
     const fixed = sent.fixed.toLowerCase();
-
-    // HARDCODED POS TYPE PRIORITY ORDER
     const TYPE_PRIORITY = ['N', 'V', 'ADJ', 'ADV', 'PREP', 'PRO', 'OBJPRO', 'CONJ', 'SUBCONJ', 'ART', 'DEM', 'POSS', 'PP', 'RELPRO', 'PASS', 'MODAL'];
 
-    // Find position of each word in the fixed sentence, handling duplicate words
     const usedPositions = new Set();
     const posWithIndex = sent.pos.map((p, origIdx) => {
         const word = p.w.toLowerCase();
@@ -144,37 +407,27 @@ function getOrderedPOS(sent) {
         return { ...p, position: pos >= 0 ? pos : 9999, origIdx };
     });
 
-    // SORT BY: 1) Type priority, then 2) Left-to-right position within each type
     posWithIndex.sort((a, b) => {
         const aTypeIdx = TYPE_PRIORITY.indexOf(a.t.toUpperCase());
         const bTypeIdx = TYPE_PRIORITY.indexOf(b.t.toUpperCase());
         const aPriority = aTypeIdx >= 0 ? aTypeIdx : 999;
         const bPriority = bTypeIdx >= 0 ? bTypeIdx : 999;
-
-        // First sort by type priority
         if (aPriority !== bPriority) return aPriority - bPriority;
-        // Then sort left-to-right within same type
         return a.position - b.position;
     });
 
-    // Group by type and add numbering
     const typeCounts = {};
     const typeCurrentNum = {};
-
-    // First pass: count each type
     posWithIndex.forEach(p => {
         const t = p.t.toUpperCase();
         typeCounts[t] = (typeCounts[t] || 0) + 1;
     });
 
-    // Second pass: add numbering with left-to-right questions
     return posWithIndex.map(p => {
         const t = p.t.toUpperCase();
         typeCurrentNum[t] = (typeCurrentNum[t] || 0) + 1;
         const total = typeCounts[t];
         const current = typeCurrentNum[t];
-
-        // Generate question based on type and count using proper label
         const typeLabel = getTypeLabel(t);
         let question;
         if (total === 1) {
@@ -182,7 +435,6 @@ function getOrderedPOS(sent) {
         } else {
             question = `Find ${typeLabel} ${current} of ${total}`;
         }
-
         return { ...p, q: question, typeNum: current, typeTotal: total };
     });
 }
@@ -199,7 +451,6 @@ function getTypeLabel(t) {
     return labels[t] || t.toLowerCase();
 }
 
-// Get the badge label for display (uppercase)
 function getTypeBadge(t) {
     const badges = {
         'N': 'NOUN', 'V': 'VERB', 'ADJ': 'ADJ', 'PRO': 'PRONOUN',
@@ -212,7 +463,6 @@ function getTypeBadge(t) {
     return badges[t] || t;
 }
 
-// Get the short abbreviation for header display
 function getTypeAbbr(t) {
     const abbrs = {
         'N': 'N', 'V': 'V', 'ADJ': 'ADJ', 'PRO': 'PRO',
@@ -225,7 +475,6 @@ function getTypeAbbr(t) {
     return abbrs[t] || t;
 }
 
-// Brief descriptions for POS tooltips on hover
 function getPOSDesc(t) {
     const descs = {
         'N': 'Noun \u2013 a person, place, thing, or idea',
@@ -263,8 +512,29 @@ function getCSSClass(t) {
 function buildUfliPanel(sent) {
     const typeLabel = sent.sentenceType === 'intro' ? 'Intro' : 'Application';
     const typeClass = sent.sentenceType === 'intro' ? 'intro' : 'app';
-    const phonicsChips = (sent.phonicsWords || []).map(w => `<span class="ufli-word-chip">${w}</span>`).join('');
-    const heartChips = (sent.heartWords || []).map(w => `<span class="ufli-heart-chip">${w}</span>`).join('');
+    const phonicsChips = (sent.phonicsWords || []).map(w =>
+        `<span class="ufli-word-chip clickable" onclick="speakWord('${w.replace(/'/g, "\\'")}')">${w}</span>`
+    ).join('');
+    const heartChips = (sent.heartWords || []).map(w =>
+        `<span class="ufli-heart-chip clickable" onclick="speakWord('${w.replace(/'/g, "\\'")}')">${w}</span>`
+    ).join('');
+
+    // Word families
+    let wordFamiliesHtml = '';
+    if (typeof WORD_FAMILIES !== 'undefined' && sent.ufliSkill && WORD_FAMILIES[sent.ufliSkill]) {
+        const families = WORD_FAMILIES[sent.ufliSkill].families;
+        if (families && families.length > 0) {
+            wordFamiliesHtml = '<div class="word-families"><div class="wf-label">Word Families</div>';
+            families.forEach(f => {
+                wordFamiliesHtml += '<div class="wf-group"><span class="wf-pattern">' + f.pattern + ':</span>';
+                f.words.forEach(w => {
+                    wordFamiliesHtml += `<span class="wf-word" onclick="speakWord('${w.replace(/'/g, "\\'")}')">${w}</span>`;
+                });
+                wordFamiliesHtml += '</div>';
+            });
+            wordFamiliesHtml += '</div>';
+        }
+    }
 
     return `<div class="ufli-panel">
         <div class="ufli-top-row">
@@ -274,17 +544,58 @@ function buildUfliPanel(sent) {
         </div>
         <div class="ufli-words-row">
             <div class="ufli-words-section">
-                <div class="ufli-word-label">Phonics Words</div>
+                <div class="ufli-word-label">Phonics Words (tap to hear)</div>
                 <div class="ufli-word-list">${phonicsChips}</div>
             </div>
             <div class="ufli-words-section">
-                <div class="ufli-word-label">Heart Words</div>
+                <div class="ufli-word-label">Heart Words (tap to hear)</div>
                 <div class="ufli-word-list">${heartChips}</div>
             </div>
         </div>
+        ${wordFamiliesHtml}
     </div>`;
 }
 
+// ========== SENTENCE DIAGRAMMING (Grades 3-5) ==========
+function buildDiagram(sent) {
+    const diagramGrades = ['grade3', 'grade4', 'grade5', 'mixed'];
+    if (!diagramGrades.includes(currentGrade)) return '';
+
+    const orderedPOS = getOrderedPOS(sent);
+    const words = sent.fixed.split(/\s+/);
+
+    // Find main verb position
+    let verbIdx = -1;
+    const posMap = {};
+    orderedPOS.forEach(p => {
+        const word = p.w.toLowerCase();
+        for (let i = 0; i < words.length; i++) {
+            if (words[i].toLowerCase().replace(/[.,!?;:]/g, '') === word && !posMap[i]) {
+                posMap[i] = p.t.toUpperCase();
+                if (verbIdx === -1 && ['V', 'MODAL', 'PASS'].includes(p.t.toUpperCase())) {
+                    verbIdx = i;
+                }
+                break;
+            }
+        }
+    });
+
+    if (verbIdx === -1) return '';
+
+    const subject = words.slice(0, verbIdx).join(' ') || '(implied)';
+    const verb = words[verbIdx];
+    const rest = words.slice(verbIdx + 1).join(' ') || '\u2014';
+
+    return `<div class="section diagram-section">
+        <div class="diagram-title">Sentence Diagram</div>
+        <table class="diagram-table">
+            <tr><th>Subject</th><th>Verb</th><th>Rest of Sentence</th></tr>
+            <tr><td>${subject}</td><td><strong>${verb}</strong></td><td>${rest}</td></tr>
+        </table>
+    </div>`;
+}
+
+// ========== RENDER DAY ==========
 function renderDay() {
     const lesson = DATA.find(d => d.day === currentDay);
     if (!lesson) return;
@@ -298,16 +609,30 @@ function renderDay() {
     document.getElementById('prevBtn').disabled = currentDay <= 1;
     document.getElementById('nextBtn').disabled = currentDay >= getMaxDay();
 
+    // Check if all sentences for this day are complete
+    let allComplete = true;
+
     let html = '';
-    lesson.sentences.forEach((sent, idx) => {
+
+    // In review mode, show only flagged sentences
+    const flagged = getFlaggedSentences();
+    const sentencesToShow = reviewMode
+        ? lesson.sentences.map((s, i) => ({ sent: s, idx: i })).filter(x => flagged.includes(`${currentDay}-${x.idx}`))
+        : lesson.sentences.map((s, i) => ({ sent: s, idx: i }));
+
+    if (reviewMode && sentencesToShow.length === 0) {
+        html = '<div class="card" style="text-align:center;padding:40px"><p style="font-size:1.1rem;color:var(--muted)">No sentences to review on this day. Use the arrows to check other days.</p></div>';
+    }
+
+    sentencesToShow.forEach(({ sent, idx }) => {
         const key = `${currentDay}-${idx}`;
         if (!states[key]) states[key] = { phase: 0, step: 0 };
         const state = states[key];
 
-        // Use helper functions for corrections and POS
+        if (state.phase < 7) allComplete = false;
+
         const corrections = getCorrections(sent);
         const orderedPOS = getOrderedPOS(sent);
-
         const tags = buildPOSTags(orderedPOS);
 
         // Build UFLI panel if in UFLI mode
@@ -323,28 +648,38 @@ function renderDay() {
                 <span class="find-label">
                     Find <span class="tag err">${corrections.length} errors</span> and ${tags}
                 </span>
+                <button class="tts-btn" id="tts-${idx}" onclick="speakSentence(${idx})" title="Read aloud" aria-label="Read sentence aloud">\ud83d\udd0a</button>
                 <button class="popout-btn" onclick="openPopout(${idx})" title="Open as individual lesson" aria-label="Open as individual lesson">&#x26F6;</button>
                 <button class="print-btn" onclick="printWorksheet(${idx})" title="Print worksheet" aria-label="Print worksheet">&#x1F5A8;</button>
+                <button class="print-btn" onclick="printWorksheet(${idx}, true)" title="Print answer key" aria-label="Print answer key" style="color:#e53935">&#x1F511;</button>
             </div>
             ${ufliPanel}
             <div class="sentence-display" id="sent-${idx}">${formatSentence(sent, state)}</div>
             <div class="btn-row">
                 <button class="check-btn ${state.phase>=7?'complete':''}" id="btn-${idx}" onclick="advance(${idx})">${getBtnText(state, sent)}</button>
-                <button class="reset-btn" onclick="reset(${idx})">Reset</button>
+                <button class="reset-btn" onclick="resetSentence(${idx})">Reset</button>
             </div>
+            <div id="interactive-${idx}"></div>
             <div id="vocab-${idx}"></div>
             <div id="manip-${idx}"></div>
             <div id="pos-${idx}"></div>
+            <div id="diagram-${idx}"></div>
             <div id="corr-${idx}"></div>
         </div>`;
     });
     document.getElementById('content').innerHTML = html;
 
-    lesson.sentences.forEach((sent, idx) => restore(idx, sent));
+    sentencesToShow.forEach(({ sent, idx }) => restore(idx, sent));
+
+    if (allComplete && sentencesToShow.length > 0 && !reviewMode) {
+        markDayCompleted(currentDay);
+    }
+
+    saveState();
+    updateDashboard();
 }
 
 function formatSentence(sent, state) {
-    // Get limited corrections and ordered POS
     const corrections = getCorrections(sent);
     const orderedPOS = getOrderedPOS(sent);
 
@@ -354,8 +689,6 @@ function formatSentence(sent, state) {
         const posCount = Math.min(state.step - corrections.length, orderedPOS.length);
         const revealed = orderedPOS.slice(0, posCount);
 
-        // Collect all annotations on plain text BEFORE building any HTML
-        // This prevents regex from matching inside HTML attributes/tags
         const annotations = [];
         const usedPositions = new Set();
 
@@ -371,7 +704,7 @@ function formatSentence(sent, state) {
             }
         }
 
-        // POS labels - match on plain text so we never corrupt HTML
+        // POS labels
         revealed.forEach(p => {
             const escaped = p.w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
             const re = new RegExp(`\\b${escaped}\\b`, 'gi');
@@ -385,7 +718,6 @@ function formatSentence(sent, state) {
             }
         });
 
-        // Apply all annotations from end to start so positions stay valid
         annotations.sort((a, b) => b.pos - a.pos);
         let result = plainText;
         annotations.forEach(a => {
@@ -407,55 +739,28 @@ function formatSentence(sent, state) {
         return sent.orig;
     }
 
-    // Helper function to find word/phrase position with word boundaries
     function findPosition(text, searchTerm) {
-        // Escape special regex characters but keep spaces
         const escaped = searchTerm.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-        // Use capturing group instead of lookbehind for Safari compatibility
         const re = new RegExp(`(?:^|\\s)(${escaped})(?=\\s|$)`, 'gi');
         const match = re.exec(text);
         if (!match) return -1;
-        // If matched after whitespace, return the position of the captured word (not the space)
         return match.index + (match[0].length - match[1].length);
     }
 
-    // Build a list of corrections with their positions in the original text
     let correctionsList = [];
-
     for (let i = 0; i < corrCount; i++) {
         const c = corrections[i];
         const isLatest = (i === corrCount - 1);
+        if (c.t === 'punctuation' && (c.w === '(missing)' || (c.r.length > c.w.length && c.r.toLowerCase().startsWith(c.w.toLowerCase())))) continue;
+        if (c.t !== 'capitalization' && c.w.toLowerCase() === c.r.toLowerCase()) continue;
 
-        // Skip ALL punctuation corrections - handled after the main loop
-        // This covers both "(missing)" format AND "word+punct" format (e.g. yesterday -> yesterday.)
-        if (c.t === 'punctuation' && (c.w === '(missing)' || (c.r.length > c.w.length && c.r.toLowerCase().startsWith(c.w.toLowerCase())))) {
-            continue;
-        }
-
-        // Skip if wrong and right are identical (but NOT for capitalization - those differ only in case)
-        if (c.t !== 'capitalization' && c.w.toLowerCase() === c.r.toLowerCase()) {
-            continue;
-        }
-
-        // Find position using word boundary matching
         const pos = findPosition(sent.orig.toLowerCase(), c.w.toLowerCase());
-
         if (pos !== -1) {
-            correctionsList.push({
-                pos: pos,
-                len: c.w.length,
-                wrong: sent.orig.substr(pos, c.w.length),
-                right: c.r,
-                isLatest: isLatest,
-                type: c.t
-            });
+            correctionsList.push({ pos, len: c.w.length, wrong: sent.orig.substr(pos, c.w.length), right: c.r, isLatest, type: c.t });
         }
     }
 
-    // Sort by position for overlap detection
     correctionsList.sort((a, b) => a.pos - b.pos);
-
-    // Remove overlapping corrections (keep the first one)
     let toApply = [];
     let lastEnd = -1;
     for (const corr of correctionsList) {
@@ -464,35 +769,28 @@ function formatSentence(sent, state) {
             lastEnd = corr.pos + corr.len;
         }
     }
-
-    // Sort by position descending for string replacement (end to beginning)
     toApply.sort((a, b) => b.pos - a.pos);
 
-    // Apply corrections from end to beginning
     let result = sent.orig;
     for (const corr of toApply) {
         const pulseClass = corr.isLatest ? ' inline-pulse' : '';
         const before = result.substring(0, corr.pos);
         const after = result.substring(corr.pos + corr.len);
-        // Use different color classes based on correction type
-        let rightClass = 'inline-right'; // default green for spelling/grammar
+        let rightClass = 'inline-right';
         if (corr.type === 'capitalization') rightClass = 'inline-cap';
         else if (corr.type === 'punctuation') rightClass = 'inline-punct';
         const replacement = `<span class="inline-corr"><span class="inline-wrong">${corr.wrong}</span><span class="${rightClass}${pulseClass}">${corr.right}</span></span>`;
         result = before + replacement + after;
     }
 
-    // Add punctuation if that correction has been revealed
     for (let i = 0; i < corrCount; i++) {
         const c = corrections[i];
         if (c.t === 'punctuation') {
             const isLatest = (i === corrCount - 1);
             const pulseClass = isLatest ? ' inline-pulse' : '';
             if (c.w === '(missing)') {
-                // Mixed grade format: append to end
                 result = result.trim() + `<span class="inline-punct${pulseClass}">${c.r}</span>`;
             } else if (c.r.length > c.w.length && c.r.toLowerCase().startsWith(c.w.toLowerCase())) {
-                // Grade 4/5 format: word + punctuation mark
                 const punct = c.r.slice(c.w.length);
                 const escaped = c.w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
                 const re = new RegExp(`(${escaped})(?![^<]*>)`, 'i');
@@ -535,17 +833,15 @@ function restore(idx, sent) {
     const state = states[`${currentDay}-${idx}`];
     if (!state) return;
 
-    // Use helper functions for corrections and POS
     const corrections = getCorrections(sent);
     const orderedPOS = getOrderedPOS(sent);
     const totalCorr = corrections.length;
     const totalPOS = orderedPOS.length;
     const totalManipEx = sent.manip.examples.length;
 
-    // Update sentence display
     document.getElementById(`sent-${idx}`).innerHTML = formatSentence(sent, state);
 
-    // Corrections - newest on top (use limited corrections)
+    // Corrections panel
     if (state.step > 0) {
         const count = Math.min(state.step, totalCorr);
         if (count > 0) {
@@ -560,7 +856,7 @@ function restore(idx, sent) {
         document.getElementById(`corr-${idx}`).innerHTML = '';
     }
 
-    // POS - use ordered POS (left to right), newest revealed on top for display
+    // POS panel
     if (state.phase >= 2) {
         const posCount = Math.min(state.step - totalCorr, totalPOS);
         if (posCount > 0) {
@@ -579,29 +875,21 @@ function restore(idx, sent) {
         document.getElementById(`pos-${idx}`).innerHTML = '';
     }
 
-    // Manipulation - show task first, then examples one at a time
+    // Manipulation
     if (state.phase >= 3) {
         const m = sent.manip;
         let examplesHtml = '';
-
-        // Calculate how many examples to show
         let exCount = 0;
-        if (state.phase >= 4) {
-            exCount = 1; // First example
-        }
+        if (state.phase >= 4) exCount = 1;
         if (state.phase >= 5) {
-            // Additional examples
             exCount = state.step - totalCorr - totalPOS - 1;
             exCount = Math.min(exCount, totalManipEx);
         }
-
-        // Build examples HTML - newest on top
         if (exCount > 0) {
             for (let i = exCount - 1; i >= 0; i--) {
                 examplesHtml += `<div class="manip-example">${m.examples[i]}</div>`;
             }
         }
-
         document.getElementById(`manip-${idx}`).innerHTML = `
         <div class="section manip-section">
             <div class="manip-title">Sentence Manipulation</div>
@@ -614,9 +902,10 @@ function restore(idx, sent) {
         document.getElementById(`manip-${idx}`).innerHTML = '';
     }
 
-    // Vocabulary
+    // Vocabulary with sentence starter input
     if (state.phase >= 6) {
         const v = sent.vocab;
+        const savedWriting = getWritingResponse(currentDay, idx);
         document.getElementById(`vocab-${idx}`).innerHTML = `
         <div class="section vocab-section">
             <div class="vocab-header">Vocabulary Word</div>
@@ -624,6 +913,7 @@ function restore(idx, sent) {
                 <span class="vocab-star">\u2b50</span>
                 <span class="vocab-word">${v.w}</span>
                 <span class="vocab-type">${v.type}</span>
+                <button class="tts-btn" onclick="speakWord('${v.w.replace(/'/g, "\\'")}')" title="Hear this word" aria-label="Hear vocabulary word">\ud83d\udd0a</button>
             </div>
             <div class="vocab-row">
                 <div class="vocab-label">\ud83d\udcd8 Definition:</div>
@@ -656,6 +946,8 @@ function restore(idx, sent) {
             <div class="vocab-starter">
                 <div class="vocab-starter-label">ELL Sentence Starter - Try it!</div>
                 <div class="vocab-starter-text">${v.starter}</div>
+                <textarea class="vocab-starter-input" placeholder="Type your sentence here..." oninput="saveWritingResponse(${currentDay}, ${idx}, this.value)">${savedWriting}</textarea>
+                <div class="vocab-starter-count">${savedWriting.length} characters</div>
             </div>
             <div class="vocab-why">
                 <span class="vocab-why-icon">\ud83d\udca1</span>
@@ -669,10 +961,163 @@ function restore(idx, sent) {
         document.getElementById(`vocab-${idx}`).innerHTML = '';
     }
 
+    // Sentence diagram (grades 3-5, after corrections)
+    if (state.phase >= 2) {
+        document.getElementById(`diagram-${idx}`).innerHTML = buildDiagram(sent);
+    } else {
+        document.getElementById(`diagram-${idx}`).innerHTML = '';
+    }
+
+    // Interactive mode hint
+    const interactiveEl = document.getElementById(`interactive-${idx}`);
+    if (interactiveEl) {
+        if (interactiveMode && state.phase < 7) {
+            interactiveEl.innerHTML = buildInteractiveHint(sent, state, idx);
+        } else {
+            interactiveEl.innerHTML = '';
+        }
+    }
+
     const btn = document.getElementById(`btn-${idx}`);
     btn.textContent = getBtnText(state, sent);
     btn.classList.toggle('complete', state.phase >= 7);
     btn.disabled = state.phase >= 7;
+}
+
+// ========== INTERACTIVE MODE ==========
+function buildInteractiveHint(sent, state, idx) {
+    const corrections = getCorrections(sent);
+    const orderedPOS = getOrderedPOS(sent);
+    const totalCorr = corrections.length;
+
+    // During correction phase - show error type hint
+    if (state.phase === 0 && state.step < totalCorr) {
+        const nextCorr = corrections[state.step];
+        const typeEmoji = {
+            'capitalization': '\ud83d\udd20',
+            'spelling': '\ud83d\udcdd',
+            'punctuation': '\u2753',
+            'grammar': '\ud83d\udcd6'
+        };
+        const typeNames = {
+            'capitalization': 'capital letter',
+            'spelling': 'spelling',
+            'punctuation': 'punctuation',
+            'grammar': 'grammar'
+        };
+        const emoji = typeEmoji[nextCorr.t] || '\ud83d\udd0d';
+        const typeName = typeNames[nextCorr.t] || nextCorr.t;
+
+        const idxArg = typeof idx === 'string' ? `'${idx}'` : idx;
+        return `<div class="interactive-hint">
+            <span class="hint-icon">${emoji}</span>
+            <div>
+                <div class="hint-text">Hint: Look for a ${typeName} mistake!</div>
+                <div class="interactive-input-row">
+                    <input class="interactive-input" id="guess-${idx}" placeholder="Type the correct word..." onkeydown="if(event.key==='Enter')checkGuess(${idxArg})">
+                    <button class="interactive-submit" onclick="checkGuess(${idxArg})">Check</button>
+                </div>
+                <div id="feedback-${idx}"></div>
+            </div>
+        </div>`;
+    }
+
+    // During POS phase - show clickable words
+    if (state.phase === 2) {
+        const posStep = state.step - totalCorr;
+        if (posStep < orderedPOS.length) {
+            const nextPOS = orderedPOS[posStep];
+            const words = sent.fixed.split(/\s+/);
+            const idxArg2 = typeof idx === 'string' ? `'${idx}'` : idx;
+            const wordBtns = words.map((w, i) =>
+                `<span class="pos-clickable" onclick="checkPOSClick(${idxArg2}, '${w.replace(/'/g, "\\'")}', ${i})">${w}</span>`
+            ).join(' ');
+
+            return `<div class="interactive-hint">
+                <span class="hint-icon">\ud83c\udfaf</span>
+                <div>
+                    <div class="hint-text">${nextPOS.q} \u2014 tap the right word!</div>
+                    <div style="font-family:'Crimson Pro',Georgia,serif;font-size:calc(var(--size) * 0.8);line-height:2.2;margin-top:8px">${wordBtns}</div>
+                    <div id="feedback-${idx}"></div>
+                </div>
+            </div>`;
+        }
+    }
+
+    return '';
+}
+
+let _interactivePending = false;
+function checkGuess(idx) {
+    if (_interactivePending) return;
+    const isPopout = idx === 'popout';
+    const realIdx = isPopout ? popoutIdx : idx;
+
+    const input = document.getElementById(`guess-${idx}`);
+    const feedback = document.getElementById(`feedback-${idx}`);
+    if (!input || !feedback) return;
+
+    const guess = input.value.trim();
+    if (!guess) return;
+
+    const lesson = DATA.find(d => d.day === currentDay);
+    const sent = lesson.sentences[realIdx];
+    const state = states[`${currentDay}-${realIdx}`];
+    const corrections = getCorrections(sent);
+    const nextCorr = corrections[state.step];
+
+    const isCorrect = guess.toLowerCase() === nextCorr.r.toLowerCase();
+
+    if (isCorrect) {
+        feedback.innerHTML = `<div class="interactive-feedback correct">\u2705 Correct! "${nextCorr.r}"</div>`;
+    } else {
+        feedback.innerHTML = `<div class="interactive-feedback incorrect">\u274c Not quite. The answer is: "${nextCorr.r}"</div>`;
+    }
+
+    _interactivePending = true;
+    setTimeout(() => {
+        _interactivePending = false;
+        if (isPopout) advancePopout(); else advance(realIdx);
+    }, 1200);
+}
+
+function checkPOSClick(idx, clickedWord, wordIdx) {
+    if (_interactivePending) return;
+    const isPopout = idx === 'popout';
+    const realIdx = isPopout ? popoutIdx : idx;
+
+    const lesson = DATA.find(d => d.day === currentDay);
+    const sent = lesson.sentences[realIdx];
+    const state = states[`${currentDay}-${realIdx}`];
+    const corrections = getCorrections(sent);
+    const orderedPOS = getOrderedPOS(sent);
+    const totalCorr = corrections.length;
+    const posStep = state.step - totalCorr;
+    const nextPOS = orderedPOS[posStep];
+
+    const feedback = document.getElementById(`feedback-${idx}`);
+    const cleanClicked = clickedWord.replace(/[.,!?;:]/g, '').toLowerCase();
+    const isCorrect = cleanClicked === nextPOS.w.toLowerCase();
+
+    const containerId = isPopout ? 'popout-interactive' : `interactive-${idx}`;
+    const clickables = document.querySelectorAll(`#${containerId} .pos-clickable`);
+    clickables.forEach((el, i) => {
+        if (i === wordIdx) {
+            el.classList.add(isCorrect ? 'correct-pick' : 'wrong-pick');
+        }
+    });
+
+    if (isCorrect) {
+        if (feedback) feedback.innerHTML = `<div class="interactive-feedback correct">\u2705 Yes! "${nextPOS.w}" is a ${getTypeLabel(nextPOS.t.toUpperCase())}!</div>`;
+    } else {
+        if (feedback) feedback.innerHTML = `<div class="interactive-feedback incorrect">\u274c The ${getTypeLabel(nextPOS.t.toUpperCase())} is "${nextPOS.w}"</div>`;
+    }
+
+    _interactivePending = true;
+    setTimeout(() => {
+        _interactivePending = false;
+        if (isPopout) advancePopout(); else advance(realIdx);
+    }, 1200);
 }
 
 function renderCorr(c, i, total) {
@@ -686,7 +1131,6 @@ function advance(idx) {
     const key = `${currentDay}-${idx}`;
     const state = states[key];
 
-    // Use helper functions for consistent limits
     const corrections = getCorrections(sent);
     const orderedPOS = getOrderedPOS(sent);
     const totalCorr = corrections.length;
@@ -695,50 +1139,70 @@ function advance(idx) {
 
     state.step++;
 
-    // Phase logic:
-    // 0 = corrections
-    // 2 = POS reveal
-    // 3 = manipulation highlight + task
-    // 4 = first example
-    // 5 = remaining examples (one at a time)
-    // 6 = vocabulary
-    // 7 = complete
-
     if (state.step <= totalCorr) {
         state.phase = 0;
     } else if (state.step <= totalCorr + totalPOS) {
         state.phase = 2;
     } else if (state.step === totalCorr + totalPOS + 1) {
-        state.phase = 3; // Show manipulation highlight + task
+        state.phase = 3;
     } else if (state.step === totalCorr + totalPOS + 2) {
-        state.phase = 4; // Show first example
+        state.phase = 4;
     } else if (state.step <= totalCorr + totalPOS + 1 + totalManipEx) {
-        state.phase = 5; // Show remaining examples
+        state.phase = 5;
     } else if (state.step === totalCorr + totalPOS + 2 + totalManipEx) {
-        state.phase = 6; // Show vocabulary
+        state.phase = 6;
     } else {
-        state.phase = 7; // Complete
+        state.phase = 7;
+        unflagForReview(currentDay, idx);
+        checkAllComplete();
     }
 
+    saveState();
     restore(idx, sent);
 }
 
-function reset(idx) {
+function checkAllComplete() {
+    const lesson = DATA.find(d => d.day === currentDay);
+    if (!lesson) return;
+    let allDone = true;
+    lesson.sentences.forEach((s, i) => {
+        const st = states[`${currentDay}-${i}`];
+        if (!st || st.phase < 7) allDone = false;
+    });
+    if (allDone) {
+        markDayCompleted(currentDay);
+        updateStreak();
+    }
+}
+
+function resetSentence(idx) {
     const lesson = DATA.find(d => d.day === currentDay);
     const sent = lesson.sentences[idx];
     states[`${currentDay}-${idx}`] = { phase: 0, step: 0 };
+
+    // Flag for review when reset
+    flagForReview(currentDay, idx);
 
     document.getElementById(`sent-${idx}`).innerHTML = sent.orig;
     document.getElementById(`corr-${idx}`).innerHTML = '';
     document.getElementById(`pos-${idx}`).innerHTML = '';
     document.getElementById(`manip-${idx}`).innerHTML = '';
     document.getElementById(`vocab-${idx}`).innerHTML = '';
+    document.getElementById(`diagram-${idx}`).innerHTML = '';
+    const interactiveEl = document.getElementById(`interactive-${idx}`);
+    if (interactiveEl) interactiveEl.innerHTML = '';
 
     const btn = document.getElementById(`btn-${idx}`);
     btn.textContent = 'Check Sentence';
     btn.classList.remove('complete');
     btn.disabled = false;
+
+    saveState();
+    updateDashboard();
 }
+
+// Keep old name for backward compat
+function reset(idx) { resetSentence(idx); }
 
 function openPopout(idx) {
     popoutIdx = idx;
@@ -765,7 +1229,9 @@ function openPopout(idx) {
                     <span class="popout-day-badge">Day ${currentDay}</span>
                     <span class="popout-sentence-label">Sentence ${idx + 1} \u2014 Individual Lesson</span>
                 </div>
+                <button class="tts-btn" onclick="speakSentence(${idx})" title="Read aloud" aria-label="Read sentence aloud">\ud83d\udd0a</button>
                 <button class="popout-header-print" onclick="printWorksheet(${idx})" title="Print worksheet" aria-label="Print worksheet">&#x1F5A8;</button>
+                <button class="popout-header-print" onclick="printWorksheet(${idx}, true)" title="Print answer key" aria-label="Print answer key" style="color:#e53935">&#x1F511;</button>
                 <button class="popout-close" onclick="closePopout()" aria-label="Close popout">\u2715</button>
             </div>
             <div class="popout-task-bar">
@@ -777,9 +1243,11 @@ function openPopout(idx) {
                 <button class="check-btn popout-advance-btn ${state.phase>=7?'complete':''}" id="popout-advance-btn" onclick="advancePopout()">${getBtnText(state, sent)}</button>
                 <button class="reset-btn" onclick="resetPopout()">Reset</button>
             </div>
+            <div id="popout-interactive"></div>
             <div id="popout-vocab"></div>
             <div id="popout-manip"></div>
             <div id="popout-pos"></div>
+            <div id="popout-diagram"></div>
             <div id="popout-corr"></div>
         </div>
     `;
@@ -824,8 +1292,11 @@ function advancePopout() {
         state.phase = 6;
     } else {
         state.phase = 7;
+        unflagForReview(currentDay, popoutIdx);
+        checkAllComplete();
     }
 
+    saveState();
     restorePopout();
 }
 
@@ -833,17 +1304,25 @@ function resetPopout() {
     const lesson = DATA.find(d => d.day === currentDay);
     const sent = lesson.sentences[popoutIdx];
     states[`${currentDay}-${popoutIdx}`] = { phase: 0, step: 0 };
+    flagForReview(currentDay, popoutIdx);
 
     document.getElementById('popout-sent').innerHTML = sent.orig;
     document.getElementById('popout-corr').innerHTML = '';
     document.getElementById('popout-pos').innerHTML = '';
     document.getElementById('popout-manip').innerHTML = '';
     document.getElementById('popout-vocab').innerHTML = '';
+    const diag = document.getElementById('popout-diagram');
+    if (diag) diag.innerHTML = '';
+    const inter = document.getElementById('popout-interactive');
+    if (inter) inter.innerHTML = '';
 
     const btn = document.getElementById('popout-advance-btn');
     btn.textContent = 'Check Sentence';
     btn.classList.remove('complete');
     btn.disabled = false;
+
+    saveState();
+    updateDashboard();
 }
 
 function restorePopout() {
@@ -922,9 +1401,10 @@ function restorePopout() {
         document.getElementById('popout-manip').innerHTML = '';
     }
 
-    // Vocabulary
+    // Vocabulary with writing prompt
     if (state.phase >= 6) {
         const v = sent.vocab;
+        const savedWriting = getWritingResponse(currentDay, popoutIdx);
         document.getElementById('popout-vocab').innerHTML = `
         <div class="section vocab-section">
             <div class="vocab-header">Vocabulary Word</div>
@@ -932,6 +1412,7 @@ function restorePopout() {
                 <span class="vocab-star">\u2b50</span>
                 <span class="vocab-word">${v.w}</span>
                 <span class="vocab-type">${v.type}</span>
+                <button class="tts-btn" onclick="speakWord('${v.w.replace(/'/g, "\\'")}')" title="Hear this word" aria-label="Hear vocabulary word">\ud83d\udd0a</button>
             </div>
             <div class="vocab-row">
                 <div class="vocab-label">\ud83d\udcd8 Definition:</div>
@@ -964,6 +1445,8 @@ function restorePopout() {
             <div class="vocab-starter">
                 <div class="vocab-starter-label">ELL Sentence Starter - Try it!</div>
                 <div class="vocab-starter-text">${v.starter}</div>
+                <textarea class="vocab-starter-input" placeholder="Type your sentence here..." oninput="saveWritingResponse(${currentDay}, ${popoutIdx}, this.value)">${savedWriting}</textarea>
+                <div class="vocab-starter-count">${savedWriting.length} characters</div>
             </div>
             <div class="vocab-why">
                 <span class="vocab-why-icon">\ud83d\udca1</span>
@@ -977,16 +1460,34 @@ function restorePopout() {
         document.getElementById('popout-vocab').innerHTML = '';
     }
 
+    // Diagram
+    const diagEl = document.getElementById('popout-diagram');
+    if (diagEl) {
+        diagEl.innerHTML = state.phase >= 2 ? buildDiagram(sent) : '';
+    }
+
+    // Interactive hint
+    const interEl = document.getElementById('popout-interactive');
+    if (interEl) {
+        if (interactiveMode && state.phase < 7) {
+            interEl.innerHTML = buildInteractiveHint(sent, state, 'popout');
+        } else {
+            interEl.innerHTML = '';
+        }
+    }
+
     const btn = document.getElementById('popout-advance-btn');
     btn.textContent = getBtnText(state, sent);
     btn.classList.toggle('complete', state.phase >= 7);
     btn.disabled = state.phase >= 7;
 }
 
-function printWorksheet(idx) {
+// ========== PRINT WORKSHEET (with optional answer key) ==========
+function printWorksheet(idx, showAnswers) {
     const lesson = DATA.find(d => d.day === currentDay);
     const sent = lesson.sentences[idx];
     const orderedPOS = getOrderedPOS(sent);
+    const corrections = getCorrections(sent);
 
     const posCounts = {};
     orderedPOS.forEach(p => {
@@ -1004,10 +1505,19 @@ function printWorksheet(idx) {
     };
     const posOrder = ['N','V','MODAL','PASS','PP','ADJ','ADV','PRO','RELPRO','OBJPRO','PREP','SUBCONJ','CONJ','POSS','ART','DEM'];
 
+    // Build POS rows - with answers if teacher mode
     let posRows = '';
+    const posGrouped = {};
+    orderedPOS.forEach(p => {
+        const t = p.t.toUpperCase();
+        if (!posGrouped[t]) posGrouped[t] = [];
+        posGrouped[t].push(p.w);
+    });
+
     posOrder.forEach(type => {
         if (posCounts[type]) {
-            posRows += '<div class="pr"><span class="pl">' + posLabels[type] + ' (' + posCounts[type] + '):</span><span class="pn"></span></div>';
+            const answerText = showAnswers ? `<span style="color:#2e7d32;font-weight:700">${posGrouped[type].join(', ')}</span>` : '';
+            posRows += '<div class="pr"><span class="pl">' + posLabels[type] + ' (' + posCounts[type] + '):</span><span class="pn">' + answerText + '</span></div>';
         }
     });
 
@@ -1015,7 +1525,32 @@ function printWorksheet(idx) {
     const num = idx + 1;
     const task = sent.manip.task;
 
-    // Build UFLI phonics section for print if in UFLI mode
+    // Answer key header
+    const answerKeyBanner = showAnswers ? '<div style="background:#e53935;color:#fff;padding:8pt 14pt;border-radius:6pt;text-align:center;font-size:12pt;font-weight:700;margin-bottom:16pt">ANSWER KEY \u2014 Teacher Copy</div>' : '';
+
+    // Correction answers
+    let corrAnswers = '';
+    if (showAnswers) {
+        corrAnswers = '<div style="margin-top:10pt">';
+        corrections.forEach((c, i) => {
+            corrAnswers += `<div style="font-size:9.5pt;color:#2e7d32;margin-bottom:3pt"><strong>${i+1}.</strong> ${c.w} \u2192 ${c.r} <em style="color:#666">(${c.t})</em></div>`;
+        });
+        corrAnswers += `<div style="font-size:9.5pt;color:#2e7d32;margin-top:6pt;font-style:italic"><strong>Corrected:</strong> ${sent.fixed}</div></div>`;
+    }
+
+    // Manipulation answer
+    const manipAnswer = showAnswers ? `<div style="margin-top:8pt;color:#2e7d32;font-size:9.5pt"><strong>Example:</strong> ${sent.manip.examples[0].replace(/<[^>]+>/g, '')}</div>` : '';
+
+    // Vocabulary answers
+    const vocabAnswers = showAnswers ? `
+        <div style="margin-top:8pt">
+            <div class="vr"><span class="vl">Word:</span><span class="vt" style="color:#2e7d32;font-weight:700;border:none">${sent.vocab.w}</span></div>
+            <div class="vr"><span class="vl">Definition:</span><span class="vn" style="color:#2e7d32;font-size:9pt;border:none">${sent.vocab.def}</span></div>
+            <div class="vr"><span class="vl">Synonyms:</span><span class="vn" style="color:#2e7d32;font-size:9pt;border:none">${sent.vocab.similar.join(', ')}</span></div>
+            <div class="vr"><span class="vl">Antonyms:</span><span class="vn" style="color:#2e7d32;font-size:9pt;border:none">${sent.vocab.antonyms.join(', ')}</span></div>
+        </div>` : '';
+
+    // UFLI section
     let ufliPrintSection = '';
     if (currentGrade === 'ufli' && sent.ufliLesson) {
         const phonicsWordsPrint = (sent.phonicsWords || []).map(w => '<span class="pw">' + w + '</span>').join('');
@@ -1026,7 +1561,7 @@ function printWorksheet(idx) {
             '<div class="uw"><span class="uwl">Heart Words:</span>' + heartWordsPrint + '</div></div>';
     }
 
-    const html = '<!DOCTYPE html><html><head><title>DOL Day ' + day + ' - Sentence ' + num + '</title>' +
+    const html = '<!DOCTYPE html><html><head><title>DOL Day ' + day + ' - Sentence ' + num + (showAnswers ? ' (ANSWER KEY)' : '') + '</title>' +
 '<style>' +
 '@page{size:letter;margin:0.6in 0.75in}' +
 '*{margin:0;padding:0;box-sizing:border-box}' +
@@ -1050,12 +1585,12 @@ function printWorksheet(idx) {
 '.pg2{display:flex;flex-direction:column;gap:4pt}' +
 '.pr{display:flex;align-items:flex-end;gap:6pt}' +
 '.pl{font-size:10pt;font-weight:600;min-width:1.8in;flex-shrink:0;padding-bottom:3pt}' +
-'.pn{flex:1;border-bottom:1.5pt solid #b2bec3;height:0.34in}' +
+'.pn{flex:1;border-bottom:1.5pt solid #b2bec3;height:0.34in;display:flex;align-items:flex-end;padding-bottom:3pt}' +
 '.tb{border-left:3pt solid #e17055;padding:10pt 14pt;margin-bottom:16pt;font-size:10.5pt;background:#fafafa;border-radius:0 6pt 6pt 0}' +
 '.vr{display:flex;align-items:flex-end;gap:6pt;margin-bottom:5pt}' +
 '.vl{font-size:10pt;font-weight:700;min-width:1.35in;flex-shrink:0;text-transform:uppercase;padding-bottom:3pt}' +
-'.vn{flex:1;border-bottom:1.5pt solid #b2bec3;height:0.32in}' +
-'.vt{flex:1;border-bottom:2.5pt solid #2d3436;height:0.32in}' +
+'.vn{flex:1;border-bottom:1.5pt solid #b2bec3;height:0.32in;display:flex;align-items:flex-end;padding-bottom:3pt}' +
+'.vt{flex:1;border-bottom:2.5pt solid #2d3436;height:0.32in;display:flex;align-items:flex-end;padding-bottom:3pt}' +
 '.wp{font-size:9.5pt;font-weight:600;color:#636e72;margin-top:16pt;margin-bottom:8pt}' +
 '.p2{font-size:8.5pt;color:#b2bec3;text-align:right;margin-bottom:16pt;padding-bottom:4pt;border-bottom:0.5pt solid #dfe6e9}' +
 '.ub{background:#f0faf8;border:1.5pt solid #00897b;border-radius:8pt;padding:10pt 14pt;margin-bottom:18pt}' +
@@ -1068,6 +1603,7 @@ function printWorksheet(idx) {
 '</style></head><body onload="setTimeout(function(){window.print()},300)">' +
 
 '<div class="pg">' +
+answerKeyBanner +
 '<div class="hd"><div><h1>Daily Oral Language</h1><div class="sb">Day ' + day + ' \u2022 Sentence ' + num + '</div></div>' +
 '<div class="hdr"><div><span class="fl">Name:</span><span class="fn"></span></div><div><span class="fl">Date:</span><span class="fn fd"></span></div></div></div>' +
 
@@ -1077,7 +1613,8 @@ ufliPrintSection +
 '<div class="lb">Copy the sentence from the board:</div>' +
 '<div class="cb"><div class="cl"></div><div class="cl"></div></div>' +
 '<div class="lb">Write the corrected sentence:</div>' +
-'<div class="wl"></div><div class="wl"></div><div class="wl"></div></div>' +
+'<div class="wl"></div><div class="wl"></div><div class="wl"></div>' +
+corrAnswers + '</div>' +
 
 '<hr class="dv">' +
 
@@ -1087,21 +1624,24 @@ ufliPrintSection +
 '</div>' +
 
 '<div class="pg">' +
+(showAnswers ? answerKeyBanner : '') +
 '<div class="p2">Day ' + day + ' \u2022 Sentence ' + num + ' \u2014 continued</div>' +
 
 '<div class="sc"><div class="sh"><span class="nm">3</span><span class="st">Sentence Manipulation</span></div>' +
 '<div class="tb"><strong>Task:</strong> ' + task + '</div>' +
 '<div class="lb">Rewrite the sentence with your change:</div>' +
-'<div class="wl"></div><div class="wl"></div><div class="wl"></div></div>' +
+'<div class="wl"></div><div class="wl"></div><div class="wl"></div>' +
+manipAnswer + '</div>' +
 
 '<hr class="dv">' +
 
 '<div class="sc"><div class="sh"><span class="nm">4</span><span class="st">Vocabulary Word</span></div>' +
+(showAnswers ? vocabAnswers :
 '<div class="vr"><span class="vl">Word:</span><span class="vt"></span></div>' +
 '<div class="vr"><span class="vl">Definition:</span><span class="vn"></span></div>' +
 '<div class="wl"></div>' +
 '<div class="vr"><span class="vl">Synonyms:</span><span class="vn"></span></div>' +
-'<div class="vr"><span class="vl">Antonyms:</span><span class="vn"></span></div>' +
+'<div class="vr"><span class="vl">Antonyms:</span><span class="vn"></span></div>') +
 '<div class="wp">Write your own sentence using this word:</div>' +
 '<div class="wl"></div><div class="wl"></div><div class="wl"></div></div>' +
 '</div>' +
@@ -1115,24 +1655,26 @@ ufliPrintSection +
     setTimeout(() => URL.revokeObjectURL(url), 60000);
 }
 
+// ========== NAVIGATION ==========
 function getMaxDay() { return DATA.length > 0 ? DATA[DATA.length - 1].day : 1; }
 function prevDay() {
     const idx = DATA.findIndex(d => d.day === currentDay);
-    if (idx > 0) { currentDay = DATA[idx - 1].day; renderDay(); }
+    if (idx > 0) { currentDay = DATA[idx - 1].day; saveState(); renderDay(); }
 }
 function nextDay() {
     const idx = DATA.findIndex(d => d.day === currentDay);
-    if (idx < DATA.length - 1) { currentDay = DATA[idx + 1].day; renderDay(); }
+    if (idx < DATA.length - 1) { currentDay = DATA[idx + 1].day; saveState(); renderDay(); }
 }
 function goToDay() {
     const v = parseInt(document.getElementById('dayInput').value);
     const match = DATA.find(d => d.day === v);
-    if (match) { currentDay = v; renderDay(); }
+    if (match) { currentDay = v; saveState(); renderDay(); }
 }
 
 function setSize(v) {
     document.documentElement.style.setProperty('--size', v + 'px');
     document.getElementById('sizeVal').textContent = v + 'px';
+    saveState();
 }
 
 function showHelp() { document.getElementById('helpOverlay').classList.add('show'); }
@@ -1145,7 +1687,7 @@ document.addEventListener('keydown', e => {
         return;
     }
     if (popoutIdx !== null) return;
-    if (document.activeElement && document.activeElement.tagName === 'INPUT') return;
+    if (document.activeElement && (document.activeElement.tagName === 'INPUT' || document.activeElement.tagName === 'TEXTAREA')) return;
     if (e.key === 'ArrowLeft') prevDay();
     if (e.key === 'ArrowRight') nextDay();
 });
