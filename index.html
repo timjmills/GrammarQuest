@@ -1,4 +1,4 @@
-        <!DOCTYPE html>
+        can <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -35,12 +35,10 @@
         </div>
         <div class="controls">
             <button class="help-btn" onclick="showHelp()">Help Guide</button>
-            <div class="mode-toggle">
-                <label class="toggle-label" for="modeSwitch">
-                    <span class="toggle-text" id="modeLabel">Presentation</span>
-                    <input type="checkbox" id="modeSwitch" onchange="toggleMode(this.checked)">
-                    <span class="toggle-slider"></span>
-                </label>
+            <div class="mode-selector">
+                <button class="mode-btn active" id="modeShow" onclick="setMode('show')">Show</button>
+                <button class="mode-btn" id="modeHelp" onclick="setMode('help')">Help</button>
+                <button class="mode-btn" id="modePractice" onclick="setMode('practice')">Practice</button>
             </div>
             <div class="size-ctrl">
                 <span>Text Size:</span>

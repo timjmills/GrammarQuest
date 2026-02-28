@@ -1,7 +1,8 @@
 let DATA = [];
 let currentDay = 1;
 let currentGrade = 'mixed';
-let interactiveMode = false;
+let appMode = 'show'; // 'show', 'help', 'practice'
+let immersiveIdx = null;
 let reviewMode = false;
 
 const GRADE_FILES = {
@@ -71,7 +72,7 @@ function saveState() {
         localStorage.setItem(STORAGE_PREFIX + 'states_' + currentGrade, JSON.stringify(states));
         localStorage.setItem(STORAGE_PREFIX + 'day_' + currentGrade, currentDay);
         localStorage.setItem(STORAGE_PREFIX + 'grade', currentGrade);
-        localStorage.setItem(STORAGE_PREFIX + 'mode', interactiveMode ? 'interactive' : 'presentation');
+        localStorage.setItem(STORAGE_PREFIX + 'mode', appMode);
         localStorage.setItem(STORAGE_PREFIX + 'textSize', document.documentElement.style.getPropertyValue('--size') || '26px');
         // Save completed days
         const completed = JSON.parse(localStorage.getItem(STORAGE_PREFIX + 'completed_' + currentGrade) || '[]');
@@ -91,7 +92,12 @@ function loadSavedState() {
         if (savedGrade && GRADE_FILES[savedGrade]) {
             currentGrade = savedGrade;
         }
-        interactiveMode = localStorage.getItem(STORAGE_PREFIX + 'mode') === 'interactive';
+        const savedMode = localStorage.getItem(STORAGE_PREFIX + 'mode');
+        if (savedMode && ['show', 'help', 'practice'].includes(savedMode)) {
+            appMode = savedMode;
+        } else if (savedMode === 'interactive') {
+            appMode = 'practice'; // migrate old setting
+        }
         const savedSize = localStorage.getItem(STORAGE_PREFIX + 'textSize');
         if (savedSize) {
             document.documentElement.style.setProperty('--size', savedSize);
@@ -101,11 +107,8 @@ function loadSavedState() {
             const sizeVal = document.getElementById('sizeVal');
             if (sizeVal) sizeVal.textContent = savedSize;
         }
-        // Restore mode toggle UI
-        const modeSwitch = document.getElementById('modeSwitch');
-        if (modeSwitch) modeSwitch.checked = interactiveMode;
-        const modeLabel = document.getElementById('modeLabel');
-        if (modeLabel) modeLabel.textContent = interactiveMode ? 'Interactive' : 'Presentation';
+        // Restore mode selector UI
+        updateModeButtons();
         // Restore streak
         updateStreak();
     } catch (e) { /* localStorage unavailable */ }
@@ -339,6 +342,7 @@ function loadGradeData(grade) {
 
 function switchGrade(grade) {
     if (grade === currentGrade) return;
+    if (immersiveIdx !== null) closeImmersive();
     if (popoutIdx !== null) closePopout();
     // Save current grade state before switching
     saveState();
@@ -362,13 +366,35 @@ function switchGrade(grade) {
     loadGradeData(grade);
 }
 
-// ========== MODE TOGGLE ==========
-function toggleMode(checked) {
-    interactiveMode = checked;
-    const label = document.getElementById('modeLabel');
-    if (label) label.textContent = interactiveMode ? 'Interactive' : 'Presentation';
+// ========== MODE SELECTOR ==========
+function setMode(mode) {
+    // Close immersive if switching away from practice
+    if (appMode === 'practice' && mode !== 'practice') {
+        closeImmersive();
+    }
+    appMode = mode;
+    updateModeButtons();
     saveState();
     renderDay();
+    // Auto-open immersive when switching to practice
+    if (mode === 'practice') {
+        openImmersiveFirst();
+    }
+}
+
+function updateModeButtons() {
+    ['modeShow', 'modeHelp', 'modePractice'].forEach(id => {
+        const btn = document.getElementById(id);
+        if (btn) btn.classList.remove('active');
+    });
+    const activeMap = { 'show': 'modeShow', 'help': 'modeHelp', 'practice': 'modePractice' };
+    const activeBtn = document.getElementById(activeMap[appMode]);
+    if (activeBtn) activeBtn.classList.add('active');
+}
+
+// Legacy compat
+function toggleMode(checked) {
+    setMode(checked ? 'practice' : 'show');
 }
 
 function toggleReviewMode() {
@@ -654,6 +680,7 @@ function renderDay() {
                 <button class="print-btn" onclick="printWorksheet(${idx}, true)" title="Print answer key" aria-label="Print answer key" style="color:#e53935">&#x1F511;</button>
             </div>
             ${ufliPanel}
+            <div id="help-banner-${idx}">${appMode === 'help' && state.phase === 0 && state.step === 0 ? '<div class="help-banner">Can you spot the mistakes? Look at the highlighted words!</div>' : ''}</div>
             <div class="sentence-display" id="sent-${idx}">${formatSentence(sent, state)}</div>
             <div class="btn-row">
                 <button class="check-btn ${state.phase>=7?'complete':''}" id="btn-${idx}" onclick="advance(${idx})">${getBtnText(state, sent)}</button>
@@ -736,6 +763,10 @@ function formatSentence(sent, state) {
     // During correction phase (step > 0), show inline corrections
     const corrCount = Math.min(state.step, corrections.length);
     if (corrCount === 0) {
+        // Help mode: highlight erroneous words without showing answers
+        if (appMode === 'help') {
+            return buildHelpHighlights(sent);
+        }
         return sent.orig;
     }
 
@@ -968,13 +999,23 @@ function restore(idx, sent) {
         document.getElementById(`diagram-${idx}`).innerHTML = '';
     }
 
-    // Interactive mode hint
+    // Interactive mode hint (only in practice mode, not in immersive)
     const interactiveEl = document.getElementById(`interactive-${idx}`);
     if (interactiveEl) {
-        if (interactiveMode && state.phase < 7) {
+        if (appMode === 'practice' && state.phase < 7 && immersiveIdx === null) {
             interactiveEl.innerHTML = buildInteractiveHint(sent, state, idx);
         } else {
             interactiveEl.innerHTML = '';
+        }
+    }
+
+    // Help mode banner
+    const helpBannerEl = document.getElementById(`help-banner-${idx}`);
+    if (helpBannerEl) {
+        if (appMode === 'help' && state.phase === 0 && state.step === 0) {
+            helpBannerEl.innerHTML = '<div class="help-banner">Can you spot the mistakes? Look at the highlighted words!</div>';
+        } else {
+            helpBannerEl.innerHTML = '';
         }
     }
 
@@ -982,7 +1023,15 @@ function restore(idx, sent) {
     btn.textContent = getBtnText(state, sent);
     btn.classList.toggle('complete', state.phase >= 7);
     btn.disabled = state.phase >= 7;
+
+    // Auto-scroll in practice mode (only for main card view, not during renderDay bulk restore)
+    if (appMode === 'practice' && immersiveIdx === null && restore._scrollTarget === idx) {
+        scrollCardToAction(idx);
+        restore._scrollTarget = null;
+    }
 }
+// Track which card to scroll to (set by advance, cleared by restore)
+restore._scrollTarget = null;
 
 // ========== INTERACTIVE MODE ==========
 function buildInteractiveHint(sent, state, idx) {
@@ -1051,7 +1100,8 @@ let _interactivePending = false;
 function checkGuess(idx) {
     if (_interactivePending) return;
     const isPopout = idx === 'popout';
-    const realIdx = isPopout ? popoutIdx : idx;
+    const isImmersive = idx === 'immersive';
+    const realIdx = isPopout ? popoutIdx : (isImmersive ? immersiveIdx : idx);
 
     const input = document.getElementById(`guess-${idx}`);
     const feedback = document.getElementById(`feedback-${idx}`);
@@ -1077,14 +1127,17 @@ function checkGuess(idx) {
     _interactivePending = true;
     setTimeout(() => {
         _interactivePending = false;
-        if (isPopout) advancePopout(); else advance(realIdx);
+        if (isImmersive) advanceImmersive();
+        else if (isPopout) advancePopout();
+        else advance(realIdx);
     }, 1200);
 }
 
 function checkPOSClick(idx, clickedWord, wordIdx) {
     if (_interactivePending) return;
     const isPopout = idx === 'popout';
-    const realIdx = isPopout ? popoutIdx : idx;
+    const isImmersive = idx === 'immersive';
+    const realIdx = isPopout ? popoutIdx : (isImmersive ? immersiveIdx : idx);
 
     const lesson = DATA.find(d => d.day === currentDay);
     const sent = lesson.sentences[realIdx];
@@ -1099,7 +1152,7 @@ function checkPOSClick(idx, clickedWord, wordIdx) {
     const cleanClicked = clickedWord.replace(/[.,!?;:]/g, '').toLowerCase();
     const isCorrect = cleanClicked === nextPOS.w.toLowerCase();
 
-    const containerId = isPopout ? 'popout-interactive' : `interactive-${idx}`;
+    const containerId = isImmersive ? 'immersive-interactive' : (isPopout ? 'popout-interactive' : `interactive-${idx}`);
     const clickables = document.querySelectorAll(`#${containerId} .pos-clickable`);
     clickables.forEach((el, i) => {
         if (i === wordIdx) {
@@ -1116,7 +1169,9 @@ function checkPOSClick(idx, clickedWord, wordIdx) {
     _interactivePending = true;
     setTimeout(() => {
         _interactivePending = false;
-        if (isPopout) advancePopout(); else advance(realIdx);
+        if (isImmersive) advanceImmersive();
+        else if (isPopout) advancePopout();
+        else advance(realIdx);
     }, 1200);
 }
 
@@ -1158,6 +1213,7 @@ function advance(idx) {
     }
 
     saveState();
+    restore._scrollTarget = idx; // tell restore to auto-scroll this card
     restore(idx, sent);
 }
 
@@ -1178,19 +1234,35 @@ function checkAllComplete() {
 function resetSentence(idx) {
     const lesson = DATA.find(d => d.day === currentDay);
     const sent = lesson.sentences[idx];
-    states[`${currentDay}-${idx}`] = { phase: 0, step: 0 };
+    const state = { phase: 0, step: 0 };
+    states[`${currentDay}-${idx}`] = state;
 
     // Flag for review when reset
     flagForReview(currentDay, idx);
 
-    document.getElementById(`sent-${idx}`).innerHTML = sent.orig;
+    // Use formatSentence so help mode highlights are applied
+    document.getElementById(`sent-${idx}`).innerHTML = formatSentence(sent, state);
     document.getElementById(`corr-${idx}`).innerHTML = '';
     document.getElementById(`pos-${idx}`).innerHTML = '';
     document.getElementById(`manip-${idx}`).innerHTML = '';
     document.getElementById(`vocab-${idx}`).innerHTML = '';
     document.getElementById(`diagram-${idx}`).innerHTML = '';
     const interactiveEl = document.getElementById(`interactive-${idx}`);
-    if (interactiveEl) interactiveEl.innerHTML = '';
+    if (interactiveEl) {
+        if (appMode === 'practice' && immersiveIdx === null) {
+            interactiveEl.innerHTML = buildInteractiveHint(sent, state, idx);
+        } else {
+            interactiveEl.innerHTML = '';
+        }
+    }
+    const helpBannerEl = document.getElementById(`help-banner-${idx}`);
+    if (helpBannerEl) {
+        if (appMode === 'help') {
+            helpBannerEl.innerHTML = '<div class="help-banner">Can you spot the mistakes? Look at the highlighted words!</div>';
+        } else {
+            helpBannerEl.innerHTML = '';
+        }
+    }
 
     const btn = document.getElementById(`btn-${idx}`);
     btn.textContent = 'Check Sentence';
@@ -1303,10 +1375,11 @@ function advancePopout() {
 function resetPopout() {
     const lesson = DATA.find(d => d.day === currentDay);
     const sent = lesson.sentences[popoutIdx];
-    states[`${currentDay}-${popoutIdx}`] = { phase: 0, step: 0 };
+    const state = { phase: 0, step: 0 };
+    states[`${currentDay}-${popoutIdx}`] = state;
     flagForReview(currentDay, popoutIdx);
 
-    document.getElementById('popout-sent').innerHTML = sent.orig;
+    document.getElementById('popout-sent').innerHTML = formatSentence(sent, state);
     document.getElementById('popout-corr').innerHTML = '';
     document.getElementById('popout-pos').innerHTML = '';
     document.getElementById('popout-manip').innerHTML = '';
@@ -1314,7 +1387,13 @@ function resetPopout() {
     const diag = document.getElementById('popout-diagram');
     if (diag) diag.innerHTML = '';
     const inter = document.getElementById('popout-interactive');
-    if (inter) inter.innerHTML = '';
+    if (inter) {
+        if (appMode === 'practice') {
+            inter.innerHTML = buildInteractiveHint(sent, state, 'popout');
+        } else {
+            inter.innerHTML = '';
+        }
+    }
 
     const btn = document.getElementById('popout-advance-btn');
     btn.textContent = 'Check Sentence';
@@ -1323,6 +1402,12 @@ function resetPopout() {
 
     saveState();
     updateDashboard();
+
+    // Scroll to top on reset
+    requestAnimationFrame(() => {
+        const header = document.querySelector('.popout-header');
+        if (header) header.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
 }
 
 function restorePopout() {
@@ -1469,7 +1554,7 @@ function restorePopout() {
     // Interactive hint
     const interEl = document.getElementById('popout-interactive');
     if (interEl) {
-        if (interactiveMode && state.phase < 7) {
+        if (appMode === 'practice' && state.phase < 7) {
             interEl.innerHTML = buildInteractiveHint(sent, state, 'popout');
         } else {
             interEl.innerHTML = '';
@@ -1480,6 +1565,9 @@ function restorePopout() {
     btn.textContent = getBtnText(state, sent);
     btn.classList.toggle('complete', state.phase >= 7);
     btn.disabled = state.phase >= 7;
+
+    // Auto-scroll in practice mode
+    scrollPopoutToAction();
 }
 
 // ========== PRINT WORKSHEET (with optional answer key) ==========
@@ -1561,7 +1649,7 @@ function printWorksheet(idx, showAnswers) {
             '<div class="uw"><span class="uwl">Heart Words:</span>' + heartWordsPrint + '</div></div>';
     }
 
-    const html = '<!DOCTYPE html><html><head><title>DOL Day ' + day + ' - Sentence ' + num + (showAnswers ? ' (ANSWER KEY)' : '') + '</title>' +
+    const html = '<!DOCTYPE html><html><head><meta charset="UTF-8"><title>DOL Day ' + day + ' - Sentence ' + num + (showAnswers ? ' (ANSWER KEY)' : '') + '</title>' +
 '<style>' +
 '@page{size:letter;margin:0.6in 0.75in}' +
 '*{margin:0;padding:0;box-sizing:border-box}' +
@@ -1648,7 +1736,7 @@ manipAnswer + '</div>' +
 
 '</body></html>';
 
-    const blob = new Blob([html], { type: 'text/html' });
+    const blob = new Blob([html], { type: 'text/html;charset=utf-8' });
     const url = URL.createObjectURL(blob);
     const win = window.open(url, '_blank');
     if (!win) { alert('Please allow popups to print worksheets.'); URL.revokeObjectURL(url); return; }
@@ -1658,14 +1746,17 @@ manipAnswer + '</div>' +
 // ========== NAVIGATION ==========
 function getMaxDay() { return DATA.length > 0 ? DATA[DATA.length - 1].day : 1; }
 function prevDay() {
+    if (immersiveIdx !== null) closeImmersive();
     const idx = DATA.findIndex(d => d.day === currentDay);
     if (idx > 0) { currentDay = DATA[idx - 1].day; saveState(); renderDay(); }
 }
 function nextDay() {
+    if (immersiveIdx !== null) closeImmersive();
     const idx = DATA.findIndex(d => d.day === currentDay);
     if (idx < DATA.length - 1) { currentDay = DATA[idx + 1].day; saveState(); renderDay(); }
 }
 function goToDay() {
+    if (immersiveIdx !== null) closeImmersive();
     const v = parseInt(document.getElementById('dayInput').value);
     const match = DATA.find(d => d.day === v);
     if (match) { currentDay = v; saveState(); renderDay(); }
@@ -1680,13 +1771,522 @@ function setSize(v) {
 function showHelp() { document.getElementById('helpOverlay').classList.add('show'); }
 function hideHelp() { document.getElementById('helpOverlay').classList.remove('show'); }
 
+// ========== HELP MODE: HIGHLIGHT ERRORS ==========
+function buildHelpHighlights(sent) {
+    const corrections = getCorrections(sent);
+    let text = sent.orig;
+
+    // Collect positions of erroneous words to highlight
+    const highlights = [];
+    for (const c of corrections) {
+        if (c.w === '(missing)') continue; // Can't highlight missing punctuation
+        const escaped = c.w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+        const re = new RegExp(`(?:^|\\s)(${escaped})(?=\\s|[.,!?;:]|$)`, 'gi');
+        const match = re.exec(text);
+        if (match) {
+            const pos = match.index + (match[0].length - match[1].length);
+            highlights.push({ pos, len: match[1].length });
+        }
+    }
+
+    // Sort by position descending to replace from end
+    highlights.sort((a, b) => b.pos - a.pos);
+
+    // Remove overlapping highlights
+    const filtered = [];
+    let minStart = Infinity;
+    for (const h of highlights) {
+        if (h.pos + h.len <= minStart) {
+            filtered.push(h);
+            minStart = h.pos;
+        }
+    }
+
+    for (const h of filtered) {
+        const before = text.substring(0, h.pos);
+        const word = text.substring(h.pos, h.pos + h.len);
+        const after = text.substring(h.pos + h.len);
+        text = before + `<span class="help-highlight">${word}</span>` + after;
+    }
+
+    return text;
+}
+
+// ========== IMMERSIVE PRACTICE MODE ==========
+function openImmersiveFirst() {
+    const lesson = DATA.find(d => d.day === currentDay);
+    if (!lesson) return;
+
+    // Find first incomplete sentence
+    for (let i = 0; i < lesson.sentences.length; i++) {
+        const key = `${currentDay}-${i}`;
+        if (!states[key]) states[key] = { phase: 0, step: 0 };
+        if (states[key].phase < 7) {
+            openImmersive(i);
+            return;
+        }
+    }
+    // All complete — open on first sentence anyway
+    if (lesson.sentences.length > 0) {
+        openImmersive(0);
+    }
+}
+
+function openImmersive(idx) {
+    immersiveIdx = idx;
+    const lesson = DATA.find(d => d.day === currentDay);
+    const sent = lesson.sentences[idx];
+    const key = `${currentDay}-${idx}`;
+    if (!states[key]) states[key] = { phase: 0, step: 0 };
+    const state = states[key];
+    const corrections = getCorrections(sent);
+    const orderedPOS = getOrderedPOS(sent);
+    const tags = buildPOSTags(orderedPOS);
+    const totalSentences = lesson.sentences.length;
+
+    // Build step dots
+    const totalSteps = corrections.length + orderedPOS.length + 2 + sent.manip.examples.length + 1;
+    const currentStep = state.step;
+
+    const overlay = document.createElement('div');
+    overlay.id = 'immersive-overlay';
+    overlay.className = 'immersive-overlay';
+
+    const ufliPanel = (currentGrade === 'ufli' && sent.ufliLesson) ? buildUfliPanel(sent) : '';
+
+    overlay.innerHTML = `
+        <div class="immersive-container">
+            <div class="immersive-header">
+                <div class="immersive-header-left">
+                    <span class="popout-day-badge">Day ${currentDay}</span>
+                    <span class="immersive-title">Sentence ${idx + 1} of ${totalSentences}</span>
+                </div>
+                <button class="tts-btn" onclick="speakSentence(${idx})" title="Read aloud" aria-label="Read sentence aloud">\ud83d\udd0a</button>
+                <button class="immersive-exit" onclick="closeImmersive()" aria-label="Exit practice mode">\u2715</button>
+            </div>
+            <div class="immersive-step-bar" id="immersive-step-bar">
+                ${buildImmersiveStepBar(state, corrections.length, totalSteps)}
+            </div>
+            <div class="popout-task-bar">
+                Find <span class="tag err">${corrections.length} errors</span> and ${tags}
+            </div>
+            ${ufliPanel}
+            <div class="immersive-sentence" id="immersive-sent">${formatSentence(sent, state)}</div>
+            <div id="immersive-feedback-area"></div>
+            <div id="immersive-interactive"></div>
+            <div class="immersive-nav">
+                <button class="check-btn ${state.phase>=7?'complete':''}" id="immersive-advance-btn" onclick="advanceImmersive()">${getBtnText(state, sent)}</button>
+                <button class="reset-btn" onclick="resetImmersive()">Reset</button>
+            </div>
+            <div class="immersive-sections">
+                <div id="immersive-vocab"></div>
+                <div id="immersive-manip"></div>
+                <div id="immersive-pos"></div>
+                <div id="immersive-diagram"></div>
+                <div id="immersive-corr"></div>
+            </div>
+        </div>
+    `;
+
+    document.body.appendChild(overlay);
+    document.body.style.overflow = 'hidden';
+    restoreImmersive();
+    // Scroll overlay to top then to action area
+    requestAnimationFrame(() => {
+        overlay.scrollTop = 0;
+        scrollImmersiveToAction();
+    });
+}
+
+function buildImmersiveStepBar(state, totalCorr, totalSteps) {
+    const currentStep = state.step;
+    let dotsHtml = '';
+    const maxDots = Math.min(totalSteps, 16); // Cap dots for display
+    const step = totalSteps > maxDots ? Math.ceil(totalSteps / maxDots) : 1;
+    const dotCount = Math.ceil(totalSteps / step);
+
+    for (let i = 0; i < dotCount; i++) {
+        const dotStep = i * step;
+        let cls = '';
+        if (dotStep < currentStep) cls = 'done';
+        else if (dotStep === currentStep || (dotStep < currentStep + step && dotStep >= currentStep)) cls = 'active';
+        dotsHtml += `<span class="immersive-dot ${cls}"></span>`;
+    }
+
+    const phaseLabels = ['Finding Errors', 'Finding Errors', 'Parts of Speech', 'Manipulation', 'Examples', 'Examples', 'Vocabulary', 'Complete!'];
+    const phaseLabel = phaseLabels[Math.min(state.phase, 7)];
+
+    return `<span class="immersive-step-label">Step ${currentStep + 1} of ${totalSteps} \u2014 ${phaseLabel}</span>
+            <div class="immersive-dots">${dotsHtml}</div>`;
+}
+
+function closeImmersive() {
+    const overlay = document.getElementById('immersive-overlay');
+    if (overlay) overlay.remove();
+    immersiveIdx = null;
+    document.body.style.overflow = '';
+    renderDay();
+}
+
+function advanceImmersive() {
+    if (immersiveIdx === null) return;
+    const lesson = DATA.find(d => d.day === currentDay);
+    const sent = lesson.sentences[immersiveIdx];
+    const key = `${currentDay}-${immersiveIdx}`;
+    const state = states[key];
+
+    const corrections = getCorrections(sent);
+    const orderedPOS = getOrderedPOS(sent);
+    const totalCorr = corrections.length;
+    const totalPOS = orderedPOS.length;
+    const totalManipEx = sent.manip.examples.length;
+
+    state.step++;
+
+    if (state.step <= totalCorr) {
+        state.phase = 0;
+    } else if (state.step <= totalCorr + totalPOS) {
+        state.phase = 2;
+    } else if (state.step === totalCorr + totalPOS + 1) {
+        state.phase = 3;
+    } else if (state.step === totalCorr + totalPOS + 2) {
+        state.phase = 4;
+    } else if (state.step <= totalCorr + totalPOS + 1 + totalManipEx) {
+        state.phase = 5;
+    } else if (state.step === totalCorr + totalPOS + 2 + totalManipEx) {
+        state.phase = 6;
+    } else {
+        state.phase = 7;
+        unflagForReview(currentDay, immersiveIdx);
+        checkAllComplete();
+    }
+
+    saveState();
+    restoreImmersive();
+
+    // If sentence just completed, show celebration and auto-advance
+    if (state.phase >= 7) {
+        showImmersiveCelebration();
+    }
+}
+
+function showImmersiveCelebration() {
+    const feedbackArea = document.getElementById('immersive-feedback-area');
+    if (!feedbackArea) return;
+
+    const lesson = DATA.find(d => d.day === currentDay);
+    const totalSentences = lesson.sentences.length;
+    const celebratingIdx = immersiveIdx; // capture for timeout guard
+
+    // Check if there's a next incomplete sentence
+    let nextIdx = null;
+    for (let i = 0; i < totalSentences; i++) {
+        if (i === immersiveIdx) continue;
+        const k = `${currentDay}-${i}`;
+        if (!states[k] || states[k].phase < 7) {
+            nextIdx = i;
+            break;
+        }
+    }
+
+    if (nextIdx !== null) {
+        feedbackArea.innerHTML = `
+            <div class="immersive-complete">
+                <div class="immersive-complete-icon">\ud83c\udf89</div>
+                <div class="immersive-complete-text">Amazing! Sentence complete!</div>
+                <div class="immersive-complete-sub">Moving to the next sentence...</div>
+            </div>`;
+        requestAnimationFrame(() => feedbackArea.scrollIntoView({ behavior: 'smooth', block: 'center' }));
+        setTimeout(() => {
+            // Guard: user may have closed, reset, or changed sentence
+            if (immersiveIdx !== celebratingIdx) return;
+            const st = states[`${currentDay}-${celebratingIdx}`];
+            if (!st || st.phase < 7) return; // was reset
+            closeImmersive();
+            openImmersive(nextIdx);
+        }, 1500);
+    } else {
+        // All sentences done!
+        feedbackArea.innerHTML = `
+            <div class="immersive-all-done">
+                <div class="immersive-all-done-icon">\ud83c\udfc6</div>
+                <div class="immersive-all-done-text">All Done! Great work!</div>
+                <div class="immersive-all-done-sub">You finished all sentences for Day ${currentDay}!</div>
+                <button class="immersive-next-btn" onclick="closeImmersive()">Back to Day View</button>
+            </div>`;
+        requestAnimationFrame(() => feedbackArea.scrollIntoView({ behavior: 'smooth', block: 'center' }));
+    }
+}
+
+function resetImmersive() {
+    if (immersiveIdx === null) return;
+    const lesson = DATA.find(d => d.day === currentDay);
+    const sent = lesson.sentences[immersiveIdx];
+    states[`${currentDay}-${immersiveIdx}`] = { phase: 0, step: 0 };
+    flagForReview(currentDay, immersiveIdx);
+    saveState();
+    updateDashboard();
+    restoreImmersive();
+    scrollImmersiveToTop();
+}
+
+function restoreImmersive() {
+    if (immersiveIdx === null) return;
+    const lesson = DATA.find(d => d.day === currentDay);
+    const sent = lesson.sentences[immersiveIdx];
+    const state = states[`${currentDay}-${immersiveIdx}`];
+    if (!state) return;
+
+    const corrections = getCorrections(sent);
+    const orderedPOS = getOrderedPOS(sent);
+    const totalCorr = corrections.length;
+    const totalPOS = orderedPOS.length;
+    const totalManipEx = sent.manip.examples.length;
+    const totalSteps = totalCorr + totalPOS + 2 + totalManipEx + 1;
+
+    // Update sentence
+    const sentEl = document.getElementById('immersive-sent');
+    if (sentEl) sentEl.innerHTML = formatSentence(sent, state);
+
+    // Update step bar
+    const stepBar = document.getElementById('immersive-step-bar');
+    if (stepBar) stepBar.innerHTML = buildImmersiveStepBar(state, totalCorr, totalSteps);
+
+    // Clear feedback area (unless celebrating)
+    if (state.phase < 7) {
+        const feedbackArea = document.getElementById('immersive-feedback-area');
+        if (feedbackArea) feedbackArea.innerHTML = '';
+    }
+
+    // Corrections panel
+    const corrEl = document.getElementById('immersive-corr');
+    if (corrEl) {
+        if (state.step > 0) {
+            const count = Math.min(state.step, totalCorr);
+            if (count > 0) {
+                let h = '<div class="section corr-section">';
+                for (let i = count - 1; i >= 0; i--) {
+                    h += renderCorr(corrections[i], i, totalCorr);
+                }
+                h += '</div>';
+                corrEl.innerHTML = h;
+            }
+        } else {
+            corrEl.innerHTML = '';
+        }
+    }
+
+    // POS panel
+    const posEl = document.getElementById('immersive-pos');
+    if (posEl) {
+        if (state.phase >= 2) {
+            const posCount = Math.min(state.step - totalCorr, totalPOS);
+            if (posCount > 0) {
+                let h = '<div class="section pos-section"><div class="pos-title">Parts of Speech</div>';
+                for (let i = posCount - 1; i >= 0; i--) {
+                    const p = orderedPOS[i];
+                    const t = p.t.toUpperCase();
+                    const cls = getCSSClass(t);
+                    const badge = getTypeBadge(t);
+                    h += `<div class="pos-item"><span class="check">\u2713</span><span class="q">${p.q}</span><span class="ans"><span class="word-box ${cls}" title="${getPOSDesc(t)}">${p.w}</span><span class="type-badge ${cls}" title="${getPOSDesc(t)}">${badge}</span></span></div>`;
+                }
+                h += '</div>';
+                posEl.innerHTML = h;
+            }
+        } else {
+            posEl.innerHTML = '';
+        }
+    }
+
+    // Manipulation
+    const manipEl = document.getElementById('immersive-manip');
+    if (manipEl) {
+        if (state.phase >= 3) {
+            const m = sent.manip;
+            let examplesHtml = '';
+            let exCount = 0;
+            if (state.phase >= 4) exCount = 1;
+            if (state.phase >= 5) {
+                exCount = state.step - totalCorr - totalPOS - 1;
+                exCount = Math.min(exCount, totalManipEx);
+            }
+            if (exCount > 0) {
+                for (let i = exCount - 1; i >= 0; i--) {
+                    examplesHtml += `<div class="manip-example">${m.examples[i]}</div>`;
+                }
+            }
+            manipEl.innerHTML = `
+            <div class="section manip-section">
+                <div class="manip-title">Sentence Manipulation</div>
+                <div class="manip-box">
+                    <div class="manip-task">\ud83d\udcdd ${m.task}</div>
+                    ${examplesHtml ? `<div class="manip-examples">${examplesHtml}</div>` : ''}
+                </div>
+            </div>`;
+        } else {
+            manipEl.innerHTML = '';
+        }
+    }
+
+    // Vocabulary
+    const vocabEl = document.getElementById('immersive-vocab');
+    if (vocabEl) {
+        if (state.phase >= 6) {
+            const v = sent.vocab;
+            const savedWriting = getWritingResponse(currentDay, immersiveIdx);
+            vocabEl.innerHTML = `
+            <div class="section vocab-section">
+                <div class="vocab-header">Vocabulary Word</div>
+                <div class="vocab-word-row">
+                    <span class="vocab-star">\u2b50</span>
+                    <span class="vocab-word">${v.w}</span>
+                    <span class="vocab-type">${v.type}</span>
+                    <button class="tts-btn" onclick="speakWord('${v.w.replace(/'/g, "\\'")}')" title="Hear this word" aria-label="Hear vocabulary word">\ud83d\udd0a</button>
+                </div>
+                <div class="vocab-row">
+                    <div class="vocab-label">\ud83d\udcd8 Definition:</div>
+                    <div class="vocab-text">${v.def}</div>
+                </div>
+                <div class="vocab-simple">
+                    <div class="vocab-label">\ud83d\udcac In simple words:</div>
+                    <div class="vocab-text">${v.simple}</div>
+                </div>
+                <div class="vocab-row">
+                    <div class="vocab-label">\ud83d\udccc Examples:</div>
+                    <div class="vocab-chips examples">${v.examples.map(s=>`<span>${s}</span>`).join('')}</div>
+                </div>
+                <div class="vocab-row">
+                    <div class="vocab-label">\u2705 Similar words (synonyms):</div>
+                    <div class="vocab-chips similar">${v.similar.map(s=>`<span>${s}</span>`).join('')}</div>
+                </div>
+                <div class="vocab-row">
+                    <div class="vocab-label">\u274c Opposite words (antonyms):</div>
+                    <div class="vocab-chips antonym">${v.antonyms.map(s=>`<span>${s}</span>`).join('')}</div>
+                </div>
+                <div class="vocab-row">
+                    <div class="vocab-label">\ud83d\udeab Non-examples:</div>
+                    <div class="vocab-chips nonex">${v.nonex.map(s=>`<span>${s}</span>`).join('')}</div>
+                </div>
+                <div class="vocab-row">
+                    <div class="vocab-label">\ud83d\udcdd Example sentence:</div>
+                    <div class="vocab-example">"${v.example}"</div>
+                </div>
+                <div class="vocab-starter">
+                    <div class="vocab-starter-label">ELL Sentence Starter - Try it!</div>
+                    <div class="vocab-starter-text">${v.starter}</div>
+                    <textarea class="vocab-starter-input" placeholder="Type your sentence here..." oninput="saveWritingResponse(${currentDay}, ${immersiveIdx}, this.value)">${savedWriting}</textarea>
+                    <div class="vocab-starter-count">${savedWriting.length} characters</div>
+                </div>
+                <div class="vocab-why">
+                    <span class="vocab-why-icon">\ud83d\udca1</span>
+                    <div>
+                        <div class="vocab-why-label">Why learn this word?</div>
+                        <div class="vocab-why-text">${v.why}</div>
+                    </div>
+                </div>
+            </div>`;
+        } else {
+            vocabEl.innerHTML = '';
+        }
+    }
+
+    // Diagram
+    const diagEl = document.getElementById('immersive-diagram');
+    if (diagEl) {
+        diagEl.innerHTML = state.phase >= 2 ? buildDiagram(sent) : '';
+    }
+
+    // Interactive hint (practice mode)
+    const interEl = document.getElementById('immersive-interactive');
+    if (interEl) {
+        if (state.phase < 7) {
+            interEl.innerHTML = buildInteractiveHint(sent, state, 'immersive');
+        } else {
+            interEl.innerHTML = '';
+        }
+    }
+
+    // Update button
+    const btn = document.getElementById('immersive-advance-btn');
+    if (btn) {
+        btn.textContent = getBtnText(state, sent);
+        btn.classList.toggle('complete', state.phase >= 7);
+        btn.disabled = state.phase >= 7;
+    }
+
+    // Auto-scroll to the action area
+    scrollImmersiveToAction();
+}
+
+// ========== AUTO-SCROLL FOR PRACTICE MODE ==========
+function scrollToAction(containerId) {
+    requestAnimationFrame(() => {
+        // Priority 1: scroll to interactive hint (input or clickable words)
+        const interEl = document.getElementById(containerId);
+        if (interEl && interEl.innerHTML.trim()) {
+            interEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            // Auto-focus input if present
+            const input = interEl.querySelector('.interactive-input');
+            if (input) setTimeout(() => input.focus(), 400);
+            return;
+        }
+        // Priority 2: scroll to feedback area (celebration)
+        const feedbackId = containerId.replace('interactive', 'feedback-area');
+        const feedbackEl = document.getElementById(feedbackId);
+        if (feedbackEl && feedbackEl.innerHTML.trim()) {
+            feedbackEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            return;
+        }
+        // Priority 3: scroll to advance button
+        const btnId = containerId.replace('interactive', 'advance-btn');
+        const btn = document.getElementById(btnId);
+        if (btn) {
+            btn.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
+    });
+}
+
+function scrollImmersiveToAction() {
+    scrollToAction('immersive-interactive');
+}
+
+function scrollPopoutToAction() {
+    if (appMode !== 'practice') return;
+    scrollToAction('popout-interactive');
+}
+
+function scrollCardToAction(idx) {
+    if (appMode !== 'practice') return;
+    requestAnimationFrame(() => {
+        const interEl = document.getElementById(`interactive-${idx}`);
+        if (interEl && interEl.innerHTML.trim()) {
+            interEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            const input = interEl.querySelector('.interactive-input');
+            if (input) setTimeout(() => input.focus(), 400);
+            return;
+        }
+        const btn = document.getElementById(`btn-${idx}`);
+        if (btn) {
+            btn.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
+    });
+}
+
+function scrollImmersiveToTop() {
+    requestAnimationFrame(() => {
+        const header = document.querySelector('.immersive-header');
+        if (header) header.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+}
+
 document.addEventListener('keydown', e => {
     if (e.key === 'Escape') {
+        if (immersiveIdx !== null) { closeImmersive(); return; }
         if (popoutIdx !== null) { closePopout(); return; }
         hideHelp();
         return;
     }
-    if (popoutIdx !== null) return;
+    if (immersiveIdx !== null || popoutIdx !== null) return;
     if (document.activeElement && (document.activeElement.tagName === 'INPUT' || document.activeElement.tagName === 'TEXTAREA')) return;
     if (e.key === 'ArrowLeft') prevDay();
     if (e.key === 'ArrowRight') nextDay();
