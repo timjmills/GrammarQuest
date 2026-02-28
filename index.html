@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+        <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -12,6 +12,7 @@
         <div class="grade-selector-bar">
             <button class="grade-tab active" onclick="switchGrade('mixed')" id="tab-mixed">Mixed Grade</button>
             <button class="grade-tab" onclick="switchGrade('prek')" id="tab-prek">Pre-K</button>
+            <button class="grade-tab" onclick="switchGrade('ufli')" id="tab-ufli">UFLI</button>
             <button class="grade-tab" onclick="switchGrade('gradek')" id="tab-gradek">Grade K</button>
             <button class="grade-tab" onclick="switchGrade('grade1')" id="tab-grade1">Grade 1</button>
             <button class="grade-tab" onclick="switchGrade('grade2')" id="tab-grade2">Grade 2</button>
@@ -22,7 +23,7 @@
         <div class="header">
             <div style="display:flex;align-items:center;flex-wrap:wrap">
                 <div class="day-badge">Day <span id="currentDay">1</span></div>
-                <span class="day-info">Day <span id="dayNum">1</span> of 150</span>
+                <span class="day-info">Day <span id="dayNum">1</span> of <span id="maxDayNum">150</span></span>
                 <span class="segment-badge" id="segmentBadge">5 Errors | POS: N→V→ADJ→ADV→PREP→Other</span>
             </div>
             <div class="nav">
@@ -84,6 +85,23 @@
                     <p><strong>Period 4</strong> (Days 76-100): Complexity - Complex sentences, possessives, perfect tense</p>
                     <p><strong>Period 5</strong> (Days 101-125): Refinement - Appositives, passive voice, conditionals</p>
                     <p><strong>Period 6</strong> (Days 126-150): Mastery - Complete tense system, modal perfects</p>
+                </div>
+                <div id="help-ufli-periods" style="display:none">
+                    <p><strong>UFLI Phonics Sections:</strong></p>
+                    <p><strong>Section 1</strong> (Lessons 1-4): Early Alphabet — Letters a, m, s, t</p>
+                    <p><strong>Section 2</strong> (Lessons 5-10): Short Vowels a, i — VC/CVC words with first consonants</p>
+                    <p><strong>Section 3</strong> (Lessons 11-19): Short Vowels o, u, e — Complete short vowel CVC</p>
+                    <p><strong>Section 4</strong> (Lessons 20-34): Complete Alphabet — Remaining consonants + review</p>
+                    <p><strong>Section 5</strong> (Lessons 35-40): Digraphs — sh, ch, th, wh</p>
+                    <p><strong>Section 6</strong> (Lessons 41-47): Ending Patterns — ck, -ng, -nk, FLSZ rule</p>
+                    <p><strong>Section 7</strong> (Lessons 48-53): Blends & Review — Initial/final blends, digraph review</p>
+                    <p><strong>Section 8</strong> (Lessons 54-62): VCe Patterns — a_e, i_e, o_e, u_e, e_e</p>
+                    <p><strong>Section 9</strong> (Lessons 63-68): Suffixes — -s, -es, -ing, -ed, -er, -est</p>
+                    <p><strong>Section 10</strong> (Lessons 69-78): R-Controlled Vowels — ar, or, er, ir, ur</p>
+                    <p><strong>Section 11</strong> (Lessons 79-90): Vowel Teams — ai/ay, ee/ea, oa/ow, igh, oo</p>
+                    <p><strong>Section 12</strong> (Lessons 91-97): Diphthongs — oi/oy, ou/ow, ew, au/aw</p>
+                    <p><strong>Section 13</strong> (Lessons 98-110): Advanced Patterns — Silent letters, soft c/g, -tion/-sion</p>
+                    <p><strong>Section 14</strong> (Lessons 111-128): Affixes & Multisyllabic — un-, re-, pre-, -ment, -ness, -ful, -less</p>
                 </div>
                 <div id="help-prek-periods" style="display:none">
                     <p><strong>Pre-K ELL Units:</strong></p>

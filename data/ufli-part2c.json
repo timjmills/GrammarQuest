@@ -1,0 +1,952 @@
+[
+  {
+    "day": 60,
+    "sentences": [
+      {
+        "orig": "the mule is so coot and he likes to run",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "coot", "r": "cute", "e": "Cute uses the u_e pattern — the silent e makes the u say its name!"},
+          {"t": "grammar", "w": "likes", "r": "liked", "e": "Use 'liked' to tell about the past."},
+          {"t": "spelling", "w": "mule", "r": "mule", "e": "Mule is spelled correctly with u_e — great job!"},
+          {"t": "punctuation", "w": "run", "r": "run.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The mule is so cute and he liked to run.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "mule", "t": "N", "q": "Find the noun for an animal like a horse."},
+          {"w": "is", "t": "V", "q": "Find the verb that tells what the mule is."},
+          {"w": "so", "t": "ADV", "q": "Find the adverb that means 'very.'"},
+          {"w": "cute", "t": "ADJ", "q": "Find the adjective that describes the mule."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction that joins two ideas."},
+          {"w": "he", "t": "PRO", "q": "Find the pronoun that means the mule."},
+          {"w": "liked", "t": "V", "q": "Find the verb that tells what he did."},
+          {"w": "to", "t": "PREP", "q": "Find the word before 'run.'"},
+          {"w": "run", "t": "V", "q": "Find the verb that means to move fast."}
+        ],
+        "manip": {
+          "task": "Replace the adjective 'cute' with a different u_e word.",
+          "word": "cute",
+          "examples": [
+            "The mule is so <span class='changed'>huge</span> and he liked to run.",
+            "The mule is so <span class='changed'>rude</span> and he liked to run."
+          ]
+        },
+        "vocab": {
+          "w": "mule",
+          "type": "noun",
+          "def": "An animal that is the offspring of a horse and a donkey.",
+          "simple": "A mule is an animal that looks like a horse with long ears!",
+          "examples": ["a stubborn mule", "ride a mule", "a pack mule"],
+          "similar": ["donkey", "horse"],
+          "antonyms": [],
+          "nonex": ["It does NOT mean a horse.", "It does NOT mean a dog."],
+          "example": "The mule carried bags up the hill.",
+          "starter": "If I had a mule, I would _______ ...",
+          "why": "Mule is a great u_e word that helps you learn the silent e pattern!"
+        },
+        "ufliLesson": 60,
+        "ufliSkill": "VCe with u (u_e)",
+        "ufliSection": "VCe / Silent E",
+        "phonicsWords": ["cute", "tube", "mule", "huge", "fuse", "cube"],
+        "heartWords": ["the", "is", "so", "and", "he", "to"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "luke put the cubes in a toob and it was fun",
+        "corr": [
+          {"t": "capitalization", "w": "luke", "r": "Luke", "e": "A person's name must be capitalized."},
+          {"t": "spelling", "w": "toob", "r": "tube", "e": "Tube uses the u_e pattern — the silent e makes the u say its name!"},
+          {"t": "grammar", "w": "was", "r": "is", "e": "Use 'is' because it is still fun now."},
+          {"t": "spelling", "w": "cubes", "r": "cubes", "e": "Cubes is spelled correctly with u_e — well done!"},
+          {"t": "punctuation", "w": "fun", "r": "fun.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "Luke put the cubes in a tube and it is fun.",
+        "pos": [
+          {"w": "Luke", "t": "N", "q": "Find the proper noun that names a person."},
+          {"w": "put", "t": "V", "q": "Find the verb that tells what Luke did."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'cubes.'"},
+          {"w": "cubes", "t": "N", "q": "Find the noun for box shapes."},
+          {"w": "in", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "a", "t": "ART", "q": "Find the article before 'tube.'"},
+          {"w": "tube", "t": "N", "q": "Find the noun for a long, round shape."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction that joins two ideas."},
+          {"w": "it", "t": "PRO", "q": "Find the pronoun that means the activity."},
+          {"w": "is", "t": "V", "q": "Find the verb that tells about now."},
+          {"w": "fun", "t": "ADJ", "q": "Find the adjective that describes the activity."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'tube' with a different u_e word.",
+          "word": "tube",
+          "examples": [
+            "Luke put the cubes in a <span class='changed'>flute</span> and it is fun.",
+            "Luke put the cubes in a <span class='changed'>cube</span> and it is fun."
+          ]
+        },
+        "vocab": {
+          "w": "cube",
+          "type": "noun",
+          "def": "A solid shape with six equal square faces.",
+          "simple": "A cube is a box shape — like a dice or a block!",
+          "examples": ["an ice cube", "a sugar cube", "a Rubik's cube"],
+          "similar": ["block", "box"],
+          "antonyms": ["sphere", "ball"],
+          "nonex": ["It does NOT mean a circle.", "It does NOT mean a flat shape."],
+          "example": "She dropped an ice cube into her cup.",
+          "starter": "I can think of a cube that looks like _______ ...",
+          "why": "Cube is a great u_e word and you see cubes every day — ice cubes, blocks, and dice!"
+        },
+        "ufliLesson": 60,
+        "ufliSkill": "VCe with u (u_e)",
+        "ufliSection": "VCe / Silent E",
+        "phonicsWords": ["cute", "tube", "mule", "huge", "fuse", "cube"],
+        "heartWords": ["the", "in", "a", "and", "it", "was"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 61,
+    "sentences": [
+      {
+        "orig": "pete has theze big books on the desk",
+        "corr": [
+          {"t": "capitalization", "w": "pete", "r": "Pete", "e": "A person's name must be capitalized."},
+          {"t": "spelling", "w": "theze", "r": "these", "e": "These uses the e_e pattern — the silent e makes the first e say its name!"},
+          {"t": "grammar", "w": "has", "r": "had", "e": "Use 'had' to tell about the past."},
+          {"t": "spelling", "w": "books", "r": "books", "e": "Books is spelled correctly — nice work!"},
+          {"t": "punctuation", "w": "desk", "r": "desk.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "Pete had these big books on the desk.",
+        "pos": [
+          {"w": "Pete", "t": "N", "q": "Find the proper noun that names a person."},
+          {"w": "had", "t": "V", "q": "Find the verb that tells what Pete did."},
+          {"w": "these", "t": "ADJ", "q": "Find the word that points to which books."},
+          {"w": "big", "t": "ADJ", "q": "Find the adjective that describes the books."},
+          {"w": "books", "t": "N", "q": "Find the noun for things you read."},
+          {"w": "on", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'desk.'"},
+          {"w": "desk", "t": "N", "q": "Find the noun for where you sit and work."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'books' with a different noun.",
+          "word": "books",
+          "examples": [
+            "Pete had these big <span class='changed'>pens</span> on the desk.",
+            "Pete had these big <span class='changed'>maps</span> on the desk."
+          ]
+        },
+        "vocab": {
+          "w": "these",
+          "type": "adjective",
+          "def": "Used to point out particular things that are nearby.",
+          "simple": "These means 'look at the ones right here!'",
+          "examples": ["these books", "these kids", "these red pens"],
+          "similar": ["those"],
+          "antonyms": ["those"],
+          "nonex": ["It does NOT mean far away things.", "It does NOT mean just one thing."],
+          "example": "Can you hand me these cups on the table?",
+          "starter": "I like these _______ because ...",
+          "why": "These is a great e_e word and you use it every day to point at things near you!"
+        },
+        "ufliLesson": 61,
+        "ufliSkill": "VCe with e (e_e)",
+        "ufliSection": "VCe / Silent E",
+        "phonicsWords": ["Pete", "these", "here", "eve", "Steve", "theme"],
+        "heartWords": ["the", "on", "has"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "steve came heer to help us with the big job",
+        "corr": [
+          {"t": "capitalization", "w": "steve", "r": "Steve", "e": "A person's name must be capitalized."},
+          {"t": "spelling", "w": "heer", "r": "here", "e": "Here uses the e_e pattern — the silent e makes the first e say its name!"},
+          {"t": "grammar", "w": "came", "r": "comes", "e": "Use 'comes' to tell about what happens now."},
+          {"t": "spelling", "w": "help", "r": "help", "e": "Help is spelled correctly — great job!"},
+          {"t": "punctuation", "w": "job", "r": "job.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "Steve comes here to help us with the big job.",
+        "pos": [
+          {"w": "Steve", "t": "N", "q": "Find the proper noun that names a person."},
+          {"w": "comes", "t": "V", "q": "Find the verb that tells what Steve does."},
+          {"w": "here", "t": "ADV", "q": "Find the adverb that tells where."},
+          {"w": "to", "t": "PREP", "q": "Find the word before 'help.'"},
+          {"w": "help", "t": "V", "q": "Find the verb that means to give aid."},
+          {"w": "us", "t": "PRO", "q": "Find the pronoun that means you and me."},
+          {"w": "with", "t": "PREP", "q": "Find the preposition that means together."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'big.'"},
+          {"w": "big", "t": "ADJ", "q": "Find the adjective that describes the job."},
+          {"w": "job", "t": "N", "q": "Find the noun that means work to do."}
+        ],
+        "manip": {
+          "task": "Replace the adverb 'here' with a different e_e word or place word.",
+          "word": "here",
+          "examples": [
+            "Steve comes <span class='changed'>home</span> to help us with the big job.",
+            "Steve comes <span class='changed'>close</span> to help us with the big job."
+          ]
+        },
+        "vocab": {
+          "w": "here",
+          "type": "adverb",
+          "def": "In or at this place.",
+          "simple": "Here means right in this spot — where you are!",
+          "examples": ["come here", "right here", "here it is"],
+          "similar": ["nearby", "close"],
+          "antonyms": ["there", "away"],
+          "nonex": ["It does NOT mean far away.", "It does NOT mean somewhere else."],
+          "example": "Please sit here next to me.",
+          "starter": "I like it here because _______ ...",
+          "why": "Here is a word you use all the time and it shows the e_e spelling pattern!"
+        },
+        "ufliLesson": 61,
+        "ufliSkill": "VCe with e (e_e)",
+        "ufliSection": "VCe / Silent E",
+        "phonicsWords": ["Pete", "these", "here", "eve", "Steve", "theme"],
+        "heartWords": ["to", "us", "with", "the"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 62,
+    "sentences": [
+      {
+        "orig": "i maid a cake and gave it to jane",
+        "corr": [
+          {"t": "capitalization", "w": "i", "r": "I", "e": "The word 'I' must always be capitalized."},
+          {"t": "spelling", "w": "maid", "r": "made", "e": "Made uses the a_e pattern — the silent e makes the a say its name!"},
+          {"t": "grammar", "w": "gave", "r": "give", "e": "Use 'give' to match 'I made and give.'"},
+          {"t": "spelling", "w": "cake", "r": "cake", "e": "Cake is spelled correctly with a_e — great job!"},
+          {"t": "punctuation", "w": "jane", "r": "Jane.", "e": "A statement must end with a period, and names must be capitalized."}
+        ],
+        "fixed": "I made a cake and give it to Jane.",
+        "pos": [
+          {"w": "I", "t": "PRO", "q": "Find the pronoun that means the person speaking."},
+          {"w": "made", "t": "V", "q": "Find the verb that tells what I did."},
+          {"w": "a", "t": "ART", "q": "Find the article before 'cake.'"},
+          {"w": "cake", "t": "N", "q": "Find the noun for a sweet treat."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction that joins two ideas."},
+          {"w": "give", "t": "V", "q": "Find the verb that means to hand over."},
+          {"w": "it", "t": "PRO", "q": "Find the pronoun that means the cake."},
+          {"w": "to", "t": "PREP", "q": "Find the preposition that tells who gets it."},
+          {"w": "Jane", "t": "N", "q": "Find the proper noun that names a person."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'cake' with a different a_e word.",
+          "word": "cake",
+          "examples": [
+            "I made a <span class='changed'>plate</span> and give it to Jane.",
+            "I made a <span class='changed'>cape</span> and give it to Jane."
+          ]
+        },
+        "vocab": {
+          "w": "cake",
+          "type": "noun",
+          "def": "A sweet baked food made from flour, sugar, eggs, and butter.",
+          "simple": "A cake is a yummy treat you bake for birthdays and parties!",
+          "examples": ["a birthday cake", "a big cake", "a slice of cake"],
+          "similar": ["cupcake", "pastry"],
+          "antonyms": [],
+          "nonex": ["It does NOT mean bread.", "It does NOT mean a cookie."],
+          "example": "We had a big cake at the party.",
+          "starter": "My favorite kind of cake is _______ ...",
+          "why": "Cake is a fun a_e word that everyone loves — and it helps you practice silent e!"
+        },
+        "ufliLesson": 62,
+        "ufliSkill": "VCe Review (a_e, i_e)",
+        "ufliSection": "VCe / Silent E",
+        "phonicsWords": ["cake", "make", "lake", "bike", "hike", "kite"],
+        "heartWords": ["a", "and", "it", "to"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "mike likes to ried his bike to the lake",
+        "corr": [
+          {"t": "capitalization", "w": "mike", "r": "Mike", "e": "A person's name must be capitalized."},
+          {"t": "spelling", "w": "ried", "r": "ride", "e": "Ride uses the i_e pattern — the silent e makes the i say its name!"},
+          {"t": "grammar", "w": "likes", "r": "liked", "e": "Use 'liked' to tell about the past."},
+          {"t": "spelling", "w": "bike", "r": "bike", "e": "Bike is spelled correctly with i_e — well done!"},
+          {"t": "punctuation", "w": "lake", "r": "lake.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "Mike liked to ride his bike to the lake.",
+        "pos": [
+          {"w": "Mike", "t": "N", "q": "Find the proper noun that names a person."},
+          {"w": "liked", "t": "V", "q": "Find the verb that tells what Mike did."},
+          {"w": "to", "t": "PREP", "q": "Find the word before 'ride.'"},
+          {"w": "ride", "t": "V", "q": "Find the verb that means to go on a bike."},
+          {"w": "his", "t": "PRO", "q": "Find the pronoun that means belonging to Mike."},
+          {"w": "bike", "t": "N", "q": "Find the noun for something you pedal."},
+          {"w": "to", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'lake.'"},
+          {"w": "lake", "t": "N", "q": "Find the noun for a body of water."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'lake' with a different a_e or i_e word.",
+          "word": "lake",
+          "examples": [
+            "Mike liked to ride his bike to the <span class='changed'>cave</span>.",
+            "Mike liked to ride his bike to the <span class='changed'>gate</span>."
+          ]
+        },
+        "vocab": {
+          "w": "lake",
+          "type": "noun",
+          "def": "A large body of water surrounded by land.",
+          "simple": "A lake is a big pool of water in nature where you can swim and fish!",
+          "examples": ["a big lake", "swim in the lake", "a lake in the hills"],
+          "similar": ["pond", "pool"],
+          "antonyms": ["desert"],
+          "nonex": ["It does NOT mean the ocean.", "It does NOT mean a river."],
+          "example": "We went to the lake to swim and fish.",
+          "starter": "At the lake, I like to _______ ...",
+          "why": "Lake is a useful a_e word and lakes are fun places to visit and learn about!"
+        },
+        "ufliLesson": 62,
+        "ufliSkill": "VCe Review (a_e, i_e)",
+        "ufliSection": "VCe / Silent E",
+        "phonicsWords": ["cake", "make", "lake", "bike", "hike", "kite"],
+        "heartWords": ["to", "his", "the"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 63,
+    "sentences": [
+      {
+        "orig": "the dog brok a bone and ran hoam",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "brok", "r": "broke", "e": "Broke uses the o_e pattern — the silent e makes the o say its name!"},
+          {"t": "grammar", "w": "ran", "r": "runs", "e": "Use 'runs' to tell about what happens now."},
+          {"t": "spelling", "w": "hoam", "r": "home", "e": "Home uses the o_e pattern — the silent e makes the o say its name!"},
+          {"t": "punctuation", "w": "hoam", "r": "home.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The dog broke a bone and runs home.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "dog", "t": "N", "q": "Find the noun for a pet animal."},
+          {"w": "broke", "t": "V", "q": "Find the verb that means to crack apart."},
+          {"w": "a", "t": "ART", "q": "Find the article before 'bone.'"},
+          {"w": "bone", "t": "N", "q": "Find the noun for what is inside your body."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction that joins two ideas."},
+          {"w": "runs", "t": "V", "q": "Find the verb that means to move fast."},
+          {"w": "home", "t": "N", "q": "Find the noun for where you live."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'bone' with a different o_e word.",
+          "word": "bone",
+          "examples": [
+            "The dog broke a <span class='changed'>rope</span> and runs home.",
+            "The dog broke a <span class='changed'>stone</span> and runs home."
+          ]
+        },
+        "vocab": {
+          "w": "bone",
+          "type": "noun",
+          "def": "A hard, white part inside the body of a person or animal.",
+          "simple": "A bone is the hard stuff inside your body that holds you up!",
+          "examples": ["a dog bone", "a big bone", "a broken bone"],
+          "similar": ["skeleton"],
+          "antonyms": [],
+          "nonex": ["It does NOT mean skin.", "It does NOT mean a muscle."],
+          "example": "The dog loves to chew on a big bone.",
+          "starter": "I know bones are important because _______ ...",
+          "why": "Bone is a great o_e word and you have over 200 bones in your body!"
+        },
+        "ufliLesson": 63,
+        "ufliSkill": "VCe Review (o_e, u_e)",
+        "ufliSection": "VCe / Silent E",
+        "phonicsWords": ["bone", "home", "hope", "rope", "cute", "tube"],
+        "heartWords": ["the", "a", "and"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "june usd a huge rope to move the stone",
+        "corr": [
+          {"t": "capitalization", "w": "june", "r": "June", "e": "A person's name must be capitalized."},
+          {"t": "spelling", "w": "usd", "r": "used", "e": "Used uses the u_e pattern — the silent e makes the u say its name!"},
+          {"t": "grammar", "w": "move", "r": "pull", "e": "Use 'pull' because a rope is used to pull, not move."},
+          {"t": "spelling", "w": "rope", "r": "rope", "e": "Rope is spelled correctly with o_e — nice work!"},
+          {"t": "punctuation", "w": "stone", "r": "stone.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "June used a huge rope to pull the stone.",
+        "pos": [
+          {"w": "June", "t": "N", "q": "Find the proper noun that names a person."},
+          {"w": "used", "t": "V", "q": "Find the verb that tells what June did."},
+          {"w": "a", "t": "ART", "q": "Find the article before 'huge.'"},
+          {"w": "huge", "t": "ADJ", "q": "Find the adjective that describes the rope."},
+          {"w": "rope", "t": "N", "q": "Find the noun for something you pull with."},
+          {"w": "to", "t": "PREP", "q": "Find the word before 'pull.'"},
+          {"w": "pull", "t": "V", "q": "Find the verb that means to tug."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'stone.'"},
+          {"w": "stone", "t": "N", "q": "Find the noun for a rock."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'stone' with a different o_e or u_e word.",
+          "word": "stone",
+          "examples": [
+            "June used a huge rope to pull the <span class='changed'>cone</span>.",
+            "June used a huge rope to pull the <span class='changed'>mule</span>."
+          ]
+        },
+        "vocab": {
+          "w": "huge",
+          "type": "adjective",
+          "def": "Extremely large in size or amount.",
+          "simple": "Huge means really, really big — bigger than big!",
+          "examples": ["a huge rock", "a huge wave", "a huge smile"],
+          "similar": ["big", "giant", "enormous"],
+          "antonyms": ["tiny", "small"],
+          "nonex": ["It does NOT mean small.", "It does NOT mean medium."],
+          "example": "We saw a huge whale in the sea.",
+          "starter": "The most huge thing I ever saw was _______ ...",
+          "why": "Huge is a u_e word you can use to describe really big things!"
+        },
+        "ufliLesson": 63,
+        "ufliSkill": "VCe Review (o_e, u_e)",
+        "ufliSection": "VCe / Silent E",
+        "phonicsWords": ["bone", "home", "hope", "rope", "cute", "tube"],
+        "heartWords": ["a", "to", "the"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 64,
+    "sentences": [
+      {
+        "orig": "the man put a staek on the grill at home",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "staek", "r": "stake", "e": "Stake uses the a_e pattern with a blend — 'st' plus 'ake!'"},
+          {"t": "grammar", "w": "put", "r": "puts", "e": "Use 'puts' to tell about what happens now."},
+          {"t": "spelling", "w": "grill", "r": "grill", "e": "Grill is spelled correctly — nice work!"},
+          {"t": "punctuation", "w": "home", "r": "home.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The man puts a stake on the grill at home.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "man", "t": "N", "q": "Find the noun for a grown-up boy."},
+          {"w": "puts", "t": "V", "q": "Find the verb that tells what the man does."},
+          {"w": "a", "t": "ART", "q": "Find the article before 'stake.'"},
+          {"w": "stake", "t": "N", "q": "Find the noun for a pointed stick."},
+          {"w": "on", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'grill.'"},
+          {"w": "grill", "t": "N", "q": "Find the noun for where you cook outside."},
+          {"w": "at", "t": "PREP", "q": "Find the preposition that tells the place."},
+          {"w": "home", "t": "N", "q": "Find the noun for where you live."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'stake' with a different VCe + blend word.",
+          "word": "stake",
+          "examples": [
+            "The man puts a <span class='changed'>plate</span> on the grill at home.",
+            "The man puts a <span class='changed'>grape</span> on the grill at home."
+          ]
+        },
+        "vocab": {
+          "w": "stake",
+          "type": "noun",
+          "def": "A strong, pointed stick or post driven into the ground.",
+          "simple": "A stake is a sharp stick you push into the ground to hold something up!",
+          "examples": ["a tent stake", "a garden stake", "a wooden stake"],
+          "similar": ["post", "pole", "stick"],
+          "antonyms": [],
+          "nonex": ["It does NOT mean a steak you eat.", "It does NOT mean a rock."],
+          "example": "We put a stake in the ground to hold up the plant.",
+          "starter": "I could use a stake to _______ ...",
+          "why": "Stake is a VCe word with a blend — 'st' at the start and 'ake' at the end!"
+        },
+        "ufliLesson": 64,
+        "ufliSkill": "VCe + blends",
+        "ufliSection": "VCe / Silent E",
+        "phonicsWords": ["stake", "stripe", "broke", "plate", "grape", "stone"],
+        "heartWords": ["the", "a", "on", "at"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "the stripe on his skaet is red and wite",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "skaet", "r": "skate", "e": "Skate uses the a_e pattern with a blend — 'sk' plus 'ate!'"},
+          {"t": "grammar", "w": "is", "r": "was", "e": "Use 'was' to tell about the past."},
+          {"t": "spelling", "w": "wite", "r": "white", "e": "White needs 'wh' at the start — it is a digraph plus VCe blend!"},
+          {"t": "punctuation", "w": "wite", "r": "white.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The stripe on his skate was red and white.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "stripe", "t": "N", "q": "Find the noun for a long line of color."},
+          {"w": "on", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "his", "t": "PRO", "q": "Find the pronoun that means belonging to him."},
+          {"w": "skate", "t": "N", "q": "Find the noun for a shoe with wheels."},
+          {"w": "was", "t": "V", "q": "Find the verb that tells about the past."},
+          {"w": "red", "t": "ADJ", "q": "Find the adjective for a color."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction that joins two colors."},
+          {"w": "white", "t": "ADJ", "q": "Find the other adjective for a color."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'stripe' with a different VCe + blend word.",
+          "word": "stripe",
+          "examples": [
+            "The <span class='changed'>brake</span> on his skate was red and white.",
+            "The <span class='changed'>frame</span> on his skate was red and white."
+          ]
+        },
+        "vocab": {
+          "w": "stripe",
+          "type": "noun",
+          "def": "A long, narrow band of color that is different from its background.",
+          "simple": "A stripe is a line of color — like on a flag or a tiger!",
+          "examples": ["a red stripe", "a stripe on a shirt", "tiger stripes"],
+          "similar": ["line", "band", "strip"],
+          "antonyms": [],
+          "nonex": ["It does NOT mean a dot.", "It does NOT mean a spot."],
+          "example": "The cat has a white stripe on its back.",
+          "starter": "I see stripes on _______ ...",
+          "why": "Stripe is a VCe word with the blend 'str' — it helps you read longer words!"
+        },
+        "ufliLesson": 64,
+        "ufliSkill": "VCe + blends",
+        "ufliSection": "VCe / Silent E",
+        "phonicsWords": ["stake", "stripe", "broke", "plate", "grape", "stone"],
+        "heartWords": ["the", "on", "his", "is", "and"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 65,
+    "sentences": [
+      {
+        "orig": "the wale swam by the big shap in the lake",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "wale", "r": "whale", "e": "Whale starts with the digraph 'wh' plus the a_e VCe pattern!"},
+          {"t": "grammar", "w": "swam", "r": "swims", "e": "Use 'swims' to tell about what happens now."},
+          {"t": "spelling", "w": "shap", "r": "shape", "e": "Shape uses the digraph 'sh' plus the a_e VCe pattern!"},
+          {"t": "punctuation", "w": "lake", "r": "lake.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The whale swims by the big shape in the lake.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "whale", "t": "N", "q": "Find the noun for a huge sea animal."},
+          {"w": "swims", "t": "V", "q": "Find the verb that tells what the whale does."},
+          {"w": "by", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'big.'"},
+          {"w": "big", "t": "ADJ", "q": "Find the adjective that describes the shape."},
+          {"w": "shape", "t": "N", "q": "Find the noun that means a form or outline."},
+          {"w": "in", "t": "PREP", "q": "Find the preposition that tells the place."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'lake.'"},
+          {"w": "lake", "t": "N", "q": "Find the noun for a body of water."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'whale' with a different digraph + VCe word.",
+          "word": "whale",
+          "examples": [
+            "The <span class='changed'>snake</span> swims by the big shape in the lake.",
+            "The <span class='changed'>crane</span> swims by the big shape in the lake."
+          ]
+        },
+        "vocab": {
+          "w": "whale",
+          "type": "noun",
+          "def": "A very large marine mammal that breathes air through a blowhole.",
+          "simple": "A whale is the biggest animal in the sea — it is even bigger than a bus!",
+          "examples": ["a blue whale", "a big whale", "a whale in the sea"],
+          "similar": ["dolphin"],
+          "antonyms": [],
+          "nonex": ["It does NOT mean a fish.", "It does NOT mean a shark."],
+          "example": "We saw a huge whale jump out of the water!",
+          "starter": "If I saw a whale, I would _______ ...",
+          "why": "Whale is a great word with the 'wh' digraph and the a_e VCe pattern together!"
+        },
+        "ufliLesson": 65,
+        "ufliSkill": "VCe + digraphs",
+        "ufliSection": "VCe / Silent E",
+        "phonicsWords": ["shake", "whale", "phone", "shape", "shade", "chase"],
+        "heartWords": ["the", "by", "in"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "she shook the fone and it made a big nois",
+        "corr": [
+          {"t": "capitalization", "w": "she", "r": "She", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "fone", "r": "phone", "e": "Phone uses the digraph 'ph' plus the o_e VCe pattern!"},
+          {"t": "grammar", "w": "shook", "r": "shakes", "e": "Use 'shakes' to tell about what happens now."},
+          {"t": "spelling", "w": "nois", "r": "noise", "e": "Noise ends with a silent e — remember the VCe pattern!"},
+          {"t": "punctuation", "w": "nois", "r": "noise.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "She shakes the phone and it made a big noise.",
+        "pos": [
+          {"w": "She", "t": "PRO", "q": "Find the pronoun that means a girl."},
+          {"w": "shakes", "t": "V", "q": "Find the verb that means to move back and forth."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'phone.'"},
+          {"w": "phone", "t": "N", "q": "Find the noun for a device you call on."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction that joins two ideas."},
+          {"w": "it", "t": "PRO", "q": "Find the pronoun that means the phone."},
+          {"w": "made", "t": "V", "q": "Find the verb that tells what happened."},
+          {"w": "a", "t": "ART", "q": "Find the article before 'big.'"},
+          {"w": "big", "t": "ADJ", "q": "Find the adjective that describes the noise."},
+          {"w": "noise", "t": "N", "q": "Find the noun that means a sound."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'phone' with a different digraph + VCe word.",
+          "word": "phone",
+          "examples": [
+            "She shakes the <span class='changed'>shade</span> and it made a big noise.",
+            "She shakes the <span class='changed'>chime</span> and it made a big noise."
+          ]
+        },
+        "vocab": {
+          "w": "phone",
+          "type": "noun",
+          "def": "A device used to talk to someone who is far away.",
+          "simple": "A phone is something you use to call and talk to people!",
+          "examples": ["a cell phone", "pick up the phone", "talk on the phone"],
+          "similar": ["telephone", "cell"],
+          "antonyms": [],
+          "nonex": ["It does NOT mean a computer.", "It does NOT mean a radio."],
+          "example": "Mom called me on the phone after school.",
+          "starter": "I use a phone to _______ ...",
+          "why": "Phone is a cool word because 'ph' makes the /f/ sound — plus it uses the o_e VCe pattern!"
+        },
+        "ufliLesson": 65,
+        "ufliSkill": "VCe + digraphs",
+        "ufliSection": "VCe / Silent E",
+        "phonicsWords": ["shake", "whale", "phone", "shape", "shade", "chase"],
+        "heartWords": ["the", "and", "it", "a"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 66,
+    "sentences": [
+      {
+        "orig": "the cap on his hed is not a cape",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "hed", "r": "head", "e": "Head has 'ea' in the middle — it is a tricky word!"},
+          {"t": "grammar", "w": "is", "r": "was", "e": "Use 'was' to tell about the past."},
+          {"t": "spelling", "w": "cape", "r": "cape", "e": "Cape is spelled correctly with a_e — the silent e makes the a long!"},
+          {"t": "punctuation", "w": "cape", "r": "cape.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The cap on his head was not a cape.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "cap", "t": "N", "q": "Find the CVC noun for a hat."},
+          {"w": "on", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "his", "t": "PRO", "q": "Find the pronoun that means belonging to him."},
+          {"w": "head", "t": "N", "q": "Find the noun for the top of your body."},
+          {"w": "was", "t": "V", "q": "Find the verb that tells about the past."},
+          {"w": "not", "t": "ADV", "q": "Find the adverb that means no."},
+          {"w": "a", "t": "ART", "q": "Find the article before 'cape.'"},
+          {"w": "cape", "t": "N", "q": "Find the VCe noun for something a hero wears."}
+        ],
+        "manip": {
+          "task": "Replace the CVC word 'cap' with a different CVC/VCe pair word.",
+          "word": "cap",
+          "examples": [
+            "The <span class='changed'>tap</span> on his head was not a cape.",
+            "The <span class='changed'>mat</span> on his head was not a cape."
+          ]
+        },
+        "vocab": {
+          "w": "cape",
+          "type": "noun",
+          "def": "A sleeveless cloak that hangs from the shoulders.",
+          "simple": "A cape is like a blanket you wear on your back — superheroes wear them!",
+          "examples": ["a red cape", "a hero's cape", "a magic cape"],
+          "similar": ["cloak", "coat"],
+          "antonyms": [],
+          "nonex": ["It does NOT mean a cap or hat.", "It does NOT mean a shirt."],
+          "example": "The superhero wore a long red cape.",
+          "starter": "If I had a cape, I would _______ ...",
+          "why": "Cape and cap show how silent e changes a short vowel to a long vowel!"
+        },
+        "ufliLesson": 66,
+        "ufliSkill": "Contrasting CVC vs VCe",
+        "ufliSection": "VCe / Silent E",
+        "phonicsWords": ["cap", "cape", "hop", "hope", "kit", "kite"],
+        "heartWords": ["the", "on", "his", "not", "a"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "he had to hop over the rok but he has hop that he can make it",
+        "corr": [
+          {"t": "capitalization", "w": "he", "r": "He", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "rok", "r": "rock", "e": "Rock has 'ck' at the end, not just 'k.'"},
+          {"t": "grammar", "w": "has", "r": "had", "e": "Use 'had' to match the past tense in this sentence."},
+          {"t": "spelling", "w": "hop", "r": "hope", "e": "Hope uses the o_e VCe pattern — silent e makes the o long! Hop (CVC) means to jump, hope (VCe) means to wish."},
+          {"t": "punctuation", "w": "it", "r": "it.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "He had to hop over the rock but he had hope that he can make it.",
+        "pos": [
+          {"w": "He", "t": "PRO", "q": "Find the pronoun at the beginning."},
+          {"w": "had", "t": "V", "q": "Find the first verb in the sentence."},
+          {"w": "to", "t": "PREP", "q": "Find the word before 'hop.'"},
+          {"w": "hop", "t": "V", "q": "Find the CVC verb that means to jump."},
+          {"w": "over", "t": "PREP", "q": "Find the preposition that means above."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'rock.'"},
+          {"w": "rock", "t": "N", "q": "Find the noun for a big stone."},
+          {"w": "but", "t": "CONJ", "q": "Find the conjunction that shows a contrast."},
+          {"w": "he", "t": "PRO", "q": "Find the pronoun used again."},
+          {"w": "had", "t": "V", "q": "Find the second verb that tells about the past."},
+          {"w": "hope", "t": "N", "q": "Find the VCe noun that means a wish."},
+          {"w": "that", "t": "CONJ", "q": "Find the word that connects the idea."},
+          {"w": "he", "t": "PRO", "q": "Find the pronoun used a third time."},
+          {"w": "can", "t": "V", "q": "Find the verb that means is able to."},
+          {"w": "make", "t": "V", "q": "Find the VCe verb that means to do it."},
+          {"w": "it", "t": "PRO", "q": "Find the pronoun at the end."}
+        ],
+        "manip": {
+          "task": "Replace 'hop' with a different CVC word and 'hope' with its VCe pair.",
+          "word": "hop",
+          "examples": [
+            "He had to <span class='changed'>tap</span> over the rock but he had <span class='changed'>tape</span> that he can make it.",
+            "He had to <span class='changed'>cut</span> over the rock but he had <span class='changed'>cute</span> that he can make it."
+          ]
+        },
+        "vocab": {
+          "w": "hope",
+          "type": "noun",
+          "def": "A feeling of wanting something good to happen.",
+          "simple": "Hope is when you really wish for something good!",
+          "examples": ["I have hope", "a hope for rain", "full of hope"],
+          "similar": ["wish", "dream"],
+          "antonyms": ["despair", "doubt"],
+          "nonex": ["It does NOT mean to jump (that is hop!).", "It does NOT mean to know for sure."],
+          "example": "I have hope that the sun will shine today.",
+          "starter": "I have hope that _______ ...",
+          "why": "Hope and hop show how one silent e changes everything — the sound AND the meaning!"
+        },
+        "ufliLesson": 66,
+        "ufliSkill": "Contrasting CVC vs VCe",
+        "ufliSection": "VCe / Silent E",
+        "phonicsWords": ["cap", "cape", "hop", "hope", "kit", "kite"],
+        "heartWords": ["he", "to", "the", "but", "that", "can"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 67,
+    "sentences": [
+      {
+        "orig": "we mad a big kiet and it flue up hi",
+        "corr": [
+          {"t": "capitalization", "w": "we", "r": "We", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "kiet", "r": "kite", "e": "Kite uses the i_e VCe pattern — the silent e makes the i say its name!"},
+          {"t": "grammar", "w": "mad", "r": "made", "e": "Use 'made' — it is the past tense of make with the a_e pattern!"},
+          {"t": "spelling", "w": "flue", "r": "flew", "e": "Flew is the past tense of fly — it does not use silent e!"},
+          {"t": "punctuation", "w": "hi", "r": "high.", "e": "A statement must end with a period, and high is spelled with 'igh.'"}
+        ],
+        "fixed": "We made a big kite and it flew up high.",
+        "pos": [
+          {"w": "We", "t": "PRO", "q": "Find the pronoun that means you and me."},
+          {"w": "made", "t": "V", "q": "Find the VCe verb that tells what we did."},
+          {"w": "a", "t": "ART", "q": "Find the article before 'big.'"},
+          {"w": "big", "t": "ADJ", "q": "Find the adjective that describes the kite."},
+          {"w": "kite", "t": "N", "q": "Find the VCe noun that flies in the sky."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction that joins two ideas."},
+          {"w": "it", "t": "PRO", "q": "Find the pronoun that means the kite."},
+          {"w": "flew", "t": "V", "q": "Find the verb that means to go up in the air."},
+          {"w": "up", "t": "ADV", "q": "Find the adverb that tells the direction."},
+          {"w": "high", "t": "ADV", "q": "Find the adverb that tells how far up."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'kite' with a different VCe word.",
+          "word": "kite",
+          "examples": [
+            "We made a big <span class='changed'>plane</span> and it flew up high.",
+            "We made a big <span class='changed'>dome</span> and it flew up high."
+          ]
+        },
+        "vocab": {
+          "w": "kite",
+          "type": "noun",
+          "def": "A light frame covered with paper or cloth, flown in the wind on a string.",
+          "simple": "A kite is a toy that you fly in the sky on a windy day!",
+          "examples": ["fly a kite", "a red kite", "a kite in the wind"],
+          "similar": ["glider"],
+          "antonyms": [],
+          "nonex": ["It does NOT mean a bird.", "It does NOT mean a plane."],
+          "example": "We flew a kite at the park on a windy day.",
+          "starter": "The best place to fly a kite is _______ ...",
+          "why": "Kite is a perfect VCe review word — the silent e makes the i say its name!"
+        },
+        "ufliLesson": 67,
+        "ufliSkill": "VCe Assessment & Review",
+        "ufliSection": "VCe / Silent E",
+        "phonicsWords": ["kite", "made", "home", "cute", "these", "broke"],
+        "heartWords": ["we", "a", "and", "it", "up"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "jane rode her bike to the cav and it was a nise plase",
+        "corr": [
+          {"t": "capitalization", "w": "jane", "r": "Jane", "e": "A person's name must be capitalized."},
+          {"t": "spelling", "w": "cav", "r": "cave", "e": "Cave uses the a_e VCe pattern — the silent e makes the a say its name!"},
+          {"t": "grammar", "w": "was", "r": "is", "e": "Use 'is' because the cave is still a nice place."},
+          {"t": "spelling", "w": "nise", "r": "nice", "e": "Nice uses the i_e VCe pattern — remember the silent e!"},
+          {"t": "punctuation", "w": "plase", "r": "place.", "e": "A statement must end with a period, and place uses the a_e VCe pattern!"}
+        ],
+        "fixed": "Jane rode her bike to the cave and it is a nice place.",
+        "pos": [
+          {"w": "Jane", "t": "N", "q": "Find the proper noun that names a person."},
+          {"w": "rode", "t": "V", "q": "Find the VCe verb that tells what Jane did."},
+          {"w": "her", "t": "PRO", "q": "Find the pronoun that means belonging to Jane."},
+          {"w": "bike", "t": "N", "q": "Find the VCe noun for something you pedal."},
+          {"w": "to", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'cave.'"},
+          {"w": "cave", "t": "N", "q": "Find the VCe noun for a hole in a rock."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction that joins two ideas."},
+          {"w": "it", "t": "PRO", "q": "Find the pronoun that means the cave."},
+          {"w": "is", "t": "V", "q": "Find the verb that tells about now."},
+          {"w": "a", "t": "ART", "q": "Find the article before 'nice.'"},
+          {"w": "nice", "t": "ADJ", "q": "Find the VCe adjective that means good."},
+          {"w": "place", "t": "N", "q": "Find the VCe noun that means a spot or location."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'cave' with a different VCe word.",
+          "word": "cave",
+          "examples": [
+            "Jane rode her bike to the <span class='changed'>lake</span> and it is a nice place.",
+            "Jane rode her bike to the <span class='changed'>grove</span> and it is a nice place."
+          ]
+        },
+        "vocab": {
+          "w": "cave",
+          "type": "noun",
+          "def": "A large, natural hole in the side of a hill or cliff, or underground.",
+          "simple": "A cave is a big hole in a rock or hill that you can go inside!",
+          "examples": ["a dark cave", "a bat cave", "explore a cave"],
+          "similar": ["cavern", "grotto"],
+          "antonyms": [],
+          "nonex": ["It does NOT mean a hole in the ground.", "It does NOT mean a tent."],
+          "example": "We found a cool cave at the top of the hill.",
+          "starter": "If I went into a cave, I might see _______ ...",
+          "why": "Cave is a great VCe review word that uses the a_e pattern!"
+        },
+        "ufliLesson": 67,
+        "ufliSkill": "VCe Assessment & Review",
+        "ufliSection": "VCe / Silent E",
+        "phonicsWords": ["kite", "made", "home", "cute", "these", "broke"],
+        "heartWords": ["her", "to", "the", "and", "it", "a"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 68,
+    "sentences": [
+      {
+        "orig": "the frog sat on a big flat ston by the lake",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "ston", "r": "stone", "e": "Stone uses the o_e VCe pattern — the silent e makes the o say its name!"},
+          {"t": "grammar", "w": "sat", "r": "sits", "e": "Use 'sits' to tell about what happens now."},
+          {"t": "spelling", "w": "flat", "r": "flat", "e": "Flat is a CVC-blend word spelled correctly — nice job!"},
+          {"t": "punctuation", "w": "lake", "r": "lake.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The frog sits on a big flat stone by the lake.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "frog", "t": "N", "q": "Find the CVC-blend noun for a green animal."},
+          {"w": "sits", "t": "V", "q": "Find the verb that tells what the frog does."},
+          {"w": "on", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "a", "t": "ART", "q": "Find the article before 'big.'"},
+          {"w": "big", "t": "ADJ", "q": "Find the adjective that describes the stone."},
+          {"w": "flat", "t": "ADJ", "q": "Find the blend adjective that describes the stone."},
+          {"w": "stone", "t": "N", "q": "Find the VCe noun for a rock."},
+          {"w": "by", "t": "PREP", "q": "Find the preposition that tells location."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'lake.'"},
+          {"w": "lake", "t": "N", "q": "Find the VCe noun for a body of water."}
+        ],
+        "manip": {
+          "task": "Replace the VCe noun 'stone' with a different VCe, blend, or digraph word.",
+          "word": "stone",
+          "examples": [
+            "The frog sits on a big flat <span class='changed'>plate</span> by the lake.",
+            "The frog sits on a big flat <span class='changed'>log</span> by the lake."
+          ]
+        },
+        "vocab": {
+          "w": "stone",
+          "type": "noun",
+          "def": "A small piece of rock found on the ground.",
+          "simple": "A stone is a little rock you can pick up and hold!",
+          "examples": ["a flat stone", "skip a stone", "a smooth stone"],
+          "similar": ["rock", "pebble"],
+          "antonyms": [],
+          "nonex": ["It does NOT mean sand.", "It does NOT mean dirt."],
+          "example": "She skipped a flat stone across the lake.",
+          "starter": "I found a stone that looked like _______ ...",
+          "why": "Stone is a VCe word with the o_e pattern — great for cumulative review!"
+        },
+        "ufliLesson": 68,
+        "ufliSkill": "Cumulative Review (CVC, blends, digraphs, VCe)",
+        "ufliSection": "VCe / Silent E",
+        "phonicsWords": ["frog", "stone", "chip", "whale", "shake", "kite"],
+        "heartWords": ["the", "on", "a", "by"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "shane grabd a chip and a grape and then he shook the plate",
+        "corr": [
+          {"t": "capitalization", "w": "shane", "r": "Shane", "e": "A person's name must be capitalized."},
+          {"t": "spelling", "w": "grabd", "r": "grabbed", "e": "Grabbed has a double 'b' before '-ed' because grab is a CVC word!"},
+          {"t": "grammar", "w": "shook", "r": "shakes", "e": "Use 'shakes' to tell about what happens now."},
+          {"t": "spelling", "w": "grape", "r": "grape", "e": "Grape is spelled correctly with the a_e VCe + blend — well done!"},
+          {"t": "punctuation", "w": "plate", "r": "plate.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "Shane grabbed a chip and a grape and then he shakes the plate.",
+        "pos": [
+          {"w": "Shane", "t": "N", "q": "Find the proper noun that names a person."},
+          {"w": "grabbed", "t": "V", "q": "Find the CVC verb that tells what Shane did."},
+          {"w": "a", "t": "ART", "q": "Find the article before 'chip.'"},
+          {"w": "chip", "t": "N", "q": "Find the digraph noun for a snack."},
+          {"w": "and", "t": "CONJ", "q": "Find the first conjunction."},
+          {"w": "a", "t": "ART", "q": "Find the article before 'grape.'"},
+          {"w": "grape", "t": "N", "q": "Find the VCe + blend noun for a fruit."},
+          {"w": "and", "t": "CONJ", "q": "Find the second conjunction."},
+          {"w": "then", "t": "ADV", "q": "Find the adverb that tells when."},
+          {"w": "he", "t": "PRO", "q": "Find the pronoun that means Shane."},
+          {"w": "shakes", "t": "V", "q": "Find the digraph + VCe verb."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'plate.'"},
+          {"w": "plate", "t": "N", "q": "Find the VCe + blend noun for a dish."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'chip' with a different CVC, blend, digraph, or VCe word.",
+          "word": "chip",
+          "examples": [
+            "Shane grabbed a <span class='changed'>plum</span> and a grape and then he shakes the plate.",
+            "Shane grabbed a <span class='changed'>cake</span> and a grape and then he shakes the plate."
+          ]
+        },
+        "vocab": {
+          "w": "plate",
+          "type": "noun",
+          "def": "A flat dish used for serving or eating food.",
+          "simple": "A plate is the round, flat dish you put your food on!",
+          "examples": ["a dinner plate", "a full plate", "a clean plate"],
+          "similar": ["dish", "platter"],
+          "antonyms": [],
+          "nonex": ["It does NOT mean a bowl.", "It does NOT mean a cup."],
+          "example": "Put the grapes on the plate for lunch.",
+          "starter": "On my plate, I like to have _______ ...",
+          "why": "Plate is a great cumulative review word — it has the blend 'pl' and the a_e VCe pattern!"
+        },
+        "ufliLesson": 68,
+        "ufliSkill": "Cumulative Review (CVC, blends, digraphs, VCe)",
+        "ufliSection": "VCe / Silent E",
+        "phonicsWords": ["frog", "stone", "chip", "whale", "shake", "kite"],
+        "heartWords": ["a", "and", "then", "he", "the"],
+        "sentenceType": "application"
+      }
+    ]
+  }
+]

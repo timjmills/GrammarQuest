@@ -1,0 +1,2242 @@
+[
+  {
+    "day": 98,
+    "sentences": [
+      {
+        "orig": "the boy fownd a new toy in the hous",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "fownd", "r": "found", "e": "Found uses the 'ou' diphthong, not 'ow.'"},
+          {"t": "spelling", "w": "hous", "r": "house", "e": "House ends with a silent 'e' and uses the 'ou' diphthong."},
+          {"t": "grammar", "w": "new", "r": "shiny", "e": "Use a more descriptive adjective to tell about the toy."},
+          {"t": "punctuation", "w": "hous", "r": "house.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The boy found a shiny toy in the house.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "boy", "t": "N", "q": "Find the noun for a person."},
+          {"w": "found", "t": "V", "q": "Find the verb that tells what the boy did."},
+          {"w": "a", "t": "ART", "q": "Find the article before 'shiny.'"},
+          {"w": "shiny", "t": "ADJ", "q": "Find the adjective describing the toy."},
+          {"w": "toy", "t": "N", "q": "Find the noun for a thing you play with."},
+          {"w": "in", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'house.'"},
+          {"w": "house", "t": "N", "q": "Find the noun for a building."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'toy' with a different oi/oy word.",
+          "word": "toy",
+          "examples": [
+            "The boy found a shiny <span class='changed'>coin</span> in the house.",
+            "The boy found a shiny <span class='changed'>foil</span> in the house."
+          ]
+        },
+        "vocab": {
+          "w": "joyful",
+          "type": "adjective",
+          "def": "Feeling or showing great happiness.",
+          "simple": "Joyful means very, very happy!",
+          "examples": ["a joyful smile", "a joyful day", "a joyful song"],
+          "similar": ["happy", "glad", "cheerful"],
+          "antonyms": ["sad", "unhappy"],
+          "nonex": ["It does NOT mean just okay or fine."],
+          "example": "The children were joyful when they saw the new playground.",
+          "starter": "I feel joyful when _______ ...",
+          "why": "Joyful is a wonderful word to describe really happy feelings!"
+        },
+        "ufliLesson": 98,
+        "ufliSkill": "Diphthong Review (oi/oy, ou/ow, ew, au/aw)",
+        "ufliSection": "Advanced Patterns",
+        "phonicsWords": ["joy", "coin", "found", "house", "new", "straw"],
+        "heartWords": ["the", "a", "in"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "we drew pictuers of owls and crawled thru the brown tunnel",
+        "corr": [
+          {"t": "capitalization", "w": "we", "r": "We", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "pictuers", "r": "pictures", "e": "Pictures is spelled p-i-c-t-u-r-e-s."},
+          {"t": "spelling", "w": "thru", "r": "through", "e": "Through is the correct spelling, not 'thru.'"},
+          {"t": "grammar", "w": "crawled", "r": "crawled", "e": "Crawled is correct here — good job!"},
+          {"t": "punctuation", "w": "tunnel", "r": "tunnel.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "We drew pictures of owls and crawled through the brown tunnel.",
+        "pos": [
+          {"w": "We", "t": "PRO", "q": "Find the pronoun at the start."},
+          {"w": "drew", "t": "V", "q": "Find the verb for making pictures."},
+          {"w": "pictures", "t": "N", "q": "Find the noun for things you draw."},
+          {"w": "of", "t": "PREP", "q": "Find the preposition after 'pictures.'"},
+          {"w": "owls", "t": "N", "q": "Find the noun for a bird."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction joining two actions."},
+          {"w": "crawled", "t": "V", "q": "Find the verb for moving on the ground."},
+          {"w": "through", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'brown.'"},
+          {"w": "brown", "t": "ADJ", "q": "Find the adjective describing the tunnel."},
+          {"w": "tunnel", "t": "N", "q": "Find the noun for a long passage."}
+        ],
+        "manip": {
+          "task": "Replace the verb 'drew' with a different ew-word.",
+          "word": "drew",
+          "examples": [
+            "We <span class='changed'>knew</span> pictures of owls and crawled through the brown tunnel.",
+            "We <span class='changed'>blew</span> pictures of owls and crawled through the brown tunnel."
+          ]
+        },
+        "vocab": {
+          "w": "browse",
+          "type": "verb",
+          "def": "To look at things in a relaxed way without a plan.",
+          "simple": "Browse means to look around at different things, like looking at books in a library!",
+          "examples": ["browse the shelves", "browse the store", "browse a book"],
+          "similar": ["look", "scan", "explore"],
+          "antonyms": ["ignore", "overlook"],
+          "nonex": ["It does NOT mean to buy something right away."],
+          "example": "We like to browse the books at the school library.",
+          "starter": "I like to browse _______ ...",
+          "why": "Browse is a great word for when you are looking around at interesting things!"
+        },
+        "ufliLesson": 98,
+        "ufliSkill": "Diphthong Review (oi/oy, ou/ow, ew, au/aw)",
+        "ufliSection": "Advanced Patterns",
+        "phonicsWords": ["drew", "owls", "brown", "crawled", "through", "straw"],
+        "heartWords": ["we", "the", "of", "and"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 99,
+    "sentences": [
+      {
+        "orig": "i noe that my nee hurts after the fall",
+        "corr": [
+          {"t": "capitalization", "w": "i", "r": "I", "e": "The pronoun 'I' must always be capitalized."},
+          {"t": "spelling", "w": "noe", "r": "know", "e": "Know starts with a silent 'kn' — the 'k' is not said."},
+          {"t": "spelling", "w": "nee", "r": "knee", "e": "Knee is spelled with a silent 'kn' at the start."},
+          {"t": "grammar", "w": "hurts", "r": "hurt", "e": "Use 'hurt' to match past tense with 'after the fall.'"},
+          {"t": "punctuation", "w": "fall", "r": "fall.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "I know that my knee hurt after the fall.",
+        "pos": [
+          {"w": "I", "t": "PRO", "q": "Find the pronoun for the speaker."},
+          {"w": "know", "t": "V", "q": "Find the verb for understanding something."},
+          {"w": "that", "t": "SUBCONJ", "q": "Find the word that connects the two ideas."},
+          {"w": "my", "t": "POSS", "q": "Find the possessive word."},
+          {"w": "knee", "t": "N", "q": "Find the noun for a body part."},
+          {"w": "hurt", "t": "V", "q": "Find the verb that tells about pain."},
+          {"w": "after", "t": "PREP", "q": "Find the preposition that tells when."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'fall.'"},
+          {"w": "fall", "t": "N", "q": "Find the noun at the end."}
+        ],
+        "manip": {
+          "task": "Replace the verb 'know' with a different kn-word.",
+          "word": "know",
+          "examples": [
+            "I <span class='changed'>knew</span> that my knee hurt after the fall.",
+            "I <span class='changed'>knelt</span> that my knee hurt after the fall."
+          ]
+        },
+        "vocab": {
+          "w": "knowledge",
+          "type": "noun",
+          "def": "Facts, information, and skills learned through experience or education.",
+          "simple": "Knowledge is what you know and learn!",
+          "examples": ["book knowledge", "world knowledge", "plant knowledge"],
+          "similar": ["wisdom", "understanding", "learning"],
+          "antonyms": ["ignorance"],
+          "nonex": ["It does NOT mean just memorizing facts."],
+          "example": "Reading books helps us gain knowledge about the world.",
+          "starter": "I have knowledge about _______ ...",
+          "why": "Knowledge helps us understand the world around us!"
+        },
+        "ufliLesson": 99,
+        "ufliSkill": "kn /n/",
+        "ufliSection": "Advanced Patterns",
+        "phonicsWords": ["knee", "know", "knock", "knit", "knot", "knife"],
+        "heartWords": ["I", "that", "my", "the"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "the nite before, she nit a warm scarf with a nott in it",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "nite", "r": "knight", "e": "Knight starts with a silent 'kn' and has a silent 'gh.'"},
+          {"t": "spelling", "w": "nit", "r": "knit", "e": "Knit starts with a silent 'kn.'"},
+          {"t": "spelling", "w": "nott", "r": "knot", "e": "Knot starts with a silent 'kn.'"},
+          {"t": "punctuation", "w": "it", "r": "it.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The knight before, she knit a warm scarf with a knot in it.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "knight", "t": "N", "q": "Find the noun for a person in armor."},
+          {"w": "before", "t": "PREP", "q": "Find the word that tells when."},
+          {"w": "she", "t": "PRO", "q": "Find the pronoun for a girl or woman."},
+          {"w": "knit", "t": "V", "q": "Find the verb for making with yarn."},
+          {"w": "a", "t": "ART", "q": "Find the article before 'warm.'"},
+          {"w": "warm", "t": "ADJ", "q": "Find the adjective that tells about the scarf."},
+          {"w": "scarf", "t": "N", "q": "Find the noun you wear around your neck."},
+          {"w": "with", "t": "PREP", "q": "Find the preposition meaning 'having.'"},
+          {"w": "a", "t": "ART", "q": "Find the article before 'knot.'"},
+          {"w": "knot", "t": "N", "q": "Find the noun for a tied loop."},
+          {"w": "in", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "it", "t": "PRO", "q": "Find the pronoun at the end."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'knot' with a different kn-word.",
+          "word": "knot",
+          "examples": [
+            "The knight before, she knit a warm scarf with a <span class='changed'>knob</span> in it.",
+            "The knight before, she knit a warm scarf with a <span class='changed'>knack</span> in it."
+          ]
+        },
+        "vocab": {
+          "w": "knack",
+          "type": "noun",
+          "def": "A special talent or skill for doing something well.",
+          "simple": "A knack is when you are really good at something!",
+          "examples": ["a knack for drawing", "a knack for cooking", "a knack for singing"],
+          "similar": ["talent", "skill", "gift"],
+          "antonyms": ["weakness", "struggle"],
+          "nonex": ["It does NOT mean you practiced a lot — it means it comes naturally."],
+          "example": "She has a knack for making people smile.",
+          "starter": "I have a knack for _______ ...",
+          "why": "Knack is a fun word that celebrates what you are naturally good at!"
+        },
+        "ufliLesson": 99,
+        "ufliSkill": "kn /n/",
+        "ufliSection": "Advanced Patterns",
+        "phonicsWords": ["knight", "knit", "knot", "knob", "knack", "knock"],
+        "heartWords": ["the", "she", "a", "with", "in"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 100,
+    "sentences": [
+      {
+        "orig": "he rite a letter to his frend every week",
+        "corr": [
+          {"t": "capitalization", "w": "he", "r": "He", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "rite", "r": "writes", "e": "Writes starts with a silent 'wr.'"},
+          {"t": "spelling", "w": "frend", "r": "friend", "e": "Friend is spelled with 'ie,' not just 'e.'"},
+          {"t": "grammar", "w": "rite", "r": "writes", "e": "Use 'writes' to match the subject 'he.'"},
+          {"t": "punctuation", "w": "week", "r": "week.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "He writes a letter to his friend every week.",
+        "pos": [
+          {"w": "He", "t": "PRO", "q": "Find the pronoun for a boy or man."},
+          {"w": "writes", "t": "V", "q": "Find the verb for putting words on paper."},
+          {"w": "a", "t": "ART", "q": "Find the article before 'letter.'"},
+          {"w": "letter", "t": "N", "q": "Find the noun for something you mail."},
+          {"w": "to", "t": "PREP", "q": "Find the preposition that tells direction."},
+          {"w": "his", "t": "POSS", "q": "Find the possessive word."},
+          {"w": "friend", "t": "N", "q": "Find the noun for a person you like."},
+          {"w": "every", "t": "ADJ", "q": "Find the word that tells 'how often.'"},
+          {"w": "week", "t": "N", "q": "Find the noun for a period of time."}
+        ],
+        "manip": {
+          "task": "Replace the verb 'writes' with a different wr-word.",
+          "word": "writes",
+          "examples": [
+            "He <span class='changed'>wraps</span> a letter to his friend every week.",
+            "He <span class='changed'>wrote</span> a letter to his friend every week."
+          ]
+        },
+        "vocab": {
+          "w": "written",
+          "type": "adjective",
+          "def": "Put down in words on paper or a screen.",
+          "simple": "Written means something has been put into words that you can read!",
+          "examples": ["a written note", "a written test", "a written story"],
+          "similar": ["recorded", "printed", "typed"],
+          "antonyms": ["spoken", "oral"],
+          "nonex": ["It does NOT mean only handwriting — typed words are written too."],
+          "example": "The teacher gave us a written list of spelling words.",
+          "starter": "I have written _______ ...",
+          "why": "Written is a useful word because we read written words every day!"
+        },
+        "ufliLesson": 100,
+        "ufliSkill": "wr /r/",
+        "ufliSection": "Advanced Patterns",
+        "phonicsWords": ["write", "wrote", "wrap", "wrist", "wrong", "wreck"],
+        "heartWords": ["a", "to", "his", "every"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "the rong answer was ritten on the bord in the clasroom",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "rong", "r": "wrong", "e": "Wrong starts with a silent 'wr.'"},
+          {"t": "spelling", "w": "ritten", "r": "written", "e": "Written starts with a silent 'wr.'"},
+          {"t": "spelling", "w": "bord", "r": "board", "e": "Board has the 'oa' vowel team."},
+          {"t": "punctuation", "w": "clasroom", "r": "classroom.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The wrong answer was written on the board in the classroom.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "wrong", "t": "ADJ", "q": "Find the adjective describing the answer."},
+          {"w": "answer", "t": "N", "q": "Find the noun for a response."},
+          {"w": "was", "t": "V", "q": "Find the helping verb."},
+          {"w": "written", "t": "V", "q": "Find the main verb."},
+          {"w": "on", "t": "PREP", "q": "Find the preposition after 'written.'"},
+          {"w": "the", "t": "ART", "q": "Find the article before 'board.'"},
+          {"w": "board", "t": "N", "q": "Find the noun you write on."},
+          {"w": "in", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'classroom.'"},
+          {"w": "classroom", "t": "N", "q": "Find the noun for a room at school."}
+        ],
+        "manip": {
+          "task": "Replace the adjective 'wrong' with a different wr-word.",
+          "word": "wrong",
+          "examples": [
+            "The <span class='changed'>wrecked</span> answer was written on the board in the classroom.",
+            "The <span class='changed'>wrinkled</span> answer was written on the board in the classroom."
+          ]
+        },
+        "vocab": {
+          "w": "wrist",
+          "type": "noun",
+          "def": "The joint between your hand and your arm.",
+          "simple": "Your wrist is the bendy part between your hand and your arm!",
+          "examples": ["a sore wrist", "a wrist watch", "a wrist band"],
+          "similar": ["joint", "arm part"],
+          "antonyms": [],
+          "nonex": ["It does NOT mean your whole arm or hand."],
+          "example": "She wore a pretty bracelet on her wrist.",
+          "starter": "I use my wrist when I _______ ...",
+          "why": "Wrist is a great word to know because it helps you talk about your body!"
+        },
+        "ufliLesson": 100,
+        "ufliSkill": "wr /r/",
+        "ufliSection": "Advanced Patterns",
+        "phonicsWords": ["wrong", "written", "wrap", "wrist", "wreck", "wrote"],
+        "heartWords": ["the", "was", "on", "in"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 101,
+    "sentences": [
+      {
+        "orig": "a nat landed on the sine by the garden gate",
+        "corr": [
+          {"t": "capitalization", "w": "a", "r": "A", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "nat", "r": "gnat", "e": "Gnat starts with a silent 'gn.'"},
+          {"t": "spelling", "w": "sine", "r": "sign", "e": "Sign has a silent 'gn' at the end."},
+          {"t": "grammar", "w": "landed", "r": "landed", "e": "Landed is correct — good job!"},
+          {"t": "punctuation", "w": "gate", "r": "gate.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "A gnat landed on the sign by the garden gate.",
+        "pos": [
+          {"w": "A", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "gnat", "t": "N", "q": "Find the noun for a small flying bug."},
+          {"w": "landed", "t": "V", "q": "Find the verb for coming down."},
+          {"w": "on", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'sign.'"},
+          {"w": "sign", "t": "N", "q": "Find the noun for something with words on it."},
+          {"w": "by", "t": "PREP", "q": "Find the preposition meaning 'near.'"},
+          {"w": "the", "t": "ART", "q": "Find the article before 'garden.'"},
+          {"w": "garden", "t": "N", "q": "Find the noun for a place with plants."},
+          {"w": "gate", "t": "N", "q": "Find the noun for a door in a fence."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'gnat' with a different gn-word.",
+          "word": "gnat",
+          "examples": [
+            "A <span class='changed'>gnome</span> landed on the sign by the garden gate.",
+            "A <span class='changed'>gnu</span> landed on the sign by the garden gate."
+          ]
+        },
+        "vocab": {
+          "w": "gnaw",
+          "type": "verb",
+          "def": "To bite or chew on something again and again.",
+          "simple": "Gnaw means to keep chewing on something, like a dog chews a bone!",
+          "examples": ["gnaw on a bone", "gnaw on a stick", "gnaw on food"],
+          "similar": ["chew", "nibble", "bite"],
+          "antonyms": ["swallow", "gulp"],
+          "nonex": ["It does NOT mean one quick bite."],
+          "example": "The puppy likes to gnaw on his toy bone.",
+          "starter": "An animal might gnaw on _______ ...",
+          "why": "Gnaw is a fun word to say and it has a silent 'g' at the start!"
+        },
+        "ufliLesson": 101,
+        "ufliSkill": "gn /n/",
+        "ufliSection": "Advanced Patterns",
+        "phonicsWords": ["gnat", "gnaw", "gnome", "sign", "design", "align"],
+        "heartWords": ["a", "on", "the", "by"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "the nome in the garden was a good desine with a bright color",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "nome", "r": "gnome", "e": "Gnome starts with a silent 'gn.'"},
+          {"t": "spelling", "w": "desine", "r": "design", "e": "Design ends with a silent 'gn.'"},
+          {"t": "grammar", "w": "good", "r": "great", "e": "Use a stronger adjective — 'great' is more descriptive."},
+          {"t": "punctuation", "w": "color", "r": "color.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The gnome in the garden was a great design with a bright color.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "gnome", "t": "N", "q": "Find the noun for a small garden figure."},
+          {"w": "in", "t": "PREP", "q": "Find the preposition after 'gnome.'"},
+          {"w": "the", "t": "ART", "q": "Find the article before 'garden.'"},
+          {"w": "garden", "t": "N", "q": "Find the noun for a place with plants."},
+          {"w": "was", "t": "V", "q": "Find the linking verb."},
+          {"w": "a", "t": "ART", "q": "Find the article before 'great.'"},
+          {"w": "great", "t": "ADJ", "q": "Find the adjective describing the design."},
+          {"w": "design", "t": "N", "q": "Find the noun for a plan or pattern."},
+          {"w": "with", "t": "PREP", "q": "Find the preposition meaning 'having.'"},
+          {"w": "a", "t": "ART", "q": "Find the article before 'bright.'"},
+          {"w": "bright", "t": "ADJ", "q": "Find the adjective describing the color."},
+          {"w": "color", "t": "N", "q": "Find the noun at the end."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'gnome' with a different gn-word.",
+          "word": "gnome",
+          "examples": [
+            "The <span class='changed'>gnat</span> in the garden was a great design with a bright color.",
+            "The <span class='changed'>sign</span> in the garden was a great design with a bright color."
+          ]
+        },
+        "vocab": {
+          "w": "design",
+          "type": "noun",
+          "def": "A plan or drawing that shows how something will look or work.",
+          "simple": "A design is a plan for how to make or build something!",
+          "examples": ["a dress design", "a building design", "a garden design"],
+          "similar": ["plan", "pattern", "blueprint"],
+          "antonyms": [],
+          "nonex": ["It does NOT mean the finished product — it is the plan."],
+          "example": "The students drew a design for their new garden.",
+          "starter": "I would like to design _______ ...",
+          "why": "Design is a useful word because we see designs all around us!"
+        },
+        "ufliLesson": 101,
+        "ufliSkill": "gn /n/",
+        "ufliSection": "Advanced Patterns",
+        "phonicsWords": ["gnome", "design", "gnat", "gnaw", "sign", "align"],
+        "heartWords": ["the", "in", "was", "a", "with"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 102,
+    "sentences": [
+      {
+        "orig": "she used her thum to clime up the big tree",
+        "corr": [
+          {"t": "capitalization", "w": "she", "r": "She", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "thum", "r": "thumb", "e": "Thumb ends with a silent 'b' — mb says /m/."},
+          {"t": "spelling", "w": "clime", "r": "climb", "e": "Climb ends with a silent 'b' — mb says /m/."},
+          {"t": "grammar", "w": "big", "r": "tall", "e": "Use 'tall' to better describe a tree."},
+          {"t": "punctuation", "w": "tree", "r": "tree.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "She used her thumb to climb up the tall tree.",
+        "pos": [
+          {"w": "She", "t": "PRO", "q": "Find the pronoun for a girl or woman."},
+          {"w": "used", "t": "V", "q": "Find the verb that tells what she did."},
+          {"w": "her", "t": "POSS", "q": "Find the possessive word."},
+          {"w": "thumb", "t": "N", "q": "Find the noun for a body part on your hand."},
+          {"w": "to", "t": "PREP", "q": "Find the word before 'climb.'"},
+          {"w": "climb", "t": "V", "q": "Find the verb for going up."},
+          {"w": "up", "t": "PREP", "q": "Find the preposition for direction."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'tall.'"},
+          {"w": "tall", "t": "ADJ", "q": "Find the adjective describing the tree."},
+          {"w": "tree", "t": "N", "q": "Find the noun for a plant."}
+        ],
+        "manip": {
+          "task": "Replace the verb 'climb' with a different mb-word.",
+          "word": "climb",
+          "examples": [
+            "She used her thumb to <span class='changed'>comb</span> up the tall tree.",
+            "She used her thumb to <span class='changed'>bomb</span> up the tall tree."
+          ]
+        },
+        "vocab": {
+          "w": "crumb",
+          "type": "noun",
+          "def": "A very small piece of bread, cake, or other food.",
+          "simple": "A crumb is a tiny bit of food that falls off when you eat!",
+          "examples": ["a bread crumb", "a cake crumb", "cookie crumbs"],
+          "similar": ["piece", "bit", "speck"],
+          "antonyms": ["loaf", "whole"],
+          "nonex": ["It does NOT mean a big piece of food."],
+          "example": "The birds ate every crumb from the picnic table.",
+          "starter": "I found a crumb on _______ ...",
+          "why": "Crumb has a silent 'b' at the end, just like climb and thumb!"
+        },
+        "ufliLesson": 102,
+        "ufliSkill": "mb /m/",
+        "ufliSection": "Advanced Patterns",
+        "phonicsWords": ["thumb", "climb", "comb", "lamb", "crumb", "limb"],
+        "heartWords": ["she", "her", "to", "up", "the"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "the lam and her baby sat under a lim of the old tree",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "lam", "r": "lamb", "e": "Lamb ends with a silent 'b.'"},
+          {"t": "spelling", "w": "lim", "r": "limb", "e": "Limb ends with a silent 'b.'"},
+          {"t": "grammar", "w": "sat", "r": "rested", "e": "Use 'rested' for a more descriptive verb."},
+          {"t": "punctuation", "w": "tree", "r": "tree.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The lamb and her baby rested under a limb of the old tree.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "lamb", "t": "N", "q": "Find the noun for a baby sheep."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction joining two things."},
+          {"w": "her", "t": "POSS", "q": "Find the possessive word."},
+          {"w": "baby", "t": "N", "q": "Find the noun for a young one."},
+          {"w": "rested", "t": "V", "q": "Find the verb for relaxing."},
+          {"w": "under", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "a", "t": "ART", "q": "Find the article before 'limb.'"},
+          {"w": "limb", "t": "N", "q": "Find the noun for a tree branch."},
+          {"w": "of", "t": "PREP", "q": "Find the preposition after 'limb.'"},
+          {"w": "the", "t": "ART", "q": "Find the article before 'old.'"},
+          {"w": "old", "t": "ADJ", "q": "Find the adjective describing the tree."},
+          {"w": "tree", "t": "N", "q": "Find the noun for a plant."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'lamb' with a different mb-word.",
+          "word": "lamb",
+          "examples": [
+            "The <span class='changed'>thumb</span> and her baby rested under a limb of the old tree.",
+            "The <span class='changed'>crumb</span> and her baby rested under a limb of the old tree."
+          ]
+        },
+        "vocab": {
+          "w": "numb",
+          "type": "adjective",
+          "def": "Not able to feel anything in a part of your body.",
+          "simple": "Numb means you cannot feel something, like when your fingers get really cold!",
+          "examples": ["numb fingers", "numb toes", "numb hands"],
+          "similar": ["frozen", "tingling"],
+          "antonyms": ["feeling", "sensitive"],
+          "nonex": ["It does NOT mean something hurts — it means you cannot feel it at all."],
+          "example": "My fingers were numb after playing in the snow.",
+          "starter": "My hands feel numb when _______ ...",
+          "why": "Numb has a silent 'b' at the end, just like lamb and climb!"
+        },
+        "ufliLesson": 102,
+        "ufliSkill": "mb /m/",
+        "ufliSection": "Advanced Patterns",
+        "phonicsWords": ["lamb", "limb", "numb", "thumb", "climb", "comb"],
+        "heartWords": ["the", "and", "her", "under", "a", "of"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 103,
+    "sentences": [
+      {
+        "orig": "the sity has a nice park in the senter of town",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "sity", "r": "city", "e": "City uses soft 'c' — when 'c' comes before 'i,' it says /s/."},
+          {"t": "spelling", "w": "senter", "r": "center", "e": "Center uses soft 'c' — when 'c' comes before 'e,' it says /s/."},
+          {"t": "grammar", "w": "nice", "r": "beautiful", "e": "Use 'beautiful' for a stronger description."},
+          {"t": "punctuation", "w": "town", "r": "town.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The city has a beautiful park in the center of town.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "city", "t": "N", "q": "Find the noun for a big town."},
+          {"w": "has", "t": "V", "q": "Find the verb meaning 'to own or include.'"},
+          {"w": "a", "t": "ART", "q": "Find the article before 'beautiful.'"},
+          {"w": "beautiful", "t": "ADJ", "q": "Find the adjective describing the park."},
+          {"w": "park", "t": "N", "q": "Find the noun for a place to play."},
+          {"w": "in", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'center.'"},
+          {"w": "center", "t": "N", "q": "Find the noun for the middle."},
+          {"w": "of", "t": "PREP", "q": "Find the preposition after 'center.'"},
+          {"w": "town", "t": "N", "q": "Find the noun at the end."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'city' with a different soft c word.",
+          "word": "city",
+          "examples": [
+            "The <span class='changed'>circle</span> has a beautiful park in the center of town.",
+            "The <span class='changed'>cellar</span> has a beautiful park in the center of town."
+          ]
+        },
+        "vocab": {
+          "w": "certain",
+          "type": "adjective",
+          "def": "Sure about something; having no doubt.",
+          "simple": "Certain means you are really, really sure about something!",
+          "examples": ["I am certain", "a certain answer", "certain facts"],
+          "similar": ["sure", "positive", "confident"],
+          "antonyms": ["unsure", "uncertain", "doubtful"],
+          "nonex": ["It does NOT mean you are guessing."],
+          "example": "I am certain that the library is in the center of the city.",
+          "starter": "I am certain that _______ ...",
+          "why": "Certain uses a soft 'c' because the 'c' comes before 'e'!"
+        },
+        "ufliLesson": 103,
+        "ufliSkill": "Soft c /s/",
+        "ufliSection": "Advanced Patterns",
+        "phonicsWords": ["city", "center", "circle", "cent", "ceiling", "cellar"],
+        "heartWords": ["the", "has", "a", "in", "of"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "we raced in a sircle around the fence near the pond",
+        "corr": [
+          {"t": "capitalization", "w": "we", "r": "We", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "sircle", "r": "circle", "e": "Circle uses soft 'c' — 'c' before 'i' says /s/."},
+          {"t": "spelling", "w": "fence", "r": "fence", "e": "Fence is spelled correctly — good job!"},
+          {"t": "grammar", "w": "raced", "r": "ran", "e": "Use 'ran' for a simpler past tense verb."},
+          {"t": "punctuation", "w": "pond", "r": "pond.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "We ran in a circle around the fence near the pond.",
+        "pos": [
+          {"w": "We", "t": "PRO", "q": "Find the pronoun for a group."},
+          {"w": "ran", "t": "V", "q": "Find the verb for moving fast."},
+          {"w": "in", "t": "PREP", "q": "Find the preposition after 'ran.'"},
+          {"w": "a", "t": "ART", "q": "Find the article before 'circle.'"},
+          {"w": "circle", "t": "N", "q": "Find the noun for a round shape."},
+          {"w": "around", "t": "PREP", "q": "Find the preposition meaning 'going round.'"},
+          {"w": "the", "t": "ART", "q": "Find the article before 'fence.'"},
+          {"w": "fence", "t": "N", "q": "Find the noun for a barrier."},
+          {"w": "near", "t": "PREP", "q": "Find the preposition meaning 'close to.'"},
+          {"w": "the", "t": "ART", "q": "Find the article before 'pond.'"},
+          {"w": "pond", "t": "N", "q": "Find the noun for a body of water."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'circle' with a different soft c word.",
+          "word": "circle",
+          "examples": [
+            "We ran in a <span class='changed'>cement</span> around the fence near the pond.",
+            "We ran in a <span class='changed'>center</span> around the fence near the pond."
+          ]
+        },
+        "vocab": {
+          "w": "cellar",
+          "type": "noun",
+          "def": "A room below the ground floor of a building, used for storing things.",
+          "simple": "A cellar is a room under a house where you can keep things!",
+          "examples": ["a dark cellar", "a food cellar", "a cool cellar"],
+          "similar": ["basement", "underground room"],
+          "antonyms": ["attic", "roof"],
+          "nonex": ["It does NOT mean any room — it is always below ground."],
+          "example": "We store apples and carrots in the cool cellar.",
+          "starter": "In a cellar, you might find _______ ...",
+          "why": "Cellar uses a soft 'c' because the 'c' comes before 'e'!"
+        },
+        "ufliLesson": 103,
+        "ufliSkill": "Soft c /s/",
+        "ufliSection": "Advanced Patterns",
+        "phonicsWords": ["circle", "fence", "cent", "cellar", "center", "city"],
+        "heartWords": ["we", "in", "a", "the", "near"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 104,
+    "sentences": [
+      {
+        "orig": "the jiant had a jem that was very big and shiny",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "jiant", "r": "giant", "e": "Giant uses soft 'g' — when 'g' comes before 'i,' it says /j/."},
+          {"t": "spelling", "w": "jem", "r": "gem", "e": "Gem uses soft 'g' — when 'g' comes before 'e,' it says /j/."},
+          {"t": "grammar", "w": "big", "r": "huge", "e": "Use 'huge' to match the idea of a giant."},
+          {"t": "punctuation", "w": "shiny", "r": "shiny.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The giant had a gem that was very huge and shiny.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "giant", "t": "N", "q": "Find the noun for a very big person."},
+          {"w": "had", "t": "V", "q": "Find the verb meaning 'owned.'"},
+          {"w": "a", "t": "ART", "q": "Find the article before 'gem.'"},
+          {"w": "gem", "t": "N", "q": "Find the noun for a shiny stone."},
+          {"w": "that", "t": "PRO", "q": "Find the pronoun referring to the gem."},
+          {"w": "was", "t": "V", "q": "Find the linking verb."},
+          {"w": "very", "t": "ADV", "q": "Find the adverb meaning 'really.'"},
+          {"w": "huge", "t": "ADJ", "q": "Find the adjective meaning 'very big.'"},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction joining two words."},
+          {"w": "shiny", "t": "ADJ", "q": "Find the adjective that means 'bright.'"}
+        ],
+        "manip": {
+          "task": "Replace the noun 'giant' with a different soft g word.",
+          "word": "giant",
+          "examples": [
+            "The <span class='changed'>giraffe</span> had a gem that was very huge and shiny.",
+            "The <span class='changed'>gerbil</span> had a gem that was very huge and shiny."
+          ]
+        },
+        "vocab": {
+          "w": "gentle",
+          "type": "adjective",
+          "def": "Kind, soft, and careful; not rough or harsh.",
+          "simple": "Gentle means being soft and careful, like petting a baby animal!",
+          "examples": ["a gentle touch", "a gentle voice", "a gentle breeze"],
+          "similar": ["soft", "kind", "mild"],
+          "antonyms": ["rough", "harsh", "mean"],
+          "nonex": ["It does NOT mean weak — gentle people can be very strong."],
+          "example": "The giant was gentle when he held the tiny bird.",
+          "starter": "I am gentle when I _______ ...",
+          "why": "Gentle uses a soft 'g' because the 'g' comes before 'e'!"
+        },
+        "ufliLesson": 104,
+        "ufliSkill": "Soft g /j/",
+        "ufliSection": "Advanced Patterns",
+        "phonicsWords": ["giant", "gem", "gentle", "giraffe", "gerbil", "ginger"],
+        "heartWords": ["the", "a", "that", "was", "very", "and"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "the giraff at the zoo was jentle and ate from our hands",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "giraff", "r": "giraffe", "e": "Giraffe ends with a silent 'e' and uses soft 'g.'"},
+          {"t": "spelling", "w": "jentle", "r": "gentle", "e": "Gentle starts with a soft 'g,' not a 'j.'"},
+          {"t": "grammar", "w": "ate", "r": "ate", "e": "Ate is correct — good job!"},
+          {"t": "punctuation", "w": "hands", "r": "hands.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The giraffe at the zoo was gentle and ate from our hands.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "giraffe", "t": "N", "q": "Find the noun for a tall animal."},
+          {"w": "at", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'zoo.'"},
+          {"w": "zoo", "t": "N", "q": "Find the noun for a place with animals."},
+          {"w": "was", "t": "V", "q": "Find the linking verb."},
+          {"w": "gentle", "t": "ADJ", "q": "Find the adjective that means 'soft and kind.'"},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction joining two ideas."},
+          {"w": "ate", "t": "V", "q": "Find the verb for eating."},
+          {"w": "from", "t": "PREP", "q": "Find the preposition after 'ate.'"},
+          {"w": "our", "t": "POSS", "q": "Find the possessive word."},
+          {"w": "hands", "t": "N", "q": "Find the noun for body parts."}
+        ],
+        "manip": {
+          "task": "Replace the adjective 'gentle' with a different soft g word.",
+          "word": "gentle",
+          "examples": [
+            "The giraffe at the zoo was <span class='changed'>generous</span> and ate from our hands.",
+            "The giraffe at the zoo was <span class='changed'>gigantic</span> and ate from our hands."
+          ]
+        },
+        "vocab": {
+          "w": "gigantic",
+          "type": "adjective",
+          "def": "Extremely large; much bigger than normal.",
+          "simple": "Gigantic means super, super big!",
+          "examples": ["a gigantic tree", "a gigantic wave", "a gigantic building"],
+          "similar": ["huge", "enormous", "massive"],
+          "antonyms": ["tiny", "small", "little"],
+          "nonex": ["It does NOT just mean big — it means REALLY big."],
+          "example": "The giraffe was gigantic compared to the small rabbit.",
+          "starter": "Something gigantic I have seen is _______ ...",
+          "why": "Gigantic uses soft 'g' twice because 'g' comes before 'i' both times!"
+        },
+        "ufliLesson": 104,
+        "ufliSkill": "Soft g /j/",
+        "ufliSection": "Advanced Patterns",
+        "phonicsWords": ["giraffe", "gentle", "gigantic", "gem", "ginger", "general"],
+        "heartWords": ["the", "at", "was", "and", "from", "our"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 105,
+    "sentences": [
+      {
+        "orig": "she won a bage for crossing the brige safely",
+        "corr": [
+          {"t": "capitalization", "w": "she", "r": "She", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "bage", "r": "badge", "e": "Badge uses '-dge' to spell the /j/ sound at the end."},
+          {"t": "spelling", "w": "brige", "r": "bridge", "e": "Bridge uses '-dge' to spell the /j/ sound."},
+          {"t": "grammar", "w": "crossing", "r": "crossing", "e": "Crossing is correct — good job!"},
+          {"t": "punctuation", "w": "safely", "r": "safely.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "She won a badge for crossing the bridge safely.",
+        "pos": [
+          {"w": "She", "t": "PRO", "q": "Find the pronoun for a girl or woman."},
+          {"w": "won", "t": "V", "q": "Find the verb meaning 'earned.'"},
+          {"w": "a", "t": "ART", "q": "Find the article before 'badge.'"},
+          {"w": "badge", "t": "N", "q": "Find the noun for something you wear to show you earned it."},
+          {"w": "for", "t": "PREP", "q": "Find the preposition that tells why."},
+          {"w": "crossing", "t": "V", "q": "Find the verb for going across."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'bridge.'"},
+          {"w": "bridge", "t": "N", "q": "Find the noun for a way to cross water."},
+          {"w": "safely", "t": "ADV", "q": "Find the adverb that tells how."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'badge' with a different -dge word.",
+          "word": "badge",
+          "examples": [
+            "She won a <span class='changed'>wedge</span> for crossing the bridge safely.",
+            "She won a <span class='changed'>fudge</span> for crossing the bridge safely."
+          ]
+        },
+        "vocab": {
+          "w": "ledge",
+          "type": "noun",
+          "def": "A narrow, flat surface that sticks out from a wall or cliff.",
+          "simple": "A ledge is like a small shelf on the side of a building or mountain!",
+          "examples": ["a window ledge", "a rock ledge", "a high ledge"],
+          "similar": ["shelf", "edge", "rim"],
+          "antonyms": [],
+          "nonex": ["It does NOT mean the whole wall — just the part that sticks out."],
+          "example": "A small bird sat on the ledge outside the window.",
+          "starter": "On a ledge, you might see _______ ...",
+          "why": "Ledge uses '-dge' to make the /j/ sound at the end!"
+        },
+        "ufliLesson": 105,
+        "ufliSkill": "-dge /j/",
+        "ufliSection": "Advanced Patterns",
+        "phonicsWords": ["badge", "bridge", "ledge", "ridge", "fudge", "wedge"],
+        "heartWords": ["she", "a", "for", "the"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "he stood on the rige and looked at the eje of the cliff",
+        "corr": [
+          {"t": "capitalization", "w": "he", "r": "He", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "rige", "r": "ridge", "e": "Ridge uses '-dge' to spell the /j/ sound."},
+          {"t": "spelling", "w": "eje", "r": "edge", "e": "Edge uses '-dge' to spell the /j/ sound."},
+          {"t": "grammar", "w": "looked", "r": "gazed", "e": "Use 'gazed' for a more descriptive verb."},
+          {"t": "punctuation", "w": "cliff", "r": "cliff.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "He stood on the ridge and gazed at the edge of the cliff.",
+        "pos": [
+          {"w": "He", "t": "PRO", "q": "Find the pronoun for a boy or man."},
+          {"w": "stood", "t": "V", "q": "Find the verb for standing."},
+          {"w": "on", "t": "PREP", "q": "Find the preposition after 'stood.'"},
+          {"w": "the", "t": "ART", "q": "Find the article before 'ridge.'"},
+          {"w": "ridge", "t": "N", "q": "Find the noun for the top of a hill."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction joining two actions."},
+          {"w": "gazed", "t": "V", "q": "Find the verb meaning 'looked carefully.'"},
+          {"w": "at", "t": "PREP", "q": "Find the preposition after 'gazed.'"},
+          {"w": "the", "t": "ART", "q": "Find the article before 'edge.'"},
+          {"w": "edge", "t": "N", "q": "Find the noun for the side or border."},
+          {"w": "of", "t": "PREP", "q": "Find the preposition after 'edge.'"},
+          {"w": "the", "t": "ART", "q": "Find the article before 'cliff.'"},
+          {"w": "cliff", "t": "N", "q": "Find the noun for a steep rock face."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'ridge' with a different -dge word.",
+          "word": "ridge",
+          "examples": [
+            "He stood on the <span class='changed'>bridge</span> and gazed at the edge of the cliff.",
+            "He stood on the <span class='changed'>ledge</span> and gazed at the edge of the cliff."
+          ]
+        },
+        "vocab": {
+          "w": "smudge",
+          "type": "noun",
+          "def": "A dirty or blurry mark made by rubbing.",
+          "simple": "A smudge is a messy mark, like when you rub paint with your hand!",
+          "examples": ["a smudge of paint", "a smudge on glass", "a pencil smudge"],
+          "similar": ["mark", "stain", "spot"],
+          "antonyms": ["clean spot"],
+          "nonex": ["It does NOT mean a big spill — it is a small, rubbed mark."],
+          "example": "There was a smudge of chocolate on the edge of the page.",
+          "starter": "I once made a smudge when _______ ...",
+          "why": "Smudge uses '-dge' to make the /j/ sound at the end!"
+        },
+        "ufliLesson": 105,
+        "ufliSkill": "-dge /j/",
+        "ufliSection": "Advanced Patterns",
+        "phonicsWords": ["ridge", "edge", "bridge", "ledge", "badge", "smudge"],
+        "heartWords": ["he", "on", "the", "and", "at", "of"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 106,
+    "sentences": [
+      {
+        "orig": "we played cach in the yard and then had a snack",
+        "corr": [
+          {"t": "capitalization", "w": "we", "r": "We", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "cach", "r": "catch", "e": "Catch uses '-tch' to spell the /ch/ sound after a short vowel."},
+          {"t": "spelling", "w": "then", "r": "then", "e": "Then is spelled correctly — good job!"},
+          {"t": "grammar", "w": "played", "r": "played", "e": "Played is correct — good job!"},
+          {"t": "punctuation", "w": "snack", "r": "snack.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "We played catch in the yard and then had a snack.",
+        "pos": [
+          {"w": "We", "t": "PRO", "q": "Find the pronoun for a group."},
+          {"w": "played", "t": "V", "q": "Find the verb for having fun."},
+          {"w": "catch", "t": "N", "q": "Find the noun for a throwing game."},
+          {"w": "in", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'yard.'"},
+          {"w": "yard", "t": "N", "q": "Find the noun for an outdoor area."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction joining two actions."},
+          {"w": "then", "t": "ADV", "q": "Find the adverb that tells when."},
+          {"w": "had", "t": "V", "q": "Find the verb meaning 'ate.'"},
+          {"w": "a", "t": "ART", "q": "Find the article before 'snack.'"},
+          {"w": "snack", "t": "N", "q": "Find the noun for a small meal."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'catch' with a different -tch word.",
+          "word": "catch",
+          "examples": [
+            "We played <span class='changed'>fetch</span> in the yard and then had a snack.",
+            "We played <span class='changed'>match</span> in the yard and then had a snack."
+          ]
+        },
+        "vocab": {
+          "w": "hatch",
+          "type": "verb",
+          "def": "To come out of an egg; to be born from an egg.",
+          "simple": "Hatch means a baby bird or animal breaks out of its egg!",
+          "examples": ["eggs hatch", "chicks hatch", "turtles hatch"],
+          "similar": ["emerge", "come out", "break out"],
+          "antonyms": [],
+          "nonex": ["It does NOT mean to lay an egg — it means to come out of one."],
+          "example": "We watched the baby chicks hatch from their eggs.",
+          "starter": "An animal that can hatch from an egg is _______ ...",
+          "why": "Hatch uses '-tch' to make the /ch/ sound after a short vowel!"
+        },
+        "ufliLesson": 106,
+        "ufliSkill": "-tch /ch/",
+        "ufliSection": "Advanced Patterns",
+        "phonicsWords": ["catch", "match", "hatch", "fetch", "stitch", "sketch"],
+        "heartWords": ["we", "in", "the", "and", "a"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "the kichen had a scrach on the wall near the light swich",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "kichen", "r": "kitchen", "e": "Kitchen uses '-tch' to spell the /ch/ sound."},
+          {"t": "spelling", "w": "scrach", "r": "scratch", "e": "Scratch uses '-tch' to spell the /ch/ sound."},
+          {"t": "spelling", "w": "swich", "r": "switch", "e": "Switch uses '-tch' to spell the /ch/ sound."},
+          {"t": "punctuation", "w": "swich", "r": "switch.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The kitchen had a scratch on the wall near the light switch.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "kitchen", "t": "N", "q": "Find the noun for a room where you cook."},
+          {"w": "had", "t": "V", "q": "Find the verb meaning 'contained.'"},
+          {"w": "a", "t": "ART", "q": "Find the article before 'scratch.'"},
+          {"w": "scratch", "t": "N", "q": "Find the noun for a mark on a surface."},
+          {"w": "on", "t": "PREP", "q": "Find the preposition after 'scratch.'"},
+          {"w": "the", "t": "ART", "q": "Find the article before 'wall.'"},
+          {"w": "wall", "t": "N", "q": "Find the noun for a side of a room."},
+          {"w": "near", "t": "PREP", "q": "Find the preposition meaning 'close to.'"},
+          {"w": "the", "t": "ART", "q": "Find the article before 'light.'"},
+          {"w": "light", "t": "ADJ", "q": "Find the word describing the switch."},
+          {"w": "switch", "t": "N", "q": "Find the noun for something you flip."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'scratch' with a different -tch word.",
+          "word": "scratch",
+          "examples": [
+            "The kitchen had a <span class='changed'>sketch</span> on the wall near the light switch.",
+            "The kitchen had a <span class='changed'>patch</span> on the wall near the light switch."
+          ]
+        },
+        "vocab": {
+          "w": "sketch",
+          "type": "noun",
+          "def": "A quick, simple drawing done with a pencil or pen.",
+          "simple": "A sketch is a quick drawing that does not have every detail!",
+          "examples": ["a pencil sketch", "a quick sketch", "a sketch of a cat"],
+          "similar": ["drawing", "doodle", "outline"],
+          "antonyms": ["painting", "photograph"],
+          "nonex": ["It does NOT mean a finished, detailed picture."],
+          "example": "She made a sketch of the kitchen before painting it.",
+          "starter": "I like to sketch _______ ...",
+          "why": "Sketch uses '-tch' to make the /ch/ sound — but wait, it breaks the rule because it comes after a consonant, not a short vowel!"
+        },
+        "ufliLesson": 106,
+        "ufliSkill": "-tch /ch/",
+        "ufliSection": "Advanced Patterns",
+        "phonicsWords": ["kitchen", "scratch", "switch", "sketch", "match", "patch"],
+        "heartWords": ["the", "a", "on", "near"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 107,
+    "sentences": [
+      {
+        "orig": "the nashun celebrated with music and a big paraid",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "nashun", "r": "nation", "e": "Nation uses '-tion' to spell the /shun/ sound."},
+          {"t": "spelling", "w": "paraid", "r": "parade", "e": "Parade is spelled p-a-r-a-d-e."},
+          {"t": "grammar", "w": "celebrated", "r": "celebrated", "e": "Celebrated is correct — good job!"},
+          {"t": "punctuation", "w": "paraid", "r": "parade.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The nation celebrated with music and a big parade.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "nation", "t": "N", "q": "Find the noun for a country."},
+          {"w": "celebrated", "t": "V", "q": "Find the verb for having a party."},
+          {"w": "with", "t": "PREP", "q": "Find the preposition meaning 'using.'"},
+          {"w": "music", "t": "N", "q": "Find the noun for sounds you listen to."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction joining two things."},
+          {"w": "a", "t": "ART", "q": "Find the article before 'big.'"},
+          {"w": "big", "t": "ADJ", "q": "Find the adjective describing the parade."},
+          {"w": "parade", "t": "N", "q": "Find the noun for people marching together."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'nation' with a different -tion word.",
+          "word": "nation",
+          "examples": [
+            "The <span class='changed'>station</span> celebrated with music and a big parade.",
+            "The <span class='changed'>action</span> celebrated with music and a big parade."
+          ]
+        },
+        "vocab": {
+          "w": "station",
+          "type": "noun",
+          "def": "A place where trains, buses, or other vehicles stop.",
+          "simple": "A station is a place where you wait for a bus or train!",
+          "examples": ["a train station", "a bus station", "a fire station"],
+          "similar": ["stop", "terminal", "depot"],
+          "antonyms": [],
+          "nonex": ["It does NOT only mean a train station — fire stations and police stations are stations too."],
+          "example": "We waited at the station for the next train to arrive.",
+          "starter": "At a station, you can see _______ ...",
+          "why": "Station uses '-tion' to make the /shun/ sound at the end!"
+        },
+        "ufliLesson": 107,
+        "ufliSkill": "-tion /shun/",
+        "ufliSection": "Advanced Patterns",
+        "phonicsWords": ["nation", "station", "action", "motion", "lotion", "option"],
+        "heartWords": ["the", "with", "and", "a"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "we took akshun to find a solushun for the broken shelf",
+        "corr": [
+          {"t": "capitalization", "w": "we", "r": "We", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "akshun", "r": "action", "e": "Action uses '-tion' to spell the /shun/ sound."},
+          {"t": "spelling", "w": "solushun", "r": "solution", "e": "Solution uses '-tion' to spell the /shun/ sound."},
+          {"t": "grammar", "w": "find", "r": "find", "e": "Find is correct — good job!"},
+          {"t": "punctuation", "w": "shelf", "r": "shelf.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "We took action to find a solution for the broken shelf.",
+        "pos": [
+          {"w": "We", "t": "PRO", "q": "Find the pronoun for a group."},
+          {"w": "took", "t": "V", "q": "Find the verb meaning 'did.'"},
+          {"w": "action", "t": "N", "q": "Find the noun meaning 'doing something.'"},
+          {"w": "to", "t": "PREP", "q": "Find the word before 'find.'"},
+          {"w": "find", "t": "V", "q": "Find the verb for looking for something."},
+          {"w": "a", "t": "ART", "q": "Find the article before 'solution.'"},
+          {"w": "solution", "t": "N", "q": "Find the noun for an answer to a problem."},
+          {"w": "for", "t": "PREP", "q": "Find the preposition after 'solution.'"},
+          {"w": "the", "t": "ART", "q": "Find the article before 'broken.'"},
+          {"w": "broken", "t": "ADJ", "q": "Find the adjective that tells about the shelf."},
+          {"w": "shelf", "t": "N", "q": "Find the noun for something on a wall."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'action' with a different -tion word.",
+          "word": "action",
+          "examples": [
+            "We took <span class='changed'>caution</span> to find a solution for the broken shelf.",
+            "We took <span class='changed'>motion</span> to find a solution for the broken shelf."
+          ]
+        },
+        "vocab": {
+          "w": "solution",
+          "type": "noun",
+          "def": "An answer or way to fix a problem.",
+          "simple": "A solution is how you fix a problem or answer a question!",
+          "examples": ["a math solution", "a simple solution", "a great solution"],
+          "similar": ["answer", "fix", "remedy"],
+          "antonyms": ["problem", "question"],
+          "nonex": ["It does NOT mean the problem itself — it means the answer to it."],
+          "example": "Working together was the best solution to our problem.",
+          "starter": "A good solution for _______ is ...",
+          "why": "Solution uses '-tion' to make the /shun/ sound!"
+        },
+        "ufliLesson": 107,
+        "ufliSkill": "-tion /shun/",
+        "ufliSection": "Advanced Patterns",
+        "phonicsWords": ["action", "solution", "station", "nation", "caution", "motion"],
+        "heartWords": ["we", "to", "a", "for", "the"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 108,
+    "sentences": [
+      {
+        "orig": "the mishun was to help animals at the shelter",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "mishun", "r": "mission", "e": "Mission uses '-sion' to spell the /shun/ sound."},
+          {"t": "spelling", "w": "animals", "r": "animals", "e": "Animals is spelled correctly — good job!"},
+          {"t": "grammar", "w": "help", "r": "rescue", "e": "Use 'rescue' for a stronger verb meaning to save."},
+          {"t": "punctuation", "w": "shelter", "r": "shelter.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The mission was to rescue animals at the shelter.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "mission", "t": "N", "q": "Find the noun for a special job."},
+          {"w": "was", "t": "V", "q": "Find the linking verb."},
+          {"w": "to", "t": "PREP", "q": "Find the word before 'rescue.'"},
+          {"w": "rescue", "t": "V", "q": "Find the verb meaning 'to save.'"},
+          {"w": "animals", "t": "N", "q": "Find the noun for living creatures."},
+          {"w": "at", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'shelter.'"},
+          {"w": "shelter", "t": "N", "q": "Find the noun for a safe place."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'mission' with a different -sion word.",
+          "word": "mission",
+          "examples": [
+            "The <span class='changed'>session</span> was to rescue animals at the shelter.",
+            "The <span class='changed'>passion</span> was to rescue animals at the shelter."
+          ]
+        },
+        "vocab": {
+          "w": "permission",
+          "type": "noun",
+          "def": "When someone says you are allowed to do something.",
+          "simple": "Permission is when someone says yes, you can do that!",
+          "examples": ["ask permission", "get permission", "give permission"],
+          "similar": ["approval", "consent", "agreement"],
+          "antonyms": ["refusal", "denial"],
+          "nonex": ["It does NOT mean doing something without asking."],
+          "example": "She asked for permission to go outside and play.",
+          "starter": "I need permission to _______ ...",
+          "why": "Permission uses '-sion' to make the /shun/ sound!"
+        },
+        "ufliLesson": 108,
+        "ufliSkill": "-sion /shun/",
+        "ufliSection": "Advanced Patterns",
+        "phonicsWords": ["mission", "session", "passion", "permission", "version", "vision"],
+        "heartWords": ["the", "was", "to", "at"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "her vershun of the story had a lot of tenshun and drama",
+        "corr": [
+          {"t": "capitalization", "w": "her", "r": "Her", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "vershun", "r": "version", "e": "Version uses '-sion' to spell the /shun/ sound."},
+          {"t": "spelling", "w": "tenshun", "r": "tension", "e": "Tension uses '-sion' to spell the /shun/ sound."},
+          {"t": "grammar", "w": "a lot of", "r": "lots of", "e": "Use 'lots of' for a more natural phrase."},
+          {"t": "punctuation", "w": "drama", "r": "drama.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "Her version of the story had lots of tension and drama.",
+        "pos": [
+          {"w": "Her", "t": "POSS", "q": "Find the possessive word at the beginning."},
+          {"w": "version", "t": "N", "q": "Find the noun for a form of something."},
+          {"w": "of", "t": "PREP", "q": "Find the preposition after 'version.'"},
+          {"w": "the", "t": "ART", "q": "Find the article before 'story.'"},
+          {"w": "story", "t": "N", "q": "Find the noun for a tale."},
+          {"w": "had", "t": "V", "q": "Find the verb meaning 'contained.'"},
+          {"w": "lots", "t": "N", "q": "Find the word meaning 'a large amount.'"},
+          {"w": "of", "t": "PREP", "q": "Find the preposition after 'lots.'"},
+          {"w": "tension", "t": "N", "q": "Find the noun for a feeling of stress."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction joining two things."},
+          {"w": "drama", "t": "N", "q": "Find the noun at the end."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'version' with a different -sion word.",
+          "word": "version",
+          "examples": [
+            "Her <span class='changed'>vision</span> of the story had lots of tension and drama.",
+            "Her <span class='changed'>session</span> of the story had lots of tension and drama."
+          ]
+        },
+        "vocab": {
+          "w": "vision",
+          "type": "noun",
+          "def": "The ability to see, or a picture in your mind of what something could be.",
+          "simple": "Vision means what you can see, or an idea of how something could look!",
+          "examples": ["good vision", "a clear vision", "a vision for the future"],
+          "similar": ["sight", "view", "dream"],
+          "antonyms": ["blindness"],
+          "nonex": ["It does NOT only mean eyesight — it can also mean a big idea."],
+          "example": "The artist had a vision of a beautiful painting in her mind.",
+          "starter": "My vision for _______ is ...",
+          "why": "Vision uses '-sion' to make the /zhun/ sound — a slightly different sound than /shun/!"
+        },
+        "ufliLesson": 108,
+        "ufliSkill": "-sion /shun/",
+        "ufliSection": "Advanced Patterns",
+        "phonicsWords": ["version", "tension", "vision", "mission", "session", "passion"],
+        "heartWords": ["her", "of", "the", "and"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 109,
+    "sentences": [
+      {
+        "orig": "i new that the nife had a rist guard on the handel",
+        "corr": [
+          {"t": "capitalization", "w": "i", "r": "I", "e": "The pronoun 'I' must always be capitalized."},
+          {"t": "spelling", "w": "new", "r": "knew", "e": "Knew starts with a silent 'kn.'"},
+          {"t": "spelling", "w": "nife", "r": "knife", "e": "Knife starts with a silent 'kn.'"},
+          {"t": "spelling", "w": "rist", "r": "wrist", "e": "Wrist starts with a silent 'wr.'"},
+          {"t": "punctuation", "w": "handel", "r": "handle.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "I knew that the knife had a wrist guard on the handle.",
+        "pos": [
+          {"w": "I", "t": "PRO", "q": "Find the pronoun for the speaker."},
+          {"w": "knew", "t": "V", "q": "Find the verb for understanding."},
+          {"w": "that", "t": "SUBCONJ", "q": "Find the word connecting the ideas."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'knife.'"},
+          {"w": "knife", "t": "N", "q": "Find the noun for a cutting tool."},
+          {"w": "had", "t": "V", "q": "Find the verb meaning 'contained.'"},
+          {"w": "a", "t": "ART", "q": "Find the article before 'wrist.'"},
+          {"w": "wrist", "t": "N", "q": "Find the noun for a body part."},
+          {"w": "guard", "t": "N", "q": "Find the noun for something that protects."},
+          {"w": "on", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'handle.'"},
+          {"w": "handle", "t": "N", "q": "Find the noun for the part you hold."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'knife' with a different silent letter word.",
+          "word": "knife",
+          "examples": [
+            "I knew that the <span class='changed'>wrench</span> had a wrist guard on the handle.",
+            "I knew that the <span class='changed'>gnome</span> had a wrist guard on the handle."
+          ]
+        },
+        "vocab": {
+          "w": "knight",
+          "type": "noun",
+          "def": "A soldier in armor who served a king or queen long ago.",
+          "simple": "A knight was a brave fighter who wore shiny armor!",
+          "examples": ["a brave knight", "a knight in armor", "a knight on a horse"],
+          "similar": ["warrior", "soldier", "hero"],
+          "antonyms": [],
+          "nonex": ["It does NOT mean any soldier — knights wore armor and followed a code."],
+          "example": "The knight rode his horse across the bridge to the castle.",
+          "starter": "If I were a knight, I would _______ ...",
+          "why": "Knight has both a silent 'k' and a silent 'gh' — two tricky parts!"
+        },
+        "ufliLesson": 109,
+        "ufliSkill": "Silent Letter Review (kn, wr, gn, mb)",
+        "ufliSection": "Advanced Patterns",
+        "phonicsWords": ["knew", "knife", "wrist", "write", "gnome", "climb"],
+        "heartWords": ["I", "that", "the", "a", "on"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "the rong not on the sine made the lam walk the rong way",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "rong", "r": "wrong", "e": "Wrong starts with a silent 'wr.'"},
+          {"t": "spelling", "w": "not", "r": "knot", "e": "Knot starts with a silent 'kn.'"},
+          {"t": "spelling", "w": "sine", "r": "sign", "e": "Sign has a silent 'gn' at the end."},
+          {"t": "punctuation", "w": "way", "r": "way.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The wrong knot on the sign made the lamb walk the wrong way.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "wrong", "t": "ADJ", "q": "Find the adjective meaning 'not right.'"},
+          {"w": "knot", "t": "N", "q": "Find the noun for a tied loop."},
+          {"w": "on", "t": "PREP", "q": "Find the preposition after 'knot.'"},
+          {"w": "the", "t": "ART", "q": "Find the article before 'sign.'"},
+          {"w": "sign", "t": "N", "q": "Find the noun for something with words."},
+          {"w": "made", "t": "V", "q": "Find the verb meaning 'caused.'"},
+          {"w": "the", "t": "ART", "q": "Find the article before 'lamb.'"},
+          {"w": "lamb", "t": "N", "q": "Find the noun for a baby sheep."},
+          {"w": "walk", "t": "V", "q": "Find the verb for moving on foot."},
+          {"w": "the", "t": "ART", "q": "Find the article before the last 'wrong.'"},
+          {"w": "wrong", "t": "ADJ", "q": "Find the second adjective meaning 'not right.'"},
+          {"w": "way", "t": "N", "q": "Find the noun for a direction."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'lamb' with a different silent letter word.",
+          "word": "lamb",
+          "examples": [
+            "The wrong knot on the sign made the <span class='changed'>knight</span> walk the wrong way.",
+            "The wrong knot on the sign made the <span class='changed'>gnome</span> walk the wrong way."
+          ]
+        },
+        "vocab": {
+          "w": "assign",
+          "type": "verb",
+          "def": "To give someone a task or job to do.",
+          "simple": "Assign means to give someone a job or piece of work!",
+          "examples": ["assign homework", "assign a task", "assign a seat"],
+          "similar": ["give", "hand out", "choose"],
+          "antonyms": ["take away"],
+          "nonex": ["It does NOT mean to do the work yourself."],
+          "example": "The teacher will assign each student a book to read.",
+          "starter": "My teacher might assign _______ ...",
+          "why": "Assign ends with a silent 'gn' just like sign and design!"
+        },
+        "ufliLesson": 109,
+        "ufliSkill": "Silent Letter Review (kn, wr, gn, mb)",
+        "ufliSection": "Advanced Patterns",
+        "phonicsWords": ["wrong", "knot", "sign", "lamb", "knight", "wrist"],
+        "heartWords": ["the", "on", "made"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 110,
+    "sentences": [
+      {
+        "orig": "the jentl nite rote a leter to the sity about the brige",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "jentl", "r": "gentle", "e": "Gentle uses soft 'g' before 'e.'"},
+          {"t": "spelling", "w": "nite", "r": "knight", "e": "Knight starts with silent 'kn' and has a silent 'gh.'"},
+          {"t": "spelling", "w": "rote", "r": "wrote", "e": "Wrote starts with a silent 'wr.'"},
+          {"t": "punctuation", "w": "brige", "r": "bridge.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The gentle knight wrote a letter to the city about the bridge.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "gentle", "t": "ADJ", "q": "Find the adjective meaning 'kind and soft.'"},
+          {"w": "knight", "t": "N", "q": "Find the noun for a soldier in armor."},
+          {"w": "wrote", "t": "V", "q": "Find the verb for putting words on paper."},
+          {"w": "a", "t": "ART", "q": "Find the article before 'letter.'"},
+          {"w": "letter", "t": "N", "q": "Find the noun for something you mail."},
+          {"w": "to", "t": "PREP", "q": "Find the preposition meaning 'toward.'"},
+          {"w": "the", "t": "ART", "q": "Find the article before 'city.'"},
+          {"w": "city", "t": "N", "q": "Find the noun for a big town."},
+          {"w": "about", "t": "PREP", "q": "Find the preposition meaning 'on the topic of.'"},
+          {"w": "the", "t": "ART", "q": "Find the article before 'bridge.'"},
+          {"w": "bridge", "t": "N", "q": "Find the noun for something that crosses water."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'bridge' with a different advanced pattern word.",
+          "word": "bridge",
+          "examples": [
+            "The gentle knight wrote a letter to the city about the <span class='changed'>badge</span>.",
+            "The gentle knight wrote a letter to the city about the <span class='changed'>mission</span>."
+          ]
+        },
+        "vocab": {
+          "w": "announce",
+          "type": "verb",
+          "def": "To tell people about something in a public or official way.",
+          "simple": "Announce means to tell everyone about something important!",
+          "examples": ["announce the winner", "announce a plan", "announce good news"],
+          "similar": ["declare", "share", "tell"],
+          "antonyms": ["hide", "conceal"],
+          "nonex": ["It does NOT mean to whisper — it means to tell everyone."],
+          "example": "The knight wrote a letter to announce the good news to the city.",
+          "starter": "I would like to announce _______ ...",
+          "why": "Announce uses soft 'c' before 'e' — another advanced pattern!"
+        },
+        "ufliLesson": 110,
+        "ufliSkill": "Advanced Patterns Review",
+        "ufliSection": "Advanced Patterns",
+        "phonicsWords": ["gentle", "knight", "wrote", "city", "bridge", "nation"],
+        "heartWords": ["the", "a", "to", "about"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "we nelt on the ege of the rige and watched the nashun celebrate",
+        "corr": [
+          {"t": "capitalization", "w": "we", "r": "We", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "nelt", "r": "knelt", "e": "Knelt starts with a silent 'kn.'"},
+          {"t": "spelling", "w": "ege", "r": "edge", "e": "Edge uses '-dge' to spell the /j/ sound."},
+          {"t": "spelling", "w": "rige", "r": "ridge", "e": "Ridge uses '-dge' to spell the /j/ sound."},
+          {"t": "punctuation", "w": "celebrate", "r": "celebrate.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "We knelt on the edge of the ridge and watched the nation celebrate.",
+        "pos": [
+          {"w": "We", "t": "PRO", "q": "Find the pronoun for a group."},
+          {"w": "knelt", "t": "V", "q": "Find the verb for getting on your knees."},
+          {"w": "on", "t": "PREP", "q": "Find the preposition after 'knelt.'"},
+          {"w": "the", "t": "ART", "q": "Find the article before 'edge.'"},
+          {"w": "edge", "t": "N", "q": "Find the noun for the side."},
+          {"w": "of", "t": "PREP", "q": "Find the preposition after 'edge.'"},
+          {"w": "the", "t": "ART", "q": "Find the article before 'ridge.'"},
+          {"w": "ridge", "t": "N", "q": "Find the noun for the top of a hill."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction joining two actions."},
+          {"w": "watched", "t": "V", "q": "Find the verb for seeing."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'nation.'"},
+          {"w": "nation", "t": "N", "q": "Find the noun for a country."},
+          {"w": "celebrate", "t": "V", "q": "Find the verb for having a party."}
+        ],
+        "manip": {
+          "task": "Replace the verb 'knelt' with a different silent letter word.",
+          "word": "knelt",
+          "examples": [
+            "We <span class='changed'>climbed</span> on the edge of the ridge and watched the nation celebrate.",
+            "We <span class='changed'>wrote</span> on the edge of the ridge and watched the nation celebrate."
+          ]
+        },
+        "vocab": {
+          "w": "celebration",
+          "type": "noun",
+          "def": "A special event or party to honor something good.",
+          "simple": "A celebration is a party for something happy or important!",
+          "examples": ["a birthday celebration", "a holiday celebration", "a school celebration"],
+          "similar": ["party", "festival", "event"],
+          "antonyms": ["mourning"],
+          "nonex": ["It does NOT have to be loud — quiet celebrations count too."],
+          "example": "The whole nation joined in the celebration with songs and dancing.",
+          "starter": "My favorite celebration is _______ ...",
+          "why": "Celebration uses '-tion' for the /shun/ sound — a pattern we learned!"
+        },
+        "ufliLesson": 110,
+        "ufliSkill": "Advanced Patterns Review",
+        "ufliSection": "Advanced Patterns",
+        "phonicsWords": ["knelt", "edge", "ridge", "nation", "wrote", "gentle"],
+        "heartWords": ["we", "on", "the", "of", "and"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 111,
+    "sentences": [
+      {
+        "orig": "he was unhappy because his dog was unabel to come inside",
+        "corr": [
+          {"t": "capitalization", "w": "he", "r": "He", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "unhappy", "r": "unhappy", "e": "Unhappy is spelled correctly — good job!"},
+          {"t": "spelling", "w": "unabel", "r": "unable", "e": "Unable is spelled u-n-a-b-l-e."},
+          {"t": "grammar", "w": "because", "r": "because", "e": "Because is correct — good job!"},
+          {"t": "punctuation", "w": "inside", "r": "inside.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "He was unhappy because his dog was unable to come inside.",
+        "pos": [
+          {"w": "He", "t": "PRO", "q": "Find the pronoun for a boy or man."},
+          {"w": "was", "t": "V", "q": "Find the first linking verb."},
+          {"w": "unhappy", "t": "ADJ", "q": "Find the adjective meaning 'not happy.'"},
+          {"w": "because", "t": "SUBCONJ", "q": "Find the word that tells why."},
+          {"w": "his", "t": "POSS", "q": "Find the possessive word."},
+          {"w": "dog", "t": "N", "q": "Find the noun for an animal."},
+          {"w": "was", "t": "V", "q": "Find the second linking verb."},
+          {"w": "unable", "t": "ADJ", "q": "Find the adjective meaning 'not able.'"},
+          {"w": "to", "t": "PREP", "q": "Find the word before 'come.'"},
+          {"w": "come", "t": "V", "q": "Find the verb for moving toward."},
+          {"w": "inside", "t": "ADV", "q": "Find the word that tells where."}
+        ],
+        "manip": {
+          "task": "Replace 'unhappy' with a different un- word.",
+          "word": "unhappy",
+          "examples": [
+            "He was <span class='changed'>unlucky</span> because his dog was unable to come inside.",
+            "He was <span class='changed'>unsure</span> because his dog was unable to come inside."
+          ]
+        },
+        "vocab": {
+          "w": "undo",
+          "type": "verb",
+          "def": "To reverse something that was done; to take back an action.",
+          "simple": "Undo means to take something back to the way it was before!",
+          "examples": ["undo a knot", "undo a button", "undo a mistake"],
+          "similar": ["reverse", "take back", "fix"],
+          "antonyms": ["do", "make", "create"],
+          "nonex": ["It does NOT mean to break something."],
+          "example": "She tried to undo the knot in her shoelace.",
+          "starter": "I wish I could undo _______ ...",
+          "why": "The prefix un- means 'not' or 'the opposite of' — undo means the opposite of do!"
+        },
+        "ufliLesson": 111,
+        "ufliSkill": "un-",
+        "ufliSection": "Affixes & Multisyllabic",
+        "phonicsWords": ["unhappy", "unable", "undo", "unfair", "unlock", "unpack"],
+        "heartWords": ["he", "was", "because", "his", "to", "come"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "it was unfair that the door was unlokd and the window was shut",
+        "corr": [
+          {"t": "capitalization", "w": "it", "r": "It", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "unlokd", "r": "unlocked", "e": "Unlocked is spelled with '-ck' and '-ed.'"},
+          {"t": "spelling", "w": "unfair", "r": "unfair", "e": "Unfair is spelled correctly — good job!"},
+          {"t": "grammar", "w": "shut", "r": "closed", "e": "Use 'closed' for a clearer verb."},
+          {"t": "punctuation", "w": "shut", "r": "closed.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "It was unfair that the door was unlocked and the window was closed.",
+        "pos": [
+          {"w": "It", "t": "PRO", "q": "Find the pronoun at the beginning."},
+          {"w": "was", "t": "V", "q": "Find the first linking verb."},
+          {"w": "unfair", "t": "ADJ", "q": "Find the adjective meaning 'not fair.'"},
+          {"w": "that", "t": "SUBCONJ", "q": "Find the word connecting the ideas."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'door.'"},
+          {"w": "door", "t": "N", "q": "Find the noun for something you open."},
+          {"w": "was", "t": "V", "q": "Find the second linking verb."},
+          {"w": "unlocked", "t": "ADJ", "q": "Find the word meaning 'not locked.'"},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction joining two ideas."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'window.'"},
+          {"w": "window", "t": "N", "q": "Find the noun for something you look through."},
+          {"w": "was", "t": "V", "q": "Find the third linking verb."},
+          {"w": "closed", "t": "ADJ", "q": "Find the word meaning 'shut.'"}
+        ],
+        "manip": {
+          "task": "Replace 'unfair' with a different un- word.",
+          "word": "unfair",
+          "examples": [
+            "It was <span class='changed'>unusual</span> that the door was unlocked and the window was closed.",
+            "It was <span class='changed'>unsafe</span> that the door was unlocked and the window was closed."
+          ]
+        },
+        "vocab": {
+          "w": "unpack",
+          "type": "verb",
+          "def": "To take things out of a bag, box, or suitcase.",
+          "simple": "Unpack means to take things out of a container!",
+          "examples": ["unpack a bag", "unpack a box", "unpack a suitcase"],
+          "similar": ["empty", "take out", "remove"],
+          "antonyms": ["pack", "fill"],
+          "nonex": ["It does NOT mean to throw things around."],
+          "example": "After the trip, we had to unpack all of our clothes.",
+          "starter": "I unpack my _______ when ...",
+          "why": "The prefix un- reverses the action — unpack is the opposite of pack!"
+        },
+        "ufliLesson": 111,
+        "ufliSkill": "un-",
+        "ufliSection": "Affixes & Multisyllabic",
+        "phonicsWords": ["unfair", "unlocked", "unsafe", "unusual", "unpack", "undo"],
+        "heartWords": ["it", "was", "that", "the", "and"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 112,
+    "sentences": [
+      {
+        "orig": "she will rerite the story and reread it before class",
+        "corr": [
+          {"t": "capitalization", "w": "she", "r": "She", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "rerite", "r": "rewrite", "e": "Rewrite keeps the 'wr' from write — re + write."},
+          {"t": "spelling", "w": "reread", "r": "reread", "e": "Reread is spelled correctly — good job!"},
+          {"t": "grammar", "w": "before", "r": "before", "e": "Before is correct — good job!"},
+          {"t": "punctuation", "w": "class", "r": "class.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "She will rewrite the story and reread it before class.",
+        "pos": [
+          {"w": "She", "t": "PRO", "q": "Find the pronoun for a girl or woman."},
+          {"w": "will", "t": "V", "q": "Find the helping verb for the future."},
+          {"w": "rewrite", "t": "V", "q": "Find the verb meaning 'write again.'"},
+          {"w": "the", "t": "ART", "q": "Find the article before 'story.'"},
+          {"w": "story", "t": "N", "q": "Find the noun for a tale."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction joining two actions."},
+          {"w": "reread", "t": "V", "q": "Find the verb meaning 'read again.'"},
+          {"w": "it", "t": "PRO", "q": "Find the pronoun referring to the story."},
+          {"w": "before", "t": "PREP", "q": "Find the preposition that tells when."},
+          {"w": "class", "t": "N", "q": "Find the noun for a school group."}
+        ],
+        "manip": {
+          "task": "Replace the verb 'rewrite' with a different re- word.",
+          "word": "rewrite",
+          "examples": [
+            "She will <span class='changed'>redo</span> the story and reread it before class.",
+            "She will <span class='changed'>retell</span> the story and reread it before class."
+          ]
+        },
+        "vocab": {
+          "w": "rebuild",
+          "type": "verb",
+          "def": "To build something again after it was broken or torn down.",
+          "simple": "Rebuild means to build something all over again!",
+          "examples": ["rebuild a tower", "rebuild a house", "rebuild a bridge"],
+          "similar": ["fix", "restore", "reconstruct"],
+          "antonyms": ["destroy", "tear down"],
+          "nonex": ["It does NOT mean building something brand new."],
+          "example": "After the storm, the town worked together to rebuild the school.",
+          "starter": "If I could rebuild something, it would be _______ ...",
+          "why": "The prefix re- means 'again' — rebuild means to build again!"
+        },
+        "ufliLesson": 112,
+        "ufliSkill": "re-",
+        "ufliSection": "Affixes & Multisyllabic",
+        "phonicsWords": ["rewrite", "reread", "redo", "rebuild", "retell", "replay"],
+        "heartWords": ["she", "will", "the", "and", "it", "before"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "they will replay the game and retell the story to there freinds",
+        "corr": [
+          {"t": "capitalization", "w": "they", "r": "They", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "there", "r": "their", "e": "Their shows ownership — 'there' means a place."},
+          {"t": "spelling", "w": "freinds", "r": "friends", "e": "Friends is spelled with 'ie,' not 'ei.'"},
+          {"t": "grammar", "w": "replay", "r": "replay", "e": "Replay is correct — good job!"},
+          {"t": "punctuation", "w": "freinds", "r": "friends.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "They will replay the game and retell the story to their friends.",
+        "pos": [
+          {"w": "They", "t": "PRO", "q": "Find the pronoun for a group."},
+          {"w": "will", "t": "V", "q": "Find the helping verb for the future."},
+          {"w": "replay", "t": "V", "q": "Find the verb meaning 'play again.'"},
+          {"w": "the", "t": "ART", "q": "Find the article before 'game.'"},
+          {"w": "game", "t": "N", "q": "Find the noun for something you play."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction joining two actions."},
+          {"w": "retell", "t": "V", "q": "Find the verb meaning 'tell again.'"},
+          {"w": "the", "t": "ART", "q": "Find the article before 'story.'"},
+          {"w": "story", "t": "N", "q": "Find the noun for a tale."},
+          {"w": "to", "t": "PREP", "q": "Find the preposition after 'story.'"},
+          {"w": "their", "t": "POSS", "q": "Find the possessive word."},
+          {"w": "friends", "t": "N", "q": "Find the noun for people you like."}
+        ],
+        "manip": {
+          "task": "Replace the verb 'replay' with a different re- word.",
+          "word": "replay",
+          "examples": [
+            "They will <span class='changed'>restart</span> the game and retell the story to their friends.",
+            "They will <span class='changed'>review</span> the game and retell the story to their friends."
+          ]
+        },
+        "vocab": {
+          "w": "return",
+          "type": "verb",
+          "def": "To go back to a place, or to give something back.",
+          "simple": "Return means to go back or give something back!",
+          "examples": ["return home", "return a book", "return a toy"],
+          "similar": ["come back", "give back", "go back"],
+          "antonyms": ["leave", "keep", "depart"],
+          "nonex": ["It does NOT mean to throw away."],
+          "example": "Please return the library books before the end of the week.",
+          "starter": "I need to return _______ ...",
+          "why": "The prefix re- means 'again' or 'back' — return means to go back!"
+        },
+        "ufliLesson": 112,
+        "ufliSkill": "re-",
+        "ufliSection": "Affixes & Multisyllabic",
+        "phonicsWords": ["replay", "retell", "return", "restart", "review", "rewrite"],
+        "heartWords": ["they", "will", "the", "and", "to", "their"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 113,
+    "sentences": [
+      {
+        "orig": "we will prevew the movie before we go to the theeter",
+        "corr": [
+          {"t": "capitalization", "w": "we", "r": "We", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "prevew", "r": "preview", "e": "Preview is spelled pre + view."},
+          {"t": "spelling", "w": "theeter", "r": "theater", "e": "Theater is spelled t-h-e-a-t-e-r."},
+          {"t": "grammar", "w": "movie", "r": "movie", "e": "Movie is correct — good job!"},
+          {"t": "punctuation", "w": "theeter", "r": "theater.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "We will preview the movie before we go to the theater.",
+        "pos": [
+          {"w": "We", "t": "PRO", "q": "Find the pronoun for a group."},
+          {"w": "will", "t": "V", "q": "Find the helping verb for the future."},
+          {"w": "preview", "t": "V", "q": "Find the verb meaning 'see before.'"},
+          {"w": "the", "t": "ART", "q": "Find the article before 'movie.'"},
+          {"w": "movie", "t": "N", "q": "Find the noun for a film."},
+          {"w": "before", "t": "SUBCONJ", "q": "Find the word that tells when."},
+          {"w": "we", "t": "PRO", "q": "Find the second pronoun."},
+          {"w": "go", "t": "V", "q": "Find the verb for moving to a place."},
+          {"w": "to", "t": "PREP", "q": "Find the preposition after 'go.'"},
+          {"w": "the", "t": "ART", "q": "Find the article before 'theater.'"},
+          {"w": "theater", "t": "N", "q": "Find the noun for a place to watch movies."}
+        ],
+        "manip": {
+          "task": "Replace the verb 'preview' with a different pre- word.",
+          "word": "preview",
+          "examples": [
+            "We will <span class='changed'>prepare</span> the movie before we go to the theater.",
+            "We will <span class='changed'>predict</span> the movie before we go to the theater."
+          ]
+        },
+        "vocab": {
+          "w": "preheat",
+          "type": "verb",
+          "def": "To heat something up before you use it.",
+          "simple": "Preheat means to make something hot before you start using it, like an oven!",
+          "examples": ["preheat the oven", "preheat the grill"],
+          "similar": ["warm up", "heat up"],
+          "antonyms": ["cool down"],
+          "nonex": ["It does NOT mean to cook — it means to get hot before cooking."],
+          "example": "We need to preheat the oven before baking the cookies.",
+          "starter": "You should preheat _______ before ...",
+          "why": "The prefix pre- means 'before' — preheat means to heat before using!"
+        },
+        "ufliLesson": 113,
+        "ufliSkill": "pre-",
+        "ufliSection": "Affixes & Multisyllabic",
+        "phonicsWords": ["preview", "preheat", "prepare", "predict", "prefix", "preschool"],
+        "heartWords": ["we", "will", "the", "before", "go", "to"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "the preschool children prepaired a gift and presented it to the teecher",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "prepaired", "r": "prepared", "e": "Prepared is spelled p-r-e-p-a-r-e-d."},
+          {"t": "spelling", "w": "teecher", "r": "teacher", "e": "Teacher is spelled with 'ea,' not 'ee.'"},
+          {"t": "grammar", "w": "presented", "r": "presented", "e": "Presented is correct — good job!"},
+          {"t": "punctuation", "w": "teecher", "r": "teacher.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The preschool children prepared a gift and presented it to the teacher.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "preschool", "t": "ADJ", "q": "Find the word that describes the children."},
+          {"w": "children", "t": "N", "q": "Find the noun for young people."},
+          {"w": "prepared", "t": "V", "q": "Find the verb meaning 'got ready.'"},
+          {"w": "a", "t": "ART", "q": "Find the article before 'gift.'"},
+          {"w": "gift", "t": "N", "q": "Find the noun for a present."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction joining two actions."},
+          {"w": "presented", "t": "V", "q": "Find the verb meaning 'gave.'"},
+          {"w": "it", "t": "PRO", "q": "Find the pronoun for the gift."},
+          {"w": "to", "t": "PREP", "q": "Find the preposition after 'presented.'"},
+          {"w": "the", "t": "ART", "q": "Find the article before 'teacher.'"},
+          {"w": "teacher", "t": "N", "q": "Find the noun for a person who teaches."}
+        ],
+        "manip": {
+          "task": "Replace the verb 'prepared' with a different pre- word.",
+          "word": "prepared",
+          "examples": [
+            "The preschool children <span class='changed'>previewed</span> a gift and presented it to the teacher.",
+            "The preschool children <span class='changed'>preselected</span> a gift and presented it to the teacher."
+          ]
+        },
+        "vocab": {
+          "w": "predict",
+          "type": "verb",
+          "def": "To say what you think will happen in the future.",
+          "simple": "Predict means to guess what will happen next!",
+          "examples": ["predict the weather", "predict the ending", "predict the score"],
+          "similar": ["guess", "forecast", "expect"],
+          "antonyms": ["recall", "remember"],
+          "nonex": ["It does NOT mean you know for sure — it is your best guess."],
+          "example": "Can you predict what will happen at the end of the story?",
+          "starter": "I predict that _______ ...",
+          "why": "The prefix pre- means 'before' — predict means to say before it happens!"
+        },
+        "ufliLesson": 113,
+        "ufliSkill": "pre-",
+        "ufliSection": "Affixes & Multisyllabic",
+        "phonicsWords": ["preschool", "prepared", "predict", "preview", "present", "prefix"],
+        "heartWords": ["the", "a", "and", "it", "to"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 114,
+    "sentences": [
+      {
+        "orig": "they disagre about wich game to play at reces",
+        "corr": [
+          {"t": "capitalization", "w": "they", "r": "They", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "disagre", "r": "disagree", "e": "Disagree has a double 'e' at the end."},
+          {"t": "spelling", "w": "wich", "r": "which", "e": "Which is spelled w-h-i-c-h."},
+          {"t": "spelling", "w": "reces", "r": "recess", "e": "Recess has a double 's' at the end."},
+          {"t": "punctuation", "w": "reces", "r": "recess.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "They disagree about which game to play at recess.",
+        "pos": [
+          {"w": "They", "t": "PRO", "q": "Find the pronoun for a group."},
+          {"w": "disagree", "t": "V", "q": "Find the verb meaning 'do not agree.'"},
+          {"w": "about", "t": "PREP", "q": "Find the preposition after 'disagree.'"},
+          {"w": "which", "t": "ADJ", "q": "Find the word that asks about a choice."},
+          {"w": "game", "t": "N", "q": "Find the noun for something you play."},
+          {"w": "to", "t": "PREP", "q": "Find the word before 'play.'"},
+          {"w": "play", "t": "V", "q": "Find the verb for having fun."},
+          {"w": "at", "t": "PREP", "q": "Find the preposition that tells when."},
+          {"w": "recess", "t": "N", "q": "Find the noun for break time at school."}
+        ],
+        "manip": {
+          "task": "Replace the verb 'disagree' with a different dis- word.",
+          "word": "disagree",
+          "examples": [
+            "They <span class='changed'>dislike</span> about which game to play at recess.",
+            "They <span class='changed'>discuss</span> about which game to play at recess."
+          ]
+        },
+        "vocab": {
+          "w": "discover",
+          "type": "verb",
+          "def": "To find something new or learn something for the first time.",
+          "simple": "Discover means to find out about something you did not know before!",
+          "examples": ["discover a new animal", "discover a secret", "discover a path"],
+          "similar": ["find", "uncover", "learn"],
+          "antonyms": ["miss", "overlook", "hide"],
+          "nonex": ["It does NOT mean to invent something brand new."],
+          "example": "We went on a hike and discovered a hidden pond.",
+          "starter": "I once discovered _______ ...",
+          "why": "The prefix dis- means 'not' or 'opposite' — discover means to uncover!"
+        },
+        "ufliLesson": 114,
+        "ufliSkill": "dis-",
+        "ufliSection": "Affixes & Multisyllabic",
+        "phonicsWords": ["disagree", "dislike", "discover", "disappear", "disconnect", "dishonest"],
+        "heartWords": ["they", "about", "which", "to", "at"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "the magishun made the rabbit disapear behind the curtin",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "magishun", "r": "magician", "e": "Magician uses '-tion/-cian' pattern for the /shun/ sound."},
+          {"t": "spelling", "w": "disapear", "r": "disappear", "e": "Disappear has a double 'p' — dis + appear."},
+          {"t": "spelling", "w": "curtin", "r": "curtain", "e": "Curtain is spelled c-u-r-t-a-i-n."},
+          {"t": "punctuation", "w": "curtin", "r": "curtain.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The magician made the rabbit disappear behind the curtain.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "magician", "t": "N", "q": "Find the noun for a person who does magic."},
+          {"w": "made", "t": "V", "q": "Find the verb meaning 'caused.'"},
+          {"w": "the", "t": "ART", "q": "Find the article before 'rabbit.'"},
+          {"w": "rabbit", "t": "N", "q": "Find the noun for a fluffy animal."},
+          {"w": "disappear", "t": "V", "q": "Find the verb meaning 'go away from sight.'"},
+          {"w": "behind", "t": "PREP", "q": "Find the preposition meaning 'in back of.'"},
+          {"w": "the", "t": "ART", "q": "Find the article before 'curtain.'"},
+          {"w": "curtain", "t": "N", "q": "Find the noun for a cloth that covers a window."}
+        ],
+        "manip": {
+          "task": "Replace the verb 'disappear' with a different dis- word.",
+          "word": "disappear",
+          "examples": [
+            "The magician made the rabbit <span class='changed'>disconnect</span> behind the curtain.",
+            "The magician made the rabbit <span class='changed'>disband</span> behind the curtain."
+          ]
+        },
+        "vocab": {
+          "w": "disappear",
+          "type": "verb",
+          "def": "To go away so no one can see you anymore.",
+          "simple": "Disappear means to go away and not be seen!",
+          "examples": ["disappear from sight", "disappear into thin air", "disappear quickly"],
+          "similar": ["vanish", "fade", "go away"],
+          "antonyms": ["appear", "show up", "arrive"],
+          "nonex": ["It does NOT mean to be invisible forever — things can reappear!"],
+          "example": "The clouds disappeared and the sun came out.",
+          "starter": "If I could disappear, I would go to _______ ...",
+          "why": "The prefix dis- means 'not' or 'away' — disappear means to not appear!"
+        },
+        "ufliLesson": 114,
+        "ufliSkill": "dis-",
+        "ufliSection": "Affixes & Multisyllabic",
+        "phonicsWords": ["disappear", "magician", "disagree", "dislike", "disconnect", "discover"],
+        "heartWords": ["the", "made", "behind"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 115,
+    "sentences": [
+      {
+        "orig": "he mispeled three words on the speling test today",
+        "corr": [
+          {"t": "capitalization", "w": "he", "r": "He", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "mispeled", "r": "misspelled", "e": "Misspelled has a double 's' — mis + spelled."},
+          {"t": "spelling", "w": "speling", "r": "spelling", "e": "Spelling has a double 'l.'"},
+          {"t": "grammar", "w": "words", "r": "words", "e": "Words is correct — good job!"},
+          {"t": "punctuation", "w": "today", "r": "today.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "He misspelled three words on the spelling test today.",
+        "pos": [
+          {"w": "He", "t": "PRO", "q": "Find the pronoun for a boy or man."},
+          {"w": "misspelled", "t": "V", "q": "Find the verb meaning 'spelled wrong.'"},
+          {"w": "three", "t": "ADJ", "q": "Find the number word."},
+          {"w": "words", "t": "N", "q": "Find the noun for things you write."},
+          {"w": "on", "t": "PREP", "q": "Find the preposition after 'words.'"},
+          {"w": "the", "t": "ART", "q": "Find the article before 'spelling.'"},
+          {"w": "spelling", "t": "ADJ", "q": "Find the word describing the test."},
+          {"w": "test", "t": "N", "q": "Find the noun for something you take at school."},
+          {"w": "today", "t": "ADV", "q": "Find the word that tells when."}
+        ],
+        "manip": {
+          "task": "Replace 'misspelled' with a different mis- word.",
+          "word": "misspelled",
+          "examples": [
+            "He <span class='changed'>misread</span> three words on the spelling test today.",
+            "He <span class='changed'>misplaced</span> three words on the spelling test today."
+          ]
+        },
+        "vocab": {
+          "w": "mistake",
+          "type": "noun",
+          "def": "Something that is done wrong; an error.",
+          "simple": "A mistake is when you do something wrong, but you can learn from it!",
+          "examples": ["a small mistake", "a silly mistake", "learn from a mistake"],
+          "similar": ["error", "blunder", "slip"],
+          "antonyms": ["success", "correct answer"],
+          "nonex": ["It does NOT mean you are bad — everyone makes mistakes!"],
+          "example": "Making a mistake on a test helps you learn what to study next.",
+          "starter": "A mistake I learned from was _______ ...",
+          "why": "The prefix mis- means 'wrong' or 'badly' — a mistake is something done wrong!"
+        },
+        "ufliLesson": 115,
+        "ufliSkill": "mis-",
+        "ufliSection": "Affixes & Multisyllabic",
+        "phonicsWords": ["misspelled", "mistake", "misread", "misplace", "mislead", "miscount"],
+        "heartWords": ["he", "three", "on", "the", "today"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "she mislabled the box and misunderstod the direkshuns",
+        "corr": [
+          {"t": "capitalization", "w": "she", "r": "She", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "mislabled", "r": "mislabeled", "e": "Mislabeled keeps the full word 'labeled' after 'mis.'"},
+          {"t": "spelling", "w": "misunderstod", "r": "misunderstood", "e": "Misunderstood has a double 'o.'"},
+          {"t": "spelling", "w": "direkshuns", "r": "directions", "e": "Directions uses '-tion' for the /shun/ sound."},
+          {"t": "punctuation", "w": "direkshuns", "r": "directions.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "She mislabeled the box and misunderstood the directions.",
+        "pos": [
+          {"w": "She", "t": "PRO", "q": "Find the pronoun for a girl or woman."},
+          {"w": "mislabeled", "t": "V", "q": "Find the verb meaning 'labeled wrong.'"},
+          {"w": "the", "t": "ART", "q": "Find the article before 'box.'"},
+          {"w": "box", "t": "N", "q": "Find the noun for a container."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction joining two actions."},
+          {"w": "misunderstood", "t": "V", "q": "Find the verb meaning 'understood wrong.'"},
+          {"w": "the", "t": "ART", "q": "Find the article before 'directions.'"},
+          {"w": "directions", "t": "N", "q": "Find the noun for instructions."}
+        ],
+        "manip": {
+          "task": "Replace 'mislabeled' with a different mis- word.",
+          "word": "mislabeled",
+          "examples": [
+            "She <span class='changed'>misplaced</span> the box and misunderstood the directions.",
+            "She <span class='changed'>miscounted</span> the box and misunderstood the directions."
+          ]
+        },
+        "vocab": {
+          "w": "misunderstand",
+          "type": "verb",
+          "def": "To not understand something correctly; to get the wrong idea.",
+          "simple": "Misunderstand means to get confused about what someone said or meant!",
+          "examples": ["misunderstand a question", "misunderstand directions", "misunderstand a friend"],
+          "similar": ["confuse", "mix up", "get wrong"],
+          "antonyms": ["understand", "get", "comprehend"],
+          "nonex": ["It does NOT mean you are not smart — it means the message was unclear."],
+          "example": "I misunderstood the directions and went to the wrong room.",
+          "starter": "I once misunderstood _______ ...",
+          "why": "The prefix mis- means 'wrong' — misunderstand means to understand wrong!"
+        },
+        "ufliLesson": 115,
+        "ufliSkill": "mis-",
+        "ufliSection": "Affixes & Multisyllabic",
+        "phonicsWords": ["mislabeled", "misunderstood", "directions", "mistake", "misread", "miscount"],
+        "heartWords": ["she", "the", "and"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 116,
+    "sentences": [
+      {
+        "orig": "we undid the unfair desishun and prepaired to replay the game",
+        "corr": [
+          {"t": "capitalization", "w": "we", "r": "We", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "desishun", "r": "decision", "e": "Decision uses '-sion' for the /zhun/ sound."},
+          {"t": "spelling", "w": "prepaired", "r": "prepared", "e": "Prepared is spelled p-r-e-p-a-r-e-d."},
+          {"t": "grammar", "w": "undid", "r": "undid", "e": "Undid is correct — good job!"},
+          {"t": "punctuation", "w": "game", "r": "game.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "We undid the unfair decision and prepared to replay the game.",
+        "pos": [
+          {"w": "We", "t": "PRO", "q": "Find the pronoun for a group."},
+          {"w": "undid", "t": "V", "q": "Find the verb meaning 'reversed.'"},
+          {"w": "the", "t": "ART", "q": "Find the article before 'unfair.'"},
+          {"w": "unfair", "t": "ADJ", "q": "Find the adjective meaning 'not fair.'"},
+          {"w": "decision", "t": "N", "q": "Find the noun for a choice."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction joining two actions."},
+          {"w": "prepared", "t": "V", "q": "Find the verb meaning 'got ready.'"},
+          {"w": "to", "t": "PREP", "q": "Find the word before 'replay.'"},
+          {"w": "replay", "t": "V", "q": "Find the verb meaning 'play again.'"},
+          {"w": "the", "t": "ART", "q": "Find the article before 'game.'"},
+          {"w": "game", "t": "N", "q": "Find the noun for something you play."}
+        ],
+        "manip": {
+          "task": "Replace the verb 'undid' with a different prefix word.",
+          "word": "undid",
+          "examples": [
+            "We <span class='changed'>reversed</span> the unfair decision and prepared to replay the game.",
+            "We <span class='changed'>dismissed</span> the unfair decision and prepared to replay the game."
+          ]
+        },
+        "vocab": {
+          "w": "decision",
+          "type": "noun",
+          "def": "A choice you make after thinking about your options.",
+          "simple": "A decision is what you choose to do after thinking about it!",
+          "examples": ["a tough decision", "a good decision", "make a decision"],
+          "similar": ["choice", "selection", "pick"],
+          "antonyms": ["indecision", "uncertainty"],
+          "nonex": ["It does NOT mean a guess — a decision takes thought."],
+          "example": "After thinking about it, she made the decision to join the team.",
+          "starter": "A decision I had to make was _______ ...",
+          "why": "Decision uses '-sion' for the /zhun/ sound — and 'de-' is another prefix!"
+        },
+        "ufliLesson": 116,
+        "ufliSkill": "Prefix Review",
+        "ufliSection": "Affixes & Multisyllabic",
+        "phonicsWords": ["undid", "unfair", "decision", "prepared", "replay", "misread"],
+        "heartWords": ["we", "the", "and", "to"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "they rebildt the unstable brige and disconnected the old ropes",
+        "corr": [
+          {"t": "capitalization", "w": "they", "r": "They", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "rebildt", "r": "rebuilt", "e": "Rebuilt is spelled re + built."},
+          {"t": "spelling", "w": "brige", "r": "bridge", "e": "Bridge uses '-dge' for the /j/ sound."},
+          {"t": "grammar", "w": "disconnected", "r": "disconnected", "e": "Disconnected is correct — good job!"},
+          {"t": "punctuation", "w": "ropes", "r": "ropes.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "They rebuilt the unstable bridge and disconnected the old ropes.",
+        "pos": [
+          {"w": "They", "t": "PRO", "q": "Find the pronoun for a group."},
+          {"w": "rebuilt", "t": "V", "q": "Find the verb meaning 'built again.'"},
+          {"w": "the", "t": "ART", "q": "Find the article before 'unstable.'"},
+          {"w": "unstable", "t": "ADJ", "q": "Find the adjective meaning 'not stable.'"},
+          {"w": "bridge", "t": "N", "q": "Find the noun for something crossing water."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction joining two actions."},
+          {"w": "disconnected", "t": "V", "q": "Find the verb meaning 'took apart.'"},
+          {"w": "the", "t": "ART", "q": "Find the article before 'old.'"},
+          {"w": "old", "t": "ADJ", "q": "Find the adjective describing the ropes."},
+          {"w": "ropes", "t": "N", "q": "Find the noun for long, thick strings."}
+        ],
+        "manip": {
+          "task": "Replace the verb 'rebuilt' with a different prefix word.",
+          "word": "rebuilt",
+          "examples": [
+            "They <span class='changed'>redesigned</span> the unstable bridge and disconnected the old ropes.",
+            "They <span class='changed'>unlocked</span> the unstable bridge and disconnected the old ropes."
+          ]
+        },
+        "vocab": {
+          "w": "unstable",
+          "type": "adjective",
+          "def": "Not firm or steady; likely to fall or change.",
+          "simple": "Unstable means something is shaky and might fall over!",
+          "examples": ["an unstable table", "an unstable bridge", "an unstable tower"],
+          "similar": ["shaky", "wobbly", "unsteady"],
+          "antonyms": ["stable", "steady", "firm"],
+          "nonex": ["It does NOT mean broken — it means it might break or fall."],
+          "example": "The old bridge was unstable and needed to be rebuilt.",
+          "starter": "Something that looked unstable was _______ ...",
+          "why": "Unstable uses the prefix un- meaning 'not' — not stable!"
+        },
+        "ufliLesson": 116,
+        "ufliSkill": "Prefix Review",
+        "ufliSection": "Affixes & Multisyllabic",
+        "phonicsWords": ["rebuilt", "unstable", "bridge", "disconnected", "preview", "misread"],
+        "heartWords": ["they", "the", "and", "old"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 117,
+    "sentences": [
+      {
+        "orig": "the helpfull girl was playfull with her puppy at the park",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "helpfull", "r": "helpful", "e": "Helpful has only one 'l' at the end — help + ful."},
+          {"t": "spelling", "w": "playfull", "r": "playful", "e": "Playful has only one 'l' at the end — play + ful."},
+          {"t": "grammar", "w": "girl", "r": "girl", "e": "Girl is correct — good job!"},
+          {"t": "punctuation", "w": "park", "r": "park.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The helpful girl was playful with her puppy at the park.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "helpful", "t": "ADJ", "q": "Find the adjective meaning 'full of help.'"},
+          {"w": "girl", "t": "N", "q": "Find the noun for a young person."},
+          {"w": "was", "t": "V", "q": "Find the linking verb."},
+          {"w": "playful", "t": "ADJ", "q": "Find the adjective meaning 'full of play.'"},
+          {"w": "with", "t": "PREP", "q": "Find the preposition meaning 'together.'"},
+          {"w": "her", "t": "POSS", "q": "Find the possessive word."},
+          {"w": "puppy", "t": "N", "q": "Find the noun for a baby dog."},
+          {"w": "at", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'park.'"},
+          {"w": "park", "t": "N", "q": "Find the noun for a place to play."}
+        ],
+        "manip": {
+          "task": "Replace the adjective 'helpful' with a different -ful word.",
+          "word": "helpful",
+          "examples": [
+            "The <span class='changed'>cheerful</span> girl was playful with her puppy at the park.",
+            "The <span class='changed'>thankful</span> girl was playful with her puppy at the park."
+          ]
+        },
+        "vocab": {
+          "w": "grateful",
+          "type": "adjective",
+          "def": "Feeling thankful for something kind that someone did.",
+          "simple": "Grateful means you feel happy and thankful for something nice!",
+          "examples": ["grateful for help", "a grateful smile", "grateful friends"],
+          "similar": ["thankful", "appreciative"],
+          "antonyms": ["ungrateful", "unthankful"],
+          "nonex": ["It does NOT mean you owe someone — it means you feel happy they helped."],
+          "example": "She was grateful for her helpful friend who shared lunch.",
+          "starter": "I am grateful for _______ ...",
+          "why": "The suffix -ful means 'full of' — grateful means full of thanks!"
+        },
+        "ufliLesson": 117,
+        "ufliSkill": "-ful",
+        "ufliSection": "Affixes & Multisyllabic",
+        "phonicsWords": ["helpful", "playful", "grateful", "cheerful", "thankful", "hopeful"],
+        "heartWords": ["the", "was", "with", "her", "at"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "the colorfull sunset was beautifull and made us feel hopefull",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "colorfull", "r": "colorful", "e": "Colorful has only one 'l' — color + ful."},
+          {"t": "spelling", "w": "beautifull", "r": "beautiful", "e": "Beautiful has only one 'l' — beauti + ful."},
+          {"t": "grammar", "w": "hopefull", "r": "hopeful", "e": "Hopeful has only one 'l' — hope + ful."},
+          {"t": "punctuation", "w": "hopefull", "r": "hopeful.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The colorful sunset was beautiful and made us feel hopeful.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "colorful", "t": "ADJ", "q": "Find the adjective meaning 'full of color.'"},
+          {"w": "sunset", "t": "N", "q": "Find the noun for the sun going down."},
+          {"w": "was", "t": "V", "q": "Find the linking verb."},
+          {"w": "beautiful", "t": "ADJ", "q": "Find the adjective meaning 'very pretty.'"},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction joining two ideas."},
+          {"w": "made", "t": "V", "q": "Find the verb meaning 'caused.'"},
+          {"w": "us", "t": "OBJPRO", "q": "Find the object pronoun."},
+          {"w": "feel", "t": "V", "q": "Find the verb for an emotion."},
+          {"w": "hopeful", "t": "ADJ", "q": "Find the adjective meaning 'full of hope.'"}
+        ],
+        "manip": {
+          "task": "Replace the adjective 'colorful' with a different -ful word.",
+          "word": "colorful",
+          "examples": [
+            "The <span class='changed'>wonderful</span> sunset was beautiful and made us feel hopeful.",
+            "The <span class='changed'>peaceful</span> sunset was beautiful and made us feel hopeful."
+          ]
+        },
+        "vocab": {
+          "w": "peaceful",
+          "type": "adjective",
+          "def": "Calm and quiet, without any trouble or fighting.",
+          "simple": "Peaceful means calm and quiet, with no noise or worry!",
+          "examples": ["a peaceful day", "a peaceful garden", "a peaceful nap"],
+          "similar": ["calm", "quiet", "serene"],
+          "antonyms": ["noisy", "wild", "chaotic"],
+          "nonex": ["It does NOT mean boring — peaceful things can be very nice."],
+          "example": "The garden was peaceful as the colorful sunset filled the sky.",
+          "starter": "A peaceful place I like is _______ ...",
+          "why": "The suffix -ful means 'full of' — peaceful means full of peace!"
+        },
+        "ufliLesson": 117,
+        "ufliSkill": "-ful",
+        "ufliSection": "Affixes & Multisyllabic",
+        "phonicsWords": ["colorful", "beautiful", "hopeful", "peaceful", "wonderful", "cheerful"],
+        "heartWords": ["the", "was", "and", "us"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 118,
+    "sentences": [
+      {
+        "orig": "the endles trail seemed carles and wild in the forest",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "endles", "r": "endless", "e": "Endless has a double 's' — end + less."},
+          {"t": "spelling", "w": "carles", "r": "careless", "e": "Careless keeps the 'e' from care — care + less."},
+          {"t": "grammar", "w": "seemed", "r": "looked", "e": "Use 'looked' for a more concrete verb."},
+          {"t": "punctuation", "w": "forest", "r": "forest.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The endless trail looked careless and wild in the forest.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "endless", "t": "ADJ", "q": "Find the adjective meaning 'without end.'"},
+          {"w": "trail", "t": "N", "q": "Find the noun for a path."},
+          {"w": "looked", "t": "V", "q": "Find the verb meaning 'appeared.'"},
+          {"w": "careless", "t": "ADJ", "q": "Find the adjective meaning 'without care.'"},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction joining two words."},
+          {"w": "wild", "t": "ADJ", "q": "Find the adjective meaning 'not tamed.'"},
+          {"w": "in", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'forest.'"},
+          {"w": "forest", "t": "N", "q": "Find the noun for a place with many trees."}
+        ],
+        "manip": {
+          "task": "Replace the adjective 'endless' with a different -less word.",
+          "word": "endless",
+          "examples": [
+            "The <span class='changed'>harmless</span> trail looked careless and wild in the forest.",
+            "The <span class='changed'>nameless</span> trail looked careless and wild in the forest."
+          ]
+        },
+        "vocab": {
+          "w": "fearless",
+          "type": "adjective",
+          "def": "Not afraid of anything; very brave.",
+          "simple": "Fearless means you are not scared at all — you are super brave!",
+          "examples": ["a fearless explorer", "a fearless leader", "a fearless hero"],
+          "similar": ["brave", "bold", "courageous"],
+          "antonyms": ["fearful", "scared", "afraid"],
+          "nonex": ["It does NOT mean foolish — fearless people are brave, not silly."],
+          "example": "The fearless explorer walked down the endless trail in the forest.",
+          "starter": "I feel fearless when _______ ...",
+          "why": "The suffix -less means 'without' — fearless means without fear!"
+        },
+        "ufliLesson": 118,
+        "ufliSkill": "-less",
+        "ufliSection": "Affixes & Multisyllabic",
+        "phonicsWords": ["endless", "careless", "fearless", "harmless", "nameless", "homeless"],
+        "heartWords": ["the", "and", "in"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "the homeless kitten was helples until a kindly woman found it",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "helples", "r": "helpless", "e": "Helpless keeps the full word 'help' — help + less."},
+          {"t": "spelling", "w": "kindly", "r": "kindly", "e": "Kindly is spelled correctly — good job!"},
+          {"t": "grammar", "w": "found", "r": "rescued", "e": "Use 'rescued' for a stronger verb."},
+          {"t": "punctuation", "w": "it", "r": "it.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The homeless kitten was helpless until a kindly woman rescued it.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "homeless", "t": "ADJ", "q": "Find the adjective meaning 'without a home.'"},
+          {"w": "kitten", "t": "N", "q": "Find the noun for a baby cat."},
+          {"w": "was", "t": "V", "q": "Find the linking verb."},
+          {"w": "helpless", "t": "ADJ", "q": "Find the adjective meaning 'without help.'"},
+          {"w": "until", "t": "SUBCONJ", "q": "Find the word that tells when."},
+          {"w": "a", "t": "ART", "q": "Find the article before 'kindly.'"},
+          {"w": "kindly", "t": "ADJ", "q": "Find the adjective meaning 'nice.'"},
+          {"w": "woman", "t": "N", "q": "Find the noun for an adult female."},
+          {"w": "rescued", "t": "V", "q": "Find the verb meaning 'saved.'"},
+          {"w": "it", "t": "PRO", "q": "Find the pronoun for the kitten."}
+        ],
+        "manip": {
+          "task": "Replace the adjective 'helpless' with a different -less word.",
+          "word": "helpless",
+          "examples": [
+            "The homeless kitten was <span class='changed'>restless</span> until a kindly woman rescued it.",
+            "The homeless kitten was <span class='changed'>speechless</span> until a kindly woman rescued it."
+          ]
+        },
+        "vocab": {
+          "w": "thoughtless",
+          "type": "adjective",
+          "def": "Not thinking about how your actions affect others.",
+          "simple": "Thoughtless means not thinking about other people's feelings!",
+          "examples": ["a thoughtless comment", "a thoughtless action", "thoughtless behavior"],
+          "similar": ["careless", "rude", "inconsiderate"],
+          "antonyms": ["thoughtful", "kind", "considerate"],
+          "nonex": ["It does NOT mean you have no thoughts — it means you did not think about others."],
+          "example": "It would be thoughtless to leave a helpless kitten outside in the cold.",
+          "starter": "A thoughtless thing to do is _______ ...",
+          "why": "The suffix -less means 'without' — thoughtless means without thought for others!"
+        },
+        "ufliLesson": 118,
+        "ufliSkill": "-less",
+        "ufliSection": "Affixes & Multisyllabic",
+        "phonicsWords": ["homeless", "helpless", "restless", "thoughtless", "endless", "careless"],
+        "heartWords": ["the", "was", "until", "a", "it"],
+        "sentenceType": "application"
+      }
+    ]
+  }
+]

@@ -10,7 +10,8 @@ const GRADE_FILES = {
     'grade2': 'data/grade2.json',
     'grade3': 'data/grade3.json',
     'grade4': 'data/grade4.json',
-    'grade5': 'data/grade5.json'
+    'grade5': 'data/grade5.json',
+    'ufli': 'data/ufli.json'
 };
 
 const GRADE_LABELS = {
@@ -21,7 +22,8 @@ const GRADE_LABELS = {
     'grade2': '5 Errors | Grade 2: Irregular Plurals \u2022 Past Tense \u2022 Pronouns',
     'grade3': '5 Errors | Grade 3: Nouns \u2022 Verbs \u2022 Sentences \u2022 Roots',
     'grade4': '5 Errors | Grade 4: Progressive Tenses \u2022 Modals \u2022 Roots',
-    'grade5': '5 Errors | Grade 5: Perfect Tenses \u2022 Clauses \u2022 Roots'
+    'grade5': '5 Errors | Grade 5: Perfect Tenses \u2022 Clauses \u2022 Roots',
+    'ufli': '5 Errors | UFLI Phonics: Systematic Phonics \u2022 Heart Words \u2022 Decodable Text'
 };
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -53,6 +55,7 @@ function switchGrade(grade) {
     // Update help periods visibility
     document.getElementById('help-mixed-periods').style.display = grade === 'mixed' ? '' : 'none';
     document.getElementById('help-prek-periods').style.display = grade === 'prek' ? '' : 'none';
+    document.getElementById('help-ufli-periods').style.display = grade === 'ufli' ? '' : 'none';
     document.getElementById('help-gradek-periods').style.display = grade === 'gradek' ? '' : 'none';
     document.getElementById('help-grade1-periods').style.display = grade === 'grade1' ? '' : 'none';
     document.getElementById('help-grade2-periods').style.display = grade === 'grade2' ? '' : 'none';
@@ -207,6 +210,31 @@ function getCSSClass(t) {
     return classes[t] || 'noun';
 }
 
+function buildUfliPanel(sent) {
+    const typeLabel = sent.sentenceType === 'intro' ? 'Intro' : 'Application';
+    const typeClass = sent.sentenceType === 'intro' ? 'intro' : 'app';
+    const phonicsChips = (sent.phonicsWords || []).map(w => `<span class="ufli-word-chip">${w}</span>`).join('');
+    const heartChips = (sent.heartWords || []).map(w => `<span class="ufli-heart-chip">${w}</span>`).join('');
+
+    return `<div class="ufli-panel">
+        <div class="ufli-top-row">
+            <span class="ufli-lesson-badge">Lesson ${sent.ufliLesson}: ${sent.ufliSkill}</span>
+            <span class="ufli-section">${sent.ufliSection}</span>
+            <span class="ufli-type-badge ${typeClass}">${typeLabel}</span>
+        </div>
+        <div class="ufli-words-row">
+            <div class="ufli-words-section">
+                <div class="ufli-word-label">Phonics Words</div>
+                <div class="ufli-word-list">${phonicsChips}</div>
+            </div>
+            <div class="ufli-words-section">
+                <div class="ufli-word-label">Heart Words</div>
+                <div class="ufli-word-list">${heartChips}</div>
+            </div>
+        </div>
+    </div>`;
+}
+
 function renderDay() {
     const lesson = DATA.find(d => d.day === currentDay);
     if (!lesson) return;
@@ -214,6 +242,7 @@ function renderDay() {
     const maxDay = getMaxDay();
     document.getElementById('currentDay').textContent = currentDay;
     document.getElementById('dayNum').textContent = currentDay;
+    document.getElementById('maxDayNum').textContent = maxDay;
     document.getElementById('dayInput').value = currentDay;
     document.getElementById('dayInput').max = maxDay;
     document.getElementById('prevBtn').disabled = currentDay <= 1;
@@ -267,6 +296,12 @@ function renderDay() {
             }
         });
 
+        // Build UFLI panel if in UFLI mode
+        let ufliPanel = '';
+        if (currentGrade === 'ufli' && sent.ufliLesson) {
+            ufliPanel = buildUfliPanel(sent);
+        }
+
         html += `
         <div class="card">
             <div class="card-header">
@@ -277,6 +312,7 @@ function renderDay() {
                 <button class="popout-btn" onclick="openPopout(${idx})" title="Open as individual lesson">&#x26F6;</button>
                 <button class="print-btn" onclick="printWorksheet(${idx})" title="Print worksheet">&#x1F5A8;</button>
             </div>
+            ${ufliPanel}
             <div class="sentence-display" id="sent-${idx}">${formatSentence(sent, state)}</div>
             <div class="btn-row">
                 <button class="check-btn ${state.phase>=7?'complete':''}" id="btn-${idx}" onclick="advance(${idx})">${getBtnText(state, sent)}</button>
@@ -735,6 +771,8 @@ function openPopout(idx) {
     const overlay = document.createElement('div');
     overlay.id = 'popout-overlay';
     overlay.onclick = function(e) { if (e.target === overlay) closePopout(); };
+    const popoutUfliPanel = (currentGrade === 'ufli' && sent.ufliLesson) ? buildUfliPanel(sent) : '';
+
     overlay.innerHTML = `
         <div class="popout-container">
             <div class="popout-header">
@@ -748,6 +786,7 @@ function openPopout(idx) {
             <div class="popout-task-bar">
                 Find <span class="tag err">${corrections.length} errors</span> and ${tags}
             </div>
+            ${popoutUfliPanel}
             <div class="popout-sentence" id="popout-sent"></div>
             <div class="popout-btn-row">
                 <button class="check-btn popout-advance-btn ${state.phase>=7?'complete':''}" id="popout-advance-btn" onclick="advancePopout()">${getBtnText(state, sent)}</button>
@@ -991,6 +1030,17 @@ function printWorksheet(idx) {
     const num = idx + 1;
     const task = sent.manip.task;
 
+    // Build UFLI phonics section for print if in UFLI mode
+    let ufliPrintSection = '';
+    if (currentGrade === 'ufli' && sent.ufliLesson) {
+        const phonicsWordsPrint = (sent.phonicsWords || []).map(w => '<span class="pw">' + w + '</span>').join('');
+        const heartWordsPrint = (sent.heartWords || []).map(w => '<span class="hw">' + w + '</span>').join('');
+        ufliPrintSection = '<div class="ub"><div class="ul">Lesson ' + sent.ufliLesson + ': ' + sent.ufliSkill + '</div>' +
+            '<div class="us">' + sent.ufliSection + ' &bull; ' + (sent.sentenceType === 'intro' ? 'Introduction' : 'Application') + '</div>' +
+            '<div class="uw"><span class="uwl">Phonics Words:</span>' + phonicsWordsPrint + '</div>' +
+            '<div class="uw"><span class="uwl">Heart Words:</span>' + heartWordsPrint + '</div></div>';
+    }
+
     const html = '<!DOCTYPE html><html><head><title>DOL Day ' + day + ' - Sentence ' + num + '</title>' +
 '<style>' +
 '@page{size:letter;margin:0.6in 0.75in}' +
@@ -1023,11 +1073,20 @@ function printWorksheet(idx) {
 '.vt{flex:1;border-bottom:2.5pt solid #2d3436;height:0.32in}' +
 '.wp{font-size:9.5pt;font-weight:600;color:#636e72;margin-top:16pt;margin-bottom:8pt}' +
 '.p2{font-size:8.5pt;color:#b2bec3;text-align:right;margin-bottom:16pt;padding-bottom:4pt;border-bottom:0.5pt solid #dfe6e9}' +
+'.ub{background:#f0faf8;border:1.5pt solid #00897b;border-radius:8pt;padding:10pt 14pt;margin-bottom:18pt}' +
+'.ul{font-size:11pt;font-weight:700;color:#00897b}' +
+'.us{font-size:9pt;color:#636e72;margin-bottom:6pt}' +
+'.uw{display:flex;align-items:center;flex-wrap:wrap;gap:4pt;margin-top:4pt}' +
+'.uwl{font-size:9pt;font-weight:700;color:#2d3436;margin-right:4pt}' +
+'.pw{font-size:9pt;background:#e3f2fd;color:#1565c0;padding:2pt 8pt;border-radius:10pt;font-weight:600}' +
+'.hw{font-size:9pt;background:#fce4ec;color:#c2185b;padding:2pt 8pt;border-radius:10pt;font-weight:600}' +
 '</style></head><body onload="setTimeout(function(){window.print()},300)">' +
 
 '<div class="pg">' +
 '<div class="hd"><div><h1>Daily Oral Language</h1><div class="sb">Day ' + day + ' \u2022 Sentence ' + num + '</div></div>' +
 '<div class="hdr"><div><span class="fl">Name:</span><span class="fn"></span></div><div><span class="fl">Date:</span><span class="fn fd"></span></div></div></div>' +
+
+ufliPrintSection +
 
 '<div class="sc"><div class="sh"><span class="nm">1</span><span class="st">Sentence Correction</span></div>' +
 '<div class="lb">Copy the sentence from the board:</div>' +

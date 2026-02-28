@@ -1,0 +1,3436 @@
+[
+  {
+    "day": 1,
+    "sentences": [
+      {
+        "orig": "i am a mas",
+        "corr": [
+          {"t": "capitalization", "w": "i", "r": "I", "e": "The word 'I' is always capitalized."},
+          {"t": "spelling", "w": "mas", "r": "man", "e": "The word 'man' ends with the letter 'n,' not 's.'"},
+          {"t": "grammar", "w": "a", "r": "the", "e": "Use 'the' when talking about a specific person."},
+          {"t": "spelling", "w": "am", "r": "am", "e": "Am is spelled correctly — good job!"},
+          {"t": "punctuation", "w": "mas", "r": "man.", "e": "A sentence must end with a period."}
+        ],
+        "fixed": "I am the man.",
+        "pos": [
+          {"w": "I", "t": "PRO", "q": "Find the pronoun that means 'me.'"},
+          {"w": "am", "t": "V", "q": "Find the verb."},
+          {"w": "the", "t": "ART", "q": "Find the article."},
+          {"w": "man", "t": "N", "q": "Find the noun for a person."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'man' with a different person.",
+          "word": "man",
+          "examples": [
+            "I am the <span class='changed'>mom</span>.",
+            "I am the <span class='changed'>dad</span>."
+          ]
+        },
+        "vocab": {
+          "w": "man",
+          "type": "noun",
+          "def": "An adult male person.",
+          "simple": "A man is a grown-up boy!",
+          "examples": ["a tall man", "a kind man", "a funny man"],
+          "similar": ["guy", "fellow", "gentleman"],
+          "antonyms": ["woman", "girl", "boy"],
+          "nonex": ["It does NOT mean only old people.", "It does NOT mean only dads."],
+          "example": "The man walked to the store.",
+          "starter": "I saw a man who _______ ...",
+          "why": "Man is one of the first words you can read with the letter m!"
+        },
+        "ufliLesson": 1,
+        "ufliSkill": "m /m/",
+        "ufliSection": "Early Alphabet",
+        "phonicsWords": ["am", "ma", "man", "mat", "map"],
+        "heartWords": ["I", "a", "the"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "the mom is my mam",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "mam", "r": "mom", "e": "Mom has the letter 'o' in the middle, not 'a.'"},
+          {"t": "grammar", "w": "is", "r": "is", "e": "Is is used correctly here — good job!"},
+          {"t": "spelling", "w": "mom", "r": "mom", "e": "Mom is spelled correctly — nice work!"},
+          {"t": "punctuation", "w": "mam", "r": "mom.", "e": "A sentence must end with a period."}
+        ],
+        "fixed": "The mom is my mom.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the start."},
+          {"w": "mom", "t": "N", "q": "Find the noun for a parent."},
+          {"w": "is", "t": "V", "q": "Find the verb."},
+          {"w": "my", "t": "POSS", "q": "Find the word that shows something belongs to you."},
+          {"w": "mom", "t": "N", "q": "Find the second noun."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'mom' with a different family member.",
+          "word": "mom",
+          "examples": [
+            "The <span class='changed'>dad</span> is my <span class='changed'>dad</span>.",
+            "The <span class='changed'>pal</span> is my <span class='changed'>pal</span>."
+          ]
+        },
+        "vocab": {
+          "w": "mom",
+          "type": "noun",
+          "def": "A female parent; a mother.",
+          "simple": "Mom is another word for your mother!",
+          "examples": ["my mom", "a happy mom", "mom and dad"],
+          "similar": ["mother", "mama", "ma"],
+          "antonyms": ["dad", "father", "papa"],
+          "nonex": ["It does NOT mean any woman.", "It does NOT mean grandmother."],
+          "example": "My mom reads to me at night.",
+          "starter": "My mom likes to _______ ...",
+          "why": "Mom starts with the letter m — the sound we are learning!"
+        },
+        "ufliLesson": 1,
+        "ufliSkill": "m /m/",
+        "ufliSection": "Early Alphabet",
+        "phonicsWords": ["am", "ma", "mom", "man", "map"],
+        "heartWords": ["the", "is", "my"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 2,
+    "sentences": [
+      {
+        "orig": "i am a mat",
+        "corr": [
+          {"t": "capitalization", "w": "i", "r": "I", "e": "The word 'I' is always capitalized."},
+          {"t": "spelling", "w": "mat", "r": "man", "e": "The word 'man' ends with 'n,' not 't.'"},
+          {"t": "grammar", "w": "a", "r": "a", "e": "The article 'a' is correct here — nice job!"},
+          {"t": "spelling", "w": "am", "r": "am", "e": "Am is spelled correctly — good work!"},
+          {"t": "punctuation", "w": "mat", "r": "man.", "e": "A sentence must end with a period."}
+        ],
+        "fixed": "I am a man.",
+        "pos": [
+          {"w": "I", "t": "PRO", "q": "Find the pronoun."},
+          {"w": "am", "t": "V", "q": "Find the verb."},
+          {"w": "a", "t": "ART", "q": "Find the article."},
+          {"w": "man", "t": "N", "q": "Find the noun."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'man' with a word that starts with 'a.'",
+          "word": "man",
+          "examples": [
+            "I am an <span class='changed'>ant</span>.",
+            "I am an <span class='changed'>ape</span>."
+          ]
+        },
+        "vocab": {
+          "w": "am",
+          "type": "verb",
+          "def": "A word that tells who you are or how you feel right now.",
+          "simple": "Am goes with the word I — like 'I am happy!'",
+          "examples": ["I am big", "I am here", "I am a kid"],
+          "similar": ["is", "are", "was"],
+          "antonyms": [],
+          "nonex": ["It does NOT mean 'was' — that is the past.", "You do NOT say 'he am.'"],
+          "example": "I am a good friend.",
+          "starter": "I am _______ ...",
+          "why": "Am has the short 'a' sound — the sound we are learning!"
+        },
+        "ufliLesson": 2,
+        "ufliSkill": "a /ă/",
+        "ufliSection": "Early Alphabet",
+        "phonicsWords": ["am", "a", "ma", "at"],
+        "heartWords": ["I", "the"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "the mam has a mat",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "mam", "r": "man", "e": "The word 'man' has an 'n' at the end, not 'm.'"},
+          {"t": "grammar", "w": "has", "r": "has", "e": "Has is the correct verb here — good job!"},
+          {"t": "spelling", "w": "mat", "r": "mat", "e": "Mat is spelled correctly — well done!"},
+          {"t": "punctuation", "w": "mat", "r": "mat.", "e": "A sentence must end with a period."}
+        ],
+        "fixed": "The man has a mat.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the start."},
+          {"w": "man", "t": "N", "q": "Find the noun for a person."},
+          {"w": "has", "t": "V", "q": "Find the verb that means 'owns.'"},
+          {"w": "a", "t": "ART", "q": "Find the small article."},
+          {"w": "mat", "t": "N", "q": "Find the noun for a thing on the floor."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'mat' with something else the man has.",
+          "word": "mat",
+          "examples": [
+            "The man has a <span class='changed'>map</span>.",
+            "The man has a <span class='changed'>hat</span>."
+          ]
+        },
+        "vocab": {
+          "w": "mat",
+          "type": "noun",
+          "def": "A flat piece of material placed on a floor or surface.",
+          "simple": "A mat is something you step on or sit on!",
+          "examples": ["a door mat", "a bath mat", "a yoga mat"],
+          "similar": ["rug", "pad", "carpet"],
+          "antonyms": [],
+          "nonex": ["It does NOT mean a blanket.", "It does NOT mean a bed."],
+          "example": "Please wipe your feet on the mat.",
+          "starter": "I put the mat on _______ ...",
+          "why": "Mat has the short 'a' sound in the middle!"
+        },
+        "ufliLesson": 2,
+        "ufliSkill": "a /ă/",
+        "ufliSection": "Early Alphabet",
+        "phonicsWords": ["am", "ma", "mat", "man", "map", "at"],
+        "heartWords": ["the", "has", "a"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 3,
+    "sentences": [
+      {
+        "orig": "i am sam",
+        "corr": [
+          {"t": "capitalization", "w": "i", "r": "I", "e": "The word 'I' is always capitalized."},
+          {"t": "capitalization", "w": "sam", "r": "Sam", "e": "A person's name must start with a capital letter."},
+          {"t": "spelling", "w": "am", "r": "am", "e": "Am is spelled correctly — good job!"},
+          {"t": "grammar", "w": "am", "r": "am", "e": "Am is the correct verb with I — nice work!"},
+          {"t": "punctuation", "w": "sam", "r": "Sam.", "e": "A sentence must end with a period."}
+        ],
+        "fixed": "I am Sam.",
+        "pos": [
+          {"w": "I", "t": "PRO", "q": "Find the pronoun."},
+          {"w": "am", "t": "V", "q": "Find the verb."},
+          {"w": "Sam", "t": "N", "q": "Find the noun — a person's name."}
+        ],
+        "manip": {
+          "task": "Replace the name 'Sam' with a different name.",
+          "word": "Sam",
+          "examples": [
+            "I am <span class='changed'>Max</span>.",
+            "I am <span class='changed'>Pam</span>."
+          ]
+        },
+        "vocab": {
+          "w": "mass",
+          "type": "noun",
+          "def": "A large amount or lump of something.",
+          "simple": "A mass is a big chunk or pile of something!",
+          "examples": ["a mass of sand", "a mass of snow", "a big mass"],
+          "similar": ["lump", "pile", "bunch"],
+          "antonyms": ["bit", "speck", "piece"],
+          "nonex": ["It does NOT mean something heavy.", "It does NOT mean messy."],
+          "example": "There was a mass of sand on the mat.",
+          "starter": "I saw a mass of _______ ...",
+          "why": "Mass has the 's' sound we are learning and the short 'a' sound!"
+        },
+        "ufliLesson": 3,
+        "ufliSkill": "s /s/",
+        "ufliSection": "Early Alphabet",
+        "phonicsWords": ["Sam", "sat", "as", "mass"],
+        "heartWords": ["I", "the", "a"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "sam sat on the mas",
+        "corr": [
+          {"t": "capitalization", "w": "sam", "r": "Sam", "e": "A person's name must start with a capital letter."},
+          {"t": "spelling", "w": "mas", "r": "mat", "e": "The word 'mat' ends with 't,' not 's.'"},
+          {"t": "grammar", "w": "on", "r": "on", "e": "On is the correct preposition here — good job!"},
+          {"t": "spelling", "w": "sat", "r": "sat", "e": "Sat is spelled correctly — well done!"},
+          {"t": "punctuation", "w": "mas", "r": "mat.", "e": "A sentence must end with a period."}
+        ],
+        "fixed": "Sam sat on the mat.",
+        "pos": [
+          {"w": "Sam", "t": "N", "q": "Find the noun — a person's name."},
+          {"w": "sat", "t": "V", "q": "Find the verb that tells what Sam did."},
+          {"w": "on", "t": "PREP", "q": "Find the preposition."},
+          {"w": "the", "t": "ART", "q": "Find the article."},
+          {"w": "mat", "t": "N", "q": "Find the noun for a thing."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'mat' with something else Sam sat on.",
+          "word": "mat",
+          "examples": [
+            "Sam sat on the <span class='changed'>map</span>.",
+            "Sam sat on the <span class='changed'>hat</span>."
+          ]
+        },
+        "vocab": {
+          "w": "sat",
+          "type": "verb",
+          "def": "Rested on your bottom in a seat or on the ground.",
+          "simple": "Sat means you were sitting down!",
+          "examples": ["I sat down", "she sat on a mat", "we sat together"],
+          "similar": ["rested", "perched", "settled"],
+          "antonyms": ["stood", "jumped", "ran"],
+          "nonex": ["It does NOT mean sleeping.", "It does NOT mean lying down."],
+          "example": "Sam sat on the soft mat.",
+          "starter": "I sat on _______ ...",
+          "why": "Sat has the 's' sound at the start and the short 'a' sound!"
+        },
+        "ufliLesson": 3,
+        "ufliSkill": "s /s/",
+        "ufliSection": "Early Alphabet",
+        "phonicsWords": ["Sam", "sat", "as", "mass", "sass"],
+        "heartWords": ["the", "on"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 4,
+    "sentences": [
+      {
+        "orig": "the mat is on a tam",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "tam", "r": "table", "e": "The word is 'table,' not 'tam.'"},
+          {"t": "grammar", "w": "a", "r": "the", "e": "Use 'the' when talking about a specific table."},
+          {"t": "spelling", "w": "mat", "r": "mat", "e": "Mat is spelled correctly — well done!"},
+          {"t": "punctuation", "w": "tam", "r": "table.", "e": "A sentence must end with a period."}
+        ],
+        "fixed": "The mat is on the table.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the start."},
+          {"w": "mat", "t": "N", "q": "Find the noun for a flat thing."},
+          {"w": "is", "t": "V", "q": "Find the verb."},
+          {"w": "on", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "the", "t": "ART", "q": "Find the second article."},
+          {"w": "table", "t": "N", "q": "Find the noun for furniture."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'mat' with something else on the table.",
+          "word": "mat",
+          "examples": [
+            "The <span class='changed'>hat</span> is on the table.",
+            "The <span class='changed'>map</span> is on the table."
+          ]
+        },
+        "vocab": {
+          "w": "tap",
+          "type": "verb",
+          "def": "To touch or hit something lightly and quickly.",
+          "simple": "Tap means to touch something gently with your finger!",
+          "examples": ["tap the table", "tap your foot", "tap a drum"],
+          "similar": ["pat", "touch", "knock"],
+          "antonyms": ["bang", "slam", "pound"],
+          "nonex": ["It does NOT mean to push hard.", "It does NOT mean to hold."],
+          "example": "I tap the mat with my hand.",
+          "starter": "I like to tap on _______ ...",
+          "why": "Tap starts with the 't' sound we are learning!"
+        },
+        "ufliLesson": 4,
+        "ufliSkill": "t /t/",
+        "ufliSection": "Early Alphabet",
+        "phonicsWords": ["at", "mat", "sat", "tat", "mast", "mats", "tam"],
+        "heartWords": ["the", "is", "on", "a"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "sam sat at the mat",
+        "corr": [
+          {"t": "capitalization", "w": "sam", "r": "Sam", "e": "A person's name must start with a capital letter."},
+          {"t": "spelling", "w": "mat", "r": "mats", "e": "There is more than one mat, so add an 's' to make it plural."},
+          {"t": "grammar", "w": "at", "r": "on", "e": "Use 'on' when something is on top of a surface."},
+          {"t": "spelling", "w": "sat", "r": "sat", "e": "Sat is spelled correctly — nice work!"},
+          {"t": "punctuation", "w": "mat", "r": "mats.", "e": "A sentence must end with a period."}
+        ],
+        "fixed": "Sam sat on the mats.",
+        "pos": [
+          {"w": "Sam", "t": "N", "q": "Find the noun — a person's name."},
+          {"w": "sat", "t": "V", "q": "Find the verb."},
+          {"w": "on", "t": "PREP", "q": "Find the preposition."},
+          {"w": "the", "t": "ART", "q": "Find the article."},
+          {"w": "mats", "t": "N", "q": "Find the noun for things on the floor."}
+        ],
+        "manip": {
+          "task": "Replace the verb 'sat' with a different action.",
+          "word": "sat",
+          "examples": [
+            "Sam <span class='changed'>stood</span> on the mats.",
+            "Sam <span class='changed'>tapped</span> on the mats."
+          ]
+        },
+        "vocab": {
+          "w": "mast",
+          "type": "noun",
+          "def": "A tall pole on a ship that holds up the sails.",
+          "simple": "A mast is the big tall stick on a boat that holds the sail!",
+          "examples": ["a tall mast", "the ship mast", "a flag on the mast"],
+          "similar": ["pole", "post", "rod"],
+          "antonyms": [],
+          "nonex": ["It does NOT mean the whole ship.", "It does NOT mean an oar."],
+          "example": "The flag was on the mast of the ship.",
+          "starter": "The mast on the ship was _______ ...",
+          "why": "Mast has both the 'm' sound and the 't' sound we have learned!"
+        },
+        "ufliLesson": 4,
+        "ufliSkill": "t /t/",
+        "ufliSection": "Early Alphabet",
+        "phonicsWords": ["at", "mat", "sat", "mast", "mats", "tam", "tat"],
+        "heartWords": ["the", "on"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 5,
+    "sentences": [
+      {
+        "orig": "i pat the map",
+        "corr": [
+          {"t": "capitalization", "w": "i", "r": "I", "e": "The word 'I' is always capitalized."},
+          {"t": "spelling", "w": "map", "r": "mat", "e": "The word 'mat' ends with 't,' not 'p.'"},
+          {"t": "grammar", "w": "pat", "r": "tap", "e": "Use 'tap' to describe touching something lightly."},
+          {"t": "spelling", "w": "pat", "r": "tap", "e": "Tap starts with a 't' and ends with a 'p.'"},
+          {"t": "punctuation", "w": "map", "r": "mat.", "e": "A sentence must end with a period."}
+        ],
+        "fixed": "I tap the mat.",
+        "pos": [
+          {"w": "I", "t": "PRO", "q": "Find the pronoun."},
+          {"w": "tap", "t": "V", "q": "Find the verb that tells the action."},
+          {"w": "the", "t": "ART", "q": "Find the article."},
+          {"w": "mat", "t": "N", "q": "Find the noun."}
+        ],
+        "manip": {
+          "task": "Replace the verb 'tap' with a different action.",
+          "word": "tap",
+          "examples": [
+            "I <span class='changed'>pat</span> the mat.",
+            "I <span class='changed'>map</span> the mat."
+          ]
+        },
+        "vocab": {
+          "w": "pat",
+          "type": "verb",
+          "def": "To touch gently with your hand flat.",
+          "simple": "Pat means to touch softly, like patting a dog on the head!",
+          "examples": ["pat the dog", "pat your lap", "a gentle pat"],
+          "similar": ["tap", "touch", "stroke"],
+          "antonyms": ["slap", "hit", "smack"],
+          "nonex": ["It does NOT mean to push.", "It does NOT mean to grab."],
+          "example": "I pat the cat on its head.",
+          "starter": "I like to pat _______ ...",
+          "why": "Pat starts with the 'p' sound we are learning!"
+        },
+        "ufliLesson": 5,
+        "ufliSkill": "p /p/",
+        "ufliSection": "Short Vowels a, i",
+        "phonicsWords": ["pat", "tap", "map", "sap", "pan", "pad", "pass", "nap"],
+        "heartWords": ["I", "the"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "sam has a pam and a map",
+        "corr": [
+          {"t": "capitalization", "w": "sam", "r": "Sam", "e": "A person's name must start with a capital letter."},
+          {"t": "spelling", "w": "pam", "r": "pan", "e": "The word 'pan' ends with 'n,' not 'm.'"},
+          {"t": "grammar", "w": "and a", "r": "and a", "e": "And a is correct here — good work!"},
+          {"t": "spelling", "w": "map", "r": "map", "e": "Map is spelled correctly — nice job!"},
+          {"t": "punctuation", "w": "map", "r": "map.", "e": "A sentence must end with a period."}
+        ],
+        "fixed": "Sam has a pan and a map.",
+        "pos": [
+          {"w": "Sam", "t": "N", "q": "Find the noun — a person's name."},
+          {"w": "has", "t": "V", "q": "Find the verb that means 'owns.'"},
+          {"w": "a", "t": "ART", "q": "Find an article."},
+          {"w": "pan", "t": "N", "q": "Find the noun you cook with."},
+          {"w": "and", "t": "CONJ", "q": "Find the joining word."},
+          {"w": "a", "t": "ART", "q": "Find the second article."},
+          {"w": "map", "t": "N", "q": "Find the noun that shows places."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'map' with something else Sam has.",
+          "word": "map",
+          "examples": [
+            "Sam has a pan and a <span class='changed'>cap</span>.",
+            "Sam has a pan and a <span class='changed'>pad</span>."
+          ]
+        },
+        "vocab": {
+          "w": "map",
+          "type": "noun",
+          "def": "A drawing that shows where places are.",
+          "simple": "A map is a picture that helps you find places!",
+          "examples": ["a world map", "a treasure map", "a road map"],
+          "similar": ["chart", "plan", "guide"],
+          "antonyms": [],
+          "nonex": ["It does NOT mean a picture of a person.", "It does NOT mean a book."],
+          "example": "We looked at the map to find the park.",
+          "starter": "I used a map to find _______ ...",
+          "why": "Map has the 'p' sound at the end and the short 'a' sound!"
+        },
+        "ufliLesson": 5,
+        "ufliSkill": "p /p/",
+        "ufliSection": "Short Vowels a, i",
+        "phonicsWords": ["pat", "tap", "map", "pan", "pad", "pass", "nap", "cap"],
+        "heartWords": ["has", "a", "and"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 6,
+    "sentences": [
+      {
+        "orig": "the pig sat in a pit",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "pig", "r": "pig", "e": "Pig is spelled correctly — good job!"},
+          {"t": "grammar", "w": "in", "r": "in", "e": "In is correct here — well done!"},
+          {"t": "spelling", "w": "pit", "r": "pit", "e": "Pit is spelled correctly — nice work!"},
+          {"t": "punctuation", "w": "pit", "r": "pit.", "e": "A sentence must end with a period."}
+        ],
+        "fixed": "The pig sat in a pit.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the start."},
+          {"w": "pig", "t": "N", "q": "Find the noun for an animal."},
+          {"w": "sat", "t": "V", "q": "Find the verb."},
+          {"w": "in", "t": "PREP", "q": "Find the preposition."},
+          {"w": "a", "t": "ART", "q": "Find the small article."},
+          {"w": "pit", "t": "N", "q": "Find the noun for a hole."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'pig' with a different animal.",
+          "word": "pig",
+          "examples": [
+            "The <span class='changed'>cat</span> sat in a pit.",
+            "The <span class='changed'>ant</span> sat in a pit."
+          ]
+        },
+        "vocab": {
+          "w": "pit",
+          "type": "noun",
+          "def": "A hole in the ground.",
+          "simple": "A pit is a big hole dug into the ground!",
+          "examples": ["a sand pit", "a deep pit", "a pit in the ground"],
+          "similar": ["hole", "ditch", "gap"],
+          "antonyms": ["hill", "mound", "bump"],
+          "nonex": ["It does NOT mean a cave.", "It does NOT mean a puddle."],
+          "example": "The dog dug a pit in the yard.",
+          "starter": "I found a pit near _______ ...",
+          "why": "Pit has the short 'i' sound we are learning!"
+        },
+        "ufliLesson": 6,
+        "ufliSkill": "i /ĭ/",
+        "ufliSection": "Short Vowels a, i",
+        "phonicsWords": ["it", "in", "sit", "pit", "tip", "sip", "pin", "tin"],
+        "heartWords": ["the", "a"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "sam sips a glass and sits on the mat",
+        "corr": [
+          {"t": "capitalization", "w": "sam", "r": "Sam", "e": "A person's name must start with a capital letter."},
+          {"t": "spelling", "w": "glass", "r": "drink", "e": "Use 'drink' — a word with sounds we know."},
+          {"t": "grammar", "w": "sips a", "r": "sips a", "e": "This is correct — nice job!"},
+          {"t": "spelling", "w": "sips", "r": "sips", "e": "Sips is spelled correctly — good work!"},
+          {"t": "punctuation", "w": "mat", "r": "mat.", "e": "A sentence must end with a period."}
+        ],
+        "fixed": "Sam sips a drink and sits on the mat.",
+        "pos": [
+          {"w": "Sam", "t": "N", "q": "Find the noun — a name."},
+          {"w": "sips", "t": "V", "q": "Find the first verb."},
+          {"w": "a", "t": "ART", "q": "Find an article."},
+          {"w": "drink", "t": "N", "q": "Find the noun for a liquid."},
+          {"w": "and", "t": "CONJ", "q": "Find the joining word."},
+          {"w": "sits", "t": "V", "q": "Find the second verb."},
+          {"w": "on", "t": "PREP", "q": "Find the preposition."},
+          {"w": "the", "t": "ART", "q": "Find the article before mat."},
+          {"w": "mat", "t": "N", "q": "Find the noun for a flat thing."}
+        ],
+        "manip": {
+          "task": "Replace the verb 'sips' with a different action.",
+          "word": "sips",
+          "examples": [
+            "Sam <span class='changed'>tips</span> a drink and sits on the mat.",
+            "Sam <span class='changed'>nips</span> a drink and sits on the mat."
+          ]
+        },
+        "vocab": {
+          "w": "sip",
+          "type": "verb",
+          "def": "To drink something slowly, taking small amounts.",
+          "simple": "Sip means to drink a tiny bit at a time!",
+          "examples": ["sip water", "sip milk", "sip from a cup"],
+          "similar": ["taste", "drink", "slurp"],
+          "antonyms": ["gulp", "guzzle", "chug"],
+          "nonex": ["It does NOT mean to pour.", "It does NOT mean to spill."],
+          "example": "I sip my milk at lunch.",
+          "starter": "I like to sip _______ ...",
+          "why": "Sip has the short 'i' sound in the middle!"
+        },
+        "ufliLesson": 6,
+        "ufliSkill": "i /ĭ/",
+        "ufliSection": "Short Vowels a, i",
+        "phonicsWords": ["sip", "sit", "tip", "tin", "pin", "it", "in", "sips", "sits"],
+        "heartWords": ["a", "and", "on", "the"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 7,
+    "sentences": [
+      {
+        "orig": "the fan is fat",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "fat", "r": "fast", "e": "The word 'fast' needs an 's' before the 't.'"},
+          {"t": "grammar", "w": "is", "r": "is", "e": "Is is correct here — nice job!"},
+          {"t": "spelling", "w": "fan", "r": "fan", "e": "Fan is spelled correctly — good work!"},
+          {"t": "punctuation", "w": "fat", "r": "fast.", "e": "A sentence must end with a period."}
+        ],
+        "fixed": "The fan is fast.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article."},
+          {"w": "fan", "t": "N", "q": "Find the noun for a thing that blows air."},
+          {"w": "is", "t": "V", "q": "Find the verb."},
+          {"w": "fast", "t": "ADJ", "q": "Find the adjective that describes the fan."}
+        ],
+        "manip": {
+          "task": "Replace the adjective 'fast' with a different describing word.",
+          "word": "fast",
+          "examples": [
+            "The fan is <span class='changed'>big</span>.",
+            "The fan is <span class='changed'>fun</span>."
+          ]
+        },
+        "vocab": {
+          "w": "fin",
+          "type": "noun",
+          "def": "A flat part on a fish that helps it swim.",
+          "simple": "A fin is the part that sticks out of a fish and helps it move in water!",
+          "examples": ["a fish fin", "a big fin", "a shark fin"],
+          "similar": ["flipper", "wing", "paddle"],
+          "antonyms": [],
+          "nonex": ["It does NOT mean a tail.", "It does NOT mean gills."],
+          "example": "The fish moved its fin to swim fast.",
+          "starter": "The fin on the fish was _______ ...",
+          "why": "Fin starts with the 'f' sound we are learning!"
+        },
+        "ufliLesson": 7,
+        "ufliSkill": "f /f/",
+        "ufliSection": "Short Vowels a, i",
+        "phonicsWords": ["fan", "fat", "fin", "fit", "fist", "fast", "if", "fig"],
+        "heartWords": ["the", "is"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "sam has a fat fis in a pan",
+        "corr": [
+          {"t": "capitalization", "w": "sam", "r": "Sam", "e": "A person's name must start with a capital letter."},
+          {"t": "spelling", "w": "fis", "r": "fish", "e": "The word 'fish' ends with 'sh,' not just 's.'"},
+          {"t": "grammar", "w": "has", "r": "has", "e": "Has is correct here — good job!"},
+          {"t": "spelling", "w": "fat", "r": "fat", "e": "Fat is spelled correctly — nice work!"},
+          {"t": "punctuation", "w": "pan", "r": "pan.", "e": "A sentence must end with a period."}
+        ],
+        "fixed": "Sam has a fat fish in a pan.",
+        "pos": [
+          {"w": "Sam", "t": "N", "q": "Find the noun — a name."},
+          {"w": "has", "t": "V", "q": "Find the verb."},
+          {"w": "a", "t": "ART", "q": "Find an article."},
+          {"w": "fat", "t": "ADJ", "q": "Find the adjective that describes the fish."},
+          {"w": "fish", "t": "N", "q": "Find the noun for an animal."},
+          {"w": "in", "t": "PREP", "q": "Find the preposition."},
+          {"w": "a", "t": "ART", "q": "Find the second article."},
+          {"w": "pan", "t": "N", "q": "Find the noun you cook with."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'fish' with a different food.",
+          "word": "fish",
+          "examples": [
+            "Sam has a fat <span class='changed'>fig</span> in a pan.",
+            "Sam has a fat <span class='changed'>yam</span> in a pan."
+          ]
+        },
+        "vocab": {
+          "w": "fast",
+          "type": "adjective",
+          "def": "Moving or able to move quickly.",
+          "simple": "Fast means something goes really quick!",
+          "examples": ["a fast car", "a fast runner", "run fast"],
+          "similar": ["quick", "speedy", "swift"],
+          "antonyms": ["slow", "sluggish", "poky"],
+          "nonex": ["It does NOT mean loud.", "It does NOT mean strong."],
+          "example": "The fast fish swam in the pan of water.",
+          "starter": "I can run fast when _______ ...",
+          "why": "Fast starts with the 'f' sound and has the short 'a' sound!"
+        },
+        "ufliLesson": 7,
+        "ufliSkill": "f /f/",
+        "ufliSection": "Short Vowels a, i",
+        "phonicsWords": ["fan", "fat", "fin", "fit", "fist", "fast", "if", "fig", "fish"],
+        "heartWords": ["has", "a", "in"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 8,
+    "sentences": [
+      {
+        "orig": "the nan has a pin",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "nan", "r": "man", "e": "The word 'man' starts with 'm,' not 'n.'"},
+          {"t": "grammar", "w": "has", "r": "has", "e": "Has is correct — good job!"},
+          {"t": "spelling", "w": "pin", "r": "pan", "e": "The word 'pan' has the short 'a' sound, not short 'i.'"},
+          {"t": "punctuation", "w": "pin", "r": "pan.", "e": "A sentence must end with a period."}
+        ],
+        "fixed": "The man has a pan.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article."},
+          {"w": "man", "t": "N", "q": "Find the noun for a person."},
+          {"w": "has", "t": "V", "q": "Find the verb."},
+          {"w": "a", "t": "ART", "q": "Find the small article."},
+          {"w": "pan", "t": "N", "q": "Find the noun you cook with."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'pan' with something else the man has.",
+          "word": "pan",
+          "examples": [
+            "The man has a <span class='changed'>pin</span>.",
+            "The man has a <span class='changed'>nap</span>."
+          ]
+        },
+        "vocab": {
+          "w": "nap",
+          "type": "noun",
+          "def": "A short sleep during the day.",
+          "simple": "A nap is a quick rest when you close your eyes and sleep a little!",
+          "examples": ["a short nap", "a long nap", "nap time"],
+          "similar": ["rest", "snooze", "doze"],
+          "antonyms": ["wake", "activity", "play"],
+          "nonex": ["It does NOT mean bedtime.", "It does NOT mean just sitting."],
+          "example": "I take a nap after lunch.",
+          "starter": "I like to nap when _______ ...",
+          "why": "Nap starts with the 'n' sound we are learning!"
+        },
+        "ufliLesson": 8,
+        "ufliSkill": "n /n/",
+        "ufliSection": "Short Vowels a, i",
+        "phonicsWords": ["nap", "nip", "pan", "pin", "nan", "tin", "tan", "fan"],
+        "heartWords": ["the", "has", "a"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "sam tins the nit and sits",
+        "corr": [
+          {"t": "capitalization", "w": "sam", "r": "Sam", "e": "A person's name must start with a capital letter."},
+          {"t": "spelling", "w": "tins", "r": "pins", "e": "The word 'pins' starts with 'p,' not 't.'"},
+          {"t": "spelling", "w": "nit", "r": "net", "e": "The word 'net' has the short 'e' sound, not short 'i.'"},
+          {"t": "grammar", "w": "and sits", "r": "and naps", "e": "Use 'naps' to practice the 'n' sound."},
+          {"t": "punctuation", "w": "sits", "r": "naps.", "e": "A sentence must end with a period."}
+        ],
+        "fixed": "Sam pins the net and naps.",
+        "pos": [
+          {"w": "Sam", "t": "N", "q": "Find the noun — a name."},
+          {"w": "pins", "t": "V", "q": "Find the first verb."},
+          {"w": "the", "t": "ART", "q": "Find the article."},
+          {"w": "net", "t": "N", "q": "Find the noun for a thing that catches."},
+          {"w": "and", "t": "CONJ", "q": "Find the joining word."},
+          {"w": "naps", "t": "V", "q": "Find the second verb."}
+        ],
+        "manip": {
+          "task": "Replace the verb 'naps' with a different action.",
+          "word": "naps",
+          "examples": [
+            "Sam pins the net and <span class='changed'>sits</span>.",
+            "Sam pins the net and <span class='changed'>taps</span>."
+          ]
+        },
+        "vocab": {
+          "w": "net",
+          "type": "noun",
+          "def": "A piece of material with holes used to catch things.",
+          "simple": "A net is like a bag with holes that catches fish or balls!",
+          "examples": ["a fish net", "a tennis net", "a butterfly net"],
+          "similar": ["trap", "mesh", "web"],
+          "antonyms": [],
+          "nonex": ["It does NOT mean a rope.", "It does NOT mean a basket."],
+          "example": "We used a net to catch the fish.",
+          "starter": "I saw a net at _______ ...",
+          "why": "Net starts with the 'n' sound and has short vowel sounds we know!"
+        },
+        "ufliLesson": 8,
+        "ufliSkill": "n /n/",
+        "ufliSection": "Short Vowels a, i",
+        "phonicsWords": ["nap", "nip", "net", "pan", "pin", "nan", "tin", "fan", "fin"],
+        "heartWords": ["the", "and"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 9,
+    "sentences": [
+      {
+        "orig": "the fatt pig sat in a pit",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "fatt", "r": "fat", "e": "Fat has only one 't' at the end."},
+          {"t": "grammar", "w": "in", "r": "in", "e": "In is correct here — well done!"},
+          {"t": "spelling", "w": "pig", "r": "pig", "e": "Pig is spelled correctly — good job!"},
+          {"t": "punctuation", "w": "pit", "r": "pit.", "e": "A sentence must end with a period."}
+        ],
+        "fixed": "The fat pig sat in a pit.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article."},
+          {"w": "fat", "t": "ADJ", "q": "Find the adjective describing the pig."},
+          {"w": "pig", "t": "N", "q": "Find the noun for an animal."},
+          {"w": "sat", "t": "V", "q": "Find the verb."},
+          {"w": "in", "t": "PREP", "q": "Find the preposition."},
+          {"w": "a", "t": "ART", "q": "Find the small article."},
+          {"w": "pit", "t": "N", "q": "Find the noun for a hole."}
+        ],
+        "manip": {
+          "task": "Replace the adjective 'fat' with a different describing word.",
+          "word": "fat",
+          "examples": [
+            "The <span class='changed'>fit</span> pig sat in a pit.",
+            "The <span class='changed'>tan</span> pig sat in a pit."
+          ]
+        },
+        "vocab": {
+          "w": "fit",
+          "type": "adjective",
+          "def": "Healthy and strong from exercise.",
+          "simple": "Fit means your body is strong and healthy!",
+          "examples": ["a fit man", "stay fit", "fit and fast"],
+          "similar": ["strong", "healthy", "active"],
+          "antonyms": ["weak", "tired", "sick"],
+          "nonex": ["It does NOT mean thin.", "It does NOT mean tall."],
+          "example": "The fit pig ran fast in the pit.",
+          "starter": "I stay fit by _______ ...",
+          "why": "Fit uses the short 'i' sound we have been reviewing!"
+        },
+        "ufliLesson": 9,
+        "ufliSkill": "Review (a, i with m, s, t, p, f, n)",
+        "ufliSection": "Short Vowels a, i",
+        "phonicsWords": ["fat", "fit", "sat", "sit", "pan", "pin", "tap", "tip", "fan", "fin"],
+        "heartWords": ["the", "a", "in"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "sam and his pam nap on the matt",
+        "corr": [
+          {"t": "capitalization", "w": "sam", "r": "Sam", "e": "A person's name must start with a capital letter."},
+          {"t": "spelling", "w": "pam", "r": "pal", "e": "The word 'pal' ends with 'l,' not 'm.'"},
+          {"t": "spelling", "w": "matt", "r": "mat", "e": "Mat has only one 't.'"},
+          {"t": "grammar", "w": "nap", "r": "nap", "e": "Nap is correct — nice job!"},
+          {"t": "punctuation", "w": "matt", "r": "mat.", "e": "A sentence must end with a period."}
+        ],
+        "fixed": "Sam and his pal nap on the mat.",
+        "pos": [
+          {"w": "Sam", "t": "N", "q": "Find the noun — a name."},
+          {"w": "and", "t": "CONJ", "q": "Find the joining word."},
+          {"w": "his", "t": "POSS", "q": "Find the word that shows belonging."},
+          {"w": "pal", "t": "N", "q": "Find the noun for a friend."},
+          {"w": "nap", "t": "V", "q": "Find the verb."},
+          {"w": "on", "t": "PREP", "q": "Find the preposition."},
+          {"w": "the", "t": "ART", "q": "Find the article."},
+          {"w": "mat", "t": "N", "q": "Find the noun for a flat thing."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'pal' with a different word for a person.",
+          "word": "pal",
+          "examples": [
+            "Sam and his <span class='changed'>dad</span> nap on the mat.",
+            "Sam and his <span class='changed'>cat</span> nap on the mat."
+          ]
+        },
+        "vocab": {
+          "w": "pal",
+          "type": "noun",
+          "def": "A close friend.",
+          "simple": "A pal is someone you like to play with — a buddy!",
+          "examples": ["my best pal", "a fun pal", "pals at school"],
+          "similar": ["friend", "buddy", "mate"],
+          "antonyms": ["enemy", "stranger", "foe"],
+          "nonex": ["It does NOT mean a brother or sister.", "It does NOT mean a teacher."],
+          "example": "Sam and his pal sat on the mat.",
+          "starter": "My pal and I like to _______ ...",
+          "why": "Pal has the short 'a' sound and the 'p' sound we have practiced!"
+        },
+        "ufliLesson": 9,
+        "ufliSkill": "Review (a, i with m, s, t, p, f, n)",
+        "ufliSection": "Short Vowels a, i",
+        "phonicsWords": ["pal", "nap", "mat", "sat", "pan", "tap", "sip", "fin"],
+        "heartWords": ["and", "his", "on", "the"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 10,
+    "sentences": [
+      {
+        "orig": "the man taps a tinn pan",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "tinn", "r": "tin", "e": "Tin has only one 'n.'"},
+          {"t": "grammar", "w": "taps a", "r": "taps a", "e": "This is correct — good work!"},
+          {"t": "spelling", "w": "pan", "r": "pan", "e": "Pan is spelled correctly — nice job!"},
+          {"t": "punctuation", "w": "pan", "r": "pan.", "e": "A sentence must end with a period."}
+        ],
+        "fixed": "The man taps a tin pan.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article."},
+          {"w": "man", "t": "N", "q": "Find the noun for a person."},
+          {"w": "taps", "t": "V", "q": "Find the verb."},
+          {"w": "a", "t": "ART", "q": "Find the small article."},
+          {"w": "tin", "t": "ADJ", "q": "Find the adjective describing the pan."},
+          {"w": "pan", "t": "N", "q": "Find the noun you cook with."}
+        ],
+        "manip": {
+          "task": "Replace the adjective 'tin' with a different describing word.",
+          "word": "tin",
+          "examples": [
+            "The man taps a <span class='changed'>big</span> pan.",
+            "The man taps a <span class='changed'>flat</span> pan."
+          ]
+        },
+        "vocab": {
+          "w": "tin",
+          "type": "noun",
+          "def": "A light, shiny metal used to make cans and pans.",
+          "simple": "Tin is a shiny metal — like what some cans are made of!",
+          "examples": ["a tin can", "a tin pan", "a tin box"],
+          "similar": ["metal", "aluminum", "steel"],
+          "antonyms": ["wood", "plastic", "glass"],
+          "nonex": ["It does NOT mean silver.", "It does NOT mean foil."],
+          "example": "The man has a tin pan in his hand.",
+          "starter": "I found a tin _______ ...",
+          "why": "Tin has the short 'i' sound and the 'n' sound we learned!"
+        },
+        "ufliLesson": 10,
+        "ufliSkill": "Review/Assessment",
+        "ufliSection": "Short Vowels a, i",
+        "phonicsWords": ["tin", "tan", "pan", "pin", "man", "mat", "sit", "sip", "tap", "nap"],
+        "heartWords": ["the", "a"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "sam and his pal sit on a matt and sip",
+        "corr": [
+          {"t": "capitalization", "w": "sam", "r": "Sam", "e": "A person's name must start with a capital letter."},
+          {"t": "spelling", "w": "matt", "r": "mat", "e": "Mat has only one 't.'"},
+          {"t": "grammar", "w": "sit", "r": "sit", "e": "Sit is the correct verb here — nice job!"},
+          {"t": "spelling", "w": "sip", "r": "sip", "e": "Sip is spelled correctly — good work!"},
+          {"t": "punctuation", "w": "sip", "r": "sip.", "e": "A sentence must end with a period."}
+        ],
+        "fixed": "Sam and his pal sit on a mat and sip.",
+        "pos": [
+          {"w": "Sam", "t": "N", "q": "Find the noun — a name."},
+          {"w": "and", "t": "CONJ", "q": "Find the first joining word."},
+          {"w": "his", "t": "POSS", "q": "Find the word that shows belonging."},
+          {"w": "pal", "t": "N", "q": "Find the noun for a friend."},
+          {"w": "sit", "t": "V", "q": "Find the first verb."},
+          {"w": "on", "t": "PREP", "q": "Find the preposition."},
+          {"w": "a", "t": "ART", "q": "Find the article."},
+          {"w": "mat", "t": "N", "q": "Find the noun for a flat thing."},
+          {"w": "and", "t": "CONJ", "q": "Find the second joining word."},
+          {"w": "sip", "t": "V", "q": "Find the second verb."}
+        ],
+        "manip": {
+          "task": "Replace the verb 'sip' with a different action.",
+          "word": "sip",
+          "examples": [
+            "Sam and his pal sit on a mat and <span class='changed'>nap</span>.",
+            "Sam and his pal sit on a mat and <span class='changed'>tap</span>."
+          ]
+        },
+        "vocab": {
+          "w": "sip",
+          "type": "verb",
+          "def": "To drink something slowly, taking small amounts.",
+          "simple": "Sip means to drink just a tiny bit at a time!",
+          "examples": ["sip water", "sip milk", "take a sip"],
+          "similar": ["taste", "drink", "sample"],
+          "antonyms": ["gulp", "guzzle", "chug"],
+          "nonex": ["It does NOT mean to pour.", "It does NOT mean to spill."],
+          "example": "Sam and his pal sip from a cup.",
+          "starter": "I like to sip _______ when ...",
+          "why": "Sip reviews the short 'i' sound and the sounds we have learned!"
+        },
+        "ufliLesson": 10,
+        "ufliSkill": "Review/Assessment",
+        "ufliSection": "Short Vowels a, i",
+        "phonicsWords": ["sip", "sit", "mat", "pal", "nap", "tap", "pan", "pin", "fan", "fin"],
+        "heartWords": ["and", "his", "on", "a"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 11,
+    "sentences": [
+      {
+        "orig": "the dot is on the top",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "dot", "r": "dot", "e": "Dot is spelled correctly — good job!"},
+          {"t": "grammar", "w": "is", "r": "is", "e": "Is is the correct verb — nice work!"},
+          {"t": "spelling", "w": "top", "r": "pot", "e": "The word 'pot' has the letters in a different order than 'top.'"},
+          {"t": "punctuation", "w": "top", "r": "pot.", "e": "A sentence must end with a period."}
+        ],
+        "fixed": "The dot is on the pot.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the start."},
+          {"w": "dot", "t": "N", "q": "Find the noun for a small spot."},
+          {"w": "is", "t": "V", "q": "Find the verb."},
+          {"w": "on", "t": "PREP", "q": "Find the preposition."},
+          {"w": "the", "t": "ART", "q": "Find the second article."},
+          {"w": "pot", "t": "N", "q": "Find the noun you cook with."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'pot' with something else the dot is on.",
+          "word": "pot",
+          "examples": [
+            "The dot is on the <span class='changed'>top</span>.",
+            "The dot is on the <span class='changed'>mat</span>."
+          ]
+        },
+        "vocab": {
+          "w": "dot",
+          "type": "noun",
+          "def": "A small round mark or spot.",
+          "simple": "A dot is a tiny circle you make with a pen!",
+          "examples": ["a red dot", "a small dot", "dots on a page"],
+          "similar": ["spot", "point", "speck"],
+          "antonyms": ["line", "stripe", "dash"],
+          "nonex": ["It does NOT mean a big circle.", "It does NOT mean a star."],
+          "example": "I put a dot on the top of the pot.",
+          "starter": "I drew a dot on _______ ...",
+          "why": "Dot has the short 'o' sound we are learning!"
+        },
+        "ufliLesson": 11,
+        "ufliSkill": "o /ŏ/",
+        "ufliSection": "Short Vowels o, u, e",
+        "phonicsWords": ["on", "pot", "dot", "top", "pop", "mop", "not", "stop"],
+        "heartWords": ["the", "is"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "sam has a pot and a mop on the mat",
+        "corr": [
+          {"t": "capitalization", "w": "sam", "r": "Sam", "e": "A person's name must start with a capital letter."},
+          {"t": "spelling", "w": "mop", "r": "mop", "e": "Mop is spelled correctly — great!"},
+          {"t": "grammar", "w": "has", "r": "has", "e": "Has is correct — good job!"},
+          {"t": "spelling", "w": "pot", "r": "pot", "e": "Pot is spelled correctly — nice work!"},
+          {"t": "punctuation", "w": "mat", "r": "mat.", "e": "A sentence must end with a period."}
+        ],
+        "fixed": "Sam has a pot and a mop on the mat.",
+        "pos": [
+          {"w": "Sam", "t": "N", "q": "Find the noun — a name."},
+          {"w": "has", "t": "V", "q": "Find the verb."},
+          {"w": "a", "t": "ART", "q": "Find the first article."},
+          {"w": "pot", "t": "N", "q": "Find the noun you cook with."},
+          {"w": "and", "t": "CONJ", "q": "Find the joining word."},
+          {"w": "a", "t": "ART", "q": "Find the second article."},
+          {"w": "mop", "t": "N", "q": "Find the noun for cleaning."},
+          {"w": "on", "t": "PREP", "q": "Find the preposition."},
+          {"w": "the", "t": "ART", "q": "Find the article before mat."},
+          {"w": "mat", "t": "N", "q": "Find the noun for a flat thing."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'mop' with something else.",
+          "word": "mop",
+          "examples": [
+            "Sam has a pot and a <span class='changed'>top</span> on the mat.",
+            "Sam has a pot and a <span class='changed'>map</span> on the mat."
+          ]
+        },
+        "vocab": {
+          "w": "mop",
+          "type": "noun",
+          "def": "A tool with a long handle used to clean floors.",
+          "simple": "A mop is what you use to wash the floor!",
+          "examples": ["a wet mop", "mop the floor", "a big mop"],
+          "similar": ["broom", "sponge", "rag"],
+          "antonyms": [],
+          "nonex": ["It does NOT mean a broom.", "It does NOT mean a towel."],
+          "example": "Sam used a mop on the mat.",
+          "starter": "I can mop the _______ ...",
+          "why": "Mop has the short 'o' sound and ends with the 'p' sound!"
+        },
+        "ufliLesson": 11,
+        "ufliSkill": "o /ŏ/",
+        "ufliSection": "Short Vowels o, u, e",
+        "phonicsWords": ["pot", "mop", "top", "dot", "pop", "not", "on", "stop"],
+        "heartWords": ["has", "a", "and", "the"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 12,
+    "sentences": [
+      {
+        "orig": "the dag sat on the mat",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "dag", "r": "dog", "e": "Dog has the short 'o' sound in the middle, not short 'a.'"},
+          {"t": "grammar", "w": "sat", "r": "sat", "e": "Sat is correct — good job!"},
+          {"t": "spelling", "w": "mat", "r": "mat", "e": "Mat is spelled correctly — nice!"},
+          {"t": "punctuation", "w": "mat", "r": "mat.", "e": "A sentence must end with a period."}
+        ],
+        "fixed": "The dog sat on the mat.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article."},
+          {"w": "dog", "t": "N", "q": "Find the noun for an animal."},
+          {"w": "sat", "t": "V", "q": "Find the verb."},
+          {"w": "on", "t": "PREP", "q": "Find the preposition."},
+          {"w": "the", "t": "ART", "q": "Find the second article."},
+          {"w": "mat", "t": "N", "q": "Find the noun for a flat thing."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'dog' with a different animal.",
+          "word": "dog",
+          "examples": [
+            "The <span class='changed'>frog</span> sat on the mat.",
+            "The <span class='changed'>pig</span> sat on the mat."
+          ]
+        },
+        "vocab": {
+          "w": "dig",
+          "type": "verb",
+          "def": "To make a hole by moving dirt or sand.",
+          "simple": "Dig means to scoop dirt out of the ground!",
+          "examples": ["dig a hole", "dig in the sand", "dig with a spoon"],
+          "similar": ["scoop", "shovel", "burrow"],
+          "antonyms": ["fill", "cover", "bury"],
+          "nonex": ["It does NOT mean to pile up.", "It does NOT mean to push."],
+          "example": "The dog likes to dig in the sand.",
+          "starter": "I like to dig in _______ ...",
+          "why": "Dig starts with the 'd' sound we are learning!"
+        },
+        "ufliLesson": 12,
+        "ufliSkill": "d /d/",
+        "ufliSection": "Short Vowels o, u, e",
+        "phonicsWords": ["dog", "dig", "dot", "dad", "did", "dip", "dim", "pod", "nod"],
+        "heartWords": ["the", "on"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "the dad and the dog dig in the dim sand",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "dim", "r": "damp", "e": "The word is 'damp,' meaning a little wet."},
+          {"t": "grammar", "w": "dig", "r": "dig", "e": "Dig is correct — nice work!"},
+          {"t": "spelling", "w": "sand", "r": "sand", "e": "Sand is spelled correctly — good job!"},
+          {"t": "punctuation", "w": "sand", "r": "sand.", "e": "A sentence must end with a period."}
+        ],
+        "fixed": "The dad and the dog dig in the damp sand.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the first article."},
+          {"w": "dad", "t": "N", "q": "Find the noun for a parent."},
+          {"w": "and", "t": "CONJ", "q": "Find the joining word."},
+          {"w": "the", "t": "ART", "q": "Find the second article."},
+          {"w": "dog", "t": "N", "q": "Find the noun for an animal."},
+          {"w": "dig", "t": "V", "q": "Find the verb."},
+          {"w": "in", "t": "PREP", "q": "Find the preposition."},
+          {"w": "the", "t": "ART", "q": "Find the third article."},
+          {"w": "damp", "t": "ADJ", "q": "Find the adjective describing the sand."},
+          {"w": "sand", "t": "N", "q": "Find the noun for a material."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'dog' with a different companion.",
+          "word": "dog",
+          "examples": [
+            "The dad and the <span class='changed'>pig</span> dig in the damp sand.",
+            "The dad and the <span class='changed'>kid</span> dig in the damp sand."
+          ]
+        },
+        "vocab": {
+          "w": "damp",
+          "type": "adjective",
+          "def": "A little bit wet; not dry but not soaking.",
+          "simple": "Damp means something feels a little wet!",
+          "examples": ["damp sand", "a damp cloth", "damp grass"],
+          "similar": ["moist", "wet", "dewy"],
+          "antonyms": ["dry", "parched", "crisp"],
+          "nonex": ["It does NOT mean dripping wet.", "It does NOT mean muddy."],
+          "example": "The sand was damp after the rain.",
+          "starter": "The ground feels damp when _______ ...",
+          "why": "Damp starts with the 'd' sound and has the short 'a' sound!"
+        },
+        "ufliLesson": 12,
+        "ufliSkill": "d /d/",
+        "ufliSection": "Short Vowels o, u, e",
+        "phonicsWords": ["dad", "dog", "dig", "dip", "did", "damp", "dim", "dot", "nod", "pod"],
+        "heartWords": ["the", "and", "in"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 13,
+    "sentences": [
+      {
+        "orig": "he has a hot hat on his hed",
+        "corr": [
+          {"t": "capitalization", "w": "he", "r": "He", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "hed", "r": "head", "e": "Head is spelled with 'ea,' not just 'e.'"},
+          {"t": "grammar", "w": "has", "r": "has", "e": "Has is correct — good job!"},
+          {"t": "spelling", "w": "hot", "r": "hot", "e": "Hot is spelled correctly — nice!"},
+          {"t": "punctuation", "w": "hed", "r": "head.", "e": "A sentence must end with a period."}
+        ],
+        "fixed": "He has a hot hat on his head.",
+        "pos": [
+          {"w": "He", "t": "PRO", "q": "Find the pronoun."},
+          {"w": "has", "t": "V", "q": "Find the verb."},
+          {"w": "a", "t": "ART", "q": "Find the article."},
+          {"w": "hot", "t": "ADJ", "q": "Find the adjective."},
+          {"w": "hat", "t": "N", "q": "Find the noun you wear."},
+          {"w": "on", "t": "PREP", "q": "Find the preposition."},
+          {"w": "his", "t": "POSS", "q": "Find the possessive word."},
+          {"w": "head", "t": "N", "q": "Find the noun — a body part."}
+        ],
+        "manip": {
+          "task": "Replace the adjective 'hot' with a different describing word.",
+          "word": "hot",
+          "examples": [
+            "He has a <span class='changed'>big</span> hat on his head.",
+            "He has a <span class='changed'>tan</span> hat on his head."
+          ]
+        },
+        "vocab": {
+          "w": "hop",
+          "type": "verb",
+          "def": "To jump up on one foot or with both feet together.",
+          "simple": "Hop means to jump up like a bunny!",
+          "examples": ["hop on one foot", "hop fast", "hop to the door"],
+          "similar": ["jump", "skip", "bounce"],
+          "antonyms": ["stand", "sit", "stop"],
+          "nonex": ["It does NOT mean to run.", "It does NOT mean to fall."],
+          "example": "He likes to hop on the hot sand.",
+          "starter": "I like to hop when _______ ...",
+          "why": "Hop starts with the 'h' sound we are learning!"
+        },
+        "ufliLesson": 13,
+        "ufliSkill": "h /h/",
+        "ufliSection": "Short Vowels o, u, e",
+        "phonicsWords": ["hat", "hot", "hop", "hit", "him", "his", "hid", "had"],
+        "heartWords": ["he", "has", "a", "on"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "she hid the hat in a hot spot",
+        "corr": [
+          {"t": "capitalization", "w": "she", "r": "She", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "hid", "r": "hid", "e": "Hid is spelled correctly — good job!"},
+          {"t": "grammar", "w": "in a", "r": "in a", "e": "This is correct — nice!"},
+          {"t": "spelling", "w": "spot", "r": "spot", "e": "Spot is spelled correctly — well done!"},
+          {"t": "punctuation", "w": "spot", "r": "spot.", "e": "A sentence must end with a period."}
+        ],
+        "fixed": "She hid the hat in a hot spot.",
+        "pos": [
+          {"w": "She", "t": "PRO", "q": "Find the pronoun."},
+          {"w": "hid", "t": "V", "q": "Find the verb that means 'put out of sight.'"},
+          {"w": "the", "t": "ART", "q": "Find the article."},
+          {"w": "hat", "t": "N", "q": "Find the noun you wear."},
+          {"w": "in", "t": "PREP", "q": "Find the preposition."},
+          {"w": "a", "t": "ART", "q": "Find the small article."},
+          {"w": "hot", "t": "ADJ", "q": "Find the adjective."},
+          {"w": "spot", "t": "N", "q": "Find the noun for a place."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'hat' with something else she hid.",
+          "word": "hat",
+          "examples": [
+            "She hid the <span class='changed'>map</span> in a hot spot.",
+            "She hid the <span class='changed'>pot</span> in a hot spot."
+          ]
+        },
+        "vocab": {
+          "w": "hid",
+          "type": "verb",
+          "def": "Put something where no one can find it.",
+          "simple": "Hid means you put something in a secret place!",
+          "examples": ["hid the toy", "hid from friends", "hid a gift"],
+          "similar": ["hid", "tucked", "stashed"],
+          "antonyms": ["found", "showed", "revealed"],
+          "nonex": ["It does NOT mean lost.", "It does NOT mean forgot."],
+          "example": "She hid the hat in a box.",
+          "starter": "I hid my _______ behind ...",
+          "why": "Hid starts with the 'h' sound and has the short 'i' sound!"
+        },
+        "ufliLesson": 13,
+        "ufliSkill": "h /h/",
+        "ufliSection": "Short Vowels o, u, e",
+        "phonicsWords": ["hat", "hot", "hop", "hit", "him", "his", "hid", "had"],
+        "heartWords": ["she", "the", "in", "a"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 14,
+    "sentences": [
+      {
+        "orig": "the pup is in the tob",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "tob", "r": "tub", "e": "Tub has the short 'u' sound, spelled with a 'u.'"},
+          {"t": "grammar", "w": "is", "r": "is", "e": "Is is the correct verb — nice work!"},
+          {"t": "spelling", "w": "pup", "r": "pup", "e": "Pup is spelled correctly — great!"},
+          {"t": "punctuation", "w": "tob", "r": "tub.", "e": "A sentence must end with a period."}
+        ],
+        "fixed": "The pup is in the tub.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the start."},
+          {"w": "pup", "t": "N", "q": "Find the noun for a baby dog."},
+          {"w": "is", "t": "V", "q": "Find the verb."},
+          {"w": "in", "t": "PREP", "q": "Find the preposition."},
+          {"w": "the", "t": "ART", "q": "Find the second article."},
+          {"w": "tub", "t": "N", "q": "Find the noun for a bath container."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'pup' with a different animal.",
+          "word": "pup",
+          "examples": [
+            "The <span class='changed'>bug</span> is in the tub.",
+            "The <span class='changed'>duck</span> is in the tub."
+          ]
+        },
+        "vocab": {
+          "w": "tub",
+          "type": "noun",
+          "def": "A large, round container used for holding water.",
+          "simple": "A tub is where you take a bath!",
+          "examples": ["a bath tub", "a big tub", "a tub of water"],
+          "similar": ["bath", "basin", "bucket"],
+          "antonyms": [],
+          "nonex": ["It does NOT mean a pool.", "It does NOT mean a sink."],
+          "example": "The pup splashed in the tub.",
+          "starter": "I like to play in the tub with _______ ...",
+          "why": "Tub has the short 'u' sound we are learning!"
+        },
+        "ufliLesson": 14,
+        "ufliSkill": "u /ŭ/",
+        "ufliSection": "Short Vowels o, u, e",
+        "phonicsWords": ["up", "us", "but", "tub", "pup", "mug", "fun", "sun", "run"],
+        "heartWords": ["the", "is", "in"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "the pup had fun in the mud and the sun",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "fun", "r": "fun", "e": "Fun is spelled correctly — nice job!"},
+          {"t": "grammar", "w": "had", "r": "had", "e": "Had is correct — good work!"},
+          {"t": "spelling", "w": "mud", "r": "mud", "e": "Mud is spelled correctly — great!"},
+          {"t": "punctuation", "w": "sun", "r": "sun.", "e": "A sentence must end with a period."}
+        ],
+        "fixed": "The pup had fun in the mud and the sun.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the first article."},
+          {"w": "pup", "t": "N", "q": "Find the noun for a baby dog."},
+          {"w": "had", "t": "V", "q": "Find the verb."},
+          {"w": "fun", "t": "N", "q": "Find the noun that means a good time."},
+          {"w": "in", "t": "PREP", "q": "Find the preposition."},
+          {"w": "the", "t": "ART", "q": "Find the second article."},
+          {"w": "mud", "t": "N", "q": "Find the noun for wet dirt."},
+          {"w": "and", "t": "CONJ", "q": "Find the joining word."},
+          {"w": "the", "t": "ART", "q": "Find the third article."},
+          {"w": "sun", "t": "N", "q": "Find the noun in the sky."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'mud' with something else the pup played in.",
+          "word": "mud",
+          "examples": [
+            "The pup had fun in the <span class='changed'>sand</span> and the sun.",
+            "The pup had fun in the <span class='changed'>tub</span> and the sun."
+          ]
+        },
+        "vocab": {
+          "w": "mud",
+          "type": "noun",
+          "def": "Wet, soft earth or dirt.",
+          "simple": "Mud is what you get when dirt and water mix!",
+          "examples": ["mud on shoes", "a mud puddle", "play in mud"],
+          "similar": ["dirt", "muck", "soil"],
+          "antonyms": ["dust", "sand", "stone"],
+          "nonex": ["It does NOT mean just water.", "It does NOT mean clay."],
+          "example": "The pup ran through the mud.",
+          "starter": "I saw mud near _______ ...",
+          "why": "Mud has the short 'u' sound and starts with the 'm' sound!"
+        },
+        "ufliLesson": 14,
+        "ufliSkill": "u /ŭ/",
+        "ufliSection": "Short Vowels o, u, e",
+        "phonicsWords": ["up", "us", "but", "tub", "pup", "mug", "fun", "sun", "run", "mud"],
+        "heartWords": ["the", "had", "in", "and"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 15,
+    "sentences": [
+      {
+        "orig": "the gum is on the rog",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "rog", "r": "rug", "e": "Rug has the short 'u' sound in the middle, not 'o.'"},
+          {"t": "grammar", "w": "is", "r": "is", "e": "Is is correct — nice!"},
+          {"t": "spelling", "w": "gum", "r": "gum", "e": "Gum is spelled correctly — good job!"},
+          {"t": "punctuation", "w": "rog", "r": "rug.", "e": "A sentence must end with a period."}
+        ],
+        "fixed": "The gum is on the rug.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the start."},
+          {"w": "gum", "t": "N", "q": "Find the noun you chew."},
+          {"w": "is", "t": "V", "q": "Find the verb."},
+          {"w": "on", "t": "PREP", "q": "Find the preposition."},
+          {"w": "the", "t": "ART", "q": "Find the second article."},
+          {"w": "rug", "t": "N", "q": "Find the noun for a floor covering."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'gum' with something else on the rug.",
+          "word": "gum",
+          "examples": [
+            "The <span class='changed'>mug</span> is on the rug.",
+            "The <span class='changed'>bug</span> is on the rug."
+          ]
+        },
+        "vocab": {
+          "w": "gust",
+          "type": "noun",
+          "def": "A sudden, strong rush of wind.",
+          "simple": "A gust is when the wind blows really hard all of a sudden!",
+          "examples": ["a gust of wind", "a big gust", "a cold gust"],
+          "similar": ["blast", "breeze", "puff"],
+          "antonyms": ["calm", "stillness"],
+          "nonex": ["It does NOT mean a storm.", "It does NOT mean rain."],
+          "example": "A gust of wind blew the hat off the rug.",
+          "starter": "A gust of wind made _______ ...",
+          "why": "Gust starts with the 'g' sound we are learning!"
+        },
+        "ufliLesson": 15,
+        "ufliSkill": "g /g/",
+        "ufliSection": "Short Vowels o, u, e",
+        "phonicsWords": ["gum", "gas", "got", "gust", "gap", "gut", "fig", "dog", "dig"],
+        "heartWords": ["the", "is", "on"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "the dog got a big mug of milk",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "mug", "r": "mug", "e": "Mug is spelled correctly — great!"},
+          {"t": "grammar", "w": "got", "r": "got", "e": "Got is correct — nice work!"},
+          {"t": "spelling", "w": "milk", "r": "milk", "e": "Milk is spelled correctly — well done!"},
+          {"t": "punctuation", "w": "milk", "r": "milk.", "e": "A sentence must end with a period."}
+        ],
+        "fixed": "The dog got a big mug of milk.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article."},
+          {"w": "dog", "t": "N", "q": "Find the noun for an animal."},
+          {"w": "got", "t": "V", "q": "Find the verb."},
+          {"w": "a", "t": "ART", "q": "Find the small article."},
+          {"w": "big", "t": "ADJ", "q": "Find the adjective."},
+          {"w": "mug", "t": "N", "q": "Find the noun for a cup."},
+          {"w": "of", "t": "PREP", "q": "Find the preposition."},
+          {"w": "milk", "t": "N", "q": "Find the noun for a drink."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'dog' with a different animal.",
+          "word": "dog",
+          "examples": [
+            "The <span class='changed'>pig</span> got a big mug of milk.",
+            "The <span class='changed'>bug</span> got a big mug of milk."
+          ]
+        },
+        "vocab": {
+          "w": "gap",
+          "type": "noun",
+          "def": "An opening or space between two things.",
+          "simple": "A gap is a hole or space between things!",
+          "examples": ["a gap in the fence", "a gap in teeth", "a big gap"],
+          "similar": ["hole", "space", "opening"],
+          "antonyms": ["block", "wall", "seal"],
+          "nonex": ["It does NOT mean a door.", "It does NOT mean a crack."],
+          "example": "The dog ran through the gap in the fence.",
+          "starter": "I saw a gap between _______ ...",
+          "why": "Gap starts with the 'g' sound and has the short 'a' sound!"
+        },
+        "ufliLesson": 15,
+        "ufliSkill": "g /g/",
+        "ufliSection": "Short Vowels o, u, e",
+        "phonicsWords": ["got", "gas", "gum", "gust", "gap", "gut", "fig", "dog", "dig", "big"],
+        "heartWords": ["the", "a", "of"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 16,
+    "sentences": [
+      {
+        "orig": "the red hin is in the pen",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "hin", "r": "hen", "e": "Hen has the short 'e' sound in the middle."},
+          {"t": "grammar", "w": "is", "r": "is", "e": "Is is correct — good job!"},
+          {"t": "spelling", "w": "pen", "r": "pen", "e": "Pen is spelled correctly — nice work!"},
+          {"t": "punctuation", "w": "pen", "r": "pen.", "e": "A sentence must end with a period."}
+        ],
+        "fixed": "The red hen is in the pen.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the start."},
+          {"w": "red", "t": "ADJ", "q": "Find the adjective for a color."},
+          {"w": "hen", "t": "N", "q": "Find the noun for a bird."},
+          {"w": "is", "t": "V", "q": "Find the verb."},
+          {"w": "in", "t": "PREP", "q": "Find the preposition."},
+          {"w": "the", "t": "ART", "q": "Find the second article."},
+          {"w": "pen", "t": "N", "q": "Find the noun for an enclosed space."}
+        ],
+        "manip": {
+          "task": "Replace the adjective 'red' with a different color.",
+          "word": "red",
+          "examples": [
+            "The <span class='changed'>tan</span> hen is in the pen.",
+            "The <span class='changed'>big</span> hen is in the pen."
+          ]
+        },
+        "vocab": {
+          "w": "hen",
+          "type": "noun",
+          "def": "A female chicken.",
+          "simple": "A hen is a girl chicken that lays eggs!",
+          "examples": ["a red hen", "the hen pecked", "a fat hen"],
+          "similar": ["chicken", "bird", "fowl"],
+          "antonyms": ["rooster"],
+          "nonex": ["It does NOT mean all birds.", "It does NOT mean a duck."],
+          "example": "The red hen sat on her eggs in the pen.",
+          "starter": "The hen on the farm _______ ...",
+          "why": "Hen has the short 'e' sound we are learning!"
+        },
+        "ufliLesson": 16,
+        "ufliSkill": "e /ĕ/",
+        "ufliSection": "Short Vowels o, u, e",
+        "phonicsWords": ["hen", "pen", "pet", "ten", "get", "set", "net", "red", "bed", "fed"],
+        "heartWords": ["the", "is", "in"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "she fed the pet hen ten bits of food",
+        "corr": [
+          {"t": "capitalization", "w": "she", "r": "She", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "bits", "r": "bits", "e": "Bits is spelled correctly — great!"},
+          {"t": "grammar", "w": "fed", "r": "fed", "e": "Fed is the correct past tense — nice!"},
+          {"t": "spelling", "w": "food", "r": "food", "e": "Food is spelled correctly — good job!"},
+          {"t": "punctuation", "w": "food", "r": "food.", "e": "A sentence must end with a period."}
+        ],
+        "fixed": "She fed the pet hen ten bits of food.",
+        "pos": [
+          {"w": "She", "t": "PRO", "q": "Find the pronoun."},
+          {"w": "fed", "t": "V", "q": "Find the verb that means 'gave food to.'"},
+          {"w": "the", "t": "ART", "q": "Find the article."},
+          {"w": "pet", "t": "ADJ", "q": "Find the adjective describing the hen."},
+          {"w": "hen", "t": "N", "q": "Find the noun for a bird."},
+          {"w": "ten", "t": "ADJ", "q": "Find the number word."},
+          {"w": "bits", "t": "N", "q": "Find the noun for small pieces."},
+          {"w": "of", "t": "PREP", "q": "Find the preposition."},
+          {"w": "food", "t": "N", "q": "Find the noun for something to eat."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'hen' with a different pet.",
+          "word": "hen",
+          "examples": [
+            "She fed the pet <span class='changed'>dog</span> ten bits of food.",
+            "She fed the pet <span class='changed'>pig</span> ten bits of food."
+          ]
+        },
+        "vocab": {
+          "w": "pet",
+          "type": "noun",
+          "def": "An animal kept at home for company and fun.",
+          "simple": "A pet is an animal you take care of and love!",
+          "examples": ["a pet dog", "a pet cat", "a pet fish"],
+          "similar": ["companion", "animal", "friend"],
+          "antonyms": ["wild animal"],
+          "nonex": ["It does NOT mean a toy.", "It does NOT mean any animal."],
+          "example": "She has a pet hen at home.",
+          "starter": "My pet likes to _______ ...",
+          "why": "Pet has the short 'e' sound and starts with 'p'!"
+        },
+        "ufliLesson": 16,
+        "ufliSkill": "e /ĕ/",
+        "ufliSection": "Short Vowels o, u, e",
+        "phonicsWords": ["hen", "pen", "pet", "ten", "get", "set", "net", "red", "bed", "fed"],
+        "heartWords": ["she", "the", "of"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 17,
+    "sentences": [
+      {
+        "orig": "the lad has a lott of fun",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "lott", "r": "lot", "e": "Lot has only one 't.'"},
+          {"t": "grammar", "w": "has", "r": "has", "e": "Has is correct — great!"},
+          {"t": "spelling", "w": "lad", "r": "lad", "e": "Lad is spelled correctly — good job!"},
+          {"t": "punctuation", "w": "fun", "r": "fun.", "e": "A sentence must end with a period."}
+        ],
+        "fixed": "The lad has a lot of fun.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article."},
+          {"w": "lad", "t": "N", "q": "Find the noun for a boy."},
+          {"w": "has", "t": "V", "q": "Find the verb."},
+          {"w": "a", "t": "ART", "q": "Find the small article."},
+          {"w": "lot", "t": "N", "q": "Find the noun that means 'a big amount.'"},
+          {"w": "of", "t": "PREP", "q": "Find the preposition."},
+          {"w": "fun", "t": "N", "q": "Find the noun for a good time."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'fun' with something else the lad has a lot of.",
+          "word": "fun",
+          "examples": [
+            "The lad has a lot of <span class='changed'>gum</span>.",
+            "The lad has a lot of <span class='changed'>mud</span>."
+          ]
+        },
+        "vocab": {
+          "w": "lid",
+          "type": "noun",
+          "def": "A cover for a pot, box, or container.",
+          "simple": "A lid is the top part that covers something!",
+          "examples": ["pot lid", "a lid on a box", "a tight lid"],
+          "similar": ["cover", "top", "cap"],
+          "antonyms": [],
+          "nonex": ["It does NOT mean a handle.", "It does NOT mean a bottom."],
+          "example": "The lad put the lid on the pot.",
+          "starter": "I put the lid on _______ ...",
+          "why": "Lid starts with the 'l' sound we are learning!"
+        },
+        "ufliLesson": 17,
+        "ufliSkill": "l /l/",
+        "ufliSection": "Short Vowels o, u, e",
+        "phonicsWords": ["lad", "lap", "lid", "lip", "lot", "log", "let", "leg"],
+        "heartWords": ["the", "has", "a", "of"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "the dog laps up the milk and lifs his leg",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "lifs", "r": "lifts", "e": "Lifts needs a 't' before the 's.'"},
+          {"t": "grammar", "w": "laps", "r": "laps", "e": "Laps is correct — nice!"},
+          {"t": "spelling", "w": "leg", "r": "leg", "e": "Leg is spelled correctly — good job!"},
+          {"t": "punctuation", "w": "leg", "r": "leg.", "e": "A sentence must end with a period."}
+        ],
+        "fixed": "The dog laps up the milk and lifts his leg.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article."},
+          {"w": "dog", "t": "N", "q": "Find the noun for an animal."},
+          {"w": "laps", "t": "V", "q": "Find the first verb."},
+          {"w": "up", "t": "ADV", "q": "Find the adverb."},
+          {"w": "the", "t": "ART", "q": "Find the second article."},
+          {"w": "milk", "t": "N", "q": "Find the noun for a drink."},
+          {"w": "and", "t": "CONJ", "q": "Find the joining word."},
+          {"w": "lifts", "t": "V", "q": "Find the second verb."},
+          {"w": "his", "t": "POSS", "q": "Find the possessive word."},
+          {"w": "leg", "t": "N", "q": "Find the noun — a body part."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'leg' with a different body part.",
+          "word": "leg",
+          "examples": [
+            "The dog laps up the milk and lifts his <span class='changed'>lip</span>.",
+            "The dog laps up the milk and lifts his <span class='changed'>head</span>."
+          ]
+        },
+        "vocab": {
+          "w": "lap",
+          "type": "noun",
+          "def": "The flat area on top of your legs when you sit down.",
+          "simple": "Your lap is the top of your legs when you sit — where a cat might sit!",
+          "examples": ["sit on my lap", "a book on my lap", "the cat is in my lap"],
+          "similar": ["legs", "knees", "seat"],
+          "antonyms": [],
+          "nonex": ["It does NOT mean your legs when standing.", "It does NOT mean your arms."],
+          "example": "The dog sat on his lap.",
+          "starter": "I put _______ on my lap ...",
+          "why": "Lap starts with the 'l' sound and has the short 'a' sound!"
+        },
+        "ufliLesson": 17,
+        "ufliSkill": "l /l/",
+        "ufliSection": "Short Vowels o, u, e",
+        "phonicsWords": ["lad", "lap", "lid", "lip", "lot", "log", "let", "leg", "laps", "lifts"],
+        "heartWords": ["the", "up", "and", "his"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 18,
+    "sentences": [
+      {
+        "orig": "the big bud is on the bed",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "bud", "r": "bug", "e": "Bug ends with 'g,' not 'd.'"},
+          {"t": "grammar", "w": "is", "r": "is", "e": "Is is correct — nice!"},
+          {"t": "spelling", "w": "bed", "r": "bed", "e": "Bed is spelled correctly — great!"},
+          {"t": "punctuation", "w": "bed", "r": "bed.", "e": "A sentence must end with a period."}
+        ],
+        "fixed": "The big bug is on the bed.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article."},
+          {"w": "big", "t": "ADJ", "q": "Find the adjective."},
+          {"w": "bug", "t": "N", "q": "Find the noun for an insect."},
+          {"w": "is", "t": "V", "q": "Find the verb."},
+          {"w": "on", "t": "PREP", "q": "Find the preposition."},
+          {"w": "the", "t": "ART", "q": "Find the second article."},
+          {"w": "bed", "t": "N", "q": "Find the noun you sleep on."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'bug' with a different small animal.",
+          "word": "bug",
+          "examples": [
+            "The big <span class='changed'>bat</span> is on the bed.",
+            "The big <span class='changed'>ant</span> is on the bed."
+          ]
+        },
+        "vocab": {
+          "w": "bib",
+          "type": "noun",
+          "def": "A cloth tied under a baby's chin to keep clothes clean.",
+          "simple": "A bib is what babies wear to keep food off their shirt!",
+          "examples": ["a messy bib", "put on a bib", "a blue bib"],
+          "similar": ["cloth", "apron", "napkin"],
+          "antonyms": [],
+          "nonex": ["It does NOT mean a shirt.", "It does NOT mean a towel."],
+          "example": "The baby wore a bib at lunch.",
+          "starter": "The bib got messy when _______ ...",
+          "why": "Bib starts and ends with the 'b' sound we are learning!"
+        },
+        "ufliLesson": 18,
+        "ufliSkill": "b /b/",
+        "ufliSection": "Short Vowels o, u, e",
+        "phonicsWords": ["bed", "big", "bat", "bib", "bug", "bud", "bit", "bad", "but", "bus"],
+        "heartWords": ["the", "is", "on"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "the bot had a bath and got in bed",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "bot", "r": "boy", "e": "The word 'boy' has a 'y' at the end."},
+          {"t": "grammar", "w": "had", "r": "had", "e": "Had is correct — good job!"},
+          {"t": "spelling", "w": "bath", "r": "bath", "e": "Bath is spelled correctly — nice work!"},
+          {"t": "punctuation", "w": "bed", "r": "bed.", "e": "A sentence must end with a period."}
+        ],
+        "fixed": "The boy had a bath and got in bed.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article."},
+          {"w": "boy", "t": "N", "q": "Find the noun for a child."},
+          {"w": "had", "t": "V", "q": "Find the first verb."},
+          {"w": "a", "t": "ART", "q": "Find the small article."},
+          {"w": "bath", "t": "N", "q": "Find the noun for washing."},
+          {"w": "and", "t": "CONJ", "q": "Find the joining word."},
+          {"w": "got", "t": "V", "q": "Find the second verb."},
+          {"w": "in", "t": "PREP", "q": "Find the preposition."},
+          {"w": "bed", "t": "N", "q": "Find the noun you sleep on."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'bath' with a different activity.",
+          "word": "bath",
+          "examples": [
+            "The boy had a <span class='changed'>nap</span> and got in bed.",
+            "The boy had a <span class='changed'>snack</span> and got in bed."
+          ]
+        },
+        "vocab": {
+          "w": "bath",
+          "type": "noun",
+          "def": "Washing your whole body in water.",
+          "simple": "A bath is when you sit in water and get clean!",
+          "examples": ["a warm bath", "bath time", "take a bath"],
+          "similar": ["wash", "soak", "dip"],
+          "antonyms": [],
+          "nonex": ["It does NOT mean a shower.", "It does NOT mean swimming."],
+          "example": "The boy had a bath before bed.",
+          "starter": "I take a bath with _______ ...",
+          "why": "Bath starts with the 'b' sound and ends with a 'th' sound!"
+        },
+        "ufliLesson": 18,
+        "ufliSkill": "b /b/",
+        "ufliSection": "Short Vowels o, u, e",
+        "phonicsWords": ["bed", "big", "bat", "bib", "bug", "bud", "bit", "bad", "but", "bus", "bath"],
+        "heartWords": ["the", "a", "and", "in"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 19,
+    "sentences": [
+      {
+        "orig": "the fat cat sat on a rog in the sun",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "rog", "r": "rug", "e": "Rug has the short 'u' sound, not 'o.'"},
+          {"t": "grammar", "w": "sat", "r": "sat", "e": "Sat is correct — nice job!"},
+          {"t": "spelling", "w": "cat", "r": "cat", "e": "Cat is spelled correctly — great!"},
+          {"t": "punctuation", "w": "sun", "r": "sun.", "e": "A sentence must end with a period."}
+        ],
+        "fixed": "The fat cat sat on a rug in the sun.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the first article."},
+          {"w": "fat", "t": "ADJ", "q": "Find the adjective describing the cat."},
+          {"w": "cat", "t": "N", "q": "Find the noun for an animal."},
+          {"w": "sat", "t": "V", "q": "Find the verb."},
+          {"w": "on", "t": "PREP", "q": "Find the first preposition."},
+          {"w": "a", "t": "ART", "q": "Find the small article."},
+          {"w": "rug", "t": "N", "q": "Find the noun for a floor covering."},
+          {"w": "in", "t": "PREP", "q": "Find the second preposition."},
+          {"w": "the", "t": "ART", "q": "Find the second article."},
+          {"w": "sun", "t": "N", "q": "Find the noun in the sky."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'cat' with a different animal.",
+          "word": "cat",
+          "examples": [
+            "The fat <span class='changed'>dog</span> sat on a rug in the sun.",
+            "The fat <span class='changed'>hen</span> sat on a rug in the sun."
+          ]
+        },
+        "vocab": {
+          "w": "snug",
+          "type": "adjective",
+          "def": "Warm, comfortable, and fitting closely.",
+          "simple": "Snug means feeling warm and cozy, like being wrapped up tight!",
+          "examples": ["a snug bed", "snug socks", "snug and warm"],
+          "similar": ["cozy", "warm", "tight"],
+          "antonyms": ["loose", "cold", "open"],
+          "nonex": ["It does NOT mean hot.", "It does NOT mean stuck."],
+          "example": "The cat felt snug on the rug in the sun.",
+          "starter": "I feel snug when _______ ...",
+          "why": "Snug has the short 'u' sound — one of the vowels we are reviewing!"
+        },
+        "ufliLesson": 19,
+        "ufliSkill": "Review (all short vowels)",
+        "ufliSection": "Short Vowels o, u, e",
+        "phonicsWords": ["cat", "sit", "hot", "bug", "bed", "rug", "sun", "fat", "dog", "hen"],
+        "heartWords": ["the", "on", "a", "in"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "he got a red pen and a big mug and sat on the bed",
+        "corr": [
+          {"t": "capitalization", "w": "he", "r": "He", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "pen", "r": "pen", "e": "Pen is spelled correctly — nice!"},
+          {"t": "grammar", "w": "got", "r": "got", "e": "Got is correct — good job!"},
+          {"t": "spelling", "w": "mug", "r": "mug", "e": "Mug is spelled correctly — great!"},
+          {"t": "punctuation", "w": "bed", "r": "bed.", "e": "A sentence must end with a period."}
+        ],
+        "fixed": "He got a red pen and a big mug and sat on the bed.",
+        "pos": [
+          {"w": "He", "t": "PRO", "q": "Find the pronoun."},
+          {"w": "got", "t": "V", "q": "Find the first verb."},
+          {"w": "a", "t": "ART", "q": "Find the first article."},
+          {"w": "red", "t": "ADJ", "q": "Find the color adjective."},
+          {"w": "pen", "t": "N", "q": "Find the noun you write with."},
+          {"w": "and", "t": "CONJ", "q": "Find the first joining word."},
+          {"w": "a", "t": "ART", "q": "Find the second article."},
+          {"w": "big", "t": "ADJ", "q": "Find the size adjective."},
+          {"w": "mug", "t": "N", "q": "Find the noun for a cup."},
+          {"w": "and", "t": "CONJ", "q": "Find the second joining word."},
+          {"w": "sat", "t": "V", "q": "Find the second verb."},
+          {"w": "on", "t": "PREP", "q": "Find the preposition."},
+          {"w": "the", "t": "ART", "q": "Find the third article."},
+          {"w": "bed", "t": "N", "q": "Find the noun you sleep on."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'pen' with a different object.",
+          "word": "pen",
+          "examples": [
+            "He got a red <span class='changed'>hat</span> and a big mug and sat on the bed.",
+            "He got a red <span class='changed'>cup</span> and a big mug and sat on the bed."
+          ]
+        },
+        "vocab": {
+          "w": "red",
+          "type": "adjective",
+          "def": "The color of a fire truck or a ripe tomato.",
+          "simple": "Red is a bright, warm color — like an apple!",
+          "examples": ["a red pen", "red lips", "a red sun"],
+          "similar": ["crimson", "scarlet", "ruby"],
+          "antonyms": ["blue", "green"],
+          "nonex": ["It does NOT mean orange.", "It does NOT mean pink."],
+          "example": "He picked up the red pen from the bed.",
+          "starter": "I see something red — it is a _______ ...",
+          "why": "Red has the short 'e' sound — reviewing our vowels!"
+        },
+        "ufliLesson": 19,
+        "ufliSkill": "Review (all short vowels)",
+        "ufliSection": "Short Vowels o, u, e",
+        "phonicsWords": ["red", "pen", "mug", "big", "sat", "bed", "got", "hot", "sun", "fun"],
+        "heartWords": ["he", "a", "and", "on", "the"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 20,
+    "sentences": [
+      {
+        "orig": "the rat ran to the rog",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "rog", "r": "rug", "e": "Rug has the short 'u' sound, not 'o.'"},
+          {"t": "grammar", "w": "ran", "r": "ran", "e": "Ran is correct — nice job!"},
+          {"t": "spelling", "w": "rat", "r": "rat", "e": "Rat is spelled correctly — good!"},
+          {"t": "punctuation", "w": "rog", "r": "rug.", "e": "A sentence must end with a period."}
+        ],
+        "fixed": "The rat ran to the rug.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article."},
+          {"w": "rat", "t": "N", "q": "Find the noun for an animal."},
+          {"w": "ran", "t": "V", "q": "Find the verb."},
+          {"w": "to", "t": "PREP", "q": "Find the preposition."},
+          {"w": "the", "t": "ART", "q": "Find the second article."},
+          {"w": "rug", "t": "N", "q": "Find the noun for a floor covering."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'rat' with a different animal.",
+          "word": "rat",
+          "examples": [
+            "The <span class='changed'>ram</span> ran to the rug.",
+            "The <span class='changed'>dog</span> ran to the rug."
+          ]
+        },
+        "vocab": {
+          "w": "rip",
+          "type": "verb",
+          "def": "To tear something apart quickly.",
+          "simple": "Rip means to pull something apart — like tearing paper!",
+          "examples": ["rip paper", "rip a bag", "rip it open"],
+          "similar": ["tear", "shred", "split"],
+          "antonyms": ["fix", "mend", "patch"],
+          "nonex": ["It does NOT mean to cut with scissors.", "It does NOT mean to fold."],
+          "example": "The rat tried to rip the rug.",
+          "starter": "I had to rip the _______ ...",
+          "why": "Rip starts with the 'r' sound we are learning!"
+        },
+        "ufliLesson": 20,
+        "ufliSkill": "r /r/",
+        "ufliSection": "Complete Alphabet",
+        "phonicsWords": ["rat", "ran", "ram", "rip", "rug", "red", "rot", "rub", "rim", "rib"],
+        "heartWords": ["the", "to"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "the red robin sits on a rim of the pot",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "robin", "r": "robin", "e": "Robin is spelled correctly — nice!"},
+          {"t": "grammar", "w": "sits", "r": "sits", "e": "Sits is correct — well done!"},
+          {"t": "spelling", "w": "rim", "r": "rim", "e": "Rim is spelled correctly — great!"},
+          {"t": "punctuation", "w": "pot", "r": "pot.", "e": "A sentence must end with a period."}
+        ],
+        "fixed": "The red robin sits on a rim of the pot.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the first article."},
+          {"w": "red", "t": "ADJ", "q": "Find the color adjective."},
+          {"w": "robin", "t": "N", "q": "Find the noun for a bird."},
+          {"w": "sits", "t": "V", "q": "Find the verb."},
+          {"w": "on", "t": "PREP", "q": "Find the first preposition."},
+          {"w": "a", "t": "ART", "q": "Find the small article."},
+          {"w": "rim", "t": "N", "q": "Find the noun for an edge."},
+          {"w": "of", "t": "PREP", "q": "Find the second preposition."},
+          {"w": "the", "t": "ART", "q": "Find the second article."},
+          {"w": "pot", "t": "N", "q": "Find the noun for a container."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'robin' with a different bird.",
+          "word": "robin",
+          "examples": [
+            "The red <span class='changed'>hen</span> sits on a rim of the pot.",
+            "The red <span class='changed'>finch</span> sits on a rim of the pot."
+          ]
+        },
+        "vocab": {
+          "w": "rim",
+          "type": "noun",
+          "def": "The edge or border of something round.",
+          "simple": "A rim is the edge around the top of a cup or pot!",
+          "examples": ["the rim of a cup", "the rim of a hat", "the rim of a pot"],
+          "similar": ["edge", "border", "lip"],
+          "antonyms": ["center", "middle", "bottom"],
+          "nonex": ["It does NOT mean the handle.", "It does NOT mean the lid."],
+          "example": "The robin perched on the rim of the pot.",
+          "starter": "I held the rim of _______ ...",
+          "why": "Rim starts with the 'r' sound and has the short 'i' sound!"
+        },
+        "ufliLesson": 20,
+        "ufliSkill": "r /r/",
+        "ufliSection": "Complete Alphabet",
+        "phonicsWords": ["rat", "ran", "ram", "rip", "rug", "red", "rot", "rub", "rim", "rib", "robin"],
+        "heartWords": ["the", "on", "a", "of"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 21,
+    "sentences": [
+      {
+        "orig": "the kat ran to the cup",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "kat", "r": "cat", "e": "Cat is spelled with a 'c,' not a 'k.'"},
+          {"t": "grammar", "w": "ran", "r": "ran", "e": "Ran is correct — nice!"},
+          {"t": "spelling", "w": "cup", "r": "cup", "e": "Cup is spelled correctly — good job!"},
+          {"t": "punctuation", "w": "cup", "r": "cup.", "e": "A sentence must end with a period."}
+        ],
+        "fixed": "The cat ran to the cup.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article."},
+          {"w": "cat", "t": "N", "q": "Find the noun for an animal."},
+          {"w": "ran", "t": "V", "q": "Find the verb."},
+          {"w": "to", "t": "PREP", "q": "Find the preposition."},
+          {"w": "the", "t": "ART", "q": "Find the second article."},
+          {"w": "cup", "t": "N", "q": "Find the noun you drink from."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'cat' with a different animal.",
+          "word": "cat",
+          "examples": [
+            "The <span class='changed'>cub</span> ran to the cup.",
+            "The <span class='changed'>dog</span> ran to the cup."
+          ]
+        },
+        "vocab": {
+          "w": "cap",
+          "type": "noun",
+          "def": "A soft hat with a front brim.",
+          "simple": "A cap is a hat you wear on your head, like a baseball cap!",
+          "examples": ["a red cap", "a ball cap", "a cap on his head"],
+          "similar": ["hat", "lid", "cover"],
+          "antonyms": [],
+          "nonex": ["It does NOT mean a helmet.", "It does NOT mean a hood."],
+          "example": "The cat knocked the cap off the cup.",
+          "starter": "I wore my cap to _______ ...",
+          "why": "Cap starts with the hard 'c' sound — the same as 'k'!"
+        },
+        "ufliLesson": 21,
+        "ufliSkill": "c /k/",
+        "ufliSection": "Complete Alphabet",
+        "phonicsWords": ["cat", "cap", "cup", "cub", "cot", "cut", "can", "cop"],
+        "heartWords": ["the", "to"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "the kub and the cat sit on the cot",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "kub", "r": "cub", "e": "Cub is spelled with a 'c,' not a 'k.'"},
+          {"t": "grammar", "w": "sit", "r": "sit", "e": "Sit is correct — good job!"},
+          {"t": "spelling", "w": "cot", "r": "cot", "e": "Cot is spelled correctly — nice!"},
+          {"t": "punctuation", "w": "cot", "r": "cot.", "e": "A sentence must end with a period."}
+        ],
+        "fixed": "The cub and the cat sit on the cot.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the first article."},
+          {"w": "cub", "t": "N", "q": "Find the noun for a baby animal."},
+          {"w": "and", "t": "CONJ", "q": "Find the joining word."},
+          {"w": "the", "t": "ART", "q": "Find the second article."},
+          {"w": "cat", "t": "N", "q": "Find the noun for a pet."},
+          {"w": "sit", "t": "V", "q": "Find the verb."},
+          {"w": "on", "t": "PREP", "q": "Find the preposition."},
+          {"w": "the", "t": "ART", "q": "Find the third article."},
+          {"w": "cot", "t": "N", "q": "Find the noun for a small bed."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'cot' with a different place to sit.",
+          "word": "cot",
+          "examples": [
+            "The cub and the cat sit on the <span class='changed'>rug</span>.",
+            "The cub and the cat sit on the <span class='changed'>mat</span>."
+          ]
+        },
+        "vocab": {
+          "w": "cub",
+          "type": "noun",
+          "def": "A young animal, such as a baby bear or lion.",
+          "simple": "A cub is a baby bear, lion, or fox!",
+          "examples": ["a bear cub", "a lion cub", "a fox cub"],
+          "similar": ["baby", "pup", "kit"],
+          "antonyms": ["adult", "parent"],
+          "nonex": ["It does NOT mean a puppy.", "It does NOT mean a kitten."],
+          "example": "The cub sat next to the big cat.",
+          "starter": "The cub played with _______ ...",
+          "why": "Cub starts with the hard 'c' sound and has the short 'u' sound!"
+        },
+        "ufliLesson": 21,
+        "ufliSkill": "c /k/",
+        "ufliSection": "Complete Alphabet",
+        "phonicsWords": ["cat", "cap", "cup", "cub", "cot", "cut", "can", "cop"],
+        "heartWords": ["the", "and", "on"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 22,
+    "sentences": [
+      {
+        "orig": "the cid has a kit",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "cid", "r": "kid", "e": "Kid starts with 'k,' not 'c.'"},
+          {"t": "grammar", "w": "has", "r": "has", "e": "Has is correct — good job!"},
+          {"t": "spelling", "w": "kit", "r": "kit", "e": "Kit is spelled correctly — nice!"},
+          {"t": "punctuation", "w": "kit", "r": "kit.", "e": "A sentence must end with a period."}
+        ],
+        "fixed": "The kid has a kit.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article."},
+          {"w": "kid", "t": "N", "q": "Find the noun for a child."},
+          {"w": "has", "t": "V", "q": "Find the verb."},
+          {"w": "a", "t": "ART", "q": "Find the small article."},
+          {"w": "kit", "t": "N", "q": "Find the noun for a set of tools."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'kit' with something else the kid has.",
+          "word": "kit",
+          "examples": [
+            "The kid has a <span class='changed'>keg</span>.",
+            "The kid has a <span class='changed'>cap</span>."
+          ]
+        },
+        "vocab": {
+          "w": "kit",
+          "type": "noun",
+          "def": "A set of items or tools kept together for a purpose.",
+          "simple": "A kit is a box or bag with useful things inside!",
+          "examples": ["a first aid kit", "an art kit", "a tool kit"],
+          "similar": ["set", "pack", "box"],
+          "antonyms": [],
+          "nonex": ["It does NOT mean just one thing.", "It does NOT mean a backpack."],
+          "example": "The kid packed a kit for the trip.",
+          "starter": "My kit has _______ in it ...",
+          "why": "Kit starts with the 'k' sound we are learning!"
+        },
+        "ufliLesson": 22,
+        "ufliSkill": "k /k/",
+        "ufliSection": "Complete Alphabet",
+        "phonicsWords": ["kid", "kit", "keg", "kin", "king"],
+        "heartWords": ["the", "has", "a"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "the kid and his kin ran to the keg",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "keg", "r": "keg", "e": "Keg is spelled correctly — good!"},
+          {"t": "grammar", "w": "ran", "r": "ran", "e": "Ran is correct — nice!"},
+          {"t": "spelling", "w": "kin", "r": "kin", "e": "Kin is spelled correctly — great!"},
+          {"t": "punctuation", "w": "keg", "r": "keg.", "e": "A sentence must end with a period."}
+        ],
+        "fixed": "The kid and his kin ran to the keg.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the first article."},
+          {"w": "kid", "t": "N", "q": "Find the noun for a child."},
+          {"w": "and", "t": "CONJ", "q": "Find the joining word."},
+          {"w": "his", "t": "POSS", "q": "Find the possessive word."},
+          {"w": "kin", "t": "N", "q": "Find the noun for family."},
+          {"w": "ran", "t": "V", "q": "Find the verb."},
+          {"w": "to", "t": "PREP", "q": "Find the preposition."},
+          {"w": "the", "t": "ART", "q": "Find the second article."},
+          {"w": "keg", "t": "N", "q": "Find the noun for a barrel."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'kin' with a different word for people.",
+          "word": "kin",
+          "examples": [
+            "The kid and his <span class='changed'>dad</span> ran to the keg.",
+            "The kid and his <span class='changed'>pal</span> ran to the keg."
+          ]
+        },
+        "vocab": {
+          "w": "kin",
+          "type": "noun",
+          "def": "Your family or relatives.",
+          "simple": "Kin means your family — the people you are related to!",
+          "examples": ["my kin", "all our kin", "close kin"],
+          "similar": ["family", "relatives", "folks"],
+          "antonyms": ["stranger", "outsider"],
+          "nonex": ["It does NOT mean friends.", "It does NOT mean neighbors."],
+          "example": "The kid played with his kin at the park.",
+          "starter": "My kin like to _______ ...",
+          "why": "Kin starts with the 'k' sound and has the short 'i' sound!"
+        },
+        "ufliLesson": 22,
+        "ufliSkill": "k /k/",
+        "ufliSection": "Complete Alphabet",
+        "phonicsWords": ["kid", "kit", "keg", "kin", "king"],
+        "heartWords": ["the", "and", "his", "to"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 23,
+    "sentences": [
+      {
+        "orig": "the jug is on the mat",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "jug", "r": "jug", "e": "Jug is spelled correctly — great!"},
+          {"t": "grammar", "w": "is", "r": "is", "e": "Is is correct — good job!"},
+          {"t": "spelling", "w": "mat", "r": "mat", "e": "Mat is spelled correctly — nice!"},
+          {"t": "punctuation", "w": "mat", "r": "mat.", "e": "A sentence must end with a period."}
+        ],
+        "fixed": "The jug is on the mat.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article."},
+          {"w": "jug", "t": "N", "q": "Find the noun for a container."},
+          {"w": "is", "t": "V", "q": "Find the verb."},
+          {"w": "on", "t": "PREP", "q": "Find the preposition."},
+          {"w": "the", "t": "ART", "q": "Find the second article."},
+          {"w": "mat", "t": "N", "q": "Find the noun for a flat thing."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'jug' with a different container.",
+          "word": "jug",
+          "examples": [
+            "The <span class='changed'>mug</span> is on the mat.",
+            "The <span class='changed'>cup</span> is on the mat."
+          ]
+        },
+        "vocab": {
+          "w": "jog",
+          "type": "verb",
+          "def": "To run at a slow, steady pace.",
+          "simple": "Jog means to run slowly and keep going!",
+          "examples": ["jog in the park", "jog to school", "jog fast"],
+          "similar": ["run", "trot", "sprint"],
+          "antonyms": ["walk", "sit", "stop"],
+          "nonex": ["It does NOT mean to sprint.", "It does NOT mean to skip."],
+          "example": "I jog to the mat and back.",
+          "starter": "I like to jog when _______ ...",
+          "why": "Jog starts with the 'j' sound we are learning!"
+        },
+        "ufliLesson": 23,
+        "ufliSkill": "j /j/",
+        "ufliSection": "Complete Alphabet",
+        "phonicsWords": ["jug", "jog", "jam", "jab", "jet", "jot", "job", "jig"],
+        "heartWords": ["the", "is", "on"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "she put jam on the bread and did a jig",
+        "corr": [
+          {"t": "capitalization", "w": "she", "r": "She", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "bread", "r": "bread", "e": "Bread is spelled correctly — nice!"},
+          {"t": "grammar", "w": "did", "r": "did", "e": "Did is correct — good job!"},
+          {"t": "spelling", "w": "jig", "r": "jig", "e": "Jig is spelled correctly — well done!"},
+          {"t": "punctuation", "w": "jig", "r": "jig.", "e": "A sentence must end with a period."}
+        ],
+        "fixed": "She put jam on the bread and did a jig.",
+        "pos": [
+          {"w": "She", "t": "PRO", "q": "Find the pronoun."},
+          {"w": "put", "t": "V", "q": "Find the first verb."},
+          {"w": "jam", "t": "N", "q": "Find the noun for a food."},
+          {"w": "on", "t": "PREP", "q": "Find the preposition."},
+          {"w": "the", "t": "ART", "q": "Find the article."},
+          {"w": "bread", "t": "N", "q": "Find the noun for baked food."},
+          {"w": "and", "t": "CONJ", "q": "Find the joining word."},
+          {"w": "did", "t": "V", "q": "Find the second verb."},
+          {"w": "a", "t": "ART", "q": "Find the small article."},
+          {"w": "jig", "t": "N", "q": "Find the noun for a dance."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'jam' with a different food.",
+          "word": "jam",
+          "examples": [
+            "She put <span class='changed'>ham</span> on the bread and did a jig.",
+            "She put <span class='changed'>butter</span> on the bread and did a jig."
+          ]
+        },
+        "vocab": {
+          "w": "jam",
+          "type": "noun",
+          "def": "A sweet, thick food made from fruit and sugar.",
+          "simple": "Jam is a yummy spread made from fruit — like strawberry jam!",
+          "examples": ["strawberry jam", "jam on toast", "a jar of jam"],
+          "similar": ["jelly", "preserve", "spread"],
+          "antonyms": [],
+          "nonex": ["It does NOT mean juice.", "It does NOT mean syrup."],
+          "example": "She spread jam on the bread.",
+          "starter": "My favorite kind of jam is _______ ...",
+          "why": "Jam starts with the 'j' sound and has the short 'a' sound!"
+        },
+        "ufliLesson": 23,
+        "ufliSkill": "j /j/",
+        "ufliSection": "Complete Alphabet",
+        "phonicsWords": ["jug", "jog", "jam", "jab", "jet", "jot", "job", "jig"],
+        "heartWords": ["she", "on", "the", "and", "a"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 24,
+    "sentences": [
+      {
+        "orig": "the vet can win the big cup",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "vet", "r": "wet", "e": "Wet starts with 'w,' not 'v.'"},
+          {"t": "grammar", "w": "can", "r": "can", "e": "Can is correct — nice!"},
+          {"t": "spelling", "w": "win", "r": "win", "e": "Win is spelled correctly — good job!"},
+          {"t": "punctuation", "w": "cup", "r": "cup.", "e": "A sentence must end with a period."}
+        ],
+        "fixed": "The wet dog can win the big cup.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article."},
+          {"w": "wet", "t": "ADJ", "q": "Find the adjective."},
+          {"w": "dog", "t": "N", "q": "Find the noun for an animal."},
+          {"w": "can", "t": "V", "q": "Find the helping verb."},
+          {"w": "win", "t": "V", "q": "Find the main verb."},
+          {"w": "the", "t": "ART", "q": "Find the second article."},
+          {"w": "big", "t": "ADJ", "q": "Find the size adjective."},
+          {"w": "cup", "t": "N", "q": "Find the noun for a prize."}
+        ],
+        "manip": {
+          "task": "Replace the adjective 'wet' with a different describing word.",
+          "word": "wet",
+          "examples": [
+            "The <span class='changed'>big</span> dog can win the big cup.",
+            "The <span class='changed'>fast</span> dog can win the big cup."
+          ]
+        },
+        "vocab": {
+          "w": "web",
+          "type": "noun",
+          "def": "A net of thin threads made by a spider.",
+          "simple": "A web is what a spider makes to catch bugs!",
+          "examples": ["a spider web", "a sticky web", "a web in the corner"],
+          "similar": ["net", "mesh", "trap"],
+          "antonyms": [],
+          "nonex": ["It does NOT mean a nest.", "It does NOT mean a string."],
+          "example": "The wet web shone in the sun.",
+          "starter": "I saw a web on _______ ...",
+          "why": "Web starts with the 'w' sound we are learning!"
+        },
+        "ufliLesson": 24,
+        "ufliSkill": "w /w/",
+        "ufliSection": "Complete Alphabet",
+        "phonicsWords": ["wet", "web", "win", "wig", "wag", "wax", "will", "well"],
+        "heartWords": ["the", "can"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "we will wag and win if we run fast",
+        "corr": [
+          {"t": "capitalization", "w": "we", "r": "We", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "wag", "r": "wag", "e": "Wag is spelled correctly — nice!"},
+          {"t": "grammar", "w": "will", "r": "will", "e": "Will is correct — great!"},
+          {"t": "spelling", "w": "win", "r": "win", "e": "Win is spelled correctly — good job!"},
+          {"t": "punctuation", "w": "fast", "r": "fast.", "e": "A sentence must end with a period."}
+        ],
+        "fixed": "We will wag and win if we run fast.",
+        "pos": [
+          {"w": "We", "t": "PRO", "q": "Find the pronoun."},
+          {"w": "will", "t": "V", "q": "Find the helping verb."},
+          {"w": "wag", "t": "V", "q": "Find the first action verb."},
+          {"w": "and", "t": "CONJ", "q": "Find the joining word."},
+          {"w": "win", "t": "V", "q": "Find the second action verb."},
+          {"w": "if", "t": "CONJ", "q": "Find the word that sets a condition."},
+          {"w": "we", "t": "PRO", "q": "Find the second pronoun."},
+          {"w": "run", "t": "V", "q": "Find the third verb."},
+          {"w": "fast", "t": "ADV", "q": "Find the adverb telling how."}
+        ],
+        "manip": {
+          "task": "Replace the verb 'run' with a different action.",
+          "word": "run",
+          "examples": [
+            "We will wag and win if we <span class='changed'>jog</span> fast.",
+            "We will wag and win if we <span class='changed'>swim</span> fast."
+          ]
+        },
+        "vocab": {
+          "w": "wag",
+          "type": "verb",
+          "def": "To move something back and forth quickly.",
+          "simple": "Wag is what a dog does with its tail when it is happy!",
+          "examples": ["wag a tail", "wag a finger", "wag back and forth"],
+          "similar": ["wave", "shake", "wiggle"],
+          "antonyms": ["still", "freeze", "stop"],
+          "nonex": ["It does NOT mean to spin.", "It does NOT mean to pull."],
+          "example": "The dog will wag its tail when we win.",
+          "starter": "The dog wags its tail when _______ ...",
+          "why": "Wag starts with the 'w' sound and has the short 'a' sound!"
+        },
+        "ufliLesson": 24,
+        "ufliSkill": "w /w/",
+        "ufliSection": "Complete Alphabet",
+        "phonicsWords": ["wet", "web", "win", "wig", "wag", "wax", "will", "well"],
+        "heartWords": ["we", "and", "if"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 25,
+    "sentences": [
+      {
+        "orig": "the van is in the lot",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "van", "r": "van", "e": "Van is spelled correctly — great!"},
+          {"t": "grammar", "w": "is", "r": "is", "e": "Is is correct — nice work!"},
+          {"t": "spelling", "w": "lot", "r": "lot", "e": "Lot is spelled correctly — good job!"},
+          {"t": "punctuation", "w": "lot", "r": "lot.", "e": "A sentence must end with a period."}
+        ],
+        "fixed": "The van is in the lot.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article."},
+          {"w": "van", "t": "N", "q": "Find the noun for a vehicle."},
+          {"w": "is", "t": "V", "q": "Find the verb."},
+          {"w": "in", "t": "PREP", "q": "Find the preposition."},
+          {"w": "the", "t": "ART", "q": "Find the second article."},
+          {"w": "lot", "t": "N", "q": "Find the noun for a parking area."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'van' with a different vehicle.",
+          "word": "van",
+          "examples": [
+            "The <span class='changed'>bus</span> is in the lot.",
+            "The <span class='changed'>cab</span> is in the lot."
+          ]
+        },
+        "vocab": {
+          "w": "vet",
+          "type": "noun",
+          "def": "A doctor who takes care of animals.",
+          "simple": "A vet is a doctor for animals like dogs and cats!",
+          "examples": ["take the dog to the vet", "a kind vet", "the vet helped"],
+          "similar": ["doctor", "healer"],
+          "antonyms": [],
+          "nonex": ["It does NOT mean a people doctor.", "It does NOT mean a pet store."],
+          "example": "The vet drove a van to the farm.",
+          "starter": "The vet helped my pet when _______ ...",
+          "why": "Vet starts with the 'v' sound we are learning!"
+        },
+        "ufliLesson": 25,
+        "ufliSkill": "v /v/",
+        "ufliSection": "Complete Alphabet",
+        "phonicsWords": ["van", "vet", "vat", "vim", "vest", "vast"],
+        "heartWords": ["the", "is", "in"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "the vet put a vest on the dog in the van",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "vest", "r": "vest", "e": "Vest is spelled correctly — nice!"},
+          {"t": "grammar", "w": "put", "r": "put", "e": "Put is correct — good job!"},
+          {"t": "spelling", "w": "van", "r": "van", "e": "Van is spelled correctly — great!"},
+          {"t": "punctuation", "w": "van", "r": "van.", "e": "A sentence must end with a period."}
+        ],
+        "fixed": "The vet put a vest on the dog in the van.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the first article."},
+          {"w": "vet", "t": "N", "q": "Find the noun for an animal doctor."},
+          {"w": "put", "t": "V", "q": "Find the verb."},
+          {"w": "a", "t": "ART", "q": "Find the small article."},
+          {"w": "vest", "t": "N", "q": "Find the noun for clothing."},
+          {"w": "on", "t": "PREP", "q": "Find the first preposition."},
+          {"w": "the", "t": "ART", "q": "Find the second article."},
+          {"w": "dog", "t": "N", "q": "Find the noun for a pet."},
+          {"w": "in", "t": "PREP", "q": "Find the second preposition."},
+          {"w": "the", "t": "ART", "q": "Find the third article."},
+          {"w": "van", "t": "N", "q": "Find the noun for a vehicle."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'vest' with a different thing the vet put on the dog.",
+          "word": "vest",
+          "examples": [
+            "The vet put a <span class='changed'>hat</span> on the dog in the van.",
+            "The vet put a <span class='changed'>cap</span> on the dog in the van."
+          ]
+        },
+        "vocab": {
+          "w": "vest",
+          "type": "noun",
+          "def": "A piece of clothing without sleeves that covers the chest.",
+          "simple": "A vest is like a jacket but without any sleeves!",
+          "examples": ["a red vest", "a warm vest", "put on a vest"],
+          "similar": ["jacket", "coat", "top"],
+          "antonyms": [],
+          "nonex": ["It does NOT mean a shirt.", "It does NOT mean pants."],
+          "example": "The vet put a vest on the dog to keep it warm.",
+          "starter": "I wore a vest when _______ ...",
+          "why": "Vest starts with the 'v' sound and has the short 'e' sound!"
+        },
+        "ufliLesson": 25,
+        "ufliSkill": "v /v/",
+        "ufliSection": "Complete Alphabet",
+        "phonicsWords": ["van", "vet", "vat", "vim", "vest", "vast"],
+        "heartWords": ["the", "a", "on", "in"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 26,
+    "sentences": [
+      {
+        "orig": "the foks ran to the box",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "foks", "r": "fox", "e": "Fox is spelled f-o-x, with an 'x' at the end."},
+          {"t": "grammar", "w": "ran", "r": "ran", "e": "Ran is correct — good job!"},
+          {"t": "spelling", "w": "box", "r": "box", "e": "Box is spelled correctly — nice!"},
+          {"t": "punctuation", "w": "box", "r": "box.", "e": "A sentence must end with a period."}
+        ],
+        "fixed": "The fox ran to the box.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article."},
+          {"w": "fox", "t": "N", "q": "Find the noun for an animal."},
+          {"w": "ran", "t": "V", "q": "Find the verb."},
+          {"w": "to", "t": "PREP", "q": "Find the preposition."},
+          {"w": "the", "t": "ART", "q": "Find the second article."},
+          {"w": "box", "t": "N", "q": "Find the noun for a container."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'fox' with a different animal.",
+          "word": "fox",
+          "examples": [
+            "The <span class='changed'>ox</span> ran to the box.",
+            "The <span class='changed'>dog</span> ran to the box."
+          ]
+        },
+        "vocab": {
+          "w": "fox",
+          "type": "noun",
+          "def": "A wild animal like a small dog with a bushy tail.",
+          "simple": "A fox is a clever animal with a big fluffy tail!",
+          "examples": ["a red fox", "a quick fox", "a sly fox"],
+          "similar": ["wolf", "coyote", "dog"],
+          "antonyms": [],
+          "nonex": ["It does NOT mean a dog.", "It does NOT mean a cat."],
+          "example": "The fox hid in a box by the hill.",
+          "starter": "The fox ran to _______ ...",
+          "why": "Fox ends with the 'x' sound — which says /ks/!"
+        },
+        "ufliLesson": 26,
+        "ufliSkill": "x /ks/",
+        "ufliSection": "Complete Alphabet",
+        "phonicsWords": ["fox", "box", "six", "mix", "fix", "ox", "wax", "tax"],
+        "heartWords": ["the", "to"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "he can fiks the box with six bits of waks",
+        "corr": [
+          {"t": "capitalization", "w": "he", "r": "He", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "fiks", "r": "fix", "e": "Fix is spelled f-i-x, not f-i-k-s."},
+          {"t": "spelling", "w": "waks", "r": "wax", "e": "Wax is spelled w-a-x, not w-a-k-s."},
+          {"t": "grammar", "w": "can", "r": "can", "e": "Can is correct — nice!"},
+          {"t": "punctuation", "w": "waks", "r": "wax.", "e": "A sentence must end with a period."}
+        ],
+        "fixed": "He can fix the box with six bits of wax.",
+        "pos": [
+          {"w": "He", "t": "PRO", "q": "Find the pronoun."},
+          {"w": "can", "t": "V", "q": "Find the helping verb."},
+          {"w": "fix", "t": "V", "q": "Find the main verb."},
+          {"w": "the", "t": "ART", "q": "Find the article."},
+          {"w": "box", "t": "N", "q": "Find the noun for a container."},
+          {"w": "with", "t": "PREP", "q": "Find the preposition."},
+          {"w": "six", "t": "ADJ", "q": "Find the number word."},
+          {"w": "bits", "t": "N", "q": "Find the noun for small pieces."},
+          {"w": "of", "t": "PREP", "q": "Find the second preposition."},
+          {"w": "wax", "t": "N", "q": "Find the noun for a material."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'wax' with a different material.",
+          "word": "wax",
+          "examples": [
+            "He can fix the box with six bits of <span class='changed'>gum</span>.",
+            "He can fix the box with six bits of <span class='changed'>mud</span>."
+          ]
+        },
+        "vocab": {
+          "w": "mix",
+          "type": "verb",
+          "def": "To stir or combine things together.",
+          "simple": "Mix means to put things together and stir them up!",
+          "examples": ["mix paint", "mix batter", "mix it up"],
+          "similar": ["blend", "stir", "combine"],
+          "antonyms": ["separate", "divide", "sort"],
+          "nonex": ["It does NOT mean to pour.", "It does NOT mean to melt."],
+          "example": "He can mix the wax to fix the box.",
+          "starter": "I like to mix _______ and _______ ...",
+          "why": "Mix ends with the 'x' sound — saying /ks/!"
+        },
+        "ufliLesson": 26,
+        "ufliSkill": "x /ks/",
+        "ufliSection": "Complete Alphabet",
+        "phonicsWords": ["fox", "box", "six", "mix", "fix", "ox", "wax", "tax"],
+        "heartWords": ["he", "can", "the", "with", "of"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 27,
+    "sentences": [
+      {
+        "orig": "the iam is on the mat",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "iam", "r": "yam", "e": "Yam starts with the letter 'y,' not 'i.'"},
+          {"t": "grammar", "w": "is", "r": "is", "e": "Is is correct — nice!"},
+          {"t": "spelling", "w": "mat", "r": "mat", "e": "Mat is spelled correctly — good job!"},
+          {"t": "punctuation", "w": "mat", "r": "mat.", "e": "A sentence must end with a period."}
+        ],
+        "fixed": "The yam is on the mat.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article."},
+          {"w": "yam", "t": "N", "q": "Find the noun for a food."},
+          {"w": "is", "t": "V", "q": "Find the verb."},
+          {"w": "on", "t": "PREP", "q": "Find the preposition."},
+          {"w": "the", "t": "ART", "q": "Find the second article."},
+          {"w": "mat", "t": "N", "q": "Find the noun for a flat thing."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'yam' with a different food.",
+          "word": "yam",
+          "examples": [
+            "The <span class='changed'>jam</span> is on the mat.",
+            "The <span class='changed'>ham</span> is on the mat."
+          ]
+        },
+        "vocab": {
+          "w": "yam",
+          "type": "noun",
+          "def": "A large root vegetable similar to a sweet potato.",
+          "simple": "A yam is a big, orange veggie that tastes sweet when cooked!",
+          "examples": ["a baked yam", "a sweet yam", "yams for dinner"],
+          "similar": ["potato", "tuber", "root"],
+          "antonyms": [],
+          "nonex": ["It does NOT mean a carrot.", "It does NOT mean corn."],
+          "example": "The yam sat on the mat, ready to cook.",
+          "starter": "I like to eat yam with _______ ...",
+          "why": "Yam starts with the 'y' sound we are learning!"
+        },
+        "ufliLesson": 27,
+        "ufliSkill": "y /y/",
+        "ufliSection": "Complete Alphabet",
+        "phonicsWords": ["yam", "yap", "yes", "yet", "yell"],
+        "heartWords": ["the", "is", "on"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "the pup will yap and yell but he has not run yet",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "yap", "r": "yap", "e": "Yap is spelled correctly — nice!"},
+          {"t": "grammar", "w": "will", "r": "will", "e": "Will is correct — good job!"},
+          {"t": "spelling", "w": "yet", "r": "yet", "e": "Yet is spelled correctly — well done!"},
+          {"t": "punctuation", "w": "yet", "r": "yet.", "e": "A sentence must end with a period."}
+        ],
+        "fixed": "The pup will yap and yell but he has not run yet.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article."},
+          {"w": "pup", "t": "N", "q": "Find the noun for a baby dog."},
+          {"w": "will", "t": "V", "q": "Find the helping verb."},
+          {"w": "yap", "t": "V", "q": "Find the first action verb."},
+          {"w": "and", "t": "CONJ", "q": "Find the first joining word."},
+          {"w": "yell", "t": "V", "q": "Find the second action verb."},
+          {"w": "but", "t": "CONJ", "q": "Find the second joining word."},
+          {"w": "he", "t": "PRO", "q": "Find the pronoun."},
+          {"w": "has", "t": "V", "q": "Find another verb."},
+          {"w": "not", "t": "ADV", "q": "Find the adverb."},
+          {"w": "run", "t": "V", "q": "Find the last verb."},
+          {"w": "yet", "t": "ADV", "q": "Find the adverb that means 'so far.'"}
+        ],
+        "manip": {
+          "task": "Replace the verb 'yap' with a different sound.",
+          "word": "yap",
+          "examples": [
+            "The pup will <span class='changed'>yelp</span> and yell but he has not run yet.",
+            "The pup will <span class='changed'>bark</span> and yell but he has not run yet."
+          ]
+        },
+        "vocab": {
+          "w": "yell",
+          "type": "verb",
+          "def": "To shout or cry out loudly.",
+          "simple": "Yell means to use a very loud voice!",
+          "examples": ["yell for help", "yell with joy", "do not yell"],
+          "similar": ["shout", "scream", "cry"],
+          "antonyms": ["whisper", "hush", "murmur"],
+          "nonex": ["It does NOT mean to talk.", "It does NOT mean to sing."],
+          "example": "The pup will yell if he sees a cat.",
+          "starter": "I might yell when _______ ...",
+          "why": "Yell starts with the 'y' sound and has the short 'e' sound!"
+        },
+        "ufliLesson": 27,
+        "ufliSkill": "y /y/",
+        "ufliSection": "Complete Alphabet",
+        "phonicsWords": ["yam", "yap", "yes", "yet", "yell"],
+        "heartWords": ["the", "will", "and", "but", "he", "has", "not"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 28,
+    "sentences": [
+      {
+        "orig": "the dog can sip from the cap",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "sip", "r": "zip", "e": "Zip starts with 'z,' not 's.'"},
+          {"t": "grammar", "w": "can", "r": "can", "e": "Can is correct — good job!"},
+          {"t": "spelling", "w": "cap", "r": "cup", "e": "Cup has the short 'u' sound, not short 'a.'"},
+          {"t": "punctuation", "w": "cap", "r": "cup.", "e": "A sentence must end with a period."}
+        ],
+        "fixed": "The dog can zip from the cup.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article."},
+          {"w": "dog", "t": "N", "q": "Find the noun for an animal."},
+          {"w": "can", "t": "V", "q": "Find the helping verb."},
+          {"w": "zip", "t": "V", "q": "Find the action verb."},
+          {"w": "from", "t": "PREP", "q": "Find the preposition."},
+          {"w": "the", "t": "ART", "q": "Find the second article."},
+          {"w": "cup", "t": "N", "q": "Find the noun for a container."}
+        ],
+        "manip": {
+          "task": "Replace the verb 'zip' with a different action.",
+          "word": "zip",
+          "examples": [
+            "The dog can <span class='changed'>sip</span> from the cup.",
+            "The dog can <span class='changed'>run</span> from the cup."
+          ]
+        },
+        "vocab": {
+          "w": "zip",
+          "type": "verb",
+          "def": "To move very quickly or to close with a zipper.",
+          "simple": "Zip means to go really fast or to close something up!",
+          "examples": ["zip up a jacket", "zip past", "zip along"],
+          "similar": ["dash", "rush", "speed"],
+          "antonyms": ["crawl", "stop", "pause"],
+          "nonex": ["It does NOT mean to walk.", "It does NOT mean to open."],
+          "example": "The dog can zip across the rug.",
+          "starter": "I zip my jacket when _______ ...",
+          "why": "Zip starts with the 'z' sound we are learning!"
+        },
+        "ufliLesson": 28,
+        "ufliSkill": "z /z/",
+        "ufliSection": "Complete Alphabet",
+        "phonicsWords": ["zip", "zap", "zig", "zag", "zen", "zest"],
+        "heartWords": ["the", "can", "from"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "the bug can zig and sag on the big rug",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "sag", "r": "zag", "e": "Zag starts with 'z,' not 's.'"},
+          {"t": "grammar", "w": "can", "r": "can", "e": "Can is correct — nice!"},
+          {"t": "spelling", "w": "zig", "r": "zig", "e": "Zig is spelled correctly — good!"},
+          {"t": "punctuation", "w": "rug", "r": "rug.", "e": "A sentence must end with a period."}
+        ],
+        "fixed": "The bug can zig and zag on the big rug.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article."},
+          {"w": "bug", "t": "N", "q": "Find the noun for an insect."},
+          {"w": "can", "t": "V", "q": "Find the helping verb."},
+          {"w": "zig", "t": "V", "q": "Find the first action verb."},
+          {"w": "and", "t": "CONJ", "q": "Find the joining word."},
+          {"w": "zag", "t": "V", "q": "Find the second action verb."},
+          {"w": "on", "t": "PREP", "q": "Find the preposition."},
+          {"w": "the", "t": "ART", "q": "Find the second article."},
+          {"w": "big", "t": "ADJ", "q": "Find the adjective."},
+          {"w": "rug", "t": "N", "q": "Find the noun for a floor covering."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'bug' with a different small creature.",
+          "word": "bug",
+          "examples": [
+            "The <span class='changed'>ant</span> can zig and zag on the big rug.",
+            "The <span class='changed'>rat</span> can zig and zag on the big rug."
+          ]
+        },
+        "vocab": {
+          "w": "zest",
+          "type": "noun",
+          "def": "Great energy and excitement.",
+          "simple": "Zest means doing something with lots of energy and fun!",
+          "examples": ["full of zest", "zest for life", "with zest"],
+          "similar": ["energy", "pep", "spark"],
+          "antonyms": ["boredom", "dullness", "laziness"],
+          "nonex": ["It does NOT mean rest.", "It does NOT mean anger."],
+          "example": "The bug ran with zest on the big rug.",
+          "starter": "I have zest for _______ ...",
+          "why": "Zest starts with the 'z' sound and has the short 'e' sound!"
+        },
+        "ufliLesson": 28,
+        "ufliSkill": "z /z/",
+        "ufliSection": "Complete Alphabet",
+        "phonicsWords": ["zip", "zap", "zig", "zag", "zen", "zest"],
+        "heartWords": ["the", "can", "and", "on"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 29,
+    "sentences": [
+      {
+        "orig": "the kween has a quilt on the bed",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "kween", "r": "queen", "e": "Queen is spelled with 'qu,' not 'kw.'"},
+          {"t": "grammar", "w": "has", "r": "has", "e": "Has is correct — nice!"},
+          {"t": "spelling", "w": "quilt", "r": "quilt", "e": "Quilt is spelled correctly — good job!"},
+          {"t": "punctuation", "w": "bed", "r": "bed.", "e": "A sentence must end with a period."}
+        ],
+        "fixed": "The queen has a quilt on the bed.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article."},
+          {"w": "queen", "t": "N", "q": "Find the noun for a ruler."},
+          {"w": "has", "t": "V", "q": "Find the verb."},
+          {"w": "a", "t": "ART", "q": "Find the small article."},
+          {"w": "quilt", "t": "N", "q": "Find the noun for a blanket."},
+          {"w": "on", "t": "PREP", "q": "Find the preposition."},
+          {"w": "the", "t": "ART", "q": "Find the second article."},
+          {"w": "bed", "t": "N", "q": "Find the noun you sleep on."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'quilt' with a different thing on the bed.",
+          "word": "quilt",
+          "examples": [
+            "The queen has a <span class='changed'>hat</span> on the bed.",
+            "The queen has a <span class='changed'>cup</span> on the bed."
+          ]
+        },
+        "vocab": {
+          "w": "quilt",
+          "type": "noun",
+          "def": "A warm blanket made from pieces of fabric sewn together.",
+          "simple": "A quilt is a soft, cozy blanket made from patches of cloth!",
+          "examples": ["a warm quilt", "a patchwork quilt", "a quilt on the bed"],
+          "similar": ["blanket", "cover", "comforter"],
+          "antonyms": [],
+          "nonex": ["It does NOT mean a pillow.", "It does NOT mean a sheet."],
+          "example": "The queen put a quilt on the bed to stay warm.",
+          "starter": "I snuggle under a quilt when _______ ...",
+          "why": "Quilt starts with 'qu' — where q and u always go together!"
+        },
+        "ufliLesson": 29,
+        "ufliSkill": "qu /kw/",
+        "ufliSection": "Complete Alphabet",
+        "phonicsWords": ["queen", "quilt", "quiz", "quit", "quick", "quest"],
+        "heartWords": ["the", "has", "a", "on"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "the kwik fox did not kwit the quest",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "kwik", "r": "quick", "e": "Quick starts with 'qu,' not 'kw.'"},
+          {"t": "spelling", "w": "kwit", "r": "quit", "e": "Quit starts with 'qu,' not 'kw.'"},
+          {"t": "grammar", "w": "did not", "r": "did not", "e": "Did not is correct — nice!"},
+          {"t": "punctuation", "w": "quest", "r": "quest.", "e": "A sentence must end with a period."}
+        ],
+        "fixed": "The quick fox did not quit the quest.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article."},
+          {"w": "quick", "t": "ADJ", "q": "Find the adjective meaning fast."},
+          {"w": "fox", "t": "N", "q": "Find the noun for an animal."},
+          {"w": "did", "t": "V", "q": "Find the helping verb."},
+          {"w": "not", "t": "ADV", "q": "Find the adverb."},
+          {"w": "quit", "t": "V", "q": "Find the main verb."},
+          {"w": "the", "t": "ART", "q": "Find the second article."},
+          {"w": "quest", "t": "N", "q": "Find the noun for an adventure."}
+        ],
+        "manip": {
+          "task": "Replace the adjective 'quick' with a different describing word.",
+          "word": "quick",
+          "examples": [
+            "The <span class='changed'>red</span> fox did not quit the quest.",
+            "The <span class='changed'>big</span> fox did not quit the quest."
+          ]
+        },
+        "vocab": {
+          "w": "quest",
+          "type": "noun",
+          "def": "A long search or journey to find something.",
+          "simple": "A quest is an exciting adventure where you look for something!",
+          "examples": ["a treasure quest", "go on a quest", "a big quest"],
+          "similar": ["adventure", "journey", "search"],
+          "antonyms": [],
+          "nonex": ["It does NOT mean a question.", "It does NOT mean a test."],
+          "example": "The quick fox went on a quest to find food.",
+          "starter": "I went on a quest to find _______ ...",
+          "why": "Quest starts with 'qu' — the sound we are learning!"
+        },
+        "ufliLesson": 29,
+        "ufliSkill": "qu /kw/",
+        "ufliSection": "Complete Alphabet",
+        "phonicsWords": ["queen", "quilt", "quiz", "quit", "quick", "quest"],
+        "heartWords": ["the", "did", "not"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 30,
+    "sentences": [
+      {
+        "orig": "the big dog can jog and run on the wet grass",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "grass", "r": "grass", "e": "Grass is spelled correctly — nice!"},
+          {"t": "grammar", "w": "can", "r": "can", "e": "Can is correct — good job!"},
+          {"t": "spelling", "w": "jog", "r": "jog", "e": "Jog is spelled correctly — great!"},
+          {"t": "punctuation", "w": "grass", "r": "grass.", "e": "A sentence must end with a period."}
+        ],
+        "fixed": "The big dog can jog and run on the wet grass.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article."},
+          {"w": "big", "t": "ADJ", "q": "Find the size adjective."},
+          {"w": "dog", "t": "N", "q": "Find the noun for an animal."},
+          {"w": "can", "t": "V", "q": "Find the helping verb."},
+          {"w": "jog", "t": "V", "q": "Find the first action verb."},
+          {"w": "and", "t": "CONJ", "q": "Find the joining word."},
+          {"w": "run", "t": "V", "q": "Find the second action verb."},
+          {"w": "on", "t": "PREP", "q": "Find the preposition."},
+          {"w": "the", "t": "ART", "q": "Find the second article."},
+          {"w": "wet", "t": "ADJ", "q": "Find the adjective describing the grass."},
+          {"w": "grass", "t": "N", "q": "Find the noun for a plant."}
+        ],
+        "manip": {
+          "task": "Replace the verb 'jog' with a different action.",
+          "word": "jog",
+          "examples": [
+            "The big dog can <span class='changed'>hop</span> and run on the wet grass.",
+            "The big dog can <span class='changed'>dig</span> and run on the wet grass."
+          ]
+        },
+        "vocab": {
+          "w": "vast",
+          "type": "adjective",
+          "def": "Very large in size or amount.",
+          "simple": "Vast means really, really big — like the sky or the ocean!",
+          "examples": ["a vast field", "a vast sky", "a vast desert"],
+          "similar": ["huge", "enormous", "immense"],
+          "antonyms": ["tiny", "small", "little"],
+          "nonex": ["It does NOT mean empty.", "It does NOT mean far away."],
+          "example": "The dog ran on the vast, wet grass.",
+          "starter": "The _______ is so vast that ...",
+          "why": "Vast reviews the 'v' sound and has the short 'a' sound!"
+        },
+        "ufliLesson": 30,
+        "ufliSkill": "Review (all consonants)",
+        "ufliSection": "Complete Alphabet",
+        "phonicsWords": ["big", "dog", "jog", "run", "wet", "van", "fix", "zip", "yam", "queen"],
+        "heartWords": ["the", "can", "and", "on"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "the quick fox and the vet got jam from the van",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "quick", "r": "quick", "e": "Quick is spelled correctly — well done!"},
+          {"t": "grammar", "w": "got", "r": "got", "e": "Got is correct — nice!"},
+          {"t": "spelling", "w": "van", "r": "van", "e": "Van is spelled correctly — great!"},
+          {"t": "punctuation", "w": "van", "r": "van.", "e": "A sentence must end with a period."}
+        ],
+        "fixed": "The quick fox and the vet got jam from the van.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the first article."},
+          {"w": "quick", "t": "ADJ", "q": "Find the adjective meaning fast."},
+          {"w": "fox", "t": "N", "q": "Find the noun for a wild animal."},
+          {"w": "and", "t": "CONJ", "q": "Find the joining word."},
+          {"w": "the", "t": "ART", "q": "Find the second article."},
+          {"w": "vet", "t": "N", "q": "Find the noun for an animal doctor."},
+          {"w": "got", "t": "V", "q": "Find the verb."},
+          {"w": "jam", "t": "N", "q": "Find the noun for a food."},
+          {"w": "from", "t": "PREP", "q": "Find the preposition."},
+          {"w": "the", "t": "ART", "q": "Find the third article."},
+          {"w": "van", "t": "N", "q": "Find the noun for a vehicle."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'jam' with a different food.",
+          "word": "jam",
+          "examples": [
+            "The quick fox and the vet got <span class='changed'>ham</span> from the van.",
+            "The quick fox and the vet got <span class='changed'>gum</span> from the van."
+          ]
+        },
+        "vocab": {
+          "w": "quick",
+          "type": "adjective",
+          "def": "Moving fast or happening in a short time.",
+          "simple": "Quick means really fast — not slow at all!",
+          "examples": ["a quick fox", "a quick run", "be quick"],
+          "similar": ["fast", "speedy", "swift"],
+          "antonyms": ["slow", "sluggish", "poky"],
+          "nonex": ["It does NOT mean loud.", "It does NOT mean strong."],
+          "example": "The quick fox jumped over the log.",
+          "starter": "I was quick when I _______ ...",
+          "why": "Quick reviews 'qu' and has the short 'i' sound!"
+        },
+        "ufliLesson": 30,
+        "ufliSkill": "Review (all consonants)",
+        "ufliSection": "Complete Alphabet",
+        "phonicsWords": ["quick", "fox", "vet", "jam", "van", "got", "big", "dog", "zip", "wax"],
+        "heartWords": ["the", "and", "from"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 31,
+    "sentences": [
+      {
+        "orig": "the kat sat on a fatt mat",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "kat", "r": "cat", "e": "Cat starts with a 'c,' not a 'k.'"},
+          {"t": "spelling", "w": "fatt", "r": "flat", "e": "The word is 'flat' — it means smooth and even."},
+          {"t": "grammar", "w": "sat", "r": "sat", "e": "Sat is correct — nice!"},
+          {"t": "punctuation", "w": "mat", "r": "mat.", "e": "A sentence must end with a period."}
+        ],
+        "fixed": "The cat sat on a flat mat.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article."},
+          {"w": "cat", "t": "N", "q": "Find the noun for an animal."},
+          {"w": "sat", "t": "V", "q": "Find the verb."},
+          {"w": "on", "t": "PREP", "q": "Find the preposition."},
+          {"w": "a", "t": "ART", "q": "Find the small article."},
+          {"w": "flat", "t": "ADJ", "q": "Find the adjective describing the mat."},
+          {"w": "mat", "t": "N", "q": "Find the noun for a thing on the floor."}
+        ],
+        "manip": {
+          "task": "Replace the adjective 'flat' with a different describing word.",
+          "word": "flat",
+          "examples": [
+            "The cat sat on a <span class='changed'>tan</span> mat.",
+            "The cat sat on a <span class='changed'>damp</span> mat."
+          ]
+        },
+        "vocab": {
+          "w": "flat",
+          "type": "adjective",
+          "def": "Smooth and level, without bumps.",
+          "simple": "Flat means smooth and even — like a pancake!",
+          "examples": ["a flat mat", "a flat road", "flat land"],
+          "similar": ["smooth", "even", "level"],
+          "antonyms": ["bumpy", "hilly", "rough"],
+          "nonex": ["It does NOT mean thin.", "It does NOT mean soft."],
+          "example": "The cat likes the flat mat on the floor.",
+          "starter": "The _______ is flat because ...",
+          "why": "Flat has the short 'a' sound — reviewing CVC words with short a!"
+        },
+        "ufliLesson": 31,
+        "ufliSkill": "Review (CVC with short a)",
+        "ufliSection": "Complete Alphabet",
+        "phonicsWords": ["cat", "sat", "mat", "flat", "hat", "bat", "map", "cap", "tap", "nap", "van", "wax"],
+        "heartWords": ["the", "on", "a"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "dad had a nap on the mat and the cat sat on his lap",
+        "corr": [
+          {"t": "capitalization", "w": "dad", "r": "Dad", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "nap", "r": "nap", "e": "Nap is spelled correctly — great!"},
+          {"t": "grammar", "w": "had", "r": "had", "e": "Had is correct — nice job!"},
+          {"t": "spelling", "w": "lap", "r": "lap", "e": "Lap is spelled correctly — good!"},
+          {"t": "punctuation", "w": "lap", "r": "lap.", "e": "A sentence must end with a period."}
+        ],
+        "fixed": "Dad had a nap on the mat and the cat sat on his lap.",
+        "pos": [
+          {"w": "Dad", "t": "N", "q": "Find the noun for a parent."},
+          {"w": "had", "t": "V", "q": "Find the first verb."},
+          {"w": "a", "t": "ART", "q": "Find the article."},
+          {"w": "nap", "t": "N", "q": "Find the noun for a short sleep."},
+          {"w": "on", "t": "PREP", "q": "Find the first preposition."},
+          {"w": "the", "t": "ART", "q": "Find the first 'the.'"},
+          {"w": "mat", "t": "N", "q": "Find the noun for a flat thing."},
+          {"w": "and", "t": "CONJ", "q": "Find the joining word."},
+          {"w": "the", "t": "ART", "q": "Find the second 'the.'"},
+          {"w": "cat", "t": "N", "q": "Find the noun for a pet."},
+          {"w": "sat", "t": "V", "q": "Find the second verb."},
+          {"w": "on", "t": "PREP", "q": "Find the second preposition."},
+          {"w": "his", "t": "POSS", "q": "Find the possessive word."},
+          {"w": "lap", "t": "N", "q": "Find the noun — a body part."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'cat' with a different pet.",
+          "word": "cat",
+          "examples": [
+            "Dad had a nap on the mat and the <span class='changed'>rat</span> sat on his lap.",
+            "Dad had a nap on the mat and the <span class='changed'>pup</span> sat on his lap."
+          ]
+        },
+        "vocab": {
+          "w": "nap",
+          "type": "noun",
+          "def": "A short sleep during the day.",
+          "simple": "A nap is when you rest and sleep for just a little while!",
+          "examples": ["an afternoon nap", "a quick nap", "nap time"],
+          "similar": ["rest", "snooze", "doze"],
+          "antonyms": ["wake", "activity"],
+          "nonex": ["It does NOT mean bedtime.", "It does NOT mean sitting quietly."],
+          "example": "Dad took a nap on the mat after lunch.",
+          "starter": "I take a nap when I feel _______ ...",
+          "why": "Nap is a CVC word with the short 'a' sound!"
+        },
+        "ufliLesson": 31,
+        "ufliSkill": "Review (CVC with short a)",
+        "ufliSection": "Complete Alphabet",
+        "phonicsWords": ["dad", "nap", "mat", "cat", "sat", "lap", "had", "hat", "bat", "cap"],
+        "heartWords": ["a", "on", "the", "and", "his"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 32,
+    "sentences": [
+      {
+        "orig": "the keD hid a big geft in the pit",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "keD", "r": "kid", "e": "Kid has the short 'i' sound in the middle."},
+          {"t": "spelling", "w": "geft", "r": "gift", "e": "Gift has the short 'i' sound, not 'e.'"},
+          {"t": "grammar", "w": "hid", "r": "hid", "e": "Hid is correct — good job!"},
+          {"t": "punctuation", "w": "pit", "r": "pit.", "e": "A sentence must end with a period."}
+        ],
+        "fixed": "The kid hid a big gift in the pit.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article."},
+          {"w": "kid", "t": "N", "q": "Find the noun for a child."},
+          {"w": "hid", "t": "V", "q": "Find the verb meaning put out of sight."},
+          {"w": "a", "t": "ART", "q": "Find the small article."},
+          {"w": "big", "t": "ADJ", "q": "Find the adjective."},
+          {"w": "gift", "t": "N", "q": "Find the noun for a present."},
+          {"w": "in", "t": "PREP", "q": "Find the preposition."},
+          {"w": "the", "t": "ART", "q": "Find the second article."},
+          {"w": "pit", "t": "N", "q": "Find the noun for a hole."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'gift' with a different thing to hide.",
+          "word": "gift",
+          "examples": [
+            "The kid hid a big <span class='changed'>fig</span> in the pit.",
+            "The kid hid a big <span class='changed'>kit</span> in the pit."
+          ]
+        },
+        "vocab": {
+          "w": "gift",
+          "type": "noun",
+          "def": "Something you give to someone, like a present.",
+          "simple": "A gift is a present you give to make someone happy!",
+          "examples": ["a birthday gift", "a big gift", "a gift for mom"],
+          "similar": ["present", "surprise", "treat"],
+          "antonyms": [],
+          "nonex": ["It does NOT mean money.", "It does NOT mean a letter."],
+          "example": "The kid hid a gift for his pal.",
+          "starter": "I got a gift that was _______ ...",
+          "why": "Gift has the short 'i' sound — reviewing CVC words with short i!"
+        },
+        "ufliLesson": 32,
+        "ufliSkill": "Review (CVC with short i)",
+        "ufliSection": "Complete Alphabet",
+        "phonicsWords": ["kid", "hid", "big", "gift", "pit", "sit", "fig", "dig", "wig", "zip"],
+        "heartWords": ["the", "a", "in"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "she did a jig and hit the tin lid with a pin",
+        "corr": [
+          {"t": "capitalization", "w": "she", "r": "She", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "jig", "r": "jig", "e": "Jig is spelled correctly — nice!"},
+          {"t": "grammar", "w": "did", "r": "did", "e": "Did is correct — good job!"},
+          {"t": "spelling", "w": "pin", "r": "pin", "e": "Pin is spelled correctly — well done!"},
+          {"t": "punctuation", "w": "pin", "r": "pin.", "e": "A sentence must end with a period."}
+        ],
+        "fixed": "She did a jig and hit the tin lid with a pin.",
+        "pos": [
+          {"w": "She", "t": "PRO", "q": "Find the pronoun."},
+          {"w": "did", "t": "V", "q": "Find the first verb."},
+          {"w": "a", "t": "ART", "q": "Find the first article."},
+          {"w": "jig", "t": "N", "q": "Find the noun for a dance."},
+          {"w": "and", "t": "CONJ", "q": "Find the joining word."},
+          {"w": "hit", "t": "V", "q": "Find the second verb."},
+          {"w": "the", "t": "ART", "q": "Find the article."},
+          {"w": "tin", "t": "ADJ", "q": "Find the adjective describing the lid."},
+          {"w": "lid", "t": "N", "q": "Find the noun for a cover."},
+          {"w": "with", "t": "PREP", "q": "Find the preposition."},
+          {"w": "a", "t": "ART", "q": "Find the second small article."},
+          {"w": "pin", "t": "N", "q": "Find the noun for a sharp thing."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'pin' with a different tool.",
+          "word": "pin",
+          "examples": [
+            "She did a jig and hit the tin lid with a <span class='changed'>bit</span>.",
+            "She did a jig and hit the tin lid with a <span class='changed'>stick</span>."
+          ]
+        },
+        "vocab": {
+          "w": "jig",
+          "type": "noun",
+          "def": "A quick, lively dance.",
+          "simple": "A jig is a fun dance where you hop and skip around!",
+          "examples": ["do a jig", "a happy jig", "dance a jig"],
+          "similar": ["dance", "hop", "skip"],
+          "antonyms": ["still", "freeze"],
+          "nonex": ["It does NOT mean a song.", "It does NOT mean clapping."],
+          "example": "She did a jig when she found the gift.",
+          "starter": "I do a jig when I feel _______ ...",
+          "why": "Jig has the short 'i' sound and starts with 'j'!"
+        },
+        "ufliLesson": 32,
+        "ufliSkill": "Review (CVC with short i)",
+        "ufliSection": "Complete Alphabet",
+        "phonicsWords": ["jig", "hit", "tin", "lid", "pin", "did", "big", "sit", "kid", "dig"],
+        "heartWords": ["she", "a", "and", "the", "with"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 33,
+    "sentences": [
+      {
+        "orig": "the dog got a bon and a mug from the box",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "bon", "r": "bone", "e": "Bone ends with a silent 'e.'"},
+          {"t": "grammar", "w": "got", "r": "got", "e": "Got is correct — nice!"},
+          {"t": "spelling", "w": "mug", "r": "mug", "e": "Mug is spelled correctly — good job!"},
+          {"t": "punctuation", "w": "box", "r": "box.", "e": "A sentence must end with a period."}
+        ],
+        "fixed": "The dog got a bone and a mug from the box.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article."},
+          {"w": "dog", "t": "N", "q": "Find the noun for an animal."},
+          {"w": "got", "t": "V", "q": "Find the verb."},
+          {"w": "a", "t": "ART", "q": "Find the first small article."},
+          {"w": "bone", "t": "N", "q": "Find the noun for something a dog chews."},
+          {"w": "and", "t": "CONJ", "q": "Find the joining word."},
+          {"w": "a", "t": "ART", "q": "Find the second small article."},
+          {"w": "mug", "t": "N", "q": "Find the noun for a cup."},
+          {"w": "from", "t": "PREP", "q": "Find the preposition."},
+          {"w": "the", "t": "ART", "q": "Find the second article."},
+          {"w": "box", "t": "N", "q": "Find the noun for a container."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'mug' with a different thing from the box.",
+          "word": "mug",
+          "examples": [
+            "The dog got a bone and a <span class='changed'>nut</span> from the box.",
+            "The dog got a bone and a <span class='changed'>cup</span> from the box."
+          ]
+        },
+        "vocab": {
+          "w": "tug",
+          "type": "verb",
+          "def": "To pull something hard.",
+          "simple": "Tug means to pull on something with your hands!",
+          "examples": ["tug a rope", "tug on a leash", "give it a tug"],
+          "similar": ["pull", "yank", "drag"],
+          "antonyms": ["push", "shove", "press"],
+          "nonex": ["It does NOT mean to lift.", "It does NOT mean to throw."],
+          "example": "The dog will tug on the box to get the bone.",
+          "starter": "I tug on _______ when ...",
+          "why": "Tug has the short 'u' sound — reviewing short o and u CVC words!"
+        },
+        "ufliLesson": 33,
+        "ufliSkill": "Review (CVC with short o, u)",
+        "ufliSection": "Complete Alphabet",
+        "phonicsWords": ["dog", "got", "box", "mop", "pot", "mug", "tub", "fun", "sun", "bug", "nut", "cup"],
+        "heartWords": ["the", "a", "and", "from"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "the pup dug up a nut and the fox hid in the hut",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "dug", "r": "dug", "e": "Dug is spelled correctly — nice!"},
+          {"t": "grammar", "w": "hid", "r": "hid", "e": "Hid is correct — good job!"},
+          {"t": "spelling", "w": "hut", "r": "hut", "e": "Hut is spelled correctly — great!"},
+          {"t": "punctuation", "w": "hut", "r": "hut.", "e": "A sentence must end with a period."}
+        ],
+        "fixed": "The pup dug up a nut and the fox hid in the hut.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the first article."},
+          {"w": "pup", "t": "N", "q": "Find the noun for a baby dog."},
+          {"w": "dug", "t": "V", "q": "Find the first verb."},
+          {"w": "up", "t": "ADV", "q": "Find the adverb."},
+          {"w": "a", "t": "ART", "q": "Find the small article."},
+          {"w": "nut", "t": "N", "q": "Find the noun for a food."},
+          {"w": "and", "t": "CONJ", "q": "Find the joining word."},
+          {"w": "the", "t": "ART", "q": "Find the second article."},
+          {"w": "fox", "t": "N", "q": "Find the noun for a wild animal."},
+          {"w": "hid", "t": "V", "q": "Find the second verb."},
+          {"w": "in", "t": "PREP", "q": "Find the preposition."},
+          {"w": "the", "t": "ART", "q": "Find the third article."},
+          {"w": "hut", "t": "N", "q": "Find the noun for a small house."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'nut' with a different thing the pup dug up.",
+          "word": "nut",
+          "examples": [
+            "The pup dug up a <span class='changed'>bug</span> and the fox hid in the hut.",
+            "The pup dug up a <span class='changed'>cup</span> and the fox hid in the hut."
+          ]
+        },
+        "vocab": {
+          "w": "hut",
+          "type": "noun",
+          "def": "A small, simple house or shelter.",
+          "simple": "A hut is a tiny house — like a little cabin!",
+          "examples": ["a mud hut", "a small hut", "a hut in the woods"],
+          "similar": ["cabin", "shed", "shelter"],
+          "antonyms": ["mansion", "castle", "palace"],
+          "nonex": ["It does NOT mean a tent.", "It does NOT mean a cave."],
+          "example": "The fox hid in the hut during the rain.",
+          "starter": "I would build a hut with _______ ...",
+          "why": "Hut has the short 'u' sound — reviewing CVC words with short u!"
+        },
+        "ufliLesson": 33,
+        "ufliSkill": "Review (CVC with short o, u)",
+        "ufliSection": "Complete Alphabet",
+        "phonicsWords": ["pup", "dug", "nut", "fox", "hid", "hut", "hot", "mop", "bug", "cup", "fun", "sun"],
+        "heartWords": ["the", "up", "a", "and", "in"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 34,
+    "sentences": [
+      {
+        "orig": "the red hin sat on the nest and the hen pekd",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "hin", "r": "hen", "e": "Hen has the short 'e' sound, not short 'i.'"},
+          {"t": "spelling", "w": "pekd", "r": "pecked", "e": "Pecked is spelled p-e-c-k-e-d."},
+          {"t": "grammar", "w": "sat", "r": "sat", "e": "Sat is correct — nice!"},
+          {"t": "punctuation", "w": "pekd", "r": "pecked.", "e": "A sentence must end with a period."}
+        ],
+        "fixed": "The red hen sat on the nest and the hen pecked.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the first article."},
+          {"w": "red", "t": "ADJ", "q": "Find the color adjective."},
+          {"w": "hen", "t": "N", "q": "Find the first noun for a bird."},
+          {"w": "sat", "t": "V", "q": "Find the first verb."},
+          {"w": "on", "t": "PREP", "q": "Find the preposition."},
+          {"w": "the", "t": "ART", "q": "Find the second article."},
+          {"w": "nest", "t": "N", "q": "Find the noun a bird sits in."},
+          {"w": "and", "t": "CONJ", "q": "Find the joining word."},
+          {"w": "the", "t": "ART", "q": "Find the third article."},
+          {"w": "hen", "t": "N", "q": "Find the second noun for the bird."},
+          {"w": "pecked", "t": "V", "q": "Find the second verb."}
+        ],
+        "manip": {
+          "task": "Replace the adjective 'red' with a different color or describing word.",
+          "word": "red",
+          "examples": [
+            "The <span class='changed'>wet</span> hen sat on the nest and the hen pecked.",
+            "The <span class='changed'>big</span> hen sat on the nest and the hen pecked."
+          ]
+        },
+        "vocab": {
+          "w": "nest",
+          "type": "noun",
+          "def": "A home built by a bird to lay its eggs.",
+          "simple": "A nest is where a bird puts its eggs and babies!",
+          "examples": ["a bird nest", "a cozy nest", "eggs in a nest"],
+          "similar": ["home", "den", "burrow"],
+          "antonyms": [],
+          "nonex": ["It does NOT mean a cage.", "It does NOT mean a tree."],
+          "example": "The hen sat on the nest with her eggs.",
+          "starter": "I saw a nest in _______ ...",
+          "why": "Nest has the short 'e' sound — reviewing CVC words with all vowels!"
+        },
+        "ufliLesson": 34,
+        "ufliSkill": "Review (CVC with short e, mixed)",
+        "ufliSection": "Complete Alphabet",
+        "phonicsWords": ["hen", "red", "nest", "pet", "wet", "bed", "set", "pen", "ten", "net"],
+        "heartWords": ["the", "on", "and"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "the vet set the pet on the bed and the kid fed it a nut",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "vet", "r": "vet", "e": "Vet is spelled correctly — great!"},
+          {"t": "grammar", "w": "fed", "r": "fed", "e": "Fed is correct — nice job!"},
+          {"t": "spelling", "w": "nut", "r": "nut", "e": "Nut is spelled correctly — good work!"},
+          {"t": "punctuation", "w": "nut", "r": "nut.", "e": "A sentence must end with a period."}
+        ],
+        "fixed": "The vet set the pet on the bed and the kid fed it a nut.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the first article."},
+          {"w": "vet", "t": "N", "q": "Find the noun for an animal doctor."},
+          {"w": "set", "t": "V", "q": "Find the first verb."},
+          {"w": "the", "t": "ART", "q": "Find the second article."},
+          {"w": "pet", "t": "N", "q": "Find the noun for an animal."},
+          {"w": "on", "t": "PREP", "q": "Find the preposition."},
+          {"w": "the", "t": "ART", "q": "Find the third article."},
+          {"w": "bed", "t": "N", "q": "Find the noun you sleep on."},
+          {"w": "and", "t": "CONJ", "q": "Find the joining word."},
+          {"w": "the", "t": "ART", "q": "Find the fourth article."},
+          {"w": "kid", "t": "N", "q": "Find the noun for a child."},
+          {"w": "fed", "t": "V", "q": "Find the second verb."},
+          {"w": "it", "t": "PRO", "q": "Find the pronoun."},
+          {"w": "a", "t": "ART", "q": "Find the small article."},
+          {"w": "nut", "t": "N", "q": "Find the noun for a food."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'nut' with a different food.",
+          "word": "nut",
+          "examples": [
+            "The vet set the pet on the bed and the kid fed it a <span class='changed'>fig</span>.",
+            "The vet set the pet on the bed and the kid fed it a <span class='changed'>yam</span>."
+          ]
+        },
+        "vocab": {
+          "w": "vet",
+          "type": "noun",
+          "def": "A doctor who takes care of animals.",
+          "simple": "A vet is a doctor for pets and animals!",
+          "examples": ["go to the vet", "a kind vet", "the vet helped my pet"],
+          "similar": ["doctor", "healer"],
+          "antonyms": [],
+          "nonex": ["It does NOT mean a pet store.", "It does NOT mean a zoo."],
+          "example": "The vet set the pet on the bed to check it.",
+          "starter": "I took my pet to the vet because _______ ...",
+          "why": "Vet has the short 'e' sound — a great review of all our CVC words!"
+        },
+        "ufliLesson": 34,
+        "ufliSkill": "Review (CVC with short e, mixed)",
+        "ufliSection": "Complete Alphabet",
+        "phonicsWords": ["vet", "set", "pet", "bed", "fed", "kid", "nut", "ten", "net", "red"],
+        "heartWords": ["the", "on", "and", "it", "a"],
+        "sentenceType": "application"
+      }
+    ]
+  }
+]

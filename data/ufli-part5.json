@@ -1,0 +1,1046 @@
+[
+  {
+    "day": 119,
+    "sentences": [
+      {
+        "orig": "the cat moved slowlee across the dark room",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "slowlee", "r": "slowly", "e": "Slowly is made by adding -ly to 'slow' — slow + ly."},
+          {"t": "spelling", "w": "across", "r": "across", "e": "Across is spelled correctly — nice work!"},
+          {"t": "grammar", "w": "moved", "r": "crept", "e": "Use 'crept' for a more vivid verb that matches 'slowly.'"},
+          {"t": "punctuation", "w": "room", "r": "room.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The cat crept slowly across the dark room.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "cat", "t": "N", "q": "Find the noun for an animal."},
+          {"w": "crept", "t": "V", "q": "Find the verb for moving quietly."},
+          {"w": "slowly", "t": "ADV", "q": "Find the adverb that tells how the cat moved."},
+          {"w": "across", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'dark.'"},
+          {"w": "dark", "t": "ADJ", "q": "Find the adjective describing the room."},
+          {"w": "room", "t": "N", "q": "Find the noun for a place in a house."}
+        ],
+        "manip": {
+          "task": "Replace the adverb 'slowly' with a different -ly word.",
+          "word": "slowly",
+          "examples": [
+            "The cat crept <span class='changed'>quickly</span> across the dark room.",
+            "The cat crept <span class='changed'>softly</span> across the dark room."
+          ]
+        },
+        "vocab": {
+          "w": "quietly",
+          "type": "adverb",
+          "def": "In a way that makes little or no noise.",
+          "simple": "Quietly means doing something without making much sound!",
+          "examples": ["speak quietly", "walk quietly", "read quietly"],
+          "similar": ["softly", "silently", "gently"],
+          "antonyms": ["loudly", "noisily"],
+          "nonex": ["It does NOT mean you are not moving — it just means you are not making noise."],
+          "example": "The cat quietly crept across the room so no one would hear.",
+          "starter": "I try to move quietly when _______ ...",
+          "why": "The suffix -ly turns the adjective 'quiet' into the adverb 'quietly' — it tells how!"
+        },
+        "ufliLesson": 119,
+        "ufliSkill": "-ly",
+        "ufliSection": "Affixes & Multisyllabic",
+        "phonicsWords": ["slowly", "quickly", "softly", "quietly", "sadly", "gently"],
+        "heartWords": ["the", "across"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "she sang loudlee and brightlee at the school show",
+        "corr": [
+          {"t": "capitalization", "w": "she", "r": "She", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "loudlee", "r": "loudly", "e": "Loudly is spelled loud + ly — drop the 'ee' and use 'ly.'"},
+          {"t": "spelling", "w": "brightlee", "r": "brightly", "e": "Brightly is spelled bright + ly — just add -ly to the adjective."},
+          {"t": "grammar", "w": "sang", "r": "sang", "e": "Sang is the correct past tense of 'sing' — great job!"},
+          {"t": "punctuation", "w": "show", "r": "show.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "She sang loudly and brightly at the school show.",
+        "pos": [
+          {"w": "She", "t": "PRO", "q": "Find the pronoun for a girl."},
+          {"w": "sang", "t": "V", "q": "Find the verb for making music with your voice."},
+          {"w": "loudly", "t": "ADV", "q": "Find the adverb that tells how she sang."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction joining two adverbs."},
+          {"w": "brightly", "t": "ADV", "q": "Find the adverb meaning 'in a bright way.'"},
+          {"w": "at", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'school.'"},
+          {"w": "school", "t": "N", "q": "Find the noun for a place of learning."},
+          {"w": "show", "t": "N", "q": "Find the noun for a performance."}
+        ],
+        "manip": {
+          "task": "Replace the adverb 'loudly' with a different -ly word.",
+          "word": "loudly",
+          "examples": [
+            "She sang <span class='changed'>sweetly</span> and brightly at the school show.",
+            "She sang <span class='changed'>happily</span> and brightly at the school show."
+          ]
+        },
+        "vocab": {
+          "w": "brightly",
+          "type": "adverb",
+          "def": "In a way that gives off a lot of light or color.",
+          "simple": "Brightly means in a shining, colorful way!",
+          "examples": ["shine brightly", "smile brightly", "glow brightly"],
+          "similar": ["vividly", "brilliantly", "radiantly"],
+          "antonyms": ["dimly", "darkly"],
+          "nonex": ["It does NOT mean just being happy — it describes light or color."],
+          "example": "The stars shone brightly in the night sky.",
+          "starter": "Something that shines brightly is _______ ...",
+          "why": "The suffix -ly turns the adjective 'bright' into an adverb that tells how!"
+        },
+        "ufliLesson": 119,
+        "ufliSkill": "-ly",
+        "ufliSection": "Affixes & Multisyllabic",
+        "phonicsWords": ["loudly", "brightly", "sweetly", "happily", "kindly", "safely"],
+        "heartWords": ["she", "and", "at", "the"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 120,
+    "sentences": [
+      {
+        "orig": "my dog is biger and faser than your cat",
+        "corr": [
+          {"t": "capitalization", "w": "my", "r": "My", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "biger", "r": "bigger", "e": "When adding -er to a short vowel word, double the last consonant — big becomes bigger."},
+          {"t": "spelling", "w": "faser", "r": "faster", "e": "Faster is spelled fast + er — no doubling needed because 'st' is two consonants."},
+          {"t": "grammar", "w": "your", "r": "your", "e": "Your is the correct possessive pronoun — nice work!"},
+          {"t": "punctuation", "w": "cat", "r": "cat.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "My dog is bigger and faster than your cat.",
+        "pos": [
+          {"w": "My", "t": "POSS", "q": "Find the possessive word at the start."},
+          {"w": "dog", "t": "N", "q": "Find the noun for a pet animal."},
+          {"w": "is", "t": "V", "q": "Find the linking verb."},
+          {"w": "bigger", "t": "ADJ", "q": "Find the comparative adjective for size."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction joining two adjectives."},
+          {"w": "faster", "t": "ADJ", "q": "Find the comparative adjective for speed."},
+          {"w": "than", "t": "SUBCONJ", "q": "Find the word used to compare two things."},
+          {"w": "your", "t": "POSS", "q": "Find the possessive word before 'cat.'"},
+          {"w": "cat", "t": "N", "q": "Find the noun for another pet animal."}
+        ],
+        "manip": {
+          "task": "Replace the adjective 'bigger' with a different -er comparative word.",
+          "word": "bigger",
+          "examples": [
+            "My dog is <span class='changed'>taller</span> and faster than your cat.",
+            "My dog is <span class='changed'>stronger</span> and faster than your cat."
+          ]
+        },
+        "vocab": {
+          "w": "stronger",
+          "type": "adjective",
+          "def": "Having more power or force than something else.",
+          "simple": "Stronger means having more muscle or power than another thing!",
+          "examples": ["a stronger grip", "a stronger wind", "a stronger team"],
+          "similar": ["tougher", "mightier", "more powerful"],
+          "antonyms": ["weaker", "feebler"],
+          "nonex": ["It does NOT always mean bigger — a small ant can be stronger than you think!"],
+          "example": "My dog is stronger than the puppy next door.",
+          "starter": "I am stronger than _______ ...",
+          "why": "The suffix -er means 'more' when comparing two things — stronger means more strong!"
+        },
+        "ufliLesson": 120,
+        "ufliSkill": "-er (comparative)",
+        "ufliSection": "Affixes & Multisyllabic",
+        "phonicsWords": ["bigger", "faster", "taller", "stronger", "longer", "wider"],
+        "heartWords": ["my", "is", "and", "than", "your"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "the older boy ran quiker to the finish line",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "quiker", "r": "quicker", "e": "When adding -er to 'quick,' keep the 'ck' — quick + er = quicker."},
+          {"t": "spelling", "w": "older", "r": "older", "e": "Older is spelled correctly — old + er. Great job!"},
+          {"t": "grammar", "w": "ran", "r": "ran", "e": "Ran is the correct past tense of 'run' — well done!"},
+          {"t": "punctuation", "w": "line", "r": "line.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The older boy ran quicker to the finish line.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "older", "t": "ADJ", "q": "Find the comparative adjective for age."},
+          {"w": "boy", "t": "N", "q": "Find the noun for a young male."},
+          {"w": "ran", "t": "V", "q": "Find the verb for moving fast."},
+          {"w": "quicker", "t": "ADV", "q": "Find the comparative word that tells how he ran."},
+          {"w": "to", "t": "PREP", "q": "Find the preposition that tells direction."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'finish.'"},
+          {"w": "finish", "t": "ADJ", "q": "Find the word describing the type of line."},
+          {"w": "line", "t": "N", "q": "Find the noun at the end."}
+        ],
+        "manip": {
+          "task": "Replace the word 'quicker' with a different -er word.",
+          "word": "quicker",
+          "examples": [
+            "The older boy ran <span class='changed'>faster</span> to the finish line.",
+            "The older boy ran <span class='changed'>harder</span> to the finish line."
+          ]
+        },
+        "vocab": {
+          "w": "quicker",
+          "type": "adjective",
+          "def": "Moving or happening with more speed than something else.",
+          "simple": "Quicker means faster — doing something in less time!",
+          "examples": ["a quicker route", "a quicker runner", "a quicker answer"],
+          "similar": ["faster", "speedier", "swifter"],
+          "antonyms": ["slower"],
+          "nonex": ["It does NOT mean better — quicker just means with more speed."],
+          "example": "She found a quicker way to get to school each morning.",
+          "starter": "A quicker way to do something is _______ ...",
+          "why": "The suffix -er compares two things — quicker means more quick!"
+        },
+        "ufliLesson": 120,
+        "ufliSkill": "-er (comparative)",
+        "ufliSection": "Affixes & Multisyllabic",
+        "phonicsWords": ["quicker", "older", "faster", "harder", "louder", "newer"],
+        "heartWords": ["the", "to"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 121,
+    "sentences": [
+      {
+        "orig": "that was the bigest and talest tree in the park",
+        "corr": [
+          {"t": "capitalization", "w": "that", "r": "That", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "bigest", "r": "biggest", "e": "When adding -est to a short vowel word, double the last consonant — big becomes biggest."},
+          {"t": "spelling", "w": "talest", "r": "tallest", "e": "Tallest keeps the double 'l' from tall — tall + est."},
+          {"t": "grammar", "w": "was", "r": "was", "e": "Was is the correct past tense linking verb — good job!"},
+          {"t": "punctuation", "w": "park", "r": "park.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "That was the biggest and tallest tree in the park.",
+        "pos": [
+          {"w": "That", "t": "PRO", "q": "Find the pronoun pointing to something."},
+          {"w": "was", "t": "V", "q": "Find the linking verb."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'biggest.'"},
+          {"w": "biggest", "t": "ADJ", "q": "Find the superlative adjective for size."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction joining two adjectives."},
+          {"w": "tallest", "t": "ADJ", "q": "Find the superlative adjective for height."},
+          {"w": "tree", "t": "N", "q": "Find the noun for a plant."},
+          {"w": "in", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'park.'"},
+          {"w": "park", "t": "N", "q": "Find the noun for a place to play."}
+        ],
+        "manip": {
+          "task": "Replace the adjective 'biggest' with a different -est word.",
+          "word": "biggest",
+          "examples": [
+            "That was the <span class='changed'>oldest</span> and tallest tree in the park.",
+            "That was the <span class='changed'>widest</span> and tallest tree in the park."
+          ]
+        },
+        "vocab": {
+          "w": "tallest",
+          "type": "adjective",
+          "def": "Having the greatest height compared to all others in a group.",
+          "simple": "Tallest means the one that goes up the highest!",
+          "examples": ["the tallest building", "the tallest student", "the tallest mountain"],
+          "similar": ["highest", "loftiest"],
+          "antonyms": ["shortest", "smallest"],
+          "nonex": ["It does NOT mean the best — tallest only tells about height."],
+          "example": "The tallest tree in the park was over one hundred years old.",
+          "starter": "The tallest thing I have seen is _______ ...",
+          "why": "The suffix -est means 'the most' when comparing three or more things!"
+        },
+        "ufliLesson": 121,
+        "ufliSkill": "-est (superlative)",
+        "ufliSection": "Affixes & Multisyllabic",
+        "phonicsWords": ["biggest", "tallest", "fastest", "oldest", "widest", "longest"],
+        "heartWords": ["that", "was", "the", "and", "in"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "she is the smartist and kindest girl in our class",
+        "corr": [
+          {"t": "capitalization", "w": "she", "r": "She", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "smartist", "r": "smartest", "e": "Smartest is spelled smart + est — use 'e' not 'i.'"},
+          {"t": "spelling", "w": "kindest", "r": "kindest", "e": "Kindest is spelled correctly — kind + est. Well done!"},
+          {"t": "grammar", "w": "girl", "r": "student", "e": "Use 'student' for a more inclusive word."},
+          {"t": "punctuation", "w": "class", "r": "class.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "She is the smartest and kindest student in our class.",
+        "pos": [
+          {"w": "She", "t": "PRO", "q": "Find the pronoun for a girl."},
+          {"w": "is", "t": "V", "q": "Find the linking verb."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'smartest.'"},
+          {"w": "smartest", "t": "ADJ", "q": "Find the superlative adjective for intelligence."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction joining two adjectives."},
+          {"w": "kindest", "t": "ADJ", "q": "Find the superlative adjective for being nice."},
+          {"w": "student", "t": "N", "q": "Find the noun for a person in school."},
+          {"w": "in", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "our", "t": "POSS", "q": "Find the possessive word before 'class.'"},
+          {"w": "class", "t": "N", "q": "Find the noun for a group of students."}
+        ],
+        "manip": {
+          "task": "Replace the adjective 'smartest' with a different -est word.",
+          "word": "smartest",
+          "examples": [
+            "She is the <span class='changed'>bravest</span> and kindest student in our class.",
+            "She is the <span class='changed'>nicest</span> and kindest student in our class."
+          ]
+        },
+        "vocab": {
+          "w": "kindest",
+          "type": "adjective",
+          "def": "The most kind; showing the greatest care and gentleness toward others.",
+          "simple": "Kindest means the nicest and most caring of everyone!",
+          "examples": ["the kindest friend", "the kindest teacher", "the kindest act"],
+          "similar": ["nicest", "gentlest", "sweetest"],
+          "antonyms": ["meanest", "cruelest"],
+          "nonex": ["It does NOT mean the quietest — kindest is about how you treat others."],
+          "example": "She was the kindest student because she always helped her friends.",
+          "starter": "The kindest person I know is _______ ...",
+          "why": "The suffix -est compares three or more — kindest means the most kind of all!"
+        },
+        "ufliLesson": 121,
+        "ufliSkill": "-est (superlative)",
+        "ufliSection": "Affixes & Multisyllabic",
+        "phonicsWords": ["smartest", "kindest", "bravest", "nicest", "strongest", "loudest"],
+        "heartWords": ["she", "is", "the", "and", "in", "our"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 122,
+    "sentences": [
+      {
+        "orig": "her kindnes brought happyness to the sad child",
+        "corr": [
+          {"t": "capitalization", "w": "her", "r": "Her", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "kindnes", "r": "kindness", "e": "Kindness has a double 's' — kind + ness."},
+          {"t": "spelling", "w": "happyness", "r": "happiness", "e": "When adding -ness to a word ending in 'y,' change the 'y' to 'i' — happiness."},
+          {"t": "grammar", "w": "sad", "r": "lonely", "e": "Use 'lonely' for a more descriptive adjective."},
+          {"t": "punctuation", "w": "child", "r": "child.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "Her kindness brought happiness to the lonely child.",
+        "pos": [
+          {"w": "Her", "t": "POSS", "q": "Find the possessive word at the start."},
+          {"w": "kindness", "t": "N", "q": "Find the noun made from the adjective 'kind.'"},
+          {"w": "brought", "t": "V", "q": "Find the verb meaning 'gave.'"},
+          {"w": "happiness", "t": "N", "q": "Find the noun made from the adjective 'happy.'"},
+          {"w": "to", "t": "PREP", "q": "Find the preposition that tells direction."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'lonely.'"},
+          {"w": "lonely", "t": "ADJ", "q": "Find the adjective describing the child."},
+          {"w": "child", "t": "N", "q": "Find the noun for a young person."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'kindness' with a different -ness word.",
+          "word": "kindness",
+          "examples": [
+            "Her <span class='changed'>goodness</span> brought happiness to the lonely child.",
+            "Her <span class='changed'>sweetness</span> brought happiness to the lonely child."
+          ]
+        },
+        "vocab": {
+          "w": "kindness",
+          "type": "noun",
+          "def": "The quality of being friendly, generous, and considerate.",
+          "simple": "Kindness means being nice and caring about other people!",
+          "examples": ["an act of kindness", "show kindness", "spread kindness"],
+          "similar": ["gentleness", "goodness", "warmth"],
+          "antonyms": ["cruelty", "meanness"],
+          "nonex": ["It does NOT mean being weak — kindness takes real strength."],
+          "example": "Her kindness made everyone in the classroom feel welcome.",
+          "starter": "I can show kindness by _______ ...",
+          "why": "The suffix -ness turns the adjective 'kind' into a noun — it names the quality!"
+        },
+        "ufliLesson": 122,
+        "ufliSkill": "-ness",
+        "ufliSection": "Affixes & Multisyllabic",
+        "phonicsWords": ["kindness", "happiness", "sadness", "darkness", "goodness", "sweetness"],
+        "heartWords": ["her", "to", "the"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "the darknes of the cave filled them with sadnes and weakness",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "darknes", "r": "darkness", "e": "Darkness has a double 's' — dark + ness."},
+          {"t": "spelling", "w": "sadnes", "r": "sadness", "e": "Sadness has a double 's' — sad + ness."},
+          {"t": "grammar", "w": "them", "r": "them", "e": "Them is the correct object pronoun here — good work!"},
+          {"t": "punctuation", "w": "weakness", "r": "weakness.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The darkness of the cave filled them with sadness and weakness.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "darkness", "t": "N", "q": "Find the -ness noun meaning 'the state of being dark.'"},
+          {"w": "of", "t": "PREP", "q": "Find the preposition after 'darkness.'"},
+          {"w": "the", "t": "ART", "q": "Find the article before 'cave.'"},
+          {"w": "cave", "t": "N", "q": "Find the noun for a hollow space in rock."},
+          {"w": "filled", "t": "V", "q": "Find the verb meaning 'made full of.'"},
+          {"w": "them", "t": "PRO", "q": "Find the object pronoun."},
+          {"w": "with", "t": "PREP", "q": "Find the preposition before 'sadness.'"},
+          {"w": "sadness", "t": "N", "q": "Find the -ness noun meaning 'the state of being sad.'"},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction joining two nouns."},
+          {"w": "weakness", "t": "N", "q": "Find the -ness noun meaning 'the state of being weak.'"}
+        ],
+        "manip": {
+          "task": "Replace the noun 'sadness' with a different -ness word.",
+          "word": "sadness",
+          "examples": [
+            "The darkness of the cave filled them with <span class='changed'>illness</span> and weakness.",
+            "The darkness of the cave filled them with <span class='changed'>loneliness</span> and weakness."
+          ]
+        },
+        "vocab": {
+          "w": "darkness",
+          "type": "noun",
+          "def": "The absence of light; the state of being dark.",
+          "simple": "Darkness means there is no light at all — it is very dark!",
+          "examples": ["total darkness", "fear of darkness", "darkness at night"],
+          "similar": ["blackness", "gloom", "shadow"],
+          "antonyms": ["brightness", "light"],
+          "nonex": ["It does NOT always mean something scary — darkness is just no light."],
+          "example": "The darkness of the cave made it hard to see the path.",
+          "starter": "I see darkness when _______ ...",
+          "why": "The suffix -ness turns the adjective 'dark' into a noun — darkness is the state of being dark!"
+        },
+        "ufliLesson": 122,
+        "ufliSkill": "-ness",
+        "ufliSection": "Affixes & Multisyllabic",
+        "phonicsWords": ["darkness", "sadness", "weakness", "illness", "loneliness", "boldness"],
+        "heartWords": ["the", "of", "them", "with", "and"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 123,
+    "sentences": [
+      {
+        "orig": "the book was readible and very enjoyabel for kids",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "readible", "r": "readable", "e": "Readable uses the suffix -able, not -ible — read + able."},
+          {"t": "spelling", "w": "enjoyabel", "r": "enjoyable", "e": "Enjoyable ends with -able — enjoy + able."},
+          {"t": "grammar", "w": "kids", "r": "children", "e": "Use 'children' for more formal writing."},
+          {"t": "punctuation", "w": "kids", "r": "children.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The book was readable and very enjoyable for children.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "book", "t": "N", "q": "Find the noun for something you read."},
+          {"w": "was", "t": "V", "q": "Find the linking verb."},
+          {"w": "readable", "t": "ADJ", "q": "Find the adjective meaning 'able to be read.'"},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction joining two ideas."},
+          {"w": "very", "t": "ADV", "q": "Find the adverb that makes 'enjoyable' stronger."},
+          {"w": "enjoyable", "t": "ADJ", "q": "Find the adjective meaning 'able to be enjoyed.'"},
+          {"w": "for", "t": "PREP", "q": "Find the preposition that tells who."},
+          {"w": "children", "t": "N", "q": "Find the noun for young people."}
+        ],
+        "manip": {
+          "task": "Replace the adjective 'readable' with a different -able/-ible word.",
+          "word": "readable",
+          "examples": [
+            "The book was <span class='changed'>lovable</span> and very enjoyable for children.",
+            "The book was <span class='changed'>incredible</span> and very enjoyable for children."
+          ]
+        },
+        "vocab": {
+          "w": "enjoyable",
+          "type": "adjective",
+          "def": "Pleasant and giving pleasure or satisfaction.",
+          "simple": "Enjoyable means something is fun and makes you happy!",
+          "examples": ["an enjoyable trip", "an enjoyable game", "an enjoyable story"],
+          "similar": ["fun", "pleasant", "delightful"],
+          "antonyms": ["boring", "unpleasant"],
+          "nonex": ["It does NOT mean easy — some hard things can still be enjoyable!"],
+          "example": "Reading the new book was enjoyable because the story was so exciting.",
+          "starter": "Something I find enjoyable is _______ ...",
+          "why": "The suffix -able means 'able to be' — enjoyable means able to be enjoyed!"
+        },
+        "ufliLesson": 123,
+        "ufliSkill": "-able/-ible",
+        "ufliSection": "Affixes & Multisyllabic",
+        "phonicsWords": ["readable", "enjoyable", "breakable", "flexible", "lovable", "incredible"],
+        "heartWords": ["the", "was", "and", "very", "for"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "the bendable straw was washeble and very flexable",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "washeble", "r": "washable", "e": "Washable uses the suffix -able — wash + able."},
+          {"t": "spelling", "w": "flexable", "r": "flexible", "e": "Flexible uses the suffix -ible, not -able — this is a tricky one!"},
+          {"t": "grammar", "w": "bendable", "r": "bendable", "e": "Bendable is correct — bend + able. Nice work!"},
+          {"t": "punctuation", "w": "flexable", "r": "flexible.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The bendable straw was washable and very flexible.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "bendable", "t": "ADJ", "q": "Find the adjective meaning 'able to be bent.'"},
+          {"w": "straw", "t": "N", "q": "Find the noun for a tube used for drinking."},
+          {"w": "was", "t": "V", "q": "Find the linking verb."},
+          {"w": "washable", "t": "ADJ", "q": "Find the adjective meaning 'able to be washed.'"},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction joining two ideas."},
+          {"w": "very", "t": "ADV", "q": "Find the adverb that makes 'flexible' stronger."},
+          {"w": "flexible", "t": "ADJ", "q": "Find the adjective meaning 'able to bend easily.'"}
+        ],
+        "manip": {
+          "task": "Replace the adjective 'washable' with a different -able/-ible word.",
+          "word": "washable",
+          "examples": [
+            "The bendable straw was <span class='changed'>reusable</span> and very flexible.",
+            "The bendable straw was <span class='changed'>comfortable</span> and very flexible."
+          ]
+        },
+        "vocab": {
+          "w": "flexible",
+          "type": "adjective",
+          "def": "Able to bend easily without breaking.",
+          "simple": "Flexible means it can bend and move without breaking!",
+          "examples": ["a flexible ruler", "a flexible body", "a flexible schedule"],
+          "similar": ["bendable", "stretchy", "supple"],
+          "antonyms": ["rigid", "stiff"],
+          "nonex": ["It does NOT mean weak — flexible things are strong AND can bend."],
+          "example": "The flexible straw could bend in any direction without breaking.",
+          "starter": "Something that is flexible is _______ ...",
+          "why": "The suffix -ible means 'able to be' — flexible means able to flex or bend!"
+        },
+        "ufliLesson": 123,
+        "ufliSkill": "-able/-ible",
+        "ufliSection": "Affixes & Multisyllabic",
+        "phonicsWords": ["bendable", "washable", "flexible", "reusable", "comfortable", "possible"],
+        "heartWords": ["the", "was", "and", "very"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 124,
+    "sentences": [
+      {
+        "orig": "the excitment of the trip caused a lot of movment and joy",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "excitment", "r": "excitement", "e": "Excitement keeps the 'e' before -ment — excite + ment."},
+          {"t": "spelling", "w": "movment", "r": "movement", "e": "Movement keeps the 'e' before -ment — move + ment."},
+          {"t": "grammar", "w": "a lot of", "r": "much", "e": "Use 'much' instead of 'a lot of' for cleaner writing."},
+          {"t": "punctuation", "w": "joy", "r": "joy.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The excitement of the trip caused much movement and joy.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "excitement", "t": "N", "q": "Find the -ment noun meaning 'a state of being excited.'"},
+          {"w": "of", "t": "PREP", "q": "Find the preposition after 'excitement.'"},
+          {"w": "the", "t": "ART", "q": "Find the article before 'trip.'"},
+          {"w": "trip", "t": "N", "q": "Find the noun for a journey."},
+          {"w": "caused", "t": "V", "q": "Find the verb meaning 'made happen.'"},
+          {"w": "much", "t": "ADJ", "q": "Find the word that tells how much."},
+          {"w": "movement", "t": "N", "q": "Find the -ment noun meaning 'the act of moving.'"},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction joining two nouns."},
+          {"w": "joy", "t": "N", "q": "Find the noun meaning 'happiness.'"}
+        ],
+        "manip": {
+          "task": "Replace the noun 'excitement' with a different -ment word.",
+          "word": "excitement",
+          "examples": [
+            "The <span class='changed'>enjoyment</span> of the trip caused much movement and joy.",
+            "The <span class='changed'>amazement</span> of the trip caused much movement and joy."
+          ]
+        },
+        "vocab": {
+          "w": "excitement",
+          "type": "noun",
+          "def": "A feeling of great enthusiasm and eagerness.",
+          "simple": "Excitement is the bubbly, happy feeling you get when something fun is happening!",
+          "examples": ["full of excitement", "shout with excitement", "feel excitement"],
+          "similar": ["thrill", "enthusiasm", "eagerness"],
+          "antonyms": ["boredom", "calmness"],
+          "nonex": ["It does NOT mean being scared — excitement is a happy, eager feeling."],
+          "example": "The excitement of the field trip made all the students smile.",
+          "starter": "I feel excitement when _______ ...",
+          "why": "The suffix -ment turns the verb 'excite' into a noun — it names the feeling!"
+        },
+        "ufliLesson": 124,
+        "ufliSkill": "-ment",
+        "ufliSection": "Affixes & Multisyllabic",
+        "phonicsWords": ["excitement", "movement", "enjoyment", "amazement", "treatment", "statement"],
+        "heartWords": ["the", "of", "and"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "the treament at the hospital was an improvment for his health",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "treament", "r": "treatment", "e": "Treatment keeps the 't' — treat + ment."},
+          {"t": "spelling", "w": "improvment", "r": "improvement", "e": "Improvement keeps the 'e' before -ment — improve + ment."},
+          {"t": "grammar", "w": "his", "r": "her", "e": "Use 'her' to match the female patient in the story."},
+          {"t": "punctuation", "w": "health", "r": "health.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The treatment at the hospital was an improvement for her health.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "treatment", "t": "N", "q": "Find the -ment noun meaning 'the act of treating.'"},
+          {"w": "at", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'hospital.'"},
+          {"w": "hospital", "t": "N", "q": "Find the noun for a place where sick people go."},
+          {"w": "was", "t": "V", "q": "Find the linking verb."},
+          {"w": "an", "t": "ART", "q": "Find the article before 'improvement.'"},
+          {"w": "improvement", "t": "N", "q": "Find the -ment noun meaning 'getting better.'"},
+          {"w": "for", "t": "PREP", "q": "Find the preposition before 'her.'"},
+          {"w": "her", "t": "POSS", "q": "Find the possessive word before 'health.'"},
+          {"w": "health", "t": "N", "q": "Find the noun meaning 'how well your body works.'"}
+        ],
+        "manip": {
+          "task": "Replace the noun 'treatment' with a different -ment word.",
+          "word": "treatment",
+          "examples": [
+            "The <span class='changed'>adjustment</span> at the hospital was an improvement for her health.",
+            "The <span class='changed'>assessment</span> at the hospital was an improvement for her health."
+          ]
+        },
+        "vocab": {
+          "w": "improvement",
+          "type": "noun",
+          "def": "The process of making something better or becoming better.",
+          "simple": "Improvement means something is getting better than it was before!",
+          "examples": ["a big improvement", "room for improvement", "show improvement"],
+          "similar": ["progress", "advancement", "growth"],
+          "antonyms": ["decline", "worsening"],
+          "nonex": ["It does NOT mean it is perfect now — improvement means it is better than before."],
+          "example": "The doctor saw a big improvement in her health after the treatment.",
+          "starter": "I have made an improvement in _______ ...",
+          "why": "The suffix -ment turns the verb 'improve' into a noun — it names the change!"
+        },
+        "ufliLesson": 124,
+        "ufliSkill": "-ment",
+        "ufliSection": "Affixes & Multisyllabic",
+        "phonicsWords": ["treatment", "improvement", "adjustment", "assessment", "agreement", "replacement"],
+        "heartWords": ["the", "at", "was", "an", "for"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 125,
+    "sentences": [
+      {
+        "orig": "the cheerful singer moved gracfulee across the stage",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "gracfulee", "r": "gracefully", "e": "Gracefully adds both -ful and -ly to grace — grace + ful + ly."},
+          {"t": "spelling", "w": "cheerful", "r": "cheerful", "e": "Cheerful is spelled correctly — cheer + ful. Great job!"},
+          {"t": "grammar", "w": "moved", "r": "danced", "e": "Use 'danced' for a more vivid verb on stage."},
+          {"t": "punctuation", "w": "stage", "r": "stage.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The cheerful singer danced gracefully across the stage.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "cheerful", "t": "ADJ", "q": "Find the adjective with the suffix -ful."},
+          {"w": "singer", "t": "N", "q": "Find the noun with the suffix -er."},
+          {"w": "danced", "t": "V", "q": "Find the verb for moving to music."},
+          {"w": "gracefully", "t": "ADV", "q": "Find the adverb with the suffix -ly."},
+          {"w": "across", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'stage.'"},
+          {"w": "stage", "t": "N", "q": "Find the noun for a place to perform."}
+        ],
+        "manip": {
+          "task": "Replace the adverb 'gracefully' with a different suffix word (-ly, -ful, -less, -ness, or -ment).",
+          "word": "gracefully",
+          "examples": [
+            "The cheerful singer danced <span class='changed'>joyfully</span> across the stage.",
+            "The cheerful singer danced <span class='changed'>beautifully</span> across the stage."
+          ]
+        },
+        "vocab": {
+          "w": "gracefully",
+          "type": "adverb",
+          "def": "In a smooth and elegant way.",
+          "simple": "Gracefully means moving in a beautiful, smooth way!",
+          "examples": ["move gracefully", "dance gracefully", "swim gracefully"],
+          "similar": ["elegantly", "smoothly", "beautifully"],
+          "antonyms": ["clumsily", "awkwardly"],
+          "nonex": ["It does NOT mean slowly — you can move gracefully and still be fast."],
+          "example": "The ballet dancer moved gracefully across the stage.",
+          "starter": "I can move gracefully when _______ ...",
+          "why": "Gracefully has TWO suffixes: grace + ful + ly. Suffixes can stack!"
+        },
+        "ufliLesson": 125,
+        "ufliSkill": "Suffix Review",
+        "ufliSection": "Affixes & Multisyllabic",
+        "phonicsWords": ["gracefully", "cheerful", "singer", "darkness", "excitement", "readable"],
+        "heartWords": ["the", "across"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "her hapyness and excitment grew with each enjoyabel moment",
+        "corr": [
+          {"t": "capitalization", "w": "her", "r": "Her", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "hapyness", "r": "happiness", "e": "Change the 'y' to 'i' before adding -ness — happy becomes happiness."},
+          {"t": "spelling", "w": "excitment", "r": "excitement", "e": "Excitement keeps the 'e' — excite + ment."},
+          {"t": "grammar", "w": "enjoyabel", "r": "enjoyable", "e": "Enjoyable uses the suffix -able — enjoy + able."},
+          {"t": "punctuation", "w": "moment", "r": "moment.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "Her happiness and excitement grew with each enjoyable moment.",
+        "pos": [
+          {"w": "Her", "t": "POSS", "q": "Find the possessive word at the start."},
+          {"w": "happiness", "t": "N", "q": "Find the noun with the suffix -ness."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction joining two nouns."},
+          {"w": "excitement", "t": "N", "q": "Find the noun with the suffix -ment."},
+          {"w": "grew", "t": "V", "q": "Find the verb meaning 'got bigger.'"},
+          {"w": "with", "t": "PREP", "q": "Find the preposition before 'each.'"},
+          {"w": "each", "t": "ADJ", "q": "Find the word meaning 'every.'"},
+          {"w": "enjoyable", "t": "ADJ", "q": "Find the adjective with the suffix -able."},
+          {"w": "moment", "t": "N", "q": "Find the noun meaning 'a short time.'"}
+        ],
+        "manip": {
+          "task": "Replace the noun 'happiness' with a different suffix word (-ness, -ment, -ful, -less, or -ly).",
+          "word": "happiness",
+          "examples": [
+            "Her <span class='changed'>amazement</span> and excitement grew with each enjoyable moment.",
+            "Her <span class='changed'>thankfulness</span> and excitement grew with each enjoyable moment."
+          ]
+        },
+        "vocab": {
+          "w": "enjoyable",
+          "type": "adjective",
+          "def": "Giving pleasure; pleasant and fun to do.",
+          "simple": "Enjoyable means something that makes you happy and is fun!",
+          "examples": ["an enjoyable day", "an enjoyable book", "an enjoyable meal"],
+          "similar": ["pleasant", "fun", "delightful"],
+          "antonyms": ["boring", "unpleasant", "dull"],
+          "nonex": ["It does NOT mean the same as easy — hard things can be enjoyable too!"],
+          "example": "Each enjoyable moment at the festival filled her with happiness.",
+          "starter": "The most enjoyable part of my day is _______ ...",
+          "why": "This sentence reviews many suffixes: -ness, -ment, -able, and more!"
+        },
+        "ufliLesson": 125,
+        "ufliSkill": "Suffix Review",
+        "ufliSection": "Affixes & Multisyllabic",
+        "phonicsWords": ["happiness", "excitement", "enjoyable", "thankfulness", "amazement", "cheerfully"],
+        "heartWords": ["her", "and", "with", "each"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 126,
+    "sentences": [
+      {
+        "orig": "the sunshne came through the window of the classroom",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "sunshne", "r": "sunshine", "e": "Sunshine is a compound word: sun + shine."},
+          {"t": "spelling", "w": "through", "r": "through", "e": "Through is spelled correctly — great job with this tricky word!"},
+          {"t": "grammar", "w": "came", "r": "streamed", "e": "Use 'streamed' to paint a clearer picture of light."},
+          {"t": "punctuation", "w": "classroom", "r": "classroom.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The sunshine streamed through the window of the classroom.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "sunshine", "t": "N", "q": "Find the compound noun made of sun + shine."},
+          {"w": "streamed", "t": "V", "q": "Find the verb for light flowing in."},
+          {"w": "through", "t": "PREP", "q": "Find the preposition that tells the path."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'window.'"},
+          {"w": "window", "t": "N", "q": "Find the noun for an opening in a wall."},
+          {"w": "of", "t": "PREP", "q": "Find the preposition after 'window.'"},
+          {"w": "the", "t": "ART", "q": "Find the article before 'classroom.'"},
+          {"w": "classroom", "t": "N", "q": "Find the compound noun made of class + room."}
+        ],
+        "manip": {
+          "task": "Replace the compound word 'sunshine' with a different compound word.",
+          "word": "sunshine",
+          "examples": [
+            "The <span class='changed'>moonlight</span> streamed through the window of the classroom.",
+            "The <span class='changed'>starlight</span> streamed through the window of the classroom."
+          ]
+        },
+        "vocab": {
+          "w": "sunshine",
+          "type": "noun",
+          "def": "The light and warmth that comes from the sun.",
+          "simple": "Sunshine is the bright, warm light from the sun!",
+          "examples": ["bright sunshine", "warm sunshine", "enjoy the sunshine"],
+          "similar": ["sunlight", "daylight", "rays"],
+          "antonyms": ["darkness", "shade", "shadow"],
+          "nonex": ["It does NOT mean it is hot — you can have sunshine on a cold day."],
+          "example": "The sunshine streamed through the window and warmed the whole classroom.",
+          "starter": "I love to play in the sunshine when _______ ...",
+          "why": "Sunshine is a compound word — two smaller words join to make a new meaning: sun + shine!"
+        },
+        "ufliLesson": 126,
+        "ufliSkill": "Compound Words",
+        "ufliSection": "Affixes & Multisyllabic",
+        "phonicsWords": ["sunshine", "classroom", "moonlight", "notebook", "playground", "rainbow"],
+        "heartWords": ["the", "through", "of"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "we played on the playgroud and wrote in our notebooks after lunch",
+        "corr": [
+          {"t": "capitalization", "w": "we", "r": "We", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "playgroud", "r": "playground", "e": "Playground is a compound word: play + ground. Don't forget the 'n.'"},
+          {"t": "spelling", "w": "notebooks", "r": "notebooks", "e": "Notebooks is spelled correctly — note + books. Nice compound word!"},
+          {"t": "grammar", "w": "wrote", "r": "wrote", "e": "Wrote is the correct past tense of 'write' — well done!"},
+          {"t": "punctuation", "w": "lunch", "r": "lunch.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "We played on the playground and wrote in our notebooks after lunch.",
+        "pos": [
+          {"w": "We", "t": "PRO", "q": "Find the pronoun for a group including the speaker."},
+          {"w": "played", "t": "V", "q": "Find the verb for having fun."},
+          {"w": "on", "t": "PREP", "q": "Find the preposition before 'the playground.'"},
+          {"w": "the", "t": "ART", "q": "Find the article before 'playground.'"},
+          {"w": "playground", "t": "N", "q": "Find the compound noun made of play + ground."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction joining two actions."},
+          {"w": "wrote", "t": "V", "q": "Find the verb for putting words on paper."},
+          {"w": "in", "t": "PREP", "q": "Find the preposition before 'our.'"},
+          {"w": "our", "t": "POSS", "q": "Find the possessive word before 'notebooks.'"},
+          {"w": "notebooks", "t": "N", "q": "Find the compound noun made of note + books."},
+          {"w": "after", "t": "PREP", "q": "Find the preposition that tells when."},
+          {"w": "lunch", "t": "N", "q": "Find the noun for a midday meal."}
+        ],
+        "manip": {
+          "task": "Replace the compound word 'playground' with a different compound word.",
+          "word": "playground",
+          "examples": [
+            "We played on the <span class='changed'>basketball</span> and wrote in our notebooks after lunch.",
+            "We played on the <span class='changed'>seesaw</span> and wrote in our notebooks after lunch."
+          ]
+        },
+        "vocab": {
+          "w": "playground",
+          "type": "noun",
+          "def": "An outdoor area with equipment for children to play on.",
+          "simple": "A playground is a fun place outside where kids run, climb, and play!",
+          "examples": ["the school playground", "a big playground", "play on the playground"],
+          "similar": ["park", "play area", "recreation area"],
+          "antonyms": ["classroom", "indoors"],
+          "nonex": ["It does NOT mean just swings — a playground can have many things to play on."],
+          "example": "We ran to the playground as soon as the bell rang for recess.",
+          "starter": "My favorite thing on the playground is _______ ...",
+          "why": "Playground is a compound word — play + ground makes a new word with a new meaning!"
+        },
+        "ufliLesson": 126,
+        "ufliSkill": "Compound Words",
+        "ufliSection": "Affixes & Multisyllabic",
+        "phonicsWords": ["playground", "notebooks", "lunchtime", "outside", "basketball", "backpack"],
+        "heartWords": ["we", "on", "the", "and", "in", "our", "after"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 127,
+    "sentences": [
+      {
+        "orig": "the littel rabbit hopped over the garden fense",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "littel", "r": "little", "e": "Little splits as lit-tle (VC/CV pattern) — the consonants t-t divide between syllables."},
+          {"t": "spelling", "w": "fense", "r": "fence", "e": "Fence is spelled with a 'c' not an 's' — the 'ce' makes the /s/ sound."},
+          {"t": "grammar", "w": "hopped", "r": "hopped", "e": "Hopped correctly doubles the 'p' for past tense — nice!"},
+          {"t": "punctuation", "w": "fense", "r": "fence.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The little rabbit hopped over the garden fence.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "little", "t": "ADJ", "q": "Find the adjective describing the rabbit's size."},
+          {"w": "rabbit", "t": "N", "q": "Find the noun for a small hopping animal."},
+          {"w": "hopped", "t": "V", "q": "Find the verb for jumping."},
+          {"w": "over", "t": "PREP", "q": "Find the preposition that tells direction."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'garden.'"},
+          {"w": "garden", "t": "N", "q": "Find the noun for a place where plants grow."},
+          {"w": "fence", "t": "N", "q": "Find the noun for a barrier around a yard."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'rabbit' with a different two-syllable word you can divide.",
+          "word": "rabbit",
+          "examples": [
+            "The little <span class='changed'>kitten</span> hopped over the garden fence.",
+            "The little <span class='changed'>puppy</span> hopped over the garden fence."
+          ]
+        },
+        "vocab": {
+          "w": "rabbit",
+          "type": "noun",
+          "def": "A small animal with long ears and a short fluffy tail that hops.",
+          "simple": "A rabbit is a soft, furry animal with big ears that hops around!",
+          "examples": ["a wild rabbit", "a pet rabbit", "a baby rabbit"],
+          "similar": ["bunny", "hare"],
+          "antonyms": [],
+          "nonex": ["It does NOT mean the same as a hare — hares are bigger and faster."],
+          "example": "The little rabbit hopped across the garden to nibble on the lettuce.",
+          "starter": "If I had a pet rabbit, I would _______ ...",
+          "why": "Rabbit divides as rab-bit (VC/CV) — the two b's split between syllables!"
+        },
+        "ufliLesson": 127,
+        "ufliSkill": "Syllable Division Strategies (VC/CV, V/CV)",
+        "ufliSection": "Affixes & Multisyllabic",
+        "phonicsWords": ["rabbit", "little", "garden", "kitten", "happen", "basket"],
+        "heartWords": ["the", "over"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "the pilot guided the silent robot to the open space",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "pilot", "r": "pilot", "e": "Pilot divides as pi-lot (V/CV) — the first syllable is open with a long 'i.' Correct!"},
+          {"t": "spelling", "w": "silent", "r": "silent", "e": "Silent divides as si-lent (V/CV) — the first syllable is open with a long 'i.' Nice job!"},
+          {"t": "grammar", "w": "guided", "r": "steered", "e": "Use 'steered' for a more precise verb for controlling direction."},
+          {"t": "punctuation", "w": "space", "r": "space.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The pilot steered the silent robot to the open space.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "pilot", "t": "N", "q": "Find the noun for a person who flies or controls."},
+          {"w": "steered", "t": "V", "q": "Find the verb for guiding something."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'silent.'"},
+          {"w": "silent", "t": "ADJ", "q": "Find the adjective meaning 'making no sound.'"},
+          {"w": "robot", "t": "N", "q": "Find the noun for a machine."},
+          {"w": "to", "t": "PREP", "q": "Find the preposition that tells direction."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'open.'"},
+          {"w": "open", "t": "ADJ", "q": "Find the adjective describing the space."},
+          {"w": "space", "t": "N", "q": "Find the noun for an empty area."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'robot' with a different two-syllable word that uses V/CV division.",
+          "word": "robot",
+          "examples": [
+            "The pilot steered the silent <span class='changed'>motor</span> to the open space.",
+            "The pilot steered the silent <span class='changed'>tiger</span> to the open space."
+          ]
+        },
+        "vocab": {
+          "w": "silent",
+          "type": "adjective",
+          "def": "Making no sound; completely quiet.",
+          "simple": "Silent means there is no sound at all — totally quiet!",
+          "examples": ["a silent room", "a silent night", "stay silent"],
+          "similar": ["quiet", "still", "hushed"],
+          "antonyms": ["loud", "noisy"],
+          "nonex": ["It does NOT mean frozen — you can be silent and still be moving."],
+          "example": "The silent robot moved across the room without making a sound.",
+          "starter": "I try to be silent when _______ ...",
+          "why": "Silent divides as si-lent (V/CV pattern) — the vowel 'i' is at the end of the first syllable, making it long!"
+        },
+        "ufliLesson": 127,
+        "ufliSkill": "Syllable Division Strategies (VC/CV, V/CV)",
+        "ufliSection": "Affixes & Multisyllabic",
+        "phonicsWords": ["pilot", "silent", "robot", "motor", "tiger", "open"],
+        "heartWords": ["the", "to"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 128,
+    "sentences": [
+      {
+        "orig": "the brav knight quicklee rode his hors through the darknes",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "brav", "r": "brave", "e": "Brave ends with a silent 'e' — the VCe pattern makes the 'a' say its name."},
+          {"t": "spelling", "w": "quicklee", "r": "quickly", "e": "Quickly uses the suffix -ly added to 'quick' — quick + ly."},
+          {"t": "grammar", "w": "hors", "r": "horse", "e": "Horse ends with a silent 'e' — another VCe pattern word."},
+          {"t": "punctuation", "w": "darknes", "r": "darkness.", "e": "A statement must end with a period, and darkness has the suffix -ness (dark + ness)."}
+        ],
+        "fixed": "The brave knight quickly rode his horse through the darkness.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "brave", "t": "ADJ", "q": "Find the adjective describing the knight."},
+          {"w": "knight", "t": "N", "q": "Find the noun for a warrior — it has a silent 'k.'"},
+          {"w": "quickly", "t": "ADV", "q": "Find the adverb with the suffix -ly."},
+          {"w": "rode", "t": "V", "q": "Find the verb for traveling on a horse."},
+          {"w": "his", "t": "POSS", "q": "Find the possessive word before 'horse.'"},
+          {"w": "horse", "t": "N", "q": "Find the noun for a large animal people ride."},
+          {"w": "through", "t": "PREP", "q": "Find the preposition that tells the path."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'darkness.'"},
+          {"w": "darkness", "t": "N", "q": "Find the noun with the suffix -ness."}
+        ],
+        "manip": {
+          "task": "Replace the adjective 'brave' with a different word that uses a pattern you have learned.",
+          "word": "brave",
+          "examples": [
+            "The <span class='changed'>fearless</span> knight quickly rode his horse through the darkness.",
+            "The <span class='changed'>noble</span> knight quickly rode his horse through the darkness."
+          ]
+        },
+        "vocab": {
+          "w": "brave",
+          "type": "adjective",
+          "def": "Ready to face and endure danger or pain; showing courage.",
+          "simple": "Brave means you are not afraid to do something hard or scary!",
+          "examples": ["a brave hero", "a brave choice", "be brave"],
+          "similar": ["courageous", "fearless", "bold"],
+          "antonyms": ["afraid", "cowardly", "timid"],
+          "nonex": ["It does NOT mean you feel no fear — brave means you act even when you are scared."],
+          "example": "The brave knight rode through the darkness to save the village.",
+          "starter": "I was brave when _______ ...",
+          "why": "This final review word uses VCe (brave), -ly (quickly), and -ness (darkness) — all UFLI patterns!"
+        },
+        "ufliLesson": 128,
+        "ufliSkill": "UFLI Final Cumulative Review",
+        "ufliSection": "Affixes & Multisyllabic",
+        "phonicsWords": ["brave", "knight", "quickly", "darkness", "horse", "through"],
+        "heartWords": ["the", "his", "through"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "the children cheerfullee shared there biggest and most enjoyabel storys at the end of the year",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "cheerfullee", "r": "cheerfully", "e": "Cheerfully stacks two suffixes: cheer + ful + ly."},
+          {"t": "spelling", "w": "storys", "r": "stories", "e": "When a noun ends in 'y,' change the 'y' to 'i' and add -es — stories."},
+          {"t": "grammar", "w": "there", "r": "their", "e": "Use 'their' (possessive) not 'there' (a place)."},
+          {"t": "punctuation", "w": "year", "r": "year.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The children cheerfully shared their biggest and most enjoyable stories at the end of the year.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "children", "t": "N", "q": "Find the noun for young people."},
+          {"w": "cheerfully", "t": "ADV", "q": "Find the adverb with two suffixes: -ful and -ly."},
+          {"w": "shared", "t": "V", "q": "Find the verb for giving something to others."},
+          {"w": "their", "t": "POSS", "q": "Find the possessive word before 'biggest.'"},
+          {"w": "biggest", "t": "ADJ", "q": "Find the superlative adjective with the suffix -est."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction joining two descriptions."},
+          {"w": "most", "t": "ADV", "q": "Find the adverb that makes 'enjoyable' superlative."},
+          {"w": "enjoyable", "t": "ADJ", "q": "Find the adjective with the suffix -able."},
+          {"w": "stories", "t": "N", "q": "Find the noun — the plural changes 'y' to 'ies.'"},
+          {"w": "at", "t": "PREP", "q": "Find the preposition before 'the end.'"},
+          {"w": "the", "t": "ART", "q": "Find the article before 'end.'"},
+          {"w": "end", "t": "N", "q": "Find the noun meaning 'the last part.'"},
+          {"w": "of", "t": "PREP", "q": "Find the preposition after 'end.'"},
+          {"w": "the", "t": "ART", "q": "Find the article before 'year.'"},
+          {"w": "year", "t": "N", "q": "Find the noun for a period of time."}
+        ],
+        "manip": {
+          "task": "Replace the adverb 'cheerfully' with a different word using suffixes you have learned.",
+          "word": "cheerfully",
+          "examples": [
+            "The children <span class='changed'>excitedly</span> shared their biggest and most enjoyable stories at the end of the year.",
+            "The children <span class='changed'>happily</span> shared their biggest and most enjoyable stories at the end of the year."
+          ]
+        },
+        "vocab": {
+          "w": "cheerfully",
+          "type": "adverb",
+          "def": "In a happy and positive way.",
+          "simple": "Cheerfully means doing something with a big smile and a happy heart!",
+          "examples": ["wave cheerfully", "sing cheerfully", "greet someone cheerfully"],
+          "similar": ["happily", "joyfully", "brightly"],
+          "antonyms": ["sadly", "gloomily", "miserably"],
+          "nonex": ["It does NOT mean loudly — you can be cheerful in a quiet way too."],
+          "example": "The children cheerfully shared their stories because they were proud of all they had learned.",
+          "starter": "I cheerfully _______ ...",
+          "why": "Cheerfully uses TWO suffixes (cheer + ful + ly) and celebrates everything you have learned in UFLI!"
+        },
+        "ufliLesson": 128,
+        "ufliSkill": "UFLI Final Cumulative Review",
+        "ufliSection": "Affixes & Multisyllabic",
+        "phonicsWords": ["cheerfully", "biggest", "enjoyable", "stories", "shared", "darkness"],
+        "heartWords": ["the", "their", "and", "most", "at", "of"],
+        "sentenceType": "application"
+      }
+    ]
+  }
+]

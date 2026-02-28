@@ -1,0 +1,3118 @@
+[
+  {
+    "day": 69,
+    "sentences": [
+      {
+        "orig": "the kar is parked in the yart",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "kar", "r": "car", "e": "Car is spelled with a 'c,' not a 'k.' The 'ar' says /ar/."},
+          {"t": "grammar", "w": "is parked", "r": "was parked", "e": "Use 'was' to show it happened in the past."},
+          {"t": "spelling", "w": "yart", "r": "yard", "e": "Yard is spelled y-a-r-d. The 'ar' says /ar/."},
+          {"t": "punctuation", "w": "yart", "r": "yard.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The car was parked in the yard.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "car", "t": "N", "q": "Find the noun for something you drive."},
+          {"w": "was", "t": "V", "q": "Find the helping verb."},
+          {"w": "parked", "t": "V", "q": "Find the main verb that tells what happened."},
+          {"w": "in", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "the", "t": "ART", "q": "Find the second article."},
+          {"w": "yard", "t": "N", "q": "Find the noun for an outdoor space."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'car' with a different ar-word.",
+          "word": "car",
+          "examples": [
+            "The <span class='changed'>cart</span> was parked in the yard.",
+            "The <span class='changed'>van</span> was parked in the yard."
+          ]
+        },
+        "vocab": {
+          "w": "garden",
+          "type": "noun",
+          "def": "A piece of ground where plants are grown.",
+          "simple": "A garden is where you grow flowers and vegetables!",
+          "examples": ["a flower garden", "a vegetable garden", "a school garden"],
+          "similar": ["yard", "plot", "patch"],
+          "antonyms": ["desert", "wasteland"],
+          "nonex": ["It does NOT mean a farm.", "It does NOT mean a forest."],
+          "example": "We planted seeds in the garden last spring.",
+          "starter": "In my garden, I would grow _______ ...",
+          "why": "Garden has the 'ar' sound and is about nature!"
+        },
+        "ufliLesson": 69,
+        "ufliSkill": "ar /ar/",
+        "ufliSection": "R-Controlled Vowels",
+        "phonicsWords": ["car", "star", "farm", "park", "yard", "dark"],
+        "heartWords": ["the", "in", "is", "was"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "mark and his dad went to the dark barn on the farn",
+        "corr": [
+          {"t": "capitalization", "w": "mark", "r": "Mark", "e": "A person's name must be capitalized."},
+          {"t": "spelling", "w": "farn", "r": "farm", "e": "Farm is spelled f-a-r-m. The 'ar' says /ar/."},
+          {"t": "grammar", "w": "went", "r": "ran", "e": "Use 'ran' to show they moved quickly."},
+          {"t": "spelling", "w": "barn", "r": "barn", "e": "Barn is spelled correctly — good job! The 'ar' says /ar/."},
+          {"t": "punctuation", "w": "farn", "r": "farm.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "Mark and his dad ran to the dark barn on the farm.",
+        "pos": [
+          {"w": "Mark", "t": "N", "q": "Find the proper noun for a person."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction that joins two people."},
+          {"w": "his", "t": "POSS", "q": "Find the possessive word."},
+          {"w": "dad", "t": "N", "q": "Find the noun for a family member."},
+          {"w": "ran", "t": "V", "q": "Find the verb that tells what they did."},
+          {"w": "to", "t": "PREP", "q": "Find the preposition that shows direction."},
+          {"w": "the", "t": "ART", "q": "Find an article before 'dark.'"},
+          {"w": "dark", "t": "ADJ", "q": "Find the adjective that describes the barn."},
+          {"w": "barn", "t": "N", "q": "Find the noun for a farm building."},
+          {"w": "on", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'farm.'"},
+          {"w": "farm", "t": "N", "q": "Find the noun for a place with animals."}
+        ],
+        "manip": {
+          "task": "Replace the adjective 'dark' with a different ar-word.",
+          "word": "dark",
+          "examples": [
+            "Mark and his dad ran to the <span class='changed'>large</span> barn on the farm.",
+            "Mark and his dad ran to the <span class='changed'>far</span> barn on the farm."
+          ]
+        },
+        "vocab": {
+          "w": "harvest",
+          "type": "noun",
+          "def": "The time when crops are picked from the fields.",
+          "simple": "Harvest is when farmers pick the food they grew!",
+          "examples": ["a fall harvest", "a big harvest", "harvest time"],
+          "similar": ["crop", "gathering", "picking"],
+          "antonyms": ["planting", "sowing"],
+          "nonex": ["It does NOT mean to throw away food.", "It does NOT mean winter."],
+          "example": "The farmer had a big harvest of corn this fall.",
+          "starter": "At harvest time, I would pick _______ ...",
+          "why": "Harvest has the 'ar' sound and is about farms!"
+        },
+        "ufliLesson": 69,
+        "ufliSkill": "ar /ar/",
+        "ufliSection": "R-Controlled Vowels",
+        "phonicsWords": ["dark", "barn", "farm", "Mark", "yard", "park"],
+        "heartWords": ["the", "to", "and", "his", "on"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 70,
+    "sentences": [
+      {
+        "orig": "the stom came befor the morning",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "stom", "r": "storm", "e": "Storm is spelled s-t-o-r-m. The 'or' says /or/."},
+          {"t": "spelling", "w": "befor", "r": "before", "e": "Before ends with a silent 'e.'"},
+          {"t": "grammar", "w": "came", "r": "comes", "e": "Use 'comes' to tell about something that happens often."},
+          {"t": "punctuation", "w": "morning", "r": "morning.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The storm comes before the morning.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "storm", "t": "N", "q": "Find the noun for bad weather."},
+          {"w": "comes", "t": "V", "q": "Find the verb that tells what happens."},
+          {"w": "before", "t": "PREP", "q": "Find the preposition that tells when."},
+          {"w": "the", "t": "ART", "q": "Find the second article."},
+          {"w": "morning", "t": "N", "q": "Find the noun for a time of day."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'storm' with a different or-word.",
+          "word": "storm",
+          "examples": [
+            "The <span class='changed'>horn</span> comes before the morning.",
+            "The <span class='changed'>rooster</span> comes before the morning."
+          ]
+        },
+        "vocab": {
+          "w": "storm",
+          "type": "noun",
+          "def": "Very bad weather with strong wind and rain or snow.",
+          "simple": "A storm is when the weather gets wild with wind and rain!",
+          "examples": ["a big storm", "a winter storm", "a thunder storm"],
+          "similar": ["gale", "tempest", "downpour"],
+          "antonyms": ["calm", "sunshine", "clear sky"],
+          "nonex": ["It does NOT mean a little rain.", "It does NOT mean a cloud."],
+          "example": "The storm blew the branches off the trees.",
+          "starter": "During a storm, I like to _______ ...",
+          "why": "Storm has the 'or' sound and is about weather!"
+        },
+        "ufliLesson": 70,
+        "ufliSkill": "or /or/",
+        "ufliSection": "R-Controlled Vowels",
+        "phonicsWords": ["for", "storm", "corn", "fort", "born", "torn"],
+        "heartWords": ["the", "before"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "we sort the corn and store it in the bocks for winter",
+        "corr": [
+          {"t": "capitalization", "w": "we", "r": "We", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "bocks", "r": "boxes", "e": "Boxes is spelled b-o-x-e-s."},
+          {"t": "grammar", "w": "sort", "r": "sorted", "e": "Use 'sorted' to show it happened in the past."},
+          {"t": "spelling", "w": "store", "r": "store", "e": "Store is spelled correctly — good job! The 'or' says /or/."},
+          {"t": "punctuation", "w": "winter", "r": "winter.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "We sorted the corn and store it in the boxes for winter.",
+        "pos": [
+          {"w": "We", "t": "PRO", "q": "Find the pronoun at the beginning."},
+          {"w": "sorted", "t": "V", "q": "Find the first verb."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'corn.'"},
+          {"w": "corn", "t": "N", "q": "Find the noun for a yellow vegetable."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction."},
+          {"w": "store", "t": "V", "q": "Find the second verb."},
+          {"w": "it", "t": "PRO", "q": "Find the pronoun that replaces 'corn.'"},
+          {"w": "in", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'boxes.'"},
+          {"w": "boxes", "t": "N", "q": "Find the noun for containers."},
+          {"w": "for", "t": "PREP", "q": "Find the preposition that tells why."},
+          {"w": "winter", "t": "N", "q": "Find the noun for a cold season."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'corn' with a different or-word.",
+          "word": "corn",
+          "examples": [
+            "We sorted the <span class='changed'>pork</span> and store it in the boxes for winter.",
+            "We sorted the <span class='changed'>acorns</span> and store it in the boxes for winter."
+          ]
+        },
+        "vocab": {
+          "w": "sort",
+          "type": "verb",
+          "def": "To put things into groups based on how they are alike.",
+          "simple": "Sort means to put things in order or into groups!",
+          "examples": ["sort the socks", "sort by color", "sort the cards"],
+          "similar": ["organize", "arrange", "group"],
+          "antonyms": ["mix up", "scatter", "jumble"],
+          "nonex": ["It does NOT mean to throw away.", "It does NOT mean to count."],
+          "example": "We sort the books by size on the shelf.",
+          "starter": "I like to sort my _______ by _______ ...",
+          "why": "Sort has the 'or' sound and is a useful action word!"
+        },
+        "ufliLesson": 70,
+        "ufliSkill": "or /or/",
+        "ufliSection": "R-Controlled Vowels",
+        "phonicsWords": ["sort", "corn", "store", "for", "fort", "born"],
+        "heartWords": ["we", "the", "and", "it", "in"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 71,
+    "sentences": [
+      {
+        "orig": "hur sister has a beter plan for the game",
+        "corr": [
+          {"t": "capitalization", "w": "hur", "r": "Her", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "hur", "r": "Her", "e": "Her is spelled h-e-r. The 'er' says /er/."},
+          {"t": "spelling", "w": "beter", "r": "better", "e": "Better has two t's in the middle."},
+          {"t": "grammar", "w": "has", "r": "had", "e": "Use 'had' to show it happened in the past."},
+          {"t": "punctuation", "w": "game", "r": "game.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "Her sister had a better plan for the game.",
+        "pos": [
+          {"w": "Her", "t": "POSS", "q": "Find the possessive word at the beginning."},
+          {"w": "sister", "t": "N", "q": "Find the noun for a family member."},
+          {"w": "had", "t": "V", "q": "Find the verb that tells what happened."},
+          {"w": "a", "t": "ART", "q": "Find the article before 'better.'"},
+          {"w": "better", "t": "ADJ", "q": "Find the adjective that describes the plan."},
+          {"w": "plan", "t": "N", "q": "Find the noun for an idea."},
+          {"w": "for", "t": "PREP", "q": "Find the preposition."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'game.'"},
+          {"w": "game", "t": "N", "q": "Find the noun for something you play."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'sister' with a different er-word.",
+          "word": "sister",
+          "examples": [
+            "Her <span class='changed'>teacher</span> had a better plan for the game.",
+            "Her <span class='changed'>brother</span> had a better plan for the game."
+          ]
+        },
+        "vocab": {
+          "w": "never",
+          "type": "adverb",
+          "def": "Not at any time; not ever.",
+          "simple": "Never means something does not happen at all!",
+          "examples": ["never late", "never give up", "never forget"],
+          "similar": ["not ever", "at no time"],
+          "antonyms": ["always", "forever", "often"],
+          "nonex": ["It does NOT mean sometimes.", "It does NOT mean rarely."],
+          "example": "I never forget to brush my teeth before bed.",
+          "starter": "I would never _______ because _______ ...",
+          "why": "Never has the 'er' sound and is used all the time!"
+        },
+        "ufliLesson": 71,
+        "ufliSkill": "er /er/",
+        "ufliSection": "R-Controlled Vowels",
+        "phonicsWords": ["her", "better", "never", "sister", "fern", "after"],
+        "heartWords": ["a", "the", "has", "for"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "the farmer fed the chickens after dinner every day",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "farmer", "r": "farmer", "e": "Farmer is spelled correctly — good job! The 'er' says /er/."},
+          {"t": "grammar", "w": "fed", "r": "feeds", "e": "Use 'feeds' because the sentence says 'every day.'"},
+          {"t": "spelling", "w": "chickens", "r": "hens", "e": "Use the simpler word 'hens' for baby chickens' moms."},
+          {"t": "punctuation", "w": "day", "r": "day.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The farmer feeds the hens after dinner every day.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "farmer", "t": "N", "q": "Find the noun for a person who works on a farm."},
+          {"w": "feeds", "t": "V", "q": "Find the verb that tells what happens."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'hens.'"},
+          {"w": "hens", "t": "N", "q": "Find the noun for birds on a farm."},
+          {"w": "after", "t": "PREP", "q": "Find the preposition that tells when."},
+          {"w": "dinner", "t": "N", "q": "Find the noun for an evening meal."},
+          {"w": "every", "t": "ADJ", "q": "Find the adjective that means 'each.'"},
+          {"w": "day", "t": "N", "q": "Find the noun for a unit of time."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'dinner' with a different er-word.",
+          "word": "dinner",
+          "examples": [
+            "The farmer feeds the hens after <span class='changed'>supper</span> every day.",
+            "The farmer feeds the hens after <span class='changed'>winter</span> every day."
+          ]
+        },
+        "vocab": {
+          "w": "farmer",
+          "type": "noun",
+          "def": "A person who grows food or raises animals on a farm.",
+          "simple": "A farmer is someone who grows plants and takes care of animals!",
+          "examples": ["a corn farmer", "a dairy farmer", "a happy farmer"],
+          "similar": ["rancher", "grower"],
+          "antonyms": [],
+          "nonex": ["It does NOT mean someone who cooks food.", "It does NOT mean a gardener."],
+          "example": "The farmer picked the ripe apples from the tree.",
+          "starter": "If I were a farmer, I would grow _______ ...",
+          "why": "Farmer has the 'er' sound and is about farm life!"
+        },
+        "ufliLesson": 71,
+        "ufliSkill": "er /er/",
+        "ufliSection": "R-Controlled Vowels",
+        "phonicsWords": ["farmer", "after", "dinner", "every", "her", "fern"],
+        "heartWords": ["the", "every"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 72,
+    "sentences": [
+      {
+        "orig": "the brd sits on the durt by the tree",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "brd", "r": "bird", "e": "Bird is spelled b-i-r-d. The 'ir' says /er/."},
+          {"t": "spelling", "w": "durt", "r": "dirt", "e": "Dirt is spelled d-i-r-t. The 'ir' says /er/."},
+          {"t": "grammar", "w": "sits", "r": "sat", "e": "Use 'sat' to show it happened in the past."},
+          {"t": "punctuation", "w": "tree", "r": "tree.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The bird sat on the dirt by the tree.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "bird", "t": "N", "q": "Find the noun for an animal that flies."},
+          {"w": "sat", "t": "V", "q": "Find the verb that tells what happened."},
+          {"w": "on", "t": "PREP", "q": "Find the first preposition."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'dirt.'"},
+          {"w": "dirt", "t": "N", "q": "Find the noun for ground or soil."},
+          {"w": "by", "t": "PREP", "q": "Find the second preposition."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'tree.'"},
+          {"w": "tree", "t": "N", "q": "Find the noun for a tall plant."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'bird' with a different ir-word.",
+          "word": "bird",
+          "examples": [
+            "The <span class='changed'>girl</span> sat on the dirt by the tree.",
+            "The <span class='changed'>squirrel</span> sat on the dirt by the tree."
+          ]
+        },
+        "vocab": {
+          "w": "bird",
+          "type": "noun",
+          "def": "An animal with feathers, wings, and a beak that lays eggs.",
+          "simple": "A bird is an animal that can usually fly and has feathers!",
+          "examples": ["a red bird", "a singing bird", "a baby bird"],
+          "similar": ["robin", "sparrow", "finch"],
+          "antonyms": [],
+          "nonex": ["It does NOT mean a bug with wings.", "It does NOT mean a bat."],
+          "example": "The bird built a nest in the tall tree.",
+          "starter": "If I were a bird, I would fly to _______ ...",
+          "why": "Bird has the 'ir' sound and is about nature!"
+        },
+        "ufliLesson": 72,
+        "ufliSkill": "ir /er/",
+        "ufliSection": "R-Controlled Vowels",
+        "phonicsWords": ["bird", "girl", "dirt", "first", "stir", "third"],
+        "heartWords": ["the", "on", "by"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "the girl was furst in line to stir the mix at school",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "furst", "r": "first", "e": "First is spelled f-i-r-s-t. The 'ir' says /er/."},
+          {"t": "grammar", "w": "was", "r": "is", "e": "Use 'is' for something happening now."},
+          {"t": "spelling", "w": "mix", "r": "mixture", "e": "Use 'mixture' for the thing being stirred."},
+          {"t": "punctuation", "w": "school", "r": "school.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The girl is first in line to stir the mixture at school.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "girl", "t": "N", "q": "Find the noun for a young person."},
+          {"w": "is", "t": "V", "q": "Find the verb."},
+          {"w": "first", "t": "ADJ", "q": "Find the adjective that tells the order."},
+          {"w": "in", "t": "PREP", "q": "Find the first preposition."},
+          {"w": "line", "t": "N", "q": "Find the noun for a row of people."},
+          {"w": "to", "t": "PREP", "q": "Find the preposition before 'stir.'"},
+          {"w": "stir", "t": "V", "q": "Find the verb for mixing."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'mixture.'"},
+          {"w": "mixture", "t": "N", "q": "Find the noun for something mixed."},
+          {"w": "at", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "school", "t": "N", "q": "Find the noun for a place to learn."}
+        ],
+        "manip": {
+          "task": "Replace the verb 'stir' with a different action word.",
+          "word": "stir",
+          "examples": [
+            "The girl is first in line to <span class='changed'>taste</span> the mixture at school.",
+            "The girl is first in line to <span class='changed'>smell</span> the mixture at school."
+          ]
+        },
+        "vocab": {
+          "w": "first",
+          "type": "adjective",
+          "def": "Coming before all others in time, order, or importance.",
+          "simple": "First means number one — before everyone else!",
+          "examples": ["first in line", "first place", "the first day"],
+          "similar": ["initial", "earliest", "leading"],
+          "antonyms": ["last", "final", "end"],
+          "nonex": ["It does NOT mean fastest.", "It does NOT mean best."],
+          "example": "She was the first student to finish the test.",
+          "starter": "The first thing I do in the morning is _______ ...",
+          "why": "First has the 'ir' sound and is used every day!"
+        },
+        "ufliLesson": 72,
+        "ufliSkill": "ir /er/",
+        "ufliSection": "R-Controlled Vowels",
+        "phonicsWords": ["girl", "first", "stir", "bird", "dirt", "third"],
+        "heartWords": ["the", "in", "to", "at", "was"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 73,
+    "sentences": [
+      {
+        "orig": "the turt dug a hole in the sand",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "turt", "r": "turtle", "e": "Turtle is spelled t-u-r-t-l-e. The 'ur' says /er/."},
+          {"t": "grammar", "w": "dug", "r": "digs", "e": "Use 'digs' to tell what happens now."},
+          {"t": "spelling", "w": "hole", "r": "hole", "e": "Hole is spelled correctly — good job! It has a VCe pattern."},
+          {"t": "punctuation", "w": "sand", "r": "sand.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The turtle digs a hole in the sand.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "turtle", "t": "N", "q": "Find the noun for a slow animal."},
+          {"w": "digs", "t": "V", "q": "Find the verb that tells what happens."},
+          {"w": "a", "t": "ART", "q": "Find the article before 'hole.'"},
+          {"w": "hole", "t": "N", "q": "Find the noun for an opening in the ground."},
+          {"w": "in", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'sand.'"},
+          {"w": "sand", "t": "N", "q": "Find the noun for stuff at the beach."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'turtle' with a different ur-word.",
+          "word": "turtle",
+          "examples": [
+            "The <span class='changed'>squirrel</span> digs a hole in the sand.",
+            "The <span class='changed'>nurse</span> digs a hole in the sand."
+          ]
+        },
+        "vocab": {
+          "w": "turtle",
+          "type": "noun",
+          "def": "A slow animal with a hard shell on its back.",
+          "simple": "A turtle is a slow animal that carries its house on its back!",
+          "examples": ["a sea turtle", "a pet turtle", "a baby turtle"],
+          "similar": ["tortoise", "terrapin"],
+          "antonyms": [],
+          "nonex": ["It does NOT mean a snail.", "It does NOT mean a frog."],
+          "example": "The turtle swam in the pond behind our house.",
+          "starter": "If I had a pet turtle, I would name it _______ ...",
+          "why": "Turtle has the 'ur' sound and is about animals!"
+        },
+        "ufliLesson": 73,
+        "ufliSkill": "ur /er/",
+        "ufliSection": "R-Controlled Vowels",
+        "phonicsWords": ["hurt", "turn", "burn", "turtle", "nurse", "fur"],
+        "heartWords": ["the", "a", "in"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "the nurse will tern and hury back to help the hurt child",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "tern", "r": "turn", "e": "Turn is spelled t-u-r-n. The 'ur' says /er/."},
+          {"t": "spelling", "w": "hury", "r": "hurry", "e": "Hurry has two r's in the middle."},
+          {"t": "grammar", "w": "will", "r": "must", "e": "Use 'must' to show it is important."},
+          {"t": "punctuation", "w": "child", "r": "child.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The nurse must turn and hurry back to help the hurt child.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "nurse", "t": "N", "q": "Find the noun for a person who helps sick people."},
+          {"w": "must", "t": "V", "q": "Find the verb that shows something is needed."},
+          {"w": "turn", "t": "V", "q": "Find the verb that means to change direction."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction."},
+          {"w": "hurry", "t": "V", "q": "Find the verb that means to go fast."},
+          {"w": "back", "t": "ADV", "q": "Find the adverb that tells where."},
+          {"w": "to", "t": "PREP", "q": "Find the preposition."},
+          {"w": "help", "t": "V", "q": "Find the verb that means to assist."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'hurt.'"},
+          {"w": "hurt", "t": "ADJ", "q": "Find the adjective that describes the child."},
+          {"w": "child", "t": "N", "q": "Find the noun for a young person."}
+        ],
+        "manip": {
+          "task": "Replace the adjective 'hurt' with a different ur-word.",
+          "word": "hurt",
+          "examples": [
+            "The nurse must turn and hurry back to help the <span class='changed'>burned</span> child.",
+            "The nurse must turn and hurry back to help the <span class='changed'>curly</span> child."
+          ]
+        },
+        "vocab": {
+          "w": "nurse",
+          "type": "noun",
+          "def": "A person who takes care of sick or hurt people.",
+          "simple": "A nurse is a helper who makes you feel better when you are sick!",
+          "examples": ["a school nurse", "a kind nurse", "the nurse's office"],
+          "similar": ["caregiver", "helper", "medic"],
+          "antonyms": [],
+          "nonex": ["It does NOT mean a doctor.", "It does NOT mean a teacher."],
+          "example": "The nurse put a bandage on my scraped knee.",
+          "starter": "A nurse helps people by _______ ...",
+          "why": "Nurse has the 'ur' sound and is about helping others!"
+        },
+        "ufliLesson": 73,
+        "ufliSkill": "ur /er/",
+        "ufliSection": "R-Controlled Vowels",
+        "phonicsWords": ["nurse", "turn", "hurry", "hurt", "burn", "fur"],
+        "heartWords": ["the", "and", "to"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 74,
+    "sentences": [
+      {
+        "orig": "the kar is parked far from the stoor",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "kar", "r": "car", "e": "Car is spelled c-a-r. The 'ar' says /ar/."},
+          {"t": "spelling", "w": "stoor", "r": "store", "e": "Store is spelled s-t-o-r-e. The 'or' says /or/."},
+          {"t": "grammar", "w": "is parked", "r": "was parked", "e": "Use 'was' to show it already happened."},
+          {"t": "punctuation", "w": "stoor", "r": "store.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The car was parked far from the store.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "car", "t": "N", "q": "Find the noun for something you drive."},
+          {"w": "was", "t": "V", "q": "Find the helping verb."},
+          {"w": "parked", "t": "V", "q": "Find the main verb."},
+          {"w": "far", "t": "ADV", "q": "Find the adverb that tells distance."},
+          {"w": "from", "t": "PREP", "q": "Find the preposition."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'store.'"},
+          {"w": "store", "t": "N", "q": "Find the noun for a place to shop."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'store' with a different or-word.",
+          "word": "store",
+          "examples": [
+            "The car was parked far from the <span class='changed'>fort</span>.",
+            "The car was parked far from the <span class='changed'>corner</span>."
+          ]
+        },
+        "vocab": {
+          "w": "park",
+          "type": "verb",
+          "def": "To stop a car and leave it in a place.",
+          "simple": "Park means to stop your car and leave it somewhere!",
+          "examples": ["park the car", "park in the lot", "park here"],
+          "similar": ["stop", "leave", "place"],
+          "antonyms": ["drive", "move", "go"],
+          "nonex": ["It does NOT mean to crash.", "It does NOT always mean a playground."],
+          "example": "Dad had to park the car near the school.",
+          "starter": "My family parks the car at _______ ...",
+          "why": "Park has the 'ar' sound and you use it every day!"
+        },
+        "ufliLesson": 74,
+        "ufliSkill": "R-Controlled Review (ar, or)",
+        "ufliSection": "R-Controlled Vowels",
+        "phonicsWords": ["car", "far", "park", "store", "for", "corn"],
+        "heartWords": ["the", "is", "from"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "the horse ran hard across the fild toward the barn dor",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "fild", "r": "field", "e": "Field is spelled f-i-e-l-d."},
+          {"t": "spelling", "w": "dor", "r": "door", "e": "Door has two o's. The 'or' pattern says /or/."},
+          {"t": "grammar", "w": "ran", "r": "runs", "e": "Use 'runs' for something that happens often."},
+          {"t": "punctuation", "w": "dor", "r": "door.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The horse runs hard across the field toward the barn door.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "horse", "t": "N", "q": "Find the noun for a large animal."},
+          {"w": "runs", "t": "V", "q": "Find the verb that tells the action."},
+          {"w": "hard", "t": "ADV", "q": "Find the adverb that tells how."},
+          {"w": "across", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'field.'"},
+          {"w": "field", "t": "N", "q": "Find the noun for a flat grassy area."},
+          {"w": "toward", "t": "PREP", "q": "Find the preposition that shows direction."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'barn.'"},
+          {"w": "barn", "t": "N", "q": "Find the noun for a farm building."},
+          {"w": "door", "t": "N", "q": "Find the noun for an opening you walk through."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'horse' with a different ar-word animal.",
+          "word": "horse",
+          "examples": [
+            "The <span class='changed'>lark</span> runs hard across the field toward the barn door.",
+            "The <span class='changed'>hare</span> runs hard across the field toward the barn door."
+          ]
+        },
+        "vocab": {
+          "w": "toward",
+          "type": "preposition",
+          "def": "In the direction of something.",
+          "simple": "Toward means going in the direction of something!",
+          "examples": ["walk toward", "run toward", "look toward"],
+          "similar": ["to", "in the direction of"],
+          "antonyms": ["away from", "from"],
+          "nonex": ["It does NOT mean 'at' or 'inside.'", "It does NOT mean 'behind.'"],
+          "example": "The dog ran toward the ball in the yard.",
+          "starter": "I walked toward the _______ because _______ ...",
+          "why": "Toward is a useful direction word!"
+        },
+        "ufliLesson": 74,
+        "ufliSkill": "R-Controlled Review (ar, or)",
+        "ufliSection": "R-Controlled Vowels",
+        "phonicsWords": ["horse", "barn", "door", "hard", "toward", "corn"],
+        "heartWords": ["the", "across"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 75,
+    "sentences": [
+      {
+        "orig": "the gurl works hurd to finish hur paper",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "gurl", "r": "girl", "e": "Girl is spelled g-i-r-l. The 'ir' says /er/."},
+          {"t": "spelling", "w": "hurd", "r": "hard", "e": "Hard is spelled h-a-r-d. The 'ar' says /ar/."},
+          {"t": "grammar", "w": "works", "r": "worked", "e": "Use 'worked' to show it happened in the past."},
+          {"t": "punctuation", "w": "paper", "r": "paper.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The girl worked hard to finish her paper.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "girl", "t": "N", "q": "Find the noun for a young person."},
+          {"w": "worked", "t": "V", "q": "Find the verb that tells what happened."},
+          {"w": "hard", "t": "ADV", "q": "Find the adverb that tells how."},
+          {"w": "to", "t": "PREP", "q": "Find the preposition."},
+          {"w": "finish", "t": "V", "q": "Find the verb that means to complete."},
+          {"w": "her", "t": "POSS", "q": "Find the possessive word."},
+          {"w": "paper", "t": "N", "q": "Find the noun for something you write on."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'paper' with a different er-word.",
+          "word": "paper",
+          "examples": [
+            "The girl worked hard to finish her <span class='changed'>letter</span>.",
+            "The girl worked hard to finish her <span class='changed'>dinner</span>."
+          ]
+        },
+        "vocab": {
+          "w": "finish",
+          "type": "verb",
+          "def": "To complete something or bring it to an end.",
+          "simple": "Finish means to get all the way done with something!",
+          "examples": ["finish your work", "finish the race", "finish the book"],
+          "similar": ["complete", "end", "wrap up"],
+          "antonyms": ["start", "begin", "quit"],
+          "nonex": ["It does NOT mean to stop in the middle.", "It does NOT mean to skip."],
+          "example": "I need to finish my homework before I can play.",
+          "starter": "I feel proud when I finish _______ ...",
+          "why": "Finish is a great action word for school and life!"
+        },
+        "ufliLesson": 75,
+        "ufliSkill": "R-Controlled Review (er, ir, ur)",
+        "ufliSection": "R-Controlled Vowels",
+        "phonicsWords": ["girl", "her", "hard", "nurse", "bird", "turn"],
+        "heartWords": ["the", "to"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "after dinner the bird perched on the fern under the porch",
+        "corr": [
+          {"t": "capitalization", "w": "after", "r": "After", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "perched", "r": "perched", "e": "Perched is spelled correctly — good job! The 'er' says /er/."},
+          {"t": "grammar", "w": "on", "r": "upon", "e": "Use 'upon' for a more precise description."},
+          {"t": "spelling", "w": "fern", "r": "fern", "e": "Fern is spelled correctly — good job! The 'er' says /er/."},
+          {"t": "punctuation", "w": "porch", "r": "porch.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "After dinner the bird perched upon the fern under the porch.",
+        "pos": [
+          {"w": "After", "t": "PREP", "q": "Find the preposition that tells when."},
+          {"w": "dinner", "t": "N", "q": "Find the noun for an evening meal."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'bird.'"},
+          {"w": "bird", "t": "N", "q": "Find the noun for an animal that flies."},
+          {"w": "perched", "t": "V", "q": "Find the verb that means sat on a branch."},
+          {"w": "upon", "t": "PREP", "q": "Find the preposition that means 'on.'"},
+          {"w": "the", "t": "ART", "q": "Find the article before 'fern.'"},
+          {"w": "fern", "t": "N", "q": "Find the noun for a green plant."},
+          {"w": "under", "t": "PREP", "q": "Find the preposition that means below."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'porch.'"},
+          {"w": "porch", "t": "N", "q": "Find the noun for a covered area near a door."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'bird' with a different ir-word.",
+          "word": "bird",
+          "examples": [
+            "After dinner the <span class='changed'>girl</span> perched upon the fern under the porch.",
+            "After dinner the <span class='changed'>squirrel</span> perched upon the fern under the porch."
+          ]
+        },
+        "vocab": {
+          "w": "perch",
+          "type": "verb",
+          "def": "To sit or rest on something high up, like a branch.",
+          "simple": "Perch means to sit up on something, like a bird on a branch!",
+          "examples": ["perch on a branch", "perch on a fence", "perch up high"],
+          "similar": ["sit", "rest", "roost"],
+          "antonyms": ["fall", "drop", "tumble"],
+          "nonex": ["It does NOT mean to fly.", "It does NOT mean to swim."],
+          "example": "The bird will perch on the fence and sing.",
+          "starter": "The bird perched on the _______ and _______ ...",
+          "why": "Perch has the 'er' sound and is about what birds do!"
+        },
+        "ufliLesson": 75,
+        "ufliSkill": "R-Controlled Review (er, ir, ur)",
+        "ufliSection": "R-Controlled Vowels",
+        "phonicsWords": ["dinner", "bird", "perched", "fern", "under", "porch"],
+        "heartWords": ["the", "after"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 76,
+    "sentences": [
+      {
+        "orig": "the shrak swam in the dark water near the boat",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "shrak", "r": "shark", "e": "Shark is spelled s-h-a-r-k. The 'ar' says /ar/ with a blend."},
+          {"t": "grammar", "w": "swam", "r": "swims", "e": "Use 'swims' for something that happens now."},
+          {"t": "spelling", "w": "water", "r": "water", "e": "Water is spelled correctly — good job!"},
+          {"t": "punctuation", "w": "boat", "r": "boat.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The shark swims in the dark water near the boat.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "shark", "t": "N", "q": "Find the noun for a big ocean animal."},
+          {"w": "swims", "t": "V", "q": "Find the verb that tells the action."},
+          {"w": "in", "t": "PREP", "q": "Find the first preposition."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'dark.'"},
+          {"w": "dark", "t": "ADJ", "q": "Find the adjective that describes the water."},
+          {"w": "water", "t": "N", "q": "Find the noun for a liquid."},
+          {"w": "near", "t": "PREP", "q": "Find the preposition that means close to."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'boat.'"},
+          {"w": "boat", "t": "N", "q": "Find the noun for something that floats."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'shark' with a different ar-blend word.",
+          "word": "shark",
+          "examples": [
+            "The <span class='changed'>starfish</span> swims in the dark water near the boat.",
+            "The <span class='changed'>carp</span> swims in the dark water near the boat."
+          ]
+        },
+        "vocab": {
+          "w": "shark",
+          "type": "noun",
+          "def": "A large fish that lives in the ocean and has sharp teeth.",
+          "simple": "A shark is a big, strong fish with lots of sharp teeth!",
+          "examples": ["a great white shark", "a baby shark", "a fast shark"],
+          "similar": ["predator", "fish"],
+          "antonyms": [],
+          "nonex": ["It does NOT mean a whale.", "It does NOT mean a dolphin."],
+          "example": "The shark swam around the reef looking for food.",
+          "starter": "If I saw a shark, I would _______ ...",
+          "why": "Shark has 'ar' with a blend and is about ocean animals!"
+        },
+        "ufliLesson": 76,
+        "ufliSkill": "ar with blends/digraphs",
+        "ufliSection": "R-Controlled Vowels",
+        "phonicsWords": ["shark", "chart", "smart", "sharp", "charm", "start"],
+        "heartWords": ["the", "in", "near"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "the smart boy made a chart of all the stars he seen at night",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "chart", "r": "chart", "e": "Chart is spelled correctly — good job! It has 'ar' with a digraph."},
+          {"t": "grammar", "w": "seen", "r": "saw", "e": "Use 'saw' after 'he' for past tense."},
+          {"t": "spelling", "w": "stars", "r": "stars", "e": "Stars is spelled correctly — good job! The 'ar' says /ar/."},
+          {"t": "punctuation", "w": "night", "r": "night.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The smart boy made a chart of all the stars he saw at night.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "smart", "t": "ADJ", "q": "Find the adjective that describes the boy."},
+          {"w": "boy", "t": "N", "q": "Find the noun for a young person."},
+          {"w": "made", "t": "V", "q": "Find the verb that tells what he did."},
+          {"w": "a", "t": "ART", "q": "Find the article before 'chart.'"},
+          {"w": "chart", "t": "N", "q": "Find the noun for a picture with information."},
+          {"w": "of", "t": "PREP", "q": "Find the first preposition."},
+          {"w": "all", "t": "ADJ", "q": "Find the adjective that means every one."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'stars.'"},
+          {"w": "stars", "t": "N", "q": "Find the noun for lights in the sky."},
+          {"w": "he", "t": "PRO", "q": "Find the pronoun."},
+          {"w": "saw", "t": "V", "q": "Find the verb that means looked at."},
+          {"w": "at", "t": "PREP", "q": "Find the preposition that tells when."},
+          {"w": "night", "t": "N", "q": "Find the noun for a time of day."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'chart' with a different ar-word.",
+          "word": "chart",
+          "examples": [
+            "The smart boy made a <span class='changed'>card</span> of all the stars he saw at night.",
+            "The smart boy made a <span class='changed'>map</span> of all the stars he saw at night."
+          ]
+        },
+        "vocab": {
+          "w": "chart",
+          "type": "noun",
+          "def": "A sheet that shows information using pictures or numbers.",
+          "simple": "A chart is a picture that helps you see and understand information!",
+          "examples": ["a star chart", "a weather chart", "a growth chart"],
+          "similar": ["graph", "diagram", "table"],
+          "antonyms": [],
+          "nonex": ["It does NOT mean a story.", "It does NOT mean a painting."],
+          "example": "The teacher made a chart to show our reading progress.",
+          "starter": "I could make a chart about _______ ...",
+          "why": "Chart has 'ar' with a digraph and is used at school!"
+        },
+        "ufliLesson": 76,
+        "ufliSkill": "ar with blends/digraphs",
+        "ufliSection": "R-Controlled Vowels",
+        "phonicsWords": ["smart", "chart", "stars", "sharp", "start", "charm"],
+        "heartWords": ["the", "a", "of", "all", "he", "at"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 77,
+    "sentences": [
+      {
+        "orig": "the short boy plays a spoort after school",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "spoort", "r": "sport", "e": "Sport is spelled s-p-o-r-t. The 'or' says /or/ with a blend."},
+          {"t": "grammar", "w": "plays", "r": "played", "e": "Use 'played' to show it happened in the past."},
+          {"t": "spelling", "w": "school", "r": "school", "e": "School is spelled correctly — good job!"},
+          {"t": "punctuation", "w": "school", "r": "school.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The short boy played a sport after school.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "short", "t": "ADJ", "q": "Find the adjective that describes the boy."},
+          {"w": "boy", "t": "N", "q": "Find the noun for a young person."},
+          {"w": "played", "t": "V", "q": "Find the verb that tells the action."},
+          {"w": "a", "t": "ART", "q": "Find the article before 'sport.'"},
+          {"w": "sport", "t": "N", "q": "Find the noun for a game or activity."},
+          {"w": "after", "t": "PREP", "q": "Find the preposition that tells when."},
+          {"w": "school", "t": "N", "q": "Find the noun for a place to learn."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'sport' with a different or-blend word.",
+          "word": "sport",
+          "examples": [
+            "The short boy played a <span class='changed'>game</span> after school.",
+            "The short boy played a <span class='changed'>horn</span> after school."
+          ]
+        },
+        "vocab": {
+          "w": "sport",
+          "type": "noun",
+          "def": "A game or activity that you play with physical effort.",
+          "simple": "A sport is a fun game where you move your body!",
+          "examples": ["a team sport", "a winter sport", "my favorite sport"],
+          "similar": ["game", "activity", "match"],
+          "antonyms": [],
+          "nonex": ["It does NOT mean watching TV.", "It does NOT mean reading."],
+          "example": "Soccer is a popular sport at our school.",
+          "starter": "My favorite sport is _______ because _______ ...",
+          "why": "Sport has 'or' with a blend and is about being active!"
+        },
+        "ufliLesson": 77,
+        "ufliSkill": "or with blends/digraphs",
+        "ufliSection": "R-Controlled Vowels",
+        "phonicsWords": ["short", "sport", "north", "storm", "forth", "shore"],
+        "heartWords": ["the", "a", "after"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "the strong north wind brort a big storm to the shore",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "brort", "r": "brought", "e": "Brought is spelled b-r-o-u-g-h-t."},
+          {"t": "grammar", "w": "big", "r": "huge", "e": "Use 'huge' for something very, very big."},
+          {"t": "spelling", "w": "shore", "r": "shore", "e": "Shore is spelled correctly — good job! The 'or' says /or/."},
+          {"t": "punctuation", "w": "shore", "r": "shore.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The strong north wind brought a huge storm to the shore.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "strong", "t": "ADJ", "q": "Find the adjective that describes the wind."},
+          {"w": "north", "t": "ADJ", "q": "Find the adjective that tells direction."},
+          {"w": "wind", "t": "N", "q": "Find the noun for moving air."},
+          {"w": "brought", "t": "V", "q": "Find the verb that tells what happened."},
+          {"w": "a", "t": "ART", "q": "Find the article before 'huge.'"},
+          {"w": "huge", "t": "ADJ", "q": "Find the adjective that means very big."},
+          {"w": "storm", "t": "N", "q": "Find the noun for bad weather."},
+          {"w": "to", "t": "PREP", "q": "Find the preposition that shows direction."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'shore.'"},
+          {"w": "shore", "t": "N", "q": "Find the noun for the edge of the water."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'storm' with a different or-word.",
+          "word": "storm",
+          "examples": [
+            "The strong north wind brought a huge <span class='changed'>downpour</span> to the shore.",
+            "The strong north wind brought a huge <span class='changed'>tornado</span> to the shore."
+          ]
+        },
+        "vocab": {
+          "w": "shore",
+          "type": "noun",
+          "def": "The land along the edge of a lake, river, or ocean.",
+          "simple": "The shore is where the water meets the land!",
+          "examples": ["the sandy shore", "the rocky shore", "along the shore"],
+          "similar": ["beach", "coast", "bank"],
+          "antonyms": ["deep sea", "open water"],
+          "nonex": ["It does NOT mean the bottom of the ocean.", "It does NOT mean a wave."],
+          "example": "We found shells along the shore at the beach.",
+          "starter": "At the shore, I like to _______ ...",
+          "why": "Shore has 'or' with a digraph and is about water and land!"
+        },
+        "ufliLesson": 77,
+        "ufliSkill": "or with blends/digraphs",
+        "ufliSection": "R-Controlled Vowels",
+        "phonicsWords": ["north", "storm", "shore", "short", "sport", "strong"],
+        "heartWords": ["the", "a", "to"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 78,
+    "sentences": [
+      {
+        "orig": "the fermer drove the tractor to the far barn before dark",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "fermer", "r": "farmer", "e": "Farmer is spelled f-a-r-m-e-r with 'ar' not 'er.'"},
+          {"t": "grammar", "w": "drove", "r": "drives", "e": "Use 'drives' for something that happens often."},
+          {"t": "spelling", "w": "tractor", "r": "tractor", "e": "Tractor is spelled correctly — good job! The 'or' says /er/."},
+          {"t": "punctuation", "w": "dark", "r": "dark.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The farmer drives the tractor to the far barn before dark.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the first article."},
+          {"w": "farmer", "t": "N", "q": "Find the noun for a person who works on a farm."},
+          {"w": "drives", "t": "V", "q": "Find the verb that tells the action."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'tractor.'"},
+          {"w": "tractor", "t": "N", "q": "Find the noun for a farm machine."},
+          {"w": "to", "t": "PREP", "q": "Find the first preposition."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'far.'"},
+          {"w": "far", "t": "ADJ", "q": "Find the adjective that describes distance."},
+          {"w": "barn", "t": "N", "q": "Find the noun for a farm building."},
+          {"w": "before", "t": "PREP", "q": "Find the preposition that tells when."},
+          {"w": "dark", "t": "N", "q": "Find the noun for nighttime."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'barn' with a different ar-word.",
+          "word": "barn",
+          "examples": [
+            "The farmer drives the tractor to the far <span class='changed'>yard</span> before dark.",
+            "The farmer drives the tractor to the far <span class='changed'>garden</span> before dark."
+          ]
+        },
+        "vocab": {
+          "w": "tractor",
+          "type": "noun",
+          "def": "A big, strong machine used on farms to pull things.",
+          "simple": "A tractor is a powerful machine that helps farmers do their work!",
+          "examples": ["a red tractor", "a big tractor", "the farm tractor"],
+          "similar": ["machine", "vehicle"],
+          "antonyms": [],
+          "nonex": ["It does NOT mean a car.", "It does NOT mean a truck for the road."],
+          "example": "The farmer used the tractor to plow the field.",
+          "starter": "If I could drive a tractor, I would _______ ...",
+          "why": "Tractor has r-controlled vowels and is about farms!"
+        },
+        "ufliLesson": 78,
+        "ufliSkill": "R-Controlled Review + Assessment",
+        "ufliSection": "R-Controlled Vowels",
+        "phonicsWords": ["farmer", "tractor", "barn", "dark", "far", "before"],
+        "heartWords": ["the", "to"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "the berd chirped in the morning as the gurl ran north thru the park",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "berd", "r": "bird", "e": "Bird is spelled b-i-r-d. The 'ir' says /er/."},
+          {"t": "spelling", "w": "gurl", "r": "girl", "e": "Girl is spelled g-i-r-l. The 'ir' says /er/."},
+          {"t": "grammar", "w": "thru", "r": "through", "e": "Use the full spelling 'through' in a sentence."},
+          {"t": "punctuation", "w": "park", "r": "park.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The bird chirped in the morning as the girl ran north through the park.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the first article."},
+          {"w": "bird", "t": "N", "q": "Find the noun for a flying animal."},
+          {"w": "chirped", "t": "V", "q": "Find the verb for a bird sound."},
+          {"w": "in", "t": "PREP", "q": "Find the first preposition."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'morning.'"},
+          {"w": "morning", "t": "N", "q": "Find the noun for early in the day."},
+          {"w": "as", "t": "SUBCONJ", "q": "Find the word that connects the two actions."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'girl.'"},
+          {"w": "girl", "t": "N", "q": "Find the noun for a young person."},
+          {"w": "ran", "t": "V", "q": "Find the verb for moving fast."},
+          {"w": "north", "t": "ADV", "q": "Find the adverb that tells direction."},
+          {"w": "through", "t": "PREP", "q": "Find the preposition that means going in and out."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'park.'"},
+          {"w": "park", "t": "N", "q": "Find the noun for an outdoor play area."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'park' with a different ar-word.",
+          "word": "park",
+          "examples": [
+            "The bird chirped in the morning as the girl ran north through the <span class='changed'>yard</span>.",
+            "The bird chirped in the morning as the girl ran north through the <span class='changed'>garden</span>."
+          ]
+        },
+        "vocab": {
+          "w": "chirp",
+          "type": "verb",
+          "def": "To make a short, high sound like a bird.",
+          "simple": "Chirp is the little sound a bird makes!",
+          "examples": ["birds chirp", "chirp in the morning", "a cheerful chirp"],
+          "similar": ["tweet", "sing", "peep"],
+          "antonyms": ["roar", "growl"],
+          "nonex": ["It does NOT mean to bark.", "It does NOT mean to whisper."],
+          "example": "The little birds chirp in the tree every morning.",
+          "starter": "I heard a bird chirp near the _______ ...",
+          "why": "Chirp has the 'ir' sound and is about bird sounds!"
+        },
+        "ufliLesson": 78,
+        "ufliSkill": "R-Controlled Review + Assessment",
+        "ufliSection": "R-Controlled Vowels",
+        "phonicsWords": ["bird", "girl", "north", "park", "morning", "chirped"],
+        "heartWords": ["the", "in", "as", "through"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 79,
+    "sentences": [
+      {
+        "orig": "the rane fell on the trane tracks all day",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "rane", "r": "rain", "e": "Rain is spelled r-a-i-n. The 'ai' says /ay/."},
+          {"t": "spelling", "w": "trane", "r": "train", "e": "Train is spelled t-r-a-i-n. The 'ai' says /ay/."},
+          {"t": "grammar", "w": "fell", "r": "falls", "e": "Use 'falls' to tell what happens often."},
+          {"t": "punctuation", "w": "day", "r": "day.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The rain falls on the train tracks all day.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "rain", "t": "N", "q": "Find the noun for water from the sky."},
+          {"w": "falls", "t": "V", "q": "Find the verb that tells what happens."},
+          {"w": "on", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'train.'"},
+          {"w": "train", "t": "N", "q": "Find the noun for something on tracks."},
+          {"w": "tracks", "t": "N", "q": "Find the noun for metal rails."},
+          {"w": "all", "t": "ADJ", "q": "Find the adjective that means the whole time."},
+          {"w": "day", "t": "N", "q": "Find the noun for a unit of time."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'rain' with a different ai-word.",
+          "word": "rain",
+          "examples": [
+            "The <span class='changed'>hail</span> falls on the train tracks all day.",
+            "The <span class='changed'>paint</span> falls on the train tracks all day."
+          ]
+        },
+        "vocab": {
+          "w": "rain",
+          "type": "noun",
+          "def": "Drops of water that fall from clouds in the sky.",
+          "simple": "Rain is water that falls from the clouds!",
+          "examples": ["heavy rain", "a rain shower", "rain drops"],
+          "similar": ["drizzle", "downpour", "shower"],
+          "antonyms": ["sunshine", "drought"],
+          "nonex": ["It does NOT mean snow.", "It does NOT mean fog."],
+          "example": "The rain made puddles on the sidewalk.",
+          "starter": "When it rains, I like to _______ ...",
+          "why": "Rain has the 'ai' vowel team that says /ay/!"
+        },
+        "ufliLesson": 79,
+        "ufliSkill": "ai /ay/",
+        "ufliSection": "Vowel Teams",
+        "phonicsWords": ["rain", "train", "wait", "tail", "mail", "paint"],
+        "heartWords": ["the", "on", "all"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "we had to wate for the mail carrier in the rane on the main street",
+        "corr": [
+          {"t": "capitalization", "w": "we", "r": "We", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "wate", "r": "wait", "e": "Wait is spelled w-a-i-t. The 'ai' says /ay/."},
+          {"t": "spelling", "w": "rane", "r": "rain", "e": "Rain is spelled r-a-i-n. The 'ai' says /ay/."},
+          {"t": "grammar", "w": "had", "r": "have", "e": "Use 'have' for something happening now."},
+          {"t": "punctuation", "w": "street", "r": "street.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "We have to wait for the mail carrier in the rain on the main street.",
+        "pos": [
+          {"w": "We", "t": "PRO", "q": "Find the pronoun at the beginning."},
+          {"w": "have", "t": "V", "q": "Find the first verb."},
+          {"w": "to", "t": "PREP", "q": "Find the preposition after 'have.'"},
+          {"w": "wait", "t": "V", "q": "Find the verb that means to stay."},
+          {"w": "for", "t": "PREP", "q": "Find the preposition after 'wait.'"},
+          {"w": "the", "t": "ART", "q": "Find the article before 'mail.'"},
+          {"w": "mail", "t": "N", "q": "Find the noun for letters and packages."},
+          {"w": "carrier", "t": "N", "q": "Find the noun for a person who brings mail."},
+          {"w": "in", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'rain.'"},
+          {"w": "rain", "t": "N", "q": "Find the noun for water from the sky."},
+          {"w": "on", "t": "PREP", "q": "Find the preposition before 'the main.'"},
+          {"w": "the", "t": "ART", "q": "Find the article before 'main.'"},
+          {"w": "main", "t": "ADJ", "q": "Find the adjective that means most important."},
+          {"w": "street", "t": "N", "q": "Find the noun for a road."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'mail' with a different ai-word.",
+          "word": "mail",
+          "examples": [
+            "We have to wait for the <span class='changed'>train</span> carrier in the rain on the main street.",
+            "We have to wait for the <span class='changed'>snail</span> carrier in the rain on the main street."
+          ]
+        },
+        "vocab": {
+          "w": "wait",
+          "type": "verb",
+          "def": "To stay in one place until something happens.",
+          "simple": "Wait means to stay and not go until it is time!",
+          "examples": ["wait in line", "wait for the bus", "wait your turn"],
+          "similar": ["stay", "remain", "hold on"],
+          "antonyms": ["go", "leave", "rush"],
+          "nonex": ["It does NOT mean to run away.", "It does NOT mean to sleep."],
+          "example": "We had to wait in line for the school bus.",
+          "starter": "I have to wait when _______ ...",
+          "why": "Wait has the 'ai' vowel team that says /ay/!"
+        },
+        "ufliLesson": 79,
+        "ufliSkill": "ai /ay/",
+        "ufliSection": "Vowel Teams",
+        "phonicsWords": ["wait", "mail", "rain", "main", "train", "tail"],
+        "heartWords": ["we", "to", "for", "the", "in", "on"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 80,
+    "sentences": [
+      {
+        "orig": "the kids plae outside on a sunny dae",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "plae", "r": "play", "e": "Play is spelled p-l-a-y. The 'ay' says /ay/."},
+          {"t": "spelling", "w": "dae", "r": "day", "e": "Day is spelled d-a-y. The 'ay' says /ay/."},
+          {"t": "grammar", "w": "kids", "r": "children", "e": "Use 'children' for a more proper word."},
+          {"t": "punctuation", "w": "dae", "r": "day.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The children play outside on a sunny day.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "children", "t": "N", "q": "Find the noun for young people."},
+          {"w": "play", "t": "V", "q": "Find the verb for having fun."},
+          {"w": "outside", "t": "ADV", "q": "Find the adverb that tells where."},
+          {"w": "on", "t": "PREP", "q": "Find the preposition."},
+          {"w": "a", "t": "ART", "q": "Find the article before 'sunny.'"},
+          {"w": "sunny", "t": "ADJ", "q": "Find the adjective that describes the day."},
+          {"w": "day", "t": "N", "q": "Find the noun for a unit of time."}
+        ],
+        "manip": {
+          "task": "Replace the verb 'play' with a different ay-word.",
+          "word": "play",
+          "examples": [
+            "The children <span class='changed'>stay</span> outside on a sunny day.",
+            "The children <span class='changed'>sway</span> outside on a sunny day."
+          ]
+        },
+        "vocab": {
+          "w": "play",
+          "type": "verb",
+          "def": "To have fun and enjoy yourself with games or toys.",
+          "simple": "Play means to have fun doing something you enjoy!",
+          "examples": ["play a game", "play outside", "play with friends"],
+          "similar": ["have fun", "enjoy", "frolic"],
+          "antonyms": ["work", "study", "rest"],
+          "nonex": ["It does NOT mean to fight.", "It does NOT mean to sleep."],
+          "example": "The kids play in the park after school.",
+          "starter": "I like to play _______ with my friends ...",
+          "why": "Play has the 'ay' vowel team that says /ay/!"
+        },
+        "ufliLesson": 80,
+        "ufliSkill": "ay /ay/",
+        "ufliSection": "Vowel Teams",
+        "phonicsWords": ["play", "day", "say", "stay", "way", "gray"],
+        "heartWords": ["the", "on", "a"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "on friday we sae the gray clay pots at the market",
+        "corr": [
+          {"t": "capitalization", "w": "friday", "r": "Friday", "e": "Days of the week must be capitalized."},
+          {"t": "spelling", "w": "sae", "r": "saw", "e": "Saw is the past tense of see — it is spelled s-a-w."},
+          {"t": "spelling", "w": "clay", "r": "clay", "e": "Clay is spelled correctly — good job! The 'ay' says /ay/."},
+          {"t": "grammar", "w": "we", "r": "we", "e": "We is correct here — good job!"},
+          {"t": "punctuation", "w": "market", "r": "market.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "On Friday we saw the gray clay pots at the market.",
+        "pos": [
+          {"w": "On", "t": "PREP", "q": "Find the preposition at the beginning."},
+          {"w": "Friday", "t": "N", "q": "Find the proper noun for a day of the week."},
+          {"w": "we", "t": "PRO", "q": "Find the pronoun."},
+          {"w": "saw", "t": "V", "q": "Find the verb that means looked at."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'gray.'"},
+          {"w": "gray", "t": "ADJ", "q": "Find the adjective for a color."},
+          {"w": "clay", "t": "N", "q": "Find the noun for a material you shape."},
+          {"w": "pots", "t": "N", "q": "Find the noun for containers."},
+          {"w": "at", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'market.'"},
+          {"w": "market", "t": "N", "q": "Find the noun for a place to buy things."}
+        ],
+        "manip": {
+          "task": "Replace the adjective 'gray' with a different ay-word.",
+          "word": "gray",
+          "examples": [
+            "On Friday we saw the <span class='changed'>stray</span> clay pots at the market.",
+            "On Friday we saw the <span class='changed'>fancy</span> clay pots at the market."
+          ]
+        },
+        "vocab": {
+          "w": "clay",
+          "type": "noun",
+          "def": "A type of thick, sticky earth that can be shaped when wet.",
+          "simple": "Clay is special mud you can shape into pots and bowls!",
+          "examples": ["soft clay", "red clay", "a clay pot"],
+          "similar": ["mud", "earth", "dough"],
+          "antonyms": ["rock", "stone"],
+          "nonex": ["It does NOT mean regular dirt.", "It does NOT mean sand."],
+          "example": "The students made bowls out of clay in art class.",
+          "starter": "With clay, I would make a _______ ...",
+          "why": "Clay has the 'ay' vowel team that says /ay/!"
+        },
+        "ufliLesson": 80,
+        "ufliSkill": "ay /ay/",
+        "ufliSection": "Vowel Teams",
+        "phonicsWords": ["Friday", "gray", "clay", "day", "say", "play"],
+        "heartWords": ["on", "we", "the", "at"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 81,
+    "sentences": [
+      {
+        "orig": "the tre has green leafs that blow in the breez",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "tre", "r": "tree", "e": "Tree is spelled t-r-e-e. The 'ee' says /ee/."},
+          {"t": "grammar", "w": "leafs", "r": "leaves", "e": "The plural of 'leaf' is 'leaves.'"},
+          {"t": "spelling", "w": "breez", "r": "breeze", "e": "Breeze is spelled b-r-e-e-z-e. The 'ee' says /ee/."},
+          {"t": "punctuation", "w": "breez", "r": "breeze.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The tree has green leaves that blow in the breeze.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "tree", "t": "N", "q": "Find the noun for a tall plant."},
+          {"w": "has", "t": "V", "q": "Find the verb that means to own."},
+          {"w": "green", "t": "ADJ", "q": "Find the adjective for a color."},
+          {"w": "leaves", "t": "N", "q": "Find the noun for parts of a tree."},
+          {"w": "that", "t": "DEM", "q": "Find the demonstrative word."},
+          {"w": "blow", "t": "V", "q": "Find the verb for moving in the wind."},
+          {"w": "in", "t": "PREP", "q": "Find the preposition."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'breeze.'"},
+          {"w": "breeze", "t": "N", "q": "Find the noun for a gentle wind."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'tree' with a different ee-word.",
+          "word": "tree",
+          "examples": [
+            "The <span class='changed'>reef</span> has green leaves that blow in the breeze.",
+            "The <span class='changed'>seed</span> has green leaves that blow in the breeze."
+          ]
+        },
+        "vocab": {
+          "w": "breeze",
+          "type": "noun",
+          "def": "A gentle, light wind.",
+          "simple": "A breeze is a soft, gentle wind that feels nice!",
+          "examples": ["a cool breeze", "a summer breeze", "a gentle breeze"],
+          "similar": ["wind", "draft", "gust"],
+          "antonyms": ["calm", "stillness"],
+          "nonex": ["It does NOT mean a storm.", "It does NOT mean very hot air."],
+          "example": "The cool breeze felt nice on the warm day.",
+          "starter": "I feel a breeze when _______ ...",
+          "why": "Breeze has the 'ee' vowel team that says /ee/!"
+        },
+        "ufliLesson": 81,
+        "ufliSkill": "ee /ee/",
+        "ufliSection": "Vowel Teams",
+        "phonicsWords": ["tree", "breeze", "feet", "green", "see", "sleep"],
+        "heartWords": ["the", "has", "that", "in"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "the three sheep sleeped under the tree by the creek",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "sleeped", "r": "slept", "e": "The past tense of 'sleep' is 'slept,' not 'sleeped.'"},
+          {"t": "grammar", "w": "three", "r": "three", "e": "Three is used correctly — good job!"},
+          {"t": "spelling", "w": "creek", "r": "creek", "e": "Creek is spelled correctly — good job! The 'ee' says /ee/."},
+          {"t": "punctuation", "w": "creek", "r": "creek.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The three sheep slept under the tree by the creek.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "three", "t": "ADJ", "q": "Find the adjective that tells the number."},
+          {"w": "sheep", "t": "N", "q": "Find the noun for farm animals."},
+          {"w": "slept", "t": "V", "q": "Find the verb for resting at night."},
+          {"w": "under", "t": "PREP", "q": "Find the preposition that means below."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'tree.'"},
+          {"w": "tree", "t": "N", "q": "Find the noun for a tall plant."},
+          {"w": "by", "t": "PREP", "q": "Find the preposition that means near."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'creek.'"},
+          {"w": "creek", "t": "N", "q": "Find the noun for a small stream."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'sheep' with a different ee-word.",
+          "word": "sheep",
+          "examples": [
+            "The three <span class='changed'>geese</span> slept under the tree by the creek.",
+            "The three <span class='changed'>bees</span> slept under the tree by the creek."
+          ]
+        },
+        "vocab": {
+          "w": "creek",
+          "type": "noun",
+          "def": "A small, narrow stream of water.",
+          "simple": "A creek is a tiny river that you might be able to jump over!",
+          "examples": ["a babbling creek", "a rocky creek", "by the creek"],
+          "similar": ["stream", "brook", "rivulet"],
+          "antonyms": ["ocean", "lake"],
+          "nonex": ["It does NOT mean a pond.", "It does NOT mean a waterfall."],
+          "example": "We caught tadpoles in the creek behind the school.",
+          "starter": "By the creek, I saw _______ ...",
+          "why": "Creek has the 'ee' vowel team that says /ee/!"
+        },
+        "ufliLesson": 81,
+        "ufliSkill": "ee /ee/",
+        "ufliSection": "Vowel Teams",
+        "phonicsWords": ["three", "sheep", "tree", "creek", "sleep", "feet"],
+        "heartWords": ["the", "under", "by"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 82,
+    "sentences": [
+      {
+        "orig": "we like to reed books at the beech in summer",
+        "corr": [
+          {"t": "capitalization", "w": "we", "r": "We", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "reed", "r": "read", "e": "Read is spelled r-e-a-d. The 'ea' says /ee/."},
+          {"t": "spelling", "w": "beech", "r": "beach", "e": "Beach is spelled b-e-a-c-h. The 'ea' says /ee/."},
+          {"t": "grammar", "w": "like", "r": "love", "e": "Use 'love' to show a stronger feeling."},
+          {"t": "punctuation", "w": "summer", "r": "summer.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "We love to read books at the beach in summer.",
+        "pos": [
+          {"w": "We", "t": "PRO", "q": "Find the pronoun at the beginning."},
+          {"w": "love", "t": "V", "q": "Find the verb for a strong feeling."},
+          {"w": "to", "t": "PREP", "q": "Find the preposition."},
+          {"w": "read", "t": "V", "q": "Find the verb for looking at words."},
+          {"w": "books", "t": "N", "q": "Find the noun for things you read."},
+          {"w": "at", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'beach.'"},
+          {"w": "beach", "t": "N", "q": "Find the noun for a sandy place by the ocean."},
+          {"w": "in", "t": "PREP", "q": "Find the preposition before 'summer.'"},
+          {"w": "summer", "t": "N", "q": "Find the noun for a hot season."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'beach' with a different ea-word.",
+          "word": "beach",
+          "examples": [
+            "We love to read books at the <span class='changed'>seat</span> in summer.",
+            "We love to read books at the <span class='changed'>feast</span> in summer."
+          ]
+        },
+        "vocab": {
+          "w": "beach",
+          "type": "noun",
+          "def": "A flat area of sand or small rocks next to water.",
+          "simple": "A beach is the sandy place where you play near the ocean!",
+          "examples": ["a sandy beach", "the beach in summer", "a crowded beach"],
+          "similar": ["shore", "coast", "seaside"],
+          "antonyms": ["mountain", "forest"],
+          "nonex": ["It does NOT mean a pool.", "It does NOT mean the deep ocean."],
+          "example": "We built a sandcastle at the beach.",
+          "starter": "At the beach, my favorite thing to do is _______ ...",
+          "why": "Beach has the 'ea' vowel team that says /ee/!"
+        },
+        "ufliLesson": 82,
+        "ufliSkill": "ea /ee/",
+        "ufliSection": "Vowel Teams",
+        "phonicsWords": ["read", "beach", "teach", "clean", "eat", "dream"],
+        "heartWords": ["we", "to", "at", "the", "in"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "each morning the teecher would clean the board and teach a new lessin",
+        "corr": [
+          {"t": "capitalization", "w": "each", "r": "Each", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "teecher", "r": "teacher", "e": "Teacher is spelled with 'ea,' not 'ee.' The 'ea' says /ee/."},
+          {"t": "spelling", "w": "lessin", "r": "lesson", "e": "Lesson is spelled l-e-s-s-o-n with two s's."},
+          {"t": "grammar", "w": "would", "r": "will", "e": "Use 'will' for something that is going to happen."},
+          {"t": "punctuation", "w": "lessin", "r": "lesson.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "Each morning the teacher will clean the board and teach a new lesson.",
+        "pos": [
+          {"w": "Each", "t": "ADJ", "q": "Find the adjective that means every one."},
+          {"w": "morning", "t": "N", "q": "Find the noun for a time of day."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'teacher.'"},
+          {"w": "teacher", "t": "N", "q": "Find the noun for a person who teaches."},
+          {"w": "will", "t": "V", "q": "Find the helping verb."},
+          {"w": "clean", "t": "V", "q": "Find the verb that means to make tidy."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'board.'"},
+          {"w": "board", "t": "N", "q": "Find the noun for a writing surface."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction."},
+          {"w": "teach", "t": "V", "q": "Find the verb for helping someone learn."},
+          {"w": "a", "t": "ART", "q": "Find the article before 'new.'"},
+          {"w": "new", "t": "ADJ", "q": "Find the adjective that means not old."},
+          {"w": "lesson", "t": "N", "q": "Find the noun for something you learn."}
+        ],
+        "manip": {
+          "task": "Replace the verb 'clean' with a different ea-word verb.",
+          "word": "clean",
+          "examples": [
+            "Each morning the teacher will <span class='changed'>read</span> the board and teach a new lesson.",
+            "Each morning the teacher will <span class='changed'>reach</span> the board and teach a new lesson."
+          ]
+        },
+        "vocab": {
+          "w": "teach",
+          "type": "verb",
+          "def": "To help someone learn something new.",
+          "simple": "Teach means to help someone understand or learn!",
+          "examples": ["teach a class", "teach a skill", "teach math"],
+          "similar": ["instruct", "show", "explain"],
+          "antonyms": ["learn", "study"],
+          "nonex": ["It does NOT mean to yell.", "It does NOT mean to test."],
+          "example": "My mom will teach me how to bake cookies.",
+          "starter": "I could teach someone how to _______ ...",
+          "why": "Teach has the 'ea' vowel team that says /ee/!"
+        },
+        "ufliLesson": 82,
+        "ufliSkill": "ea /ee/",
+        "ufliSection": "Vowel Teams",
+        "phonicsWords": ["each", "teacher", "clean", "teach", "read", "dream"],
+        "heartWords": ["the", "and", "a"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 83,
+    "sentences": [
+      {
+        "orig": "the bote floats down the rode to the lake",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "bote", "r": "boat", "e": "Boat is spelled b-o-a-t. The 'oa' says /oh/."},
+          {"t": "spelling", "w": "rode", "r": "road", "e": "Road is spelled r-o-a-d. The 'oa' says /oh/."},
+          {"t": "grammar", "w": "floats", "r": "floated", "e": "Use 'floated' to show it happened in the past."},
+          {"t": "punctuation", "w": "lake", "r": "lake.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The boat floated down the road to the lake.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "boat", "t": "N", "q": "Find the noun for something that floats."},
+          {"w": "floated", "t": "V", "q": "Find the verb that tells the action."},
+          {"w": "down", "t": "PREP", "q": "Find the preposition."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'road.'"},
+          {"w": "road", "t": "N", "q": "Find the noun for a path for cars."},
+          {"w": "to", "t": "PREP", "q": "Find the preposition that shows direction."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'lake.'"},
+          {"w": "lake", "t": "N", "q": "Find the noun for a body of water."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'boat' with a different oa-word.",
+          "word": "boat",
+          "examples": [
+            "The <span class='changed'>toad</span> floated down the road to the lake.",
+            "The <span class='changed'>goat</span> floated down the road to the lake."
+          ]
+        },
+        "vocab": {
+          "w": "boat",
+          "type": "noun",
+          "def": "A small vehicle that travels on water.",
+          "simple": "A boat is something you ride in on the water!",
+          "examples": ["a sailboat", "a row boat", "a fishing boat"],
+          "similar": ["ship", "vessel", "canoe"],
+          "antonyms": [],
+          "nonex": ["It does NOT mean a car.", "It does NOT mean a raft always."],
+          "example": "We took a boat across the lake to the island.",
+          "starter": "If I had a boat, I would sail to _______ ...",
+          "why": "Boat has the 'oa' vowel team that says /oh/!"
+        },
+        "ufliLesson": 83,
+        "ufliSkill": "oa /oh/",
+        "ufliSection": "Vowel Teams",
+        "phonicsWords": ["boat", "road", "coat", "goat", "toad", "soap"],
+        "heartWords": ["the", "to"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "the tode sat on the road and croaked as the goat walked by in a cote",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "tode", "r": "toad", "e": "Toad is spelled t-o-a-d. The 'oa' says /oh/."},
+          {"t": "spelling", "w": "cote", "r": "coat", "e": "Coat is spelled c-o-a-t. The 'oa' says /oh/."},
+          {"t": "grammar", "w": "walked", "r": "walks", "e": "Use 'walks' because the toad 'sits' and 'croaks' in present tense."},
+          {"t": "punctuation", "w": "cote", "r": "coat.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The toad sat on the road and croaked as the goat walks by in a coat.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the first article."},
+          {"w": "toad", "t": "N", "q": "Find the noun for a bumpy frog-like animal."},
+          {"w": "sat", "t": "V", "q": "Find the first verb."},
+          {"w": "on", "t": "PREP", "q": "Find the preposition after 'sat.'"},
+          {"w": "the", "t": "ART", "q": "Find the article before 'road.'"},
+          {"w": "road", "t": "N", "q": "Find the noun for a path."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction."},
+          {"w": "croaked", "t": "V", "q": "Find the verb for the sound a toad makes."},
+          {"w": "as", "t": "SUBCONJ", "q": "Find the word that connects two actions."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'goat.'"},
+          {"w": "goat", "t": "N", "q": "Find the noun for a farm animal."},
+          {"w": "walks", "t": "V", "q": "Find the verb for moving on foot."},
+          {"w": "by", "t": "ADV", "q": "Find the adverb that means past."},
+          {"w": "in", "t": "PREP", "q": "Find the preposition before 'a.'"},
+          {"w": "a", "t": "ART", "q": "Find the article before 'coat.'"},
+          {"w": "coat", "t": "N", "q": "Find the noun for something you wear."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'goat' with a different oa-word.",
+          "word": "goat",
+          "examples": [
+            "The toad sat on the road and croaked as the <span class='changed'>coach</span> walks by in a coat.",
+            "The toad sat on the road and croaked as the <span class='changed'>foal</span> walks by in a coat."
+          ]
+        },
+        "vocab": {
+          "w": "toad",
+          "type": "noun",
+          "def": "A small animal like a frog with dry, bumpy skin.",
+          "simple": "A toad looks like a frog but has bumpy, dry skin!",
+          "examples": ["a garden toad", "a brown toad", "a fat toad"],
+          "similar": ["frog", "amphibian"],
+          "antonyms": [],
+          "nonex": ["It does NOT mean a lizard.", "It does NOT mean a turtle."],
+          "example": "We found a toad hiding under a rock in the garden.",
+          "starter": "If I found a toad, I would _______ ...",
+          "why": "Toad has the 'oa' vowel team that says /oh/!"
+        },
+        "ufliLesson": 83,
+        "ufliSkill": "oa /oh/",
+        "ufliSection": "Vowel Teams",
+        "phonicsWords": ["toad", "road", "goat", "coat", "croak", "soap"],
+        "heartWords": ["the", "on", "and", "as", "by", "in", "a"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 84,
+    "sentences": [
+      {
+        "orig": "the sno began to fall and blo across the field",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "sno", "r": "snow", "e": "Snow is spelled s-n-o-w. The 'ow' says /oh/."},
+          {"t": "spelling", "w": "blo", "r": "blow", "e": "Blow is spelled b-l-o-w. The 'ow' says /oh/."},
+          {"t": "grammar", "w": "began", "r": "begins", "e": "Use 'begins' to tell what happens now."},
+          {"t": "punctuation", "w": "field", "r": "field.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The snow begins to fall and blow across the field.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "snow", "t": "N", "q": "Find the noun for frozen white flakes."},
+          {"w": "begins", "t": "V", "q": "Find the verb that means to start."},
+          {"w": "to", "t": "PREP", "q": "Find the preposition."},
+          {"w": "fall", "t": "V", "q": "Find the verb for dropping down."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction."},
+          {"w": "blow", "t": "V", "q": "Find the verb for moving with wind."},
+          {"w": "across", "t": "PREP", "q": "Find the preposition that means over."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'field.'"},
+          {"w": "field", "t": "N", "q": "Find the noun for a flat grassy area."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'snow' with a different ow-word.",
+          "word": "snow",
+          "examples": [
+            "The <span class='changed'>wind</span> begins to fall and blow across the field.",
+            "The <span class='changed'>crow</span> begins to fall and blow across the field."
+          ]
+        },
+        "vocab": {
+          "w": "snow",
+          "type": "noun",
+          "def": "Soft, white, frozen water that falls from the sky in cold weather.",
+          "simple": "Snow is the white, fluffy stuff that falls from the sky in winter!",
+          "examples": ["fresh snow", "a snow day", "deep snow"],
+          "similar": ["sleet", "flurry", "frost"],
+          "antonyms": ["rain", "sunshine"],
+          "nonex": ["It does NOT mean ice.", "It does NOT mean hail."],
+          "example": "The snow covered the yard in a white blanket.",
+          "starter": "When it snows, I like to _______ ...",
+          "why": "Snow has the 'ow' vowel team that says /oh/!"
+        },
+        "ufliLesson": 84,
+        "ufliSkill": "ow /oh/",
+        "ufliSection": "Vowel Teams",
+        "phonicsWords": ["snow", "blow", "grow", "show", "slow", "flow"],
+        "heartWords": ["the", "to", "and"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "the flowers gro slow in the garden below the windo",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "gro", "r": "grow", "e": "Grow is spelled g-r-o-w. The 'ow' says /oh/."},
+          {"t": "spelling", "w": "windo", "r": "window", "e": "Window is spelled w-i-n-d-o-w. The 'ow' says /oh/."},
+          {"t": "grammar", "w": "slow", "r": "slowly", "e": "Use 'slowly' as the adverb to describe how they grow."},
+          {"t": "punctuation", "w": "windo", "r": "window.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The flowers grow slowly in the garden below the window.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "flowers", "t": "N", "q": "Find the noun for colorful plants."},
+          {"w": "grow", "t": "V", "q": "Find the verb for getting bigger."},
+          {"w": "slowly", "t": "ADV", "q": "Find the adverb that tells how."},
+          {"w": "in", "t": "PREP", "q": "Find the first preposition."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'garden.'"},
+          {"w": "garden", "t": "N", "q": "Find the noun for a place where plants grow."},
+          {"w": "below", "t": "PREP", "q": "Find the preposition that means under."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'window.'"},
+          {"w": "window", "t": "N", "q": "Find the noun for an opening in the wall."}
+        ],
+        "manip": {
+          "task": "Replace the verb 'grow' with a different ow-word.",
+          "word": "grow",
+          "examples": [
+            "The flowers <span class='changed'>glow</span> slowly in the garden below the window.",
+            "The flowers <span class='changed'>show</span> slowly in the garden below the window."
+          ]
+        },
+        "vocab": {
+          "w": "grow",
+          "type": "verb",
+          "def": "To get bigger or taller over time.",
+          "simple": "Grow means to get bigger, like a seed becoming a plant!",
+          "examples": ["grow tall", "grow fast", "grow a garden"],
+          "similar": ["expand", "develop", "sprout"],
+          "antonyms": ["shrink", "wilt", "die"],
+          "nonex": ["It does NOT mean to stay the same.", "It does NOT mean to move."],
+          "example": "The sunflowers grow very tall in the summer.",
+          "starter": "I want to grow _______ in my garden ...",
+          "why": "Grow has the 'ow' vowel team that says /oh/!"
+        },
+        "ufliLesson": 84,
+        "ufliSkill": "ow /oh/",
+        "ufliSection": "Vowel Teams",
+        "phonicsWords": ["grow", "slow", "below", "window", "show", "flow"],
+        "heartWords": ["the", "in"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 85,
+    "sentences": [
+      {
+        "orig": "on a raney day we stae inside and pant pictures",
+        "corr": [
+          {"t": "capitalization", "w": "on", "r": "On", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "raney", "r": "rainy", "e": "Rainy uses the 'ai' vowel team: r-a-i-n-y."},
+          {"t": "spelling", "w": "stae", "r": "stay", "e": "Stay is spelled s-t-a-y. The 'ay' says /ay/."},
+          {"t": "grammar", "w": "pant", "r": "paint", "e": "Use 'paint' — the word has the 'ai' pattern."},
+          {"t": "punctuation", "w": "pictures", "r": "pictures.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "On a rainy day we stay inside and paint pictures.",
+        "pos": [
+          {"w": "On", "t": "PREP", "q": "Find the preposition at the beginning."},
+          {"w": "a", "t": "ART", "q": "Find the article before 'rainy.'"},
+          {"w": "rainy", "t": "ADJ", "q": "Find the adjective that describes the day."},
+          {"w": "day", "t": "N", "q": "Find the noun for a unit of time."},
+          {"w": "we", "t": "PRO", "q": "Find the pronoun."},
+          {"w": "stay", "t": "V", "q": "Find the first verb."},
+          {"w": "inside", "t": "ADV", "q": "Find the adverb that tells where."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction."},
+          {"w": "paint", "t": "V", "q": "Find the second verb."},
+          {"w": "pictures", "t": "N", "q": "Find the noun for things you draw."}
+        ],
+        "manip": {
+          "task": "Replace the verb 'paint' with a different ai/ay-word.",
+          "word": "paint",
+          "examples": [
+            "On a rainy day we stay inside and <span class='changed'>play</span> pictures.",
+            "On a rainy day we stay inside and <span class='changed'>display</span> pictures."
+          ]
+        },
+        "vocab": {
+          "w": "rainy",
+          "type": "adjective",
+          "def": "Having a lot of rain falling.",
+          "simple": "Rainy means there is lots of rain coming down!",
+          "examples": ["a rainy day", "rainy weather", "a rainy season"],
+          "similar": ["wet", "stormy", "damp"],
+          "antonyms": ["sunny", "dry", "clear"],
+          "nonex": ["It does NOT mean cloudy with no rain.", "It does NOT mean snowy."],
+          "example": "We wore our boots on the rainy walk to school.",
+          "starter": "On a rainy day, I like to _______ ...",
+          "why": "Rainy reviews the 'ai' vowel team from lesson 79!"
+        },
+        "ufliLesson": 85,
+        "ufliSkill": "Vowel Team Review (ai/ay, ee/ea)",
+        "ufliSection": "Vowel Teams",
+        "phonicsWords": ["rainy", "stay", "paint", "day", "tree", "clean"],
+        "heartWords": ["on", "a", "we", "and"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "the teecher said we need to wate for the trane on this rainy dae",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "teecher", "r": "teacher", "e": "Teacher uses 'ea,' not 'ee.' The 'ea' says /ee/."},
+          {"t": "spelling", "w": "wate", "r": "wait", "e": "Wait is spelled w-a-i-t. The 'ai' says /ay/."},
+          {"t": "grammar", "w": "trane", "r": "train", "e": "Train is spelled t-r-a-i-n. The 'ai' says /ay/."},
+          {"t": "punctuation", "w": "dae", "r": "day.", "e": "A statement must end with a period. Day is spelled d-a-y."}
+        ],
+        "fixed": "The teacher said we need to wait for the train on this rainy day.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "teacher", "t": "N", "q": "Find the noun for a person who teaches."},
+          {"w": "said", "t": "V", "q": "Find the verb for speaking."},
+          {"w": "we", "t": "PRO", "q": "Find the pronoun."},
+          {"w": "need", "t": "V", "q": "Find the verb that means must."},
+          {"w": "to", "t": "PREP", "q": "Find the preposition."},
+          {"w": "wait", "t": "V", "q": "Find the verb that means to stay."},
+          {"w": "for", "t": "PREP", "q": "Find the preposition after 'wait.'"},
+          {"w": "the", "t": "ART", "q": "Find the article before 'train.'"},
+          {"w": "train", "t": "N", "q": "Find the noun for something on tracks."},
+          {"w": "on", "t": "PREP", "q": "Find the preposition before 'this.'"},
+          {"w": "this", "t": "DEM", "q": "Find the demonstrative word."},
+          {"w": "rainy", "t": "ADJ", "q": "Find the adjective for the weather."},
+          {"w": "day", "t": "N", "q": "Find the noun for a unit of time."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'train' with a different ai-word.",
+          "word": "train",
+          "examples": [
+            "The teacher said we need to wait for the <span class='changed'>mail</span> on this rainy day.",
+            "The teacher said we need to wait for the <span class='changed'>snail</span> on this rainy day."
+          ]
+        },
+        "vocab": {
+          "w": "wait",
+          "type": "verb",
+          "def": "To stay in one place until something happens.",
+          "simple": "Wait means to stay put until it is time to go!",
+          "examples": ["wait for the bus", "wait in line", "wait your turn"],
+          "similar": ["stay", "remain", "pause"],
+          "antonyms": ["go", "leave", "hurry"],
+          "nonex": ["It does NOT mean to run.", "It does NOT mean to quit."],
+          "example": "We had to wait ten minutes for the bus.",
+          "starter": "I wait patiently when _______ ...",
+          "why": "Wait reviews the 'ai' vowel team and is a useful word!"
+        },
+        "ufliLesson": 85,
+        "ufliSkill": "Vowel Team Review (ai/ay, ee/ea)",
+        "ufliSection": "Vowel Teams",
+        "phonicsWords": ["teacher", "wait", "train", "rainy", "day", "need"],
+        "heartWords": ["the", "we", "to", "for", "on", "this"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 86,
+    "sentences": [
+      {
+        "orig": "the brite lite shines in the nite sky",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "brite", "r": "bright", "e": "Bright uses 'igh' for the /eye/ sound: b-r-i-g-h-t."},
+          {"t": "spelling", "w": "lite", "r": "light", "e": "Light uses 'igh' for the /eye/ sound: l-i-g-h-t."},
+          {"t": "grammar", "w": "nite", "r": "night", "e": "Night is spelled n-i-g-h-t with the 'igh' pattern."},
+          {"t": "punctuation", "w": "sky", "r": "sky.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The bright light shines in the night sky.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "bright", "t": "ADJ", "q": "Find the adjective that describes the light."},
+          {"w": "light", "t": "N", "q": "Find the noun for something that shines."},
+          {"w": "shines", "t": "V", "q": "Find the verb for glowing."},
+          {"w": "in", "t": "PREP", "q": "Find the preposition."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'night.'"},
+          {"w": "night", "t": "N", "q": "Find the noun for the dark time."},
+          {"w": "sky", "t": "N", "q": "Find the noun for the space above us."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'light' with a different igh-word.",
+          "word": "light",
+          "examples": [
+            "The bright <span class='changed'>sight</span> shines in the night sky.",
+            "The bright <span class='changed'>flight</span> shines in the night sky."
+          ]
+        },
+        "vocab": {
+          "w": "bright",
+          "type": "adjective",
+          "def": "Giving off a lot of light; shining strongly.",
+          "simple": "Bright means something gives off lots of light!",
+          "examples": ["a bright star", "a bright light", "a bright smile"],
+          "similar": ["shiny", "glowing", "radiant"],
+          "antonyms": ["dark", "dim", "dull"],
+          "nonex": ["It does NOT mean loud.", "It does NOT mean hot."],
+          "example": "The bright moon lit up the dark path.",
+          "starter": "The brightest thing I ever saw was _______ ...",
+          "why": "Bright has the 'igh' pattern that says /eye/!"
+        },
+        "ufliLesson": 86,
+        "ufliSkill": "igh /eye/",
+        "ufliSection": "Vowel Teams",
+        "phonicsWords": ["night", "light", "bright", "right", "sight", "flight"],
+        "heartWords": ["the", "in"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "we mite see a shooting star if we look at the sky tonite",
+        "corr": [
+          {"t": "capitalization", "w": "we", "r": "We", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "mite", "r": "might", "e": "Might uses 'igh': m-i-g-h-t."},
+          {"t": "spelling", "w": "tonite", "r": "tonight", "e": "Tonight is spelled t-o-n-i-g-h-t with 'igh.'"},
+          {"t": "grammar", "w": "look", "r": "looked", "e": "Use 'looked' to match the past tense."},
+          {"t": "punctuation", "w": "tonite", "r": "tonight.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "We might see a shooting star if we looked at the sky tonight.",
+        "pos": [
+          {"w": "We", "t": "PRO", "q": "Find the pronoun at the beginning."},
+          {"w": "might", "t": "V", "q": "Find the verb that shows possibility."},
+          {"w": "see", "t": "V", "q": "Find the verb for looking."},
+          {"w": "a", "t": "ART", "q": "Find the article."},
+          {"w": "shooting", "t": "ADJ", "q": "Find the adjective that describes the star."},
+          {"w": "star", "t": "N", "q": "Find the noun for a light in the sky."},
+          {"w": "if", "t": "SUBCONJ", "q": "Find the word that starts a condition."},
+          {"w": "we", "t": "PRO", "q": "Find the second pronoun."},
+          {"w": "looked", "t": "V", "q": "Find the verb for using your eyes."},
+          {"w": "at", "t": "PREP", "q": "Find the preposition."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'sky.'"},
+          {"w": "sky", "t": "N", "q": "Find the noun for the space above."},
+          {"w": "tonight", "t": "ADV", "q": "Find the adverb that tells when."}
+        ],
+        "manip": {
+          "task": "Replace the verb 'might' with a different igh-word.",
+          "word": "might",
+          "examples": [
+            "We <span class='changed'>sigh</span> see a shooting star if we looked at the sky tonight.",
+            "We <span class='changed'>could</span> see a shooting star if we looked at the sky tonight."
+          ]
+        },
+        "vocab": {
+          "w": "tonight",
+          "type": "adverb",
+          "def": "On this present night or the night that is coming.",
+          "simple": "Tonight means this night — the one that is coming soon!",
+          "examples": ["tonight at dinner", "tonight before bed", "see you tonight"],
+          "similar": ["this evening", "this night"],
+          "antonyms": ["this morning", "today", "yesterday"],
+          "nonex": ["It does NOT mean last night.", "It does NOT mean tomorrow night."],
+          "example": "We are having pizza for dinner tonight.",
+          "starter": "Tonight, I want to _______ ...",
+          "why": "Tonight has the 'igh' pattern that says /eye/!"
+        },
+        "ufliLesson": 86,
+        "ufliSkill": "igh /eye/",
+        "ufliSection": "Vowel Teams",
+        "phonicsWords": ["might", "tonight", "sight", "night", "light", "bright"],
+        "heartWords": ["we", "a", "if", "at", "the"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 87,
+    "sentences": [
+      {
+        "orig": "the mone shines over the ruf at noon",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "mone", "r": "moon", "e": "Moon is spelled m-o-o-n. The 'oo' says /oo/."},
+          {"t": "spelling", "w": "ruf", "r": "roof", "e": "Roof is spelled r-o-o-f. The 'oo' says /oo/."},
+          {"t": "grammar", "w": "shines", "r": "shone", "e": "Use 'shone' to show it happened in the past."},
+          {"t": "punctuation", "w": "noon", "r": "noon.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The moon shone over the roof at noon.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "moon", "t": "N", "q": "Find the noun for a light in the night sky."},
+          {"w": "shone", "t": "V", "q": "Find the verb that means gave off light."},
+          {"w": "over", "t": "PREP", "q": "Find the preposition that means above."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'roof.'"},
+          {"w": "roof", "t": "N", "q": "Find the noun for the top of a building."},
+          {"w": "at", "t": "PREP", "q": "Find the preposition that tells when."},
+          {"w": "noon", "t": "N", "q": "Find the noun for the middle of the day."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'moon' with a different oo-word.",
+          "word": "moon",
+          "examples": [
+            "The <span class='changed'>balloon</span> shone over the roof at noon.",
+            "The <span class='changed'>spoon</span> shone over the roof at noon."
+          ]
+        },
+        "vocab": {
+          "w": "moon",
+          "type": "noun",
+          "def": "The round object in the sky that shines at night.",
+          "simple": "The moon is the big round light you see in the night sky!",
+          "examples": ["a full moon", "a crescent moon", "the bright moon"],
+          "similar": ["lunar"],
+          "antonyms": ["sun"],
+          "nonex": ["It does NOT mean a star.", "It does NOT mean the sun."],
+          "example": "The full moon lit up the lake at night.",
+          "starter": "When I look at the moon, I think about _______ ...",
+          "why": "Moon has the 'oo' vowel team that says /oo/!"
+        },
+        "ufliLesson": 87,
+        "ufliSkill": "oo /oo/",
+        "ufliSection": "Vowel Teams",
+        "phonicsWords": ["moon", "food", "roof", "noon", "spoon", "cool"],
+        "heartWords": ["the", "over", "at"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "we used a spune to scoop cool fod into the bole at the pool party",
+        "corr": [
+          {"t": "capitalization", "w": "we", "r": "We", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "spune", "r": "spoon", "e": "Spoon is spelled s-p-o-o-n. The 'oo' says /oo/."},
+          {"t": "spelling", "w": "fod", "r": "food", "e": "Food is spelled f-o-o-d. The 'oo' says /oo/."},
+          {"t": "grammar", "w": "bole", "r": "bowl", "e": "Bowl is spelled b-o-w-l."},
+          {"t": "punctuation", "w": "party", "r": "party.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "We used a spoon to scoop cool food into the bowl at the pool party.",
+        "pos": [
+          {"w": "We", "t": "PRO", "q": "Find the pronoun at the beginning."},
+          {"w": "used", "t": "V", "q": "Find the first verb."},
+          {"w": "a", "t": "ART", "q": "Find the article before 'spoon.'"},
+          {"w": "spoon", "t": "N", "q": "Find the noun for an eating tool."},
+          {"w": "to", "t": "PREP", "q": "Find the preposition."},
+          {"w": "scoop", "t": "V", "q": "Find the verb for picking up food."},
+          {"w": "cool", "t": "ADJ", "q": "Find the adjective that describes the food."},
+          {"w": "food", "t": "N", "q": "Find the noun for something you eat."},
+          {"w": "into", "t": "PREP", "q": "Find the preposition that means inside."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'bowl.'"},
+          {"w": "bowl", "t": "N", "q": "Find the noun for a round dish."},
+          {"w": "at", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'pool.'"},
+          {"w": "pool", "t": "N", "q": "Find the noun for a place to swim."},
+          {"w": "party", "t": "N", "q": "Find the noun for a celebration."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'spoon' with a different oo-word.",
+          "word": "spoon",
+          "examples": [
+            "We used a <span class='changed'>scoop</span> to scoop cool food into the bowl at the pool party.",
+            "We used a <span class='changed'>tool</span> to scoop cool food into the bowl at the pool party."
+          ]
+        },
+        "vocab": {
+          "w": "scoop",
+          "type": "verb",
+          "def": "To pick up or dig out with a spoon or hands.",
+          "simple": "Scoop means to pick something up like using a big spoon!",
+          "examples": ["scoop ice cream", "scoop sand", "scoop water"],
+          "similar": ["dig", "ladle", "pick up"],
+          "antonyms": ["pour", "dump", "drop"],
+          "nonex": ["It does NOT mean to throw.", "It does NOT mean to cut."],
+          "example": "I like to scoop ice cream into my bowl.",
+          "starter": "I would scoop up _______ with a big spoon ...",
+          "why": "Scoop has the 'oo' vowel team that says /oo/!"
+        },
+        "ufliLesson": 87,
+        "ufliSkill": "oo /oo/",
+        "ufliSection": "Vowel Teams",
+        "phonicsWords": ["spoon", "food", "cool", "pool", "scoop", "moon"],
+        "heartWords": ["we", "a", "to", "the", "at"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 88,
+    "sentences": [
+      {
+        "orig": "she tuk a good bok to read by the fire",
+        "corr": [
+          {"t": "capitalization", "w": "she", "r": "She", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "tuk", "r": "took", "e": "Took is spelled t-o-o-k. The 'oo' says /uh/ as in book."},
+          {"t": "spelling", "w": "bok", "r": "book", "e": "Book is spelled b-o-o-k. The 'oo' says /uh/ as in look."},
+          {"t": "grammar", "w": "good", "r": "great", "e": "Use 'great' for a stronger description."},
+          {"t": "punctuation", "w": "fire", "r": "fire.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "She took a great book to read by the fire.",
+        "pos": [
+          {"w": "She", "t": "PRO", "q": "Find the pronoun at the beginning."},
+          {"w": "took", "t": "V", "q": "Find the verb for grabbing something."},
+          {"w": "a", "t": "ART", "q": "Find the article."},
+          {"w": "great", "t": "ADJ", "q": "Find the adjective that describes the book."},
+          {"w": "book", "t": "N", "q": "Find the noun for something you read."},
+          {"w": "to", "t": "PREP", "q": "Find the first preposition."},
+          {"w": "read", "t": "V", "q": "Find the verb for looking at words."},
+          {"w": "by", "t": "PREP", "q": "Find the preposition that means near."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'fire.'"},
+          {"w": "fire", "t": "N", "q": "Find the noun for flames."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'book' with a different oo-word (/uh/ sound).",
+          "word": "book",
+          "examples": [
+            "She took a great <span class='changed'>cookbook</span> to read by the fire.",
+            "She took a great <span class='changed'>hook</span> to read by the fire."
+          ]
+        },
+        "vocab": {
+          "w": "book",
+          "type": "noun",
+          "def": "A set of pages with words or pictures that you read.",
+          "simple": "A book is something you read that has a story or information!",
+          "examples": ["a picture book", "a chapter book", "a library book"],
+          "similar": ["novel", "story", "text"],
+          "antonyms": [],
+          "nonex": ["It does NOT mean a magazine only.", "It does NOT mean a screen."],
+          "example": "I borrowed a book about animals from the library.",
+          "starter": "My favorite book is about _______ ...",
+          "why": "Book has the 'oo' that says /uh/ — a short oo sound!"
+        },
+        "ufliLesson": 88,
+        "ufliSkill": "oo /uh/",
+        "ufliSection": "Vowel Teams",
+        "phonicsWords": ["book", "look", "cook", "took", "good", "wood"],
+        "heartWords": ["she", "a", "to", "by", "the"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "the cuk stood by the wod stove and looked at her recipee book",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "cuk", "r": "cook", "e": "Cook is spelled c-o-o-k. The 'oo' says /uh/."},
+          {"t": "spelling", "w": "wod", "r": "wood", "e": "Wood is spelled w-o-o-d. The 'oo' says /uh/."},
+          {"t": "grammar", "w": "recipee", "r": "recipe", "e": "Recipe is spelled r-e-c-i-p-e."},
+          {"t": "punctuation", "w": "book", "r": "book.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The cook stood by the wood stove and looked at her recipe book.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "cook", "t": "N", "q": "Find the noun for a person who makes food."},
+          {"w": "stood", "t": "V", "q": "Find the verb for being on your feet."},
+          {"w": "by", "t": "PREP", "q": "Find the preposition that means near."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'wood.'"},
+          {"w": "wood", "t": "ADJ", "q": "Find the adjective that describes the stove."},
+          {"w": "stove", "t": "N", "q": "Find the noun for something you cook on."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction."},
+          {"w": "looked", "t": "V", "q": "Find the verb for using your eyes."},
+          {"w": "at", "t": "PREP", "q": "Find the preposition after 'looked.'"},
+          {"w": "her", "t": "POSS", "q": "Find the possessive word."},
+          {"w": "recipe", "t": "N", "q": "Find the noun for cooking instructions."},
+          {"w": "book", "t": "N", "q": "Find the noun for something you read."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'cook' with a different oo-word (/uh/ sound).",
+          "word": "cook",
+          "examples": [
+            "The <span class='changed'>woman</span> stood by the wood stove and looked at her recipe book.",
+            "The <span class='changed'>brook</span> stood by the wood stove and looked at her recipe book."
+          ]
+        },
+        "vocab": {
+          "w": "wood",
+          "type": "noun",
+          "def": "The hard material that trees are made of.",
+          "simple": "Wood is what trees are made of — you can build things with it!",
+          "examples": ["a piece of wood", "a wood floor", "chopping wood"],
+          "similar": ["timber", "lumber", "log"],
+          "antonyms": ["metal", "plastic", "stone"],
+          "nonex": ["It does NOT mean a living tree.", "It does NOT mean paper."],
+          "example": "Dad chopped wood for the fireplace.",
+          "starter": "You can build _______ out of wood ...",
+          "why": "Wood has the 'oo' that says /uh/ — a short oo sound!"
+        },
+        "ufliLesson": 88,
+        "ufliSkill": "oo /uh/",
+        "ufliSection": "Vowel Teams",
+        "phonicsWords": ["cook", "wood", "stood", "looked", "book", "good"],
+        "heartWords": ["the", "by", "and", "at", "her"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 89,
+    "sentences": [
+      {
+        "orig": "the tode croaked by the rode as the brite moon rose at nite",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "tode", "r": "toad", "e": "Toad is spelled t-o-a-d. The 'oa' says /oh/."},
+          {"t": "spelling", "w": "rode", "r": "road", "e": "Road is spelled r-o-a-d. The 'oa' says /oh/."},
+          {"t": "grammar", "w": "brite", "r": "bright", "e": "Bright uses the 'igh' pattern: b-r-i-g-h-t."},
+          {"t": "punctuation", "w": "nite", "r": "night.", "e": "Night uses 'igh' and the sentence needs a period."}
+        ],
+        "fixed": "The toad croaked by the road as the bright moon rose at night.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the first article."},
+          {"w": "toad", "t": "N", "q": "Find the noun for a bumpy animal."},
+          {"w": "croaked", "t": "V", "q": "Find the verb for a toad sound."},
+          {"w": "by", "t": "PREP", "q": "Find the preposition that means near."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'road.'"},
+          {"w": "road", "t": "N", "q": "Find the noun for a path."},
+          {"w": "as", "t": "SUBCONJ", "q": "Find the word that connects two events."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'bright.'"},
+          {"w": "bright", "t": "ADJ", "q": "Find the adjective that describes the moon."},
+          {"w": "moon", "t": "N", "q": "Find the noun for a night sky light."},
+          {"w": "rose", "t": "V", "q": "Find the verb that means went up."},
+          {"w": "at", "t": "PREP", "q": "Find the preposition that tells when."},
+          {"w": "night", "t": "N", "q": "Find the noun for the dark time."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'toad' with a different oa-word.",
+          "word": "toad",
+          "examples": [
+            "The <span class='changed'>goat</span> croaked by the road as the bright moon rose at night.",
+            "The <span class='changed'>coach</span> croaked by the road as the bright moon rose at night."
+          ]
+        },
+        "vocab": {
+          "w": "road",
+          "type": "noun",
+          "def": "A long, flat path for cars and people to travel on.",
+          "simple": "A road is a flat path that cars and trucks drive on!",
+          "examples": ["a long road", "a dirt road", "the main road"],
+          "similar": ["street", "path", "highway"],
+          "antonyms": ["trail", "field"],
+          "nonex": ["It does NOT mean a sidewalk.", "It does NOT mean a river."],
+          "example": "We drove down the road to the farm.",
+          "starter": "The road near my house goes to _______ ...",
+          "why": "Road reviews the 'oa' vowel team that says /oh/!"
+        },
+        "ufliLesson": 89,
+        "ufliSkill": "Vowel Team Review (oa/ow, igh, oo)",
+        "ufliSection": "Vowel Teams",
+        "phonicsWords": ["toad", "road", "bright", "moon", "night", "goat"],
+        "heartWords": ["the", "by", "as", "at"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "the crows floo over the snow as the moon lit the dark forrest at nite",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "floo", "r": "flew", "e": "Flew is the past tense of fly: f-l-e-w."},
+          {"t": "spelling", "w": "forrest", "r": "forest", "e": "Forest has one r: f-o-r-e-s-t."},
+          {"t": "grammar", "w": "nite", "r": "night", "e": "Night uses the 'igh' pattern: n-i-g-h-t."},
+          {"t": "punctuation", "w": "nite", "r": "night.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The crows flew over the snow as the moon lit the dark forest at night.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the first article."},
+          {"w": "crows", "t": "N", "q": "Find the noun for black birds."},
+          {"w": "flew", "t": "V", "q": "Find the verb for moving through the air."},
+          {"w": "over", "t": "PREP", "q": "Find the preposition that means above."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'snow.'"},
+          {"w": "snow", "t": "N", "q": "Find the noun for frozen white flakes."},
+          {"w": "as", "t": "SUBCONJ", "q": "Find the word that connects two events."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'moon.'"},
+          {"w": "moon", "t": "N", "q": "Find the noun for a night sky light."},
+          {"w": "lit", "t": "V", "q": "Find the verb that means shone on."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'dark.'"},
+          {"w": "dark", "t": "ADJ", "q": "Find the adjective that describes the forest."},
+          {"w": "forest", "t": "N", "q": "Find the noun for a place with many trees."},
+          {"w": "at", "t": "PREP", "q": "Find the preposition that tells when."},
+          {"w": "night", "t": "N", "q": "Find the noun for the dark time."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'snow' with a different ow-word.",
+          "word": "snow",
+          "examples": [
+            "The crows flew over the <span class='changed'>meadow</span> as the moon lit the dark forest at night.",
+            "The crows flew over the <span class='changed'>hollow</span> as the moon lit the dark forest at night."
+          ]
+        },
+        "vocab": {
+          "w": "forest",
+          "type": "noun",
+          "def": "A large area covered with many trees.",
+          "simple": "A forest is a big place with lots and lots of trees!",
+          "examples": ["a dark forest", "a rain forest", "a pine forest"],
+          "similar": ["woods", "woodland", "jungle"],
+          "antonyms": ["desert", "field", "prairie"],
+          "nonex": ["It does NOT mean a single tree.", "It does NOT mean a park."],
+          "example": "We hiked through the forest and saw deer.",
+          "starter": "If I walked into a forest, I would see _______ ...",
+          "why": "Forest reviews the 'or' r-controlled vowel pattern!"
+        },
+        "ufliLesson": 89,
+        "ufliSkill": "Vowel Team Review (oa/ow, igh, oo)",
+        "ufliSection": "Vowel Teams",
+        "phonicsWords": ["crows", "snow", "moon", "night", "dark", "forest"],
+        "heartWords": ["the", "over", "as", "at"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 90,
+    "sentences": [
+      {
+        "orig": "the teecher red a good book about brite stars and the deep see",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "teecher", "r": "teacher", "e": "Teacher uses 'ea,' not 'ee.' The 'ea' says /ee/."},
+          {"t": "spelling", "w": "red", "r": "read", "e": "Read is spelled r-e-a-d. The 'ea' says /ee/ here."},
+          {"t": "grammar", "w": "see", "r": "sea", "e": "Sea means the ocean. See means to look. Use 'sea' here."},
+          {"t": "punctuation", "w": "see", "r": "sea.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The teacher read a good book about bright stars and the deep sea.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the first article."},
+          {"w": "teacher", "t": "N", "q": "Find the noun for a person who teaches."},
+          {"w": "read", "t": "V", "q": "Find the verb for looking at words."},
+          {"w": "a", "t": "ART", "q": "Find the article before 'good.'"},
+          {"w": "good", "t": "ADJ", "q": "Find the adjective that describes the book."},
+          {"w": "book", "t": "N", "q": "Find the noun for something you read."},
+          {"w": "about", "t": "PREP", "q": "Find the preposition that tells the topic."},
+          {"w": "bright", "t": "ADJ", "q": "Find the adjective that describes the stars."},
+          {"w": "stars", "t": "N", "q": "Find the noun for lights in the sky."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'deep.'"},
+          {"w": "deep", "t": "ADJ", "q": "Find the adjective that describes the sea."},
+          {"w": "sea", "t": "N", "q": "Find the noun for a large body of water."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'book' with a different oo-word.",
+          "word": "book",
+          "examples": [
+            "The teacher read a good <span class='changed'>cartoon</span> about bright stars and the deep sea.",
+            "The teacher read a good <span class='changed'>notebook</span> about bright stars and the deep sea."
+          ]
+        },
+        "vocab": {
+          "w": "deep",
+          "type": "adjective",
+          "def": "Going far down from the top or surface.",
+          "simple": "Deep means something goes a long way down!",
+          "examples": ["a deep pool", "a deep hole", "the deep sea"],
+          "similar": ["low", "bottomless", "vast"],
+          "antonyms": ["shallow", "surface"],
+          "nonex": ["It does NOT mean wide.", "It does NOT mean tall."],
+          "example": "The deep end of the pool is for good swimmers.",
+          "starter": "The deepest thing I have seen is _______ ...",
+          "why": "Deep has the 'ee' vowel team and reviews earlier patterns!"
+        },
+        "ufliLesson": 90,
+        "ufliSkill": "Vowel Team Assessment",
+        "ufliSection": "Vowel Teams",
+        "phonicsWords": ["teacher", "read", "good", "book", "bright", "deep", "sea"],
+        "heartWords": ["the", "a", "about", "and"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "on a cool nite we sat by the creek and watched the slow botes float by under the moonlite",
+        "corr": [
+          {"t": "capitalization", "w": "on", "r": "On", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "nite", "r": "night", "e": "Night uses the 'igh' pattern: n-i-g-h-t."},
+          {"t": "spelling", "w": "botes", "r": "boats", "e": "Boats uses the 'oa' pattern: b-o-a-t-s."},
+          {"t": "grammar", "w": "moonlite", "r": "moonlight", "e": "Moonlight uses the 'igh' pattern: m-o-o-n-l-i-g-h-t."},
+          {"t": "punctuation", "w": "moonlite", "r": "moonlight.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "On a cool night we sat by the creek and watched the slow boats float by under the moonlight.",
+        "pos": [
+          {"w": "On", "t": "PREP", "q": "Find the preposition at the beginning."},
+          {"w": "a", "t": "ART", "q": "Find the article."},
+          {"w": "cool", "t": "ADJ", "q": "Find the adjective that describes the night."},
+          {"w": "night", "t": "N", "q": "Find the noun for the dark time."},
+          {"w": "we", "t": "PRO", "q": "Find the pronoun."},
+          {"w": "sat", "t": "V", "q": "Find the first verb."},
+          {"w": "by", "t": "PREP", "q": "Find the preposition that means near."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'creek.'"},
+          {"w": "creek", "t": "N", "q": "Find the noun for a small stream."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction."},
+          {"w": "watched", "t": "V", "q": "Find the verb for looking at."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'slow.'"},
+          {"w": "slow", "t": "ADJ", "q": "Find the adjective that describes the boats."},
+          {"w": "boats", "t": "N", "q": "Find the noun for things on water."},
+          {"w": "float", "t": "V", "q": "Find the verb for staying on top of water."},
+          {"w": "by", "t": "ADV", "q": "Find the adverb meaning past."},
+          {"w": "under", "t": "PREP", "q": "Find the preposition that means below."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'moonlight.'"},
+          {"w": "moonlight", "t": "N", "q": "Find the noun for light from the moon."}
+        ],
+        "manip": {
+          "task": "Replace the adjective 'slow' with a different ow-word.",
+          "word": "slow",
+          "examples": [
+            "On a cool night we sat by the creek and watched the <span class='changed'>glowing</span> boats float by under the moonlight.",
+            "On a cool night we sat by the creek and watched the <span class='changed'>yellow</span> boats float by under the moonlight."
+          ]
+        },
+        "vocab": {
+          "w": "moonlight",
+          "type": "noun",
+          "def": "The light that comes from the moon at night.",
+          "simple": "Moonlight is the soft glow that the moon sends down at night!",
+          "examples": ["bright moonlight", "soft moonlight", "dancing in the moonlight"],
+          "similar": ["glow", "shine", "radiance"],
+          "antonyms": ["sunlight", "darkness"],
+          "nonex": ["It does NOT mean sunlight.", "It does NOT mean starlight only."],
+          "example": "The moonlight made the lake look silver.",
+          "starter": "In the moonlight, I could see _______ ...",
+          "why": "Moonlight has both 'oo' and 'igh' vowel teams!"
+        },
+        "ufliLesson": 90,
+        "ufliSkill": "Vowel Team Assessment",
+        "ufliSection": "Vowel Teams",
+        "phonicsWords": ["cool", "night", "creek", "slow", "boats", "moonlight"],
+        "heartWords": ["on", "a", "we", "by", "the", "and", "under"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 91,
+    "sentences": [
+      {
+        "orig": "the coyns fell out of his poket and rolled on the floor",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "coyns", "r": "coins", "e": "Coins is spelled c-o-i-n-s. The 'oi' says /oy/."},
+          {"t": "spelling", "w": "poket", "r": "pocket", "e": "Pocket has a 'ck' in the middle: p-o-c-k-e-t."},
+          {"t": "grammar", "w": "fell", "r": "fall", "e": "Use 'fall' for something that happens now."},
+          {"t": "punctuation", "w": "floor", "r": "floor.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The coins fall out of his pocket and rolled on the floor.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "coins", "t": "N", "q": "Find the noun for small round money."},
+          {"w": "fall", "t": "V", "q": "Find the first verb."},
+          {"w": "out", "t": "ADV", "q": "Find the adverb that tells direction."},
+          {"w": "of", "t": "PREP", "q": "Find the preposition after 'out.'"},
+          {"w": "his", "t": "POSS", "q": "Find the possessive word."},
+          {"w": "pocket", "t": "N", "q": "Find the noun for a part of clothing."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction."},
+          {"w": "rolled", "t": "V", "q": "Find the second verb."},
+          {"w": "on", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'floor.'"},
+          {"w": "floor", "t": "N", "q": "Find the noun for the ground inside."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'coins' with a different oi-word.",
+          "word": "coins",
+          "examples": [
+            "The <span class='changed'>toys</span> fall out of his pocket and rolled on the floor.",
+            "The <span class='changed'>points</span> fall out of his pocket and rolled on the floor."
+          ]
+        },
+        "vocab": {
+          "w": "coin",
+          "type": "noun",
+          "def": "A small, round piece of metal used as money.",
+          "simple": "A coin is a round piece of metal money you can hold!",
+          "examples": ["a gold coin", "a shiny coin", "a lucky coin"],
+          "similar": ["penny", "dime", "nickel"],
+          "antonyms": [],
+          "nonex": ["It does NOT mean a dollar bill.", "It does NOT mean a button."],
+          "example": "I found a coin on the ground near the bench.",
+          "starter": "If I found a coin, I would _______ ...",
+          "why": "Coin has the 'oi' diphthong that says /oy/!"
+        },
+        "ufliLesson": 91,
+        "ufliSkill": "oi /oy/",
+        "ufliSection": "Diphthongs",
+        "phonicsWords": ["coin", "join", "point", "oil", "soil", "boil"],
+        "heartWords": ["the", "out", "of", "his", "and", "on"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "the children joyn together to pick up the soyl and plant seeds in the garden",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "joyn", "r": "join", "e": "Join is spelled j-o-i-n. The 'oi' says /oy/."},
+          {"t": "spelling", "w": "soyl", "r": "soil", "e": "Soil is spelled s-o-i-l. The 'oi' says /oy/."},
+          {"t": "grammar", "w": "pick up", "r": "dig up", "e": "Use 'dig up' because you dig soil, not pick it up."},
+          {"t": "punctuation", "w": "garden", "r": "garden.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The children join together to dig up the soil and plant seeds in the garden.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "children", "t": "N", "q": "Find the noun for young people."},
+          {"w": "join", "t": "V", "q": "Find the verb that means to come together."},
+          {"w": "together", "t": "ADV", "q": "Find the adverb that means as a group."},
+          {"w": "to", "t": "PREP", "q": "Find the first preposition."},
+          {"w": "dig", "t": "V", "q": "Find the verb for making a hole."},
+          {"w": "up", "t": "ADV", "q": "Find the adverb after 'dig.'"},
+          {"w": "the", "t": "ART", "q": "Find the article before 'soil.'"},
+          {"w": "soil", "t": "N", "q": "Find the noun for dirt."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction."},
+          {"w": "plant", "t": "V", "q": "Find the verb for putting seeds in the ground."},
+          {"w": "seeds", "t": "N", "q": "Find the noun for what grows into plants."},
+          {"w": "in", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'garden.'"},
+          {"w": "garden", "t": "N", "q": "Find the noun for a place to grow plants."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'soil' with a different oi-word.",
+          "word": "soil",
+          "examples": [
+            "The children join together to dig up the <span class='changed'>foil</span> and plant seeds in the garden.",
+            "The children join together to dig up the <span class='changed'>coil</span> and plant seeds in the garden."
+          ]
+        },
+        "vocab": {
+          "w": "soil",
+          "type": "noun",
+          "def": "The top layer of earth where plants grow.",
+          "simple": "Soil is the dirt on the ground where plants grow!",
+          "examples": ["rich soil", "wet soil", "garden soil"],
+          "similar": ["dirt", "earth", "ground"],
+          "antonyms": ["rock", "pavement"],
+          "nonex": ["It does NOT mean sand.", "It does NOT mean a puddle."],
+          "example": "We dug into the soil to plant the flower seeds.",
+          "starter": "The soil in my garden is _______ ...",
+          "why": "Soil has the 'oi' diphthong that says /oy/!"
+        },
+        "ufliLesson": 91,
+        "ufliSkill": "oi /oy/",
+        "ufliSection": "Diphthongs",
+        "phonicsWords": ["join", "soil", "coin", "point", "oil", "boil"],
+        "heartWords": ["the", "to", "and", "in"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 92,
+    "sentences": [
+      {
+        "orig": "the boi played with his new toi in the yard",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "boi", "r": "boy", "e": "Boy is spelled b-o-y. The 'oy' says /oy/."},
+          {"t": "spelling", "w": "toi", "r": "toy", "e": "Toy is spelled t-o-y. The 'oy' says /oy/."},
+          {"t": "grammar", "w": "played", "r": "plays", "e": "Use 'plays' for something that happens now."},
+          {"t": "punctuation", "w": "yard", "r": "yard.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The boy plays with his new toy in the yard.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "boy", "t": "N", "q": "Find the noun for a young male person."},
+          {"w": "plays", "t": "V", "q": "Find the verb for having fun."},
+          {"w": "with", "t": "PREP", "q": "Find the preposition."},
+          {"w": "his", "t": "POSS", "q": "Find the possessive word."},
+          {"w": "new", "t": "ADJ", "q": "Find the adjective that describes the toy."},
+          {"w": "toy", "t": "N", "q": "Find the noun for something you play with."},
+          {"w": "in", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'yard.'"},
+          {"w": "yard", "t": "N", "q": "Find the noun for an outdoor space."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'toy' with a different oy-word.",
+          "word": "toy",
+          "examples": [
+            "The boy plays with his new <span class='changed'>joy</span> in the yard.",
+            "The boy plays with his new <span class='changed'>decoy</span> in the yard."
+          ]
+        },
+        "vocab": {
+          "w": "toy",
+          "type": "noun",
+          "def": "A thing that children play with for fun.",
+          "simple": "A toy is something fun that kids play with!",
+          "examples": ["a toy car", "a stuffed toy", "a new toy"],
+          "similar": ["plaything", "game", "gadget"],
+          "antonyms": ["tool", "work item"],
+          "nonex": ["It does NOT mean a real car.", "It does NOT mean food."],
+          "example": "She got a new toy for her birthday.",
+          "starter": "My favorite toy is _______ because _______ ...",
+          "why": "Toy has the 'oy' diphthong that says /oy/!"
+        },
+        "ufliLesson": 92,
+        "ufliSkill": "oy /oy/",
+        "ufliSection": "Diphthongs",
+        "phonicsWords": ["toy", "boy", "joy", "enjoy", "royal", "loyal"],
+        "heartWords": ["the", "with", "his", "in"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "the boys and girls injoy playing with the royal puppets at school",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "injoy", "r": "enjoy", "e": "Enjoy is spelled e-n-j-o-y. The 'oy' says /oy/."},
+          {"t": "grammar", "w": "playing", "r": "played", "e": "Use 'played' because the event already happened."},
+          {"t": "spelling", "w": "royal", "r": "royal", "e": "Royal is spelled correctly — good job! The 'oy' says /oy/."},
+          {"t": "punctuation", "w": "school", "r": "school.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The boys and girls enjoy played with the royal puppets at school.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "boys", "t": "N", "q": "Find the first noun for people."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction."},
+          {"w": "girls", "t": "N", "q": "Find the second noun for people."},
+          {"w": "enjoy", "t": "V", "q": "Find the verb that means to like."},
+          {"w": "played", "t": "V", "q": "Find the verb for having fun."},
+          {"w": "with", "t": "PREP", "q": "Find the preposition."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'royal.'"},
+          {"w": "royal", "t": "ADJ", "q": "Find the adjective that means like a king or queen."},
+          {"w": "puppets", "t": "N", "q": "Find the noun for hand dolls."},
+          {"w": "at", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "school", "t": "N", "q": "Find the noun for a place to learn."}
+        ],
+        "manip": {
+          "task": "Replace the adjective 'royal' with a different oy-word.",
+          "word": "royal",
+          "examples": [
+            "The boys and girls enjoy played with the <span class='changed'>joyful</span> puppets at school.",
+            "The boys and girls enjoy played with the <span class='changed'>loyal</span> puppets at school."
+          ]
+        },
+        "vocab": {
+          "w": "enjoy",
+          "type": "verb",
+          "def": "To get pleasure from something; to like doing it.",
+          "simple": "Enjoy means you really like something and it makes you happy!",
+          "examples": ["enjoy reading", "enjoy a meal", "enjoy the day"],
+          "similar": ["like", "love", "have fun"],
+          "antonyms": ["dislike", "hate", "dread"],
+          "nonex": ["It does NOT mean to ignore.", "It does NOT mean to be bored."],
+          "example": "I enjoy playing with my friends at recess.",
+          "starter": "I enjoy _______ because it makes me feel _______ ...",
+          "why": "Enjoy has the 'oy' diphthong that says /oy/!"
+        },
+        "ufliLesson": 92,
+        "ufliSkill": "oy /oy/",
+        "ufliSection": "Diphthongs",
+        "phonicsWords": ["boys", "enjoy", "royal", "toy", "joy", "loyal"],
+        "heartWords": ["the", "and", "with", "at"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 93,
+    "sentences": [
+      {
+        "orig": "the lowd clowds blocked owt the sun all day",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "lowd", "r": "loud", "e": "Loud is spelled l-o-u-d. The 'ou' says /ow/."},
+          {"t": "spelling", "w": "clowds", "r": "clouds", "e": "Clouds uses 'ou,' not 'ow': c-l-o-u-d-s."},
+          {"t": "grammar", "w": "owt", "r": "out", "e": "Out is spelled o-u-t. The 'ou' says /ow/."},
+          {"t": "punctuation", "w": "day", "r": "day.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The loud clouds blocked out the sun all day.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "loud", "t": "ADJ", "q": "Find the adjective that describes the clouds."},
+          {"w": "clouds", "t": "N", "q": "Find the noun for things in the sky."},
+          {"w": "blocked", "t": "V", "q": "Find the verb that means covered up."},
+          {"w": "out", "t": "ADV", "q": "Find the adverb after 'blocked.'"},
+          {"w": "the", "t": "ART", "q": "Find the article before 'sun.'"},
+          {"w": "sun", "t": "N", "q": "Find the noun for the star in the sky."},
+          {"w": "all", "t": "ADJ", "q": "Find the adjective that means the whole."},
+          {"w": "day", "t": "N", "q": "Find the noun for a unit of time."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'clouds' with a different ou-word.",
+          "word": "clouds",
+          "examples": [
+            "The loud <span class='changed'>mountains</span> blocked out the sun all day.",
+            "The loud <span class='changed'>sounds</span> blocked out the sun all day."
+          ]
+        },
+        "vocab": {
+          "w": "cloud",
+          "type": "noun",
+          "def": "A white or gray mass of water drops floating in the sky.",
+          "simple": "A cloud is a fluffy shape in the sky made of tiny water drops!",
+          "examples": ["a rain cloud", "a fluffy cloud", "a dark cloud"],
+          "similar": ["fog", "mist", "haze"],
+          "antonyms": ["clear sky", "sunshine"],
+          "nonex": ["It does NOT mean smoke.", "It does NOT mean a shadow."],
+          "example": "The big white cloud looked like a bunny rabbit.",
+          "starter": "The clouds in the sky look like _______ ...",
+          "why": "Cloud has the 'ou' diphthong that says /ow/!"
+        },
+        "ufliLesson": 93,
+        "ufliSkill": "ou /ow/",
+        "ufliSection": "Diphthongs",
+        "phonicsWords": ["out", "cloud", "loud", "house", "round", "found"],
+        "heartWords": ["the", "all"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "we herd a lowd sound outside the hous and ran out to look around",
+        "corr": [
+          {"t": "capitalization", "w": "we", "r": "We", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "herd", "r": "heard", "e": "Heard is spelled h-e-a-r-d with 'ea.'"},
+          {"t": "spelling", "w": "hous", "r": "house", "e": "House is spelled h-o-u-s-e. The 'ou' says /ow/."},
+          {"t": "grammar", "w": "lowd", "r": "loud", "e": "Loud is spelled l-o-u-d. The 'ou' says /ow/."},
+          {"t": "punctuation", "w": "around", "r": "around.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "We heard a loud sound outside the house and ran out to look around.",
+        "pos": [
+          {"w": "We", "t": "PRO", "q": "Find the pronoun at the beginning."},
+          {"w": "heard", "t": "V", "q": "Find the verb for using your ears."},
+          {"w": "a", "t": "ART", "q": "Find the article."},
+          {"w": "loud", "t": "ADJ", "q": "Find the adjective that describes the sound."},
+          {"w": "sound", "t": "N", "q": "Find the noun for something you hear."},
+          {"w": "outside", "t": "ADV", "q": "Find the adverb that tells where."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'house.'"},
+          {"w": "house", "t": "N", "q": "Find the noun for a building."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction."},
+          {"w": "ran", "t": "V", "q": "Find the verb for moving fast."},
+          {"w": "out", "t": "ADV", "q": "Find the adverb after 'ran.'"},
+          {"w": "to", "t": "PREP", "q": "Find the preposition."},
+          {"w": "look", "t": "V", "q": "Find the verb for using your eyes."},
+          {"w": "around", "t": "ADV", "q": "Find the adverb that means in all directions."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'house' with a different ou-word.",
+          "word": "house",
+          "examples": [
+            "We heard a loud sound outside the <span class='changed'>ground</span> and ran out to look around.",
+            "We heard a loud sound outside the <span class='changed'>mountain</span> and ran out to look around."
+          ]
+        },
+        "vocab": {
+          "w": "sound",
+          "type": "noun",
+          "def": "Something you hear with your ears.",
+          "simple": "A sound is anything you can hear!",
+          "examples": ["a loud sound", "a soft sound", "a funny sound"],
+          "similar": ["noise", "tone", "ring"],
+          "antonyms": ["silence", "quiet"],
+          "nonex": ["It does NOT mean something you see.", "It does NOT mean a smell."],
+          "example": "The sound of the bell told us it was time for lunch.",
+          "starter": "The best sound I ever heard was _______ ...",
+          "why": "Sound has the 'ou' diphthong that says /ow/!"
+        },
+        "ufliLesson": 93,
+        "ufliSkill": "ou /ow/",
+        "ufliSection": "Diphthongs",
+        "phonicsWords": ["loud", "sound", "house", "out", "around", "found"],
+        "heartWords": ["we", "a", "the", "and", "to"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 94,
+    "sentences": [
+      {
+        "orig": "the bron cou stood in the green feeld near town",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "bron", "r": "brown", "e": "Brown is spelled b-r-o-w-n. The 'ow' says /ow/."},
+          {"t": "spelling", "w": "cou", "r": "cow", "e": "Cow is spelled c-o-w. The 'ow' says /ow/."},
+          {"t": "grammar", "w": "feeld", "r": "field", "e": "Field is spelled f-i-e-l-d."},
+          {"t": "punctuation", "w": "town", "r": "town.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The brown cow stood in the green field near town.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "brown", "t": "ADJ", "q": "Find the adjective for a color."},
+          {"w": "cow", "t": "N", "q": "Find the noun for a farm animal."},
+          {"w": "stood", "t": "V", "q": "Find the verb for being on feet."},
+          {"w": "in", "t": "PREP", "q": "Find the first preposition."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'green.'"},
+          {"w": "green", "t": "ADJ", "q": "Find the adjective for a color."},
+          {"w": "field", "t": "N", "q": "Find the noun for a grassy area."},
+          {"w": "near", "t": "PREP", "q": "Find the preposition that means close to."},
+          {"w": "town", "t": "N", "q": "Find the noun for a small city."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'cow' with a different ow-word (/ow/ sound).",
+          "word": "cow",
+          "examples": [
+            "The brown <span class='changed'>owl</span> stood in the green field near town.",
+            "The brown <span class='changed'>hound</span> stood in the green field near town."
+          ]
+        },
+        "vocab": {
+          "w": "town",
+          "type": "noun",
+          "def": "A place where people live that is smaller than a city.",
+          "simple": "A town is a small place where people live and work!",
+          "examples": ["a small town", "our town", "the town center"],
+          "similar": ["village", "community", "settlement"],
+          "antonyms": ["city", "countryside"],
+          "nonex": ["It does NOT mean a single house.", "It does NOT mean a farm."],
+          "example": "Our town has a library and a park.",
+          "starter": "In my town, you can find _______ ...",
+          "why": "Town has the 'ow' diphthong that says /ow/!"
+        },
+        "ufliLesson": 94,
+        "ufliSkill": "ow /ow/",
+        "ufliSection": "Diphthongs",
+        "phonicsWords": ["cow", "town", "brown", "down", "how", "now"],
+        "heartWords": ["the", "in", "near"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "the cloun frowned and took a bow as the croud clapped and cheered loudly",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "cloun", "r": "clown", "e": "Clown is spelled c-l-o-w-n. The 'ow' says /ow/."},
+          {"t": "spelling", "w": "croud", "r": "crowd", "e": "Crowd is spelled c-r-o-w-d. The 'ow' says /ow/."},
+          {"t": "grammar", "w": "frowned", "r": "frowns", "e": "Use 'frowns' to match present tense."},
+          {"t": "punctuation", "w": "loudly", "r": "loudly.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The clown frowns and took a bow as the crowd clapped and cheered loudly.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the first article."},
+          {"w": "clown", "t": "N", "q": "Find the noun for a funny person."},
+          {"w": "frowns", "t": "V", "q": "Find the verb for making a sad face."},
+          {"w": "and", "t": "CONJ", "q": "Find the first conjunction."},
+          {"w": "took", "t": "V", "q": "Find the verb after 'and.'"},
+          {"w": "a", "t": "ART", "q": "Find the article before 'bow.'"},
+          {"w": "bow", "t": "N", "q": "Find the noun for bending forward."},
+          {"w": "as", "t": "SUBCONJ", "q": "Find the word that connects two events."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'crowd.'"},
+          {"w": "crowd", "t": "N", "q": "Find the noun for a group of people."},
+          {"w": "clapped", "t": "V", "q": "Find the verb for hitting hands together."},
+          {"w": "and", "t": "CONJ", "q": "Find the second conjunction."},
+          {"w": "cheered", "t": "V", "q": "Find the verb for shouting happily."},
+          {"w": "loudly", "t": "ADV", "q": "Find the adverb that tells how."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'clown' with a different ow-word.",
+          "word": "clown",
+          "examples": [
+            "The <span class='changed'>owl</span> frowns and took a bow as the crowd clapped and cheered loudly.",
+            "The <span class='changed'>cowboy</span> frowns and took a bow as the crowd clapped and cheered loudly."
+          ]
+        },
+        "vocab": {
+          "w": "crowd",
+          "type": "noun",
+          "def": "A large group of people gathered together.",
+          "simple": "A crowd is a big group of people all in one place!",
+          "examples": ["a big crowd", "a cheering crowd", "a crowd of people"],
+          "similar": ["group", "gathering", "audience"],
+          "antonyms": ["individual", "one person"],
+          "nonex": ["It does NOT mean two people.", "It does NOT mean a line."],
+          "example": "The crowd cheered when the team scored a goal.",
+          "starter": "I was in a crowd when _______ ...",
+          "why": "Crowd has the 'ow' diphthong that says /ow/!"
+        },
+        "ufliLesson": 94,
+        "ufliSkill": "ow /ow/",
+        "ufliSection": "Diphthongs",
+        "phonicsWords": ["clown", "crowd", "frown", "bow", "down", "town"],
+        "heartWords": ["the", "and", "a", "as"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 95,
+    "sentences": [
+      {
+        "orig": "the noo student groo tall over the summer",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "noo", "r": "new", "e": "New is spelled n-e-w. The 'ew' says /oo/."},
+          {"t": "spelling", "w": "groo", "r": "grew", "e": "Grew is spelled g-r-e-w. The 'ew' says /oo/."},
+          {"t": "grammar", "w": "tall", "r": "taller", "e": "Use 'taller' to compare how much the student grew."},
+          {"t": "punctuation", "w": "summer", "r": "summer.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The new student grew taller over the summer.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "new", "t": "ADJ", "q": "Find the adjective that describes the student."},
+          {"w": "student", "t": "N", "q": "Find the noun for a person who learns."},
+          {"w": "grew", "t": "V", "q": "Find the verb for getting bigger."},
+          {"w": "taller", "t": "ADJ", "q": "Find the adjective that compares height."},
+          {"w": "over", "t": "PREP", "q": "Find the preposition that tells when."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'summer.'"},
+          {"w": "summer", "t": "N", "q": "Find the noun for a hot season."}
+        ],
+        "manip": {
+          "task": "Replace the adjective 'new' with a different ew-word.",
+          "word": "new",
+          "examples": [
+            "The <span class='changed'>few</span> student grew taller over the summer.",
+            "The <span class='changed'>young</span> student grew taller over the summer."
+          ]
+        },
+        "vocab": {
+          "w": "grew",
+          "type": "verb",
+          "def": "Got bigger or taller over time (past tense of grow).",
+          "simple": "Grew means something got bigger — like a plant growing!",
+          "examples": ["grew taller", "grew bigger", "grew fast"],
+          "similar": ["expanded", "developed", "sprouted"],
+          "antonyms": ["shrank", "withered"],
+          "nonex": ["It does NOT mean stayed the same.", "It does NOT mean moved."],
+          "example": "The sunflower grew as tall as the fence.",
+          "starter": "Last year, I grew _______ ...",
+          "why": "Grew has the 'ew' diphthong that says /oo/!"
+        },
+        "ufliLesson": 95,
+        "ufliSkill": "ew /oo/",
+        "ufliSection": "Diphthongs",
+        "phonicsWords": ["new", "grew", "few", "flew", "chew", "blew"],
+        "heartWords": ["the", "over"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "a fue birds flue over the garden as we choo on fresh fruit by the creek",
+        "corr": [
+          {"t": "capitalization", "w": "a", "r": "A", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "fue", "r": "few", "e": "Few is spelled f-e-w. The 'ew' says /oo/."},
+          {"t": "spelling", "w": "flue", "r": "flew", "e": "Flew is spelled f-l-e-w. The 'ew' says /oo/."},
+          {"t": "grammar", "w": "choo", "r": "chew", "e": "Chew is spelled c-h-e-w. The 'ew' says /oo/."},
+          {"t": "punctuation", "w": "creek", "r": "creek.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "A few birds flew over the garden as we chew on fresh fruit by the creek.",
+        "pos": [
+          {"w": "A", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "few", "t": "ADJ", "q": "Find the adjective that means not many."},
+          {"w": "birds", "t": "N", "q": "Find the noun for flying animals."},
+          {"w": "flew", "t": "V", "q": "Find the verb for moving through the air."},
+          {"w": "over", "t": "PREP", "q": "Find the preposition that means above."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'garden.'"},
+          {"w": "garden", "t": "N", "q": "Find the noun for a place to grow plants."},
+          {"w": "as", "t": "SUBCONJ", "q": "Find the word that connects two events."},
+          {"w": "we", "t": "PRO", "q": "Find the pronoun."},
+          {"w": "chew", "t": "V", "q": "Find the verb for eating slowly."},
+          {"w": "on", "t": "PREP", "q": "Find the preposition after 'chew.'"},
+          {"w": "fresh", "t": "ADJ", "q": "Find the adjective that describes the fruit."},
+          {"w": "fruit", "t": "N", "q": "Find the noun for something sweet to eat."},
+          {"w": "by", "t": "PREP", "q": "Find the preposition that means near."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'creek.'"},
+          {"w": "creek", "t": "N", "q": "Find the noun for a small stream."}
+        ],
+        "manip": {
+          "task": "Replace the verb 'flew' with a different ew-word.",
+          "word": "flew",
+          "examples": [
+            "A few birds <span class='changed'>blew</span> over the garden as we chew on fresh fruit by the creek.",
+            "A few birds <span class='changed'>grew</span> over the garden as we chew on fresh fruit by the creek."
+          ]
+        },
+        "vocab": {
+          "w": "chew",
+          "type": "verb",
+          "def": "To break food into small pieces with your teeth.",
+          "simple": "Chew means to use your teeth to break up food!",
+          "examples": ["chew your food", "chew slowly", "chew gum"],
+          "similar": ["munch", "nibble", "bite"],
+          "antonyms": ["swallow", "gulp"],
+          "nonex": ["It does NOT mean to drink.", "It does NOT mean to spit out."],
+          "example": "You should chew your food well before you swallow.",
+          "starter": "I like to chew on _______ ...",
+          "why": "Chew has the 'ew' diphthong that says /oo/!"
+        },
+        "ufliLesson": 95,
+        "ufliSkill": "ew /oo/",
+        "ufliSection": "Diphthongs",
+        "phonicsWords": ["few", "flew", "chew", "new", "grew", "blew"],
+        "heartWords": ["a", "the", "as", "we", "on", "by"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 96,
+    "sentences": [
+      {
+        "orig": "the sawse on the food was hot and made us hault",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "sawse", "r": "sauce", "e": "Sauce is spelled s-a-u-c-e. The 'au' says /aw/."},
+          {"t": "spelling", "w": "hault", "r": "halt", "e": "Halt is spelled h-a-l-t without the 'u.'"},
+          {"t": "grammar", "w": "was", "r": "is", "e": "Use 'is' for something happening now."},
+          {"t": "punctuation", "w": "hault", "r": "halt.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The sauce on the food is hot and made us halt.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "sauce", "t": "N", "q": "Find the noun for a liquid topping on food."},
+          {"w": "on", "t": "PREP", "q": "Find the preposition."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'food.'"},
+          {"w": "food", "t": "N", "q": "Find the noun for something you eat."},
+          {"w": "is", "t": "V", "q": "Find the verb."},
+          {"w": "hot", "t": "ADJ", "q": "Find the adjective that describes the sauce."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction."},
+          {"w": "made", "t": "V", "q": "Find the second verb."},
+          {"w": "us", "t": "OBJPRO", "q": "Find the object pronoun."},
+          {"w": "halt", "t": "V", "q": "Find the verb that means to stop."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'sauce' with a different au-word.",
+          "word": "sauce",
+          "examples": [
+            "The <span class='changed'>laundry</span> on the food is hot and made us halt.",
+            "The <span class='changed'>cause</span> on the food is hot and made us halt."
+          ]
+        },
+        "vocab": {
+          "w": "sauce",
+          "type": "noun",
+          "def": "A thick liquid put on food to add flavor.",
+          "simple": "Sauce is a yummy liquid you put on top of food!",
+          "examples": ["tomato sauce", "hot sauce", "pasta sauce"],
+          "similar": ["gravy", "dressing", "topping"],
+          "antonyms": [],
+          "nonex": ["It does NOT mean soup.", "It does NOT mean juice."],
+          "example": "I put sauce on my pasta for dinner.",
+          "starter": "My favorite sauce to eat is _______ ...",
+          "why": "Sauce has the 'au' diphthong that says /aw/!"
+        },
+        "ufliLesson": 96,
+        "ufliSkill": "au /aw/",
+        "ufliSection": "Diphthongs",
+        "phonicsWords": ["sauce", "haul", "cause", "pause", "fault", "launch"],
+        "heartWords": ["the", "on", "and", "us"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "the auther paused and then red the story about a dinosaur to the class",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "auther", "r": "author", "e": "Author is spelled a-u-t-h-o-r. The 'au' says /aw/."},
+          {"t": "spelling", "w": "red", "r": "read", "e": "Read is spelled r-e-a-d."},
+          {"t": "grammar", "w": "paused", "r": "pauses", "e": "Use 'pauses' for present tense to match 'read.'"},
+          {"t": "punctuation", "w": "class", "r": "class.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The author pauses and then read the story about a dinosaur to the class.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the first article."},
+          {"w": "author", "t": "N", "q": "Find the noun for a person who writes books."},
+          {"w": "pauses", "t": "V", "q": "Find the verb that means to stop briefly."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction."},
+          {"w": "then", "t": "ADV", "q": "Find the adverb that tells when."},
+          {"w": "read", "t": "V", "q": "Find the verb for looking at words."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'story.'"},
+          {"w": "story", "t": "N", "q": "Find the noun for a tale."},
+          {"w": "about", "t": "PREP", "q": "Find the preposition that tells the topic."},
+          {"w": "a", "t": "ART", "q": "Find the article before 'dinosaur.'"},
+          {"w": "dinosaur", "t": "N", "q": "Find the noun for an ancient animal."},
+          {"w": "to", "t": "PREP", "q": "Find the preposition."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'class.'"},
+          {"w": "class", "t": "N", "q": "Find the noun for a group of students."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'author' with a different au-word.",
+          "word": "author",
+          "examples": [
+            "The <span class='changed'>daughter</span> pauses and then read the story about a dinosaur to the class.",
+            "The <span class='changed'>astronaut</span> pauses and then read the story about a dinosaur to the class."
+          ]
+        },
+        "vocab": {
+          "w": "author",
+          "type": "noun",
+          "def": "A person who writes books, stories, or articles.",
+          "simple": "An author is a person who writes stories and books!",
+          "examples": ["a famous author", "the book's author", "a children's author"],
+          "similar": ["writer", "novelist", "storyteller"],
+          "antonyms": ["reader"],
+          "nonex": ["It does NOT mean someone who draws pictures.", "It does NOT mean a teacher."],
+          "example": "The author visited our school and read us a story.",
+          "starter": "If I were an author, I would write about _______ ...",
+          "why": "Author has the 'au' diphthong that says /aw/!"
+        },
+        "ufliLesson": 96,
+        "ufliSkill": "au /aw/",
+        "ufliSection": "Diphthongs",
+        "phonicsWords": ["author", "pause", "sauce", "haul", "cause", "launch"],
+        "heartWords": ["the", "and", "then", "about", "a", "to"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 97,
+    "sentences": [
+      {
+        "orig": "she likes to drau pictures of her dog's paus",
+        "corr": [
+          {"t": "capitalization", "w": "she", "r": "She", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "drau", "r": "draw", "e": "Draw is spelled d-r-a-w. The 'aw' says /aw/."},
+          {"t": "spelling", "w": "paus", "r": "paws", "e": "Paws is spelled p-a-w-s. The 'aw' says /aw/."},
+          {"t": "grammar", "w": "likes", "r": "loved", "e": "Use 'loved' to show it happened in the past."},
+          {"t": "punctuation", "w": "paus", "r": "paws.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "She loved to draw pictures of her dog's paws.",
+        "pos": [
+          {"w": "She", "t": "PRO", "q": "Find the pronoun at the beginning."},
+          {"w": "loved", "t": "V", "q": "Find the verb for a strong feeling."},
+          {"w": "to", "t": "PREP", "q": "Find the preposition."},
+          {"w": "draw", "t": "V", "q": "Find the verb for making pictures."},
+          {"w": "pictures", "t": "N", "q": "Find the noun for images."},
+          {"w": "of", "t": "PREP", "q": "Find the preposition after 'pictures.'"},
+          {"w": "her", "t": "POSS", "q": "Find the possessive word."},
+          {"w": "dog's", "t": "N", "q": "Find the possessive noun for an animal."},
+          {"w": "paws", "t": "N", "q": "Find the noun for animal feet."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'paws' with a different aw-word.",
+          "word": "paws",
+          "examples": [
+            "She loved to draw pictures of her dog's <span class='changed'>jaw</span>.",
+            "She loved to draw pictures of her dog's <span class='changed'>claws</span>."
+          ]
+        },
+        "vocab": {
+          "w": "draw",
+          "type": "verb",
+          "def": "To make a picture with a pencil, pen, or crayon.",
+          "simple": "Draw means to make a picture using a pencil or crayon!",
+          "examples": ["draw a picture", "draw a cat", "draw with crayons"],
+          "similar": ["sketch", "illustrate", "doodle"],
+          "antonyms": ["erase"],
+          "nonex": ["It does NOT mean to paint with a brush.", "It does NOT mean to write words."],
+          "example": "I like to draw flowers and butterflies.",
+          "starter": "I like to draw _______ because _______ ...",
+          "why": "Draw has the 'aw' diphthong that says /aw/!"
+        },
+        "ufliLesson": 97,
+        "ufliSkill": "aw /aw/",
+        "ufliSection": "Diphthongs",
+        "phonicsWords": ["draw", "paw", "saw", "claw", "straw", "jaw"],
+        "heartWords": ["she", "to", "of", "her"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "we saugh a hawk with sharp claus fly over the lawn at daun",
+        "corr": [
+          {"t": "capitalization", "w": "we", "r": "We", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "saugh", "r": "saw", "e": "Saw is spelled s-a-w. The 'aw' says /aw/."},
+          {"t": "spelling", "w": "claus", "r": "claws", "e": "Claws is spelled c-l-a-w-s. The 'aw' says /aw/."},
+          {"t": "grammar", "w": "daun", "r": "dawn", "e": "Dawn is spelled d-a-w-n. The 'aw' says /aw/."},
+          {"t": "punctuation", "w": "daun", "r": "dawn.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "We saw a hawk with sharp claws fly over the lawn at dawn.",
+        "pos": [
+          {"w": "We", "t": "PRO", "q": "Find the pronoun at the beginning."},
+          {"w": "saw", "t": "V", "q": "Find the verb for looking."},
+          {"w": "a", "t": "ART", "q": "Find the article before 'hawk.'"},
+          {"w": "hawk", "t": "N", "q": "Find the noun for a bird of prey."},
+          {"w": "with", "t": "PREP", "q": "Find the preposition."},
+          {"w": "sharp", "t": "ADJ", "q": "Find the adjective that describes the claws."},
+          {"w": "claws", "t": "N", "q": "Find the noun for sharp nails on an animal."},
+          {"w": "fly", "t": "V", "q": "Find the verb for moving through the air."},
+          {"w": "over", "t": "PREP", "q": "Find the preposition that means above."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'lawn.'"},
+          {"w": "lawn", "t": "N", "q": "Find the noun for a grassy area."},
+          {"w": "at", "t": "PREP", "q": "Find the preposition that tells when."},
+          {"w": "dawn", "t": "N", "q": "Find the noun for early morning."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'hawk' with a different aw-word.",
+          "word": "hawk",
+          "examples": [
+            "We saw a <span class='changed'>crawdad</span> with sharp claws fly over the lawn at dawn.",
+            "We saw a <span class='changed'>fawn</span> with sharp claws fly over the lawn at dawn."
+          ]
+        },
+        "vocab": {
+          "w": "dawn",
+          "type": "noun",
+          "def": "The time of day when the sun first comes up.",
+          "simple": "Dawn is when the sun starts to rise in the morning!",
+          "examples": ["at dawn", "the crack of dawn", "a beautiful dawn"],
+          "similar": ["sunrise", "daybreak", "morning"],
+          "antonyms": ["dusk", "sunset", "nightfall"],
+          "nonex": ["It does NOT mean noon.", "It does NOT mean midnight."],
+          "example": "The birds start to sing at dawn every morning.",
+          "starter": "At dawn, I can see _______ ...",
+          "why": "Dawn has the 'aw' diphthong that says /aw/!"
+        },
+        "ufliLesson": 97,
+        "ufliSkill": "aw /aw/",
+        "ufliSection": "Diphthongs",
+        "phonicsWords": ["saw", "claws", "lawn", "dawn", "draw", "paw", "hawk"],
+        "heartWords": ["we", "a", "with", "the", "at"],
+        "sentenceType": "application"
+      }
+    ]
+  }
+]

@@ -1,0 +1,1754 @@
+[
+  {
+    "day": 35,
+    "sentences": [
+      {
+        "orig": "she has a big fis in the shop",
+        "corr": [
+          {"t": "capitalization", "w": "she", "r": "She", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "fis", "r": "fish", "e": "Fish ends with the digraph 'sh,' not just 's.'"},
+          {"t": "grammar", "w": "has", "r": "got", "e": "Use 'got' to show she received the fish."},
+          {"t": "spelling", "w": "shop", "r": "shop", "e": "Shop is spelled correctly with 'sh' — good job!"},
+          {"t": "punctuation", "w": "shop", "r": "shop.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "She got a big fish in the shop.",
+        "pos": [
+          {"w": "She", "t": "PRO", "q": "Find the pronoun that means a girl."},
+          {"w": "got", "t": "V", "q": "Find the verb that tells what she did."},
+          {"w": "a", "t": "ART", "q": "Find the article before 'big.'"},
+          {"w": "big", "t": "ADJ", "q": "Find the adjective that describes the fish."},
+          {"w": "fish", "t": "N", "q": "Find the noun for an animal that swims."},
+          {"w": "in", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'shop.'"},
+          {"w": "shop", "t": "N", "q": "Find the noun for a place to buy things."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'fish' with a different sh-word.",
+          "word": "fish",
+          "examples": [
+            "She got a big <span class='changed'>shell</span> in the shop.",
+            "She got a big <span class='changed'>dish</span> in the shop."
+          ]
+        },
+        "vocab": {
+          "w": "shelf",
+          "type": "noun",
+          "def": "A flat board fixed to a wall or inside a cabinet, used for holding things.",
+          "simple": "A shelf is a flat place where you put things like books or toys!",
+          "examples": ["a book shelf", "a shelf in the shop", "a top shelf"],
+          "similar": ["ledge", "rack"],
+          "antonyms": ["floor"],
+          "nonex": ["It does NOT mean a table.", "It does NOT mean a box."],
+          "example": "Put the cups back on the shelf.",
+          "starter": "On my shelf, I keep _______ ...",
+          "why": "Shelf is a useful word because shelves are everywhere — at home, at school, and in shops!"
+        },
+        "ufliLesson": 35,
+        "ufliSkill": "sh /sh/",
+        "ufliSection": "Digraphs",
+        "phonicsWords": ["ship", "shop", "fish", "shell", "shed", "shut"],
+        "heartWords": ["the", "a", "she"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "the ship went on a long trip to the shed by the doks",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "doks", "r": "docks", "e": "Docks is spelled with 'ck,' not just 'k.'"},
+          {"t": "grammar", "w": "went", "r": "set", "e": "Use 'set' to mean the ship started its trip."},
+          {"t": "spelling", "w": "shed", "r": "shed", "e": "Shed is spelled correctly with 'sh' — nice work!"},
+          {"t": "punctuation", "w": "doks", "r": "docks.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The ship set on a long trip to the shed by the docks.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "ship", "t": "N", "q": "Find the noun for a big boat."},
+          {"w": "set", "t": "V", "q": "Find the verb that tells what the ship did."},
+          {"w": "on", "t": "PREP", "q": "Find the preposition after 'set.'"},
+          {"w": "a", "t": "ART", "q": "Find the article before 'long.'"},
+          {"w": "long", "t": "ADJ", "q": "Find the adjective that describes the trip."},
+          {"w": "trip", "t": "N", "q": "Find the noun that means a journey."},
+          {"w": "to", "t": "PREP", "q": "Find the preposition that tells direction."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'shed.'"},
+          {"w": "shed", "t": "N", "q": "Find the noun for a small building."},
+          {"w": "by", "t": "PREP", "q": "Find the preposition that tells location."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'docks.'"},
+          {"w": "docks", "t": "N", "q": "Find the noun for where boats stop."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'ship' with a different sh-word.",
+          "word": "ship",
+          "examples": [
+            "The <span class='changed'>shell</span> set on a long trip to the shed by the docks.",
+            "The <span class='changed'>shuttle</span> set on a long trip to the shed by the docks."
+          ]
+        },
+        "vocab": {
+          "w": "shack",
+          "type": "noun",
+          "def": "A small, roughly built house or cabin.",
+          "simple": "A shack is a tiny, simple house made from wood or metal!",
+          "examples": ["a fishing shack", "a little shack", "an old shack"],
+          "similar": ["hut", "cabin", "shed"],
+          "antonyms": ["mansion", "palace"],
+          "nonex": ["It does NOT mean a tent.", "It does NOT mean a big house."],
+          "example": "The fisherman kept his nets in a shack by the docks.",
+          "starter": "If I had a shack, I would use it for _______ ...",
+          "why": "Shack is a fun word that helps you picture a small, cozy building!"
+        },
+        "ufliLesson": 35,
+        "ufliSkill": "sh /sh/",
+        "ufliSection": "Digraphs",
+        "phonicsWords": ["ship", "shop", "fish", "shell", "shed", "shut"],
+        "heartWords": ["the", "a", "to", "by"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 36,
+    "sentences": [
+      {
+        "orig": "the chik sat on a big log and went chep chep",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "chik", "r": "chick", "e": "Chick has 'ck' at the end, not just 'k.'"},
+          {"t": "grammar", "w": "went", "r": "said", "e": "Use 'said' because the chick is making a sound."},
+          {"t": "spelling", "w": "chep", "r": "cheep", "e": "Cheep has two e's in the middle."},
+          {"t": "punctuation", "w": "chep", "r": "cheep!", "e": "Use an exclamation mark to show the chick is loud."}
+        ],
+        "fixed": "The chick sat on a big log and said cheep cheep!",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "chick", "t": "N", "q": "Find the noun for a baby bird."},
+          {"w": "sat", "t": "V", "q": "Find the verb that tells what the chick did first."},
+          {"w": "on", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "a", "t": "ART", "q": "Find the article before 'big.'"},
+          {"w": "big", "t": "ADJ", "q": "Find the adjective that describes the log."},
+          {"w": "log", "t": "N", "q": "Find the noun for a piece of wood."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction that joins the two parts."},
+          {"w": "said", "t": "V", "q": "Find the verb that means to speak."},
+          {"w": "cheep", "t": "N", "q": "Find the noun for the sound a chick makes."},
+          {"w": "cheep", "t": "N", "q": "Find the repeated sound word."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'chick' with a different ch-word animal or thing.",
+          "word": "chick",
+          "examples": [
+            "The <span class='changed'>chimp</span> sat on a big log and said cheep cheep!",
+            "The <span class='changed'>child</span> sat on a big log and said cheep cheep!"
+          ]
+        },
+        "vocab": {
+          "w": "chest",
+          "type": "noun",
+          "def": "A large, strong box used for storing things, or the front part of your body between your neck and stomach.",
+          "simple": "A chest can be a big box for treasures, or the front part of your body!",
+          "examples": ["a treasure chest", "a toy chest", "puff out your chest"],
+          "similar": ["box", "trunk", "crate"],
+          "antonyms": [],
+          "nonex": ["It does NOT mean a bag.", "It does NOT mean your belly."],
+          "example": "We found an old chest full of shells and rocks.",
+          "starter": "In my treasure chest, I would put _______ ...",
+          "why": "Chest is a great word with two meanings — a box and a body part!"
+        },
+        "ufliLesson": 36,
+        "ufliSkill": "ch /ch/",
+        "ufliSection": "Digraphs",
+        "phonicsWords": ["chop", "chin", "chest", "chick", "chip", "chat"],
+        "heartWords": ["the", "a", "and"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "chad likes to chop fresh chips for his lunch at the shop",
+        "corr": [
+          {"t": "capitalization", "w": "chad", "r": "Chad", "e": "A person's name must be capitalized."},
+          {"t": "spelling", "w": "fresh", "r": "fresh", "e": "Fresh is spelled correctly with 'sh' — good job!"},
+          {"t": "grammar", "w": "likes", "r": "liked", "e": "Use 'liked' to tell about the past."},
+          {"t": "spelling", "w": "chips", "r": "chips", "e": "Chips is spelled correctly with 'ch' — well done!"},
+          {"t": "punctuation", "w": "shop", "r": "shop.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "Chad liked to chop fresh chips for his lunch at the shop.",
+        "pos": [
+          {"w": "Chad", "t": "N", "q": "Find the proper noun that names a person."},
+          {"w": "liked", "t": "V", "q": "Find the verb that tells what Chad did."},
+          {"w": "to", "t": "PREP", "q": "Find the word before 'chop.'"},
+          {"w": "chop", "t": "V", "q": "Find the verb that means to cut."},
+          {"w": "fresh", "t": "ADJ", "q": "Find the adjective that describes the chips."},
+          {"w": "chips", "t": "N", "q": "Find the noun for thin, crispy food."},
+          {"w": "for", "t": "PREP", "q": "Find the preposition that tells the reason."},
+          {"w": "his", "t": "POSS", "q": "Find the possessive word meaning belonging to him."},
+          {"w": "lunch", "t": "N", "q": "Find the noun for a midday meal."},
+          {"w": "at", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'shop.'"},
+          {"w": "shop", "t": "N", "q": "Find the noun for a place to buy things."}
+        ],
+        "manip": {
+          "task": "Replace the verb 'chop' with a different action word.",
+          "word": "chop",
+          "examples": [
+            "Chad liked to <span class='changed'>munch</span> fresh chips for his lunch at the shop.",
+            "Chad liked to <span class='changed'>crush</span> fresh chips for his lunch at the shop."
+          ]
+        },
+        "vocab": {
+          "w": "chunk",
+          "type": "noun",
+          "def": "A thick, solid piece of something.",
+          "simple": "A chunk is a big piece that has been broken off from something bigger!",
+          "examples": ["a chunk of cheese", "a chunk of wood", "a big chunk"],
+          "similar": ["piece", "lump", "block"],
+          "antonyms": ["crumb", "sliver"],
+          "nonex": ["It does NOT mean a thin slice.", "It does NOT mean a whole thing."],
+          "example": "Mom cut a big chunk of cheese for my lunch.",
+          "starter": "I once found a chunk of _______ ...",
+          "why": "Chunk is a fun word that helps you describe big, solid pieces of things!"
+        },
+        "ufliLesson": 36,
+        "ufliSkill": "ch /ch/",
+        "ufliSection": "Digraphs",
+        "phonicsWords": ["chop", "chin", "chest", "chick", "chip", "chat"],
+        "heartWords": ["the", "to", "for", "his"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 37,
+    "sentences": [
+      {
+        "orig": "the thin man has a bath with thik suds",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "thik", "r": "thick", "e": "Thick ends with 'ck,' not just 'k.'"},
+          {"t": "grammar", "w": "has", "r": "had", "e": "Use 'had' to tell about the past."},
+          {"t": "spelling", "w": "bath", "r": "bath", "e": "Bath is spelled correctly with 'th' — nice!"},
+          {"t": "punctuation", "w": "suds", "r": "suds.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The thin man had a bath with thick suds.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "thin", "t": "ADJ", "q": "Find the adjective that describes the man."},
+          {"w": "man", "t": "N", "q": "Find the noun for a grown-up boy."},
+          {"w": "had", "t": "V", "q": "Find the verb that tells what happened."},
+          {"w": "a", "t": "ART", "q": "Find the article before 'bath.'"},
+          {"w": "bath", "t": "N", "q": "Find the noun for washing in water."},
+          {"w": "with", "t": "PREP", "q": "Find the preposition that tells how."},
+          {"w": "thick", "t": "ADJ", "q": "Find the adjective that describes the suds."},
+          {"w": "suds", "t": "N", "q": "Find the noun for soap bubbles."}
+        ],
+        "manip": {
+          "task": "Replace the adjective 'thin' with a different th-word.",
+          "word": "thin",
+          "examples": [
+            "The <span class='changed'>thankful</span> man had a bath with thick suds.",
+            "The <span class='changed'>thirsty</span> man had a bath with thick suds."
+          ]
+        },
+        "vocab": {
+          "w": "thud",
+          "type": "noun",
+          "def": "A dull, heavy sound made when something falls or hits the ground.",
+          "simple": "A thud is the deep, heavy sound something makes when it drops!",
+          "examples": ["a loud thud", "the thud of a ball", "fell with a thud"],
+          "similar": ["bang", "bump", "thump"],
+          "antonyms": ["whisper", "tap"],
+          "nonex": ["It does NOT mean a crash with breaking.", "It does NOT mean a light sound."],
+          "example": "The big book fell off the desk with a thud.",
+          "starter": "I heard a thud when _______ ...",
+          "why": "Thud is a great sound word that helps you describe what you hear!"
+        },
+        "ufliLesson": 37,
+        "ufliSkill": "th /th/ (unvoiced)",
+        "ufliSection": "Digraphs",
+        "phonicsWords": ["thin", "thick", "thud", "bath", "math", "path"],
+        "heartWords": ["the", "a", "with"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "beth ran on the path and got to the shop to get a cloth",
+        "corr": [
+          {"t": "capitalization", "w": "beth", "r": "Beth", "e": "A person's name must be capitalized."},
+          {"t": "spelling", "w": "cloth", "r": "cloth", "e": "Cloth is spelled correctly with 'th' — well done!"},
+          {"t": "grammar", "w": "got", "r": "went", "e": "Use 'went' to tell about traveling to the shop."},
+          {"t": "spelling", "w": "path", "r": "path", "e": "Path is spelled correctly with 'th' — great!"},
+          {"t": "punctuation", "w": "cloth", "r": "cloth.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "Beth ran on the path and went to the shop to get a cloth.",
+        "pos": [
+          {"w": "Beth", "t": "N", "q": "Find the proper noun that names a person."},
+          {"w": "ran", "t": "V", "q": "Find the verb that tells how Beth moved."},
+          {"w": "on", "t": "PREP", "q": "Find the preposition that tells where she ran."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'path.'"},
+          {"w": "path", "t": "N", "q": "Find the noun for a trail to walk on."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction that joins two actions."},
+          {"w": "went", "t": "V", "q": "Find the verb that means traveled."},
+          {"w": "to", "t": "PREP", "q": "Find the preposition that tells direction."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'shop.'"},
+          {"w": "shop", "t": "N", "q": "Find the noun for a place to buy things."},
+          {"w": "to", "t": "PREP", "q": "Find the second preposition."},
+          {"w": "get", "t": "V", "q": "Find the verb that means to obtain."},
+          {"w": "a", "t": "ART", "q": "Find the article before 'cloth.'"},
+          {"w": "cloth", "t": "N", "q": "Find the noun for a piece of fabric."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'cloth' with a different thing to buy.",
+          "word": "cloth",
+          "examples": [
+            "Beth ran on the path and went to the shop to get a <span class='changed'>hat</span>.",
+            "Beth ran on the path and went to the shop to get a <span class='changed'>dish</span>."
+          ]
+        },
+        "vocab": {
+          "w": "path",
+          "type": "noun",
+          "def": "A way or track made for walking.",
+          "simple": "A path is a trail you walk on to get somewhere!",
+          "examples": ["a garden path", "a forest path", "a rocky path"],
+          "similar": ["trail", "track", "walkway"],
+          "antonyms": [],
+          "nonex": ["It does NOT mean a road for cars.", "It does NOT mean a bridge."],
+          "example": "We walked along the path to the pond.",
+          "starter": "The path I like best goes to _______ ...",
+          "why": "Path helps you talk about where you walk and the trails you explore!"
+        },
+        "ufliLesson": 37,
+        "ufliSkill": "th /th/ (unvoiced)",
+        "ufliSection": "Digraphs",
+        "phonicsWords": ["thin", "thick", "thud", "bath", "math", "path"],
+        "heartWords": ["the", "a", "to", "and"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 38,
+    "sentences": [
+      {
+        "orig": "this dog likes that red ball on the mat",
+        "corr": [
+          {"t": "capitalization", "w": "this", "r": "This", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "likes", "r": "likes", "e": "Likes is spelled correctly — good job!"},
+          {"t": "grammar", "w": "likes", "r": "liked", "e": "Use 'liked' to tell about the past."},
+          {"t": "spelling", "w": "that", "r": "that", "e": "That is spelled correctly with 'th' — nice!"},
+          {"t": "punctuation", "w": "mat", "r": "mat.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "This dog liked that red ball on the mat.",
+        "pos": [
+          {"w": "This", "t": "DEM", "q": "Find the demonstrative that points to the dog."},
+          {"w": "dog", "t": "N", "q": "Find the noun for a pet animal."},
+          {"w": "liked", "t": "V", "q": "Find the verb that tells what the dog did."},
+          {"w": "that", "t": "DEM", "q": "Find the demonstrative that points to the ball."},
+          {"w": "red", "t": "ADJ", "q": "Find the adjective that tells the color."},
+          {"w": "ball", "t": "N", "q": "Find the noun for a round toy."},
+          {"w": "on", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'mat.'"},
+          {"w": "mat", "t": "N", "q": "Find the noun for a flat cover on the floor."}
+        ],
+        "manip": {
+          "task": "Replace the demonstrative 'that' with 'this' and see how the meaning changes.",
+          "word": "that",
+          "examples": [
+            "This dog liked <span class='changed'>this</span> red ball on the mat.",
+            "This dog liked <span class='changed'>the</span> red ball on the mat."
+          ]
+        },
+        "vocab": {
+          "w": "gather",
+          "type": "verb",
+          "def": "To collect or bring things together in one place.",
+          "simple": "Gather means to pick up things and bring them all together!",
+          "examples": ["gather shells", "gather your things", "gather around"],
+          "similar": ["collect", "pick up", "bring together"],
+          "antonyms": ["scatter", "spread"],
+          "nonex": ["It does NOT mean to throw.", "It does NOT mean to hide."],
+          "example": "The children gather shells at the beach.",
+          "starter": "I like to gather _______ ...",
+          "why": "Gather is a useful word for when you bring things or people together!"
+        },
+        "ufliLesson": 38,
+        "ufliSkill": "th /th/ (voiced)",
+        "ufliSection": "Digraphs",
+        "phonicsWords": ["this", "that", "them", "then", "with", "the"],
+        "heartWords": ["the", "a"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "them kids ran with the dog and then sat on the bench",
+        "corr": [
+          {"t": "capitalization", "w": "them", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "grammar", "w": "them", "r": "The", "e": "Use 'The' instead of 'Them' before a noun."},
+          {"t": "spelling", "w": "bench", "r": "bench", "e": "Bench is spelled correctly with 'ch' — great!"},
+          {"t": "spelling", "w": "then", "r": "then", "e": "Then is spelled correctly with 'th' — good!"},
+          {"t": "punctuation", "w": "bench", "r": "bench.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The kids ran with the dog and then sat on the bench.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "kids", "t": "N", "q": "Find the noun for children."},
+          {"w": "ran", "t": "V", "q": "Find the verb that tells how they moved."},
+          {"w": "with", "t": "PREP", "q": "Find the preposition that tells who they ran alongside."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'dog.'"},
+          {"w": "dog", "t": "N", "q": "Find the noun for the pet."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction joining two actions."},
+          {"w": "then", "t": "ADV", "q": "Find the adverb that tells when."},
+          {"w": "sat", "t": "V", "q": "Find the verb that means rested on something."},
+          {"w": "on", "t": "PREP", "q": "Find the preposition that tells where they sat."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'bench.'"},
+          {"w": "bench", "t": "N", "q": "Find the noun for a long seat."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'bench' with a different place to sit.",
+          "word": "bench",
+          "examples": [
+            "The kids ran with the dog and then sat on the <span class='changed'>grass</span>.",
+            "The kids ran with the dog and then sat on the <span class='changed'>path</span>."
+          ]
+        },
+        "vocab": {
+          "w": "smooth",
+          "type": "adjective",
+          "def": "Having an even surface with no bumps or rough spots.",
+          "simple": "Smooth means something feels flat and soft when you touch it!",
+          "examples": ["smooth skin", "a smooth rock", "smooth cloth"],
+          "similar": ["flat", "even", "silky"],
+          "antonyms": ["rough", "bumpy"],
+          "nonex": ["It does NOT mean slippery.", "It does NOT mean shiny."],
+          "example": "The pebble from the river was smooth.",
+          "starter": "Something smooth I have touched is _______ ...",
+          "why": "Smooth helps you describe how things feel when you touch them!"
+        },
+        "ufliLesson": 38,
+        "ufliSkill": "th /th/ (voiced)",
+        "ufliSection": "Digraphs",
+        "phonicsWords": ["this", "that", "them", "then", "with", "the"],
+        "heartWords": ["the", "and"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 39,
+    "sentences": [
+      {
+        "orig": "wen did the cat get a whif of the fish",
+        "corr": [
+          {"t": "capitalization", "w": "wen", "r": "When", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "wen", "r": "When", "e": "When starts with 'wh,' not just 'w.'"},
+          {"t": "grammar", "w": "get", "r": "catch", "e": "Use 'catch' for getting a whiff of a smell."},
+          {"t": "spelling", "w": "whif", "r": "whiff", "e": "Whiff has two f's at the end."},
+          {"t": "punctuation", "w": "fish", "r": "fish?", "e": "A question must end with a question mark."}
+        ],
+        "fixed": "When did the cat catch a whiff of the fish?",
+        "pos": [
+          {"w": "When", "t": "ADV", "q": "Find the question word that asks about time."},
+          {"w": "did", "t": "V", "q": "Find the helping verb."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'cat.'"},
+          {"w": "cat", "t": "N", "q": "Find the noun for a pet animal."},
+          {"w": "catch", "t": "V", "q": "Find the verb that means to get."},
+          {"w": "a", "t": "ART", "q": "Find the article before 'whiff.'"},
+          {"w": "whiff", "t": "N", "q": "Find the noun for a quick smell."},
+          {"w": "of", "t": "PREP", "q": "Find the preposition that connects whiff and fish."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'fish.'"},
+          {"w": "fish", "t": "N", "q": "Find the noun for an animal that swims."}
+        ],
+        "manip": {
+          "task": "Replace the wh-word 'When' with a different wh-question word.",
+          "word": "When",
+          "examples": [
+            "<span class='changed'>Where</span> did the cat catch a whiff of the fish?",
+            "<span class='changed'>Why</span> did the cat catch a whiff of the fish?"
+          ]
+        },
+        "vocab": {
+          "w": "whisk",
+          "type": "verb",
+          "def": "To move something quickly, or a tool used to mix food.",
+          "simple": "Whisk means to stir something fast, or it is a kitchen tool!",
+          "examples": ["whisk the eggs", "a quick whisk", "whisk it around"],
+          "similar": ["stir", "mix", "beat"],
+          "antonyms": [],
+          "nonex": ["It does NOT mean to chop.", "It does NOT mean to pour."],
+          "example": "Mom used a whisk to mix the batter.",
+          "starter": "I would whisk together _______ ...",
+          "why": "Whisk is a fun word that sounds like the fast motion it describes!"
+        },
+        "ufliLesson": 39,
+        "ufliSkill": "wh /w/",
+        "ufliSection": "Digraphs",
+        "phonicsWords": ["when", "what", "whip", "whiff", "whisk", "which"],
+        "heartWords": ["the", "a", "of", "did"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "what did the children wish for when thay went to the shop",
+        "corr": [
+          {"t": "capitalization", "w": "what", "r": "What", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "thay", "r": "they", "e": "They is spelled t-h-e-y, not t-h-a-y."},
+          {"t": "grammar", "w": "children", "r": "kids", "e": "Use 'kids' for a simpler word that means the same thing."},
+          {"t": "spelling", "w": "wish", "r": "wish", "e": "Wish is spelled correctly with 'sh' — great!"},
+          {"t": "punctuation", "w": "shop", "r": "shop?", "e": "A question must end with a question mark."}
+        ],
+        "fixed": "What did the kids wish for when they went to the shop?",
+        "pos": [
+          {"w": "What", "t": "PRO", "q": "Find the question word that asks about a thing."},
+          {"w": "did", "t": "V", "q": "Find the helping verb."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'kids.'"},
+          {"w": "kids", "t": "N", "q": "Find the noun for children."},
+          {"w": "wish", "t": "V", "q": "Find the verb that means to want."},
+          {"w": "for", "t": "PREP", "q": "Find the preposition after 'wish.'"},
+          {"w": "when", "t": "ADV", "q": "Find the adverb that tells about time."},
+          {"w": "they", "t": "PRO", "q": "Find the pronoun that means the kids."},
+          {"w": "went", "t": "V", "q": "Find the verb that means traveled."},
+          {"w": "to", "t": "PREP", "q": "Find the preposition that tells direction."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'shop.'"},
+          {"w": "shop", "t": "N", "q": "Find the noun for a place to buy things."}
+        ],
+        "manip": {
+          "task": "Replace the verb 'wish' with a different action.",
+          "word": "wish",
+          "examples": [
+            "What did the kids <span class='changed'>shop</span> for when they went to the shop?",
+            "What did the kids <span class='changed'>check</span> for when they went to the shop?"
+          ]
+        },
+        "vocab": {
+          "w": "whisper",
+          "type": "verb",
+          "def": "To speak very softly and quietly.",
+          "simple": "Whisper means to talk so softly that only one person can hear you!",
+          "examples": ["whisper a secret", "whisper in class", "a soft whisper"],
+          "similar": ["murmur", "hush"],
+          "antonyms": ["shout", "yell"],
+          "nonex": ["It does NOT mean to be silent.", "It does NOT mean to hum."],
+          "example": "She had to whisper in the library.",
+          "starter": "I would whisper when _______ ...",
+          "why": "Whisper is a word you use a lot — at school, at the library, or when telling secrets!"
+        },
+        "ufliLesson": 39,
+        "ufliSkill": "wh /w/",
+        "ufliSection": "Digraphs",
+        "phonicsWords": ["when", "what", "whip", "whiff", "whisk", "which"],
+        "heartWords": ["the", "to", "for", "they", "did"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 40,
+    "sentences": [
+      {
+        "orig": "the child sat on a shef and ate a thik chip",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "shef", "r": "shelf", "e": "Shelf is spelled s-h-e-l-f with an 'l' before the 'f.'"},
+          {"t": "grammar", "w": "ate", "r": "munched", "e": "Use 'munched' to be more descriptive about eating."},
+          {"t": "spelling", "w": "thik", "r": "thick", "e": "Thick ends with 'ck,' not just 'k.'"},
+          {"t": "punctuation", "w": "chip", "r": "chip.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The child sat on a shelf and munched a thick chip.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "child", "t": "N", "q": "Find the noun for a young person."},
+          {"w": "sat", "t": "V", "q": "Find the verb that tells the first action."},
+          {"w": "on", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "a", "t": "ART", "q": "Find the article before 'shelf.'"},
+          {"w": "shelf", "t": "N", "q": "Find the noun for a flat board on a wall."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction joining two actions."},
+          {"w": "munched", "t": "V", "q": "Find the verb that means ate noisily."},
+          {"w": "a", "t": "ART", "q": "Find the article before 'thick.'"},
+          {"w": "thick", "t": "ADJ", "q": "Find the adjective that describes the chip."},
+          {"w": "chip", "t": "N", "q": "Find the noun for a crispy snack."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'chip' with a different food that uses a digraph.",
+          "word": "chip",
+          "examples": [
+            "The child sat on a shelf and munched a thick <span class='changed'>fish</span>.",
+            "The child sat on a shelf and munched a thick <span class='changed'>chunk</span>."
+          ]
+        },
+        "vocab": {
+          "w": "munch",
+          "type": "verb",
+          "def": "To chew food with a steady, sometimes noisy motion.",
+          "simple": "Munch means to chew your food with big, crunchy bites!",
+          "examples": ["munch on chips", "munch a sandwich", "munch an apple"],
+          "similar": ["chew", "crunch", "chomp"],
+          "antonyms": ["sip", "nibble"],
+          "nonex": ["It does NOT mean to swallow whole.", "It does NOT mean to drink."],
+          "example": "The rabbit likes to munch on fresh grass.",
+          "starter": "My favorite thing to munch on is _______ ...",
+          "why": "Munch is a fun word because it sounds like what it means!"
+        },
+        "ufliLesson": 40,
+        "ufliSkill": "Digraph Review",
+        "ufliSection": "Digraphs",
+        "phonicsWords": ["shelf", "chip", "thick", "whip", "that", "ship"],
+        "heartWords": ["the", "a", "and"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "when the fish swam past the ship beth got a fresh net from the shak",
+        "corr": [
+          {"t": "capitalization", "w": "when", "r": "When", "e": "The first word of a sentence must be capitalized."},
+          {"t": "capitalization", "w": "beth", "r": "Beth", "e": "A person's name must be capitalized."},
+          {"t": "spelling", "w": "shak", "r": "shack", "e": "Shack ends with 'ck,' not just 'k.'"},
+          {"t": "grammar", "w": "swam", "r": "swam", "e": "Swam is the correct past tense — nice!"},
+          {"t": "punctuation", "w": "shak", "r": "shack.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "When the fish swam past the ship Beth got a fresh net from the shack.",
+        "pos": [
+          {"w": "When", "t": "ADV", "q": "Find the adverb that tells about time."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'fish.'"},
+          {"w": "fish", "t": "N", "q": "Find the noun for an animal that swims."},
+          {"w": "swam", "t": "V", "q": "Find the verb that tells how the fish moved."},
+          {"w": "past", "t": "PREP", "q": "Find the preposition that means by or beyond."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'ship.'"},
+          {"w": "ship", "t": "N", "q": "Find the noun for a big boat."},
+          {"w": "Beth", "t": "N", "q": "Find the proper noun that names a person."},
+          {"w": "got", "t": "V", "q": "Find the verb that means obtained."},
+          {"w": "a", "t": "ART", "q": "Find the article before 'fresh.'"},
+          {"w": "fresh", "t": "ADJ", "q": "Find the adjective that describes the net."},
+          {"w": "net", "t": "N", "q": "Find the noun used for catching fish."},
+          {"w": "from", "t": "PREP", "q": "Find the preposition that tells where Beth got it."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'shack.'"},
+          {"w": "shack", "t": "N", "q": "Find the noun for a small building."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'net' with a different fishing tool.",
+          "word": "net",
+          "examples": [
+            "When the fish swam past the ship Beth got a fresh <span class='changed'>rod</span> from the shack.",
+            "When the fish swam past the ship Beth got a fresh <span class='changed'>mesh</span> from the shack."
+          ]
+        },
+        "vocab": {
+          "w": "fetch",
+          "type": "verb",
+          "def": "To go and get something, then bring it back.",
+          "simple": "Fetch means to go get something and bring it back!",
+          "examples": ["fetch the ball", "fetch water", "fetch a stick"],
+          "similar": ["get", "bring", "retrieve"],
+          "antonyms": ["drop", "leave"],
+          "nonex": ["It does NOT mean to throw.", "It does NOT mean to keep."],
+          "example": "The dog loves to fetch sticks at the pond.",
+          "starter": "I could fetch _______ for you ...",
+          "why": "Fetch is a word you hear a lot, especially when playing with dogs!"
+        },
+        "ufliLesson": 40,
+        "ufliSkill": "Digraph Review",
+        "ufliSection": "Digraphs",
+        "phonicsWords": ["shelf", "chip", "thick", "whip", "that", "ship"],
+        "heartWords": ["the", "a", "from"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 41,
+    "sentences": [
+      {
+        "orig": "the duk sat on a big rok by the pond",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "duk", "r": "duck", "e": "Duck ends with 'ck,' not just 'k.'"},
+          {"t": "grammar", "w": "sat", "r": "sat", "e": "Sat is the correct past tense — well done!"},
+          {"t": "spelling", "w": "rok", "r": "rock", "e": "Rock ends with 'ck,' not just 'k.'"},
+          {"t": "punctuation", "w": "pond", "r": "pond.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The duck sat on a big rock by the pond.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "duck", "t": "N", "q": "Find the noun for a bird that swims."},
+          {"w": "sat", "t": "V", "q": "Find the verb that tells what the duck did."},
+          {"w": "on", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "a", "t": "ART", "q": "Find the article before 'big.'"},
+          {"w": "big", "t": "ADJ", "q": "Find the adjective that describes the rock."},
+          {"w": "rock", "t": "N", "q": "Find the noun for a hard, heavy object."},
+          {"w": "by", "t": "PREP", "q": "Find the preposition that tells location."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'pond.'"},
+          {"w": "pond", "t": "N", "q": "Find the noun for a small body of water."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'duck' with a different animal that has 'ck.'",
+          "word": "duck",
+          "examples": [
+            "The <span class='changed'>chick</span> sat on a big rock by the pond.",
+            "The <span class='changed'>buck</span> sat on a big rock by the pond."
+          ]
+        },
+        "vocab": {
+          "w": "dock",
+          "type": "noun",
+          "def": "A platform built over water where boats can stop and people can walk.",
+          "simple": "A dock is a walkway over water where boats park and people fish!",
+          "examples": ["a boat dock", "sit on the dock", "a fishing dock"],
+          "similar": ["pier", "wharf"],
+          "antonyms": [],
+          "nonex": ["It does NOT mean a bridge.", "It does NOT mean a beach."],
+          "example": "We sat on the dock and watched the ducks swim.",
+          "starter": "At the dock, I would like to _______ ...",
+          "why": "Dock is a useful word for talking about boats, fishing, and fun at the water!"
+        },
+        "ufliLesson": 41,
+        "ufliSkill": "-ck /k/",
+        "ufliSection": "Ending Patterns",
+        "phonicsWords": ["duck", "rock", "back", "lock", "stick", "truck"],
+        "heartWords": ["the", "a", "by"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "jack put his sock and his bag in the bak of the truk",
+        "corr": [
+          {"t": "capitalization", "w": "jack", "r": "Jack", "e": "A person's name must be capitalized."},
+          {"t": "spelling", "w": "bak", "r": "back", "e": "Back ends with 'ck,' not just 'k.'"},
+          {"t": "grammar", "w": "bag", "r": "pack", "e": "Use 'pack' to match the -ck pattern and mean a bag."},
+          {"t": "spelling", "w": "truk", "r": "truck", "e": "Truck ends with 'ck,' not just 'k.'"},
+          {"t": "punctuation", "w": "truk", "r": "truck.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "Jack put his sock and his pack in the back of the truck.",
+        "pos": [
+          {"w": "Jack", "t": "N", "q": "Find the proper noun that names a person."},
+          {"w": "put", "t": "V", "q": "Find the verb that tells the action."},
+          {"w": "his", "t": "POSS", "q": "Find the possessive word meaning belonging to him."},
+          {"w": "sock", "t": "N", "q": "Find the noun for something you wear on your foot."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction joining two things."},
+          {"w": "his", "t": "POSS", "q": "Find the second possessive word."},
+          {"w": "pack", "t": "N", "q": "Find the noun for a bag."},
+          {"w": "in", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'back.'"},
+          {"w": "back", "t": "N", "q": "Find the noun for the rear part."},
+          {"w": "of", "t": "PREP", "q": "Find the preposition that connects back and truck."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'truck.'"},
+          {"w": "truck", "t": "N", "q": "Find the noun for a large vehicle."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'sock' with a different -ck word.",
+          "word": "sock",
+          "examples": [
+            "Jack put his <span class='changed'>lock</span> and his pack in the back of the truck.",
+            "Jack put his <span class='changed'>clock</span> and his pack in the back of the truck."
+          ]
+        },
+        "vocab": {
+          "w": "stack",
+          "type": "noun",
+          "def": "A neat pile of things placed one on top of another.",
+          "simple": "A stack is when you put things in a pile, one on top of the other!",
+          "examples": ["a stack of books", "a stack of blocks", "a tall stack"],
+          "similar": ["pile", "heap"],
+          "antonyms": [],
+          "nonex": ["It does NOT mean a messy pile.", "It does NOT mean a single item."],
+          "example": "There was a stack of blocks on the shelf.",
+          "starter": "I made a stack of _______ ...",
+          "why": "Stack helps you describe how things are organized in a neat pile!"
+        },
+        "ufliLesson": 41,
+        "ufliSkill": "-ck /k/",
+        "ufliSection": "Ending Patterns",
+        "phonicsWords": ["duck", "rock", "back", "lock", "stick", "truck"],
+        "heartWords": ["the", "his", "and", "of"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 42,
+    "sentences": [
+      {
+        "orig": "the king had a big rig on his hand",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "rig", "r": "ring", "e": "Ring has 'ng' at the end for the /ng/ sound."},
+          {"t": "grammar", "w": "hand", "r": "finger", "e": "Rings go on fingers, not hands."},
+          {"t": "spelling", "w": "king", "r": "king", "e": "King is spelled correctly with 'ng' — good!"},
+          {"t": "punctuation", "w": "hand", "r": "finger.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The king had a big ring on his finger.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "king", "t": "N", "q": "Find the noun for a ruler."},
+          {"w": "had", "t": "V", "q": "Find the verb that tells what the king owned."},
+          {"w": "a", "t": "ART", "q": "Find the article before 'big.'"},
+          {"w": "big", "t": "ADJ", "q": "Find the adjective that describes the ring."},
+          {"w": "ring", "t": "N", "q": "Find the noun for jewelry you wear on your finger."},
+          {"w": "on", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "his", "t": "POSS", "q": "Find the possessive word meaning belonging to him."},
+          {"w": "finger", "t": "N", "q": "Find the noun for a part of your hand."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'ring' with a different -ng word.",
+          "word": "ring",
+          "examples": [
+            "The king had a big <span class='changed'>song</span> on his finger.",
+            "The king had a big <span class='changed'>wing</span> on his finger."
+          ]
+        },
+        "vocab": {
+          "w": "string",
+          "type": "noun",
+          "def": "A thin piece of cord or thread used for tying things.",
+          "simple": "String is a long, thin piece you can use to tie things together!",
+          "examples": ["a ball of string", "tie with string", "a long string"],
+          "similar": ["cord", "thread", "rope"],
+          "antonyms": [],
+          "nonex": ["It does NOT mean a ribbon.", "It does NOT mean tape."],
+          "example": "She used a string to hang the picture on the wall.",
+          "starter": "I could use string to _______ ...",
+          "why": "String is a handy word because you use string for so many things!"
+        },
+        "ufliLesson": 42,
+        "ufliSkill": "-ng /ng/",
+        "ufliSection": "Ending Patterns",
+        "phonicsWords": ["ring", "king", "song", "long", "bang", "wing"],
+        "heartWords": ["the", "a", "his"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "the strong man sang a long song when the bell rang",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "sang", "r": "sang", "e": "Sang is spelled correctly with 'ng' — nice!"},
+          {"t": "grammar", "w": "when", "r": "after", "e": "Use 'after' to show the song came next."},
+          {"t": "spelling", "w": "strong", "r": "strong", "e": "Strong is spelled correctly — well done!"},
+          {"t": "punctuation", "w": "rang", "r": "rang.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The strong man sang a long song after the bell rang.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "strong", "t": "ADJ", "q": "Find the adjective that describes the man."},
+          {"w": "man", "t": "N", "q": "Find the noun for an adult male."},
+          {"w": "sang", "t": "V", "q": "Find the verb that means made music with his voice."},
+          {"w": "a", "t": "ART", "q": "Find the article before 'long.'"},
+          {"w": "long", "t": "ADJ", "q": "Find the adjective that describes the song."},
+          {"w": "song", "t": "N", "q": "Find the noun for music you sing."},
+          {"w": "after", "t": "PREP", "q": "Find the preposition that tells when."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'bell.'"},
+          {"w": "bell", "t": "N", "q": "Find the noun that makes a ringing sound."},
+          {"w": "rang", "t": "V", "q": "Find the verb that tells what the bell did."}
+        ],
+        "manip": {
+          "task": "Replace the adjective 'long' with a different describing word.",
+          "word": "long",
+          "examples": [
+            "The strong man sang a <span class='changed'>fun</span> song after the bell rang.",
+            "The strong man sang a <span class='changed'>short</span> song after the bell rang."
+          ]
+        },
+        "vocab": {
+          "w": "belong",
+          "type": "verb",
+          "def": "To be a part of a group, or to be owned by someone.",
+          "simple": "Belong means something is yours, or you are part of a group!",
+          "examples": ["belong to a club", "this belongs to me", "you belong here"],
+          "similar": ["own", "fit in"],
+          "antonyms": ["exclude"],
+          "nonex": ["It does NOT mean to share.", "It does NOT mean to borrow."],
+          "example": "These books belong on the shelf in our classroom.",
+          "starter": "I belong to _______ ...",
+          "why": "Belong is important because everyone wants to feel like they belong!"
+        },
+        "ufliLesson": 42,
+        "ufliSkill": "-ng /ng/",
+        "ufliSection": "Ending Patterns",
+        "phonicsWords": ["ring", "king", "song", "long", "bang", "wing"],
+        "heartWords": ["the", "a"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 43,
+    "sentences": [
+      {
+        "orig": "i thik the pink drink is in the cup",
+        "corr": [
+          {"t": "capitalization", "w": "i", "r": "I", "e": "The word 'I' must always be capitalized."},
+          {"t": "spelling", "w": "thik", "r": "think", "e": "Think has 'nk' at the end for the /ngk/ sound."},
+          {"t": "grammar", "w": "is", "r": "was", "e": "Use 'was' to tell about the past."},
+          {"t": "spelling", "w": "pink", "r": "pink", "e": "Pink is spelled correctly with 'nk' — great!"},
+          {"t": "punctuation", "w": "cup", "r": "cup.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "I think the pink drink was in the cup.",
+        "pos": [
+          {"w": "I", "t": "PRO", "q": "Find the pronoun that means the speaker."},
+          {"w": "think", "t": "V", "q": "Find the verb that means to believe."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'pink.'"},
+          {"w": "pink", "t": "ADJ", "q": "Find the adjective that tells the color."},
+          {"w": "drink", "t": "N", "q": "Find the noun for something you sip."},
+          {"w": "was", "t": "V", "q": "Find the verb that tells where it was."},
+          {"w": "in", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'cup.'"},
+          {"w": "cup", "t": "N", "q": "Find the noun for a container to drink from."}
+        ],
+        "manip": {
+          "task": "Replace the adjective 'pink' with a different color.",
+          "word": "pink",
+          "examples": [
+            "I think the <span class='changed'>red</span> drink was in the cup.",
+            "I think the <span class='changed'>black</span> drink was in the cup."
+          ]
+        },
+        "vocab": {
+          "w": "shrink",
+          "type": "verb",
+          "def": "To become smaller in size.",
+          "simple": "Shrink means to get smaller, like a shirt after it gets washed in hot water!",
+          "examples": ["shrink in the wash", "it will shrink", "shrink down"],
+          "similar": ["reduce", "lessen", "contract"],
+          "antonyms": ["grow", "expand"],
+          "nonex": ["It does NOT mean to break.", "It does NOT mean to stretch."],
+          "example": "The puddle will shrink when the sun comes out.",
+          "starter": "If I could shrink, I would _______ ...",
+          "why": "Shrink is a fun word that helps you talk about things getting smaller!"
+        },
+        "ufliLesson": 43,
+        "ufliSkill": "-nk /ngk/",
+        "ufliSection": "Ending Patterns",
+        "phonicsWords": ["think", "pink", "drink", "sink", "bank", "trunk"],
+        "heartWords": ["the", "I"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "the skunk drank from the bank of the pond and then sank in the mud",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "drank", "r": "drank", "e": "Drank is spelled correctly with 'nk' — well done!"},
+          {"t": "grammar", "w": "sank", "r": "sank", "e": "Sank is the correct past tense — good job!"},
+          {"t": "spelling", "w": "skunk", "r": "skunk", "e": "Skunk is spelled correctly with 'nk' — nice!"},
+          {"t": "punctuation", "w": "mud", "r": "mud.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The skunk drank from the bank of the pond and then sank in the mud.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "skunk", "t": "N", "q": "Find the noun for a smelly animal."},
+          {"w": "drank", "t": "V", "q": "Find the verb that means took a drink."},
+          {"w": "from", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'bank.'"},
+          {"w": "bank", "t": "N", "q": "Find the noun for the edge of a pond."},
+          {"w": "of", "t": "PREP", "q": "Find the preposition connecting bank and pond."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'pond.'"},
+          {"w": "pond", "t": "N", "q": "Find the noun for a small body of water."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction joining two actions."},
+          {"w": "then", "t": "ADV", "q": "Find the adverb that tells when."},
+          {"w": "sank", "t": "V", "q": "Find the verb that means went down."},
+          {"w": "in", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'mud.'"},
+          {"w": "mud", "t": "N", "q": "Find the noun for wet, soft dirt."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'skunk' with a different animal.",
+          "word": "skunk",
+          "examples": [
+            "The <span class='changed'>duck</span> drank from the bank of the pond and then sank in the mud.",
+            "The <span class='changed'>chipmunk</span> drank from the bank of the pond and then sank in the mud."
+          ]
+        },
+        "vocab": {
+          "w": "plunk",
+          "type": "verb",
+          "def": "To drop something heavily or carelessly.",
+          "simple": "Plunk means to drop something with a heavy sound!",
+          "examples": ["plunk it down", "plunk into the water", "plunked on the desk"],
+          "similar": ["drop", "plop", "thump"],
+          "antonyms": ["place", "set gently"],
+          "nonex": ["It does NOT mean to throw far.", "It does NOT mean to lift."],
+          "example": "He plunked his bag on the bench after school.",
+          "starter": "I plunked down my _______ ...",
+          "why": "Plunk is a fun sound word that makes your writing more exciting!"
+        },
+        "ufliLesson": 43,
+        "ufliSkill": "-nk /ngk/",
+        "ufliSection": "Ending Patterns",
+        "phonicsWords": ["think", "pink", "drink", "sink", "bank", "trunk"],
+        "heartWords": ["the", "from", "of", "and"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 44,
+    "sentences": [
+      {
+        "orig": "the fluf on the dres was soft and the bel rang",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "fluf", "r": "fluff", "e": "Fluff has two f's at the end — that is the FLSZ rule!"},
+          {"t": "spelling", "w": "dres", "r": "dress", "e": "Dress has two s's at the end — FLSZ rule!"},
+          {"t": "grammar", "w": "bel", "r": "bell", "e": "Bell has two l's — FLSZ rule!"},
+          {"t": "punctuation", "w": "rang", "r": "rang.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The fluff on the dress was soft and the bell rang.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "fluff", "t": "N", "q": "Find the noun for soft, fuzzy stuff."},
+          {"w": "on", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'dress.'"},
+          {"w": "dress", "t": "N", "q": "Find the noun for clothing."},
+          {"w": "was", "t": "V", "q": "Find the verb that tells about the fluff."},
+          {"w": "soft", "t": "ADJ", "q": "Find the adjective that describes the fluff."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction joining two parts."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'bell.'"},
+          {"w": "bell", "t": "N", "q": "Find the noun that makes a ringing sound."},
+          {"w": "rang", "t": "V", "q": "Find the verb that tells what the bell did."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'dress' with a different clothing word.",
+          "word": "dress",
+          "examples": [
+            "The fluff on the <span class='changed'>cuff</span> was soft and the bell rang.",
+            "The fluff on the <span class='changed'>mitt</span> was soft and the bell rang."
+          ]
+        },
+        "vocab": {
+          "w": "bliss",
+          "type": "noun",
+          "def": "A feeling of great happiness and joy.",
+          "simple": "Bliss means feeling so happy you could float!",
+          "examples": ["pure bliss", "a moment of bliss", "bliss on a sunny day"],
+          "similar": ["joy", "delight", "happiness"],
+          "antonyms": ["sadness", "misery"],
+          "nonex": ["It does NOT mean being silly.", "It does NOT mean being calm."],
+          "example": "Sitting by the pond on a warm day was pure bliss.",
+          "starter": "I feel bliss when _______ ...",
+          "why": "Bliss is a beautiful word to describe the happiest moments!"
+        },
+        "ufliLesson": 44,
+        "ufliSkill": "FLSZ Rule (ff, ll, ss, zz)",
+        "ufliSection": "Ending Patterns",
+        "phonicsWords": ["fluff", "dress", "bell", "buzz", "miss", "doll"],
+        "heartWords": ["the", "was", "and"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "jill herd the buz and ran across the grass to ring the bell",
+        "corr": [
+          {"t": "capitalization", "w": "jill", "r": "Jill", "e": "A person's name must be capitalized."},
+          {"t": "spelling", "w": "herd", "r": "heard", "e": "Heard is spelled h-e-a-r-d, not h-e-r-d."},
+          {"t": "spelling", "w": "buz", "r": "buzz", "e": "Buzz has two z's at the end — FLSZ rule!"},
+          {"t": "grammar", "w": "across", "r": "across", "e": "Across is used correctly — nice!"},
+          {"t": "punctuation", "w": "bell", "r": "bell.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "Jill heard the buzz and ran across the grass to ring the bell.",
+        "pos": [
+          {"w": "Jill", "t": "N", "q": "Find the proper noun that names a person."},
+          {"w": "heard", "t": "V", "q": "Find the verb that means listened to."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'buzz.'"},
+          {"w": "buzz", "t": "N", "q": "Find the noun for the sound a bee makes."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction joining two actions."},
+          {"w": "ran", "t": "V", "q": "Find the verb that means moved fast."},
+          {"w": "across", "t": "PREP", "q": "Find the preposition that tells direction."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'grass.'"},
+          {"w": "grass", "t": "N", "q": "Find the noun for the green plants on the ground."},
+          {"w": "to", "t": "PREP", "q": "Find the preposition before 'ring.'"},
+          {"w": "ring", "t": "V", "q": "Find the verb that means to make a bell sound."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'bell.'"},
+          {"w": "bell", "t": "N", "q": "Find the noun for a thing that rings."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'bell' with a different FLSZ word.",
+          "word": "bell",
+          "examples": [
+            "Jill heard the buzz and ran across the grass to ring the <span class='changed'>gong</span>.",
+            "Jill heard the buzz and ran across the grass to find the <span class='changed'>doll</span>."
+          ]
+        },
+        "vocab": {
+          "w": "fuss",
+          "type": "noun",
+          "def": "Unnecessary worry or excitement about something small.",
+          "simple": "Fuss means making a big deal about something that is not a big deal!",
+          "examples": ["make a fuss", "what a fuss", "no fuss"],
+          "similar": ["bother", "commotion"],
+          "antonyms": ["calm", "peace"],
+          "nonex": ["It does NOT mean being sad.", "It does NOT mean being angry."],
+          "example": "Do not make a fuss about a little bit of mud!",
+          "starter": "I make a fuss when _______ ...",
+          "why": "Fuss is a fun word to describe when someone worries too much about something little!"
+        },
+        "ufliLesson": 44,
+        "ufliSkill": "FLSZ Rule (ff, ll, ss, zz)",
+        "ufliSection": "Ending Patterns",
+        "phonicsWords": ["fluff", "dress", "bell", "buzz", "miss", "doll"],
+        "heartWords": ["the", "and", "to"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 45,
+    "sentences": [
+      {
+        "orig": "the chik swam in the fresh pond by the shak",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "chik", "r": "chick", "e": "Chick ends with 'ck' — remember the -ck rule!"},
+          {"t": "grammar", "w": "swam", "r": "splashed", "e": "Use 'splashed' to describe how the chick played in the water."},
+          {"t": "spelling", "w": "shak", "r": "shack", "e": "Shack ends with 'ck' — remember the -ck rule!"},
+          {"t": "punctuation", "w": "shak", "r": "shack.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The chick splashed in the fresh pond by the shack.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "chick", "t": "N", "q": "Find the noun for a baby bird."},
+          {"w": "splashed", "t": "V", "q": "Find the verb that tells how the chick played."},
+          {"w": "in", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'fresh.'"},
+          {"w": "fresh", "t": "ADJ", "q": "Find the adjective that describes the pond."},
+          {"w": "pond", "t": "N", "q": "Find the noun for a body of water."},
+          {"w": "by", "t": "PREP", "q": "Find the preposition that tells location."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'shack.'"},
+          {"w": "shack", "t": "N", "q": "Find the noun for a small building."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'chick' with a different animal.",
+          "word": "chick",
+          "examples": [
+            "The <span class='changed'>duck</span> splashed in the fresh pond by the shack.",
+            "The <span class='changed'>frog</span> splashed in the fresh pond by the shack."
+          ]
+        },
+        "vocab": {
+          "w": "splash",
+          "type": "verb",
+          "def": "To make water or liquid fly through the air by hitting or moving in it.",
+          "simple": "Splash means to make water fly around when you jump or move in it!",
+          "examples": ["splash in the pool", "a big splash", "splash water"],
+          "similar": ["spray", "sprinkle"],
+          "antonyms": [],
+          "nonex": ["It does NOT mean to pour.", "It does NOT mean to drip."],
+          "example": "The kids love to splash in the puddles after the rain.",
+          "starter": "I like to splash when _______ ...",
+          "why": "Splash is a fun sound word that helps you describe playing in water!"
+        },
+        "ufliLesson": 45,
+        "ufliSkill": "Review (digraphs + ending patterns)",
+        "ufliSection": "Ending Patterns",
+        "phonicsWords": ["chick", "shack", "fresh", "think", "bell", "ring"],
+        "heartWords": ["the", "by"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "when the strong wind blew the shell fell off the rock and hit the dock with a thud",
+        "corr": [
+          {"t": "capitalization", "w": "when", "r": "When", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "blew", "r": "blew", "e": "Blew is spelled correctly — nice!"},
+          {"t": "grammar", "w": "hit", "r": "struck", "e": "Use 'struck' for a more precise word."},
+          {"t": "spelling", "w": "thud", "r": "thud", "e": "Thud is spelled correctly with 'th' — good!"},
+          {"t": "punctuation", "w": "thud", "r": "thud.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "When the strong wind blew the shell fell off the rock and struck the dock with a thud.",
+        "pos": [
+          {"w": "When", "t": "ADV", "q": "Find the adverb that tells about time."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'strong.'"},
+          {"w": "strong", "t": "ADJ", "q": "Find the adjective that describes the wind."},
+          {"w": "wind", "t": "N", "q": "Find the noun for moving air."},
+          {"w": "blew", "t": "V", "q": "Find the verb that tells what the wind did."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'shell.'"},
+          {"w": "shell", "t": "N", "q": "Find the noun for a hard covering."},
+          {"w": "fell", "t": "V", "q": "Find the verb that means dropped down."},
+          {"w": "off", "t": "PREP", "q": "Find the preposition meaning away from."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'rock.'"},
+          {"w": "rock", "t": "N", "q": "Find the noun for a hard, heavy object."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction joining two actions."},
+          {"w": "struck", "t": "V", "q": "Find the verb that means hit."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'dock.'"},
+          {"w": "dock", "t": "N", "q": "Find the noun for a platform by water."},
+          {"w": "with", "t": "PREP", "q": "Find the preposition that tells how."},
+          {"w": "a", "t": "ART", "q": "Find the article before 'thud.'"},
+          {"w": "thud", "t": "N", "q": "Find the noun for a heavy sound."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'shell' with a different thing that could fall.",
+          "word": "shell",
+          "examples": [
+            "When the strong wind blew the <span class='changed'>brick</span> fell off the rock and struck the dock with a thud.",
+            "When the strong wind blew the <span class='changed'>stick</span> fell off the rock and struck the dock with a thud."
+          ]
+        },
+        "vocab": {
+          "w": "gust",
+          "type": "noun",
+          "def": "A sudden, strong rush of wind.",
+          "simple": "A gust is when wind blows really hard all of a sudden!",
+          "examples": ["a gust of wind", "a strong gust", "a cold gust"],
+          "similar": ["blast", "burst", "breeze"],
+          "antonyms": ["calm", "stillness"],
+          "nonex": ["It does NOT mean a gentle breeze.", "It does NOT mean rain."],
+          "example": "A gust of wind blew the hat off his head.",
+          "starter": "The gust was so strong that _______ ...",
+          "why": "Gust is a great word for describing windy weather!"
+        },
+        "ufliLesson": 45,
+        "ufliSkill": "Review (digraphs + ending patterns)",
+        "ufliSection": "Ending Patterns",
+        "phonicsWords": ["chick", "shack", "fresh", "think", "bell", "ring"],
+        "heartWords": ["the", "a", "and", "with", "off"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 46,
+    "sentences": [
+      {
+        "orig": "the bal hit the wall and then fell on the dol",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "bal", "r": "ball", "e": "Ball has two l's — remember the -all pattern!"},
+          {"t": "grammar", "w": "hit", "r": "hit", "e": "Hit is correct for past tense — nice!"},
+          {"t": "spelling", "w": "dol", "r": "doll", "e": "Doll has two l's — remember the -oll pattern!"},
+          {"t": "punctuation", "w": "dol", "r": "doll.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The ball hit the wall and then fell on the doll.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "ball", "t": "N", "q": "Find the noun for a round toy."},
+          {"w": "hit", "t": "V", "q": "Find the verb that tells the action."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'wall.'"},
+          {"w": "wall", "t": "N", "q": "Find the noun for the side of a room."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction joining two events."},
+          {"w": "then", "t": "ADV", "q": "Find the adverb that tells when."},
+          {"w": "fell", "t": "V", "q": "Find the verb that means dropped down."},
+          {"w": "on", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'doll.'"},
+          {"w": "doll", "t": "N", "q": "Find the noun for a toy that looks like a person."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'ball' with a different -all word.",
+          "word": "ball",
+          "examples": [
+            "The <span class='changed'>hall</span> hit the wall and then fell on the doll.",
+            "The <span class='changed'>call</span> hit the wall and then fell on the doll."
+          ]
+        },
+        "vocab": {
+          "w": "stall",
+          "type": "noun",
+          "def": "A small section or booth, often at a market or in a stable.",
+          "simple": "A stall is a small space where you can sell things or keep an animal!",
+          "examples": ["a market stall", "a horse stall", "a food stall"],
+          "similar": ["booth", "stand", "pen"],
+          "antonyms": [],
+          "nonex": ["It does NOT mean a whole store.", "It does NOT mean a stage."],
+          "example": "We bought fresh fruit from a stall at the market.",
+          "starter": "At my stall, I would sell _______ ...",
+          "why": "Stall is a useful word for describing places at markets and fairs!"
+        },
+        "ufliLesson": 46,
+        "ufliSkill": "-all, -oll",
+        "ufliSection": "Ending Patterns",
+        "phonicsWords": ["ball", "wall", "tall", "fall", "doll", "roll"],
+        "heartWords": ["the", "and"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "the tall man put the small dol on a shelf by the wall in the hall",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "dol", "r": "doll", "e": "Doll has two l's — the -oll pattern!"},
+          {"t": "grammar", "w": "put", "r": "set", "e": "Use 'set' to describe placing something carefully."},
+          {"t": "spelling", "w": "small", "r": "small", "e": "Small is spelled correctly with -all — nice!"},
+          {"t": "punctuation", "w": "hall", "r": "hall.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The tall man set the small doll on a shelf by the wall in the hall.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "tall", "t": "ADJ", "q": "Find the adjective that describes the man."},
+          {"w": "man", "t": "N", "q": "Find the noun for an adult male."},
+          {"w": "set", "t": "V", "q": "Find the verb that means placed."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'small.'"},
+          {"w": "small", "t": "ADJ", "q": "Find the adjective that describes the doll."},
+          {"w": "doll", "t": "N", "q": "Find the noun for a toy."},
+          {"w": "on", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "a", "t": "ART", "q": "Find the article before 'shelf.'"},
+          {"w": "shelf", "t": "N", "q": "Find the noun for a flat board on a wall."},
+          {"w": "by", "t": "PREP", "q": "Find the preposition meaning next to."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'wall.'"},
+          {"w": "wall", "t": "N", "q": "Find the noun for the side of a room."},
+          {"w": "in", "t": "PREP", "q": "Find the preposition that tells location."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'hall.'"},
+          {"w": "hall", "t": "N", "q": "Find the noun for a long passageway."}
+        ],
+        "manip": {
+          "task": "Replace the adjective 'tall' with a different describing word.",
+          "word": "tall",
+          "examples": [
+            "The <span class='changed'>strong</span> man set the small doll on a shelf by the wall in the hall.",
+            "The <span class='changed'>thin</span> man set the small doll on a shelf by the wall in the hall."
+          ]
+        },
+        "vocab": {
+          "w": "scroll",
+          "type": "noun",
+          "def": "A roll of paper or parchment with writing on it.",
+          "simple": "A scroll is a long piece of paper that you roll up!",
+          "examples": ["an old scroll", "a treasure scroll", "roll the scroll"],
+          "similar": ["roll", "document"],
+          "antonyms": [],
+          "nonex": ["It does NOT mean a regular book.", "It does NOT mean a poster."],
+          "example": "The king read from a long scroll.",
+          "starter": "On my scroll, I would write _______ ...",
+          "why": "Scroll is a fun word that makes you think of old stories and adventures!"
+        },
+        "ufliLesson": 46,
+        "ufliSkill": "-all, -oll",
+        "ufliSection": "Ending Patterns",
+        "phonicsWords": ["ball", "wall", "tall", "fall", "doll", "roll"],
+        "heartWords": ["the", "a", "by"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 47,
+    "sentences": [
+      {
+        "orig": "the duck quacked and the chik ran to the bak of the pen",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "chik", "r": "chick", "e": "Chick ends with 'ck.'"},
+          {"t": "grammar", "w": "ran", "r": "dashed", "e": "Use 'dashed' for a more vivid action."},
+          {"t": "spelling", "w": "bak", "r": "back", "e": "Back ends with 'ck.'"},
+          {"t": "punctuation", "w": "pen", "r": "pen.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The duck quacked and the chick dashed to the back of the pen.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "duck", "t": "N", "q": "Find the noun for a bird that swims."},
+          {"w": "quacked", "t": "V", "q": "Find the verb for the sound a duck makes."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction joining two events."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'chick.'"},
+          {"w": "chick", "t": "N", "q": "Find the noun for a baby bird."},
+          {"w": "dashed", "t": "V", "q": "Find the verb that means ran fast."},
+          {"w": "to", "t": "PREP", "q": "Find the preposition that tells direction."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'back.'"},
+          {"w": "back", "t": "N", "q": "Find the noun for the rear part."},
+          {"w": "of", "t": "PREP", "q": "Find the preposition connecting back and pen."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'pen.'"},
+          {"w": "pen", "t": "N", "q": "Find the noun for an animal enclosure."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'duck' with a different farm animal.",
+          "word": "duck",
+          "examples": [
+            "The <span class='changed'>pig</span> quacked and the chick dashed to the back of the pen.",
+            "The <span class='changed'>hen</span> quacked and the chick dashed to the back of the pen."
+          ]
+        },
+        "vocab": {
+          "w": "dash",
+          "type": "verb",
+          "def": "To run somewhere very quickly.",
+          "simple": "Dash means to run really fast!",
+          "examples": ["dash to school", "a quick dash", "dash across the yard"],
+          "similar": ["sprint", "rush", "bolt"],
+          "antonyms": ["stroll", "walk"],
+          "nonex": ["It does NOT mean to skip.", "It does NOT mean to crawl."],
+          "example": "We had to dash to class when the bell rang.",
+          "starter": "I would dash if _______ ...",
+          "why": "Dash is a great action word that makes stories exciting!"
+        },
+        "ufliLesson": 47,
+        "ufliSkill": "Review",
+        "ufliSection": "Ending Patterns",
+        "phonicsWords": ["duck", "chick", "back", "bell", "ring", "ball"],
+        "heartWords": ["the", "and", "to", "of"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "the tall king sat on a thik mat and rang a small bell when the ship came to the dock",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "thik", "r": "thick", "e": "Thick ends with 'ck.'"},
+          {"t": "grammar", "w": "came", "r": "sailed", "e": "Use 'sailed' to describe how a ship moves."},
+          {"t": "spelling", "w": "small", "r": "small", "e": "Small is spelled correctly — well done!"},
+          {"t": "punctuation", "w": "dock", "r": "dock.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The tall king sat on a thick mat and rang a small bell when the ship sailed to the dock.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "tall", "t": "ADJ", "q": "Find the adjective that describes the king."},
+          {"w": "king", "t": "N", "q": "Find the noun for a ruler."},
+          {"w": "sat", "t": "V", "q": "Find the verb that tells what the king did."},
+          {"w": "on", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "a", "t": "ART", "q": "Find the article before 'thick.'"},
+          {"w": "thick", "t": "ADJ", "q": "Find the adjective that describes the mat."},
+          {"w": "mat", "t": "N", "q": "Find the noun for something you sit on."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction joining two actions."},
+          {"w": "rang", "t": "V", "q": "Find the verb for making a bell sound."},
+          {"w": "a", "t": "ART", "q": "Find the article before 'small.'"},
+          {"w": "small", "t": "ADJ", "q": "Find the adjective describing the bell."},
+          {"w": "bell", "t": "N", "q": "Find the noun that makes a ringing sound."},
+          {"w": "when", "t": "ADV", "q": "Find the adverb that tells about time."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'ship.'"},
+          {"w": "ship", "t": "N", "q": "Find the noun for a large boat."},
+          {"w": "sailed", "t": "V", "q": "Find the verb that tells how the ship moved."},
+          {"w": "to", "t": "PREP", "q": "Find the preposition that tells direction."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'dock.'"},
+          {"w": "dock", "t": "N", "q": "Find the noun for a platform by water."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'king' with a different person.",
+          "word": "king",
+          "examples": [
+            "The tall <span class='changed'>man</span> sat on a thick mat and rang a small bell when the ship sailed to the dock.",
+            "The tall <span class='changed'>child</span> sat on a thick mat and rang a small bell when the ship sailed to the dock."
+          ]
+        },
+        "vocab": {
+          "w": "signal",
+          "type": "noun",
+          "def": "A sound, action, or object that gives a message or warning.",
+          "simple": "A signal is something that tells people what to do, like a bell or a flag!",
+          "examples": ["a traffic signal", "a hand signal", "a bell signal"],
+          "similar": ["sign", "alert", "cue"],
+          "antonyms": [],
+          "nonex": ["It does NOT mean a shout.", "It does NOT mean a letter."],
+          "example": "The bell was the signal to come inside.",
+          "starter": "A signal I know is _______ ...",
+          "why": "Signal is useful because signals help us know what to do!"
+        },
+        "ufliLesson": 47,
+        "ufliSkill": "Review",
+        "ufliSection": "Ending Patterns",
+        "phonicsWords": ["duck", "chick", "back", "bell", "ring", "ball"],
+        "heartWords": ["the", "a", "and", "to", "when"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 48,
+    "sentences": [
+      {
+        "orig": "the blak bug slid on the flat glass and fell",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "blak", "r": "black", "e": "Black ends with 'ck.'"},
+          {"t": "grammar", "w": "slid", "r": "slipped", "e": "Use 'slipped' to describe sliding accidentally."},
+          {"t": "spelling", "w": "glass", "r": "glass", "e": "Glass is spelled correctly with 'ss' — good!"},
+          {"t": "punctuation", "w": "fell", "r": "fell.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The black bug slipped on the flat glass and fell.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "black", "t": "ADJ", "q": "Find the adjective that tells the color."},
+          {"w": "bug", "t": "N", "q": "Find the noun for a small insect."},
+          {"w": "slipped", "t": "V", "q": "Find the verb that means slid by accident."},
+          {"w": "on", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'flat.'"},
+          {"w": "flat", "t": "ADJ", "q": "Find the adjective that describes the glass."},
+          {"w": "glass", "t": "N", "q": "Find the noun for a clear, hard material."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction joining two events."},
+          {"w": "fell", "t": "V", "q": "Find the verb that means dropped down."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'bug' with a different small animal.",
+          "word": "bug",
+          "examples": [
+            "The black <span class='changed'>slug</span> slipped on the flat glass and fell.",
+            "The black <span class='changed'>frog</span> slipped on the flat glass and fell."
+          ]
+        },
+        "vocab": {
+          "w": "gleam",
+          "type": "noun",
+          "def": "A soft, gentle light or shine.",
+          "simple": "A gleam is a soft, pretty light, like sunlight on glass!",
+          "examples": ["a gleam of light", "a gleam in her eye", "a golden gleam"],
+          "similar": ["glow", "shine", "glint"],
+          "antonyms": ["darkness", "shadow"],
+          "nonex": ["It does NOT mean a flash.", "It does NOT mean a flame."],
+          "example": "There was a gleam of sunlight on the glass.",
+          "starter": "I saw a gleam of light when _______ ...",
+          "why": "Gleam is a beautiful word for describing soft, pretty light!"
+        },
+        "ufliLesson": 48,
+        "ufliSkill": "Initial blends with l (bl, cl, fl, gl, pl, sl)",
+        "ufliSection": "Blends & Review",
+        "phonicsWords": ["black", "clap", "flat", "glad", "plan", "slip"],
+        "heartWords": ["the", "and"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "the class clapped when the slim girl did a flip on the flat grass",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "clapped", "r": "clapped", "e": "Clapped is spelled correctly — nice!"},
+          {"t": "grammar", "w": "did", "r": "did", "e": "Did is the correct past tense — well done!"},
+          {"t": "spelling", "w": "slim", "r": "slim", "e": "Slim is spelled correctly with 'sl' blend — good!"},
+          {"t": "punctuation", "w": "grass", "r": "grass.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The class clapped when the slim girl did a flip on the flat grass.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "class", "t": "N", "q": "Find the noun for a group of students."},
+          {"w": "clapped", "t": "V", "q": "Find the verb for hitting hands together."},
+          {"w": "when", "t": "ADV", "q": "Find the adverb that tells about time."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'slim.'"},
+          {"w": "slim", "t": "ADJ", "q": "Find the adjective that describes the girl."},
+          {"w": "girl", "t": "N", "q": "Find the noun for a young female."},
+          {"w": "did", "t": "V", "q": "Find the helping verb."},
+          {"w": "a", "t": "ART", "q": "Find the article before 'flip.'"},
+          {"w": "flip", "t": "N", "q": "Find the noun for a tumbling move."},
+          {"w": "on", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'flat.'"},
+          {"w": "flat", "t": "ADJ", "q": "Find the adjective that describes the grass."},
+          {"w": "grass", "t": "N", "q": "Find the noun for green ground cover."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'flip' with a different action.",
+          "word": "flip",
+          "examples": [
+            "The class clapped when the slim girl did a <span class='changed'>split</span> on the flat grass.",
+            "The class clapped when the slim girl did a <span class='changed'>skip</span> on the flat grass."
+          ]
+        },
+        "vocab": {
+          "w": "clever",
+          "type": "adjective",
+          "def": "Quick to understand and learn new things; smart.",
+          "simple": "Clever means being really smart and good at figuring things out!",
+          "examples": ["a clever plan", "a clever trick", "a clever kid"],
+          "similar": ["smart", "bright", "quick"],
+          "antonyms": ["foolish", "slow"],
+          "nonex": ["It does NOT mean sneaky.", "It does NOT mean silly."],
+          "example": "The clever girl solved the puzzle in no time.",
+          "starter": "A clever thing I did was _______ ...",
+          "why": "Clever is a great word for describing someone who thinks fast!"
+        },
+        "ufliLesson": 48,
+        "ufliSkill": "Initial blends with l (bl, cl, fl, gl, pl, sl)",
+        "ufliSection": "Blends & Review",
+        "phonicsWords": ["black", "clap", "flat", "glad", "plan", "slip"],
+        "heartWords": ["the", "a", "when"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 49,
+    "sentences": [
+      {
+        "orig": "the frog grabd a fresh bug from the brik wall",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "grabd", "r": "grabbed", "e": "Grabbed has two b's and ends with -ed."},
+          {"t": "grammar", "w": "from", "r": "off", "e": "Use 'off' to show the bug was on the wall."},
+          {"t": "spelling", "w": "brik", "r": "brick", "e": "Brick ends with 'ck.'"},
+          {"t": "punctuation", "w": "wall", "r": "wall.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The frog grabbed a fresh bug off the brick wall.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "frog", "t": "N", "q": "Find the noun for a green jumping animal."},
+          {"w": "grabbed", "t": "V", "q": "Find the verb that means took quickly."},
+          {"w": "a", "t": "ART", "q": "Find the article before 'fresh.'"},
+          {"w": "fresh", "t": "ADJ", "q": "Find the adjective that describes the bug."},
+          {"w": "bug", "t": "N", "q": "Find the noun for a small insect."},
+          {"w": "off", "t": "PREP", "q": "Find the preposition meaning away from."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'brick.'"},
+          {"w": "brick", "t": "ADJ", "q": "Find the adjective describing the wall material."},
+          {"w": "wall", "t": "N", "q": "Find the noun for the side of a building."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'frog' with a different animal.",
+          "word": "frog",
+          "examples": [
+            "The <span class='changed'>crab</span> grabbed a fresh bug off the brick wall.",
+            "The <span class='changed'>crow</span> grabbed a fresh bug off the brick wall."
+          ]
+        },
+        "vocab": {
+          "w": "grip",
+          "type": "verb",
+          "def": "To hold something firmly and tightly.",
+          "simple": "Grip means to hold on tight and not let go!",
+          "examples": ["grip the rope", "a strong grip", "grip the handle"],
+          "similar": ["hold", "clutch", "grasp"],
+          "antonyms": ["release", "drop"],
+          "nonex": ["It does NOT mean to tap.", "It does NOT mean to push."],
+          "example": "Grip the branch tightly so you do not fall.",
+          "starter": "I had to grip _______ really hard when ...",
+          "why": "Grip is a strong action word that helps you describe holding things!"
+        },
+        "ufliLesson": 49,
+        "ufliSkill": "Initial blends with r (br, cr, dr, fr, gr, pr, tr)",
+        "ufliSection": "Blends & Review",
+        "phonicsWords": ["brick", "crab", "drum", "fresh", "grab", "trip"],
+        "heartWords": ["the", "a"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "the brave prince ran across the bridge and tripped on a branch from a big tree",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "tripped", "r": "tripped", "e": "Tripped is spelled correctly — nice!"},
+          {"t": "grammar", "w": "ran", "r": "dashed", "e": "Use 'dashed' for a more vivid action."},
+          {"t": "spelling", "w": "bridge", "r": "bridge", "e": "Bridge is spelled correctly — well done!"},
+          {"t": "punctuation", "w": "tree", "r": "tree.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The brave prince dashed across the bridge and tripped on a branch from a big tree.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "brave", "t": "ADJ", "q": "Find the adjective that describes the prince."},
+          {"w": "prince", "t": "N", "q": "Find the noun for a king's son."},
+          {"w": "dashed", "t": "V", "q": "Find the verb that means ran fast."},
+          {"w": "across", "t": "PREP", "q": "Find the preposition meaning from one side to the other."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'bridge.'"},
+          {"w": "bridge", "t": "N", "q": "Find the noun for a structure over water."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction joining two events."},
+          {"w": "tripped", "t": "V", "q": "Find the verb that means stumbled."},
+          {"w": "on", "t": "PREP", "q": "Find the preposition that tells what he tripped on."},
+          {"w": "a", "t": "ART", "q": "Find the article before 'branch.'"},
+          {"w": "branch", "t": "N", "q": "Find the noun for a part of a tree."},
+          {"w": "from", "t": "PREP", "q": "Find the preposition that tells the source."},
+          {"w": "a", "t": "ART", "q": "Find the article before 'big.'"},
+          {"w": "big", "t": "ADJ", "q": "Find the adjective that describes the tree."},
+          {"w": "tree", "t": "N", "q": "Find the noun for a large plant."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'prince' with a different person.",
+          "word": "prince",
+          "examples": [
+            "The brave <span class='changed'>girl</span> dashed across the bridge and tripped on a branch from a big tree.",
+            "The brave <span class='changed'>troll</span> dashed across the bridge and tripped on a branch from a big tree."
+          ]
+        },
+        "vocab": {
+          "w": "grand",
+          "type": "adjective",
+          "def": "Very large, impressive, or wonderful.",
+          "simple": "Grand means something is really big and amazing!",
+          "examples": ["a grand castle", "a grand plan", "a grand prize"],
+          "similar": ["great", "magnificent", "splendid"],
+          "antonyms": ["small", "plain"],
+          "nonex": ["It does NOT mean old.", "It does NOT mean expensive."],
+          "example": "The prince lived in a grand castle on the hill.",
+          "starter": "The most grand thing I have seen is _______ ...",
+          "why": "Grand is a wonderful word for describing things that are big and impressive!"
+        },
+        "ufliLesson": 49,
+        "ufliSkill": "Initial blends with r (br, cr, dr, fr, gr, pr, tr)",
+        "ufliSection": "Blends & Review",
+        "phonicsWords": ["brick", "crab", "drum", "fresh", "grab", "trip"],
+        "heartWords": ["the", "a", "and", "on", "from"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 50,
+    "sentences": [
+      {
+        "orig": "the smal snail slid on the wet step and got stuk",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "smal", "r": "small", "e": "Small has two l's — the -all pattern!"},
+          {"t": "grammar", "w": "slid", "r": "skidded", "e": "Use 'skidded' to mean slid out of control."},
+          {"t": "spelling", "w": "stuk", "r": "stuck", "e": "Stuck ends with 'ck.'"},
+          {"t": "punctuation", "w": "stuk", "r": "stuck.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The small snail skidded on the wet step and got stuck.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "small", "t": "ADJ", "q": "Find the adjective that describes the snail."},
+          {"w": "snail", "t": "N", "q": "Find the noun for a slow animal with a shell."},
+          {"w": "skidded", "t": "V", "q": "Find the verb that means slid out of control."},
+          {"w": "on", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'wet.'"},
+          {"w": "wet", "t": "ADJ", "q": "Find the adjective that describes the step."},
+          {"w": "step", "t": "N", "q": "Find the noun for a stair."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction joining two events."},
+          {"w": "got", "t": "V", "q": "Find the verb before 'stuck.'"},
+          {"w": "stuck", "t": "ADJ", "q": "Find the word that means unable to move."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'snail' with a different small animal.",
+          "word": "snail",
+          "examples": [
+            "The small <span class='changed'>slug</span> skidded on the wet step and got stuck.",
+            "The small <span class='changed'>spider</span> skidded on the wet step and got stuck."
+          ]
+        },
+        "vocab": {
+          "w": "stumble",
+          "type": "verb",
+          "def": "To trip or almost fall while walking or running.",
+          "simple": "Stumble means to trip over something and almost fall down!",
+          "examples": ["stumble on a rock", "stumble in the dark", "a small stumble"],
+          "similar": ["trip", "stagger", "slip"],
+          "antonyms": ["stride", "glide"],
+          "nonex": ["It does NOT mean to fall completely.", "It does NOT mean to jump."],
+          "example": "Be careful not to stumble on the steps when they are wet.",
+          "starter": "I stumbled when _______ ...",
+          "why": "Stumble is a useful word for describing those clumsy moments!"
+        },
+        "ufliLesson": 50,
+        "ufliSkill": "Initial blends with s (sc, sk, sm, sn, sp, st, sw)",
+        "ufliSection": "Blends & Review",
+        "phonicsWords": ["scan", "skip", "smell", "snap", "spot", "step", "swim"],
+        "heartWords": ["the", "and"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "the swift skunk spotted a snack and sped across the stone path to snap it up",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "spotted", "r": "spotted", "e": "Spotted is spelled correctly — nice!"},
+          {"t": "grammar", "w": "sped", "r": "sprinted", "e": "Use 'sprinted' for a more vivid action."},
+          {"t": "spelling", "w": "snap", "r": "snap", "e": "Snap is spelled correctly with the sn-blend — good!"},
+          {"t": "punctuation", "w": "up", "r": "up.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The swift skunk spotted a snack and sprinted across the stone path to snap it up.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "swift", "t": "ADJ", "q": "Find the adjective meaning fast."},
+          {"w": "skunk", "t": "N", "q": "Find the noun for a smelly animal."},
+          {"w": "spotted", "t": "V", "q": "Find the verb that means saw."},
+          {"w": "a", "t": "ART", "q": "Find the article before 'snack.'"},
+          {"w": "snack", "t": "N", "q": "Find the noun for a small bit of food."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction joining two events."},
+          {"w": "sprinted", "t": "V", "q": "Find the verb that means ran fast."},
+          {"w": "across", "t": "PREP", "q": "Find the preposition meaning from one side to the other."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'stone.'"},
+          {"w": "stone", "t": "ADJ", "q": "Find the adjective describing the path material."},
+          {"w": "path", "t": "N", "q": "Find the noun for a trail."},
+          {"w": "to", "t": "PREP", "q": "Find the preposition before 'snap.'"},
+          {"w": "snap", "t": "V", "q": "Find the verb meaning to grab quickly."},
+          {"w": "it", "t": "PRO", "q": "Find the pronoun that means the snack."},
+          {"w": "up", "t": "ADV", "q": "Find the adverb that goes with snap."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'skunk' with a different animal.",
+          "word": "skunk",
+          "examples": [
+            "The swift <span class='changed'>snake</span> spotted a snack and sprinted across the stone path to snap it up.",
+            "The swift <span class='changed'>squirrel</span> spotted a snack and sprinted across the stone path to snap it up."
+          ]
+        },
+        "vocab": {
+          "w": "swift",
+          "type": "adjective",
+          "def": "Moving or able to move very quickly.",
+          "simple": "Swift means something moves really, really fast!",
+          "examples": ["a swift runner", "a swift bird", "a swift river"],
+          "similar": ["fast", "quick", "speedy"],
+          "antonyms": ["slow", "sluggish"],
+          "nonex": ["It does NOT mean strong.", "It does NOT mean smooth."],
+          "example": "The swift rabbit ran across the grass before we could see it.",
+          "starter": "The most swift animal I know is _______ ...",
+          "why": "Swift is a great word for describing things that move fast!"
+        },
+        "ufliLesson": 50,
+        "ufliSkill": "Initial blends with s (sc, sk, sm, sn, sp, st, sw)",
+        "ufliSection": "Blends & Review",
+        "phonicsWords": ["scan", "skip", "smell", "snap", "spot", "step", "swim"],
+        "heartWords": ["the", "a", "and", "to", "it"],
+        "sentenceType": "application"
+      }
+    ]
+  }
+]

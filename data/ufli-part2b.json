@@ -1,0 +1,1001 @@
+[
+  {
+    "day": 51,
+    "sentences": [
+      {
+        "orig": "the ant went to the pond and fond a big sand hill",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "fond", "r": "found", "e": "Found is spelled with 'ou' — it is a tricky word!"},
+          {"t": "grammar", "w": "went", "r": "ran", "e": "Use 'ran' to show the ant moved fast."},
+          {"t": "spelling", "w": "sand", "r": "sand", "e": "Sand is spelled correctly with the -nd blend — great job!"},
+          {"t": "punctuation", "w": "hill", "r": "hill.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The ant ran to the pond and found a big sand hill.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "ant", "t": "N", "q": "Find the noun for a tiny bug."},
+          {"w": "ran", "t": "V", "q": "Find the verb that tells what the ant did."},
+          {"w": "to", "t": "PREP", "q": "Find the preposition that tells direction."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'pond.'"},
+          {"w": "pond", "t": "N", "q": "Find the noun for a small body of water."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction that joins two parts."},
+          {"w": "found", "t": "V", "q": "Find the verb that means discovered."},
+          {"w": "a", "t": "ART", "q": "Find the article before 'big.'"},
+          {"w": "big", "t": "ADJ", "q": "Find the adjective that describes the hill."},
+          {"w": "sand", "t": "N", "q": "Find the noun that tells what kind of hill."},
+          {"w": "hill", "t": "N", "q": "Find the noun for a raised mound."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'pond' with a different -nd word.",
+          "word": "pond",
+          "examples": [
+            "The ant ran to the <span class='changed'>land</span> and found a big sand hill.",
+            "The ant ran to the <span class='changed'>band</span> and found a big sand hill."
+          ]
+        },
+        "vocab": {
+          "w": "pond",
+          "type": "noun",
+          "def": "A small body of still water, usually smaller than a lake.",
+          "simple": "A pond is a small pool of water where ducks and frogs live!",
+          "examples": ["a duck pond", "a fish pond", "a little pond"],
+          "similar": ["pool", "lake"],
+          "antonyms": ["desert"],
+          "nonex": ["It does NOT mean a river.", "It does NOT mean the ocean."],
+          "example": "The frog jumped into the pond with a big splash.",
+          "starter": "At the pond, I saw _______ ...",
+          "why": "Pond ends with the -nd blend and is a word you see in nature!"
+        },
+        "ufliLesson": 51,
+        "ufliSkill": "Final blends with n (-nd, -nt, -nk)",
+        "ufliSection": "Blends & Review",
+        "phonicsWords": ["sand", "hand", "bent", "tent", "pink", "sank"],
+        "heartWords": ["the", "a", "and", "to"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "i thik the pink tent is next to the big bank on the hill",
+        "corr": [
+          {"t": "capitalization", "w": "i", "r": "I", "e": "The pronoun 'I' is always capitalized."},
+          {"t": "spelling", "w": "thik", "r": "think", "e": "Think ends with the -nk blend, not just -k."},
+          {"t": "grammar", "w": "is", "r": "was", "e": "Use 'was' to tell about the past."},
+          {"t": "spelling", "w": "pink", "r": "pink", "e": "Pink is spelled correctly with the -nk blend — nice work!"},
+          {"t": "punctuation", "w": "hill", "r": "hill.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "I think the pink tent was next to the big bank on the hill.",
+        "pos": [
+          {"w": "I", "t": "PRO", "q": "Find the pronoun that means the speaker."},
+          {"w": "think", "t": "V", "q": "Find the verb that means to believe."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'pink.'"},
+          {"w": "pink", "t": "ADJ", "q": "Find the adjective that tells the color."},
+          {"w": "tent", "t": "N", "q": "Find the noun you camp in."},
+          {"w": "was", "t": "V", "q": "Find the verb that shows the past."},
+          {"w": "next", "t": "ADV", "q": "Find the adverb that tells position."},
+          {"w": "to", "t": "PREP", "q": "Find the preposition after 'next.'"},
+          {"w": "the", "t": "ART", "q": "Find the article before 'big.'"},
+          {"w": "big", "t": "ADJ", "q": "Find the adjective that describes the bank."},
+          {"w": "bank", "t": "N", "q": "Find the noun for a place that holds money."},
+          {"w": "on", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'hill.'"},
+          {"w": "hill", "t": "N", "q": "Find the noun for a raised mound."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'tent' with a different -nt word.",
+          "word": "tent",
+          "examples": [
+            "I think the pink <span class='changed'>plant</span> was next to the big bank on the hill.",
+            "I think the pink <span class='changed'>mint</span> was next to the big bank on the hill."
+          ]
+        },
+        "vocab": {
+          "w": "dent",
+          "type": "noun",
+          "def": "A hollow or depression in a surface, usually caused by pressure or a blow.",
+          "simple": "A dent is a bump pushed into something, like when you press on a can!",
+          "examples": ["a dent in the car", "a big dent", "a small dent"],
+          "similar": ["bump", "ding", "nick"],
+          "antonyms": ["bulge"],
+          "nonex": ["It does NOT mean a hole all the way through.", "It does NOT mean a crack."],
+          "example": "The ball left a dent in the soft sand.",
+          "starter": "I once saw a dent on _______ ...",
+          "why": "Dent ends with the -nt blend and helps you practice final n-blends!"
+        },
+        "ufliLesson": 51,
+        "ufliSkill": "Final blends with n (-nd, -nt, -nk)",
+        "ufliSection": "Blends & Review",
+        "phonicsWords": ["sand", "hand", "bent", "tent", "pink", "sank"],
+        "heartWords": ["the", "I", "to", "is", "on"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 52,
+    "sentences": [
+      {
+        "orig": "the child held a gold belt and felt very bold",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "gold", "r": "gold", "e": "Gold is spelled correctly with the -ld blend — great!"},
+          {"t": "grammar", "w": "held", "r": "held", "e": "Held is the correct past tense of hold — good job!"},
+          {"t": "spelling", "w": "belt", "r": "belt", "e": "Belt is spelled correctly with the -lt blend — well done!"},
+          {"t": "punctuation", "w": "bold", "r": "bold.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The child held a gold belt and felt very bold.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "child", "t": "N", "q": "Find the noun for a young person."},
+          {"w": "held", "t": "V", "q": "Find the verb that means carried."},
+          {"w": "a", "t": "ART", "q": "Find the article before 'gold.'"},
+          {"w": "gold", "t": "ADJ", "q": "Find the adjective that tells the color."},
+          {"w": "belt", "t": "N", "q": "Find the noun you wear around your waist."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction that joins two parts."},
+          {"w": "felt", "t": "V", "q": "Find the verb that tells an emotion."},
+          {"w": "very", "t": "ADV", "q": "Find the adverb that means a lot."},
+          {"w": "bold", "t": "ADJ", "q": "Find the adjective that means brave."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'belt' with a different -lt word.",
+          "word": "belt",
+          "examples": [
+            "The child held a gold <span class='changed'>quilt</span> and felt very bold.",
+            "The child held a gold <span class='changed'>malt</span> and felt very bold."
+          ]
+        },
+        "vocab": {
+          "w": "bold",
+          "type": "adjective",
+          "def": "Showing a willingness to take risks; confident and courageous.",
+          "simple": "Bold means you are brave and not afraid to try new things!",
+          "examples": ["a bold kid", "a bold step", "a bold plan"],
+          "similar": ["brave", "daring", "fearless"],
+          "antonyms": ["shy", "timid"],
+          "nonex": ["It does NOT mean loud.", "It does NOT mean mean."],
+          "example": "The bold child climbed to the top of the hill.",
+          "starter": "I felt bold when I _______ ...",
+          "why": "Bold ends with the -ld blend and describes someone who is brave!"
+        },
+        "ufliLesson": 52,
+        "ufliSkill": "Final blends with l (-ld, -lf, -lk, -lp, -lt)",
+        "ufliSection": "Blends & Review",
+        "phonicsWords": ["held", "gold", "self", "milk", "help", "melt"],
+        "heartWords": ["the", "a", "and", "very"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "she had to get help to melt the ice and get sum milk for the elf",
+        "corr": [
+          {"t": "capitalization", "w": "she", "r": "She", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "sum", "r": "some", "e": "Some is a tricky word — it is spelled s-o-m-e."},
+          {"t": "grammar", "w": "had to get", "r": "needed", "e": "Use 'needed' for a clearer sentence."},
+          {"t": "spelling", "w": "melt", "r": "melt", "e": "Melt is spelled correctly with the -lt blend — great!"},
+          {"t": "punctuation", "w": "elf", "r": "elf.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "She needed help to melt the ice and get some milk for the elf.",
+        "pos": [
+          {"w": "She", "t": "PRO", "q": "Find the pronoun that means a girl."},
+          {"w": "needed", "t": "V", "q": "Find the verb that means required."},
+          {"w": "help", "t": "N", "q": "Find the noun that means assistance."},
+          {"w": "to", "t": "PREP", "q": "Find the preposition before 'melt.'"},
+          {"w": "melt", "t": "V", "q": "Find the verb that means to turn from solid to liquid."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'ice.'"},
+          {"w": "ice", "t": "N", "q": "Find the noun for frozen water."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction joining two actions."},
+          {"w": "get", "t": "V", "q": "Find the verb that means to obtain."},
+          {"w": "some", "t": "ART", "q": "Find the word that tells an amount of milk."},
+          {"w": "milk", "t": "N", "q": "Find the noun for a white drink."},
+          {"w": "for", "t": "PREP", "q": "Find the preposition that tells who it is for."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'elf.'"},
+          {"w": "elf", "t": "N", "q": "Find the noun for a small magical creature."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'milk' with a different -lk word.",
+          "word": "milk",
+          "examples": [
+            "She needed help to melt the ice and get some <span class='changed'>silk</span> for the elf.",
+            "She needed help to melt the ice and get some <span class='changed'>elk</span> for the elf."
+          ]
+        },
+        "vocab": {
+          "w": "melt",
+          "type": "verb",
+          "def": "To change from a solid to a liquid by heating.",
+          "simple": "Melt means something solid turns into liquid, like ice turning to water!",
+          "examples": ["melt the ice", "melt the butter", "the snow will melt"],
+          "similar": ["thaw", "dissolve"],
+          "antonyms": ["freeze", "harden"],
+          "nonex": ["It does NOT mean to break.", "It does NOT mean to boil."],
+          "example": "The sun made the ice melt into a puddle.",
+          "starter": "When things melt, they _______ ...",
+          "why": "Melt ends with the -lt blend and describes something you see every day!"
+        },
+        "ufliLesson": 52,
+        "ufliSkill": "Final blends with l (-ld, -lf, -lk, -lp, -lt)",
+        "ufliSection": "Blends & Review",
+        "phonicsWords": ["held", "gold", "self", "milk", "help", "melt"],
+        "heartWords": ["she", "the", "to", "and", "some", "for"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 53,
+    "sentences": [
+      {
+        "orig": "he left the gift on the desk and askd his dad for help",
+        "corr": [
+          {"t": "capitalization", "w": "he", "r": "He", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "askd", "r": "asked", "e": "Asked needs an 'e' before the 'd' — a-s-k-e-d."},
+          {"t": "grammar", "w": "left", "r": "put", "e": "Use 'put' to show he placed the gift there."},
+          {"t": "spelling", "w": "desk", "r": "desk", "e": "Desk is spelled correctly with the -sk blend — good job!"},
+          {"t": "punctuation", "w": "help", "r": "help.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "He put the gift on the desk and asked his dad for help.",
+        "pos": [
+          {"w": "He", "t": "PRO", "q": "Find the pronoun that means a boy."},
+          {"w": "put", "t": "V", "q": "Find the verb that means placed."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'gift.'"},
+          {"w": "gift", "t": "N", "q": "Find the noun for a present."},
+          {"w": "on", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'desk.'"},
+          {"w": "desk", "t": "N", "q": "Find the noun for a table you work at."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction joining two actions."},
+          {"w": "asked", "t": "V", "q": "Find the verb that means requested."},
+          {"w": "his", "t": "POSS", "q": "Find the possessive word meaning belonging to him."},
+          {"w": "dad", "t": "N", "q": "Find the noun for a father."},
+          {"w": "for", "t": "PREP", "q": "Find the preposition that tells purpose."},
+          {"w": "help", "t": "N", "q": "Find the noun that means assistance."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'gift' with a different -ft word.",
+          "word": "gift",
+          "examples": [
+            "He put the <span class='changed'>raft</span> on the desk and asked his dad for help.",
+            "He put the <span class='changed'>loft</span> on the desk and asked his dad for help."
+          ]
+        },
+        "vocab": {
+          "w": "gift",
+          "type": "noun",
+          "def": "A thing given willingly to someone without payment; a present.",
+          "simple": "A gift is something nice you give to someone, like on their birthday!",
+          "examples": ["a birthday gift", "a small gift", "a gift for mom"],
+          "similar": ["present", "surprise"],
+          "antonyms": [],
+          "nonex": ["It does NOT mean something you buy for yourself.", "It does NOT mean a trick."],
+          "example": "She wrapped the gift in red paper.",
+          "starter": "The best gift I ever got was _______ ...",
+          "why": "Gift ends with the -ft blend and is a happy word about giving!"
+        },
+        "ufliLesson": 53,
+        "ufliSkill": "Final blends with s/t (-ft, -ct, -pt, -sk, -sp, -st)",
+        "ufliSection": "Blends & Review",
+        "phonicsWords": ["left", "fact", "kept", "desk", "wasp", "fast"],
+        "heartWords": ["the", "and", "his", "on", "for"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "the fast cat slep on the soft nest and did not get lost",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "slep", "r": "slept", "e": "Slept ends with the -pt blend — s-l-e-p-t."},
+          {"t": "grammar", "w": "did not get", "r": "was not", "e": "Use 'was not' for a simpler sentence."},
+          {"t": "spelling", "w": "fast", "r": "fast", "e": "Fast is spelled correctly with the -st blend — nice!"},
+          {"t": "punctuation", "w": "lost", "r": "lost.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The fast cat slept on the soft nest and was not lost.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "fast", "t": "ADJ", "q": "Find the adjective that means quick."},
+          {"w": "cat", "t": "N", "q": "Find the noun for a pet animal."},
+          {"w": "slept", "t": "V", "q": "Find the verb that means rested."},
+          {"w": "on", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'soft.'"},
+          {"w": "soft", "t": "ADJ", "q": "Find the adjective that means not hard."},
+          {"w": "nest", "t": "N", "q": "Find the noun for where a bird sleeps."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction joining two parts."},
+          {"w": "was", "t": "V", "q": "Find the verb that shows a state."},
+          {"w": "not", "t": "ADV", "q": "Find the adverb that means the opposite."},
+          {"w": "lost", "t": "ADJ", "q": "Find the adjective that means cannot find the way."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'nest' with a different -st word.",
+          "word": "nest",
+          "examples": [
+            "The fast cat slept on the soft <span class='changed'>vest</span> and was not lost.",
+            "The fast cat slept on the soft <span class='changed'>dust</span> and was not lost."
+          ]
+        },
+        "vocab": {
+          "w": "nest",
+          "type": "noun",
+          "def": "A structure built by a bird to lay eggs and shelter its young.",
+          "simple": "A nest is a cozy home a bird builds from sticks and grass!",
+          "examples": ["a bird nest", "a big nest", "a nest in the tree"],
+          "similar": ["den", "burrow", "home"],
+          "antonyms": [],
+          "nonex": ["It does NOT mean a cage.", "It does NOT mean a box."],
+          "example": "The robin made a nest in the old oak tree.",
+          "starter": "If I could build a nest, I would put it in _______ ...",
+          "why": "Nest ends with the -st blend and is a nature word kids love!"
+        },
+        "ufliLesson": 53,
+        "ufliSkill": "Final blends with s/t (-ft, -ct, -pt, -sk, -sp, -st)",
+        "ufliSection": "Blends & Review",
+        "phonicsWords": ["left", "fact", "kept", "desk", "wasp", "fast"],
+        "heartWords": ["the", "on", "and", "not"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 54,
+    "sentences": [
+      {
+        "orig": "the string on the drum brok when she strumed it",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "brok", "r": "broke", "e": "Broke has a silent 'e' at the end — b-r-o-k-e."},
+          {"t": "grammar", "w": "strumed", "r": "strummed", "e": "Strummed needs a double 'm' before -ed."},
+          {"t": "spelling", "w": "string", "r": "string", "e": "String is spelled correctly with the str- blend — great!"},
+          {"t": "punctuation", "w": "it", "r": "it.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The string on the drum broke when she strummed it.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "string", "t": "N", "q": "Find the noun for a thin cord."},
+          {"w": "on", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'drum.'"},
+          {"w": "drum", "t": "N", "q": "Find the noun for a musical instrument."},
+          {"w": "broke", "t": "V", "q": "Find the verb that means snapped."},
+          {"w": "when", "t": "CONJ", "q": "Find the word that tells the time."},
+          {"w": "she", "t": "PRO", "q": "Find the pronoun that means a girl."},
+          {"w": "strummed", "t": "V", "q": "Find the verb that means played."},
+          {"w": "it", "t": "PRO", "q": "Find the pronoun that means the drum."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'string' with a different str- word.",
+          "word": "string",
+          "examples": [
+            "The <span class='changed'>strap</span> on the drum broke when she strummed it.",
+            "The <span class='changed'>strip</span> on the drum broke when she strummed it."
+          ]
+        },
+        "vocab": {
+          "w": "string",
+          "type": "noun",
+          "def": "A thin piece of cord or thread used for tying things.",
+          "simple": "A string is a long, thin piece you can use to tie or pull things!",
+          "examples": ["a ball of string", "a long string", "a string on a kite"],
+          "similar": ["cord", "rope", "thread"],
+          "antonyms": [],
+          "nonex": ["It does NOT mean a stick.", "It does NOT mean a wire."],
+          "example": "He tied the box shut with a long string.",
+          "starter": "I could use a string to _______ ...",
+          "why": "String starts with the str- blend and is something you use every day!"
+        },
+        "ufliLesson": 54,
+        "ufliSkill": "Three-letter blends (str, spr, scr)",
+        "ufliSection": "Blends & Review",
+        "phonicsWords": ["string", "strong", "spring", "spray", "scrub", "scrap"],
+        "heartWords": ["the", "on", "when", "she", "it"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "he skrubed the spring pond and sprayd it with strong fresh watter",
+        "corr": [
+          {"t": "capitalization", "w": "he", "r": "He", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "skrubed", "r": "scrubbed", "e": "Scrubbed starts with scr- and needs a double 'b' before -ed."},
+          {"t": "grammar", "w": "sprayd", "r": "sprayed", "e": "Sprayed is spelled s-p-r-a-y-e-d with the spr- blend."},
+          {"t": "spelling", "w": "watter", "r": "water", "e": "Water has only one 't' — w-a-t-e-r."},
+          {"t": "punctuation", "w": "watter", "r": "water.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "He scrubbed the spring pond and sprayed it with strong fresh water.",
+        "pos": [
+          {"w": "He", "t": "PRO", "q": "Find the pronoun that means a boy."},
+          {"w": "scrubbed", "t": "V", "q": "Find the verb that means cleaned hard."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'spring.'"},
+          {"w": "spring", "t": "N", "q": "Find the noun for a water source in the ground."},
+          {"w": "pond", "t": "N", "q": "Find the noun for a small body of water."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction joining two actions."},
+          {"w": "sprayed", "t": "V", "q": "Find the verb that means squirted."},
+          {"w": "it", "t": "PRO", "q": "Find the pronoun that means the pond."},
+          {"w": "with", "t": "PREP", "q": "Find the preposition that tells how."},
+          {"w": "strong", "t": "ADJ", "q": "Find the adjective that means powerful."},
+          {"w": "fresh", "t": "ADJ", "q": "Find the adjective that means clean and new."},
+          {"w": "water", "t": "N", "q": "Find the noun for what you drink."}
+        ],
+        "manip": {
+          "task": "Replace the verb 'scrubbed' with a different scr- word.",
+          "word": "scrubbed",
+          "examples": [
+            "He <span class='changed'>scraped</span> the spring pond and sprayed it with strong fresh water.",
+            "He <span class='changed'>scratched</span> the spring pond and sprayed it with strong fresh water."
+          ]
+        },
+        "vocab": {
+          "w": "scrub",
+          "type": "verb",
+          "def": "To rub something hard in order to clean it.",
+          "simple": "Scrub means to rub really hard to get something clean!",
+          "examples": ["scrub the pot", "scrub your hands", "scrub the tub"],
+          "similar": ["clean", "wash", "scour"],
+          "antonyms": ["dirty", "soil"],
+          "nonex": ["It does NOT mean to rinse gently.", "It does NOT mean to wipe softly."],
+          "example": "She had to scrub the pan to get it clean.",
+          "starter": "I like to scrub _______ until it is shiny.",
+          "why": "Scrub starts with the scr- blend and is an action word you do every day!"
+        },
+        "ufliLesson": 54,
+        "ufliSkill": "Three-letter blends (str, spr, scr)",
+        "ufliSection": "Blends & Review",
+        "phonicsWords": ["string", "strong", "spring", "spray", "scrub", "scrap"],
+        "heartWords": ["he", "the", "and", "it", "with"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 55,
+    "sentences": [
+      {
+        "orig": "she split the log and thru it on the big brush pile",
+        "corr": [
+          {"t": "capitalization", "w": "she", "r": "She", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "thru", "r": "threw", "e": "Threw is the past tense of throw — t-h-r-e-w."},
+          {"t": "grammar", "w": "split", "r": "split", "e": "Split is correct for past tense — it stays the same! Good job!"},
+          {"t": "spelling", "w": "brush", "r": "brush", "e": "Brush is spelled correctly — nice work!"},
+          {"t": "punctuation", "w": "pile", "r": "pile.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "She split the log and threw it on the big brush pile.",
+        "pos": [
+          {"w": "She", "t": "PRO", "q": "Find the pronoun that means a girl."},
+          {"w": "split", "t": "V", "q": "Find the verb that means broke apart."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'log.'"},
+          {"w": "log", "t": "N", "q": "Find the noun for a big piece of wood."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction joining two actions."},
+          {"w": "threw", "t": "V", "q": "Find the verb that means tossed."},
+          {"w": "it", "t": "PRO", "q": "Find the pronoun that means the log."},
+          {"w": "on", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'big.'"},
+          {"w": "big", "t": "ADJ", "q": "Find the adjective that describes the pile."},
+          {"w": "brush", "t": "N", "q": "Find the noun for branches and twigs."},
+          {"w": "pile", "t": "N", "q": "Find the noun for a heap of things."}
+        ],
+        "manip": {
+          "task": "Replace the verb 'split' with a different spl- word.",
+          "word": "split",
+          "examples": [
+            "She <span class='changed'>splashed</span> the log and threw it on the big brush pile.",
+            "She <span class='changed'>spliced</span> the log and threw it on the big brush pile."
+          ]
+        },
+        "vocab": {
+          "w": "split",
+          "type": "verb",
+          "def": "To break or cause to break apart into pieces.",
+          "simple": "Split means to break something into two or more parts!",
+          "examples": ["split the log", "split a banana", "split into groups"],
+          "similar": ["break", "crack", "divide"],
+          "antonyms": ["join", "combine"],
+          "nonex": ["It does NOT mean to cut with scissors.", "It does NOT mean to smash."],
+          "example": "Dad used an axe to split the big log in half.",
+          "starter": "I had to split _______ into two pieces.",
+          "why": "Split starts with the spl- blend and is a strong action word!"
+        },
+        "ufliLesson": 55,
+        "ufliSkill": "Three-letter blends (spl, squ, thr, shr)",
+        "ufliSection": "Blends & Review",
+        "phonicsWords": ["split", "splash", "squish", "squid", "throw", "shrub"],
+        "heartWords": ["she", "the", "and", "it", "on"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "the squid swam threw the shrubs and made a big splach in the pond",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "splach", "r": "splash", "e": "Splash has 'sh' at the end, not 'ch' — s-p-l-a-s-h."},
+          {"t": "grammar", "w": "threw", "r": "through", "e": "Use 'through' to mean going from one side to the other — threw means tossed."},
+          {"t": "spelling", "w": "squid", "r": "squid", "e": "Squid is spelled correctly with the squ- blend — great!"},
+          {"t": "punctuation", "w": "pond", "r": "pond.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The squid swam through the shrubs and made a big splash in the pond.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "squid", "t": "N", "q": "Find the noun for a sea animal with tentacles."},
+          {"w": "swam", "t": "V", "q": "Find the verb that means moved in water."},
+          {"w": "through", "t": "PREP", "q": "Find the preposition meaning from one side to the other."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'shrubs.'"},
+          {"w": "shrubs", "t": "N", "q": "Find the noun for small bushes."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction joining two parts."},
+          {"w": "made", "t": "V", "q": "Find the verb that means created."},
+          {"w": "a", "t": "ART", "q": "Find the article before 'big.'"},
+          {"w": "big", "t": "ADJ", "q": "Find the adjective that describes the splash."},
+          {"w": "splash", "t": "N", "q": "Find the noun for a water sound."},
+          {"w": "in", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'pond.'"},
+          {"w": "pond", "t": "N", "q": "Find the noun for a small body of water."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'squid' with a different squ- word.",
+          "word": "squid",
+          "examples": [
+            "The <span class='changed'>squirrel</span> swam through the shrubs and made a big splash in the pond.",
+            "The <span class='changed'>squab</span> swam through the shrubs and made a big splash in the pond."
+          ]
+        },
+        "vocab": {
+          "w": "shrub",
+          "type": "noun",
+          "def": "A woody plant that is smaller than a tree, with several stems growing from the base.",
+          "simple": "A shrub is a short, bushy plant that grows in gardens and parks!",
+          "examples": ["a green shrub", "a big shrub", "a shrub by the path"],
+          "similar": ["bush", "hedge"],
+          "antonyms": ["tree"],
+          "nonex": ["It does NOT mean a flower.", "It does NOT mean grass."],
+          "example": "The rabbit hid behind the shrub in the garden.",
+          "starter": "Near my house, there is a shrub that _______ ...",
+          "why": "Shrub starts with the shr- blend and is a nature word you can see outside!"
+        },
+        "ufliLesson": 55,
+        "ufliSkill": "Three-letter blends (spl, squ, thr, shr)",
+        "ufliSection": "Blends & Review",
+        "phonicsWords": ["split", "splash", "squish", "squid", "throw", "shrub"],
+        "heartWords": ["the", "and", "a", "in"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 56,
+    "sentences": [
+      {
+        "orig": "the strong man grabd the strap and pulld the big sled up the hill",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "grabd", "r": "grabbed", "e": "Grabbed needs a double 'b' before -ed — g-r-a-b-b-e-d."},
+          {"t": "grammar", "w": "pulld", "r": "pulled", "e": "Pulled is spelled p-u-l-l-e-d with -ed at the end."},
+          {"t": "spelling", "w": "strap", "r": "strap", "e": "Strap is spelled correctly with the str- blend — good job!"},
+          {"t": "punctuation", "w": "hill", "r": "hill.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The strong man grabbed the strap and pulled the big sled up the hill.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "strong", "t": "ADJ", "q": "Find the adjective meaning powerful."},
+          {"w": "man", "t": "N", "q": "Find the noun for an adult male."},
+          {"w": "grabbed", "t": "V", "q": "Find the verb that means took hold of."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'strap.'"},
+          {"w": "strap", "t": "N", "q": "Find the noun for a strip of material."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction joining two actions."},
+          {"w": "pulled", "t": "V", "q": "Find the verb that means tugged."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'big.'"},
+          {"w": "big", "t": "ADJ", "q": "Find the adjective that describes the sled."},
+          {"w": "sled", "t": "N", "q": "Find the noun for something you ride on snow."},
+          {"w": "up", "t": "PREP", "q": "Find the preposition that tells direction."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'hill.'"},
+          {"w": "hill", "t": "N", "q": "Find the noun for a raised mound."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'sled' with a different blend word.",
+          "word": "sled",
+          "examples": [
+            "The strong man grabbed the strap and pulled the big <span class='changed'>crate</span> up the hill.",
+            "The strong man grabbed the strap and pulled the big <span class='changed'>trunk</span> up the hill."
+          ]
+        },
+        "vocab": {
+          "w": "strong",
+          "type": "adjective",
+          "def": "Having the power to move heavy weights or perform physically demanding tasks.",
+          "simple": "Strong means having lots of power, like when you can lift something heavy!",
+          "examples": ["a strong man", "a strong grip", "a strong wind"],
+          "similar": ["powerful", "mighty", "tough"],
+          "antonyms": ["weak", "feeble"],
+          "nonex": ["It does NOT mean big.", "It does NOT mean tall."],
+          "example": "The strong wind blew the hat off his head.",
+          "starter": "I feel strong when I _______ ...",
+          "why": "Strong starts with the str- blend and is a word that reviews many blend skills!"
+        },
+        "ufliLesson": 56,
+        "ufliSkill": "Blend Review & Assessment",
+        "ufliSection": "Blends & Review",
+        "phonicsWords": ["blend", "crisp", "strong", "splash", "shrub", "squid"],
+        "heartWords": ["the", "and", "up"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "the swift squid split from the grop and swam past the crisp green plants",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "grop", "r": "group", "e": "Group is spelled g-r-o-u-p — it has 'ou' in the middle."},
+          {"t": "grammar", "w": "split", "r": "broke", "e": "Use 'broke' to mean separated from the group."},
+          {"t": "spelling", "w": "crisp", "r": "crisp", "e": "Crisp is spelled correctly with the -sp blend — well done!"},
+          {"t": "punctuation", "w": "plants", "r": "plants.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The swift squid broke from the group and swam past the crisp green plants.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "swift", "t": "ADJ", "q": "Find the adjective meaning fast."},
+          {"w": "squid", "t": "N", "q": "Find the noun for a sea creature."},
+          {"w": "broke", "t": "V", "q": "Find the verb that means separated."},
+          {"w": "from", "t": "PREP", "q": "Find the preposition meaning away from."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'group.'"},
+          {"w": "group", "t": "N", "q": "Find the noun for a collection of things."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction joining two actions."},
+          {"w": "swam", "t": "V", "q": "Find the verb for moving in water."},
+          {"w": "past", "t": "PREP", "q": "Find the preposition meaning beyond."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'crisp.'"},
+          {"w": "crisp", "t": "ADJ", "q": "Find the adjective meaning firm and fresh."},
+          {"w": "green", "t": "ADJ", "q": "Find the adjective for a color."},
+          {"w": "plants", "t": "N", "q": "Find the noun for living things that grow."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'squid' with a different blend-word animal.",
+          "word": "squid",
+          "examples": [
+            "The swift <span class='changed'>crab</span> broke from the group and swam past the crisp green plants.",
+            "The swift <span class='changed'>shrimp</span> broke from the group and swam past the crisp green plants."
+          ]
+        },
+        "vocab": {
+          "w": "crisp",
+          "type": "adjective",
+          "def": "Firm, dry, and crunchy; pleasantly hard.",
+          "simple": "Crisp means something is crunchy and fresh, like a fresh apple!",
+          "examples": ["a crisp apple", "crisp leaves", "a crisp morning"],
+          "similar": ["crunchy", "fresh", "firm"],
+          "antonyms": ["soft", "soggy", "wilted"],
+          "nonex": ["It does NOT mean wet.", "It does NOT mean old."],
+          "example": "The crisp fall leaves crunched under her feet.",
+          "starter": "Something that feels crisp is _______ ...",
+          "why": "Crisp ends with the -sp blend and reviews final blend skills!"
+        },
+        "ufliLesson": 56,
+        "ufliSkill": "Blend Review & Assessment",
+        "ufliSection": "Blends & Review",
+        "phonicsWords": ["blend", "crisp", "strong", "splash", "shrub", "squid"],
+        "heartWords": ["the", "and", "from"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 57,
+    "sentences": [
+      {
+        "orig": "she baked a big cak for the class and it was grate",
+        "corr": [
+          {"t": "capitalization", "w": "she", "r": "She", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "cak", "r": "cake", "e": "Cake has a silent 'e' at the end — the a_e pattern makes the 'a' say its name."},
+          {"t": "grammar", "w": "was", "r": "tasted", "e": "Use 'tasted' to describe how the cake was."},
+          {"t": "spelling", "w": "grate", "r": "great", "e": "Great is spelled g-r-e-a-t, not like a cheese grater!"},
+          {"t": "punctuation", "w": "grate", "r": "great.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "She baked a big cake for the class and it tasted great.",
+        "pos": [
+          {"w": "She", "t": "PRO", "q": "Find the pronoun that means a girl."},
+          {"w": "baked", "t": "V", "q": "Find the verb that means cooked in an oven."},
+          {"w": "a", "t": "ART", "q": "Find the article before 'big.'"},
+          {"w": "big", "t": "ADJ", "q": "Find the adjective that describes the cake."},
+          {"w": "cake", "t": "N", "q": "Find the noun for a sweet treat."},
+          {"w": "for", "t": "PREP", "q": "Find the preposition that tells who it is for."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'class.'"},
+          {"w": "class", "t": "N", "q": "Find the noun for a group of students."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction joining two parts."},
+          {"w": "it", "t": "PRO", "q": "Find the pronoun that means the cake."},
+          {"w": "tasted", "t": "V", "q": "Find the verb about flavor."},
+          {"w": "great", "t": "ADJ", "q": "Find the adjective meaning very good."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'cake' with a different a_e word.",
+          "word": "cake",
+          "examples": [
+            "She baked a big <span class='changed'>plate</span> for the class and it tasted great.",
+            "She baked a big <span class='changed'>shape</span> for the class and it tasted great."
+          ]
+        },
+        "vocab": {
+          "w": "bake",
+          "type": "verb",
+          "def": "To cook food in an oven using dry heat.",
+          "simple": "Bake means to cook something in an oven, like cookies or bread!",
+          "examples": ["bake a cake", "bake some bread", "bake at home"],
+          "similar": ["cook", "roast"],
+          "antonyms": ["freeze"],
+          "nonex": ["It does NOT mean to fry.", "It does NOT mean to boil."],
+          "example": "We like to bake cookies on rainy days.",
+          "starter": "I would love to bake _______ for my family.",
+          "why": "Bake uses the a_e pattern where the silent 'e' makes the 'a' say its name!"
+        },
+        "ufliLesson": 57,
+        "ufliSkill": "VCe with a (a_e as in cake, make, lake)",
+        "ufliSection": "VCe / Silent E",
+        "phonicsWords": ["cake", "make", "lake", "bake", "name", "game"],
+        "heartWords": ["she", "a", "the", "for", "and", "it"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "jake came to the lake and made a game with a rake and a pail",
+        "corr": [
+          {"t": "capitalization", "w": "jake", "r": "Jake", "e": "A person's name must be capitalized."},
+          {"t": "spelling", "w": "came", "r": "came", "e": "Came is spelled correctly with the a_e pattern — nice!"},
+          {"t": "grammar", "w": "made", "r": "played", "e": "Use 'played' because a game is something you play."},
+          {"t": "spelling", "w": "lake", "r": "lake", "e": "Lake is spelled correctly with the a_e pattern — well done!"},
+          {"t": "punctuation", "w": "pail", "r": "pail.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "Jake came to the lake and played a game with a rake and a pail.",
+        "pos": [
+          {"w": "Jake", "t": "N", "q": "Find the proper noun that names a person."},
+          {"w": "came", "t": "V", "q": "Find the verb that means arrived."},
+          {"w": "to", "t": "PREP", "q": "Find the preposition that tells direction."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'lake.'"},
+          {"w": "lake", "t": "N", "q": "Find the noun for a large body of water."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction joining two actions."},
+          {"w": "played", "t": "V", "q": "Find the verb that means had fun with."},
+          {"w": "a", "t": "ART", "q": "Find the article before 'game.'"},
+          {"w": "game", "t": "N", "q": "Find the noun for a fun activity."},
+          {"w": "with", "t": "PREP", "q": "Find the preposition that tells what he used."},
+          {"w": "a", "t": "ART", "q": "Find the article before 'rake.'"},
+          {"w": "rake", "t": "N", "q": "Find the noun for a garden tool."},
+          {"w": "and", "t": "CONJ", "q": "Find the second conjunction."},
+          {"w": "a", "t": "ART", "q": "Find the article before 'pail.'"},
+          {"w": "pail", "t": "N", "q": "Find the noun for a bucket."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'lake' with a different a_e word.",
+          "word": "lake",
+          "examples": [
+            "Jake came to the <span class='changed'>gate</span> and played a game with a rake and a pail.",
+            "Jake came to the <span class='changed'>cave</span> and played a game with a rake and a pail."
+          ]
+        },
+        "vocab": {
+          "w": "lake",
+          "type": "noun",
+          "def": "A large area of water surrounded by land.",
+          "simple": "A lake is a big body of water you can swim in or fish at!",
+          "examples": ["a big lake", "a lake in the park", "swim in the lake"],
+          "similar": ["pond", "reservoir"],
+          "antonyms": ["desert"],
+          "nonex": ["It does NOT mean an ocean.", "It does NOT mean a river."],
+          "example": "We went fishing at the lake last summer.",
+          "starter": "At the lake, I like to _______ ...",
+          "why": "Lake uses the a_e pattern and is a fun place to visit!"
+        },
+        "ufliLesson": 57,
+        "ufliSkill": "VCe with a (a_e as in cake, make, lake)",
+        "ufliSection": "VCe / Silent E",
+        "phonicsWords": ["cake", "make", "lake", "bake", "name", "game"],
+        "heartWords": ["to", "the", "and", "a", "with"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 58,
+    "sentences": [
+      {
+        "orig": "he rode his bik a long tim to get to the big hive",
+        "corr": [
+          {"t": "capitalization", "w": "he", "r": "He", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "bik", "r": "bike", "e": "Bike has a silent 'e' at the end — the i_e pattern makes the 'i' say its name."},
+          {"t": "grammar", "w": "rode", "r": "rode", "e": "Rode is the correct past tense of ride — great job!"},
+          {"t": "spelling", "w": "tim", "r": "time", "e": "Time has a silent 'e' — the i_e pattern makes the 'i' long."},
+          {"t": "punctuation", "w": "hive", "r": "hive.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "He rode his bike a long time to get to the big hive.",
+        "pos": [
+          {"w": "He", "t": "PRO", "q": "Find the pronoun that means a boy."},
+          {"w": "rode", "t": "V", "q": "Find the verb that means traveled on."},
+          {"w": "his", "t": "POSS", "q": "Find the possessive word meaning belonging to him."},
+          {"w": "bike", "t": "N", "q": "Find the noun for something with two wheels."},
+          {"w": "a", "t": "ART", "q": "Find the article before 'long.'"},
+          {"w": "long", "t": "ADJ", "q": "Find the adjective that describes the time."},
+          {"w": "time", "t": "N", "q": "Find the noun for how long something takes."},
+          {"w": "to", "t": "PREP", "q": "Find the preposition that tells purpose."},
+          {"w": "get", "t": "V", "q": "Find the verb that means arrive."},
+          {"w": "to", "t": "PREP", "q": "Find the preposition before 'the.'"},
+          {"w": "the", "t": "ART", "q": "Find the article before 'big.'"},
+          {"w": "big", "t": "ADJ", "q": "Find the adjective that describes the hive."},
+          {"w": "hive", "t": "N", "q": "Find the noun for where bees live."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'bike' with a different i_e word.",
+          "word": "bike",
+          "examples": [
+            "He rode his <span class='changed'>kite</span> a long time to get to the big hive.",
+            "He rode his <span class='changed'>ride</span> a long time to get to the big hive."
+          ]
+        },
+        "vocab": {
+          "w": "hive",
+          "type": "noun",
+          "def": "A structure where bees live and make honey.",
+          "simple": "A hive is the home of bees where they make their honey!",
+          "examples": ["a bee hive", "a big hive", "a hive in the tree"],
+          "similar": ["nest", "colony"],
+          "antonyms": [],
+          "nonex": ["It does NOT mean a cage.", "It does NOT mean a web."],
+          "example": "The bees buzzed around the hive in the garden.",
+          "starter": "If I found a hive, I would _______ ...",
+          "why": "Hive uses the i_e pattern where the silent 'e' makes the 'i' say its name!"
+        },
+        "ufliLesson": 58,
+        "ufliSkill": "VCe with i (i_e as in bike, time, like)",
+        "ufliSection": "VCe / Silent E",
+        "phonicsWords": ["bike", "time", "like", "hive", "ride", "kite"],
+        "heartWords": ["he", "his", "a", "to", "the"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "i like to hid and ride my bike by the pine tree at nite",
+        "corr": [
+          {"t": "capitalization", "w": "i", "r": "I", "e": "The pronoun 'I' is always capitalized."},
+          {"t": "spelling", "w": "hid", "r": "hide", "e": "Hide has a silent 'e' at the end — the i_e pattern makes the 'i' long."},
+          {"t": "grammar", "w": "like to", "r": "liked to", "e": "Use 'liked' to tell about the past."},
+          {"t": "spelling", "w": "nite", "r": "night", "e": "Night is spelled n-i-g-h-t — it is a tricky word!"},
+          {"t": "punctuation", "w": "nite", "r": "night.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "I liked to hide and ride my bike by the pine tree at night.",
+        "pos": [
+          {"w": "I", "t": "PRO", "q": "Find the pronoun that means the speaker."},
+          {"w": "liked", "t": "V", "q": "Find the verb that tells what I enjoyed."},
+          {"w": "to", "t": "PREP", "q": "Find the preposition before 'hide.'"},
+          {"w": "hide", "t": "V", "q": "Find the verb meaning to stay out of sight."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction joining two actions."},
+          {"w": "ride", "t": "V", "q": "Find the verb for traveling on a bike."},
+          {"w": "my", "t": "POSS", "q": "Find the possessive word meaning belonging to me."},
+          {"w": "bike", "t": "N", "q": "Find the noun for something with two wheels."},
+          {"w": "by", "t": "PREP", "q": "Find the preposition meaning near."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'pine.'"},
+          {"w": "pine", "t": "ADJ", "q": "Find the word that describes the kind of tree."},
+          {"w": "tree", "t": "N", "q": "Find the noun for a tall plant."},
+          {"w": "at", "t": "PREP", "q": "Find the preposition that tells when."},
+          {"w": "night", "t": "N", "q": "Find the noun for when it is dark outside."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'bike' with a different i_e word.",
+          "word": "bike",
+          "examples": [
+            "I liked to hide and ride my <span class='changed'>kite</span> by the pine tree at night.",
+            "I liked to hide and ride my <span class='changed'>trike</span> by the pine tree at night."
+          ]
+        },
+        "vocab": {
+          "w": "pine",
+          "type": "noun",
+          "def": "An evergreen tree with long, thin leaves called needles.",
+          "simple": "A pine is a tall green tree that stays green all year!",
+          "examples": ["a pine tree", "a big pine", "pine needles"],
+          "similar": ["fir", "spruce", "evergreen"],
+          "antonyms": [],
+          "nonex": ["It does NOT mean a flower.", "It does NOT mean a vine."],
+          "example": "The tall pine tree had lots of pinecones on the ground.",
+          "starter": "Under the pine tree, I found _______ ...",
+          "why": "Pine uses the i_e pattern and is a nature word you can see outside!"
+        },
+        "ufliLesson": 58,
+        "ufliSkill": "VCe with i (i_e as in bike, time, like)",
+        "ufliSection": "VCe / Silent E",
+        "phonicsWords": ["bike", "time", "like", "hive", "ride", "kite"],
+        "heartWords": ["I", "to", "and", "my", "the", "by", "at"],
+        "sentenceType": "application"
+      }
+    ]
+  },
+  {
+    "day": 59,
+    "sentences": [
+      {
+        "orig": "the dog ran hom and hid his bon under the stone",
+        "corr": [
+          {"t": "capitalization", "w": "the", "r": "The", "e": "The first word of a sentence must be capitalized."},
+          {"t": "spelling", "w": "hom", "r": "home", "e": "Home has a silent 'e' at the end — the o_e pattern makes the 'o' say its name."},
+          {"t": "grammar", "w": "hid", "r": "hid", "e": "Hid is the correct past tense of hide — good job!"},
+          {"t": "spelling", "w": "bon", "r": "bone", "e": "Bone has a silent 'e' — the o_e pattern makes the 'o' long."},
+          {"t": "punctuation", "w": "stone", "r": "stone.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "The dog ran home and hid his bone under the stone.",
+        "pos": [
+          {"w": "The", "t": "ART", "q": "Find the article at the beginning."},
+          {"w": "dog", "t": "N", "q": "Find the noun for a pet animal."},
+          {"w": "ran", "t": "V", "q": "Find the verb that means moved fast."},
+          {"w": "home", "t": "N", "q": "Find the noun for where you live."},
+          {"w": "and", "t": "CONJ", "q": "Find the conjunction joining two actions."},
+          {"w": "hid", "t": "V", "q": "Find the verb that means put out of sight."},
+          {"w": "his", "t": "POSS", "q": "Find the possessive word meaning belonging to the dog."},
+          {"w": "bone", "t": "N", "q": "Find the noun for what dogs chew on."},
+          {"w": "under", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'stone.'"},
+          {"w": "stone", "t": "N", "q": "Find the noun for a small rock."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'bone' with a different o_e word.",
+          "word": "bone",
+          "examples": [
+            "The dog ran home and hid his <span class='changed'>cone</span> under the stone.",
+            "The dog ran home and hid his <span class='changed'>rope</span> under the stone."
+          ]
+        },
+        "vocab": {
+          "w": "home",
+          "type": "noun",
+          "def": "The place where a person or animal lives.",
+          "simple": "Home is the special place where you live with your family!",
+          "examples": ["go home", "a new home", "home sweet home"],
+          "similar": ["house", "dwelling"],
+          "antonyms": [],
+          "nonex": ["It does NOT mean a school.", "It does NOT mean a store."],
+          "example": "After school, I walk home with my friends.",
+          "starter": "My favorite thing about home is _______ ...",
+          "why": "Home uses the o_e pattern where the silent 'e' makes the 'o' say its name!"
+        },
+        "ufliLesson": 59,
+        "ufliSkill": "VCe with o (o_e as in home, bone, hope)",
+        "ufliSection": "VCe / Silent E",
+        "phonicsWords": ["home", "bone", "hope", "stone", "rope", "cone"],
+        "heartWords": ["the", "and", "his", "under"],
+        "sentenceType": "intro"
+      },
+      {
+        "orig": "i hop the mole digs a hole by the stove so he can stay warm at hom",
+        "corr": [
+          {"t": "capitalization", "w": "i", "r": "I", "e": "The pronoun 'I' is always capitalized."},
+          {"t": "spelling", "w": "hop", "r": "hope", "e": "Hope has a silent 'e' — the o_e pattern makes the 'o' say its name."},
+          {"t": "grammar", "w": "digs", "r": "will dig", "e": "Use 'will dig' to tell about the future."},
+          {"t": "spelling", "w": "hom", "r": "home", "e": "Home has a silent 'e' at the end — h-o-m-e."},
+          {"t": "punctuation", "w": "hom", "r": "home.", "e": "A statement must end with a period."}
+        ],
+        "fixed": "I hope the mole will dig a hole by the stove so he can stay warm at home.",
+        "pos": [
+          {"w": "I", "t": "PRO", "q": "Find the pronoun that means the speaker."},
+          {"w": "hope", "t": "V", "q": "Find the verb that means wish for."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'mole.'"},
+          {"w": "mole", "t": "N", "q": "Find the noun for a small animal that digs."},
+          {"w": "will", "t": "V", "q": "Find the helping verb that shows the future."},
+          {"w": "dig", "t": "V", "q": "Find the verb that means to make a hole."},
+          {"w": "a", "t": "ART", "q": "Find the article before 'hole.'"},
+          {"w": "hole", "t": "N", "q": "Find the noun for an opening in the ground."},
+          {"w": "by", "t": "PREP", "q": "Find the preposition meaning near."},
+          {"w": "the", "t": "ART", "q": "Find the article before 'stove.'"},
+          {"w": "stove", "t": "N", "q": "Find the noun for something you cook on."},
+          {"w": "so", "t": "CONJ", "q": "Find the conjunction that tells the reason."},
+          {"w": "he", "t": "PRO", "q": "Find the pronoun that means the mole."},
+          {"w": "can", "t": "V", "q": "Find the helping verb meaning is able to."},
+          {"w": "stay", "t": "V", "q": "Find the verb that means remain."},
+          {"w": "warm", "t": "ADJ", "q": "Find the adjective that describes the temperature."},
+          {"w": "at", "t": "PREP", "q": "Find the preposition that tells where."},
+          {"w": "home", "t": "N", "q": "Find the noun for where you live."}
+        ],
+        "manip": {
+          "task": "Replace the noun 'mole' with a different o_e word animal or thing.",
+          "word": "mole",
+          "examples": [
+            "I hope the <span class='changed'>dove</span> will dig a hole by the stove so he can stay warm at home.",
+            "I hope the <span class='changed'>vole</span> will dig a hole by the stove so he can stay warm at home."
+          ]
+        },
+        "vocab": {
+          "w": "hope",
+          "type": "verb",
+          "def": "To want something to happen and think that it is possible.",
+          "simple": "Hope means you really want something good to happen!",
+          "examples": ["I hope so", "hope for the best", "hope it works"],
+          "similar": ["wish", "dream", "want"],
+          "antonyms": ["despair", "doubt"],
+          "nonex": ["It does NOT mean to know for sure.", "It does NOT mean to give up."],
+          "example": "I hope we can go to the park today.",
+          "starter": "I hope that one day I will _______ ...",
+          "why": "Hope uses the o_e pattern and is a positive word about the future!"
+        },
+        "ufliLesson": 59,
+        "ufliSkill": "VCe with o (o_e as in home, bone, hope)",
+        "ufliSection": "VCe / Silent E",
+        "phonicsWords": ["home", "bone", "hope", "stone", "rope", "cone"],
+        "heartWords": ["I", "the", "a", "by", "so", "he", "can", "at"],
+        "sentenceType": "application"
+      }
+    ]
+  }
+]
